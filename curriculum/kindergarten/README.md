@@ -15,6 +15,8 @@ The kindergarten layer is starting with a literacy-first pilot package so the re
 ## Current Packages
 
 - `pilots/read-aloud-print-concepts/`
+- `pilots/phonological-awareness-rhyme/`
+- `pilots/letter-recognition-alphabet-knowledge/`
 
 ## Status
 
