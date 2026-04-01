@@ -55,6 +55,11 @@
 - decision:
 - required revisions:
 
+### `informative-writing-from-shared-text`
+
+- decision:
+- required revisions:
+
 ## Recommendation Before Expanding Grade 1 Further
 
 - next package should be:

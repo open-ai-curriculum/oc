@@ -18,6 +18,7 @@ Use this matrix to review each Grade 1 package against the same dimensions.
 | `informational-reading-and-questions` | | | | | | | | |
 | `phonics-decoding-and-fluency` | | | | | | | | |
 | `opinion-writing-with-reasons` | | | | | | | | |
+| `informative-writing-from-shared-text` | | | | | | | | |
 
 ## Reviewer Prompts By Dimension
 

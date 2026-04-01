@@ -20,6 +20,7 @@ The current Grade 1 draft sequence is:
 2. `informational-reading-and-questions`
 3. `phonics-decoding-and-fluency`
 4. `opinion-writing-with-reasons`
+5. `informative-writing-from-shared-text`
 
 This order is intended to move from:
 
@@ -27,6 +28,7 @@ This order is intended to move from:
 - to informational reading, question answering, and topic / detail identification
 - while building explicit foundational skills in decoding and fluent rereading that support independent reading
 - and extending into supported opinion writing with a clear statement and simple reasons
+- and then into informative writing that draws on a shared text or topic with facts and details
 
 The progression is still incomplete and should be treated as a draft working sequence rather than a final scope and sequence.
 
@@ -36,6 +38,7 @@ The progression is still incomplete and should be treated as a draft working seq
 - `pilots/informational-reading-and-questions/`
 - `pilots/phonics-decoding-and-fluency/`
 - `pilots/opinion-writing-with-reasons/`
+- `pilots/informative-writing-from-shared-text/`
 - `review/`
 
 ## Status

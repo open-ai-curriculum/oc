@@ -12,6 +12,7 @@ It is intended to help human reviewers assess the current Grade 1 set consistent
 - `pilots/informational-reading-and-questions/`
 - `pilots/phonics-decoding-and-fluency/`
 - `pilots/opinion-writing-with-reasons/`
+- `pilots/informative-writing-from-shared-text/`
 
 ## Review Packet Contents
 

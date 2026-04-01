@@ -12,6 +12,7 @@ The current draft sequence is:
 2. `informational-reading-and-questions`
 3. `phonics-decoding-and-fluency`
 4. `opinion-writing-with-reasons`
+5. `informative-writing-from-shared-text`
 
 This order is intended to move from:
 
@@ -19,6 +20,7 @@ This order is intended to move from:
 - to informational reading, question answering, and key-detail identification
 - while adding explicit foundational-skills work in decoding and fluent rereading
 - and into supported opinion writing with a clear statement and simple reasons
+- and then into informative writing that asks students to turn shared reading or topic knowledge into simple factual writing
 
 ## What Reviewers Should Evaluate Across The Set
 
@@ -27,7 +29,7 @@ This order is intended to move from:
 Reviewers should ask:
 
 - Does the current order make instructional sense for first grade?
-- Are students asked to transfer comprehension routines productively from narrative to informational text and writing?
+- Are students asked to transfer comprehension routines productively from narrative to informational text and into writing?
 - Is any package redundant with another package?
 
 ### 2. Grade-level fit
@@ -70,6 +72,7 @@ Across the set, the recurring unresolved items are:
 - Grade 1 literacy content review
 - foundational-skills review for phonics and fluency routines
 - writing-instruction review for opinion writing routines and exemplars
+- writing-instruction review for informative writing routines and factual writing models
 - classroom-usability review
 - accessibility review of prompts, scaffolds, and pacing
 - readability review for family-facing materials
