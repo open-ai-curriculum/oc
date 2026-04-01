@@ -15,6 +15,7 @@ The Grade 1 layer is beginning with a literacy-first packet so the repository ca
 ## Current Packages
 
 - `pilots/narrative-reading-key-details/`
+- `pilots/informational-reading-and-questions/`
 
 ## Status
 
