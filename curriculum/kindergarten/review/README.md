@@ -8,10 +8,7 @@ It is intended to help human reviewers assess the current kindergarten set consi
 
 ## Current Scope Covered
 
-- `pilots/read-aloud-print-concepts/`
-- `pilots/oral-language-and-story-retell/`
-- `pilots/phonological-awareness-rhyme/`
-- `pilots/letter-recognition-alphabet-knowledge/`
+This packet currently provides the strongest direct review support for the kindergarten literacy sequence, while kindergarten expands into broader subject coverage.
 
 ## Review Packet Contents
 

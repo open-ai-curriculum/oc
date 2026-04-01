@@ -13,6 +13,13 @@ The current draft sequence is:
 3. `phonics-decoding-and-fluency`
 4. `opinion-writing-with-reasons`
 5. `informative-writing-from-shared-text`
+6. `addition-subtraction-and-number-stories`
+7. `plants-needs-and-patterns`
+8. `community-maps-and-citizenship`
+9. `arts-performance-and-creation`
+10. `nutrition-safety-and-emotions`
+11. `locomotor-skills-and-cooperation`
+12. `digital-citizenship-and-algorithmic-thinking`
 
 This order is intended to move from:
 
@@ -21,6 +28,7 @@ This order is intended to move from:
 - while adding explicit foundational-skills work in decoding and fluent rereading
 - and into supported opinion writing with a clear statement and simple reasons
 - and then into informative writing that asks students to turn shared reading or topic knowledge into simple factual writing
+- while expanding into first-pass cross-subject coverage beyond literacy
 
 ## What Reviewers Should Evaluate Across The Set
 
@@ -85,3 +93,5 @@ At this stage, reviewers should expect the Grade 1 set to remain:
 - `approved with revisions`
 
 The set is not yet expected to pass as publication-ready without additional human review and likely targeted revisions.
+
+As Grade 1 expands into math, science, social studies, arts, health, physical education, and technology, this review packet should be extended into a cross-subject version.

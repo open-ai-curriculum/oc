@@ -6,12 +6,12 @@ This directory contains the kindergarten-level curriculum buildout produced unde
 
 ## Current State
 
-The kindergarten layer is currently literacy-first so the repository can validate:
+The kindergarten layer is currently expanding from literacy-first pilots into broader subject coverage so the repository can validate:
 
 - grade-level fit for early learners
 - supporting-material quality
 - review and validation workflow
-- coherence across an emerging early-literacy sequence
+- coherence across an emerging cross-subject sequence
 
 ## Current Packages
 
@@ -19,10 +19,17 @@ The kindergarten layer is currently literacy-first so the repository can validat
 - `pilots/phonological-awareness-rhyme/`
 - `pilots/letter-recognition-alphabet-knowledge/`
 - `pilots/oral-language-and-story-retell/`
+- `pilots/counting-and-cardinality/`
+- `pilots/weather-and-observation/`
+- `pilots/family-school-and-community/`
+- `pilots/creative-arts-and-expression/`
+- `pilots/healthy-habits-and-feelings/`
+- `pilots/movement-and-coordination/`
+- `pilots/digital-tools-and-sequencing/`
 
 ## Draft Progression
 
-The current kindergarten literacy buildout is intended to progress in this order:
+The current kindergarten buildout is intended to progress from foundational literacy into broad early-learning subject coverage:
 
 1. `read-aloud-print-concepts`
    - orient learners to books, print, and shared reading routines
@@ -32,14 +39,27 @@ The current kindergarten literacy buildout is intended to progress in this order
    - build oral sound awareness through rhyme, syllables, and listening routines
 4. `letter-recognition-alphabet-knowledge`
    - develop familiarity with letter names, shapes, and basic sound connections
+5. `counting-and-cardinality`
+   - build early number sense, counting, and quantity comparison
+6. `weather-and-observation`
+   - build noticing, describing, and recording simple science observations
+7. `family-school-and-community`
+   - introduce roles, routines, and community awareness
+8. `creative-arts-and-expression`
+   - support artistic, musical, and movement-based expression
+9. `healthy-habits-and-feelings`
+   - build early health, safety, and emotional-awareness routines
+10. `movement-and-coordination`
+   - develop locomotor control, balance, and safe participation
+11. `digital-tools-and-sequencing`
+   - introduce technology use and simple sequencing patterns in age-appropriate ways
 
 ## Current Gaps
 
 The kindergarten layer still does not yet provide:
 
-- a math strand
-- a cross-package review packet for human reviewers
-- a reviewed scope-and-sequence with expert validation
+- expert-reviewed non-literacy subject packets
+- a reviewed scope-and-sequence with expert validation across all subjects
 
 ## Status
 

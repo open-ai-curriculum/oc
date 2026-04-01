@@ -13,6 +13,7 @@ It is intended to help human reviewers assess the current Grade 1 set consistent
 - `pilots/phonics-decoding-and-fluency/`
 - `pilots/opinion-writing-with-reasons/`
 - `pilots/informative-writing-from-shared-text/`
+- plus expanding first-pass subject coverage in math, science, social studies, arts, health, physical education, and technology
 
 ## Review Packet Contents
 

@@ -9,6 +9,9 @@ from typing import Iterable
 METADATA_KEY_RE = re.compile(r"^- ([^:]+):\s*(.*)$")
 LIST_ITEM_RE = re.compile(r"^\s*-\s+(.*)$")
 NESTED_LIST_ITEM_RE = re.compile(r"^\s{2,}-\s+(.*)$")
+STANDARD_TOKEN_RE = re.compile(
+    r"(CCSS\.[A-Z0-9.\-]+|[0-9A-Z]+-[A-Z0-9]+(?:-[A-Z0-9]+)*)"
+)
 
 
 @dataclass
@@ -122,8 +125,9 @@ def extract_headings(lines: Iterable[str]) -> list[str]:
 def extract_standards(lines: Iterable[str]) -> list[str]:
     standards = []
     for line in lines:
-        if "CCSS." in line:
-            standards.append(line.strip().lstrip("- ").strip())
+        matches = STANDARD_TOKEN_RE.findall(line)
+        for match in matches:
+            standards.append(match)
     return standards
 
 

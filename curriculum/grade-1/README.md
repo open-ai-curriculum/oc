@@ -21,6 +21,13 @@ The current Grade 1 draft sequence is:
 3. `phonics-decoding-and-fluency`
 4. `opinion-writing-with-reasons`
 5. `informative-writing-from-shared-text`
+6. `addition-subtraction-and-number-stories`
+7. `plants-needs-and-patterns`
+8. `community-maps-and-citizenship`
+9. `arts-performance-and-creation`
+10. `nutrition-safety-and-emotions`
+11. `locomotor-skills-and-cooperation`
+12. `digital-citizenship-and-algorithmic-thinking`
 
 This order is intended to move from:
 
@@ -29,6 +36,7 @@ This order is intended to move from:
 - while building explicit foundational skills in decoding and fluent rereading that support independent reading
 - and extending into supported opinion writing with a clear statement and simple reasons
 - and then into informative writing that draws on a shared text or topic with facts and details
+- while also expanding into math, science, social studies, arts, health, physical education, and technology
 
 The progression is still incomplete and should be treated as a draft working sequence rather than a final scope and sequence.
 
@@ -39,6 +47,13 @@ The progression is still incomplete and should be treated as a draft working seq
 - `pilots/phonics-decoding-and-fluency/`
 - `pilots/opinion-writing-with-reasons/`
 - `pilots/informative-writing-from-shared-text/`
+- `pilots/addition-subtraction-and-number-stories/`
+- `pilots/plants-needs-and-patterns/`
+- `pilots/community-maps-and-citizenship/`
+- `pilots/arts-performance-and-creation/`
+- `pilots/nutrition-safety-and-emotions/`
+- `pilots/locomotor-skills-and-cooperation/`
+- `pilots/digital-citizenship-and-algorithmic-thinking/`
 - `review/`
 
 ## Status

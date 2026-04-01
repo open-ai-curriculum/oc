@@ -6,7 +6,7 @@ This document gives human reviewers a single orientation for the current kinderg
 
 ## Current Kindergarten Sequence
 
-The current draft sequence is:
+The current draft sequence began as a literacy-first buildout:
 
 1. `read-aloud-print-concepts`
 2. `oral-language-and-story-retell`
@@ -80,3 +80,5 @@ At this stage, reviewers should expect the kindergarten set to remain:
 - `approved with revisions`
 
 The set is not yet expected to pass as publication-ready without additional human review and likely targeted revisions.
+
+As kindergarten expands into math, science, social studies, arts, health, movement, and technology, this review packet should be extended into a cross-subject version.
