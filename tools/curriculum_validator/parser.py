@@ -17,6 +17,7 @@ class ArtifactSummary:
     title: str
     path: Path
     metadata: dict[str, str] = field(default_factory=dict)
+    headings: list[str] = field(default_factory=list)
     standards: list[str] = field(default_factory=list)
     source_refs: list[str] = field(default_factory=list)
     findings_context: dict[str, object] = field(default_factory=dict)
@@ -42,6 +43,7 @@ def parse_artifact(path: Path) -> ArtifactSummary:
     lines = text.splitlines()
     title = extract_title(lines) or path.stem
     metadata = extract_metadata(lines)
+    headings = extract_headings(lines)
     standards = extract_standards(lines)
     source_refs = extract_source_refs(lines)
     artifact_type = classify_artifact(path, title, metadata)
@@ -66,6 +68,7 @@ def parse_artifact(path: Path) -> ArtifactSummary:
         title=title,
         path=path,
         metadata=metadata,
+        headings=headings,
         standards=standards,
         source_refs=source_refs,
         findings_context=findings_context,
@@ -106,6 +109,14 @@ def extract_metadata(lines: list[str]) -> dict[str, str]:
             break
         metadata[key] = "; ".join(collected)
     return metadata
+
+
+def extract_headings(lines: Iterable[str]) -> list[str]:
+    headings: list[str] = []
+    for line in lines:
+        if line.startswith("## "):
+            headings.append(line[3:].strip())
+    return headings
 
 
 def extract_standards(lines: Iterable[str]) -> list[str]:
