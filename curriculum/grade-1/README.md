@@ -12,10 +12,25 @@ The Grade 1 layer is beginning with a literacy-first packet so the repository ca
 - text-dependent comprehension and retell expectations for first grade
 - support-material quality at the next grade band
 
+## Draft Literacy Progression
+
+The current Grade 1 draft sequence is:
+
+1. `narrative-reading-key-details`
+2. `informational-reading-and-questions`
+
+This order is intended to move from:
+
+- story comprehension, retell, and key details in familiar narrative structures
+- to informational reading, question answering, and topic / detail identification
+
+The progression is still incomplete and should be treated as a draft working sequence rather than a final scope and sequence.
+
 ## Current Packages
 
 - `pilots/narrative-reading-key-details/`
 - `pilots/informational-reading-and-questions/`
+- `review/`
 
 ## Status
 
