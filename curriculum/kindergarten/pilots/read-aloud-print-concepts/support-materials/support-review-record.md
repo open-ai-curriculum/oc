@@ -2,7 +2,7 @@
 
 ## Artifact Information
 
-- Artifact title: Teacher guide and learner scaffold for Read-Alouds, Book Handling, and Print Concepts
+- Artifact title: Teacher guide, observation checklist, learner scaffold, and family note for Read-Alouds, Book Handling, and Print Concepts
 - Artifact type: Support material set
 - Subject: Literacy
 - Grade / grade band: Kindergarten
@@ -34,7 +34,7 @@
 
 - [x] Assessment evidence remains aligned to the intended learning
 - [x] The learner scaffold does not reduce the task to generic completion
-- [ ] Observation criteria are usable where needed
+- [x] Observation criteria are usable where needed
 
 ### 5. AI Governance
 
@@ -58,11 +58,11 @@
 
 - Major issues found:
   - supporting materials still need early-literacy and classroom-usability review
-  - no family-facing support artifact is included yet
-  - observation guidance is present, but not yet formalized into a simple teacher recording tool
+  - family note and observation checklist are now present, but still need human review for clarity and developmental fit
+  - the support set still lacks reviewed evidence that the selected read-aloud text examples are optimal for broad reuse
 - Required revisions:
   - complete kindergarten literacy and accessibility review
-  - decide whether to add a family or caregiver support note
-  - consider adding a simple observational checklist for teacher use
+  - review the family note for readability and multilingual/home-use clarity
+  - review the observation checklist for real classroom usability
 - Follow-up reviewer if needed:
   - early literacy reviewer, classroom educator reviewer, and accessibility reviewer

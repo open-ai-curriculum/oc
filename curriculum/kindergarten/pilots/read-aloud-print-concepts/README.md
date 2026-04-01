@@ -11,7 +11,9 @@ This package begins the kindergarten curriculum layer with an early-literacy uni
 - `standards-map.md`
 - `review-record.md`
 - `support-materials/teacher-guide.md`
+- `support-materials/teacher-observation-checklist.md`
 - `support-materials/student-scaffold.md`
+- `support-materials/family-support-note.md`
 - `support-materials/support-review-record.md`
 
 ## Source Authority
