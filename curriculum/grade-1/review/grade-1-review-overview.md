@@ -10,11 +10,13 @@ The current draft sequence is:
 
 1. `narrative-reading-key-details`
 2. `informational-reading-and-questions`
+3. `phonics-decoding-and-fluency`
 
 This order is intended to move from:
 
 - narrative comprehension and retell in familiar story structures
 - to informational reading, question answering, and key-detail identification
+- while adding explicit foundational-skills work in decoding and fluent rereading
 
 ## What Reviewers Should Evaluate Across The Set
 
@@ -64,6 +66,7 @@ Reviewers should ask:
 Across the set, the recurring unresolved items are:
 
 - Grade 1 literacy content review
+- foundational-skills review for phonics and fluency routines
 - classroom-usability review
 - accessibility review of prompts, scaffolds, and pacing
 - readability review for family-facing materials

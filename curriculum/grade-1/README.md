@@ -18,11 +18,13 @@ The current Grade 1 draft sequence is:
 
 1. `narrative-reading-key-details`
 2. `informational-reading-and-questions`
+3. `phonics-decoding-and-fluency`
 
 This order is intended to move from:
 
 - story comprehension, retell, and key details in familiar narrative structures
 - to informational reading, question answering, and topic / detail identification
+- while building explicit foundational skills in decoding and fluent rereading that support independent reading
 
 The progression is still incomplete and should be treated as a draft working sequence rather than a final scope and sequence.
 
@@ -30,6 +32,7 @@ The progression is still incomplete and should be treated as a draft working seq
 
 - `pilots/narrative-reading-key-details/`
 - `pilots/informational-reading-and-questions/`
+- `pilots/phonics-decoding-and-fluency/`
 - `review/`
 
 ## Status
