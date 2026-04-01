@@ -74,6 +74,8 @@ Before proposing publishable output, use:
 - the release review checklist
 - applicable subject-specific guidance
 - AI governance, accessibility, privacy, and HQIM research where relevant
+- the curriculum validator for package-level structure and metadata checks:
+  - `python3 -m tools.curriculum_validator.cli curriculum/pilots/grade-5-fraction-scaling`
 
 Any artifact that fails review remains draft or in-review until corrected.
 
@@ -84,3 +86,11 @@ If a subject area, standards map, or tool feature is incomplete:
 - label it provisional
 - describe what is missing
 - do not present it as release-ready
+
+## 9. Reuse the reference workflow
+
+If you need a concrete repository example of the production system working end to end, inspect:
+
+- [/Volumes/data/development/oc/curriculum/pilots/grade-5-fraction-scaling/README.md](/Volumes/data/development/oc/curriculum/pilots/grade-5-fraction-scaling/README.md)
+- [/Volumes/data/development/oc/specs/002-curriculum-artifact-validator/spec.md](/Volumes/data/development/oc/specs/002-curriculum-artifact-validator/spec.md)
+- [/Volumes/data/development/oc/tools/curriculum_validator/README.md](/Volumes/data/development/oc/tools/curriculum_validator/README.md)
