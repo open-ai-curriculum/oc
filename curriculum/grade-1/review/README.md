@@ -1,4 +1,4 @@
-# Grade 1 Review Packet
+# Grade 1 Cross-Subject Review Packet
 
 ## Purpose
 
@@ -13,7 +13,13 @@ It is intended to help human reviewers assess the current Grade 1 set consistent
 - `pilots/phonics-decoding-and-fluency/`
 - `pilots/opinion-writing-with-reasons/`
 - `pilots/informative-writing-from-shared-text/`
-- plus expanding first-pass subject coverage in math, science, social studies, arts, health, physical education, and technology
+- `pilots/addition-subtraction-and-number-stories/`
+- `pilots/plants-needs-and-patterns/`
+- `pilots/community-maps-and-citizenship/`
+- `pilots/arts-performance-and-creation/`
+- `pilots/nutrition-safety-and-emotions/`
+- `pilots/locomotor-skills-and-cooperation/`
+- `pilots/digital-citizenship-and-algorithmic-thinking/`
 
 ## Review Packet Contents
 

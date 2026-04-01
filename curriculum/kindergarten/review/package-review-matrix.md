@@ -18,6 +18,13 @@ Use this matrix to review each kindergarten package against the same dimensions.
 | `oral-language-and-story-retell` | | | | | | | | |
 | `phonological-awareness-rhyme` | | | | | | | | |
 | `letter-recognition-alphabet-knowledge` | | | | | | | | |
+| `counting-and-cardinality` | | | | | | | | |
+| `weather-and-observation` | | | | | | | | |
+| `family-school-and-community` | | | | | | | | |
+| `creative-arts-and-expression` | | | | | | | | |
+| `healthy-habits-and-feelings` | | | | | | | | |
+| `movement-and-coordination` | | | | | | | | |
+| `digital-tools-and-sequencing` | | | | | | | | |
 
 ## Reviewer Prompts By Dimension
 
@@ -43,10 +50,10 @@ Use this matrix to review each kindergarten package against the same dimensions.
 
 ### Support-material usability
 
-- Does the teacher guide improve enactment?
-- Is the observation checklist actually usable during instruction?
-- Does the learner scaffold help without reducing the core task?
-- Is the family note realistic for home use?
+- Where supports exist, does the teacher guide improve enactment?
+- Where supports exist, are observation tools usable during instruction?
+- Where supports exist, do learner or family supports help without replacing the task?
+- Where supports do not exist, is that an acceptable exception or a repository gap?
 
 ### Accessibility and inclusion
 
@@ -56,5 +63,5 @@ Use this matrix to review each kindergarten package against the same dimensions.
 
 ### Knowledge / content integrity
 
-- Are the examples, selected texts, and prompts instructionally sound?
+- Are the examples, selected texts, phenomena, movement prompts, and routines instructionally sound?
 - Are there inaccuracies, weak examples, or developmentally awkward moves?

@@ -19,6 +19,13 @@ Use this matrix to review each Grade 1 package against the same dimensions.
 | `phonics-decoding-and-fluency` | | | | | | | | |
 | `opinion-writing-with-reasons` | | | | | | | | |
 | `informative-writing-from-shared-text` | | | | | | | | |
+| `addition-subtraction-and-number-stories` | | | | | | | | |
+| `plants-needs-and-patterns` | | | | | | | | |
+| `community-maps-and-citizenship` | | | | | | | | |
+| `arts-performance-and-creation` | | | | | | | | |
+| `nutrition-safety-and-emotions` | | | | | | | | |
+| `locomotor-skills-and-cooperation` | | | | | | | | |
+| `digital-citizenship-and-algorithmic-thinking` | | | | | | | | |
 
 ## Reviewer Prompts By Dimension
 
@@ -44,10 +51,10 @@ Use this matrix to review each Grade 1 package against the same dimensions.
 
 ### Support-material usability
 
-- Does the teacher guide improve enactment?
-- Is the observation checklist usable during instruction?
-- Does the learner scaffold help without reducing the task to completion behavior?
-- Is the family note realistic for home use?
+- Where supports exist, does the teacher guide improve enactment?
+- Where supports exist, is the observation checklist usable during instruction?
+- Where supports exist, does the learner scaffold help without reducing the task to completion behavior?
+- Where supports do not exist, is that acceptable or a repository gap?
 
 ### Accessibility and inclusion
 
@@ -57,5 +64,5 @@ Use this matrix to review each Grade 1 package against the same dimensions.
 
 ### Knowledge / content integrity
 
-- Are the text choices, questions, examples, and writing models instructionally sound?
-- Are there weak prompts, inaccuracies, avoidable ambiguities, questionable decoding routines, or hollow writing tasks?
+- Are the texts, questions, examples, writing models, math tasks, science observations, social studies prompts, movement routines, and digital tasks instructionally sound?
+- Are there weak prompts, inaccuracies, avoidable ambiguities, questionable routines, or hollow tasks?

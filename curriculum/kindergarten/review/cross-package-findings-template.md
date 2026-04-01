@@ -8,7 +8,7 @@
 
 ## Overall Recommendation
 
-- [ ] Keep all four packages in the current draft sequence
+- [ ] Keep the current cross-subject set in the current draft sequence
 - [ ] Keep the sequence, but revise one or more packages before adding more scope
 - [ ] Reorder the sequence before adding more scope
 - [ ] Pause new package creation until core issues are resolved
@@ -51,6 +51,41 @@
 - required revisions:
 
 ### `letter-recognition-alphabet-knowledge`
+
+- decision:
+- required revisions:
+
+### `counting-and-cardinality`
+
+- decision:
+- required revisions:
+
+### `weather-and-observation`
+
+- decision:
+- required revisions:
+
+### `family-school-and-community`
+
+- decision:
+- required revisions:
+
+### `creative-arts-and-expression`
+
+- decision:
+- required revisions:
+
+### `healthy-habits-and-feelings`
+
+- decision:
+- required revisions:
+
+### `movement-and-coordination`
+
+- decision:
+- required revisions:
+
+### `digital-tools-and-sequencing`
 
 - decision:
 - required revisions:

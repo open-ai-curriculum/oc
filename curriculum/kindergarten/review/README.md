@@ -1,4 +1,4 @@
-# Kindergarten Review Packet
+# Kindergarten Cross-Subject Review Packet
 
 ## Purpose
 
@@ -8,7 +8,17 @@ It is intended to help human reviewers assess the current kindergarten set consi
 
 ## Current Scope Covered
 
-This packet currently provides the strongest direct review support for the kindergarten literacy sequence, while kindergarten expands into broader subject coverage.
+- `pilots/read-aloud-print-concepts/`
+- `pilots/oral-language-and-story-retell/`
+- `pilots/phonological-awareness-rhyme/`
+- `pilots/letter-recognition-alphabet-knowledge/`
+- `pilots/counting-and-cardinality/`
+- `pilots/weather-and-observation/`
+- `pilots/family-school-and-community/`
+- `pilots/creative-arts-and-expression/`
+- `pilots/healthy-habits-and-feelings/`
+- `pilots/movement-and-coordination/`
+- `pilots/digital-tools-and-sequencing/`
 
 ## Review Packet Contents
 

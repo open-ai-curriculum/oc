@@ -54,16 +54,16 @@ Reviewers should ask:
 
 - Are the selected text types, prompts, and writing tasks instructionally meaningful?
 - Do the questions and writing moves lead students toward actual meaning-making rather than generic guessing or sentence filling?
-- Do the tasks support accountable talk, listening, evidence use, and age-appropriate composing?
+- Do the tasks support accountable talk, listening, evidence use, age-appropriate composing, and meaningful work in non-literacy subjects?
 
 ### 4. Support-material usability
 
 Reviewers should ask:
 
-- Are teacher guides practical for live classroom use?
-- Are observation checklists usable during instruction?
-- Do learner scaffolds preserve the core comprehension task?
-- Are family notes readable and realistic for home use?
+- Where supports exist, are teacher guides practical for live classroom use?
+- Where supports exist, are observation tools usable during instruction?
+- Where supports exist, do learner supports preserve the core task?
+- Which newer non-literacy packets still lack the support layer expected elsewhere in the repository?
 
 ### 5. Accessibility and inclusion
 
@@ -81,9 +81,11 @@ Across the set, the recurring unresolved items are:
 - foundational-skills review for phonics and fluency routines
 - writing-instruction review for opinion writing routines and exemplars
 - writing-instruction review for informative writing routines and factual writing models
+- Grade 1 math, science, social studies, arts, health, PE, and technology content review
 - classroom-usability review
 - accessibility review of prompts, scaffolds, and pacing
 - readability review for family-facing materials
+- support-material normalization across non-literacy subjects
 
 ## Review Outcome Guidance
 
@@ -93,5 +95,3 @@ At this stage, reviewers should expect the Grade 1 set to remain:
 - `approved with revisions`
 
 The set is not yet expected to pass as publication-ready without additional human review and likely targeted revisions.
-
-As Grade 1 expands into math, science, social studies, arts, health, physical education, and technology, this review packet should be extended into a cross-subject version.

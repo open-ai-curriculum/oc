@@ -6,19 +6,25 @@ This document gives human reviewers a single orientation for the current kinderg
 
 ## Current Kindergarten Sequence
 
-The current draft sequence began as a literacy-first buildout:
+The current draft sequence is:
 
 1. `read-aloud-print-concepts`
 2. `oral-language-and-story-retell`
 3. `phonological-awareness-rhyme`
 4. `letter-recognition-alphabet-knowledge`
+5. `counting-and-cardinality`
+6. `weather-and-observation`
+7. `family-school-and-community`
+8. `creative-arts-and-expression`
+9. `healthy-habits-and-feelings`
+10. `movement-and-coordination`
+11. `digital-tools-and-sequencing`
 
 This order is intended to move from:
 
-- shared reading and print orientation
-- to oral language and comprehension
-- to phonological awareness
-- to alphabet knowledge
+- foundational literacy and oral-language routines
+- into early number sense and science observation
+- and then into broader social, artistic, health, movement, and technology experiences
 
 ## What Reviewers Should Evaluate Across The Set
 
@@ -42,18 +48,18 @@ Reviewers should ask:
 
 Reviewers should ask:
 
-- Are read-aloud and oral-language tasks anchored to meaningful texts or routines?
-- Are prompts concrete and usable for kindergarten learners?
-- Do the tasks avoid generic completion behavior?
+- Are the texts, prompts, phenomena, routines, and movement or creative tasks meaningful?
+- Are tasks concrete and usable for kindergarten learners across subjects?
+- Do the tasks avoid generic completion behavior or hollow “cute activity” design?
 
 ### 4. Support-material usability
 
 Reviewers should ask:
 
-- Are teacher guides practical for live classroom use?
-- Are observation checklists usable without overloading teachers?
-- Are learner scaffolds supportive without replacing the learning target?
-- Are family notes readable and realistic for home use?
+- Where support materials exist, are teacher guides practical for live classroom use?
+- Where support materials exist, are observation tools usable without overloading teachers?
+- Where support materials exist, are learner supports and family notes realistic and helpful?
+- Which new subject packets still lack the support layer expected elsewhere in the repository?
 
 ### 5. Accessibility and inclusion
 
@@ -68,9 +74,12 @@ Reviewers should ask:
 Across the set, the recurring unresolved items are:
 
 - early-literacy expert review
+- kindergarten math and science content review
+- social studies, arts, health, PE, and technology content review
 - classroom-usability review
-- developmental-fit review of examples, prompts, and text selections
+- developmental-fit review of examples, prompts, and task formats
 - readability review for family-facing materials
+- support-material normalization across non-literacy subjects
 
 ## Review Outcome Guidance
 
@@ -80,5 +89,3 @@ At this stage, reviewers should expect the kindergarten set to remain:
 - `approved with revisions`
 
 The set is not yet expected to pass as publication-ready without additional human review and likely targeted revisions.
-
-As kindergarten expands into math, science, social studies, arts, health, movement, and technology, this review packet should be extended into a cross-subject version.

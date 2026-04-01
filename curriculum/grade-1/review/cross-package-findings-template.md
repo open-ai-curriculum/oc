@@ -8,7 +8,7 @@
 
 ## Overall Recommendation
 
-- [ ] Keep both packages in the current draft sequence
+- [ ] Keep the current cross-subject set in the current draft sequence
 - [ ] Keep the sequence, but revise one or more packages before adding more scope
 - [ ] Reorder the sequence before adding more scope
 - [ ] Pause new package creation until core issues are resolved
@@ -56,6 +56,41 @@
 - required revisions:
 
 ### `informative-writing-from-shared-text`
+
+- decision:
+- required revisions:
+
+### `addition-subtraction-and-number-stories`
+
+- decision:
+- required revisions:
+
+### `plants-needs-and-patterns`
+
+- decision:
+- required revisions:
+
+### `community-maps-and-citizenship`
+
+- decision:
+- required revisions:
+
+### `arts-performance-and-creation`
+
+- decision:
+- required revisions:
+
+### `nutrition-safety-and-emotions`
+
+- decision:
+- required revisions:
+
+### `locomotor-skills-and-cooperation`
+
+- decision:
+- required revisions:
+
+### `digital-citizenship-and-algorithmic-thinking`
 
 - decision:
 - required revisions:
