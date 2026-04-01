@@ -50,6 +50,11 @@
 - decision:
 - required revisions:
 
+### `opinion-writing-with-reasons`
+
+- decision:
+- required revisions:
+
 ## Recommendation Before Expanding Grade 1 Further
 
 - next package should be:

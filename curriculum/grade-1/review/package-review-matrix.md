@@ -17,6 +17,7 @@ Use this matrix to review each Grade 1 package against the same dimensions.
 | `narrative-reading-key-details` | | | | | | | | |
 | `informational-reading-and-questions` | | | | | | | | |
 | `phonics-decoding-and-fluency` | | | | | | | | |
+| `opinion-writing-with-reasons` | | | | | | | | |
 
 ## Reviewer Prompts By Dimension
 
@@ -55,5 +56,5 @@ Use this matrix to review each Grade 1 package against the same dimensions.
 
 ### Knowledge / content integrity
 
-- Are the text choices, questions, and examples instructionally sound?
-- Are there weak prompts, inaccuracies, avoidable ambiguities, or questionable decoding routines?
+- Are the text choices, questions, examples, and writing models instructionally sound?
+- Are there weak prompts, inaccuracies, avoidable ambiguities, questionable decoding routines, or hollow writing tasks?

@@ -11,12 +11,14 @@ The current draft sequence is:
 1. `narrative-reading-key-details`
 2. `informational-reading-and-questions`
 3. `phonics-decoding-and-fluency`
+4. `opinion-writing-with-reasons`
 
 This order is intended to move from:
 
 - narrative comprehension and retell in familiar story structures
 - to informational reading, question answering, and key-detail identification
 - while adding explicit foundational-skills work in decoding and fluent rereading
+- and into supported opinion writing with a clear statement and simple reasons
 
 ## What Reviewers Should Evaluate Across The Set
 
@@ -25,8 +27,8 @@ This order is intended to move from:
 Reviewers should ask:
 
 - Does the current order make instructional sense for first grade?
-- Are students asked to transfer comprehension routines productively from narrative to informational text?
-- Is either package redundant with the other?
+- Are students asked to transfer comprehension routines productively from narrative to informational text and writing?
+- Is any package redundant with another package?
 
 ### 2. Grade-level fit
 
@@ -40,9 +42,9 @@ Reviewers should ask:
 
 Reviewers should ask:
 
-- Are the selected text types and prompts instructionally meaningful?
-- Do the questions lead students to key details rather than generic guessing?
-- Do the tasks support accountable talk, listening, and evidence use?
+- Are the selected text types, prompts, and writing tasks instructionally meaningful?
+- Do the questions and writing moves lead students toward actual meaning-making rather than generic guessing or sentence filling?
+- Do the tasks support accountable talk, listening, evidence use, and age-appropriate composing?
 
 ### 4. Support-material usability
 
@@ -67,6 +69,7 @@ Across the set, the recurring unresolved items are:
 
 - Grade 1 literacy content review
 - foundational-skills review for phonics and fluency routines
+- writing-instruction review for opinion writing routines and exemplars
 - classroom-usability review
 - accessibility review of prompts, scaffolds, and pacing
 - readability review for family-facing materials
