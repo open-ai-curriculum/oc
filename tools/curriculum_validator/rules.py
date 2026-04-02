@@ -22,12 +22,21 @@ REQUIRED_FIELDS = {
         "Audience",
         "Review status",
     ],
+    "classroom_material": [
+        "Artifact title",
+        "Artifact type",
+        "Program layer",
+        "Subject",
+        "Grade / grade band",
+        "Review status",
+    ],
 }
 
 REQUIRED_HEADINGS = {
     "unit": ["Accessibility and Inclusion Notes", "AI Use Record"],
     "lesson": ["Accessibility and Inclusion Notes", "Assessment Notes", "AI Use Record"],
     "support_material": ["Alignment Notes", "Accessibility Notes", "AI Use Record"],
+    "classroom_material": ["Artifact Metadata", "Purpose", "AI Use Record"],
     "standards_map": ["Artifact Metadata", "Standards Map", "Review Outcome"],
     "review_record": ["Artifact Information", "Core Review Gates", "Decision"],
 }
@@ -83,7 +92,7 @@ def validate_required_fields(artifact: ArtifactSummary) -> list[ValidationFindin
                 )
             )
     review_status = artifact.findings_context.get("review_status", "")
-    if artifact.artifact_type in {"unit", "lesson", "support_material"}:
+    if artifact.artifact_type in {"unit", "lesson", "support_material", "classroom_material"}:
         if review_status and review_status not in ALLOWED_REVIEW_STATUSES:
             findings.append(
                 ValidationFinding(
@@ -111,9 +120,22 @@ def validate_required_fields(artifact: ArtifactSummary) -> list[ValidationFindin
                     message="Support material is missing source artifact references.",
                 )
             )
+    if artifact.artifact_type == "classroom_material" and not artifact.source_refs:
+        findings.append(
+            ValidationFinding(
+                severity="error",
+                code="missing-source-refs",
+                artifact_path=str(artifact.path),
+                message="Classroom material is missing source artifact references.",
+            )
+        )
     for heading in REQUIRED_HEADINGS.get(artifact.artifact_type, []):
         if heading not in artifact.headings:
-            severity = "error" if "Accessibility" in heading else "warning"
+            severity = (
+                "error"
+                if "Accessibility" in heading or heading == "Artifact Metadata"
+                else "warning"
+            )
             findings.append(
                 ValidationFinding(
                     severity=severity,
@@ -161,6 +183,17 @@ def validate_relationships(
                         code="unknown-source-ref",
                         artifact_path=str(support.path),
                         message=f"Support material references unknown artifact `{source_ref}`.",
+                    )
+                )
+    for classroom_material in by_type.get("classroom_material", []):
+        for source_ref in classroom_material.source_refs:
+            if source_ref not in artifact_ids:
+                findings.append(
+                    ValidationFinding(
+                        severity="warning",
+                        code="unknown-source-ref",
+                        artifact_path=str(classroom_material.path),
+                        message=f"Classroom material references unknown artifact `{source_ref}`.",
                     )
                 )
 

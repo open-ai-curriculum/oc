@@ -58,6 +58,17 @@ class CurriculumValidatorTests(unittest.TestCase):
         self.assertFalse(payload["release_ready"])
         self.assertGreaterEqual(len(payload["artifacts"]), 5)
 
+    def test_classroom_material_fixture_is_recognized_without_findings(self) -> None:
+        summary = discover_package(FIXTURES / "valid_with_classroom_materials")
+        result = validate_package(summary)
+
+        self.assertFalse(result.release_ready)
+        self.assertEqual([], result.findings)
+        self.assertIn(
+            "classroom_material",
+            {artifact.artifact_type for artifact in result.artifacts},
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

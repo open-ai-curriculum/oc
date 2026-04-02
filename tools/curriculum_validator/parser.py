@@ -61,6 +61,7 @@ def parse_artifact(path: Path) -> ArtifactSummary:
                 "Unit ID",
                 "Lesson ID",
                 "Support ID",
+                "Artifact ID",
                 "mapping_id",
                 "review_id",
             ],
@@ -158,6 +159,8 @@ def classify_artifact(path: Path, title: str, metadata: dict[str, str]) -> str:
         return "standards_map"
     if metadata.get("Support ID") or "teacher guide" in lower_title or "learner support" in lower_title:
         return "support_material"
+    if metadata.get("Artifact title"):
+        return "classroom_material"
     if metadata.get("Lesson ID") or lower_name.startswith("lesson-"):
         return "lesson"
     if metadata.get("Unit ID") or lower_name == "unit.md":

@@ -32,6 +32,7 @@ The validator currently checks for:
 - required metadata fields by artifact type
 - expected sections such as accessibility notes and AI use record
 - lesson-to-unit and support-material source relationships
+- classroom-material metadata and source relationships
 - presence of standards maps and review records where curriculum artifacts exist
 - repository-recognized review-status values
 
