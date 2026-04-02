@@ -61,6 +61,17 @@ The kindergarten layer still does not yet provide:
 - expert-reviewed non-literacy subject packets
 - a reviewed scope-and-sequence with expert validation across all subjects
 
+## Program Layer
+
+The kindergarten directory now includes a draft program assembly under `program/`:
+
+- `program/textbook.md`
+- `program/workbook.md`
+- `program/teacher-edition.md`
+- `program/grading-key.md`
+- `program/assessment-pack.md`
+- `program/README.md`
+
 ## Status
 
 Kindergarten curriculum in this directory remains draft and review-governed unless an explicit review record states otherwise.
