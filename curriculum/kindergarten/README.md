@@ -70,7 +70,15 @@ The kindergarten directory now includes a draft program assembly under `program/
 - `program/teacher-edition.md`
 - `program/grading-key.md`
 - `program/assessment-pack.md`
+- `program/non-literacy-program-guide.md`
+- `program/reproducibles.md`
+- `program/exemplar-student-responses.md`
+- `program/review/`
 - `program/README.md`
+
+## Cross-Grade Articulation
+
+- `../k-1-articulation.md`
 
 ## Status
 

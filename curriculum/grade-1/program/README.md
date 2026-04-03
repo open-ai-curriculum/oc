@@ -11,6 +11,10 @@ This directory assembles packet-level Grade 1 artifacts into grade-level program
 - `teacher-edition.md`
 - `grading-key.md`
 - `assessment-pack.md`
+- `non-literacy-program-guide.md`
+- `reproducibles.md`
+- `exemplar-student-responses.md`
+- `review/`
 
 ## Status
 

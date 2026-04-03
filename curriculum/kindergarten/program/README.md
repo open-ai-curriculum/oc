@@ -11,6 +11,10 @@ This directory assembles packet-level kindergarten artifacts into grade-level pr
 - `teacher-edition.md`
 - `grading-key.md`
 - `assessment-pack.md`
+- `non-literacy-program-guide.md`
+- `reproducibles.md`
+- `exemplar-student-responses.md`
+- `review/`
 
 ## Status
 
