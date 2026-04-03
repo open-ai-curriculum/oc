@@ -32,6 +32,27 @@ Provide a real teacher-facing Grade 1 edition assembled from packet lesson narra
 11. locomotor skills and cooperation
 12. digital citizenship and algorithmic thinking
 
+## Using Reproducibles and Exemplars
+
+- Use [reproducibles.md](/Volumes/data/development/oc/curriculum/grade-1/program/reproducibles.md) to pull response sheets, organizers, quick checks, and classroom handouts into daily instruction.
+- Use [exemplar-student-responses.md](/Volumes/data/development/oc/curriculum/grade-1/program/exemplar-student-responses.md) to calibrate evidence for explanation, partial independence, and prompting.
+- Do not use exemplar responses as copy targets; use them to interpret quality and sufficiency of evidence.
+
+## Program Asset Map
+
+- Chapter 1: key-detail strips and retell organizer; exemplar for key-detail explanation and retell
+- Chapter 2: topic-and-detail organizer; exemplar for fact-based question response
+- Chapter 3: phonics blending mat; exemplar for decoding and smoother rereading
+- Chapter 4: opinion sentence frame page; exemplar for opinion-plus-reason writing
+- Chapter 5: informative fact organizer; exemplar for topic-and-fact writing
+- Chapter 6: number-story representation mat and explain-my-strategy strip; exemplar for story representation and explanation
+- Chapter 7: plant observation log; exemplar for observation and plant-needs explanation
+- Chapter 8: map key and community response card; exemplar for map reading and civic explanation
+- Chapter 9: create-and-explain prompt sheet; exemplar for artistic choice and revision
+- Chapter 10: health scenario card and feelings organizer; exemplar for healthy/safe reasoning
+- Chapter 11: locomotor cue strip and cooperation reflection sheet; exemplar for movement and partner participation
+- Chapter 12: sequencing cards and safe digital choice strip; exemplar for algorithm order and safe-use explanation
+
 ## Chapter 1: Narrative Reading and Key Details
 
 ### Lesson Focus

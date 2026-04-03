@@ -17,6 +17,12 @@ Provide a real assembled kindergarten grading-key draft built from packet answer
 - Treat the categories as instructional guides, not high-stakes scores.
 - Pair this volume with the teacher edition and assessment pack.
 
+## Calibration and Access Notes
+
+- Count oral, gestural, visual, manipulative-based, and teacher-recorded evidence when those modes fit the target.
+- Record prompting level separately from accuracy when it changes interpretation.
+- Use [exemplar-student-responses.md](/Volumes/data/development/oc/curriculum/kindergarten/program/exemplar-student-responses.md) to calibrate sufficiency of evidence.
+
 ## Section 1: Read-Alouds and Print Concepts
 
 ### What Counts as Secure
@@ -88,6 +94,7 @@ Provide a real assembled kindergarten grading-key draft built from packet answer
 
 - student counts each object once
 - student says the final number as the total
+- student can compare two small sets using counting or clear visual reasoning
 
 ### What Counts as Developing
 
@@ -103,6 +110,7 @@ Provide a real assembled kindergarten grading-key draft built from packet answer
 
 - student identifies a relevant weather condition
 - student matches the condition to a symbol or shared record
+- student contributes one observation tied to what is actually seen
 
 ### What Counts as Developing
 
@@ -117,6 +125,7 @@ Provide a real assembled kindergarten grading-key draft built from packet answer
 ### What Counts as Secure
 
 - student identifies a helper and explains how the person helps
+- student connects the helper to a familiar place such as home, school, or community
 
 ### What Counts as Developing
 
@@ -147,6 +156,7 @@ Provide a real assembled kindergarten grading-key draft built from packet answer
 
 - student identifies a feeling
 - student names a safe or healthy response
+- student connects the response to the situation or feeling shown
 
 ### What Counts as Developing
 
@@ -178,6 +188,7 @@ Provide a real assembled kindergarten grading-key draft built from packet answer
 
 - student orders steps correctly
 - student follows the sequence
+- student identifies one safe or respectful tool-use behavior
 
 ### What Counts as Developing
 

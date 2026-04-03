@@ -17,6 +17,12 @@ Provide a real Grade 1 student-facing textbook draft assembled from the governed
 - Pair textbook reading with workbook practice and teacher-edition routines.
 - Keep students focused on text, evidence, explanation, and clear communication.
 
+## Accessibility and Response Notes
+
+- Use oral rehearsal, partner talk, drawing, and sentence frames before asking for independent written response.
+- Support vocabulary and text access with visuals, repeated readings, and modeled think-alouds.
+- Treat this volume as teacher-guided curriculum text, not as a stand-alone independent textbook.
+
 ## Unit 1: Reading Stories for Key Details
 
 ### Page 1: Stories Have Important Details

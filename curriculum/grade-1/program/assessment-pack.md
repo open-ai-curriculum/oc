@@ -17,6 +17,12 @@ Provide a real Grade 1 assessment-pack draft assembled from the packet assessmen
 - Keep evidence tied to the specific lesson targets.
 - Pair results with classroom observation and student work.
 
+## Assessment Access Notes
+
+- Accept oral, written, drawn, manipulative-based, and teacher-recorded evidence when the lesson target allows it.
+- Keep assessment language as simple as possible unless reading the language is itself part of the target.
+- Use [reproducibles.md](/Volumes/data/development/oc/curriculum/grade-1/program/reproducibles.md) and [exemplar-student-responses.md](/Volumes/data/development/oc/curriculum/grade-1/program/exemplar-student-responses.md) to support administration and calibration.
+
 ## Assessment 1: Story Key Details and Retell
 
 ### Teacher Directions
@@ -86,11 +92,13 @@ Provide a real Grade 1 assessment-pack draft assembled from the packet assessmen
 
 - Present a short join or separate story.
 - Ask the student to show the math with objects or drawings and solve it.
+- If appropriate, ask for a second representation or a brief explanation of another possible strategy.
 
 ### Evidence to Record
 
 - story represented accurately
 - solution and explanation match the representation
+- compares or interprets a second valid representation when used
 
 ## Assessment 7: Plant Observation
 
@@ -98,11 +106,13 @@ Provide a real Grade 1 assessment-pack draft assembled from the packet assessmen
 
 - Show a plant or plant image.
 - Ask the student to describe one observation and one plant need.
+- If possible, show two observations from different times and ask what changed.
 
 ### Evidence to Record
 
 - real observation
 - accurate plant need
+- notes one visible change or pattern when applicable
 
 ## Assessment 8: Map and Citizenship
 
@@ -110,11 +120,13 @@ Provide a real Grade 1 assessment-pack draft assembled from the packet assessmen
 
 - Show a simple map.
 - Ask the student to identify a place and name one community responsibility.
+- Ask the student to use a key, symbol, or label if one is present.
 
 ### Evidence to Record
 
 - map-reading accuracy
 - civic understanding
+- uses a key, symbol, or label accurately when applicable
 
 ## Assessment 9: Artistic Response
 
@@ -122,11 +134,13 @@ Provide a real Grade 1 assessment-pack draft assembled from the packet assessmen
 
 - Give a prompt.
 - Ask the student to create a quick artistic response and explain one choice.
+- If appropriate, ask the student to add or revise one detail and explain the change.
 
 ### Evidence to Record
 
 - prompt-connected creation
 - one explained artistic choice
+- purposeful revision or added detail when that extension is used
 
 ## Assessment 10: Healthy Choice
 
@@ -159,11 +173,13 @@ Provide a real Grade 1 assessment-pack draft assembled from the packet assessmen
 
 - Give a short set of steps to order.
 - Ask the student to follow them and state one safe digital-use norm.
+- If the steps are mixed up, ask the student to correct the order.
 
 ### Evidence to Record
 
 - sequencing accuracy
 - safe-use understanding
+- notices and fixes incorrect order when the task includes debugging
 
 ## Recording Guidance Across the Pack
 

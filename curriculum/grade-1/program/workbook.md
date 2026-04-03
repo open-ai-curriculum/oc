@@ -17,6 +17,12 @@ Provide a real Grade 1 practice-book draft assembled from packet classroom assig
 - Keep the focus on evidence, explanation, and short meaningful practice.
 - Mix written, oral, drawn, and performance-linked responses as needed.
 
+## Accessibility and Response Notes
+
+- Allow dictated, shared, oral, drawn, or manipulative-based responses when those modes better fit the lesson target.
+- Reduce copying load when it does not serve the target skill.
+- Treat workbook pages as flexible practice formats rather than fixed compliance tasks.
+
 ## Section 1: Narrative Reading Practice
 
 ### Practice Page 1: Important Detail or Extra Detail?

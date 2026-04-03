@@ -31,6 +31,26 @@ Provide a real teacher-facing kindergarten edition assembled from packet lesson 
 10. Movement and coordination
 11. Digital tools and sequencing
 
+## Using Reproducibles and Exemplars
+
+- Use [reproducibles.md](/Volumes/data/development/oc/curriculum/kindergarten/program/reproducibles.md) to prepare copy masters, center cards, quick checks, and family-facing materials.
+- Use [exemplar-student-responses.md](/Volumes/data/development/oc/curriculum/kindergarten/program/exemplar-student-responses.md) to calibrate what counts as meaningful evidence across oral, visual, gestural, and teacher-recorded responses.
+- Do not treat exemplars as scripts students must match exactly.
+
+## Program Asset Map
+
+- Chapter 1: book-parts picture card set; exemplar for pointing to cover and reading start
+- Chapter 2: first / next / last retell cards; exemplar for oral or picture-supported retell
+- Chapter 3: rhyme picture match cards; exemplar for oral rhyme identification
+- Chapter 4: uppercase / lowercase letter cards; exemplar for matching and naming letters
+- Chapter 5: count-and-touch mat and compare-two-sets strip; exemplar for counting and naming the total
+- Chapter 6: daily weather chart and weather icon cards; exemplar for naming and recording weather
+- Chapter 7: helper sort cards and community picture mat; exemplar for identifying helpers and roles
+- Chapter 8: create-from-a-prompt cards and share-my-work strip; exemplar for brief artistic explanation
+- Chapter 9: feelings faces cards and calm-choice poster; exemplar for feeling identification and safe choice
+- Chapter 10: move / freeze cue cards and balance visuals; exemplar for cue response and balance
+- Chapter 11: sequencing cards and safe tool-use reminder; exemplar for ordering steps and naming safe tool use
+
 ## Chapter 1: Read-Alouds and Print Concepts
 
 ### Lesson Focus

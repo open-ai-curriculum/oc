@@ -17,6 +17,12 @@ Provide a real kindergarten practice-book draft assembled from packet classroom 
 - Keep practice short, concrete, and teacher-supported.
 - Accept oral, gestural, drawn, and manipulable responses where appropriate.
 
+## Accessibility and Response Notes
+
+- Convert pages into cut-and-sort, point-and-tell, or teacher-recorded formats when needed.
+- Do not require full written production when the lesson target can be shown orally or physically.
+- Keep page use flexible; the workbook is a support tool, not the lesson itself.
+
 ## Section 1: Books and Print Practice
 
 ### Practice Page 1: Show the Book Parts

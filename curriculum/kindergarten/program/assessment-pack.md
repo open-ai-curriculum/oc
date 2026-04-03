@@ -17,6 +17,12 @@ Provide a real assembled kindergarten assessment-pack draft built from packet as
 - Use them after instruction, not as isolated gatekeeping tasks.
 - Pair assessment evidence with observation notes and classroom work.
 
+## Assessment Access Notes
+
+- Offer pointing, picture selection, gesture, oral language, manipulatives, and teacher-recorded response when those formats fit the target.
+- Reduce language load that is not essential to the skill being assessed.
+- Use [reproducibles.md](/Volumes/data/development/oc/curriculum/kindergarten/program/reproducibles.md) and [exemplar-student-responses.md](/Volumes/data/development/oc/curriculum/kindergarten/program/exemplar-student-responses.md) to support administration and interpretation.
+
 ## Assessment 1: Book Handling and Print Concepts
 
 ### Teacher Directions
@@ -77,11 +83,13 @@ Provide a real assembled kindergarten assessment-pack draft built from packet as
 - Present a small set of objects.
 - Ask the student to count the set.
 - Ask, "How many?"
+- If appropriate, present a second small set and ask which group has more.
 
 ### Evidence to Record
 
 - one-to-one counting
 - names the total
+- compares small sets when that extension is used
 
 ## Assessment 6: Weather Observation
 
@@ -90,11 +98,13 @@ Provide a real assembled kindergarten assessment-pack draft built from packet as
 - Show the day's weather or a weather image.
 - Ask the student what they notice.
 - Ask the student to choose a matching symbol.
+- If appropriate, compare today to another day or image.
 
 ### Evidence to Record
 
 - identifies a weather condition
 - matches the symbol or record correctly
+- contributes one observation tied to visible evidence
 
 ## Assessment 7: Community Roles
 
@@ -103,11 +113,13 @@ Provide a real assembled kindergarten assessment-pack draft built from packet as
 - Show a picture of a helper.
 - Ask who the person is.
 - Ask how the person helps.
+- Ask where the helper might work or help.
 
 ### Evidence to Record
 
 - identifies the helper
 - explains the role
+- connects the helper to a familiar place or context
 
 ## Assessment 8: Creative Response
 
@@ -155,11 +167,13 @@ Provide a real assembled kindergarten assessment-pack draft built from packet as
 - Give the student three simple steps.
 - Ask the student to put them in order.
 - Ask the student to follow the sequence.
+- Ask for one safe tool-use behavior if a tool routine is part of the task.
 
 ### Evidence to Record
 
 - orders the steps
 - follows the sequence
+- names or shows one safe-use behavior when applicable
 
 ## Recording Guidance Across the Pack
 

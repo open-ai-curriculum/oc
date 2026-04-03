@@ -17,6 +17,12 @@ Provide a real Grade 1 scoring and answer-key draft assembled from packet answer
 - Pair this volume with the teacher edition and assessment pack.
 - Record prompting level when it changes interpretation.
 
+## Calibration and Access Notes
+
+- Count oral explanation, drawing, manipulatives, shared writing, and performance evidence when those modes fit the lesson target.
+- Separate correctness from independence; a correct response with heavy prompting should not be scored the same way as independent performance.
+- Use [exemplar-student-responses.md](/Volumes/data/development/oc/curriculum/grade-1/program/exemplar-student-responses.md) to calibrate quality of explanation and evidence.
+
 ## Section 1: Narrative Reading and Key Details
 
 ### What Counts as Secure
@@ -103,6 +109,7 @@ Provide a real Grade 1 scoring and answer-key draft assembled from packet answer
 - represents the story accurately
 - solves it reasonably
 - explains the thinking
+- may show the story with more than one valid representation
 
 ### What Counts as Developing
 
@@ -118,6 +125,7 @@ Provide a real Grade 1 scoring and answer-key draft assembled from packet answer
 
 - identifies one plant need accurately
 - records a real observation
+- notices or describes a visible change or pattern when prompted appropriately
 
 ### What Counts as Developing
 
@@ -133,6 +141,7 @@ Provide a real Grade 1 scoring and answer-key draft assembled from packet answer
 
 - identifies places on a simple map
 - names one community responsibility
+- uses a symbol, key, or label accurately to support the answer
 
 ### What Counts as Developing
 
@@ -163,6 +172,7 @@ Provide a real Grade 1 scoring and answer-key draft assembled from packet answer
 
 - identifies a healthy or safe choice
 - explains why it helps
+- applies the idea to a familiar scenario rather than only naming a rule
 
 ### What Counts as Developing
 
@@ -194,6 +204,7 @@ Provide a real Grade 1 scoring and answer-key draft assembled from packet answer
 
 - orders and follows steps accurately
 - names one safe digital-use norm
+- can notice when the order is wrong and help fix it
 
 ### What Counts as Developing
 

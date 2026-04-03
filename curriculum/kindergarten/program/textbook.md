@@ -29,6 +29,12 @@ Provide a real kindergarten student-facing textbook draft assembled from the gov
 - Model responses orally, visually, and physically.
 - Pair textbook pages with workbook practice and teacher-edition routines.
 
+## Accessibility and Response Notes
+
+- Treat oral language, gestures, pointing, drawing, and shared response as valid participation.
+- Keep pages teacher-mediated; this volume is not designed for independent silent reading.
+- Use visuals, repeated language, and concrete objects whenever the lesson calls for them.
+
 ## Chapter 1: Books and Print
 
 ### Page 1: A Book Has Parts
