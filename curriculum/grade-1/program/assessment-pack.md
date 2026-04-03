@@ -9,28 +9,172 @@
 
 ## Purpose
 
-Provide a Grade 1 assessment-pack draft assembled from the packet assessment checks.
+Provide a real Grade 1 assessment-pack draft assembled from the packet assessment checks and assessment keys.
 
-## Assessment Set
+## How To Use This Volume
 
-1. story key-details and retell check
-2. informational-text question check
-3. decoding and rereading check
-4. opinion writing check
-5. informative writing check
-6. number-story check
-7. plant-observation check
-8. map-and-citizenship check
-9. artistic-response check
-10. healthy-choice check
-11. movement and cooperation check
-12. sequencing and safe-use check
+- Use assessments after instruction, not as isolated gatekeeping tasks.
+- Keep evidence tied to the specific lesson targets.
+- Pair results with classroom observation and student work.
 
-## Recording Guidance
+## Assessment 1: Story Key Details and Retell
 
-- use `secure`, `developing`, and `not yet`
-- record oral, written, visual, and performance evidence as appropriate
-- note prompting level where it affects interpretation
+### Teacher Directions
+
+- Read or revisit a short narrative text.
+- Ask two key-detail questions.
+- Ask the student to retell beginning, middle, and end.
+
+### Evidence to Record
+
+- answers key-detail questions accurately
+- retells in order with relevant details
+
+## Assessment 2: Informational Text Questions
+
+### Teacher Directions
+
+- Provide a short informational text.
+- Ask a question about a key detail.
+- Ask what the text is mostly about.
+
+### Evidence to Record
+
+- identifies the topic
+- gives a relevant fact-based answer
+
+## Assessment 3: Decoding and Rereading
+
+### Teacher Directions
+
+- Ask the student to decode a short list of target words.
+- Ask the student to reread a short connected line or passage.
+
+### Evidence to Record
+
+- sound-symbol accuracy
+- blending success
+- smoother rereading
+
+## Assessment 4: Opinion Writing
+
+### Teacher Directions
+
+- Give a familiar topic.
+- Ask the student to state an opinion and one reason in speech or writing.
+
+### Evidence to Record
+
+- clear opinion
+- matching reason
+
+## Assessment 5: Informative Writing
+
+### Teacher Directions
+
+- Revisit a shared text or topic.
+- Ask the student to name the topic and give one fact.
+
+### Evidence to Record
+
+- topic named clearly
+- fact matches the topic
+
+## Assessment 6: Number Story
+
+### Teacher Directions
+
+- Present a short join or separate story.
+- Ask the student to show the math with objects or drawings and solve it.
+
+### Evidence to Record
+
+- story represented accurately
+- solution and explanation match the representation
+
+## Assessment 7: Plant Observation
+
+### Teacher Directions
+
+- Show a plant or plant image.
+- Ask the student to describe one observation and one plant need.
+
+### Evidence to Record
+
+- real observation
+- accurate plant need
+
+## Assessment 8: Map and Citizenship
+
+### Teacher Directions
+
+- Show a simple map.
+- Ask the student to identify a place and name one community responsibility.
+
+### Evidence to Record
+
+- map-reading accuracy
+- civic understanding
+
+## Assessment 9: Artistic Response
+
+### Teacher Directions
+
+- Give a prompt.
+- Ask the student to create a quick artistic response and explain one choice.
+
+### Evidence to Record
+
+- prompt-connected creation
+- one explained artistic choice
+
+## Assessment 10: Healthy Choice
+
+### Teacher Directions
+
+- Show an everyday scenario.
+- Ask the student to identify one healthy or safe choice and explain why.
+
+### Evidence to Record
+
+- identifies a helpful choice
+- gives a sensible explanation
+
+## Assessment 11: Movement and Cooperation
+
+### Teacher Directions
+
+- Ask the student to complete a short movement task with cues.
+- Include one partner or cooperative element.
+
+### Evidence to Record
+
+- cue response
+- safe movement control
+- cooperative participation
+
+## Assessment 12: Sequencing and Safe Use
+
+### Teacher Directions
+
+- Give a short set of steps to order.
+- Ask the student to follow them and state one safe digital-use norm.
+
+### Evidence to Record
+
+- sequencing accuracy
+- safe-use understanding
+
+## Recording Guidance Across the Pack
+
+- Mark evidence as `secure`, `developing`, or `not yet`.
+- Record oral, written, visual, and performance evidence as appropriate.
+- Note prompting level when it affects the score.
+
+## End-of-Volume Notes
+
+- This assessment pack is a real assembled draft, but it is not yet a final production assessment system.
+- It still needs assessment review, developmental-fit review, accessibility review, and classroom piloting.
 
 ## AI Use Record
 
