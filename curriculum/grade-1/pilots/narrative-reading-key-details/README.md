@@ -15,6 +15,13 @@ This package starts the Grade 1 curriculum layer with a literacy unit focused on
 - `support-materials/student-scaffold.md`
 - `support-materials/family-support-note.md`
 - `support-materials/support-review-record.md`
+- `classroom-materials/lesson-narrative.md`
+- `classroom-materials/classroom-assignment.md`
+- `classroom-materials/home-practice.md`
+- `classroom-materials/answer-key-and-exemplar.md`
+- `classroom-materials/scoring-guidance.md`
+- `classroom-materials/assessment-check.md`
+- `classroom-materials/assessment-key.md`
 
 ## Source Authority
 
@@ -28,4 +35,4 @@ This package is governed by:
 
 ## Status
 
-Draft Grade 1 pilot package for workflow and quality validation. Not approved for publication or classroom deployment without human review.
+Draft Grade 1 pilot package for workflow and quality validation. This package now includes a teacher-use classroom-material set, but it is not approved for publication or classroom deployment without human review.
