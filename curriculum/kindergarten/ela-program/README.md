@@ -32,3 +32,4 @@ The first fully authored module is now:
 
 - [module-01-launching-literacy-routines/README.md](/Volumes/data/development/oc/curriculum/kindergarten/ela-program/module-01-launching-literacy-routines/README.md)
 - [module-02-playing-with-sounds-and-language/README.md](/Volumes/data/development/oc/curriculum/kindergarten/ela-program/module-02-playing-with-sounds-and-language/README.md)
+- [module-04-letters-sounds-and-shared-reading/README.md](/Volumes/data/development/oc/curriculum/kindergarten/ela-program/module-04-letters-sounds-and-shared-reading/README.md)
