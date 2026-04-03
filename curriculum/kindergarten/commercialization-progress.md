@@ -20,9 +20,16 @@ Track the repository's progress from draft kindergarten program assembly toward 
 
 ### Phase 2. ELA Commercial-Grade Build
 
-- status: not started
+- status: in progress
 - target outcome:
   - a full-year kindergarten ELA subject program with real student pages, teacher materials, assessments, and reproducibles
+- current artifacts:
+  - [ela-program/README.md](/Volumes/data/development/oc/curriculum/kindergarten/ela-program/README.md)
+  - [ela-program/year-overview.md](/Volumes/data/development/oc/curriculum/kindergarten/ela-program/year-overview.md)
+  - [ela-program/module-structure.md](/Volumes/data/development/oc/curriculum/kindergarten/ela-program/module-structure.md)
+  - [ela-program/text-architecture.md](/Volumes/data/development/oc/curriculum/kindergarten/ela-program/text-architecture.md)
+  - [ela-program/standards-bands.md](/Volumes/data/development/oc/curriculum/kindergarten/ela-program/standards-bands.md)
+  - [ela-program/lesson-inventory.md](/Volumes/data/development/oc/curriculum/kindergarten/ela-program/lesson-inventory.md)
 
 ### Phase 3. Math Commercial-Grade Build
 
@@ -58,6 +65,6 @@ The kindergarten omnibus program currently exists, but it is still:
 
 ## Next Immediate Moves
 
-1. Reconcile current kindergarten packets and program artifacts against the new numeric targets.
-2. Create the first dedicated kindergarten ELA commercialization package.
-3. Define the full-year ELA module structure and lesson inventory.
+1. Reconcile the ELA lesson inventory against current literacy pilot coverage at lesson-page depth.
+2. Select the first ELA module to author in full, starting with Module 1.
+3. Define the full-year kindergarten math commercialization package.

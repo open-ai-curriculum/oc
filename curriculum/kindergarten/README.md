@@ -71,6 +71,12 @@ The kindergarten layer is now also being reset against a commercial-grade target
 - [commercialization-progress.md](/Volumes/data/development/oc/curriculum/kindergarten/commercialization-progress.md)
 - [current-vs-target-gap.md](/Volumes/data/development/oc/curriculum/kindergarten/current-vs-target-gap.md)
 
+## Canonical Subject Programs
+
+The first canonical subject-program source layer is now in place for ELA:
+
+- [ela-program/README.md](/Volumes/data/development/oc/curriculum/kindergarten/ela-program/README.md)
+
 These documents define the intended subject-program architecture, numeric production targets, and year-long instructional pacing.
 
 ## Program Layer

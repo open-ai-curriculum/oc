@@ -16,7 +16,7 @@
 
 - [x] T007 Create a full-year kindergarten master scope-and-sequence in `curriculum/kindergarten/master-scope-and-sequence.md`.
 - [x] T008 Define week bands, benchmark windows, and subject interleaving logic.
-- [ ] T009 Add traceable standards-band mapping from the scope-and-sequence into subject-program targets.
+- [x] T009 Add traceable standards-band mapping from the scope-and-sequence into subject-program targets.
 
 ## Phase 4: Repository Integration
 
@@ -26,6 +26,6 @@
 
 ## Phase 5: First Commercial-Grade Subject Build
 
-- [ ] T013 Create a dedicated kindergarten ELA commercialization build package.
-- [ ] T014 Define the full-year ELA module structure, text architecture, and lesson inventory.
+- [x] T013 Create a dedicated kindergarten ELA commercialization build package.
+- [x] T014 Define the full-year ELA module structure, text architecture, and lesson inventory.
 - [ ] T015 Define the full-year math module structure and lesson inventory.
