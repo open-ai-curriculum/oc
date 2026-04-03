@@ -169,6 +169,8 @@ Students count objects accurately and say how many are in a set.
 - Model one-to-one counting slowly.
 - Reinforce that the last number said tells how many.
 - Compare two small sets if appropriate.
+- Use spaced objects, frames, or mats so students can track quantity clearly.
+- Ask students to recount when the quantity is uncertain.
 
 ### Teacher Language
 
@@ -180,6 +182,7 @@ Students count objects accurately and say how many are in a set.
 
 - Does the student count each object once?
 - Does the student use the last number as the total?
+- Can the student compare two small sets using counting or visual reasoning?
 
 ### Accessibility Notes
 
@@ -201,6 +204,8 @@ Students observe the weather and help record what they notice.
 - Observe outside or use a weather image.
 - Name a visible condition.
 - Add the observation to a class chart.
+- Compare today with another recent day.
+- Encourage students to justify weather statements with something they can actually see or feel.
 
 ### Teacher Language
 
@@ -211,6 +216,7 @@ Students observe the weather and help record what they notice.
 
 - Can the student identify a weather condition?
 - Can the student contribute to the class chart?
+- Can the student name one thing that changed or stayed the same across days?
 
 ### Accessibility Notes
 
@@ -232,6 +238,8 @@ Students identify helpers and explain how they help at home, school, or in the c
 - Show pictures of helpers.
 - Sort helpers by context.
 - Ask how each person helps.
+- Connect helpers to real places students know.
+- Reinforce that communities include many roles and family structures.
 
 ### Teacher Language
 
@@ -242,6 +250,7 @@ Students identify helpers and explain how they help at home, school, or in the c
 
 - Can the student identify a helper?
 - Can the student describe a helping role?
+- Can the student connect a helper to an appropriate place or responsibility?
 
 ### Accessibility Notes
 
@@ -263,6 +272,8 @@ Students create an artistic response and share one feature or idea.
 - Give one simple prompt.
 - Allow drawing, collage, movement, or rhythm.
 - Invite short sharing.
+- Offer two or three material choices without over-directing the outcome.
+- Ask students to notice one color, sound, movement, or shape choice.
 
 ### Teacher Language
 
@@ -273,6 +284,7 @@ Students create an artistic response and share one feature or idea.
 
 - Does the student create in response to the prompt?
 - Can the student share one feature of the work?
+- Does the student use materials intentionally enough to communicate an idea or feeling?
 
 ### Accessibility Notes
 
@@ -294,6 +306,8 @@ Students name a feeling and identify a healthy or safe response.
 - Use feeling cards or visuals.
 - Model a safe response.
 - Practice response language or gestures.
+- Teach one concrete health routine such as handwashing, rest, or eating routines alongside feeling language.
+- Use scenarios rather than abstract definitions only.
 
 ### Teacher Language
 
@@ -304,6 +318,7 @@ Students name a feeling and identify a healthy or safe response.
 
 - Can the student name a feeling?
 - Can the student identify a healthy response?
+- Can the student connect a feeling or situation to an appropriate healthy habit or safe choice?
 
 ### Accessibility Notes
 
@@ -325,6 +340,8 @@ Students move safely, stop on cue, and balance briefly.
 - Model movement expectations clearly.
 - Practice freeze cues.
 - Introduce a simple balance pose.
+- Reinforce personal space and safe travel pathways.
+- Repeat cue-response cycles so students anticipate stop and go routines.
 
 ### Teacher Language
 
@@ -337,6 +354,7 @@ Students move safely, stop on cue, and balance briefly.
 - Can the student move safely in space?
 - Can the student stop on cue?
 - Can the student attempt a balance?
+- Can the student maintain awareness of shared space while moving?
 
 ### Accessibility Notes
 
@@ -358,6 +376,8 @@ Students order simple steps and follow them in sequence.
 - Model first, next, and last.
 - Order picture steps.
 - Follow the sequence with an unplugged or guided tool task.
+- Connect digital routines to familiar non-digital sequences.
+- Explicitly teach safe hands, turn-taking, and listening to directions.
 
 ### Teacher Language
 
@@ -369,6 +389,7 @@ Students order simple steps and follow them in sequence.
 
 - Can the student order steps?
 - Can the student follow the sequence?
+- Can the student identify one safe or respectful tool-use behavior?
 
 ### Accessibility Notes
 

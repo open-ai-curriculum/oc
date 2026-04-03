@@ -79,6 +79,12 @@ Provide a real kindergarten practice-book draft assembled from packet classroom 
 - Look at two small groups.
 - Mark which group has more.
 
+### Practice Page 11: Show the Last Number
+
+- Count a small set.
+- Trace or circle the last number you said.
+- Tell a partner, "There are ___."
+
 ## Section 6: Weather Practice
 
 ### Practice Page 11: What Is the Weather Today?
@@ -91,6 +97,11 @@ Provide a real kindergarten practice-book draft assembled from packet classroom 
 - Draw today's weather.
 - Tell one thing you notice.
 
+### Practice Page 13: Same or Different Weather?
+
+- Look at two weather pictures.
+- Tell one thing that is the same or different.
+
 ## Section 7: Community Practice
 
 ### Practice Page 13: Match the Helper
@@ -101,6 +112,10 @@ Provide a real kindergarten practice-book draft assembled from packet classroom 
 
 - Complete the frame:
   - "A ___ helps by ___."
+
+### Practice Page 15: Match the Place
+
+- Match a helper to a place like school, home, library, or park.
 
 ## Section 8: Creative Practice
 
@@ -113,6 +128,12 @@ Provide a real kindergarten practice-book draft assembled from packet classroom 
 - Finish the sentence:
   - "I made ___."
 
+### Practice Page 17: Choose a Material
+
+- Look at art materials.
+- Circle what you used or want to use.
+- Tell why.
+
 ## Section 9: Feelings and Health Practice
 
 ### Practice Page 17: Name the Feeling
@@ -124,6 +145,10 @@ Provide a real kindergarten practice-book draft assembled from packet classroom 
 
 - Draw a line from the feeling to a healthy or safe choice.
 
+### Practice Page 19: Healthy Habit Sort
+
+- Sort picture cards into healthy habit and not a healthy habit.
+
 ## Section 10: Movement Practice
 
 ### Practice Page 19: Move and Freeze Reflection
@@ -134,6 +159,10 @@ Provide a real kindergarten practice-book draft assembled from packet classroom 
 
 - Mark the pose you tried today.
 - Tell how your body felt.
+
+### Practice Page 21: Safe Space Check
+
+- Circle the picture that shows safe movement space.
 
 ## Section 11: Sequencing Practice
 
@@ -148,6 +177,11 @@ Provide a real kindergarten practice-book draft assembled from packet classroom 
   - "Next ___."
   - "Last ___."
 
+### Practice Page 23: Safe Tool Steps
+
+- Put pictures of tool-use steps in order.
+- Point to the step that shows safe hands.
+
 ## Home Practice Strip
 
 - Read a book and show where reading starts.
@@ -161,6 +195,7 @@ Provide a real kindergarten practice-book draft assembled from packet classroom 
 - Name a feeling and a safe choice.
 - Move and freeze.
 - Talk about steps in order.
+- Use tools carefully with a grown-up.
 
 ## End-of-Volume Notes
 

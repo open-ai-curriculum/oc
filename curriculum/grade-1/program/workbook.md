@@ -85,6 +85,11 @@ Provide a real Grade 1 practice-book draft assembled from packet classroom assig
 
 - Tell or write how you solved it.
 
+### Practice Page 13: Two Ways to Show It
+
+- Solve one number story.
+- Show it with a drawing and an equation or words.
+
 ## Section 7: Plant Observation Practice
 
 ### Practice Page 13: What Does a Plant Need?
@@ -94,6 +99,11 @@ Provide a real Grade 1 practice-book draft assembled from packet classroom assig
 ### Practice Page 14: Record an Observation
 
 - Draw or write one thing you notice about a plant.
+
+### Practice Page 15: Compare Plant Changes
+
+- Look at two plant pictures from different days.
+- Tell or write one change you notice.
 
 ## Section 8: Community and Map Practice
 
@@ -105,6 +115,10 @@ Provide a real Grade 1 practice-book draft assembled from packet classroom assig
 
 - Write or say one way people care for shared places.
 
+### Practice Page 17: Read the Map Key
+
+- Match a map symbol to the place it stands for.
+
 ## Section 9: Arts Practice
 
 ### Practice Page 17: Create from a Prompt
@@ -115,35 +129,55 @@ Provide a real Grade 1 practice-book draft assembled from packet classroom assig
 
 - Tell or write one choice you made in your work.
 
+### Practice Page 19: Revise the Work
+
+- Add one detail to your art or performance plan.
+- Explain what the new detail adds.
+
 ## Section 10: Health Practice
 
-### Practice Page 19: Safe or Unsafe?
+### Practice Page 20: Safe or Unsafe?
 
 - Sort simple examples into healthy/safe and not safe.
 
-### Practice Page 20: Feelings and Responses
+### Practice Page 21: Feelings and Responses
 
 - Match a feeling to one helpful response.
 
+### Practice Page 22: Healthy Daily Choice
+
+- Circle one healthy habit.
+- Tell why it helps.
+
 ## Section 11: PE Practice
 
-### Practice Page 21: Move and Cooperate
+### Practice Page 23: Move and Cooperate
 
 - Reflect on one movement and one partner skill.
 
-### Practice Page 22: Follow the Cue
+### Practice Page 24: Follow the Cue
 
 - Show how you changed speed, direction, or stopped safely.
 
+### Practice Page 25: Pathway Check
+
+- Look at movement pathways.
+- Mark the one that gives safe space to others.
+
 ## Section 12: Technology and Sequencing Practice
 
-### Practice Page 23: Put the Steps in Order
+### Practice Page 26: Put the Steps in Order
 
 - Number a short set of steps 1, 2, 3.
 
-### Practice Page 24: Safe Digital Choice
+### Practice Page 27: Safe Digital Choice
 
 - Identify one safe and respectful digital-use choice.
+
+### Practice Page 28: Fix the Mixed-Up Steps
+
+- Read or look at a short algorithm.
+- Put the mixed-up steps back in order.
 
 ## Home Practice Strip
 

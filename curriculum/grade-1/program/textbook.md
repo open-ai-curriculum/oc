@@ -156,6 +156,16 @@ They can say:
 - how they showed it
 - how they found the answer
 
+### Page 13: Different Strategies Can Work
+
+One student may use counters.
+
+Another student may draw a picture.
+
+Another student may write an equation.
+
+Different strategies can solve the same story if they match what happened.
+
 ### Talk About It
 
 - Did the story show joining or separating?
@@ -182,6 +192,16 @@ They use:
 - drawings
 - labels
 
+### Page 15: Plants Change Over Time
+
+Plants may grow new leaves.
+
+They may get taller.
+
+They may change when they get enough water and light.
+
+Scientists compare what they see over time.
+
 ### Talk About It
 
 - What do plants need?
@@ -205,6 +225,19 @@ It can show:
 People help communities work well.
 
 They follow rules and take care of shared spaces.
+
+### Page 17: Symbols Help Us Read Maps
+
+Maps use symbols and labels to show places.
+
+A symbol can stand for:
+
+- a school
+- a park
+- a road
+- a library
+
+Readers use the key to understand the map.
 
 ### Talk About It
 
@@ -230,6 +263,14 @@ Artists can explain:
 - what they chose
 - what they want others to notice
 
+### Page 19: Artists Can Revise Their Work
+
+Artists sometimes add a detail.
+
+They may change a color, shape, sound, or movement.
+
+Revision helps artists make their idea clearer.
+
 ### Talk About It
 
 - What did you create?
@@ -237,13 +278,13 @@ Artists can explain:
 
 ## Unit 10: Nutrition, Safety, and Emotions
 
-### Page 19: Healthy and Safe Choices Matter
+### Page 20: Healthy and Safe Choices Matter
 
 People make choices that affect health and safety.
 
 Some choices help our bodies and minds.
 
-### Page 20: Feelings Can Be Named and Managed
+### Page 21: Feelings Can Be Named and Managed
 
 People can name feelings and choose helpful responses.
 
@@ -253,6 +294,17 @@ Helpful responses include:
 - taking a calm breath
 - making a safe choice
 
+### Page 22: Healthy Choices Help Us Every Day
+
+Healthy choices include:
+
+- washing hands
+- eating healthy foods
+- resting
+- wearing safety gear when needed
+
+These choices help keep our bodies and minds ready.
+
 ### Talk About It
 
 - What is one healthy choice?
@@ -260,7 +312,7 @@ Helpful responses include:
 
 ## Unit 11: Locomotor Skills and Cooperation
 
-### Page 21: Bodies Move in Different Ways
+### Page 23: Bodies Move in Different Ways
 
 People can:
 
@@ -271,11 +323,22 @@ People can:
 
 They can also change speed and direction.
 
-### Page 22: Cooperation Helps Movement Work
+### Page 24: Cooperation Helps Movement Work
 
 Partners listen, share space, and follow cues.
 
 Working together helps everyone move safely.
+
+### Page 25: Cues Help Us Change Movement
+
+Teachers or partners may give cues such as:
+
+- faster
+- slower
+- stop
+- change direction
+
+Listening to cues helps people move with control.
 
 ### Talk About It
 
@@ -284,13 +347,13 @@ Working together helps everyone move safely.
 
 ## Unit 12: Digital Citizenship and Algorithmic Thinking
 
-### Page 23: Steps Can Solve Problems
+### Page 26: Steps Can Solve Problems
 
 An algorithm is a set of steps in order.
 
 People can give and follow steps to complete a task.
 
-### Page 24: Digital Tools Should Be Used Safely
+### Page 27: Digital Tools Should Be Used Safely
 
 People should be safe and respectful with digital tools.
 
@@ -299,6 +362,14 @@ They should:
 - listen to directions
 - use tools for the right purpose
 - ask for help when needed
+
+### Page 28: Algorithms Need Clear Order
+
+If the steps are out of order, the task may not work.
+
+People test steps, fix them, and try again.
+
+That helps the algorithm make sense.
 
 ### Talk About It
 

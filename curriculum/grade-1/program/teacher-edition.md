@@ -208,6 +208,8 @@ Students solve a number story with objects, drawings, or equations and explain t
 - present a short join or separate story
 - model representation with objects or drawings
 - compare strategies
+- invite more than one valid representation when time allows
+- connect objects, drawings, and equations explicitly
 
 ### Teacher Language
 
@@ -220,6 +222,7 @@ Students solve a number story with objects, drawings, or equations and explain t
 - accurate representation of the story
 - reasonable strategy use
 - explanation tied to the representation
+- can compare or interpret more than one strategy for the same story
 
 ### Accessibility Notes
 
@@ -241,6 +244,8 @@ Students observe plants, identify needs, and record evidence from observation.
 - observe a real plant or image
 - discuss plant needs and visible evidence
 - record one observation
+- revisit the same plant over time
+- model the difference between an observation and a guess
 
 ### Teacher Language
 
@@ -252,6 +257,7 @@ Students observe plants, identify needs, and record evidence from observation.
 - names one plant need
 - records a real observation
 - uses evidence rather than guessing
+- notices one change or pattern across observations
 
 ### Accessibility Notes
 
@@ -273,6 +279,8 @@ Students use a simple map and discuss responsible participation in shared spaces
 - study a simple community or school map
 - identify places and routes
 - connect map reading to community responsibilities
+- explicitly teach how a symbol key works
+- connect citizenship to care for shared spaces and routines
 
 ### Teacher Language
 
@@ -284,6 +292,7 @@ Students use a simple map and discuss responsible participation in shared spaces
 - reads a simple map feature
 - identifies a place accurately
 - names one civic responsibility
+- uses a key or label to interpret a map symbol
 
 ### Accessibility Notes
 
@@ -305,6 +314,8 @@ Students create an artistic response and explain one choice they made.
 - introduce a clear prompt
 - allow multiple creative modes
 - support short sharing and reflection
+- invite one simple revision or added detail
+- help students name one intentional choice in the work
 
 ### Teacher Language
 
@@ -315,6 +326,7 @@ Students create an artistic response and explain one choice they made.
 
 - creates in response to the prompt
 - explains one feature or choice
+- revises or extends the work in a purposeful way when prompted
 
 ### Accessibility Notes
 
@@ -336,6 +348,8 @@ Students identify healthy or safe choices and explain why they help.
 - sort simple examples
 - discuss safe and healthy choices
 - connect feelings to helpful responses
+- use daily-life scenarios instead of decontextualized lists alone
+- ask students to explain why a choice helps
 
 ### Teacher Language
 
@@ -348,6 +362,7 @@ Students identify healthy or safe choices and explain why they help.
 - identifies a healthy or safe choice
 - explains why it helps
 - connects feeling and response appropriately
+- applies a healthy or safe choice to a familiar scenario
 
 ### Accessibility Notes
 
@@ -369,6 +384,8 @@ Students move with control, respond to cues, and cooperate with a partner.
 - model travel patterns
 - cue speed and direction changes
 - structure a simple partner task
+- teach pathway awareness and safe spacing explicitly
+- rehearse partner routines before the full movement task
 
 ### Teacher Language
 
@@ -381,6 +398,7 @@ Students move with control, respond to cues, and cooperate with a partner.
 - safe movement control
 - response to cues
 - partner cooperation
+- awareness of shared space while moving
 
 ### Accessibility Notes
 
@@ -402,6 +420,8 @@ Students give and follow clear steps and discuss one safe digital-use norm.
 - model a short sequence
 - order and test steps
 - connect the sequence task to one digital-safety expectation
+- use unplugged algorithm tasks before device tasks
+- include a simple debugging routine when steps fail
 
 ### Teacher Language
 
@@ -414,6 +434,7 @@ Students give and follow clear steps and discuss one safe digital-use norm.
 - orders steps correctly
 - follows the sequence
 - names a safe-use norm
+- can notice when a step order fails and help correct it
 
 ### Accessibility Notes
 

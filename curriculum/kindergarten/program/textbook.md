@@ -150,6 +150,18 @@ When you finish counting, say the last number again.
 
 That number tells how many are in the set.
 
+### Page 11: Compare Two Small Sets
+
+Sometimes we look at two groups.
+
+We can ask:
+
+- Which group has more?
+- Which group has fewer?
+- Are they the same?
+
+We can use our eyes, our fingers, and careful counting.
+
 ### Talk About It
 
 - Count a small group.
@@ -179,6 +191,14 @@ We can use:
 
 to show today's weather.
 
+### Page 13: Weather Can Change
+
+Some days are sunny.
+
+Some days are cloudy or rainy.
+
+We can compare today to yesterday and notice what changed.
+
 ### Talk About It
 
 - What is the weather like today?
@@ -204,6 +224,17 @@ A caregiver helps children grow.
 
 A firefighter helps keep people safe.
 
+### Page 15: Places in Our Community
+
+People help in many places:
+
+- homes
+- schools
+- libraries
+- parks
+
+Different places have different jobs and rules.
+
 ### Talk About It
 
 - Name one helper.
@@ -228,6 +259,18 @@ When we share, we can say:
 - what we noticed
 - what it means to us
 
+### Page 17: Art Can Use Many Materials
+
+Artists can use:
+
+- crayons
+- paper
+- paint
+- music
+- movement
+
+Each material helps us create in a different way.
+
 ### Talk About It
 
 - Make something simple.
@@ -251,6 +294,17 @@ When we have a big feeling, we can:
 - breathe slowly
 - ask for help
 - take a calm break
+
+### Page 19: Healthy Habits Help Our Bodies
+
+Healthy habits include:
+
+- washing hands
+- resting
+- eating healthy foods
+- moving our bodies
+
+Healthy habits help us feel ready to learn and play.
 
 ### Talk About It
 
@@ -278,6 +332,16 @@ We can freeze.
 
 We can balance with control.
 
+### Page 21: Share Space Safely
+
+When we move with others, we:
+
+- keep our bodies in our own space
+- watch where we are going
+- slow down when we need to
+
+Safe movement helps everyone participate.
+
 ### Talk About It
 
 - Show one safe movement.
@@ -301,6 +365,18 @@ We can say:
 - first
 - next
 - last
+
+### Page 23: Tools Need Safe Steps
+
+Some tools are digital tools.
+
+We use them by:
+
+- listening to directions
+- taking turns
+- using careful hands
+
+Safe steps help tools work well.
 
 ### Talk About It
 
