@@ -11,6 +11,7 @@ This directory defines the kindergarten ELA subject program as a canonical sourc
 - `text-architecture.md`
 - `standards-bands.md`
 - `lesson-inventory.md`
+- `module-01-launching-literacy-routines/`
 
 ## Relationship To Existing Kindergarten Literacy Pilots
 
@@ -26,3 +27,7 @@ This package absorbs those strands into a full-year ELA architecture rather than
 ## Status
 
 Draft commercialization package. It defines annual structure and targets for kindergarten ELA, but it does not yet provide fully authored daily lesson pages or final selected text sets.
+
+The first fully authored module is now:
+
+- [module-01-launching-literacy-routines/README.md](/Volumes/data/development/oc/curriculum/kindergarten/ela-program/module-01-launching-literacy-routines/README.md)

@@ -30,6 +30,7 @@ Track the repository's progress from draft kindergarten program assembly toward 
   - [ela-program/text-architecture.md](/Volumes/data/development/oc/curriculum/kindergarten/ela-program/text-architecture.md)
   - [ela-program/standards-bands.md](/Volumes/data/development/oc/curriculum/kindergarten/ela-program/standards-bands.md)
   - [ela-program/lesson-inventory.md](/Volumes/data/development/oc/curriculum/kindergarten/ela-program/lesson-inventory.md)
+  - [ela-program/module-01-launching-literacy-routines/README.md](/Volumes/data/development/oc/curriculum/kindergarten/ela-program/module-01-launching-literacy-routines/README.md)
 
 ### Phase 3. Math Commercial-Grade Build
 
@@ -66,5 +67,5 @@ The kindergarten omnibus program currently exists, but it is still:
 ## Next Immediate Moves
 
 1. Reconcile the ELA lesson inventory against current literacy pilot coverage at lesson-page depth.
-2. Select the first ELA module to author in full, starting with Module 1.
+2. Review Module 1 for text quality, multilingual support, and teacher-asset completeness before cloning the pattern into Module 2.
 3. Define the full-year kindergarten math commercialization package.
