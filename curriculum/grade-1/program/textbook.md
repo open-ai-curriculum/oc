@@ -23,6 +23,12 @@ Provide a real Grade 1 student-facing textbook draft assembled from the governed
 - Support vocabulary and text access with visuals, repeated readings, and modeled think-alouds.
 - Treat this volume as teacher-guided curriculum text, not as a stand-alone independent textbook.
 
+## Cross-Volume Navigation
+
+- Use this textbook with [workbook.md](/Volumes/data/development/oc/curriculum/grade-1/program/workbook.md) sections 1-12.
+- Use [teacher-edition.md](/Volumes/data/development/oc/curriculum/grade-1/program/teacher-edition.md) for instruction, asset use, and observation guidance.
+- Use [assessment-pack.md](/Volumes/data/development/oc/curriculum/grade-1/program/assessment-pack.md) and [grading-key.md](/Volumes/data/development/oc/curriculum/grade-1/program/grading-key.md) to interpret evidence after teaching.
+
 ## Unit 1: Reading Stories for Key Details
 
 ### Page 1: Stories Have Important Details

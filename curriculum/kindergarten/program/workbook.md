@@ -23,6 +23,13 @@ Provide a real kindergarten practice-book draft assembled from packet classroom 
 - Do not require full written production when the lesson target can be shown orally or physically.
 - Keep page use flexible; the workbook is a support tool, not the lesson itself.
 
+## Cross-Volume Navigation
+
+- Section 1 pairs to textbook Chapter 1 and teacher-edition Chapter 1.
+- Section 2 pairs to textbook Chapter 2 and teacher-edition Chapter 2.
+- Sections 3-11 pair to the matching chapter numbers in the textbook and teacher edition.
+- Pull copy masters from [reproducibles.md](/Volumes/data/development/oc/curriculum/kindergarten/program/reproducibles.md) when a page should be used as a card, strip, chart, or center activity instead of a bound page.
+
 ## Section 1: Books and Print Practice
 
 ### Practice Page 1: Show the Book Parts

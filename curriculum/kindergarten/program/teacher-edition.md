@@ -17,6 +17,12 @@ Provide a real teacher-facing kindergarten edition assembled from packet lesson 
 - Use the lesson narrative as the base delivery script.
 - Use the observation checklist, scoring guidance, and assessment pack together.
 
+## Chapter Crosswalk
+
+- Chapter 1 pairs with textbook Chapter 1, workbook Section 1, assessment 1, and grading-key Section 1.
+- Chapter 2 pairs with textbook Chapter 2, workbook Section 2, assessment 2, and grading-key Section 2.
+- Chapters 3-11 pair with the matching chapter or section numbers across the assembled volumes.
+
 ## Grade-Level Pacing Overview
 
 1. Read-alouds and print concepts

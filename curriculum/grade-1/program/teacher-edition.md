@@ -17,6 +17,12 @@ Provide a real teacher-facing Grade 1 edition assembled from packet lesson narra
 - Use packet lesson narratives as the base delivery model.
 - Use observation checklists, scoring guidance, and the assessment pack together.
 
+## Chapter Crosswalk
+
+- Chapter 1 pairs with textbook Unit 1, workbook Section 1, assessment 1, and grading-key Section 1.
+- Chapter 2 pairs with textbook Unit 2, workbook Section 2, assessment 2, and grading-key Section 2.
+- Chapters 3-12 pair with the matching unit or section numbers across the assembled volumes.
+
 ## Grade-Level Pacing Overview
 
 1. narrative reading and key details

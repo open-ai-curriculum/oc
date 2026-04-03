@@ -23,6 +23,12 @@ Provide a real Grade 1 practice-book draft assembled from packet classroom assig
 - Reduce copying load when it does not serve the target skill.
 - Treat workbook pages as flexible practice formats rather than fixed compliance tasks.
 
+## Cross-Volume Navigation
+
+- Sections 1-5 pair with textbook Units 1-5 and teacher-edition Chapters 1-5.
+- Sections 6-12 pair with textbook Units 6-12 and teacher-edition Chapters 6-12.
+- Pull charts, mats, slips, and organizers from [reproducibles.md](/Volumes/data/development/oc/curriculum/grade-1/program/reproducibles.md) when a lesson needs a reusable or enlarged format.
+
 ## Section 1: Narrative Reading Practice
 
 ### Practice Page 1: Important Detail or Extra Detail?

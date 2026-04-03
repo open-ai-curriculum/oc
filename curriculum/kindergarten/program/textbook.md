@@ -35,6 +35,12 @@ Provide a real kindergarten student-facing textbook draft assembled from the gov
 - Keep pages teacher-mediated; this volume is not designed for independent silent reading.
 - Use visuals, repeated language, and concrete objects whenever the lesson calls for them.
 
+## Cross-Volume Navigation
+
+- Use this textbook with [workbook.md](/Volumes/data/development/oc/curriculum/kindergarten/program/workbook.md) sections 1-11.
+- Use [teacher-edition.md](/Volumes/data/development/oc/curriculum/kindergarten/program/teacher-edition.md) for delivery, observation, and asset references.
+- Use [assessment-pack.md](/Volumes/data/development/oc/curriculum/kindergarten/program/assessment-pack.md) and [grading-key.md](/Volumes/data/development/oc/curriculum/kindergarten/program/grading-key.md) after instruction, not in place of it.
+
 ## Chapter 1: Books and Print
 
 ### Page 1: A Book Has Parts
