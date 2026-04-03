@@ -13,6 +13,7 @@ This directory assembles packet-level Grade 1 artifacts into grade-level program
 - `assessment-pack.md`
 - `print-ready-design-spec.md`
 - `reproducible-format-spec.md`
+- `print-ready/`
 - `non-literacy-program-guide.md`
 - `reproducibles.md`
 - `exemplar-student-responses.md`

@@ -6,7 +6,7 @@ Use this packet when print-ready kindergarten layouts exist.
 
 ## Status
 
-Pending execution. No print-ready kindergarten files currently exist in the repository.
+Pending execution. Initial print-ready HTML templates now exist under `/Volumes/data/development/oc/curriculum/kindergarten/program/print-ready/`.
 
 ## Review Targets
 

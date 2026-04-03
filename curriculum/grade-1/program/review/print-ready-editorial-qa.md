@@ -6,7 +6,7 @@ Use this packet when print-ready Grade 1 layouts exist.
 
 ## Status
 
-Pending execution. No print-ready Grade 1 files currently exist in the repository.
+Pending execution. Initial print-ready HTML templates now exist under `/Volumes/data/development/oc/curriculum/grade-1/program/print-ready/`.
 
 ## Review Targets
 

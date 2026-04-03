@@ -13,6 +13,7 @@ This directory assembles packet-level kindergarten artifacts into grade-level pr
 - `assessment-pack.md`
 - `print-ready-design-spec.md`
 - `reproducible-format-spec.md`
+- `print-ready/`
 - `non-literacy-program-guide.md`
 - `reproducibles.md`
 - `exemplar-student-responses.md`
