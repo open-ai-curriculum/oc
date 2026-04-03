@@ -22,7 +22,8 @@ research/
 ├── 11-oer-governance/                  # Licensing, stewardship, sustainability
 ├── 12-hqim-and-review/                 # Curriculum quality review models
 ├── 13-subject-foundations/             # Discipline-specific research starting points
-└── 14-production-templates/            # Authoring and release workflow templates
+├── 14-production-templates/            # Authoring and release workflow templates
+└── 15-market-assessment/               # Comparative market and product-gap analysis
 ```
 
 ## Research Focus Areas
@@ -60,6 +61,7 @@ See:
 - [Research Gap Remediation Plan](./RESEARCH_GAP_REMEDIATION_PLAN.md)
 - [Research Methodology](./research-methodology.md)
 - [Research References](./references.md)
+- [Market Assessment](./15-market-assessment/README.md)
 
 ## Key Findings Summary
 
