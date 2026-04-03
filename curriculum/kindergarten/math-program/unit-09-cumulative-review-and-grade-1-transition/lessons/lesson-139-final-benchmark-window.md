@@ -1,0 +1,21 @@
+# Lesson: Final Benchmark Window
+
+## Lesson Metadata
+
+- Lesson title: Final Benchmark Window
+- Lesson ID: `KMATH-139`
+- Unit: `k-math-unit-09`
+- Subject: Mathematics
+- Grade / grade band: Kindergarten
+- Estimated duration: 25 minutes
+- Review status: Draft
+
+## Standards and Objective
+
+- Standards addressed:
+  - CCSS.MATH.CONTENT.K.CC.B.4
+  - CCSS.MATH.CONTENT.K.OA.A.2
+  - CCSS.MATH.CONTENT.K.NBT.A.1
+  - CCSS.MATH.CONTENT.K.MD.B.3
+- Lesson objective:
+  - Students will demonstrate current end-of-year math understanding during the final benchmark window.

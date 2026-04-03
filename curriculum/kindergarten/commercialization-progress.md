@@ -45,9 +45,29 @@ Track the repository's progress from draft kindergarten program assembly toward 
 
 ### Phase 3. Math Commercial-Grade Build
 
-- status: not started
+- status: in progress
 - target outcome:
   - a full-year kindergarten math subject program with real student pages, teacher materials, assessments, and manipulatives guidance
+- current artifacts:
+  - [math-program/README.md](/Volumes/data/development/oc/curriculum/kindergarten/math-program/README.md)
+  - [math-program/year-overview.md](/Volumes/data/development/oc/curriculum/kindergarten/math-program/year-overview.md)
+  - [math-program/unit-structure.md](/Volumes/data/development/oc/curriculum/kindergarten/math-program/unit-structure.md)
+  - [math-program/manipulative-and-practice-architecture.md](/Volumes/data/development/oc/curriculum/kindergarten/math-program/manipulative-and-practice-architecture.md)
+  - [math-program/assessment-architecture.md](/Volumes/data/development/oc/curriculum/kindergarten/math-program/assessment-architecture.md)
+  - [math-program/standards-bands.md](/Volumes/data/development/oc/curriculum/kindergarten/math-program/standards-bands.md)
+  - [math-program/lesson-inventory.md](/Volumes/data/development/oc/curriculum/kindergarten/math-program/lesson-inventory.md)
+  - [math-program/unit-01-launching-math-routines-and-counting-to-5/README.md](/Volumes/data/development/oc/curriculum/kindergarten/math-program/unit-01-launching-math-routines-and-counting-to-5/README.md)
+  - [math-program/unit-02-counting-to-10-and-comparing-sets/README.md](/Volumes/data/development/oc/curriculum/kindergarten/math-program/unit-02-counting-to-10-and-comparing-sets/README.md)
+  - [math-program/unit-03-compose-and-decompose-numbers-within-10/README.md](/Volumes/data/development/oc/curriculum/kindergarten/math-program/unit-03-compose-and-decompose-numbers-within-10/README.md)
+  - [math-program/unit-04-shapes-and-positional-reasoning/README.md](/Volumes/data/development/oc/curriculum/kindergarten/math-program/unit-04-shapes-and-positional-reasoning/README.md)
+  - [math-program/unit-05-addition-situations-within-10/README.md](/Volumes/data/development/oc/curriculum/kindergarten/math-program/unit-05-addition-situations-within-10/README.md)
+  - [math-program/unit-06-subtraction-situations-within-10/README.md](/Volumes/data/development/oc/curriculum/kindergarten/math-program/unit-06-subtraction-situations-within-10/README.md)
+  - [math-program/unit-07-teen-numbers-and-base-ten-foundations/README.md](/Volumes/data/development/oc/curriculum/kindergarten/math-program/unit-07-teen-numbers-and-base-ten-foundations/README.md)
+  - [math-program/unit-08-measurement-and-data/README.md](/Volumes/data/development/oc/curriculum/kindergarten/math-program/unit-08-measurement-and-data/README.md)
+  - [math-program/unit-09-cumulative-review-and-grade-1-transition/README.md](/Volumes/data/development/oc/curriculum/kindergarten/math-program/unit-09-cumulative-review-and-grade-1-transition/README.md)
+  - [math-program/print-ready/README.md](/Volumes/data/development/oc/curriculum/kindergarten/math-program/print-ready/README.md)
+- current review judgment:
+  - the annual math source-product layer now exists end to end, and each authored unit now has a student-facing draft print-ready layout
 
 ### Phase 4. Non-Literacy Subject Program Build
 
@@ -78,5 +98,5 @@ The kindergarten omnibus program currently exists, but it is still:
 ## Next Immediate Moves
 
 1. Author the next kindergarten ELA modules using the strengthened four-layer commercialization pattern.
-2. Finalize approved text packages and convert the strengthened module assets into designed production files for Modules 1, 2, 4, and 6.
-3. Prepare the strengthened module set for specialist human review.
+2. Refine the full-year math print-ready layer so the unit layouts, reproducibles, and teacher-facing directions are calibrated to one commercial-style visual system.
+3. Finalize approved ELA text packages and convert strengthened ELA module assets into designed production files.

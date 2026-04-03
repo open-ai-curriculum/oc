@@ -28,4 +28,4 @@
 
 - [x] T013 Create a dedicated kindergarten ELA commercialization build package.
 - [x] T014 Define the full-year ELA module structure, text architecture, and lesson inventory.
-- [ ] T015 Define the full-year math module structure and lesson inventory.
+- [x] T015 Define the full-year math module structure and lesson inventory.

@@ -10,6 +10,8 @@ The repository now has draft packet, program, and print-ready artifacts. This di
 
 - `kindergarten-commercial-gap-assessment.md`
 - `kindergarten-commercial-remediation-plan.md`
+- `k-1-commercial-comparative-analysis.md`
+- `kindergarten-commercial-parity-plan.md`
 
 ## Scope Note
 
