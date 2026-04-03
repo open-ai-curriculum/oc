@@ -34,3 +34,8 @@ The first fully authored module is now:
 - [module-02-playing-with-sounds-and-language/README.md](/Volumes/data/development/oc/curriculum/kindergarten/ela-program/module-02-playing-with-sounds-and-language/README.md)
 - [module-04-letters-sounds-and-shared-reading/README.md](/Volumes/data/development/oc/curriculum/kindergarten/ela-program/module-04-letters-sounds-and-shared-reading/README.md)
 - [module-06-from-sounds-to-words/README.md](/Volumes/data/development/oc/curriculum/kindergarten/ela-program/module-06-from-sounds-to-words/README.md)
+
+The current set-level commercialization review is:
+
+- [review/module-set-commercialization-review.md](/Volumes/data/development/oc/curriculum/kindergarten/ela-program/review/module-set-commercialization-review.md)
+- [review/module-set-commercialization-rereview.md](/Volumes/data/development/oc/curriculum/kindergarten/ela-program/review/module-set-commercialization-rereview.md)

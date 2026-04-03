@@ -34,6 +34,14 @@ Track the repository's progress from draft kindergarten program assembly toward 
   - [ela-program/module-02-playing-with-sounds-and-language/README.md](/Volumes/data/development/oc/curriculum/kindergarten/ela-program/module-02-playing-with-sounds-and-language/README.md)
   - [ela-program/module-04-letters-sounds-and-shared-reading/README.md](/Volumes/data/development/oc/curriculum/kindergarten/ela-program/module-04-letters-sounds-and-shared-reading/README.md)
   - [ela-program/module-06-from-sounds-to-words/README.md](/Volumes/data/development/oc/curriculum/kindergarten/ela-program/module-06-from-sounds-to-words/README.md)
+  - [ela-program/review/module-set-commercialization-review.md](/Volumes/data/development/oc/curriculum/kindergarten/ela-program/review/module-set-commercialization-review.md)
+  - [ela-program/review/module-set-commercialization-rereview.md](/Volumes/data/development/oc/curriculum/kindergarten/ela-program/review/module-set-commercialization-rereview.md)
+- current review judgment:
+  - the authored module set is now a stronger commercialization pattern and can be used for continued module authoring
+- required remediation before broad scaling:
+  - finalize approved text lists and rights-cleared sources
+  - convert draft teacher narratives and reproducibles into designed production assets
+  - complete specialist literacy, multilingual-learning, accessibility, and HQIM review
 
 ### Phase 3. Math Commercial-Grade Build
 
@@ -69,6 +77,6 @@ The kindergarten omnibus program currently exists, but it is still:
 
 ## Next Immediate Moves
 
-1. Review Modules 1, 2, 4, and 6 for text quality, multilingual support, and teacher-asset completeness.
-2. Define the full-year kindergarten math commercialization package.
-3. Decide whether Module 3 or Module 5 is the next authored ELA build priority.
+1. Author the next kindergarten ELA modules using the strengthened four-layer commercialization pattern.
+2. Finalize approved text packages and convert the strengthened module assets into designed production files for Modules 1, 2, 4, and 6.
+3. Prepare the strengthened module set for specialist human review.

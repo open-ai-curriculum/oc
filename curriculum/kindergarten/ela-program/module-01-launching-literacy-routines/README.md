@@ -11,6 +11,12 @@ It converts the annual ELA architecture into an actual four-week module with dai
 - `module.md`
 - `standards-map.md`
 - `review-record.md`
+- `teacher-assets.md`
+- `lesson-teacher-narratives.md`
+- `text-system.md`
+- `multilingual-supports.md`
+- `assessment-calibration.md`
+- `reproducibles.md`
 - `lessons/`
 
 ## Scope
