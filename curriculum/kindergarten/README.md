@@ -61,6 +61,18 @@ The kindergarten layer still does not yet provide:
 - expert-reviewed non-literacy subject packets
 - a reviewed scope-and-sequence with expert validation across all subjects
 
+## Commercialization Buildout
+
+The kindergarten layer is now also being reset against a commercial-grade target model. Use these files before expanding the omnibus books:
+
+- [commercial-product-architecture.md](/Volumes/data/development/oc/curriculum/kindergarten/commercial-product-architecture.md)
+- [commercial-build-targets.md](/Volumes/data/development/oc/curriculum/kindergarten/commercial-build-targets.md)
+- [master-scope-and-sequence.md](/Volumes/data/development/oc/curriculum/kindergarten/master-scope-and-sequence.md)
+- [commercialization-progress.md](/Volumes/data/development/oc/curriculum/kindergarten/commercialization-progress.md)
+- [current-vs-target-gap.md](/Volumes/data/development/oc/curriculum/kindergarten/current-vs-target-gap.md)
+
+These documents define the intended subject-program architecture, numeric production targets, and year-long instructional pacing.
+
 ## Program Layer
 
 The kindergarten directory now includes a draft program assembly under `program/`:
