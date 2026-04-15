@@ -20,7 +20,7 @@ Curriculum, assessments, teacher-use materials, and software are downstream prod
 
 The active proof domain is mathematics.
 
-The authoritative mathematics graph in [master-knowledge-graph.yaml](/Volumes/data/development/oc/domains/mathematics/master-knowledge-graph.yaml) is currently implemented end to end across the modeled scope:
+The authoritative mathematics graph in [master-knowledge-graph.yaml](domains/mathematics/master-knowledge-graph.yaml) is currently implemented end to end across the modeled scope:
 
 - zero-state pre-kindergarten foundations
 - elementary mathematics
@@ -39,35 +39,35 @@ This does not mean the repository is classroom-release ready. It means the model
 
 Read in this order:
 
-1. [constitution memory](/Volumes/data/development/oc/.specify/memory/constitution.md)
-2. [foundation constitution](/Volumes/data/development/oc/docs/foundation/constitution.md)
-3. [foundation architecture](/Volumes/data/development/oc/docs/foundation/architecture.md)
-4. [maintained specs index](/Volumes/data/development/oc/docs/specs/index.md)
-5. [learning-system requirements](/Volumes/data/development/oc/docs/specs/learning-system-requirements.md)
-6. [platform manifest](/Volumes/data/development/oc/docs/reference/platform-manifest.md)
-7. [system feature spec](/Volumes/data/development/oc/specs/007-spec-driven-learning-system/spec.md)
-8. [mathematics domain](/Volumes/data/development/oc/domains/mathematics/README.md)
+1. [constitution memory](.specify/memory/constitution.md)
+2. [foundation constitution](docs/foundation/constitution.md)
+3. [foundation architecture](docs/foundation/architecture.md)
+4. [maintained specs index](docs/specs/index.md)
+5. [learning-system requirements](docs/specs/learning-system-requirements.md)
+6. [platform manifest](docs/reference/platform-manifest.md)
+7. [system feature spec](specs/007-spec-driven-learning-system/spec.md)
+8. [mathematics domain](domains/mathematics/README.md)
 
-The cross-agent operating rules are defined in [AGENTS.md](/Volumes/data/development/oc/AGENTS.md).
+The cross-agent operating rules are defined in [AGENTS.md](AGENTS.md).
 
 ## Repository Layout
 
 Primary governed areas:
 
-- [`.specify/memory/constitution.md`](/Volumes/data/development/oc/.specify/memory/constitution.md)
-- [`docs/foundation/`](/Volumes/data/development/oc/docs/foundation/constitution.md)
-- [`docs/specs/`](/Volumes/data/development/oc/docs/specs/index.md)
-- [`docs/reference/`](/Volumes/data/development/oc/docs/reference/platform-manifest.md)
-- [`docs/standards/`](/Volumes/data/development/oc/docs/standards/index.md)
-- [`specs/007-spec-driven-learning-system/`](/Volumes/data/development/oc/specs/007-spec-driven-learning-system/spec.md)
-- [`domains/mathematics/`](/Volumes/data/development/oc/domains/mathematics/README.md)
-- [`docs/capability-registry.json`](/Volumes/data/development/oc/docs/capability-registry.json)
-- [`docs/dependency-map.json`](/Volumes/data/development/oc/docs/dependency-map.json)
+- [`.specify/memory/constitution.md`](.specify/memory/constitution.md)
+- [`docs/foundation/`](docs/foundation/constitution.md)
+- [`docs/specs/`](docs/specs/index.md)
+- [`docs/reference/`](docs/reference/platform-manifest.md)
+- [`docs/standards/`](docs/standards/index.md)
+- [`specs/007-spec-driven-learning-system/`](specs/007-spec-driven-learning-system/spec.md)
+- [`domains/mathematics/`](domains/mathematics/README.md)
+- [`docs/capability-registry.json`](docs/capability-registry.json)
+- [`docs/dependency-map.json`](docs/dependency-map.json)
 
 Validation and audit tooling:
 
-- [`scripts/validate-docs.js`](/Volumes/data/development/oc/scripts/validate-docs.js)
-- [`scripts/audit-mathematics-domain.js`](/Volumes/data/development/oc/scripts/audit-mathematics-domain.js)
+- [`scripts/validate-docs.js`](scripts/validate-docs.js)
+- [`scripts/audit-mathematics-domain.js`](scripts/audit-mathematics-domain.js)
 
 ## What The Repository Produces
 
@@ -103,13 +103,13 @@ The validation path checks:
 Run:
 
 ```bash
-node /Volumes/data/development/oc/scripts/validate-docs.js
+node scripts/validate-docs.js
 ```
 
 For mathematics-domain checks only:
 
 ```bash
-node /Volumes/data/development/oc/scripts/audit-mathematics-domain.js
+node scripts/audit-mathematics-domain.js
 ```
 
 ## Non-Negotiables
@@ -133,4 +133,4 @@ The next repository work should focus on one or more of:
 
 ## License
 
-This project and all repository contents are licensed under [PolyForm Noncommercial 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0/). See [LICENSE](/Volumes/data/development/oc/LICENSE).
+This project and all repository contents are licensed under [PolyForm Noncommercial 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0/). See [LICENSE](LICENSE).
