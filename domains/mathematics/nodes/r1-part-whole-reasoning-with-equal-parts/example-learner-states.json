@@ -1,0 +1,46 @@
+{
+  "node_id": "R1",
+  "examples": [
+    {
+      "learner_id": "sample-r1-blocked-01",
+      "node_id": "R1",
+      "status": "blocked",
+      "dependency_status": {
+        "N1": "secure",
+        "U4": "secure",
+        "M3": "secure"
+      },
+      "direct_accuracy": 0.5,
+      "explanation_status": "not_met",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["R1-FM-01", "R1-FM-04"],
+      "recommended_interventions": [
+        "sort equal and unequal partitions",
+        "compare same-shaped pieces from different wholes"
+      ],
+      "last_verified_at": "2026-04-14",
+      "review_state": "draft",
+      "notes": "Counts pieces but does not attend to equal size."
+    },
+    {
+      "learner_id": "sample-r1-secure-01",
+      "node_id": "R1",
+      "status": "secure",
+      "dependency_status": {
+        "N1": "secure",
+        "U4": "secure",
+        "M3": "secure"
+      },
+      "direct_accuracy": 0.96,
+      "explanation_status": "met",
+      "transfer_status": "met",
+      "retention_status": "met",
+      "dominant_failure_modes": [],
+      "recommended_interventions": [],
+      "last_verified_at": "2026-04-14",
+      "review_state": "draft",
+      "notes": "Explains equal-part requirement and preserves whole reference across models."
+    }
+  ]
+}

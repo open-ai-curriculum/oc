@@ -1,0 +1,72 @@
+{
+  "node_id": "R1",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "R1-A-001",
+      "family": "direct_recognition",
+      "prompt": "Circle the shapes that are split into equal parts.",
+      "target_node": "R1",
+      "secondary_dependency_targets": ["U4", "M3"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["selected_response", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["R1-FM-01", "R1-FM-03"],
+      "requires_human_scoring": false
+    },
+    {
+      "item_id": "R1-A-002",
+      "family": "direct_recognition",
+      "prompt": "A rectangle is cut into four pieces. Two pieces are large and two are small. Is each piece one equal part of the whole? Explain briefly.",
+      "target_node": "R1",
+      "secondary_dependency_targets": ["U4"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["selected_response", "written_explanation", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["R1-FM-01"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "R1-B-001",
+      "family": "explanation",
+      "prompt": "Why do the parts of a whole need to be equal before we can describe one part fairly?",
+      "target_node": "R1",
+      "secondary_dependency_targets": ["M3"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation", "written_explanation"],
+      "dominant_failure_modes_if_incorrect": ["R1-FM-03", "R1-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "R1-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student says one small piece from a tiny brownie pan and one same-shaped piece from a large brownie pan are the same amount because the shapes match. What is wrong with that thinking?",
+      "target_node": "R1",
+      "secondary_dependency_targets": ["M3"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["multiple_choice", "oral_explanation", "written_explanation"],
+      "dominant_failure_modes_if_incorrect": ["R1-FM-02", "R1-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "R1-D-001",
+      "family": "transfer",
+      "prompt": "Two children each break a sandwich to share. One sandwich is cut into two equal halves. The other is cut into two unequal pieces. Which sharing is fair, and why?",
+      "target_node": "R1",
+      "secondary_dependency_targets": ["U4", "M3"],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": ["oral_explanation", "written_explanation", "diagram_annotation"],
+      "dominant_failure_modes_if_incorrect": ["R1-FM-01", "R1-FM-03"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "R1-R-001",
+      "family": "retention",
+      "prompt": "Look at three partitioned circles and identify which ones show equal parts of one whole. Explain one choice.",
+      "target_node": "R1",
+      "secondary_dependency_targets": ["U4"],
+      "difficulty_band": "retention",
+      "response_modes_allowed": ["selected_response", "oral_explanation", "written_explanation"],
+      "dominant_failure_modes_if_incorrect": ["R1-FM-01", "R1-FM-02", "R1-FM-03"],
+      "requires_human_scoring": true
+    }
+  ]
+}

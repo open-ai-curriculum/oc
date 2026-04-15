@@ -1,0 +1,16 @@
+{
+  "node_id": "U6",
+  "examples": [
+    {
+      "student_id": "example-u6-001",
+      "node": "U6",
+      "status": "blocked",
+      "direct_accuracy": 0.57,
+      "meaning_status": "weak",
+      "transfer_status": "failed",
+      "retention_status": "not_met",
+      "dominant_failure_modes": ["U6-FM-02", "U6-FM-03"],
+      "recommended_interventions": ["fair_vs_unfair_contrast_with_justification", "near_fair_example_correction"]
+    }
+  ]
+}

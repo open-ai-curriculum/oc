@@ -1,0 +1,30 @@
+[
+  {
+    "student_id": "example-secure",
+    "node": "H4",
+    "status": "secure",
+    "direct_accuracy": 0.85,
+    "explanation_status": "meets",
+    "transfer_status": "meets",
+    "retention_status": "meets",
+    "dominant_failure_modes": [],
+    "recommended_interventions": []
+  },
+  {
+    "student_id": "example-blocked",
+    "node": "H4",
+    "status": "blocked",
+    "direct_accuracy": 0.54,
+    "explanation_status": "weak",
+    "transfer_status": "failed",
+    "retention_status": "not_met",
+    "dominant_failure_modes": [
+      "ratio_selection_mismatch",
+      "side_reference_drift"
+    ],
+    "recommended_interventions": [
+      "use angle-side identification routines before selecting a trigonometric ratio",
+      "relabel opposite and adjacent after changing the reference angle in the same triangle"
+    ]
+  }
+]

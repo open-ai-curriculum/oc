@@ -1,0 +1,72 @@
+{
+  "node_id": "P2",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "P2-A-001",
+      "family": "direct_pattern",
+      "prompt": "A tower has 2 cubes, then 3 cubes, then 4 cubes. Show the next two towers.",
+      "target_node": "P2",
+      "secondary_dependency_targets": ["P1"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["drawing", "manipulative_model", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["P2-FM-01", "P2-FM-02"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "P2-A-002",
+      "family": "direct_pattern",
+      "prompt": "Continue the number pattern 1, 3, 5, 7, __, __ and explain the change.",
+      "target_node": "P2",
+      "secondary_dependency_targets": ["P1"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["written_symbolic", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["P2-FM-01", "P2-FM-03"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "P2-B-001",
+      "family": "explanation",
+      "prompt": "Explain how a growing pattern is different from a repeating pattern.",
+      "target_node": "P2",
+      "secondary_dependency_targets": ["P1"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation", "written_explanation"],
+      "dominant_failure_modes_if_incorrect": ["P2-FM-03", "P2-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "P2-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student continues 2, 4, 6, 8 with 8 because the last number repeats. What should be checked?",
+      "target_node": "P2",
+      "secondary_dependency_targets": ["P1"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["multiple_choice", "oral_explanation", "written_explanation"],
+      "dominant_failure_modes_if_incorrect": ["P2-FM-01", "P2-FM-03"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "P2-D-001",
+      "family": "transfer",
+      "prompt": "Each new picture adds one more triangle than the last. Show the next picture and explain the rule.",
+      "target_node": "P2",
+      "secondary_dependency_targets": ["P1"],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": ["drawing", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["P2-FM-02", "P2-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "P2-R-001",
+      "family": "retention",
+      "prompt": "After a delay, continue a new growing pattern and name how much it changes each time.",
+      "target_node": "P2",
+      "secondary_dependency_targets": ["P1"],
+      "difficulty_band": "retention",
+      "response_modes_allowed": ["drawing", "written_symbolic", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["P2-FM-01", "P2-FM-02", "P2-FM-03"],
+      "requires_human_scoring": true
+    }
+  ]
+}

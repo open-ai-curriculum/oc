@@ -1,0 +1,22 @@
+{
+  "node_id": "V5",
+  "version": "0.1",
+  "interventions": {
+    "V5-FM-01": [
+      "address_hundreds_tens_ones_coordination_weakness",
+      "practice_v5_hundreds_tens_ones_coordination_weakness"
+    ],
+    "V5-FM-02": [
+      "address_cross_place_regrouping_error",
+      "practice_v5_cross_place_regrouping_error"
+    ],
+    "V5-FM-03": [
+      "address_written_method_fragility",
+      "practice_v5_written_method_fragility"
+    ],
+    "V5-FM-04": [
+      "address_explanation_and_transfer_weakness",
+      "practice_v5_explanation_and_transfer_weakness"
+    ]
+  }
+}

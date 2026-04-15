@@ -1,0 +1,22 @@
+{
+  "node_id": "M7",
+  "version": "0.1",
+  "interventions": {
+    "M7-FM-01": [
+      "address_unit_identification_weakness",
+      "practice_m7_unit_identification_weakness"
+    ],
+    "M7-FM-02": [
+      "address_value_comparison_weakness",
+      "practice_m7_value_comparison_weakness"
+    ],
+    "M7-FM-03": [
+      "address_count-of-objects_bias",
+      "practice_m7_count-of-objects_bias"
+    ],
+    "M7-FM-04": [
+      "address_exchange-meaning_weakness",
+      "practice_m7_exchange-meaning_weakness"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "node_id": "W3",
+  "items": [
+    {
+      "item_id": "W3-A1",
+      "item_family": "direct",
+      "prompt": "classifies studies, evaluates samples, and makes bounded informal inferences from sample data",
+      "expected_evidence": "make and defend bounded population inferences from sample summaries while naming uncertainty",
+      "dominant_failure_mode": "inference_design_fragmentation",
+      "scoring_guidance": "Meets when the learner aligns the inference claim with the sample and study-design structure."
+    },
+    {
+      "item_id": "W3-B1",
+      "item_family": "explanation",
+      "prompt": "explains how random sampling, bias, variability, and study design determine what can be inferred from a sample",
+      "expected_evidence": "explain how sample structure affects what can be inferred about a larger population",
+      "dominant_failure_mode": "representativeness_opacity",
+      "scoring_guidance": "Meets when the learner explains inference as conditional on design quality and variability, not as automatic generalization."
+    },
+    {
+      "item_id": "W3-C1",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer error aligned to causal_claim_leap.",
+      "expected_evidence": "classify bounded studies as survey, observational study, or experiment and state the claim limits",
+      "dominant_failure_mode": "causal_claim_leap",
+      "scoring_guidance": "Meets when the learner identifies where a study-design limit was ignored and an unsupported claim was made."
+    },
+    {
+      "item_id": "W3-D1",
+      "item_family": "transfer",
+      "prompt": "interprets a less-familiar study or sample summary and checks whether the reported inference is actually supported",
+      "expected_evidence": "identify sources of sampling bias, confounding, or measurement weakness in bounded studies",
+      "dominant_failure_mode": "bias_source_blindness",
+      "scoring_guidance": "Meets when the learner preserves design meaning and identifies the main threat to the reported conclusion."
+    }
+  ]
+}

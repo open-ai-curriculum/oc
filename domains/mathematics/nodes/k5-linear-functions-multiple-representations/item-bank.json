@@ -1,0 +1,37 @@
+{
+  "node_id": "K5",
+  "items": [
+    {
+      "item_id": "K5-A1",
+      "item_family": "direct",
+      "prompt": "matches and generates equivalent linear-function representations across equation, table, graph, and verbal rule",
+      "expected_evidence": "match or generate equivalent linear representations across equation, table, graph, verbal rule, and context",
+      "dominant_failure_mode": "representation_translation_fragmentation",
+      "scoring_guidance": "Meets when the learner preserves the same linear relationship accurately while moving among representations."
+    },
+    {
+      "item_id": "K5-B1",
+      "item_family": "explanation",
+      "prompt": "explains how slope, starting value, and covariation appear across representations of one linear function",
+      "expected_evidence": "explain how constant rate of change and starting value appear in each representation",
+      "dominant_failure_mode": "parameter_meaning_collapse",
+      "scoring_guidance": "Meets when the learner explains the same function structure coherently across equation, table, graph, and verbal form."
+    },
+    {
+      "item_id": "K5-C1",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer error aligned to graph_equation_alignment_breakdown.",
+      "expected_evidence": "determine whether a representation pair describes the same linear function",
+      "dominant_failure_mode": "graph_equation_alignment_breakdown",
+      "scoring_guidance": "Meets when the learner identifies where the peer lost the shared linear relationship across graph and equation."
+    },
+    {
+      "item_id": "K5-D1",
+      "item_family": "transfer",
+      "prompt": "distinguishes linear functions from bounded non-linear or non-functional examples in less-familiar contexts",
+      "expected_evidence": "distinguish linear-function representations from bounded non-linear counterexamples",
+      "dominant_failure_mode": "linearity_overgeneralization",
+      "scoring_guidance": "Meets when the learner preserves linear-function meaning and rejects look-alike non-linear or non-functional cases."
+    }
+  ]
+}

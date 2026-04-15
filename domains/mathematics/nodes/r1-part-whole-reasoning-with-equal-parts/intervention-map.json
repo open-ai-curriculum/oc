@@ -1,0 +1,26 @@
+{
+  "node_id": "R1",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "R1-FM-01": [
+      "sort equal and unequal partitions",
+      "overlay or fold shapes to test equality",
+      "contrast same number of pieces with same-sized pieces"
+    ],
+    "R1-FM-02": [
+      "label each whole before comparing parts",
+      "match parts back to their original wholes",
+      "contrast pieces from different wholes explicitly"
+    ],
+    "R1-FM-03": [
+      "use part-of-what-whole prompts",
+      "use part-whole diagrams with missing whole tasks",
+      "revisit composition language from N1"
+    ],
+    "R1-FM-04": [
+      "compare same-shaped pieces from different wholes",
+      "use overlays to show changed whole size",
+      "require estimate language tied to whole size"
+    ]
+  }
+}

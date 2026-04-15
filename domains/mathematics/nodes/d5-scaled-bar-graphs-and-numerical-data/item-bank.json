@@ -1,0 +1,37 @@
+{
+  "node_id": "D5",
+  "items": [
+    {
+      "item_id": "D5-A1",
+      "item_family": "direct",
+      "prompt": "reads category values from a scaled bar graph using the stated scale correctly",
+      "expected_evidence": "match bar lengths to numerical values using the graph scale",
+      "dominant_failure_mode": "scale_ignorance",
+      "scoring_guidance": "Meets when the learner completes the representation task accurately."
+    },
+    {
+      "item_id": "D5-B1",
+      "item_family": "explanation",
+      "prompt": "represents a small numerical data set in a scaled bar graph with labels and consistent scale",
+      "expected_evidence": "construct a scaled bar graph from a provided table or tally set",
+      "dominant_failure_mode": "label_axis_confusion",
+      "scoring_guidance": "Meets when the learner explains what the display shows and how to read it."
+    },
+    {
+      "item_id": "D5-C1",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer error aligned to comparison_computation_error.",
+      "expected_evidence": "solve additive comparison questions based on displayed data",
+      "dominant_failure_mode": "comparison_computation_error",
+      "scoring_guidance": "Meets when the learner identifies the error source and states the correct interpretation."
+    },
+    {
+      "item_id": "D5-D1",
+      "item_family": "transfer",
+      "prompt": "succeeds across read, build, and interpret tasks with different scales",
+      "expected_evidence": "explain why an inaccurate scale or label choice distorts the graph",
+      "dominant_failure_mode": "representation_distortion",
+      "scoring_guidance": "Meets when the learner succeeds in the less-familiar data context."
+    }
+  ]
+}

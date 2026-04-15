@@ -1,0 +1,16 @@
+{
+  "node_id": "U5",
+  "examples": [
+    {
+      "student_id": "example-u5-001",
+      "node": "U5",
+      "status": "blocked",
+      "direct_accuracy": 0.58,
+      "meaning_status": "weak",
+      "transfer_status": "failed",
+      "retention_status": "not_met",
+      "dominant_failure_modes": ["U5-FM-01", "U5-FM-03"],
+      "recommended_interventions": ["equal_group_sort_with_explanation", "same_group_count_different_size_contrast"]
+    }
+  ]
+}

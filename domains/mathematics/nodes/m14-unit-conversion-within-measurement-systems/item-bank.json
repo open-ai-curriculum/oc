@@ -1,0 +1,29 @@
+{
+  "node_id": "M14",
+  "items": [
+    {
+      "item_id": "m14-a1",
+      "item_family": "direct_execution",
+      "prompt": "Representative direct task for unit conversion within measurement systems.",
+      "expected_evidence": [
+        "Learner uses the intended structure, not only an answer-getting shortcut."
+      ],
+      "dominant_failure_mode_targets": [
+        "unit_size_direction_error"
+      ],
+      "context": "conversion prompts"
+    },
+    {
+      "item_id": "m14-b1",
+      "item_family": "explanation",
+      "prompt": "Explain why the chosen structure fits the situation.",
+      "expected_evidence": [
+        "Learner names the structural relationship correctly."
+      ],
+      "dominant_failure_mode_targets": [
+        "formula_without_quantity_meaning"
+      ],
+      "context": "equivalent measures"
+    }
+  ]
+}

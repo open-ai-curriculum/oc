@@ -1,0 +1,126 @@
+{
+  "node_id": "G5",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "G5-A-001",
+      "family": "direct_visual_reasoning",
+      "prompt": "Show where a simple shape could fold to match itself, if it can.",
+      "target_node": "G5",
+      "secondary_dependency_targets": [
+        "G1",
+        "U4"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "G5-FM-01",
+        "G5-FM-02"
+      ],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "G5-A-002",
+      "family": "direct_visual_reasoning",
+      "prompt": "Decide whether a partition splits a shape into equal parts and explain why.",
+      "target_node": "G5",
+      "secondary_dependency_targets": [
+        "G1",
+        "U4"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "G5-FM-01",
+        "G5-FM-02"
+      ],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "G5-B-001",
+      "family": "explanation",
+      "prompt": "Explain how you know two parts of a shape are equal or not equal.",
+      "target_node": "G5",
+      "secondary_dependency_targets": [
+        "G1",
+        "U4"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "G5-FM-01",
+        "G5-FM-02"
+      ],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "G5-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student says a split makes equal parts because both parts have the same color. What should be checked?",
+      "target_node": "G5",
+      "secondary_dependency_targets": [
+        "G1",
+        "U4"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "G5-FM-01",
+        "G5-FM-02"
+      ],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "G5-D-001",
+      "family": "transfer",
+      "prompt": "Compare two shapes and decide which one has a line of symmetry or equal partition, then explain.",
+      "target_node": "G5",
+      "secondary_dependency_targets": [
+        "G1",
+        "U4"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "G5-FM-01",
+        "G5-FM-02"
+      ],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "G5-R-001",
+      "family": "retention",
+      "prompt": "After a delay, identify a line of symmetry or an equal partition in a new figure and explain your reasoning.",
+      "target_node": "G5",
+      "secondary_dependency_targets": [
+        "G1",
+        "U4"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "G5-FM-01",
+        "G5-FM-02"
+      ],
+      "requires_human_scoring": true
+    }
+  ]
+}

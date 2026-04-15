@@ -1,0 +1,26 @@
+{
+  "node_id": "C2",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "C2-FM-01": [
+      "use touch-and-move counting routines",
+      "separate counted and uncounted objects physically",
+      "slow the count while matching each word to one object"
+    ],
+    "C2-FM-02": [
+      "count short fixed sets first",
+      "use teacher-modeled pointing or tapping",
+      "add visual markers to support place-keeping"
+    ],
+    "C2-FM-03": [
+      "practice with lined-up circular and scattered sets",
+      "ask what stays the same when layout changes",
+      "use the same quantity in multiple layouts"
+    ],
+    "C2-FM-04": [
+      "ask the learner to explain why each object gets one count",
+      "compare correct and incorrect counting demonstrations",
+      "use sentence frames for the one-count-per-object rule"
+    ]
+  }
+}

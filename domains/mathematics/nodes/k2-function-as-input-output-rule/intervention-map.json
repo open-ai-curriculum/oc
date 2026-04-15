@@ -1,0 +1,37 @@
+{
+  "node_id": "K2",
+  "interventions": [
+    {
+      "failure_mode": "input_output_role_blur",
+      "strategies": [
+        "label inputs and outputs explicitly before interpreting the relation",
+        "use mapping diagrams and input-output tables with role highlighting",
+        "compare correct and reversed input-output assignments in matched situations"
+      ]
+    },
+    {
+      "failure_mode": "single_output_condition_miss",
+      "strategies": [
+        "sort examples into functions and non-functions with explicit one-input-to-one-output justification",
+        "use mapping diagrams where one input maps to multiple outputs as contrast cases",
+        "teacher think-alouds naming why repeated outputs are allowed but repeated inputs with different outputs break function status"
+      ]
+    },
+    {
+      "failure_mode": "representation_function_disconnect",
+      "strategies": [
+        "translate one function across verbal rule, table, graph, and symbolic form while preserving the same input-output meaning",
+        "require learners to restate the rule after each representation shift",
+        "compare correct and incorrect cross-representation function matches"
+      ]
+    },
+    {
+      "failure_mode": "context_rule_transfer_breakdown",
+      "strategies": [
+        "use cost, distance, and measurement contexts with explicit \"for each input, what output results?\" routines",
+        "pair each contextual relationship with a table or mapping diagram",
+        "teacher compare-and-connect routines across symbolic, tabular, graph, and contextual function situations"
+      ]
+    }
+  ]
+}

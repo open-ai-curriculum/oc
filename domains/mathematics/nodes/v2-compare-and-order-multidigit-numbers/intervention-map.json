@@ -1,0 +1,22 @@
+{
+  "node_id": "V2",
+  "version": "0.1",
+  "interventions": {
+    "V2-FM-01": [
+      "address_place_first_comparison_weakness",
+      "practice_v2_place_first_comparison_weakness"
+    ],
+    "V2-FM-02": [
+      "address_digit_magnitude_confusion",
+      "practice_v2_digit_magnitude_confusion"
+    ],
+    "V2-FM-03": [
+      "address_ordering_drift",
+      "practice_v2_ordering_drift"
+    ],
+    "V2-FM-04": [
+      "address_comparison_justification_weakness",
+      "practice_v2_comparison_justification_weakness"
+    ]
+  }
+}

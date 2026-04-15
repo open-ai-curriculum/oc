@@ -1,0 +1,14 @@
+{
+  "node_id": "M10",
+  "interventions": {
+    "clock-hand role rehearsal": [
+      "Use explicit contrasting tasks that isolate hour and minute information."
+    ],
+    "timeline jumps": [
+      "Represent elapsed time as jumps on an interval line rather than as static labels."
+    ],
+    "schedule reconstruction tasks": [
+      "Rebuild daily sequences from scrambled time and duration cards."
+    ]
+  }
+}

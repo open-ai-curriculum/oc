@@ -1,0 +1,37 @@
+{
+  "node_id": "A2",
+  "items": [
+    {
+      "item_id": "A2-A1",
+      "item_family": "direct",
+      "prompt": "rewrites bounded expressions using distribution or factoring and combines like terms correctly",
+      "expected_evidence": "expand or factor simple expressions using distributive structure",
+      "dominant_failure_mode": "distributive_structure_breakdown",
+      "scoring_guidance": "Meets when the learner rewrites bounded expressions while preserving equivalence."
+    },
+    {
+      "item_id": "A2-B1",
+      "item_family": "explanation",
+      "prompt": "explains why like terms can be combined and unlike terms cannot, and why distribution preserves expression value",
+      "expected_evidence": "combine like terms while preserving term meaning and coefficient structure",
+      "dominant_failure_mode": "like_term_identity_confusion",
+      "scoring_guidance": "Meets when the learner explains the structural basis for combining like terms and distribution."
+    },
+    {
+      "item_id": "A2-C1",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer error aligned to distributive_structure_breakdown.",
+      "expected_evidence": "identify common factors or distributed groups in an expression",
+      "dominant_failure_mode": "distributive_structure_breakdown",
+      "scoring_guidance": "Meets when the learner identifies how the peer broke distributive structure or equivalence."
+    },
+    {
+      "item_id": "A2-D1",
+      "item_family": "transfer",
+      "prompt": "succeeds across symbolic, area-structure, and grouped-quantity representations of distributive expressions",
+      "expected_evidence": "connect area or grouped-quantity structure to distributive rewriting",
+      "dominant_failure_mode": "structure_model_disconnect",
+      "scoring_guidance": "Meets when the learner preserves distributive structure across representation changes."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "node_id": "A4",
+  "items": [
+    {
+      "item_id": "A4-A1",
+      "item_family": "direct",
+      "prompt": "plots ordered pairs and identifies plotted points accurately on a bounded coordinate plane",
+      "expected_evidence": "plot ordered pairs and read plotted coordinates accurately",
+      "dominant_failure_mode": "axis_order_reversal",
+      "scoring_guidance": "Meets when the learner preserves x-then-y order and plots or reads points correctly."
+    },
+    {
+      "item_id": "A4-B1",
+      "item_family": "explanation",
+      "prompt": "explains how axes, the origin, sign, and quadrant structure determine a point's location",
+      "expected_evidence": "explain how sign and direction determine location in the four-quadrant plane",
+      "dominant_failure_mode": "quadrant_sign_confusion",
+      "scoring_guidance": "Meets when the learner explains coordinate location using ordered-pair and sign structure."
+    },
+    {
+      "item_id": "A4-C1",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer error aligned to axis_order_reversal.",
+      "expected_evidence": "identify x- and y-axis roles and use the origin as a reference point",
+      "dominant_failure_mode": "axis_order_reversal",
+      "scoring_guidance": "Meets when the learner identifies how the peer reversed axis order or misread axis roles."
+    },
+    {
+      "item_id": "A4-D1",
+      "item_family": "transfer",
+      "prompt": "succeeds across plotted diagrams, tables, directional descriptions, and simple contextual maps",
+      "expected_evidence": "connect tabular or directional descriptions to plotted points in bounded cases",
+      "dominant_failure_mode": "representation_mapping_breakdown",
+      "scoring_guidance": "Meets when the learner preserves coordinate meaning across multiple representations."
+    }
+  ]
+}

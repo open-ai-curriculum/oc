@@ -1,0 +1,25 @@
+# Intervention Playbook
+
+## `inverse_log_equivalence_fragmentation`
+
+- pair exponential and logarithmic equations side by side and translate them in both directions before solving
+- require learners to restate the exponential-logarithmic equivalence in words before manipulation
+- compare correct and broken transformations that lose inverse meaning
+
+## `inverse_structure_opacity`
+
+- compare inverse graph pairs and mark reflected structure, domain, and range explicitly
+- use teacher think-alouds naming why inverse relationships swap input-output roles
+- compare logarithmic rules that are valid structurally with superficially similar but invalid manipulations
+
+## `log_rule_without_domain_check`
+
+- mark whether each logarithmic expression is defined before applying rules or combining terms
+- compare valid and invalid uses of logarithm properties in matched examples
+- require a domain check before final acceptance of any logarithmic solution
+
+## `context_inverse_disconnect`
+
+- connect symbolic logarithmic expressions to scales, rates, or inverse-process contexts in matched examples
+- compare graphical, symbolic, and contextual interpretations of the same inverse relationship
+- require learners to explain what the logarithmic output means in the context before solving

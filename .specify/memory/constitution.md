@@ -1,124 +1,189 @@
-# Open Curriculum Constitution
+# Spec-Driven Learning Constitution
+
+Source of truth: [docs/foundation/constitution.md](/Volumes/data/development/oc/docs/foundation/constitution.md)
+
+This file is the operational mirror used by agent workflows. Keep it aligned with the canonical foundation document under `docs/foundation/`.
+
+## Purpose
+
+This repository exists to define, test, and operationalize a spec-driven learning system in which knowledge acquisition is dependency-aware, continuously verified, and reconciled against intended state.
+
+The repository is not primarily a curriculum-publishing project.
+
+Curriculum, assessments, teacher materials, learner models, and supporting software are treated as outputs of a governed learning system rather than independent artifacts.
 
 ## Core Principles
 
-### I. Learning-First and Standards-Aligned
+### I. Mastery Is Demonstrated, Not Assumed
 
-All curriculum, teacher materials, assessments, and supporting software MUST begin with clear learning goals and explicit standards alignment where applicable.
-
-Implications:
-
-- artifacts MUST state the intended learner outcome
-- standards tags MUST be specific and plausible, not decorative
-- instruction, assessment, and support materials MUST align to the same target
-
-### II. Human-Reviewed AI, Never Autonomous Publication
-
-AI MAY be used for drafting, transformation, and support work, but no AI-assisted artifact is publishable without human review.
+No learner state may be marked complete because content was presented, assigned, practiced, or attended.
 
 Implications:
 
-- AI output is draft material until reviewed
-- sensitive topics and graded assessments require elevated review
-- AI use and meaningful provenance MUST be recorded for substantial artifacts
+- completion requires observable successful performance
+- exposure is not evidence of mastery
+- progression decisions must be grounded in demonstrated capability
 
-### III. Accessibility and Inclusion by Default
+### II. Dependency Integrity Is Mandatory
 
-Accessibility and inclusion are not optional enhancement work. They are baseline requirements for all curriculum and software produced in this repository.
-
-Implications:
-
-- curriculum artifacts MUST consider accessibility from the start
-- digital outputs MUST be designed toward WCAG 2.2-informed practice
-- lesson, unit, and assessment design MUST reduce avoidable barriers
-- examples, framing, and source choices MUST be reviewed for inclusion and cultural respect
-
-### IV. Evidence, Accuracy, and Trustworthiness
-
-This repository MUST prefer defensible, reviewable, and source-aware work over fluent but weak output.
+Knowledge is cumulative and dependency-bound. Downstream capability claims are invalid when upstream dependencies are unstable.
 
 Implications:
 
-- factual, historical, mathematical, and scientific claims MUST be reviewed for correctness
-- invented citations, quotations, or evidence are prohibited
-- synthesis documents MUST not overstate what the evidence supports
-- subject-specific risks MUST be checked in authoring and release review
+- every substantial learning target must declare prerequisites
+- progression without dependency satisfaction is treated as system drift
+- intervention may require returning to upstream nodes rather than reteaching the current topic
 
-### V. Portability, Privacy, and Safe Tooling
+### III. Conceptual Understanding And Procedural Fluency Are Dual Requirements
 
-Curriculum and software MUST be designed so they are portable, privacy-conscious, and not unnecessarily dependent on a single platform or unsafe external tool.
+A learner must be able to explain what a mathematical idea means and also execute it accurately under normal classroom constraints.
 
 Implications:
 
-- source-of-truth artifacts SHOULD remain editable and portable
-- real student PII MUST NOT be stored in repository content
-- classroom-facing or student-data-adjacent tools require vetting
-- software and content choices SHOULD minimize avoidable lock-in
+- procedural success alone is insufficient
+- explanation without reliable execution is insufficient
+- node closure requires both meaning and execution evidence
 
-## Artifact Requirements
+### IV. Failure Must Be Classified, Not Averaged Away
 
-The repository is expected to produce three broad classes of outputs:
+An incorrect response is not just "wrong." It should be mapped to a known failure mode whenever possible.
 
-1. curriculum artifacts
-   - units
-   - lessons
-   - assessments
-   - teacher guides
-   - standards maps
-2. support materials
-   - review rubrics
-   - implementation guides
-   - accessibility notes
-   - professional learning aids
-3. software and tooling
-   - curriculum packaging tools
-   - metadata and standards utilities
-   - review workflow support tools
+Implications:
 
-All three classes MUST comply with the core principles above.
+- learner state should store dominant failure modes
+- interventions must be keyed to failure classification
+- coarse grades or averages must not hide structurally important breakdowns
 
-## Workflow and Quality Gates
+### V. Verification Is Continuous And Local
 
-Every substantial artifact MUST pass these gates before release:
+The system verifies capability at each boundary rather than depending mainly on distant retrospective testing.
 
-1. alignment and coherence review
-2. quality and factual accuracy review
-3. accessibility and inclusion review
-4. assessment review when assessment is involved
-5. AI governance review when AI was used
-6. privacy and tool-safety review when tools, data, or software are involved
+Implications:
 
-The repository templates and checklists in `research/14-production-templates/` are the default operational forms for these gates unless a later spec replaces them with a stricter mechanism.
+- each node must define explicit verification gates
+- advancement is gated, not time-based
+- external tests are audit signals, not the main truth source
+
+### VI. Intervention Must Be Specific To Failure Mode
+
+Remediation is not generic repetition. It must respond to the diagnosed cause of instability.
+
+Implications:
+
+- each node should define bounded intervention options
+- interventions must target the identified breakdown
+- reteaching a whole unit is a fallback, not the default response
+
+### VII. Retention And Transfer Are Part Of Mastery
+
+A capability is not secure unless it persists over time and appears in more than one context.
+
+Implications:
+
+- mastery requires delayed re-verification
+- mastery requires at least one transfer check beyond direct execution
+- nodes may not close on immediate performance alone
+
+### VIII. Human Judgment Remains A Governing Layer
+
+The repository may use AI and automation for drafting, classification, routing, and analysis, but human review remains required for high-stakes release, policy claims, learner-impacting deployment, and sensitive instructional decisions.
+
+Implications:
+
+- AI output is draft until reviewed
+- learner-impacting logic requires explicit human oversight
+- no artifact may be represented as classroom-ready or learner-ready without human review
+
+### IX. Accessibility, Inclusion, And Language Access Are Baseline System Constraints
+
+Accessibility, multilingual support, and respectful representation are not downstream enhancements. They are part of system design.
+
+Implications:
+
+- verification and intervention models must account for varied response modes
+- multilingual learners must not be misclassified because of avoidable language barriers
+- outputs must consider accessibility from the start
+
+### X. Observability Must Reflect Capability, Not Mere Activity
+
+The system should model what a learner can do, what is unstable, and why.
+
+Implications:
+
+- dashboards and reports must prioritize capability state, dependency risk, and failure clusters
+- activity metrics alone are insufficient
+- every important state should have semantic instructional meaning
+
+## Repository Output Classes
+
+This repository is expected to produce:
+
+1. learning system specifications
+   - constitutions
+   - capability graphs
+   - node packages
+   - verification models
+   - failure taxonomies
+   - intervention logic
+   - learner-state models
+2. instructional execution artifacts
+   - lesson patterns
+   - teacher decision guides
+   - assessment items
+   - exemplars
+   - response-mode accommodations
+3. supporting software and tooling
+   - validators
+   - learner-state engines
+   - observability tools
+   - content generation and packaging tools
+
+All three classes must conform to this constitution.
+
+## Workflow And Quality Gates
+
+Every substantial artifact must pass these gates before release or deployment:
+
+1. dependency and coherence review
+2. capability-definition review
+3. verification and failure-mode review
+4. accessibility, inclusion, and language-access review
+5. assessment review when assessment is involved
+6. AI-governance review when AI was used
+7. human review before any classroom-ready or learner-impacting claim
 
 ## Spec-Driven Development Rules
 
-Spec-driven work in this repository MUST follow this order:
+Spec-driven work in this repository must follow this order:
 
 1. constitution
-2. feature specification
-3. clarification if needed
-4. implementation plan
-5. tasks
-6. implementation
+2. system specification
+3. domain model
+4. node specification
+5. implementation plan
+6. tasks
+7. implementation
 
-Agents MUST treat the following as authoritative inputs when creating specifications or plans:
+Agents must treat the following as authoritative inputs when creating new work:
 
 - `.specify/memory/constitution.md`
-- `research/EXECUTIVE_SUMMARY.md`
-- `research/README.md`
-- `research/13-subject-foundations/`
-- `research/14-production-templates/`
+- `docs/foundation/`
+- `docs/specs/`
+- `docs/reference/`
+- `specs/007-spec-driven-learning-system/`
+- `README.md`
+- domain-specific specs that extend the system model
 
 ## Governance
 
-This constitution supersedes informal contributor preference when there is a conflict about artifact quality, release readiness, or workflow.
+This constitution supersedes prior repository norms that treated curriculum-product assembly as the primary repository objective.
 
-Any future amendment MUST:
+Amendments must:
 
 - update this file
 - explain the reason for the change
-- preserve compatibility with existing specs or document required migration
+- note any migration impact on active specs
 
-All specifications, plans, tasks, code, and review decisions MUST be checked against this constitution.
+All specifications, plans, tasks, code, and review decisions must be checked against this constitution.
 
-**Version**: 1.0.0 | **Ratified**: 2026-04-01 | **Last Amended**: 2026-04-01
+**Version**: 2.0.0 | **Ratified**: 2026-04-14 | **Last Amended**: 2026-04-14

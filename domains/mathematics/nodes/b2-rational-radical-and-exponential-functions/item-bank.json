@@ -1,0 +1,37 @@
+{
+  "node_id": "B2",
+  "items": [
+    {
+      "item_id": "B2-A1",
+      "item_family": "direct",
+      "prompt": "interprets and solves bounded tasks involving rational, radical, and exponential functions while preserving family-specific constraints",
+      "expected_evidence": "solve bounded equations and comparisons while preserving domain restrictions and family meaning",
+      "dominant_failure_mode": "family_constraint_fragmentation",
+      "scoring_guidance": "Meets when the learner solves the task accurately while respecting the structural constraints of the chosen function family."
+    },
+    {
+      "item_id": "B2-B1",
+      "item_family": "explanation",
+      "prompt": "explains why asymptotes, domain cutoffs, or multiplicative growth emerge from rational, radical, or exponential structure",
+      "expected_evidence": "explain why asymptotes, domain cutoffs, or multiplicative growth arise from the symbolic structure",
+      "dominant_failure_mode": "behavior_source_opacity",
+      "scoring_guidance": "Meets when the learner explains advanced-function behavior as a consequence of structure rather than as memorized graph facts."
+    },
+    {
+      "item_id": "B2-C1",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer error aligned to extraneous_or_excluded_solution_acceptance.",
+      "expected_evidence": "identify the family and key structural constraints of bounded rational, radical, and exponential functions",
+      "dominant_failure_mode": "extraneous_or_excluded_solution_acceptance",
+      "scoring_guidance": "Meets when the learner identifies where a candidate solution violates a family-specific constraint or was not checked against the original structure."
+    },
+    {
+      "item_id": "B2-D1",
+      "item_family": "transfer",
+      "prompt": "interprets a less-familiar advanced-function situation and selects the representation or family features that reveal the needed behavior",
+      "expected_evidence": "compare representations to justify function-family-specific behavior in algebraic and graphical form",
+      "dominant_failure_mode": "representation_family_disconnect",
+      "scoring_guidance": "Meets when the learner preserves coherent family meaning across representation and context."
+    }
+  ]
+}

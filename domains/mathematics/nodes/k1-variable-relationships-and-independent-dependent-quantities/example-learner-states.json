@@ -1,0 +1,30 @@
+[
+  {
+    "student_id": "example-secure",
+    "node": "K1",
+    "status": "secure",
+    "direct_accuracy": 0.9,
+    "explanation_status": "meets",
+    "transfer_status": "meets",
+    "retention_status": "meets",
+    "dominant_failure_modes": [],
+    "recommended_interventions": []
+  },
+  {
+    "student_id": "example-blocked",
+    "node": "K1",
+    "status": "blocked",
+    "direct_accuracy": 0.57,
+    "explanation_status": "weak",
+    "transfer_status": "failed",
+    "retention_status": "not_met",
+    "dominant_failure_modes": [
+      "variable_role_swap",
+      "representation_role_disconnect"
+    ],
+    "recommended_interventions": [
+      "label the driving quantity and responding quantity explicitly before solving",
+      "translate one relationship across table, graph, rule, and verbal form while preserving variable labels"
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "node_id": "K4",
+  "items": [
+    {
+      "item_id": "K4-A1",
+      "item_family": "direct",
+      "prompt": "generates and tests ordered pairs for bounded linear equations in two variables",
+      "expected_evidence": "generate ordered pairs that satisfy a bounded linear equation in two variables",
+      "dominant_failure_mode": "pair_equation_mismatch",
+      "scoring_guidance": "Meets when the learner generates or tests ordered pairs accurately against the equation."
+    },
+    {
+      "item_id": "K4-B1",
+      "item_family": "explanation",
+      "prompt": "explains how a linear equation in two variables determines related pairs of values and how that connects to a table or graph",
+      "expected_evidence": "explain how the equation, table, and graph describe the same linear relationship",
+      "dominant_failure_mode": "symbol_relation_disconnect",
+      "scoring_guidance": "Meets when the learner explains the equation as a relationship among pairs rather than as a standalone expression."
+    },
+    {
+      "item_id": "K4-C1",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer error aligned to substitution_pair_breakdown.",
+      "expected_evidence": "determine whether a given pair satisfies a linear equation",
+      "dominant_failure_mode": "substitution_pair_breakdown",
+      "scoring_guidance": "Meets when the learner identifies how the peer lost pair meaning or substitution structure."
+    },
+    {
+      "item_id": "K4-D1",
+      "item_family": "transfer",
+      "prompt": "succeeds across symbolic, table, verbal, graph, and simple contextual linear-equation representations",
+      "expected_evidence": "connect slope and intercept-style structure to the behavior of the related pairs in bounded cases",
+      "dominant_failure_mode": "representation_relation_disconnect",
+      "scoring_guidance": "Meets when the learner preserves two-variable linear-equation meaning across varied representations and contexts."
+    }
+  ]
+}

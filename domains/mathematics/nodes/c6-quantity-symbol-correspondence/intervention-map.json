@@ -1,0 +1,37 @@
+{
+  "node_id": "C6",
+  "interventions": [
+    {
+      "failure_mode": "count_symbol_disconnect",
+      "strategies": [
+        "count-then-label routines with immediate numeral placement",
+        "teacher modeling of final-count-to-symbol linkage",
+        "match counted sets to numeral cards after each count"
+      ]
+    },
+    {
+      "failure_mode": "symbol_quantity_guessing",
+      "strategies": [
+        "mixed non-sequential numeral-choice tasks",
+        "justify-before-place prompts",
+        "small contrast sets where visual familiarity is misleading"
+      ]
+    },
+    {
+      "failure_mode": "final_count_loss",
+      "strategies": [
+        "last-number emphasis during counting",
+        "cover-and-recall numeral placement after counting",
+        "count-stop-label routines"
+      ]
+    },
+    {
+      "failure_mode": "label_acceptance_error",
+      "strategies": [
+        "error-detection tasks with intentionally mislabeled sets",
+        "check-the-label prompts before approval",
+        "peer-label correction routines"
+      ]
+    }
+  ]
+}

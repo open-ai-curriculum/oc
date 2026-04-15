@@ -1,0 +1,10 @@
+{
+  "node_id": "G1",
+  "version": "0.1",
+  "interventions": {
+    "G1-FM-01": ["multi_example_shape_naming", "touch_trace_with_feature_naming"],
+    "G1-FM-02": ["single_attribute_shape_sort", "one_feature_difference_comparison"],
+    "G1-FM-03": ["rotate_same_shape_name_constant", "orientation_vs_shape_change_contrast"],
+    "G1-FM-04": ["control_non_geometric_cues", "what_stays_same_prompt"]
+  }
+}

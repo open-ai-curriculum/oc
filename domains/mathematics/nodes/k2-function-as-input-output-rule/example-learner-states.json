@@ -1,0 +1,30 @@
+[
+  {
+    "student_id": "example-secure",
+    "node": "K2",
+    "status": "secure",
+    "direct_accuracy": 0.9,
+    "explanation_status": "meets",
+    "transfer_status": "meets",
+    "retention_status": "meets",
+    "dominant_failure_modes": [],
+    "recommended_interventions": []
+  },
+  {
+    "student_id": "example-blocked",
+    "node": "K2",
+    "status": "blocked",
+    "direct_accuracy": 0.57,
+    "explanation_status": "weak",
+    "transfer_status": "failed",
+    "retention_status": "not_met",
+    "dominant_failure_modes": [
+      "single_output_condition_miss",
+      "representation_function_disconnect"
+    ],
+    "recommended_interventions": [
+      "sort examples into functions and non-functions with explicit one-input-to-one-output justification",
+      "translate one function across verbal rule, table, graph, and symbolic form while preserving the same input-output meaning"
+    ]
+  }
+]

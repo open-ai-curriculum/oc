@@ -1,0 +1,37 @@
+{
+  "node_id": "K4",
+  "interventions": [
+    {
+      "failure_mode": "pair_equation_mismatch",
+      "strategies": [
+        "generate several ordered pairs from one equation and test them explicitly",
+        "use table-building routines from the equation before graphing",
+        "compare satisfying and non-satisfying pairs side by side"
+      ]
+    },
+    {
+      "failure_mode": "symbol_relation_disconnect",
+      "strategies": [
+        "rewrite equation language as \"for each pair that works\" before symbolic manipulation",
+        "connect verbal rules to equation forms through matched examples",
+        "teacher think-alouds naming the equation as a relationship, not just a formula string"
+      ]
+    },
+    {
+      "failure_mode": "substitution_pair_breakdown",
+      "strategies": [
+        "use ordered-pair substitution routines with variable positions highlighted",
+        "compare correct and reversed substitutions in matched examples",
+        "require learners to state which coordinate value goes with which variable before evaluating"
+      ]
+    },
+    {
+      "failure_mode": "representation_relation_disconnect",
+      "strategies": [
+        "translate one linear equation across symbolic form, table, graph, and verbal rule while preserving the same pair structure",
+        "pair each symbolic equation with a small satisfaction table and plotted points",
+        "teacher compare-and-connect routines across symbolic, tabular, graph, and contextual linear-equation situations"
+      ]
+    }
+  ]
+}

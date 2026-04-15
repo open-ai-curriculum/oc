@@ -1,0 +1,29 @@
+{
+  "node_id": "X5",
+  "items": [
+    {
+      "item_id": "x5-a1",
+      "item_family": "direct_execution",
+      "prompt": "Representative direct task for decimal locations on number line.",
+      "expected_evidence": [
+        "Learner uses the intended structure, not only an answer-getting shortcut."
+      ],
+      "dominant_failure_mode_targets": [
+        "tick_label_overreading"
+      ],
+      "context": "bounded number lines"
+    },
+    {
+      "item_id": "x5-b1",
+      "item_family": "explanation",
+      "prompt": "Explain why the chosen structure fits the situation.",
+      "expected_evidence": [
+        "Learner names the structural relationship correctly."
+      ],
+      "dominant_failure_mode_targets": [
+        "partition_density_confusion"
+      ],
+      "context": "partition tasks"
+    }
+  ]
+}

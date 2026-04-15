@@ -1,0 +1,29 @@
+{
+  "node_id": "S2",
+  "items": [
+    {
+      "item_id": "s2-a1",
+      "item_family": "direct_execution",
+      "prompt": "Representative direct task for signed number operations.",
+      "expected_evidence": [
+        "Learner uses the intended structure, not only an answer-getting shortcut."
+      ],
+      "dominant_failure_mode_targets": [
+        "sign_rule_instability"
+      ],
+      "context": "symbolic computation"
+    },
+    {
+      "item_id": "s2-b1",
+      "item_family": "explanation",
+      "prompt": "Explain why the chosen structure fits the situation.",
+      "expected_evidence": [
+        "Learner names the structural relationship correctly."
+      ],
+      "dominant_failure_mode_targets": [
+        "subtraction_rule_confusion"
+      ],
+      "context": "number-line jumps"
+    }
+  ]
+}

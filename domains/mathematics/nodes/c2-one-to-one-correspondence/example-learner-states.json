@@ -1,0 +1,42 @@
+{
+  "node_id": "C2",
+  "examples": [
+    {
+      "learner_id": "sample-c2-blocked-01",
+      "node_id": "C2",
+      "status": "blocked",
+      "dependency_status": {
+        "C1": "secure"
+      },
+      "direct_accuracy": 0.55,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["C2-FM-01", "C2-FM-03"],
+      "recommended_interventions": [
+        "use touch-and-move counting routines",
+        "practice with lined-up circular and scattered sets"
+      ],
+      "last_verified_at": "2026-04-14",
+      "review_state": "draft",
+      "notes": "Counts lined-up sets better than scattered sets and sometimes counts one object twice."
+    },
+    {
+      "learner_id": "sample-c2-secure-01",
+      "node_id": "C2",
+      "status": "secure",
+      "dependency_status": {
+        "C1": "secure"
+      },
+      "direct_accuracy": 0.95,
+      "explanation_status": "met",
+      "transfer_status": "met",
+      "retention_status": "met",
+      "dominant_failure_modes": [],
+      "recommended_interventions": [],
+      "last_verified_at": "2026-04-14",
+      "review_state": "draft",
+      "notes": "Coordinates one count word per object across layouts and can explain the rule."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "node_id": "N6",
+  "examples": [
+    {
+      "student_id": "example-n6-001",
+      "node": "N6",
+      "status": "blocked",
+      "direct_accuracy": 0.57,
+      "meaning_status": "weak",
+      "transfer_status": "failed",
+      "retention_status": "not_met",
+      "dominant_failure_modes": ["N6-FM-02", "N6-FM-04"],
+      "recommended_interventions": [
+        "tens_first_comparison_sequence",
+        "place_role_sentence_frames"
+      ]
+    },
+    {
+      "student_id": "example-n6-002",
+      "node": "N6",
+      "status": "secure",
+      "direct_accuracy": 0.93,
+      "meaning_status": "met",
+      "transfer_status": "met",
+      "retention_status": "met",
+      "dominant_failure_modes": [],
+      "recommended_interventions": []
+    }
+  ]
+}

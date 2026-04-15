@@ -1,0 +1,22 @@
+{
+  "node_id": "M6",
+  "examples": [
+    {
+      "student_id": "example-m6-001",
+      "node": "M6",
+      "status": "blocked",
+      "direct_accuracy": 0.55,
+      "meaning_status": "weak",
+      "transfer_status": "failed",
+      "retention_status": "not_met",
+      "dominant_failure_modes": [
+        "M6-FM-01",
+        "M6-FM-02"
+      ],
+      "recommended_interventions": [
+        "address_sequence-order_weakness",
+        "practice_m6_sequence-order_weakness"
+      ]
+    }
+  ]
+}

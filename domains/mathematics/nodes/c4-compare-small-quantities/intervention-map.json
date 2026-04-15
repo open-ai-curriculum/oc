@@ -1,0 +1,26 @@
+{
+  "node_id": "C4",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "C4-FM-01": [
+      "count both sets before comparing",
+      "match objects one to one across sets",
+      "restate each set quantity before choosing"
+    ],
+    "C4-FM-02": [
+      "use side-by-side labeled sets",
+      "rehearse more versus less with visual supports",
+      "ask which set would have extra objects if matched"
+    ],
+    "C4-FM-03": [
+      "rearrange the same set while preserving count",
+      "compare compact and spread-out layouts of equal sets",
+      "ask whether anything was added or removed"
+    ],
+    "C4-FM-04": [
+      "move from concrete sets to pictures to short stories gradually",
+      "anchor each context back to counted sets",
+      "name both quantities before comparing"
+    ]
+  }
+}

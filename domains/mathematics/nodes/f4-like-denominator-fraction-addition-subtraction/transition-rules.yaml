@@ -1,0 +1,20 @@
+node_id: F4
+version: 0.1
+transitions:
+  - from: blocked
+    to: emerging
+    when:
+      - direct_accuracy_improves_meaningfully
+      - dependencies_F1_F3_not_blocked
+  - from: emerging
+    to: provisional
+    when:
+      - direct_gate_passes
+      - meaning_gate_passes
+      - transfer_gate_passes
+      - retention_not_yet_due
+  - from: provisional
+    to: secure
+    when:
+      - retention_gate_passes
+      - dependencies_F1_F3_not_blocked

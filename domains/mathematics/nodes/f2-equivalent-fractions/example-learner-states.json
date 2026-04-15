@@ -1,0 +1,19 @@
+[
+  {
+    "learner_id": "learner-f2-001",
+    "node_id": "F2",
+    "status": "blocked",
+    "dependency_status": {
+      "F1": "secure"
+    },
+    "direct_accuracy": 0.54,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["F2-FM-01"],
+    "recommended_interventions": ["scaling_tables", "explicit_scale_vs_add_contrast"],
+    "last_verified_at": "2026-04-14",
+    "review_state": "draft",
+    "notes": "Adds to numerator and denominator rather than scaling."
+  }
+]

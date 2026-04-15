@@ -1,0 +1,25 @@
+node_id: T1
+transitions:
+  - from: not_started
+    to: in_progress
+    when:
+      - initial evidence is collected
+  - from: in_progress
+    to: mastered
+    when:
+      - direct_accuracy >= 0.90
+      - explanation_status == secure
+      - transfer_status == secure
+      - retention_status == met
+  - from: in_progress
+    to: blocked
+    when:
+      - dominant_failure_modes is not empty
+  - from: mastered
+    to: retention_watch
+    when:
+      - delayed verification window opens
+  - from: retention_watch
+    to: mastered
+    when:
+      - retention_status == met

@@ -1,0 +1,30 @@
+{
+  "node_id": "N4",
+  "examples": [
+    {
+      "student_id": "example-n4-001",
+      "node": "N4",
+      "status": "emerging",
+      "direct_accuracy": 0.74,
+      "meaning_status": "met",
+      "transfer_status": "failed",
+      "retention_status": "not_met",
+      "dominant_failure_modes": ["N4-FM-02", "N4-FM-03"],
+      "recommended_interventions": [
+        "recount_vs_efficient_strategy_contrast",
+        "deliberate_small_scale_interleaving"
+      ]
+    },
+    {
+      "student_id": "example-n4-002",
+      "node": "N4",
+      "status": "secure",
+      "direct_accuracy": 0.96,
+      "meaning_status": "met",
+      "transfer_status": "met",
+      "retention_status": "met",
+      "dominant_failure_modes": [],
+      "recommended_interventions": []
+    }
+  ]
+}

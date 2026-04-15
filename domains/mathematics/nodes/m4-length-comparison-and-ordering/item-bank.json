@@ -1,0 +1,72 @@
+{
+  "node_id": "M4",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "M4-A-001",
+      "family": "direct_comparison",
+      "prompt": "Place two strips side by side, align the ends, and tell which strip is longer.",
+      "target_node": "M4",
+      "secondary_dependency_targets": ["M1"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["manipulative_model", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["M4-FM-01", "M4-FM-02"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "M4-A-002",
+      "family": "direct_comparison",
+      "prompt": "Order three pencils from shortest to longest.",
+      "target_node": "M4",
+      "secondary_dependency_targets": ["M1"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["manipulative_model", "drawing", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["M4-FM-02", "M4-FM-03"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "M4-B-001",
+      "family": "explanation",
+      "prompt": "Explain why two objects should be lined up at the same end before deciding which is longer.",
+      "target_node": "M4",
+      "secondary_dependency_targets": ["M1"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation", "written_explanation"],
+      "dominant_failure_modes_if_incorrect": ["M4-FM-01", "M4-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "M4-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student says one ribbon is longer because it starts farther to the right. What should be checked?",
+      "target_node": "M4",
+      "secondary_dependency_targets": ["M1"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["multiple_choice", "oral_explanation", "written_explanation"],
+      "dominant_failure_modes_if_incorrect": ["M4-FM-01", "M4-FM-02"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "M4-D-001",
+      "family": "transfer",
+      "prompt": "Look at three drawn towers and order them from tallest to shortest, then explain what you compared.",
+      "target_node": "M4",
+      "secondary_dependency_targets": ["M1"],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": ["drawing", "written_explanation", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["M4-FM-03", "M4-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "M4-R-001",
+      "family": "retention",
+      "prompt": "After a delay, compare two sticks and order three crayons by length.",
+      "target_node": "M4",
+      "secondary_dependency_targets": ["M1"],
+      "difficulty_band": "retention",
+      "response_modes_allowed": ["manipulative_model", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["M4-FM-01", "M4-FM-02", "M4-FM-03"],
+      "requires_human_scoring": true
+    }
+  ]
+}

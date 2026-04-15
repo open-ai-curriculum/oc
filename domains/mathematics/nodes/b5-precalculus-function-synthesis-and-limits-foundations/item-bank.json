@@ -1,0 +1,37 @@
+{
+  "node_id": "B5",
+  "items": [
+    {
+      "item_id": "B5-A1",
+      "item_family": "direct",
+      "prompt": "compares, composes, and selects advanced-function families in bounded modeling and representation tasks and interprets near-limit behavior",
+      "expected_evidence": "choose and justify an appropriate advanced-function family or composition for a bounded modeling or interpretation task",
+      "dominant_failure_mode": "family_synthesis_fragmentation",
+      "scoring_guidance": "Meets when the learner selects or combines function families in a way that preserves the structure of the task and the resulting behavior."
+    },
+    {
+      "item_id": "B5-B1",
+      "item_family": "explanation",
+      "prompt": "explains how transformed, inverse, and composed functions interact and how approaching behavior can still be reasoned about before formal calculus",
+      "expected_evidence": "explain approaching behavior and continuity in bounded near-limit situations without relying on formal calculus procedures",
+      "dominant_failure_mode": "approaching_behavior_opacity",
+      "scoring_guidance": "Meets when the learner explains synthesis and near-limit reasoning as coherent function behavior rather than isolated rules."
+    },
+    {
+      "item_id": "B5-C1",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer error aligned to composition_representation_breakdown.",
+      "expected_evidence": "compare transformed, composed, or inverse functions across algebraic and graphical representations",
+      "dominant_failure_mode": "composition_representation_breakdown",
+      "scoring_guidance": "Meets when the learner identifies where a composition or transformation was represented inconsistently across forms."
+    },
+    {
+      "item_id": "B5-D1",
+      "item_family": "transfer",
+      "prompt": "interprets a less-familiar precalculus modeling or graph-comparison context and identifies the dominant cross-family features that matter",
+      "expected_evidence": "connect cross-family features such as growth, asymptotes, oscillation, and local behavior in one coherent analysis",
+      "dominant_failure_mode": "cross_family_feature_blindness",
+      "scoring_guidance": "Meets when the learner preserves coherent cross-family reasoning and identifies the feature that actually governs the situation."
+    }
+  ]
+}

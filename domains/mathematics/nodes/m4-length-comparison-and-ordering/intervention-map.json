@@ -1,0 +1,10 @@
+{
+  "node_id": "M4",
+  "version": "0.1",
+  "interventions": {
+    "M4-FM-01": ["endpoint_alignment_routine", "aligned_vs_misaligned_contrast"],
+    "M4-FM-02": ["pair_then_insert_ordering_sequence", "shortest_to_longest_ordering_mat"],
+    "M4-FM-03": ["target_attribute_naming_before_compare", "attribute_sort_then_compare"],
+    "M4-FM-04": ["comparative_sentence_frames", "gesture_plus_language_comparison"]
+  }
+}

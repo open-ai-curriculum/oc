@@ -1,0 +1,37 @@
+{
+  "node_id": "H3",
+  "items": [
+    {
+      "item_id": "H3-A1",
+      "item_family": "direct",
+      "prompt": "constructs or completes bounded geometric arguments using givens, definitions, prior results, and valid reasons",
+      "expected_evidence": "complete or critique short geometric arguments with coherent claim-evidence flow",
+      "dominant_failure_mode": "reason_claim_mismatch",
+      "scoring_guidance": "Meets when the learner produces a structurally coherent bounded proof or proof completion with valid supporting reasons."
+    },
+    {
+      "item_id": "H3-B1",
+      "item_family": "explanation",
+      "prompt": "explains why a bounded geometric argument is valid, including how givens, definitions, and theorem use connect to the conclusion",
+      "expected_evidence": "supply valid reasons for bounded geometric statements and theorem uses",
+      "dominant_failure_mode": "proof_structure_opacity",
+      "scoring_guidance": "Meets when the learner explains proof as a chain of justified claims rather than a template to copy."
+    },
+    {
+      "item_id": "H3-C1",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer error aligned to visual_assertion_substitution.",
+      "expected_evidence": "critiques incomplete or invalid arguments and repairs bounded proof gaps",
+      "dominant_failure_mode": "visual_assertion_substitution",
+      "scoring_guidance": "Meets when the learner identifies where a visual claim replaced a justified step or where a reason does not support the statement."
+    },
+    {
+      "item_id": "H3-D1",
+      "item_family": "transfer",
+      "prompt": "builds or critiques a bounded geometric argument in a less-familiar diagram or mixed algebra-geometry setting",
+      "expected_evidence": "connect algebraic manipulation and geometric properties inside a single bounded proof",
+      "dominant_failure_mode": "algebra_geometry_link_breakdown",
+      "scoring_guidance": "Meets when the learner preserves coherent justification across geometry and algebra in a varied proof situation."
+    }
+  ]
+}

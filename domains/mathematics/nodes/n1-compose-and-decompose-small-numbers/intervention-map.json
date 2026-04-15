@@ -1,0 +1,26 @@
+{
+  "node_id": "N1",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "N1-FM-01": [
+      "use part-part-whole mats with concrete objects",
+      "restate the whole before naming parts",
+      "use cover-and-reveal routines for missing parts"
+    ],
+    "N1-FM-02": [
+      "generate multiple decompositions with counters",
+      "sort examples by same whole different parts",
+      "ask for another valid way"
+    ],
+    "N1-FM-03": [
+      "slow the task with one-to-one counting checks",
+      "anchor each part with concrete objects before combining",
+      "revisit cardinality language from C3"
+    ],
+    "N1-FM-04": [
+      "physically rearrange the same objects without changing count",
+      "ask whether the total changed and why",
+      "use fixed-total comparisons before symbolic notation"
+    ]
+  }
+}

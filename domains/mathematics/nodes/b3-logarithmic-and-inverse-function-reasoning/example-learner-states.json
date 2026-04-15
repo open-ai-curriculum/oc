@@ -1,0 +1,30 @@
+[
+  {
+    "student_id": "example-secure",
+    "node": "B3",
+    "status": "secure",
+    "direct_accuracy": 0.84,
+    "explanation_status": "meets",
+    "transfer_status": "meets",
+    "retention_status": "meets",
+    "dominant_failure_modes": [],
+    "recommended_interventions": []
+  },
+  {
+    "student_id": "example-blocked",
+    "node": "B3",
+    "status": "blocked",
+    "direct_accuracy": 0.5,
+    "explanation_status": "weak",
+    "transfer_status": "failed",
+    "retention_status": "not_met",
+    "dominant_failure_modes": [
+      "inverse_log_equivalence_fragmentation",
+      "log_rule_without_domain_check"
+    ],
+    "recommended_interventions": [
+      "pair exponential and logarithmic equations side by side and translate them in both directions before solving",
+      "mark whether each logarithmic expression is defined before applying rules or combining terms"
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "node_id": "S1",
+  "interventions": {
+    "reference-point number-line routines": [
+      "Use zero-centered lines to stabilize comparison and location reasoning."
+    ],
+    "context translation loops": [
+      "Translate among temperature, elevation, debt, and motion representations of the same signed value."
+    ],
+    "state-versus-change contrasts": [
+      "Compare tasks that ask for location, direction, or net change and require explicit classification."
+    ]
+  }
+}

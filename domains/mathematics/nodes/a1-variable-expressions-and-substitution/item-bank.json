@@ -1,0 +1,37 @@
+{
+  "node_id": "A1",
+  "items": [
+    {
+      "item_id": "A1-A1",
+      "item_family": "direct",
+      "prompt": "evaluates bounded expressions correctly by substitution",
+      "expected_evidence": "substitute values into expressions and compute accurately",
+      "dominant_failure_mode": "substitution_placeholding_error",
+      "scoring_guidance": "Meets when the learner evaluates the expression correctly by substitution."
+    },
+    {
+      "item_id": "A1-B1",
+      "item_family": "explanation",
+      "prompt": "distinguishes expressions from equations and explains the difference in meaning",
+      "expected_evidence": "sort expressions and equations by structure and purpose",
+      "dominant_failure_mode": "expression_equation_collapse",
+      "scoring_guidance": "Meets when the learner explains the difference between an expression and an equation."
+    },
+    {
+      "item_id": "A1-C1",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer error aligned to substitution_placeholding_error.",
+      "expected_evidence": "substitute values into expressions and compute accurately",
+      "dominant_failure_mode": "substitution_placeholding_error",
+      "scoring_guidance": "Meets when the learner identifies the substitution mistake and preserves the original structure."
+    },
+    {
+      "item_id": "A1-D1",
+      "item_family": "transfer",
+      "prompt": "succeeds across symbolic, verbal, and simple contextual representations",
+      "expected_evidence": "connect a verbal rule or quantity description to an algebraic expression in bounded cases",
+      "dominant_failure_mode": "variable_as_label_only",
+      "scoring_guidance": "Meets when the learner connects a verbal or contextual description to the correct algebraic expression."
+    }
+  ]
+}

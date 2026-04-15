@@ -1,0 +1,26 @@
+{
+  "node_id": "R3",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "R3-FM-01": [
+      "use two-column mapping for selected parts versus whole parts",
+      "annotate visuals before writing symbols",
+      "require verbal rehearsal of each quantity before placement"
+    ],
+    "R3-FM-02": [
+      "label top and bottom positions with meaning roles",
+      "sort examples with intentionally swapped counts",
+      "use sentence frames pairing each count with its job"
+    ],
+    "R3-FM-03": [
+      "map oral phrases to cards before writing symbols",
+      "use teacher read-aloud and learner write-back routines",
+      "reduce symbolic load then rebuild from spoken language"
+    ],
+    "R3-FM-04": [
+      "require visual justification for each written symbol",
+      "connect each symbol to a concrete or diagrammed whole",
+      "compare symbols to candidate matching pictures"
+    ]
+  }
+}

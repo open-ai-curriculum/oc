@@ -1,0 +1,37 @@
+{
+  "node_id": "J5",
+  "interventions": [
+    {
+      "failure_mode": "base_value_tracking_breakdown",
+      "strategies": [
+        "label original amount, percent amount, and result explicitly before calculation",
+        "use percent-bar or table models that keep the base quantity visible",
+        "compare multiple problems where the same percent is applied to different bases"
+      ]
+    },
+    {
+      "failure_mode": "additive_percent_misread",
+      "strategies": [
+        "contrast additive difference problems with percent-change problems directly",
+        "use hundred-model and rate-table routines before symbolic shortcuts",
+        "teacher think-alouds naming the percent as a fraction of the original amount"
+      ]
+    },
+    {
+      "failure_mode": "result_direction_confusion",
+      "strategies": [
+        "sort contexts into increase versus decrease before computing",
+        "annotate whether the percent amount should be added to or removed from the base",
+        "compare matched tax and discount cases with the same numbers"
+      ]
+    },
+    {
+      "failure_mode": "context_reasonableness_breakdown",
+      "strategies": [
+        "use price, measurement, and quantity contexts with explicit estimate-before-compute routines",
+        "pair each answer with a question about whether it should be larger or smaller than the original amount",
+        "teacher compare-and-connect routines across symbolic, tabular, and contextual percent-change situations"
+      ]
+    }
+  ]
+}

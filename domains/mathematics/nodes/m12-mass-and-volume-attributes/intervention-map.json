@@ -1,0 +1,14 @@
+{
+  "node_id": "M12",
+  "interventions": {
+    "attribute-sorting routines": [
+      "Sort situations by which measurement attribute is actually being considered."
+    ],
+    "same-size-different-mass contrasts": [
+      "Use examples where visual size does not determine mass."
+    ],
+    "container-comparison tasks": [
+      "Compare differently shaped containers holding the same or different amounts."
+    ]
+  }
+}

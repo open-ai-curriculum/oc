@@ -1,0 +1,20 @@
+[
+  {
+    "learner_id": "learner-f4-001",
+    "node_id": "F4",
+    "status": "blocked",
+    "dependency_status": {
+      "F1": "secure",
+      "F3": "secure"
+    },
+    "direct_accuracy": 0.57,
+    "explanation_status": "not_met",
+    "transfer_status": "weak",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["F4-FM-01"],
+    "recommended_interventions": ["same_size_partition_models", "denominator_vs_numerator_contrast"],
+    "last_verified_at": "2026-04-14",
+    "review_state": "draft",
+    "notes": "Still adds denominators directly."
+  }
+]

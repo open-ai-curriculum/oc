@@ -1,0 +1,22 @@
+{
+  "node_id": "V3",
+  "version": "0.1",
+  "interventions": {
+    "V3-FM-01": [
+      "address_strategy_selection_weakness",
+      "practice_v3_strategy_selection_weakness"
+    ],
+    "V3-FM-02": [
+      "address_tens_ones_decomposition_error",
+      "practice_v3_tens_ones_decomposition_error"
+    ],
+    "V3-FM-03": [
+      "address_operation_meaning_drift",
+      "practice_v3_operation_meaning_drift"
+    ],
+    "V3-FM-04": [
+      "address_explanation_weakness",
+      "practice_v3_explanation_weakness"
+    ]
+  }
+}

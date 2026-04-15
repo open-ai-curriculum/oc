@@ -1,0 +1,26 @@
+{
+  "node_id": "M2",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "M2-FM-01": [
+      "name the unit before measuring",
+      "use one visibly consistent unit set",
+      "compare correct and incorrect mixed-unit examples"
+    ],
+    "M2-FM-02": [
+      "place units edge to edge with teacher modeling",
+      "highlight gaps and overlaps visually",
+      "use tracing or alignment guides"
+    ],
+    "M2-FM-03": [
+      "ask what the units are covering or spanning",
+      "connect each unit to the quantity measured",
+      "compare complete and incomplete coverage"
+    ],
+    "M2-FM-04": [
+      "move from length to area using the same logic",
+      "ask what remains the same when material changes",
+      "use paired examples across contexts"
+    ]
+  }
+}

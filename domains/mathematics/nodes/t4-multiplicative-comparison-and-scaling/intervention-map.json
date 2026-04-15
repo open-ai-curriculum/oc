@@ -1,0 +1,14 @@
+{
+  "node_id": "T4",
+  "interventions": {
+    "compare additive versus multiplicative sets": [
+      "Contrast side-by-side examples that look similar but require different structures."
+    ],
+    "scale strip diagrams": [
+      "Use strip or bar models to show repeated referent units inside the compared quantity."
+    ],
+    "forward-backward scale routines": [
+      "Pair scale-up and scale-down tasks to stabilize inverse reasoning."
+    ]
+  }
+}

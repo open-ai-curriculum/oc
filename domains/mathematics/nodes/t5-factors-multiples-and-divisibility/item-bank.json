@@ -1,0 +1,29 @@
+{
+  "node_id": "T5",
+  "items": [
+    {
+      "item_id": "t5-a1",
+      "item_family": "direct_execution",
+      "prompt": "Representative direct task for factors, multiples, and divisibility.",
+      "expected_evidence": [
+        "Learner uses the intended structure, not only an answer-getting shortcut."
+      ],
+      "dominant_failure_mode_targets": [
+        "factor_multiple_role_confusion"
+      ],
+      "context": "arrays"
+    },
+    {
+      "item_id": "t5-b1",
+      "item_family": "explanation",
+      "prompt": "Explain why the chosen structure fits the situation.",
+      "expected_evidence": [
+        "Learner names the structural relationship correctly."
+      ],
+      "dominant_failure_mode_targets": [
+        "divisibility_as_rule_only"
+      ],
+      "context": "number classifications"
+    }
+  ]
+}

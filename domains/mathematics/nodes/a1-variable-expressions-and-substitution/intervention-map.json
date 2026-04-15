@@ -1,0 +1,37 @@
+{
+  "node_id": "A1",
+  "interventions": [
+    {
+      "failure_mode": "expression_equation_collapse",
+      "strategies": [
+        "sort expressions versus equations with explanation prompts",
+        "teacher modeling of names versus statements",
+        "non-example review where equals sign changes task type"
+      ]
+    },
+    {
+      "failure_mode": "substitution_placeholding_error",
+      "strategies": [
+        "substitute-and-circle routines for each variable occurrence",
+        "color-code value insertion before computation",
+        "one-expression multiple-value rehearsal"
+      ]
+    },
+    {
+      "failure_mode": "variable_as_label_only",
+      "strategies": [
+        "context-to-expression matching tasks",
+        "vary-the-value tasks showing output changes",
+        "teacher think-aloud on variable as quantity placeholder"
+      ]
+    },
+    {
+      "failure_mode": "operation_order_disruption",
+      "strategies": [
+        "structure-preserving rewrite steps",
+        "evaluate with visible grouping and order checks",
+        "bounded order-of-operations rehearsal in substitution contexts"
+      ]
+    }
+  ]
+}

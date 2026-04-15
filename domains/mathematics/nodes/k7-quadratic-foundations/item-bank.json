@@ -1,0 +1,37 @@
+{
+  "node_id": "K7",
+  "items": [
+    {
+      "item_id": "K7-A1",
+      "item_family": "direct",
+      "prompt": "matches quadratic relationships across table, graph, expression, and area-model forms and solves simple factored cases",
+      "expected_evidence": "match quadratic expressions, area models, tables, and parabolic graphs representing the same relationship",
+      "dominant_failure_mode": "representation_structure_disconnect",
+      "scoring_guidance": "Meets when the learner preserves the same quadratic structure across bounded representations and simple solve tasks."
+    },
+    {
+      "item_id": "K7-B1",
+      "item_family": "explanation",
+      "prompt": "explains how vertex, symmetry, and zeros appear in an introductory quadratic relationship",
+      "expected_evidence": "explain introductory vertex, symmetry, and zero meaning in graphical or contextual form",
+      "dominant_failure_mode": "feature_meaning_collapse",
+      "scoring_guidance": "Meets when the learner explains quadratic features as properties of one relationship rather than disconnected labels."
+    },
+    {
+      "item_id": "K7-C1",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer error aligned to zero_solution_confusion.",
+      "expected_evidence": "solve simple quadratics in factored or area-linked forms and verify candidate solutions",
+      "dominant_failure_mode": "zero_solution_confusion",
+      "scoring_guidance": "Meets when the learner identifies how the peer confused zeros, factors, or verified solutions."
+    },
+    {
+      "item_id": "K7-D1",
+      "item_family": "transfer",
+      "prompt": "recognizes quadratic structure in a less-familiar contextual, tabular, or geometric setting",
+      "expected_evidence": "recognize non-constant first differences and connect them to quadratic growth in bounded tables",
+      "dominant_failure_mode": "linear_overgeneralization",
+      "scoring_guidance": "Meets when the learner distinguishes quadratic structure from linear or unrelated patterns in a varied setting."
+    }
+  ]
+}

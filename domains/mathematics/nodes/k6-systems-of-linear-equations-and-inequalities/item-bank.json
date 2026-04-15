@@ -1,0 +1,37 @@
+{
+  "node_id": "K6",
+  "items": [
+    {
+      "item_id": "K6-A1",
+      "item_family": "direct",
+      "prompt": "solves bounded systems of linear equations and interprets bounded linear inequalities in graph, table, and symbolic forms",
+      "expected_evidence": "solve or verify bounded systems of linear equations in multiple representations",
+      "dominant_failure_mode": "constraint_intersection_misread",
+      "scoring_guidance": "Meets when the learner finds or verifies solutions using methods that preserve the simultaneous-constraint meaning."
+    },
+    {
+      "item_id": "K6-B1",
+      "item_family": "explanation",
+      "prompt": "explains why a solution pair must satisfy both equations or inequalities and what different system outcomes mean",
+      "expected_evidence": "explain why a solution pair must satisfy both equations or inequalities simultaneously",
+      "dominant_failure_mode": "simultaneous_satisfaction_gap",
+      "scoring_guidance": "Meets when the learner explains solution meaning as overlap of constraints, not just a computed pair."
+    },
+    {
+      "item_id": "K6-C1",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer error aligned to elimination_substitution_drift.",
+      "expected_evidence": "classify bounded system outcomes as one solution, no solution, or infinitely many solutions",
+      "dominant_failure_mode": "elimination_substitution_drift",
+      "scoring_guidance": "Meets when the learner identifies how the peer broke equivalence or lost a system case distinction."
+    },
+    {
+      "item_id": "K6-D1",
+      "item_family": "transfer",
+      "prompt": "represents and interprets bounded linear inequalities and simple systems of inequalities in less-familiar coordinate or contextual settings",
+      "expected_evidence": "interpret and graph bounded linear inequalities and overlap regions in simple cases",
+      "dominant_failure_mode": "inequality_region_misclassification",
+      "scoring_guidance": "Meets when the learner preserves inequality direction and overlap meaning in a varied setting."
+    }
+  ]
+}

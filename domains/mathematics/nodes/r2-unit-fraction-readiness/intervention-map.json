@@ -1,0 +1,26 @@
+{
+  "node_id": "R2",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "R2-FM-01": [
+      "trace or shade one equal part in multiple models",
+      "identify the whole before selecting the part",
+      "use one-part-of-the-whole sentence frames"
+    ],
+    "R2-FM-02": [
+      "contrast counting pieces with naming one part",
+      "use one out of how many equal parts prompts",
+      "revisit R1 equal-part and whole-reference tasks"
+    ],
+    "R2-FM-03": [
+      "compare the same whole partitioned into different counts",
+      "overlay one-half, one-third, and one-fourth models",
+      "require predictions before showing the visual"
+    ],
+    "R2-FM-04": [
+      "connect fair-sharing stories back to models",
+      "label each share as one equal part of the whole",
+      "use teacher modeling that links fairness to unit meaning"
+    ]
+  }
+}

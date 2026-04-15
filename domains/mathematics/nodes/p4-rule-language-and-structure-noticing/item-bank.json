@@ -1,0 +1,120 @@
+{
+  "node_id": "P4",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "P4-A-001",
+      "family": "direct_rule_statement",
+      "prompt": "Look at a pattern and say the rule in words.",
+      "target_node": "P4",
+      "secondary_dependency_targets": [
+        "P3"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "P4-FM-01",
+        "P4-FM-02"
+      ],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "P4-A-002",
+      "family": "direct_rule_statement",
+      "prompt": "Match two different patterns that follow the same rule and explain the match.",
+      "target_node": "P4",
+      "secondary_dependency_targets": [
+        "P3"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "P4-FM-01",
+        "P4-FM-02"
+      ],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "P4-B-001",
+      "family": "explanation",
+      "prompt": "Explain how the rule helps you know what comes next even when the objects change.",
+      "target_node": "P4",
+      "secondary_dependency_targets": [
+        "P3"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "P4-FM-01",
+        "P4-FM-02"
+      ],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "P4-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student only names the colors in a pattern but never states what repeats or changes. What should be checked?",
+      "target_node": "P4",
+      "secondary_dependency_targets": [
+        "P3"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "P4-FM-01",
+        "P4-FM-02"
+      ],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "P4-D-001",
+      "family": "transfer",
+      "prompt": "State the rule for a block pattern and then find the same rule in a number pattern.",
+      "target_node": "P4",
+      "secondary_dependency_targets": [
+        "P3"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "P4-FM-01",
+        "P4-FM-02"
+      ],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "P4-R-001",
+      "family": "retention",
+      "prompt": "After a delay, state the rule for a new pattern and explain how it predicts a missing element.",
+      "target_node": "P4",
+      "secondary_dependency_targets": [
+        "P3"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "P4-FM-01",
+        "P4-FM-02"
+      ],
+      "requires_human_scoring": true
+    }
+  ]
+}

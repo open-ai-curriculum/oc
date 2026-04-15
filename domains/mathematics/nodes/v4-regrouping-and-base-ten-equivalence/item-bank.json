@@ -1,0 +1,126 @@
+{
+  "node_id": "V4",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "V4-A-001",
+      "family": "direct_regrouping",
+      "prompt": "Show how 1 ten can be renamed as 10 ones.",
+      "target_node": "V4",
+      "secondary_dependency_targets": [
+        "V1",
+        "V3"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "V4-FM-01",
+        "V4-FM-02"
+      ],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "V4-A-002",
+      "family": "direct_regrouping",
+      "prompt": "Use a model or drawing to solve 52 - 18 with regrouping.",
+      "target_node": "V4",
+      "secondary_dependency_targets": [
+        "V1",
+        "V3"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "V4-FM-01",
+        "V4-FM-02"
+      ],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "V4-B-001",
+      "family": "explanation",
+      "prompt": "Explain why changing 1 ten into 10 ones does not change the total amount.",
+      "target_node": "V4",
+      "secondary_dependency_targets": [
+        "V1",
+        "V3"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "V4-FM-01",
+        "V4-FM-02"
+      ],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "V4-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student borrows in subtraction but cannot explain what changed. What should be checked?",
+      "target_node": "V4",
+      "secondary_dependency_targets": [
+        "V1",
+        "V3"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "V4-FM-01",
+        "V4-FM-02"
+      ],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "V4-D-001",
+      "family": "transfer",
+      "prompt": "Connect a base-ten-block regrouping model to a written subtraction or addition method.",
+      "target_node": "V4",
+      "secondary_dependency_targets": [
+        "V1",
+        "V3"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "V4-FM-01",
+        "V4-FM-02"
+      ],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "V4-R-001",
+      "family": "retention",
+      "prompt": "After a delay, solve a new regrouping problem and explain the rename step.",
+      "target_node": "V4",
+      "secondary_dependency_targets": [
+        "V1",
+        "V3"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "V4-FM-01",
+        "V4-FM-02"
+      ],
+      "requires_human_scoring": true
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "student_id": "example-secure",
+    "node": "J3",
+    "status": "secure",
+    "direct_accuracy": 0.9,
+    "explanation_status": "meets",
+    "transfer_status": "meets",
+    "retention_status": "meets",
+    "dominant_failure_modes": [],
+    "recommended_interventions": []
+  },
+  {
+    "student_id": "example-blocked",
+    "node": "J3",
+    "status": "blocked",
+    "direct_accuracy": 0.57,
+    "explanation_status": "weak",
+    "transfer_status": "failed",
+    "retention_status": "not_met",
+    "dominant_failure_modes": [
+      "sign_magnitude_collapse",
+      "mixed_form_ordering_breakdown"
+    ],
+    "recommended_interventions": [
+      "separate sign language from absolute-size language in teacher think-alouds",
+      "convert or benchmark mixed fraction-decimal forms before ordering"
+    ]
+  }
+]

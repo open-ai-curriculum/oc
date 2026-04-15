@@ -1,0 +1,40 @@
+id: T5
+name: factors_multiples_and_divisibility
+domain: mathematics
+support_tier: Core release
+maturity_state: Drafted
+supported_profiles:
+- upstream-readiness-node-package
+evidence_class: Synthetic
+dependencies:
+- T2
+- V2
+mastery:
+  direct_accuracy_threshold: 0.9
+  explanation_required: true
+  transfer_required: true
+  retention_check_days: 21
+statuses:
+- blocked
+- emerging
+- provisional
+- secure
+- unstable
+verification_gates:
+- id: G1
+  type: direct_performance
+  pass_rule: '>= 0.90 direct accuracy on node-aligned tasks'
+- id: G2
+  type: meaning
+  pass_rule: coherent explanation meeting the package meaning requirement
+- id: G3
+  type: transfer
+  pass_rule: successful performance in at least one changed surface form or context
+- id: G4
+  type: retention
+  pass_rule: delayed recheck meets retention expectation after ~21 days
+failure_modes:
+- T5-FM-01
+- T5-FM-02
+- T5-FM-03
+- T5-FM-04

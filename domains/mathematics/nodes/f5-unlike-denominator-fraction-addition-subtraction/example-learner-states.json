@@ -1,0 +1,65 @@
+[
+  {
+    "learner_id": "learner-48219",
+    "node_id": "F5",
+    "status": "blocked",
+    "dependency_status": {
+      "F2": "unstable",
+      "F3": "secure",
+      "F4": "secure"
+    },
+    "direct_accuracy": 0.62,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["F5-FM-01", "F5-FM-03"],
+    "recommended_interventions": [
+      "visual_fraction_strip_alignment",
+      "revisit_equivalent_fraction_scaling"
+    ],
+    "last_verified_at": "2026-04-14",
+    "review_state": "draft",
+    "notes": "Learner knows a common denominator is needed but rewrites both fractions inconsistently."
+  },
+  {
+    "learner_id": "learner-48220",
+    "node_id": "F5",
+    "status": "provisional",
+    "dependency_status": {
+      "F2": "secure",
+      "F3": "secure",
+      "F4": "secure"
+    },
+    "direct_accuracy": 0.92,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-14",
+    "review_state": "draft",
+    "notes": "Ready for delayed recheck."
+  },
+  {
+    "learner_id": "learner-48221",
+    "node_id": "F5",
+    "status": "unstable",
+    "dependency_status": {
+      "F2": "secure",
+      "F3": "unstable",
+      "F4": "secure"
+    },
+    "direct_accuracy": 0.87,
+    "explanation_status": "met",
+    "transfer_status": "weak",
+    "retention_status": "not_met",
+    "dominant_failure_modes": ["F5-FM-05"],
+    "recommended_interventions": [
+      "benchmark_estimation_before_solving",
+      "answer_plausibility_check"
+    ],
+    "last_verified_at": "2026-04-14",
+    "review_state": "draft",
+    "notes": "Recent retention check suggests magnitude reasoning drift."
+  }
+]

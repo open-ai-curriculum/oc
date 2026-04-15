@@ -1,0 +1,72 @@
+{
+  "node_id": "U2",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "U2-A-001",
+      "family": "direct_repeated_unit_reasoning",
+      "prompt": "Look at the groups of counters. Which groups show the same repeated unit?",
+      "target_node": "U2",
+      "secondary_dependency_targets": ["U1"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["selected_response", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["U2-FM-01", "U2-FM-02"],
+      "requires_human_scoring": false
+    },
+    {
+      "item_id": "U2-A-002",
+      "family": "direct_repeated_unit_reasoning",
+      "prompt": "A strip is covered with equal square tiles. What is the repeated unit?",
+      "target_node": "U2",
+      "secondary_dependency_targets": ["U1"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation", "written_explanation"],
+      "dominant_failure_modes_if_incorrect": ["U2-FM-03"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "U2-B-001",
+      "family": "explanation",
+      "prompt": "Explain why three groups of 2 are a repeated-unit pattern.",
+      "target_node": "U2",
+      "secondary_dependency_targets": ["U1"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation", "written_explanation"],
+      "dominant_failure_modes_if_incorrect": ["U2-FM-01", "U2-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "U2-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student says groups of 3, 3, and 4 still show the same repeated unit. What should be checked?",
+      "target_node": "U2",
+      "secondary_dependency_targets": ["U1"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["multiple_choice", "oral_explanation", "written_explanation"],
+      "dominant_failure_modes_if_incorrect": ["U2-FM-02"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "U2-D-001",
+      "family": "transfer",
+      "prompt": "A walkway is covered with equal stepping stones. Explain what repeats and why that matters.",
+      "target_node": "U2",
+      "secondary_dependency_targets": ["U1"],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": ["oral_explanation", "written_explanation"],
+      "dominant_failure_modes_if_incorrect": ["U2-FM-01", "U2-FM-03", "U2-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "U2-R-001",
+      "family": "retention",
+      "prompt": "Tell whether the pattern shows repeated equal units and explain one reason.",
+      "target_node": "U2",
+      "secondary_dependency_targets": ["U1"],
+      "difficulty_band": "retention",
+      "response_modes_allowed": ["selected_response", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["U2-FM-01", "U2-FM-02"],
+      "requires_human_scoring": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "node_id": "C1",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "C1-FM-01": [
+      "chant and point with visual number supports",
+      "isolate short bounded sequence windows",
+      "use call-and-response next-number routines"
+    ],
+    "C1-FM-02": [
+      "compare correct and scrambled sequences",
+      "use ordered number-path supports",
+      "rehearse sequence with teacher pacing"
+    ],
+    "C1-FM-03": [
+      "practice starting from bounded middle points",
+      "use start-here markers on number paths",
+      "prompt what comes after rather than restarting"
+    ],
+    "C1-FM-04": [
+      "ask why order matters after recitation",
+      "compare what happens when a number is skipped",
+      "connect stable order to later object counting"
+    ]
+  }
+}

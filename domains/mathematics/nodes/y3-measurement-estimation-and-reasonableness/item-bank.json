@@ -1,0 +1,29 @@
+{
+  "node_id": "Y3",
+  "items": [
+    {
+      "item_id": "y3-a1",
+      "item_family": "direct_execution",
+      "prompt": "Representative direct task for measurement estimation and reasonableness.",
+      "expected_evidence": [
+        "Learner uses the intended structure, not only an answer-getting shortcut."
+      ],
+      "dominant_failure_mode_targets": [
+        "unit_scale_mismatch"
+      ],
+      "context": "objects"
+    },
+    {
+      "item_id": "y3-b1",
+      "item_family": "explanation",
+      "prompt": "Explain why the chosen structure fits the situation.",
+      "expected_evidence": [
+        "Learner names the structural relationship correctly."
+      ],
+      "dominant_failure_mode_targets": [
+        "measurement_plausibility_blindness"
+      ],
+      "context": "reported measurements"
+    }
+  ]
+}

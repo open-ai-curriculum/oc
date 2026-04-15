@@ -1,0 +1,22 @@
+{
+  "node_id": "V4",
+  "version": "0.1",
+  "interventions": {
+    "V4-FM-01": [
+      "address_regrouping_equivalence_weakness",
+      "practice_v4_regrouping_equivalence_weakness"
+    ],
+    "V4-FM-02": [
+      "address_borrow_carry_procedure_without_meaning",
+      "practice_v4_borrow_carry_procedure_without_meaning"
+    ],
+    "V4-FM-03": [
+      "address_rename_then_lose_value_error",
+      "practice_v4_rename_then_lose_value_error"
+    ],
+    "V4-FM-04": [
+      "address_model_to_algorithm_disconnect",
+      "practice_v4_model_to_algorithm_disconnect"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "node_id": "Y3",
+  "examples": [
+    {
+      "student_id": "demo-secure",
+      "node": "Y3",
+      "status": "mastered",
+      "direct_accuracy": 0.88,
+      "explanation_status": "secure",
+      "transfer_status": "secure",
+      "retention_status": "met",
+      "dominant_failure_modes": [],
+      "recommended_interventions": []
+    },
+    {
+      "student_id": "demo-blocked",
+      "node": "Y3",
+      "status": "blocked",
+      "direct_accuracy": 0.62,
+      "explanation_status": "weak",
+      "transfer_status": "failed",
+      "retention_status": "not_met",
+      "dominant_failure_modes": [
+        "unit_scale_mismatch"
+      ],
+      "recommended_interventions": [
+        "benchmark-object matching"
+      ]
+    }
+  ]
+}

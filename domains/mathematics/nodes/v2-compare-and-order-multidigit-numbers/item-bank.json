@@ -1,0 +1,120 @@
+{
+  "node_id": "V2",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "V2-A-001",
+      "family": "direct_compare",
+      "prompt": "Which is greater, 58 or 61, and why?",
+      "target_node": "V2",
+      "secondary_dependency_targets": [
+        "V1"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "V2-FM-01",
+        "V2-FM-02"
+      ],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "V2-A-002",
+      "family": "direct_compare",
+      "prompt": "Order 37, 42, and 39 from least to greatest.",
+      "target_node": "V2",
+      "secondary_dependency_targets": [
+        "V1"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "V2-FM-01",
+        "V2-FM-02"
+      ],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "V2-B-001",
+      "family": "explanation",
+      "prompt": "Explain why 203 is greater than 198.",
+      "target_node": "V2",
+      "secondary_dependency_targets": [
+        "V1"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "V2-FM-01",
+        "V2-FM-02"
+      ],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "V2-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student says 48 is greater than 103 because 8 is greater than 3. What should be checked?",
+      "target_node": "V2",
+      "secondary_dependency_targets": [
+        "V1"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "V2-FM-01",
+        "V2-FM-02"
+      ],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "V2-D-001",
+      "family": "transfer",
+      "prompt": "Compare two grouped base-ten drawings and match them to ordered numerals.",
+      "target_node": "V2",
+      "secondary_dependency_targets": [
+        "V1"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "V2-FM-01",
+        "V2-FM-02"
+      ],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "V2-R-001",
+      "family": "retention",
+      "prompt": "After a delay, order a new set of multidigit numbers and justify one comparison.",
+      "target_node": "V2",
+      "secondary_dependency_targets": [
+        "V1"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "V2-FM-01",
+        "V2-FM-02"
+      ],
+      "requires_human_scoring": true
+    }
+  ]
+}

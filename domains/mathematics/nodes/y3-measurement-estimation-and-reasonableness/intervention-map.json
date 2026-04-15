@@ -1,0 +1,14 @@
+{
+  "node_id": "Y3",
+  "interventions": {
+    "benchmark-object matching": [
+      "Match familiar objects to plausible benchmark measurements."
+    ],
+    "reasonable-or-not sorts": [
+      "Sort reported measurements by plausibility and justify the decision."
+    ],
+    "estimate-before-measure routines": [
+      "Estimate first, then measure and compare to the estimate."
+    ]
+  }
+}

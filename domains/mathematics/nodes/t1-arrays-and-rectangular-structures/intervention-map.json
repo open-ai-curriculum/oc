@@ -1,0 +1,14 @@
+{
+  "node_id": "T1",
+  "interventions": {
+    "row-column language rehearsal": [
+      "Use explicit row and column naming while building and reading arrays."
+    ],
+    "array repair tasks": [
+      "Present broken arrays and require the learner to diagnose and correct unequal structure."
+    ],
+    "cover-and-reveal structure prompts": [
+      "Hide part of an array and ask the learner to infer totals from rows and columns."
+    ]
+  }
+}

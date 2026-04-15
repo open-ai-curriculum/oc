@@ -1,0 +1,26 @@
+{
+  "node_id": "Z3",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "Z3-FM-01": [
+      "isolate the smallest repeating chunk",
+      "mark the repeated core visually",
+      "compare complete and broken patterns side by side"
+    ],
+    "Z3-FM-02": [
+      "say the pattern before naming the next element",
+      "cover the last item and ask what repeats",
+      "use slow step-by-step continuation routines"
+    ],
+    "Z3-FM-03": [
+      "continue one step at a time",
+      "use manipulatives to build the next position",
+      "restart from the repeating core"
+    ],
+    "Z3-FM-04": [
+      "move between object picture and sound patterns",
+      "ask what repeats in each medium",
+      "use paired examples across formats"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "node_id": "N2",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "N2-A-001",
+      "family": "direct_modeling",
+      "prompt": "There are 4 apples in a basket. 3 more apples are added. Show what happens and write a matching equation.",
+      "target_node": "N2",
+      "secondary_dependency_targets": ["N1"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["manipulative_model", "drawing", "written_symbolic", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["N2-FM-01", "N2-FM-03"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "N2-A-002",
+      "family": "direct_modeling",
+      "prompt": "A child has 8 blocks. 2 are taken away. Show the new amount and write a matching equation.",
+      "target_node": "N2",
+      "secondary_dependency_targets": ["N1"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["manipulative_model", "drawing", "written_symbolic"],
+      "dominant_failure_modes_if_incorrect": ["N2-FM-01", "N2-FM-02"],
+      "requires_human_scoring": false
+    },
+    {
+      "item_id": "N2-B-001",
+      "family": "explanation",
+      "prompt": "Explain why the story '5 birds were on a fence and 2 flew away' matches subtraction instead of addition.",
+      "target_node": "N2",
+      "secondary_dependency_targets": ["N1"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation", "written_explanation"],
+      "dominant_failure_modes_if_incorrect": ["N2-FM-02", "N2-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "N2-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student uses addition for the story '9 cookies were on the plate and 3 were eaten.' What should be checked in that thinking?",
+      "target_node": "N2",
+      "secondary_dependency_targets": ["N1"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["multiple_choice", "oral_explanation", "written_explanation"],
+      "dominant_failure_modes_if_incorrect": ["N2-FM-02", "N2-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "N2-D-001",
+      "family": "transfer",
+      "prompt": "Mia has 6 stickers. Sam has 2 more stickers than Mia. Show how the situation can be represented and explain the operation meaning.",
+      "target_node": "N2",
+      "secondary_dependency_targets": ["N1"],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": ["drawing", "written_symbolic", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["N2-FM-03", "N2-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "N2-R-001",
+      "family": "retention",
+      "prompt": "Show one addition story and one subtraction story for the number 7. Explain why each operation fits the story.",
+      "target_node": "N2",
+      "secondary_dependency_targets": ["N1"],
+      "difficulty_band": "retention",
+      "response_modes_allowed": ["drawing", "written_explanation", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["N2-FM-01", "N2-FM-02", "N2-FM-04"],
+      "requires_human_scoring": true
+    }
+  ]
+}

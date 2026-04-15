@@ -1,0 +1,23 @@
+id: K2
+slug: k2-function-as-input-output-rule
+domain: mathematics
+name: function_as_input_output_rule
+support_tier: Core release
+maturity_state: Drafted
+supported_profiles:
+  - upstream-readiness-node-package
+dependencies: [K1, A5]
+artifact_files:
+  - node-spec.md
+  - verification-model.md
+  - item-bank-schema.md
+  - item-bank.json
+  - failure-taxonomy.md
+  - intervention-playbook.md
+  - intervention-map.json
+  - learner-state-model.md
+  - learner-state.schema.json
+  - example-learner-states.json
+  - transition-rules.yaml
+  - teacher-observability.md
+  - agent-behavior.md

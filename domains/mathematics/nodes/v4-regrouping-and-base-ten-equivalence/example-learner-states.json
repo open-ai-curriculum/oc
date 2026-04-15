@@ -1,0 +1,22 @@
+{
+  "node_id": "V4",
+  "examples": [
+    {
+      "student_id": "example-v4-001",
+      "node": "V4",
+      "status": "blocked",
+      "direct_accuracy": 0.55,
+      "meaning_status": "weak",
+      "transfer_status": "failed",
+      "retention_status": "not_met",
+      "dominant_failure_modes": [
+        "V4-FM-01",
+        "V4-FM-02"
+      ],
+      "recommended_interventions": [
+        "address_regrouping_equivalence_weakness",
+        "practice_v4_regrouping_equivalence_weakness"
+      ]
+    }
+  ]
+}

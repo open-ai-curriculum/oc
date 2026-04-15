@@ -1,0 +1,14 @@
+{
+  "node_id": "X2",
+  "interventions": {
+    "place-value chart decomposition": [
+      "Decompose decimals into ones, tenths, and hundredths using explicit chart structure."
+    ],
+    "tenfold unit ladders": [
+      "Trace unit-size shifts across adjacent places on both sides of the decimal point."
+    ],
+    "false-comparison critiques": [
+      "Diagnose and repair decimal comparisons driven by superficial digit size."
+    ]
+  }
+}

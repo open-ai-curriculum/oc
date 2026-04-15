@@ -1,0 +1,42 @@
+{
+  "node_id": "U4",
+  "examples": [
+    {
+      "learner_id": "sample-u4-blocked-01",
+      "node_id": "U4",
+      "status": "blocked",
+      "dependency_status": {
+        "U3": "secure"
+      },
+      "direct_accuracy": 0.55,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["U4-FM-01", "U4-FM-03"],
+      "recommended_interventions": [
+        "sort candidate partitions into equal and unequal examples",
+        "use guided drawing or folding routines"
+      ],
+      "last_verified_at": "2026-04-14",
+      "review_state": "draft",
+      "notes": "Can talk about sharing fairly but still draws unequal shares."
+    },
+    {
+      "learner_id": "sample-u4-secure-01",
+      "node_id": "U4",
+      "status": "secure",
+      "dependency_status": {
+        "U3": "secure"
+      },
+      "direct_accuracy": 0.95,
+      "explanation_status": "met",
+      "transfer_status": "met",
+      "retention_status": "met",
+      "dominant_failure_modes": [],
+      "recommended_interventions": [],
+      "last_verified_at": "2026-04-14",
+      "review_state": "draft",
+      "notes": "Identifies and produces equal partitions across simple shapes and fair-sharing tasks."
+    }
+  ]
+}

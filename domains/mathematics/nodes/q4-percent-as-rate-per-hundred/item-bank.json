@@ -1,0 +1,37 @@
+{
+  "node_id": "Q4",
+  "items": [
+    {
+      "item_id": "Q4-A1",
+      "item_family": "direct",
+      "prompt": "interpret common percents as rates per hundred and represent them in fraction, decimal, or hundred-model form",
+      "expected_evidence": "use hundred grids, benchmark percents, and equivalent forms to reason about common percents",
+      "dominant_failure_mode": "symbol_without_quantity",
+      "scoring_guidance": "Meets when the learner represents percent as an amount out of one hundred rather than as a detached symbol."
+    },
+    {
+      "item_id": "Q4-B1",
+      "item_family": "explanation",
+      "prompt": "explain how a percent, an equivalent fraction, and a decimal can describe the same bounded quantity",
+      "expected_evidence": "explain that 25% means 25 out of 100 and connect it to 1/4 and 0.25 in bounded cases",
+      "dominant_failure_mode": "equivalent_form_disconnect",
+      "scoring_guidance": "Meets when the learner explains percent through rate-per-hundred and equivalent-form structure."
+    },
+    {
+      "item_id": "Q4-C1",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer error aligned to symbol_without_quantity.",
+      "expected_evidence": "solve bounded percent-of-whole and what-percent questions without collapsing percent into unrelated whole-number operations",
+      "dominant_failure_mode": "symbol_without_quantity",
+      "scoring_guidance": "Meets when the learner identifies why the peer lost the meaning of percent as rate per hundred."
+    },
+    {
+      "item_id": "Q4-D1",
+      "item_family": "transfer",
+      "prompt": "succeeds across percent-of-whole, part-percent, benchmark discount, and simple data-description contexts",
+      "expected_evidence": "compare percent situations across tables, visuals, and contextual descriptions",
+      "dominant_failure_mode": "context_transfer_breakdown",
+      "scoring_guidance": "Meets when the learner preserves percent reasoning across representation and context changes."
+    }
+  ]
+}

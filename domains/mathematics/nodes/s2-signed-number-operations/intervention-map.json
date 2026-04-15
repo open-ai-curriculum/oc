@@ -1,0 +1,14 @@
+{
+  "node_id": "S2",
+  "interventions": {
+    "operation-family contrasts": [
+      "Contrast addition, subtraction, multiplication, and division cases that look superficially similar but have different structures."
+    ],
+    "signed-line composition routines": [
+      "Use directed jumps and cancellation pairs to ground additive operations."
+    ],
+    "inverse-check rehearsals": [
+      "Require each operation to be verified by an inverse or contextual reasonableness check."
+    ]
+  }
+}

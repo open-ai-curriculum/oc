@@ -1,0 +1,29 @@
+{
+  "node_id": "Y1",
+  "items": [
+    {
+      "item_id": "y1-a1",
+      "item_family": "direct_execution",
+      "prompt": "Representative direct task for rounding and benchmark whole numbers.",
+      "expected_evidence": [
+        "Learner uses the intended structure, not only an answer-getting shortcut."
+      ],
+      "dominant_failure_mode_targets": [
+        "benchmark_place_confusion"
+      ],
+      "context": "rounding prompts"
+    },
+    {
+      "item_id": "y1-b1",
+      "item_family": "explanation",
+      "prompt": "Explain why the chosen structure fits the situation.",
+      "expected_evidence": [
+        "Learner names the structural relationship correctly."
+      ],
+      "dominant_failure_mode_targets": [
+        "rounding_rule_without_magnitude"
+      ],
+      "context": "number lines"
+    }
+  ]
+}

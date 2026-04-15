@@ -1,0 +1,14 @@
+{
+  "node_id": "L4",
+  "interventions": {
+    "equal-part interval folding": [
+      "Partition whole intervals into equal subintervals before placing labels."
+    ],
+    "benchmark anchor placements": [
+      "Place 0, 1/2, and 1 first, then locate nearby fractions."
+    ],
+    "same-fraction different-lines comparison": [
+      "Compare how the same fraction appears on different bounded lines while preserving its relative location."
+    ]
+  }
+}

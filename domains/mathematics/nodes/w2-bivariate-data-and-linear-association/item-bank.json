@@ -1,0 +1,37 @@
+{
+  "node_id": "W2",
+  "items": [
+    {
+      "item_id": "W2-A1",
+      "item_family": "direct",
+      "prompt": "interprets scatter plots and uses informal linear-fit reasoning to describe bounded bivariate data",
+      "expected_evidence": "draw or evaluate an informal line of best fit for roughly linear data",
+      "dominant_failure_mode": "association_fit_fragmentation",
+      "scoring_guidance": "Meets when the learner interprets the scatter structure and uses a reasonable informal fit aligned to the data pattern."
+    },
+    {
+      "item_id": "W2-B1",
+      "item_family": "explanation",
+      "prompt": "explains what direction, strength, and form mean in a scatter plot and why association alone does not prove causation",
+      "expected_evidence": "justify what association claims are supported and what causal claims are not supported by the data alone",
+      "dominant_failure_mode": "causation_overreach",
+      "scoring_guidance": "Meets when the learner explains association and fit meaning without overclaiming causal interpretation."
+    },
+    {
+      "item_id": "W2-C1",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer error aligned to outlier_trend_erasure.",
+      "expected_evidence": "describe direction, form, strength, and unusual features of bounded scatter plots",
+      "dominant_failure_mode": "outlier_trend_erasure",
+      "scoring_guidance": "Meets when the learner identifies how an outlier or cluster changed the association claim or fit judgment."
+    },
+    {
+      "item_id": "W2-D1",
+      "item_family": "transfer",
+      "prompt": "interprets bivariate data in a less-familiar context and checks whether a linear trend claim or prediction is actually supported",
+      "expected_evidence": "estimate or compare predicted versus observed values in bounded contexts",
+      "dominant_failure_mode": "prediction_context_disconnect",
+      "scoring_guidance": "Meets when the learner preserves fit meaning and limits of prediction in a varied context."
+    }
+  ]
+}

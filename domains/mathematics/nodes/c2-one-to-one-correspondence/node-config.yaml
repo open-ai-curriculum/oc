@@ -1,0 +1,40 @@
+id: C2
+name: one_to_one_correspondence
+domain: mathematics
+support_tier: Core release
+maturity_state: Drafted
+supported_profiles:
+- upstream-readiness-node-package
+evidence_class: Synthetic
+dependencies:
+- C1
+mastery:
+  direct_accuracy_threshold: 0.9
+  explanation_required: true
+  transfer_required: true
+  retention_check_days: 14
+statuses:
+- blocked
+- emerging
+- provisional
+- secure
+- unstable
+verification_gates:
+- id: G1
+  type: direct_performance
+  pass_rule: '>= 0.90 accuracy across one-count-word-per-object tasks'
+- id: G2
+  type: meaning
+  pass_rule: correct explanation that each object gets one count in at least 2 of
+    3 prompts
+- id: G3
+  type: transfer
+  pass_rule: successful one-to-one counting in at least one changed set format
+- id: G4
+  type: retention
+  pass_rule: '>= 0.85 delayed recheck accuracy after ~14 days'
+failure_modes:
+- C2-FM-01
+- C2-FM-02
+- C2-FM-03
+- C2-FM-04

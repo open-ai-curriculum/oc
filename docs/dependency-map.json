@@ -1,0 +1,47 @@
+{
+  "strategy": "compact-governance-first",
+  "documents": {
+    "learning-system-constitution": {
+      "id": "learning-system-constitution",
+      "path": "foundation/constitution.md",
+      "type": "foundation",
+      "dependencies": []
+    },
+    "learning-system-architecture": {
+      "id": "learning-system-architecture",
+      "path": "foundation/architecture.md",
+      "type": "foundation",
+      "dependencies": ["learning-system-constitution"]
+    },
+    "learning-system-requirements": {
+      "id": "learning-system-requirements",
+      "path": "specs/learning-system-requirements.md",
+      "type": "specification",
+      "dependencies": ["learning-system-constitution", "learning-system-architecture"]
+    },
+    "specs-index": {
+      "id": "specs-index",
+      "path": "specs/index.md",
+      "type": "index",
+      "dependencies": ["learning-system-constitution", "learning-system-architecture", "learning-system-requirements"]
+    },
+    "maturity-model": {
+      "id": "maturity-model",
+      "path": "reference/maturity-model.md",
+      "type": "reference",
+      "dependencies": []
+    },
+    "quality-gates": {
+      "id": "quality-gates",
+      "path": "reference/quality-gates.md",
+      "type": "reference",
+      "dependencies": ["learning-system-constitution", "learning-system-requirements", "platform-manifest", "maturity-model"]
+    },
+    "platform-manifest": {
+      "id": "platform-manifest",
+      "path": "reference/platform-manifest.md",
+      "type": "reference",
+      "dependencies": ["learning-system-constitution", "learning-system-requirements", "maturity-model", "quality-gates"]
+    }
+  }
+}

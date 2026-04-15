@@ -1,0 +1,30 @@
+[
+  {
+    "student_id": "example-secure",
+    "node": "H1",
+    "status": "secure",
+    "direct_accuracy": 0.89,
+    "explanation_status": "meets",
+    "transfer_status": "meets",
+    "retention_status": "meets",
+    "dominant_failure_modes": [],
+    "recommended_interventions": []
+  },
+  {
+    "student_id": "example-blocked",
+    "node": "H1",
+    "status": "blocked",
+    "direct_accuracy": 0.55,
+    "explanation_status": "weak",
+    "transfer_status": "failed",
+    "retention_status": "not_met",
+    "dominant_failure_modes": [
+      "motion_rule_execution_breakdown",
+      "correspondence_label_drift"
+    ],
+    "recommended_interventions": [
+      "use stepwise grid-based transformation routines with explicit start and image coordinates",
+      "label original and image vertices in matched order before reasoning"
+    ]
+  }
+]

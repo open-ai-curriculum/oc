@@ -1,0 +1,30 @@
+{
+  "node_id": "N2",
+  "examples": [
+    {
+      "student_id": "example-n2-001",
+      "node": "N2",
+      "status": "blocked",
+      "direct_accuracy": 0.58,
+      "meaning_status": "weak",
+      "transfer_status": "failed",
+      "retention_status": "not_met",
+      "dominant_failure_modes": ["N2-FM-02", "N2-FM-03"],
+      "recommended_interventions": [
+        "paired_story_contrast_sort",
+        "manipulative_to_drawing_to_equation_sequence"
+      ]
+    },
+    {
+      "student_id": "example-n2-002",
+      "node": "N2",
+      "status": "secure",
+      "direct_accuracy": 0.95,
+      "meaning_status": "met",
+      "transfer_status": "met",
+      "retention_status": "met",
+      "dominant_failure_modes": [],
+      "recommended_interventions": []
+    }
+  ]
+}

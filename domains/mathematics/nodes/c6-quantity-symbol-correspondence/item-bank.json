@@ -1,0 +1,37 @@
+{
+  "node_id": "C6",
+  "items": [
+    {
+      "item_id": "C6-A1",
+      "item_family": "direct",
+      "prompt": "matches bounded quantities to the correct numerals and numerals to the correct quantities",
+      "expected_evidence": "choose the numeral that names a shown quantity",
+      "dominant_failure_mode": "count_symbol_disconnect",
+      "scoring_guidance": "Meets when the learner completes the direct task accurately."
+    },
+    {
+      "item_id": "C6-B1",
+      "item_family": "explanation",
+      "prompt": "uses counting or subitizing evidence to justify numeral-choice decisions",
+      "expected_evidence": "build or select a quantity that matches a shown numeral",
+      "dominant_failure_mode": "symbol_quantity_guessing",
+      "scoring_guidance": "Meets when the learner explains the concept coherently."
+    },
+    {
+      "item_id": "C6-C1",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer error aligned to final_count_loss.",
+      "expected_evidence": "reject mismatched numeral labels on bounded sets",
+      "dominant_failure_mode": "final_count_loss",
+      "scoring_guidance": "Meets when the learner identifies the source of the error and states the correct reasoning."
+    },
+    {
+      "item_id": "C6-D1",
+      "item_family": "transfer",
+      "prompt": "succeeds across objects, pictures, cards, and simple story contexts",
+      "expected_evidence": "move between spoken number, written numeral, and counted set coherently",
+      "dominant_failure_mode": "label_acceptance_error",
+      "scoring_guidance": "Meets when the learner succeeds in a less-familiar context."
+    }
+  ]
+}

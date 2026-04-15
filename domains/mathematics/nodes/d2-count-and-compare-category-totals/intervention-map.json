@@ -1,0 +1,10 @@
+{
+  "node_id": "D2",
+  "version": "0.1",
+  "interventions": {
+    "D2-FM-01": ["count_one_category_at_a_time", "label_totals_before_compare"],
+    "D2-FM-02": ["comparison_vocabulary_rehearsal", "state_both_totals_before_relation"],
+    "D2-FM-03": ["explicit_equal_total_examples", "side_by_side_match_check"],
+    "D2-FM-04": ["appearance_vs_count_contrast", "count_first_comparison_routine"]
+  }
+}

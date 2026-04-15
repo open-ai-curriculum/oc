@@ -1,0 +1,16 @@
+{
+  "node_id": "D4",
+  "examples": [
+    {
+      "student_id": "example-d4-001",
+      "node": "D4",
+      "status": "blocked",
+      "direct_accuracy": 0.55,
+      "meaning_status": "weak",
+      "transfer_status": "failed",
+      "retention_status": "not_met",
+      "dominant_failure_modes": ["D4-FM-02", "D4-FM-03"],
+      "recommended_interventions": ["category_label_frames_first", "pre_drawn_display_templates"]
+    }
+  ]
+}

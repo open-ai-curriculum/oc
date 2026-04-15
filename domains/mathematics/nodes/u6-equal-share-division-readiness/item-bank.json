@@ -1,0 +1,72 @@
+{
+  "node_id": "U6",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "U6-A-001",
+      "family": "direct_distribution",
+      "prompt": "Share 12 counters equally among 3 children.",
+      "target_node": "U6",
+      "secondary_dependency_targets": ["U3"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["manipulative_model", "drawing", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["U6-FM-01", "U6-FM-02"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "U6-A-002",
+      "family": "direct_distribution",
+      "prompt": "Look at a sharing picture and decide whether the shares are equal. Explain.",
+      "target_node": "U6",
+      "secondary_dependency_targets": ["U3"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["drawing", "oral_explanation", "written_explanation"],
+      "dominant_failure_modes_if_incorrect": ["U6-FM-02", "U6-FM-03"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "U6-B-001",
+      "family": "explanation",
+      "prompt": "Explain why fair sharing means each person gets the same amount.",
+      "target_node": "U6",
+      "secondary_dependency_targets": ["U3"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation", "written_explanation"],
+      "dominant_failure_modes_if_incorrect": ["U6-FM-02", "U6-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "U6-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student shares 10 crackers among 2 children by giving 6 to one child and 4 to the other and says it is fair. What should be checked?",
+      "target_node": "U6",
+      "secondary_dependency_targets": ["U3"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["multiple_choice", "oral_explanation", "written_explanation"],
+      "dominant_failure_modes_if_incorrect": ["U6-FM-02", "U6-FM-03"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "U6-D-001",
+      "family": "transfer",
+      "prompt": "There are 15 apples for 5 baskets. Show how many apples go in each basket if the share is equal.",
+      "target_node": "U6",
+      "secondary_dependency_targets": ["U3"],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": ["drawing", "written_explanation", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["U6-FM-01", "U6-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "U6-R-001",
+      "family": "retention",
+      "prompt": "After a delay, share 8 objects equally among 4 groups and explain why the result is fair.",
+      "target_node": "U6",
+      "secondary_dependency_targets": ["U3"],
+      "difficulty_band": "retention",
+      "response_modes_allowed": ["manipulative_model", "drawing", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["U6-FM-01", "U6-FM-02", "U6-FM-03"],
+      "requires_human_scoring": true
+    }
+  ]
+}

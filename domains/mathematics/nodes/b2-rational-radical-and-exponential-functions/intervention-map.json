@@ -1,0 +1,37 @@
+{
+  "node_id": "B2",
+  "interventions": [
+    {
+      "failure_mode": "family_constraint_fragmentation",
+      "strategies": [
+        "mark domain restrictions or excluded values before solving and recheck them after solving",
+        "compare matched rational, radical, and exponential tasks where the key structural constraint differs",
+        "require learners to state the family-specific condition in words before manipulation"
+      ]
+    },
+    {
+      "failure_mode": "behavior_source_opacity",
+      "strategies": [
+        "pair each advanced-function graph feature with the symbolic source that causes it",
+        "use teacher think-alouds naming why a denominator creates an excluded value or why repeated multiplication creates exponential growth",
+        "compare functions with similar-looking graphs but different structural causes"
+      ]
+    },
+    {
+      "failure_mode": "extraneous_or_excluded_solution_acceptance",
+      "strategies": [
+        "substitute all candidate solutions back into the original structure before accepting them",
+        "compare valid and invalid solutions that arise from the same symbolic manipulation",
+        "use “which values are even allowed” routines before and after solving"
+      ]
+    },
+    {
+      "failure_mode": "representation_family_disconnect",
+      "strategies": [
+        "compare tables, graphs, and equations of the same function family side by side and name the shared structural feature",
+        "use graph-prediction routines before graphing technology confirms the result",
+        "require learners to explain which part of the symbolic form accounts for the observed behavior"
+      ]
+    }
+  ]
+}

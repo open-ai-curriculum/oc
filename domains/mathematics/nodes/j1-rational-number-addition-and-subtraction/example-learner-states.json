@@ -1,0 +1,30 @@
+[
+  {
+    "student_id": "example-secure",
+    "node": "J1",
+    "status": "secure",
+    "direct_accuracy": 0.9,
+    "explanation_status": "meets",
+    "transfer_status": "meets",
+    "retention_status": "meets",
+    "dominant_failure_modes": [],
+    "recommended_interventions": []
+  },
+  {
+    "student_id": "example-blocked",
+    "node": "J1",
+    "status": "blocked",
+    "direct_accuracy": 0.57,
+    "explanation_status": "weak",
+    "transfer_status": "failed",
+    "retention_status": "not_met",
+    "dominant_failure_modes": [
+      "representation_alignment_breakdown",
+      "signed_magnitude_confusion"
+    ],
+    "recommended_interventions": [
+      "align fraction and decimal forms through benchmark or equivalent-form conversion routines",
+      "use directed-movement number-line tasks with rational increments"
+    ]
+  }
+]

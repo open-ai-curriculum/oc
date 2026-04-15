@@ -1,0 +1,30 @@
+[
+  {
+    "student_id": "example-secure",
+    "node": "G7",
+    "status": "secure",
+    "direct_accuracy": 0.93,
+    "explanation_status": "meets",
+    "transfer_status": "meets",
+    "retention_status": "meets",
+    "dominant_failure_modes": [],
+    "recommended_interventions": []
+  },
+  {
+    "student_id": "example-blocked",
+    "node": "G7",
+    "status": "blocked",
+    "direct_accuracy": 0.61,
+    "explanation_status": "weak",
+    "transfer_status": "failed",
+    "retention_status": "not_met",
+    "dominant_failure_modes": [
+      "ray_length_bias",
+      "turn_direction_confusion"
+    ],
+    "recommended_interventions": [
+      "overlay angle comparisons with different ray lengths",
+      "hinged-arm demonstrations showing fixed turn with variable arm length"
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "node_id": "J5",
+  "items": [
+    {
+      "item_id": "J5-A1",
+      "item_family": "direct",
+      "prompt": "solves bounded percent change, discount, tax, and markup situations accurately",
+      "expected_evidence": "compute a percent amount and combine it correctly with an original quantity when the context requires increase or decrease",
+      "dominant_failure_mode": "base_value_tracking_breakdown",
+      "scoring_guidance": "Meets when the learner identifies the original value, computes the percent amount, and forms the correct resulting value."
+    },
+    {
+      "item_id": "J5-B1",
+      "item_family": "explanation",
+      "prompt": "explains how original amount, percent rate, and resulting amount are multiplicatively related in tax, discount, markup, or percent-change situations",
+      "expected_evidence": "explain why discount and tax are structurally similar but directionally different applications of percent",
+      "dominant_failure_mode": "additive_percent_misread",
+      "scoring_guidance": "Meets when the learner explains the multiplicative structure of the percent application coherently."
+    },
+    {
+      "item_id": "J5-C1",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer error aligned to result_direction_confusion.",
+      "expected_evidence": "distinguish original amount, percent amount, and resulting amount in bounded change problems",
+      "dominant_failure_mode": "result_direction_confusion",
+      "scoring_guidance": "Meets when the learner identifies how the peer applied the percent amount in the wrong direction or to the wrong quantity."
+    },
+    {
+      "item_id": "J5-D1",
+      "item_family": "transfer",
+      "prompt": "succeeds across symbolic, table, verbal, and simple contextual applied-percent representations",
+      "expected_evidence": "judge whether a resulting price, quantity, or measurement is reasonable relative to the original amount",
+      "dominant_failure_mode": "context_reasonableness_breakdown",
+      "scoring_guidance": "Meets when the learner preserves applied-percent meaning across multiple representations and contexts."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "node_id": "H1",
+  "items": [
+    {
+      "item_id": "H1-A1",
+      "item_family": "direct",
+      "prompt": "performs and verifies translations, rotations, and reflections in bounded grid and coordinate settings",
+      "expected_evidence": "perform and verify rigid transformations on grids or coordinate planes in bounded cases",
+      "dominant_failure_mode": "motion_rule_execution_breakdown",
+      "scoring_guidance": "Meets when the learner executes rigid transformations accurately and preserves the intended figure correspondence."
+    },
+    {
+      "item_id": "H1-B1",
+      "item_family": "explanation",
+      "prompt": "explains which properties are preserved under a rigid transformation and how symmetry creates an image/preimage relationship",
+      "expected_evidence": "explain which lengths, angles, and orientation properties are preserved or changed by a given transformation",
+      "dominant_failure_mode": "preservation_meaning_gap",
+      "scoring_guidance": "Meets when the learner explains rigid-motion preservation and symmetry meaning beyond naming the transformation."
+    },
+    {
+      "item_id": "H1-C1",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer error aligned to correspondence_label_drift.",
+      "expected_evidence": "identify corresponding points and figures under coordinate symmetry or rigid motion",
+      "dominant_failure_mode": "correspondence_label_drift",
+      "scoring_guidance": "Meets when the learner identifies where the peer lost point correspondence or mislabeled image/preimage structure."
+    },
+    {
+      "item_id": "H1-D1",
+      "item_family": "transfer",
+      "prompt": "uses transformation sequences or symmetry reasoning in a less-familiar coordinate or geometric setting",
+      "expected_evidence": "justify congruence claims through transformation sequences rather than visual resemblance alone",
+      "dominant_failure_mode": "visual_congruence_overreach",
+      "scoring_guidance": "Meets when the learner uses rigid-motion reasoning, not appearance alone, to justify congruence in a varied setting."
+    }
+  ]
+}

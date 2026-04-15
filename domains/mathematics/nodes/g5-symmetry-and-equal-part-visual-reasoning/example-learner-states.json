@@ -1,0 +1,22 @@
+{
+  "node_id": "G5",
+  "examples": [
+    {
+      "student_id": "example-g5-001",
+      "node": "G5",
+      "status": "blocked",
+      "direct_accuracy": 0.55,
+      "meaning_status": "weak",
+      "transfer_status": "failed",
+      "retention_status": "not_met",
+      "dominant_failure_modes": [
+        "G5-FM-01",
+        "G5-FM-02"
+      ],
+      "recommended_interventions": [
+        "address_symmetry_detection_weakness",
+        "practice_g5_symmetry_detection_weakness"
+      ]
+    }
+  ]
+}

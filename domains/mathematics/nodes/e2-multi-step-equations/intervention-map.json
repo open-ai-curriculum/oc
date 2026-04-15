@@ -1,0 +1,14 @@
+{
+  "node_id": "E2",
+  "interventions": {
+    "step-annotation routines": [
+      "Annotate each transformation with the operation and reason before proceeding."
+    ],
+    "midstream-sign audits": [
+      "Pause after each line to verify sign preservation and equivalence."
+    ],
+    "worked-error reconstruction": [
+      "Repair flawed multi-step solutions by identifying the first invalid transformation."
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "node_id": "M3",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "M3-FM-01": [
+      "compare the same quantity measured with visibly different units",
+      "label both the count and the unit name",
+      "ask how big each unit is before accepting the count"
+    ],
+    "M3-FM-02": [
+      "use same-quantity examples with contrasting unit sizes",
+      "compare more units because they are smaller",
+      "sort examples where larger counts mean smaller units"
+    ],
+    "M3-FM-03": [
+      "compare one whole partitioned into different counts",
+      "use overlays or stacked models to compare part sizes",
+      "connect partition count to smaller part size"
+    ],
+    "M3-FM-04": [
+      "move the same principle across length area and sharing contexts",
+      "ask for the invariant idea before changing surface form",
+      "use parallel examples with different materials"
+    ]
+  }
+}

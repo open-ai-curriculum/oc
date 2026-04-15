@@ -1,0 +1,30 @@
+[
+  {
+    "student_id": "example-secure",
+    "node": "Q1",
+    "status": "secure",
+    "direct_accuracy": 0.91,
+    "explanation_status": "meets",
+    "transfer_status": "meets",
+    "retention_status": "meets",
+    "dominant_failure_modes": [],
+    "recommended_interventions": []
+  },
+  {
+    "student_id": "example-blocked",
+    "node": "Q1",
+    "status": "blocked",
+    "direct_accuracy": 0.59,
+    "explanation_status": "weak",
+    "transfer_status": "failed",
+    "retention_status": "not_met",
+    "dominant_failure_modes": [
+      "additive_comparison_substitution",
+      "order_reversal"
+    ],
+    "recommended_interventions": [
+      "compare additive and multiplicative comparison task pairs",
+      "ordered-pair ratio reading rehearsal"
+    ]
+  }
+]

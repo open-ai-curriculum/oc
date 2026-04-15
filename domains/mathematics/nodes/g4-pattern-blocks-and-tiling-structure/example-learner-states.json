@@ -1,0 +1,22 @@
+{
+  "node_id": "G4",
+  "examples": [
+    {
+      "student_id": "example-g4-001",
+      "node": "G4",
+      "status": "blocked",
+      "direct_accuracy": 0.55,
+      "meaning_status": "weak",
+      "transfer_status": "failed",
+      "retention_status": "not_met",
+      "dominant_failure_modes": [
+        "G4-FM-01",
+        "G4-FM-02"
+      ],
+      "recommended_interventions": [
+        "address_shape-fit_weakness",
+        "practice_g4_shape-fit_weakness"
+      ]
+    }
+  ]
+}

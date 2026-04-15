@@ -1,0 +1,37 @@
+{
+  "node_id": "G6",
+  "interventions": [
+    {
+      "failure_mode": "nondefining_attribute_bias",
+      "strategies": [
+        "attribute contrast sorts with rotated and resized examples",
+        "teacher think-aloud separating defining and non-defining features",
+        "same-shape different-orientation comparison set"
+      ]
+    },
+    {
+      "failure_mode": "attribute_omission",
+      "strategies": [
+        "guided attribute checklists for side and angle features",
+        "polygon description routines before naming",
+        "match shape cards to explicit attribute statements"
+      ]
+    },
+    {
+      "failure_mode": "hierarchy_reversal",
+      "strategies": [
+        "subset and Venn-style polygon family sorts",
+        "square-rectangle-rhombus comparison discussions",
+        "class membership explanation stems"
+      ]
+    },
+    {
+      "failure_mode": "vocabulary_label_confusion",
+      "strategies": [
+        "targeted geometry vocabulary rehearsal",
+        "label-to-example and non-example matching",
+        "oral naming with immediate corrective feedback"
+      ]
+    }
+  ]
+}

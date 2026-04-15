@@ -1,0 +1,26 @@
+{
+  "node_id": "U3",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "U3-FM-01": [
+      "use one-to-one distribution routines",
+      "compare each recipient share side by side",
+      "ask whether anyone got more or less"
+    ],
+    "U3-FM-02": [
+      "contrast same-count but unequal-size shares",
+      "use visible food or strip models",
+      "separate same number from same amount"
+    ],
+    "U3-FM-03": [
+      "distribute concrete objects one at a time",
+      "use turn-taking sharing routines",
+      "simplify to two recipients before increasing complexity"
+    ],
+    "U3-FM-04": [
+      "map fair-set sharing to fair-whole partitioning",
+      "use parallel object and whole examples",
+      "ask what stays the same about fairness"
+    ]
+  }
+}

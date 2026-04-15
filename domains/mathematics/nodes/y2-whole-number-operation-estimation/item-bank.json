@@ -1,0 +1,29 @@
+{
+  "node_id": "Y2",
+  "items": [
+    {
+      "item_id": "y2-a1",
+      "item_family": "direct_execution",
+      "prompt": "Representative direct task for whole-number operation estimation.",
+      "expected_evidence": [
+        "Learner uses the intended structure, not only an answer-getting shortcut."
+      ],
+      "dominant_failure_mode_targets": [
+        "operation_estimate_direction_error"
+      ],
+      "context": "story problems"
+    },
+    {
+      "item_id": "y2-b1",
+      "item_family": "explanation",
+      "prompt": "Explain why the chosen structure fits the situation.",
+      "expected_evidence": [
+        "Learner names the structural relationship correctly."
+      ],
+      "dominant_failure_mode_targets": [
+        "benchmark_selection_instability"
+      ],
+      "context": "symbolic operations"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "node_id": "C1",
+  "examples": [
+    {
+      "learner_id": "sample-c1-blocked-01",
+      "node_id": "C1",
+      "status": "blocked",
+      "dependency_status": {
+        "Z2": "secure"
+      },
+      "direct_accuracy": 0.54,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["C1-FM-01", "C1-FM-03"],
+      "recommended_interventions": [
+        "chant and point with visual number supports",
+        "practice starting from bounded middle points"
+      ],
+      "last_verified_at": "2026-04-14",
+      "review_state": "draft",
+      "notes": "Can count from one for a short range but loses sequence control when asked to continue from a bounded point."
+    },
+    {
+      "learner_id": "sample-c1-secure-01",
+      "node_id": "C1",
+      "status": "secure",
+      "dependency_status": {
+        "Z2": "secure"
+      },
+      "direct_accuracy": 0.95,
+      "explanation_status": "met",
+      "transfer_status": "met",
+      "retention_status": "met",
+      "dominant_failure_modes": [],
+      "recommended_interventions": [],
+      "last_verified_at": "2026-04-14",
+      "review_state": "draft",
+      "notes": "Produces and continues the supported count sequence in stable order."
+    }
+  ]
+}

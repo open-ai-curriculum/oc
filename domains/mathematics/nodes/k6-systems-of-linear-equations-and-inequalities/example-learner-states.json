@@ -1,0 +1,30 @@
+[
+  {
+    "student_id": "example-secure",
+    "node": "K6",
+    "status": "secure",
+    "direct_accuracy": 0.87,
+    "explanation_status": "meets",
+    "transfer_status": "meets",
+    "retention_status": "meets",
+    "dominant_failure_modes": [],
+    "recommended_interventions": []
+  },
+  {
+    "student_id": "example-blocked",
+    "node": "K6",
+    "status": "blocked",
+    "direct_accuracy": 0.56,
+    "explanation_status": "weak",
+    "transfer_status": "failed",
+    "retention_status": "not_met",
+    "dominant_failure_modes": [
+      "constraint_intersection_misread",
+      "inequality_region_misclassification"
+    ],
+    "recommended_interventions": [
+      "test candidate pairs against both equations before solving symbolically",
+      "use boundary-line and test-point routines before shading"
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "student_id": "example-secure",
+    "node": "W2",
+    "status": "secure",
+    "direct_accuracy": 0.86,
+    "explanation_status": "meets",
+    "transfer_status": "meets",
+    "retention_status": "meets",
+    "dominant_failure_modes": [],
+    "recommended_interventions": []
+  },
+  {
+    "student_id": "example-blocked",
+    "node": "W2",
+    "status": "blocked",
+    "direct_accuracy": 0.55,
+    "explanation_status": "weak",
+    "transfer_status": "failed",
+    "retention_status": "not_met",
+    "dominant_failure_modes": [
+      "association_fit_fragmentation",
+      "causation_overreach"
+    ],
+    "recommended_interventions": [
+      "annotate scatter plots first for direction, form, strength, and unusual features before drawing any fit line",
+      "compare association-only data displays with scenarios that would require experimental or stronger design evidence for causal claims"
+    ]
+  }
+]

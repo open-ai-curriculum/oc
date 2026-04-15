@@ -1,0 +1,37 @@
+{
+  "node_id": "H2",
+  "items": [
+    {
+      "item_id": "H2-A1",
+      "item_family": "direct",
+      "prompt": "determines congruence or similarity and solves bounded figure problems using rigid motions, dilations, and proportional reasoning",
+      "expected_evidence": "solve bounded triangle or polygon similarity/congruence tasks using structural reasoning",
+      "dominant_failure_mode": "correspondence_ratio_drift",
+      "scoring_guidance": "Meets when the learner uses valid transformation or scale-structure reasoning rather than appearance alone."
+    },
+    {
+      "item_id": "H2-B1",
+      "item_family": "explanation",
+      "prompt": "explains how rigid motions establish congruence and how dilations establish similarity through scale factor and preserved angle structure",
+      "expected_evidence": "explain how scale factor changes side lengths while preserving angle structure",
+      "dominant_failure_mode": "scale_factor_meaning_gap",
+      "scoring_guidance": "Meets when the learner explains congruence and similarity as structural relationships rather than labels."
+    },
+    {
+      "item_id": "H2-C1",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer error aligned to congruence_similarity_conflation.",
+      "expected_evidence": "justify congruence through rigid-motion reasoning and similarity through dilation or proportional correspondence",
+      "dominant_failure_mode": "congruence_similarity_conflation",
+      "scoring_guidance": "Meets when the learner identifies how the peer confused equal-size and same-shape relationships."
+    },
+    {
+      "item_id": "H2-D1",
+      "item_family": "transfer",
+      "prompt": "applies congruence or similarity reasoning in a less-familiar geometric, coordinate, or contextual setting",
+      "expected_evidence": "identify corresponding features consistently across congruent and similar figures",
+      "dominant_failure_mode": "visual_match_overreliance",
+      "scoring_guidance": "Meets when the learner preserves correct correspondence and scale logic in a varied setting."
+    }
+  ]
+}

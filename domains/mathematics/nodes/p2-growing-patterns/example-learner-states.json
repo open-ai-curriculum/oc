@@ -1,0 +1,16 @@
+{
+  "node_id": "P2",
+  "examples": [
+    {
+      "student_id": "example-p2-001",
+      "node": "P2",
+      "status": "blocked",
+      "direct_accuracy": 0.56,
+      "meaning_status": "weak",
+      "transfer_status": "failed",
+      "retention_status": "not_met",
+      "dominant_failure_modes": ["P2-FM-01", "P2-FM-03"],
+      "recommended_interventions": ["compare_steps_and_count_change", "contrast_repeating_and_growing_patterns"]
+    }
+  ]
+}

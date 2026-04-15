@@ -1,0 +1,37 @@
+{
+  "node_id": "J4",
+  "items": [
+    {
+      "item_id": "J4-A1",
+      "item_family": "direct",
+      "prompt": "evaluates bounded numerical expressions with signed rational numbers and absolute value accurately",
+      "expected_evidence": "evaluate bounded rational-number expressions while preserving operation and grouping structure",
+      "dominant_failure_mode": "structure_tracking_breakdown",
+      "scoring_guidance": "Meets when the learner evaluates the expression accurately without collapsing its grouping or operation structure."
+    },
+    {
+      "item_id": "J4-B1",
+      "item_family": "explanation",
+      "prompt": "explains absolute value as distance from zero or magnitude and distinguishes it from sign and opposite value",
+      "expected_evidence": "interpret absolute value on a number line as distance from zero",
+      "dominant_failure_mode": "absolute_value_as_sign_removal",
+      "scoring_guidance": "Meets when the learner explains absolute value through coherent distance or magnitude meaning."
+    },
+    {
+      "item_id": "J4-C1",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer error aligned to grouping_order_blindness.",
+      "expected_evidence": "distinguish value, opposite, and absolute value in bounded cases",
+      "dominant_failure_mode": "grouping_order_blindness",
+      "scoring_guidance": "Meets when the learner identifies how the peer lost grouping, order, or symbol meaning."
+    },
+    {
+      "item_id": "J4-D1",
+      "item_family": "transfer",
+      "prompt": "succeeds across symbolic, number-line, verbal, and simple contextual numerical-expression and absolute-value representations",
+      "expected_evidence": "explain why an expression result is reasonable using magnitude, grouping, and sign structure",
+      "dominant_failure_mode": "context_expression_transfer_breakdown",
+      "scoring_guidance": "Meets when the learner preserves expression and absolute-value meaning across varied representations and contexts."
+    }
+  ]
+}

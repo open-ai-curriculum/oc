@@ -1,0 +1,26 @@
+{
+  "node_id": "U4",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "U4-FM-01": [
+      "sort candidate partitions into equal and unequal examples",
+      "use fold or overlay checks for equality",
+      "ask whether each share is the same size"
+    ],
+    "U4-FM-02": [
+      "contrast piece count with equal share size",
+      "compare partitions that vary in equality",
+      "separate how many pieces from how big each piece is"
+    ],
+    "U4-FM-03": [
+      "use guided drawing or folding routines",
+      "partition strips and rectangles before complex shapes",
+      "mark benchmark points before drawing partition lines"
+    ],
+    "U4-FM-04": [
+      "map fair-share stories onto drawn wholes",
+      "link fairness language to equal size and measure",
+      "compare unfair and fair shares visually and verbally"
+    ]
+  }
+}

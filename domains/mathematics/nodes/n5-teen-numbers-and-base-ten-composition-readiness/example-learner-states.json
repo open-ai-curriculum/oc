@@ -1,0 +1,30 @@
+{
+  "node_id": "N5",
+  "examples": [
+    {
+      "student_id": "example-n5-001",
+      "node": "N5",
+      "status": "blocked",
+      "direct_accuracy": 0.59,
+      "meaning_status": "weak",
+      "transfer_status": "failed",
+      "retention_status": "not_met",
+      "dominant_failure_modes": ["N5-FM-01", "N5-FM-03"],
+      "recommended_interventions": [
+        "bundled_ten_contrast_routine",
+        "keep_the_ten_intact_rehearsal"
+      ]
+    },
+    {
+      "student_id": "example-n5-002",
+      "node": "N5",
+      "status": "secure",
+      "direct_accuracy": 0.94,
+      "meaning_status": "met",
+      "transfer_status": "met",
+      "retention_status": "met",
+      "dominant_failure_modes": [],
+      "recommended_interventions": []
+    }
+  ]
+}

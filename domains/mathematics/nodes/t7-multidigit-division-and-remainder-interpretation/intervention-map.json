@@ -1,0 +1,14 @@
+{
+  "node_id": "T7",
+  "interventions": {
+    "build-divide-reconstruct cycles": [
+      "Solve a division problem, then reconstruct the dividend from quotient, divisor, and remainder."
+    ],
+    "partial-quotient annotation": [
+      "Annotate each division step with the grouped quantity it removes."
+    ],
+    "remainder-meaning contrasts": [
+      "Compare contexts where a remainder is kept, redistributed, or rounded by interpretation."
+    ]
+  }
+}

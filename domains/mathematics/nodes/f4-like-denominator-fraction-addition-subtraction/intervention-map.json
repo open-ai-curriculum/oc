@@ -1,0 +1,24 @@
+{
+  "node_id": "F4",
+  "version": "0.1",
+  "failure_mode_interventions": {
+    "F4-FM-01": {
+      "name": "adds_denominators",
+      "interventions": ["same_size_partition_models", "denominator_vs_numerator_contrast"],
+      "expected_effect": "preserve denominator as unit size",
+      "reverification_target": "direct_plus_explanation"
+    },
+    "F4-FM-02": {
+      "name": "improper_fraction_confusion",
+      "interventions": ["fraction_strips_and_mixed_number_connection", "greater_than_one_visuals"],
+      "expected_effect": "stabilize interpretation of results greater than one",
+      "reverification_target": "bounded_improper_fraction_set"
+    },
+    "F4-FM-03": {
+      "name": "procedure_without_quantity",
+      "interventions": ["explain_with_model", "symbolic_result_to_visual_model"],
+      "expected_effect": "connect procedure to quantity meaning",
+      "reverification_target": "diagram_plus_symbolic_pair"
+    }
+  }
+}

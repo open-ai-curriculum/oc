@@ -1,0 +1,10 @@
+{
+  "node_id": "D1",
+  "version": "0.1",
+  "interventions": {
+    "D1-FM-01": ["category_mats_with_model_examples", "one_item_compare_to_group_model"],
+    "D1-FM-02": ["name_new_attribute_before_resort", "contrast_first_sort_and_second_sort_rules"],
+    "D1-FM-03": ["single_attribute_only_routine", "state_rule_before_each_placement"],
+    "D1-FM-04": ["classification_sentence_frames", "spoken_justification_after_sort"]
+  }
+}

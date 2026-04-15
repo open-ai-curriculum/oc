@@ -1,0 +1,37 @@
+{
+  "node_id": "H4",
+  "items": [
+    {
+      "item_id": "H4-A1",
+      "item_family": "direct",
+      "prompt": "computes and uses sine, cosine, and tangent to solve bounded right-triangle problems",
+      "expected_evidence": "solve bounded right-triangle side and angle problems using trigonometric ratios",
+      "dominant_failure_mode": "ratio_selection_mismatch",
+      "scoring_guidance": "Meets when the learner selects and applies the correct ratio structure for the given side-angle information."
+    },
+    {
+      "item_id": "H4-B1",
+      "item_family": "explanation",
+      "prompt": "explains why trigonometric ratios remain stable across similar right triangles and how side names depend on the chosen angle",
+      "expected_evidence": "explain ratio stability using similar right triangles",
+      "dominant_failure_mode": "similarity_ratio_opacity",
+      "scoring_guidance": "Meets when the learner explains trigonometric ratios as structural relationships, not just calculator inputs."
+    },
+    {
+      "item_id": "H4-C1",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer error aligned to side_reference_drift.",
+      "expected_evidence": "identify correct side-angle relationships for sine, cosine, and tangent",
+      "dominant_failure_mode": "side_reference_drift",
+      "scoring_guidance": "Meets when the learner identifies where the peer mislabeled opposite, adjacent, or hypotenuse relative to the chosen angle."
+    },
+    {
+      "item_id": "H4-D1",
+      "item_family": "transfer",
+      "prompt": "uses trigonometric ratios in a less-familiar geometric or contextual setting and checks reasonableness of the result",
+      "expected_evidence": "verify that chosen ratios and resulting measures are reasonable for the given diagram or context",
+      "dominant_failure_mode": "inverse_reasonableness_gap",
+      "scoring_guidance": "Meets when the learner preserves correct ratio structure and checks whether the computed side or angle makes sense."
+    }
+  ]
+}

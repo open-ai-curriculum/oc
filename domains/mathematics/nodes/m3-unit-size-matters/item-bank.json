@@ -1,0 +1,72 @@
+{
+  "node_id": "M3",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "M3-A-001",
+      "family": "direct_comparison",
+      "prompt": "The same ribbon is measured with 6 short cubes and with 3 long cubes. Which unit is larger?",
+      "target_node": "M3",
+      "secondary_dependency_targets": ["M2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["selected_response", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["M3-FM-01", "M3-FM-02"],
+      "requires_human_scoring": false
+    },
+    {
+      "item_id": "M3-A-002",
+      "family": "direct_comparison",
+      "prompt": "Two identical brownies are cut into 2 equal pieces and 4 equal pieces. Which single piece is larger?",
+      "target_node": "M3",
+      "secondary_dependency_targets": ["M2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["selected_response", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["M3-FM-03"],
+      "requires_human_scoring": false
+    },
+    {
+      "item_id": "M3-B-001",
+      "family": "explanation",
+      "prompt": "Explain why measuring the same table with smaller tiles gives a larger number of tiles.",
+      "target_node": "M3",
+      "secondary_dependency_targets": ["M2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation", "written_explanation"],
+      "dominant_failure_modes_if_incorrect": ["M3-FM-01", "M3-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "M3-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student says 8 small squares cover more space than 5 large squares because 8 is bigger than 5. What went wrong?",
+      "target_node": "M3",
+      "secondary_dependency_targets": ["M2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["multiple_choice", "oral_explanation", "written_explanation"],
+      "dominant_failure_modes_if_incorrect": ["M3-FM-02", "M3-FM-03"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "M3-D-001",
+      "family": "transfer",
+      "prompt": "Two same-size granola bars are shared equally. One is cut into 2 parts and one into 4 parts. Explain which single share is larger and why.",
+      "target_node": "M3",
+      "secondary_dependency_targets": ["M2"],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": ["oral_explanation", "written_explanation", "diagram_annotation"],
+      "dominant_failure_modes_if_incorrect": ["M3-FM-01", "M3-FM-03", "M3-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "M3-R-001",
+      "family": "retention",
+      "prompt": "The same strip is measured with 10 tiny tiles and 5 larger tiles. Explain what that tells you about the unit sizes.",
+      "target_node": "M3",
+      "secondary_dependency_targets": ["M2"],
+      "difficulty_band": "retention",
+      "response_modes_allowed": ["written_explanation", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["M3-FM-01", "M3-FM-02"],
+      "requires_human_scoring": true
+    }
+  ]
+}

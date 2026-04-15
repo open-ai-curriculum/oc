@@ -1,0 +1,42 @@
+{
+  "node_id": "M3",
+  "examples": [
+    {
+      "learner_id": "sample-m3-blocked-01",
+      "node_id": "M3",
+      "status": "blocked",
+      "dependency_status": {
+        "M2": "secure"
+      },
+      "direct_accuracy": 0.52,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["M3-FM-02", "M3-FM-03"],
+      "recommended_interventions": [
+        "use same-quantity examples with contrasting unit sizes",
+        "compare one whole partitioned into different counts"
+      ],
+      "last_verified_at": "2026-04-14",
+      "review_state": "draft",
+      "notes": "Uses raw count as the measure of size in both measurement and partition contexts."
+    },
+    {
+      "learner_id": "sample-m3-secure-01",
+      "node_id": "M3",
+      "status": "secure",
+      "dependency_status": {
+        "M2": "secure"
+      },
+      "direct_accuracy": 0.94,
+      "explanation_status": "met",
+      "transfer_status": "met",
+      "retention_status": "met",
+      "dominant_failure_modes": [],
+      "recommended_interventions": [],
+      "last_verified_at": "2026-04-14",
+      "review_state": "draft",
+      "notes": "Explains consistently that smaller units create larger counts for the same quantity."
+    }
+  ]
+}

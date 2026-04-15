@@ -1,0 +1,37 @@
+{
+  "node_id": "Q1",
+  "items": [
+    {
+      "item_id": "Q1-A1",
+      "item_family": "direct",
+      "prompt": "interprets ratio language as a multiplicative relationship between two quantities",
+      "expected_evidence": "explain statements such as 2 to 3 or 3 for every 5 as coordinated multiplicative relationships",
+      "dominant_failure_mode": "additive_comparison_substitution",
+      "scoring_guidance": "Meets when the learner interprets and represents the ratio correctly."
+    },
+    {
+      "item_id": "Q1-B1",
+      "item_family": "explanation",
+      "prompt": "represents simple ratios in words, diagrams, tables, and symbolic ratio forms",
+      "expected_evidence": "match verbal, pictorial, tabular, and symbolic ratio representations in bounded cases",
+      "dominant_failure_mode": "representation_disconnect",
+      "scoring_guidance": "Meets when the learner explains how the forms describe the same ratio relationship."
+    },
+    {
+      "item_id": "Q1-C1",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer error aligned to additive_comparison_substitution.",
+      "expected_evidence": "reject additive interpretations when a task is ratio-based",
+      "dominant_failure_mode": "additive_comparison_substitution",
+      "scoring_guidance": "Meets when the learner identifies the additive mistake and states the multiplicative relationship."
+    },
+    {
+      "item_id": "Q1-D1",
+      "item_family": "transfer",
+      "prompt": "succeeds across part-to-part and part-to-whole ratio contexts without collapsing them into the same claim",
+      "expected_evidence": "compare simple ratio situations using multiplicative rather than difference-based reasoning",
+      "dominant_failure_mode": "part_part_part_whole_collapse",
+      "scoring_guidance": "Meets when the learner succeeds in a different ratio context without collapsing relationship type."
+    }
+  ]
+}

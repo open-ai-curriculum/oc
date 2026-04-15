@@ -1,0 +1,10 @@
+{
+  "node_id": "D4",
+  "version": "0.1",
+  "interventions": {
+    "D4-FM-01": ["map_one_category_at_a_time", "check_totals_against_source_after_each_category"],
+    "D4-FM-02": ["category_label_frames_first", "read_labels_aloud_before_completion"],
+    "D4-FM-03": ["pre_drawn_display_templates", "one_row_or_column_at_a_time"],
+    "D4-FM-04": ["read_own_display_to_another_person", "this_row_shows_sentence_frames"]
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "student_id": "example-secure",
+    "node": "B2",
+    "status": "secure",
+    "direct_accuracy": 0.84,
+    "explanation_status": "meets",
+    "transfer_status": "meets",
+    "retention_status": "meets",
+    "dominant_failure_modes": [],
+    "recommended_interventions": []
+  },
+  {
+    "student_id": "example-blocked",
+    "node": "B2",
+    "status": "blocked",
+    "direct_accuracy": 0.51,
+    "explanation_status": "weak",
+    "transfer_status": "failed",
+    "retention_status": "not_met",
+    "dominant_failure_modes": [
+      "family_constraint_fragmentation",
+      "extraneous_or_excluded_solution_acceptance"
+    ],
+    "recommended_interventions": [
+      "mark domain restrictions or excluded values before solving and recheck them after solving",
+      "substitute all candidate solutions back into the original structure before accepting them"
+    ]
+  }
+]

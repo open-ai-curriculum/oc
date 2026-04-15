@@ -1,0 +1,22 @@
+{
+  "node_id": "V1",
+  "examples": [
+    {
+      "student_id": "example-v1-001",
+      "node": "V1",
+      "status": "blocked",
+      "direct_accuracy": 0.55,
+      "meaning_status": "weak",
+      "transfer_status": "failed",
+      "retention_status": "not_met",
+      "dominant_failure_modes": [
+        "V1-FM-01",
+        "V1-FM-02"
+      ],
+      "recommended_interventions": [
+        "address_tens_ones_structure_weakness",
+        "practice_v1_tens_ones_structure_weakness"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "node_id": "M7",
+  "examples": [
+    {
+      "student_id": "example-m7-001",
+      "node": "M7",
+      "status": "blocked",
+      "direct_accuracy": 0.55,
+      "meaning_status": "weak",
+      "transfer_status": "failed",
+      "retention_status": "not_met",
+      "dominant_failure_modes": [
+        "M7-FM-01",
+        "M7-FM-02"
+      ],
+      "recommended_interventions": [
+        "address_unit_identification_weakness",
+        "practice_m7_unit_identification_weakness"
+      ]
+    }
+  ]
+}

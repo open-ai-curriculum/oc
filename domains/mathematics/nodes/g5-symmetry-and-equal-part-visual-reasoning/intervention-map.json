@@ -1,0 +1,22 @@
+{
+  "node_id": "G5",
+  "version": "0.1",
+  "interventions": {
+    "G5-FM-01": [
+      "address_symmetry_detection_weakness",
+      "practice_g5_symmetry_detection_weakness"
+    ],
+    "G5-FM-02": [
+      "address_fold-line_misplacement",
+      "practice_g5_fold-line_misplacement"
+    ],
+    "G5-FM-03": [
+      "address_equal-part_visual_misjudgment",
+      "practice_g5_equal-part_visual_misjudgment"
+    ],
+    "G5-FM-04": [
+      "address_non-structural_cue_bias",
+      "practice_g5_non-structural_cue_bias"
+    ]
+  }
+}

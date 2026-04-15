@@ -1,0 +1,26 @@
+{
+  "node_id": "Z1",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "Z1-FM-01": [
+      "contrast one-object and many-object trays",
+      "use matching routines for one versus many",
+      "repeat broad quantity language in concrete settings"
+    ],
+    "Z1-FM-02": [
+      "use hide-add-reveal and hide-remove-reveal routines",
+      "ask what changed after each action",
+      "slow the sequence so the learner attends to the change event"
+    ],
+    "Z1-FM-03": [
+      "sort examples into same and different quantity states",
+      "pair simple more versus less examples side by side",
+      "name the state explicitly in teacher language"
+    ],
+    "Z1-FM-04": [
+      "move from objects to pictures to everyday situations",
+      "ask the same quantity question in multiple contexts",
+      "use parallel examples with different materials"
+    ]
+  }
+}

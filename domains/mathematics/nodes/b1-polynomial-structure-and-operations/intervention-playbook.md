@@ -1,0 +1,25 @@
+# Intervention Playbook
+
+## `operation_structure_fragmentation`
+
+- use term-structure annotation routines before and after polynomial operations
+- compare expanded and grouped work side by side to show how structure changes under each operation
+- require learners to describe what changed in degree or term structure after the computation
+
+## `factor_zero_opacity`
+
+- pair factored forms with graphs and tables showing the corresponding zeros
+- use teacher think-alouds connecting repeated factors to repeated intercept behavior in bounded cases
+- compare polynomials with similar degree but different zero structures
+
+## `form_purpose_mismatch`
+
+- compare standard, factored, and partially structured forms of the same polynomial for different goals
+- require learners to name the purpose before deciding whether to expand, factor, or keep structure visible
+- use matched tasks where the most useful form changes with the question
+
+## `graph_expression_disconnect`
+
+- compare graphs with the corresponding polynomial features highlighted directly on the expression
+- use end-behavior and intercept-prediction routines before graphing technology confirms the result
+- require learners to explain which coefficient or factor feature produced a visible graph feature

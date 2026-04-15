@@ -1,0 +1,30 @@
+[
+  {
+    "student_id": "example-secure",
+    "node": "H3",
+    "status": "secure",
+    "direct_accuracy": 0.82,
+    "explanation_status": "meets",
+    "transfer_status": "meets",
+    "retention_status": "meets",
+    "dominant_failure_modes": [],
+    "recommended_interventions": []
+  },
+  {
+    "student_id": "example-blocked",
+    "node": "H3",
+    "status": "blocked",
+    "direct_accuracy": 0.49,
+    "explanation_status": "weak",
+    "transfer_status": "failed",
+    "retention_status": "not_met",
+    "dominant_failure_modes": [
+      "reason_claim_mismatch",
+      "visual_assertion_substitution"
+    ],
+    "recommended_interventions": [
+      "pair each proof statement with a bounded list of valid possible reasons before independent construction",
+      "require theorem, definition, or property support for every non-given statement"
+    ]
+  }
+]

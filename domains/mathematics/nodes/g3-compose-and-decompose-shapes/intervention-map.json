@@ -1,0 +1,10 @@
+{
+  "node_id": "G3",
+  "version": "0.1",
+  "interventions": {
+    "G3-FM-01": ["outline_matching_then_open_composition", "two_piece_to_multi_piece_build"],
+    "G3-FM-02": ["draw_cut_lines_and_name_parts", "compare_multiple_valid_decompositions"],
+    "G3-FM-03": ["rotate_piece_name_constant", "overlay_or_trace_sameness_support"],
+    "G3-FM-04": ["narrate_piece_to_whole_role", "parts_make_one_sentence_frames"]
+  }
+}

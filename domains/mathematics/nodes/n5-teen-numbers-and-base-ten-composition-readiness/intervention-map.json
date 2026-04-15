@@ -1,0 +1,22 @@
+{
+  "node_id": "N5",
+  "version": "0.1",
+  "interventions": {
+    "N5-FM-01": [
+      "bundled_ten_contrast_routine",
+      "teen_vs_single_digit_explicit_comparison"
+    ],
+    "N5-FM-02": [
+      "speak_build_write_cycle",
+      "teen_number_dictation_with_immediate_modeling"
+    ],
+    "N5-FM-03": [
+      "keep_the_ten_intact_rehearsal",
+      "one_ten_and_ones_sentence_frames"
+    ],
+    "N5-FM-04": [
+      "side_by_side_teen_comparison",
+      "common_ten_different_ones_reasoning"
+    ]
+  }
+}

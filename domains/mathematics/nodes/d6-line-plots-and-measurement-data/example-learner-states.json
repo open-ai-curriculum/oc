@@ -1,0 +1,30 @@
+[
+  {
+    "student_id": "example-secure",
+    "node": "D6",
+    "status": "secure",
+    "direct_accuracy": 0.94,
+    "explanation_status": "meets",
+    "transfer_status": "meets",
+    "retention_status": "meets",
+    "dominant_failure_modes": [],
+    "recommended_interventions": []
+  },
+  {
+    "student_id": "example-blocked",
+    "node": "D6",
+    "status": "blocked",
+    "direct_accuracy": 0.6,
+    "explanation_status": "weak",
+    "transfer_status": "failed",
+    "retention_status": "not_met",
+    "dominant_failure_modes": [
+      "mark_position_error",
+      "frequency_tracking_loss"
+    ],
+    "recommended_interventions": [
+      "guided plotting on pre-labeled number lines",
+      "value-to-tick matching before plotting"
+    ]
+  }
+]

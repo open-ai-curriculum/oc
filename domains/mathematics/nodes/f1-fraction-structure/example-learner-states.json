@@ -1,0 +1,25 @@
+[
+  {
+    "learner_id": "learner-f1-001",
+    "node_id": "F1",
+    "status": "blocked",
+    "dependency_status": {
+      "R1": "secure",
+      "R2": "unstable",
+      "R3": "blocked"
+    },
+    "direct_accuracy": 0.58,
+    "explanation_status": "not_met",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["F1-FM-01", "F1-FM-03"],
+    "recommended_interventions": [
+      "equal_part_models",
+      "symbol_diagram_matching",
+      "symbol-role rehearsal with selected-part versus whole-part mapping"
+    ],
+    "last_verified_at": "2026-04-14",
+    "review_state": "draft",
+    "notes": "Treats 3/8 as two unrelated whole numbers."
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "student_id": "example-secure",
+    "node": "D5",
+    "status": "secure",
+    "direct_accuracy": 0.94,
+    "explanation_status": "meets",
+    "transfer_status": "meets",
+    "retention_status": "meets",
+    "dominant_failure_modes": [],
+    "recommended_interventions": []
+  },
+  {
+    "student_id": "example-blocked",
+    "node": "D5",
+    "status": "blocked",
+    "direct_accuracy": 0.6,
+    "explanation_status": "weak",
+    "transfer_status": "failed",
+    "retention_status": "not_met",
+    "dominant_failure_modes": [
+      "scale_ignorance",
+      "label_axis_confusion"
+    ],
+    "recommended_interventions": [
+      "explicit scale-reading routines before any question answering",
+      "same graph with different scales comparison set"
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "node_id": "AP3",
+  "items": [
+    {
+      "item_id": "AP3-A1",
+      "item_family": "direct",
+      "prompt": "interprets limits and derivative-based behavior across tables, graphs, formulas, and bounded motion or optimization contexts",
+      "expected_evidence": "interpret approaching behavior consistently across tables, graphs, formulas, and verbal descriptions",
+      "dominant_failure_mode": "limit_process_static_view",
+      "scoring_guidance": "Meets when the learner treats limits and derivative-based evidence as coherent behavior reasoning rather than as disconnected procedural steps."
+    },
+    {
+      "item_id": "AP3-B1",
+      "item_family": "explanation",
+      "prompt": "explains how derivative meaning links slope, rate of change, motion, and local linear behavior in introductory calculus contexts",
+      "expected_evidence": "explain derivative meaning through slope, rate, motion, and local linearization rather than only through symbolic rules",
+      "dominant_failure_mode": "derivative_meaning_fragmentation",
+      "scoring_guidance": "Meets when the learner explains derivative meaning as one coherent local-change idea across multiple representations."
+    },
+    {
+      "item_id": "AP3-C1",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer error aligned to symbolic_graphical_motion_disconnect.",
+      "expected_evidence": "connect derivative sign, magnitude, and change to increasing, decreasing, and extremum behavior",
+      "dominant_failure_mode": "symbolic_graphical_motion_disconnect",
+      "scoring_guidance": "Meets when the learner identifies where symbolic derivative work stopped matching graph or motion meaning."
+    },
+    {
+      "item_id": "AP3-D1",
+      "item_family": "transfer",
+      "prompt": "interprets a less-familiar introductory calculus context and identifies which local or rate-based evidence governs the claim",
+      "expected_evidence": "justify calculus claims in bounded modeling or analysis tasks using the correct local or rate-based evidence",
+      "dominant_failure_mode": "optimization_local_global_confusion",
+      "scoring_guidance": "Meets when the learner preserves coherent limit and derivative reasoning in a varied context and names the evidence that actually controls the conclusion."
+    }
+  ]
+}

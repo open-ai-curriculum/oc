@@ -1,0 +1,37 @@
+{
+  "node_id": "F6",
+  "interventions": [
+    {
+      "failure_mode": "whole_number_override",
+      "strategies": [
+        "whole-plus-fraction visual decompositions",
+        "teacher modeling of numerator counting unit fractions across whole boundaries",
+        "non-example analysis contrasting 5/4 with 5 and 4"
+      ]
+    },
+    {
+      "failure_mode": "mixed_improper_disconnect",
+      "strategies": [
+        "equivalence tables between mixed and improper forms in bounded cases",
+        "build-one-whole-then-extra routines",
+        "match cards showing the same magnitude in both forms"
+      ]
+    },
+    {
+      "failure_mode": "one_whole_boundary_confusion",
+      "strategies": [
+        "group unit fractions into wholes before naming the remainder",
+        "shade-and-compose activities across multiple wholes",
+        "count past one whole using unit-fraction language"
+      ]
+    },
+    {
+      "failure_mode": "comparison_reset_error",
+      "strategies": [
+        "benchmark comparisons around one whole",
+        "order sets containing values just below and above one",
+        "number-line comparisons centered on the one-whole mark"
+      ]
+    }
+  ]
+}

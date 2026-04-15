@@ -1,0 +1,30 @@
+[
+  {
+    "student_id": "example-secure",
+    "node": "B1",
+    "status": "secure",
+    "direct_accuracy": 0.85,
+    "explanation_status": "meets",
+    "transfer_status": "meets",
+    "retention_status": "meets",
+    "dominant_failure_modes": [],
+    "recommended_interventions": []
+  },
+  {
+    "student_id": "example-blocked",
+    "node": "B1",
+    "status": "blocked",
+    "direct_accuracy": 0.54,
+    "explanation_status": "weak",
+    "transfer_status": "failed",
+    "retention_status": "not_met",
+    "dominant_failure_modes": [
+      "operation_structure_fragmentation",
+      "factor_zero_opacity"
+    ],
+    "recommended_interventions": [
+      "use term-structure annotation routines before and after polynomial operations",
+      "pair factored forms with graphs and tables showing the corresponding zeros"
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "node_id": "F2",
+  "version": "0.1",
+  "failure_mode_interventions": {
+    "F2-FM-01": {
+      "name": "additive_distortion",
+      "interventions": ["scaling_tables", "explicit_scale_vs_add_contrast"],
+      "expected_effect": "replace additive patterning with multiplicative scaling",
+      "reverification_target": "generation_plus_explanation"
+    },
+    "F2-FM-02": {
+      "name": "pattern_without_meaning",
+      "interventions": ["same_value_language", "before_after_model_comparison"],
+      "expected_effect": "connect equivalence to preserved quantity",
+      "reverification_target": "explanation_plus_transfer"
+    },
+    "F2-FM-03": {
+      "name": "unjustified_equivalence",
+      "interventions": ["rewrite_and_check_routine", "unit_fraction_composition_review"],
+      "expected_effect": "stabilize justified equivalence claims",
+      "reverification_target": "mixed_recognition_set"
+    }
+  }
+}

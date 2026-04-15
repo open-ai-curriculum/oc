@@ -1,0 +1,22 @@
+{
+  "node_id": "P4",
+  "version": "0.1",
+  "interventions": {
+    "P4-FM-01": [
+      "address_rule_statement_weakness",
+      "practice_p4_rule_statement_weakness"
+    ],
+    "P4-FM-02": [
+      "address_cross-representation_structure_weakness",
+      "practice_p4_cross-representation_structure_weakness"
+    ],
+    "P4-FM-03": [
+      "address_item-naming_instead-of-rule",
+      "practice_p4_item-naming_instead-of-rule"
+    ],
+    "P4-FM-04": [
+      "address_prediction-from-rule_weakness",
+      "practice_p4_prediction-from-rule_weakness"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "node_id": "C3",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "C3-A-001",
+      "family": "direct_counting",
+      "prompt": "Count the counters and tell how many there are.",
+      "target_node": "C3",
+      "secondary_dependency_targets": ["C2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation", "selected_response"],
+      "dominant_failure_modes_if_incorrect": ["C3-FM-01", "C3-FM-02"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "C3-A-002",
+      "family": "direct_counting",
+      "prompt": "A set of 6 dots is moved into a circle shape. How many dots are there now?",
+      "target_node": "C3",
+      "secondary_dependency_targets": ["C2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation", "written_symbolic"],
+      "dominant_failure_modes_if_incorrect": ["C3-FM-03"],
+      "requires_human_scoring": false
+    },
+    {
+      "item_id": "C3-B-001",
+      "family": "explanation",
+      "prompt": "When you count 1, 2, 3, 4, what does the 4 tell you?",
+      "target_node": "C3",
+      "secondary_dependency_targets": ["C2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation", "written_explanation"],
+      "dominant_failure_modes_if_incorrect": ["C3-FM-02", "C3-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "C3-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student counts 5 blocks, then the blocks are spread out, and the student says there are now 7 because they look bigger. What went wrong?",
+      "target_node": "C3",
+      "secondary_dependency_targets": ["C2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["multiple_choice", "oral_explanation", "written_explanation"],
+      "dominant_failure_modes_if_incorrect": ["C3-FM-03"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "C3-D-001",
+      "family": "transfer",
+      "prompt": "There are 4 apples in a basket. Two more pictures of apples are shown beside the basket, but they are not in the basket. How many apples are in the basket?",
+      "target_node": "C3",
+      "secondary_dependency_targets": ["C2"],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": ["oral_explanation", "written_symbolic"],
+      "dominant_failure_modes_if_incorrect": ["C3-FM-01", "C3-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "C3-R-001",
+      "family": "retention",
+      "prompt": "Count the stars and say how many there are without recounting after you finish.",
+      "target_node": "C3",
+      "secondary_dependency_targets": ["C2"],
+      "difficulty_band": "retention",
+      "response_modes_allowed": ["oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["C3-FM-01", "C3-FM-02"],
+      "requires_human_scoring": true
+    }
+  ]
+}

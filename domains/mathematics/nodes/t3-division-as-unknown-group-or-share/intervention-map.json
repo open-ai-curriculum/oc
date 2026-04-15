@@ -1,0 +1,14 @@
+{
+  "node_id": "T3",
+  "interventions": {
+    "unknown-role comparison tasks": [
+      "Pair share-unknown and group-unknown problems and require explicit contrast."
+    ],
+    "build-and-check with groups": [
+      "Use counters or drawings to build quotient proposals and verify against the original total."
+    ],
+    "inverse equation rehearsals": [
+      "Translate division results back into multiplication statements to verify fit."
+    ]
+  }
+}

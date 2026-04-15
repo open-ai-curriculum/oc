@@ -1,0 +1,42 @@
+{
+  "node_id": "U3",
+  "examples": [
+    {
+      "learner_id": "sample-u3-blocked-01",
+      "node_id": "U3",
+      "status": "blocked",
+      "dependency_status": {
+        "U2": "secure"
+      },
+      "direct_accuracy": 0.54,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["U3-FM-02", "U3-FM-03"],
+      "recommended_interventions": [
+        "contrast same-count but unequal-size shares",
+        "distribute concrete objects one at a time"
+      ],
+      "last_verified_at": "2026-04-14",
+      "review_state": "draft",
+      "notes": "Uses equal piece count as fairness criterion even when the shares are different sizes."
+    },
+    {
+      "learner_id": "sample-u3-secure-01",
+      "node_id": "U3",
+      "status": "secure",
+      "dependency_status": {
+        "U2": "secure"
+      },
+      "direct_accuracy": 0.95,
+      "explanation_status": "met",
+      "transfer_status": "met",
+      "retention_status": "met",
+      "dominant_failure_modes": [],
+      "recommended_interventions": [],
+      "last_verified_at": "2026-04-14",
+      "review_state": "draft",
+      "notes": "Explains and produces fair sharing across both objects and partitioned wholes."
+    }
+  ]
+}

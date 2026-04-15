@@ -1,0 +1,37 @@
+{
+  "node_id": "H1",
+  "interventions": [
+    {
+      "failure_mode": "motion_rule_execution_breakdown",
+      "strategies": [
+        "use stepwise grid-based transformation routines with explicit start and image coordinates",
+        "mark centers, directions, and turn amounts before executing each transformation",
+        "compare correct and drifted image placements side by side"
+      ]
+    },
+    {
+      "failure_mode": "preservation_meaning_gap",
+      "strategies": [
+        "measure and compare lengths and angles before and after rigid motions",
+        "use teacher think-alouds naming which properties are preserved and which orientation features may change",
+        "compare rigid and non-rigid actions explicitly to separate congruence-preserving from non-preserving moves"
+      ]
+    },
+    {
+      "failure_mode": "correspondence_label_drift",
+      "strategies": [
+        "label original and image vertices in matched order before reasoning",
+        "use tracing or overlay routines to maintain point correspondence",
+        "require verbal readback of which original point maps to which image point"
+      ]
+    },
+    {
+      "failure_mode": "visual_congruence_overreach",
+      "strategies": [
+        "require a transformation path or symmetry argument before accepting a congruence claim",
+        "compare visually similar non-congruent figures with actual congruent pairs",
+        "use overlay or coordinate verification to test appearance-based claims"
+      ]
+    }
+  ]
+}

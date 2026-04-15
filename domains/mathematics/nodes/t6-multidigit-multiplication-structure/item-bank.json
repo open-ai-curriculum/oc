@@ -1,0 +1,29 @@
+{
+  "node_id": "T6",
+  "items": [
+    {
+      "item_id": "t6-a1",
+      "item_family": "direct_execution",
+      "prompt": "Representative direct task for multidigit multiplication structure.",
+      "expected_evidence": [
+        "Learner uses the intended structure, not only an answer-getting shortcut."
+      ],
+      "dominant_failure_mode_targets": [
+        "partial_product_place_loss"
+      ],
+      "context": "expanded forms"
+    },
+    {
+      "item_id": "t6-b1",
+      "item_family": "explanation",
+      "prompt": "Explain why the chosen structure fits the situation.",
+      "expected_evidence": [
+        "Learner names the structural relationship correctly."
+      ],
+      "dominant_failure_mode_targets": [
+        "compression_without_structure"
+      ],
+      "context": "area models"
+    }
+  ]
+}

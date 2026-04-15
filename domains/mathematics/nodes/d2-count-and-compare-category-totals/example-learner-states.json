@@ -1,0 +1,16 @@
+{
+  "node_id": "D2",
+  "examples": [
+    {
+      "student_id": "example-d2-001",
+      "node": "D2",
+      "status": "blocked",
+      "direct_accuracy": 0.57,
+      "meaning_status": "weak",
+      "transfer_status": "failed",
+      "retention_status": "not_met",
+      "dominant_failure_modes": ["D2-FM-02", "D2-FM-04"],
+      "recommended_interventions": ["comparison_vocabulary_rehearsal", "count_first_comparison_routine"]
+    }
+  ]
+}

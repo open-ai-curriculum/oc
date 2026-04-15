@@ -1,0 +1,24 @@
+{
+  "node_id": "F3",
+  "version": "0.1",
+  "failure_mode_interventions": {
+    "F3-FM-01": {
+      "name": "whole_number_bias",
+      "interventions": ["same_whole_visual_comparisons", "benchmark_check_before_answer"],
+      "expected_effect": "reduce whole-number misuse",
+      "reverification_target": "comparison_plus_explanation"
+    },
+    "F3-FM-02": {
+      "name": "denominator_magnitude_error",
+      "interventions": ["same_numerator_drawings", "smaller_pieces_when_denominator_increases"],
+      "expected_effect": "stabilize unit-size reasoning",
+      "reverification_target": "same_numerator_and_benchmark_set"
+    },
+    "F3-FM-03": {
+      "name": "strategy_fragility",
+      "interventions": ["multiple_comparison_routes", "why_each_route_works"],
+      "expected_effect": "improve strategy flexibility",
+      "reverification_target": "transfer_comparison_item"
+    }
+  }
+}

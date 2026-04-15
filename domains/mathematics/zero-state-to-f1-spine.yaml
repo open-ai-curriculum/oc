@@ -1,0 +1,104 @@
+domain: mathematics
+version: 0.2
+
+spine:
+  id: zero_state_to_f1
+  purpose: full upstream dependency spine required before F1 fraction structure
+
+families:
+  - id: Z
+    name: zero_state_and_precounting
+    nodes:
+      - id: Z1
+        name: attention_to_quantity
+        depends_on: []
+      - id: Z2
+        name: match_and_sort_objects
+        depends_on: [Z1]
+      - id: Z3
+        name: pattern_and_sequence_readiness
+        depends_on: [Z2]
+
+  - id: C
+    name: counting_and_cardinality
+    nodes:
+      - id: C1
+        name: stable_counting_sequence
+        depends_on: [Z2]
+      - id: C2
+        name: one_to_one_correspondence
+        depends_on: [C1]
+      - id: C3
+        name: cardinality
+        depends_on: [C2]
+      - id: C4
+        name: compare_small_quantities
+        depends_on: [C3]
+
+  - id: N
+    name: number_composition_and_decomposition
+    nodes:
+      - id: N1
+        name: compose_and_decompose_small_numbers
+        depends_on: [C3]
+      - id: N2
+        name: addition_and_subtraction_meaning
+        depends_on: [N1]
+      - id: N3
+        name: count_on_and_count_back
+        depends_on: [N2]
+      - id: N4
+        name: fluency_foundations
+        depends_on: [N2, N3]
+
+  - id: U
+    name: unitizing_and_equal_groups
+    nodes:
+      - id: U1
+        name: equal_groups
+        depends_on: [C3]
+      - id: U2
+        name: repeated_unit_reasoning
+        depends_on: [U1]
+      - id: U3
+        name: sharing_and_fair_partitioning
+        depends_on: [U2]
+      - id: U4
+        name: equal_partitioning_of_a_whole
+        depends_on: [U3]
+
+  - id: M
+    name: measurement_and_magnitude
+    nodes:
+      - id: M1
+        name: measurable_attributes
+        depends_on: [C4]
+      - id: M2
+        name: iterated_units
+        depends_on: [M1]
+      - id: M3
+        name: unit_size_matters
+        depends_on: [M2]
+
+  - id: R
+    name: fraction_readiness
+    nodes:
+      - id: R1
+        name: part_whole_reasoning_with_equal_parts
+        depends_on: [N1, U4, M3]
+      - id: R2
+        name: unit_fraction_readiness
+        depends_on: [R1]
+      - id: R3
+        name: symbol_preparation
+        depends_on: [R2]
+
+direct_predecessors_to_f1:
+  - R1
+  - R2
+  - R3
+
+implementation_priority:
+  - R1
+  - R2
+  - R3

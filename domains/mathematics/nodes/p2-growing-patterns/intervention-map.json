@@ -1,0 +1,10 @@
+{
+  "node_id": "P2",
+  "version": "0.1",
+  "interventions": {
+    "P2-FM-01": ["compare_steps_and_count_change", "mark_changed_part_before_extend"],
+    "P2-FM-02": ["one_step_extension_with_checks", "how_much_more_before_next"],
+    "P2-FM-03": ["contrast_repeating_and_growing_patterns", "repeat_or_gets_bigger_prompt"],
+    "P2-FM-04": ["growth_rule_sentence_frames", "explain_change_before_extension"]
+  }
+}

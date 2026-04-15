@@ -1,0 +1,30 @@
+[
+  {
+    "student_id": "example-secure",
+    "node": "B5",
+    "status": "secure",
+    "direct_accuracy": 0.82,
+    "explanation_status": "meets",
+    "transfer_status": "meets",
+    "retention_status": "meets",
+    "dominant_failure_modes": [],
+    "recommended_interventions": []
+  },
+  {
+    "student_id": "example-blocked",
+    "node": "B5",
+    "status": "blocked",
+    "direct_accuracy": 0.47,
+    "explanation_status": "weak",
+    "transfer_status": "failed",
+    "retention_status": "not_met",
+    "dominant_failure_modes": [
+      "family_synthesis_fragmentation",
+      "composition_representation_breakdown"
+    ],
+    "recommended_interventions": [
+      "compare matched modeling situations where different function families fit for different structural reasons",
+      "trace outer and inner functions separately before composing them"
+    ]
+  }
+]

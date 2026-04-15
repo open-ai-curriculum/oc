@@ -1,0 +1,30 @@
+[
+  {
+    "student_id": "example-secure",
+    "node": "A1",
+    "status": "secure",
+    "direct_accuracy": 0.9,
+    "explanation_status": "meets",
+    "transfer_status": "meets",
+    "retention_status": "meets",
+    "dominant_failure_modes": [],
+    "recommended_interventions": []
+  },
+  {
+    "student_id": "example-blocked",
+    "node": "A1",
+    "status": "blocked",
+    "direct_accuracy": 0.57,
+    "explanation_status": "weak",
+    "transfer_status": "failed",
+    "retention_status": "not_met",
+    "dominant_failure_modes": [
+      "expression_equation_collapse",
+      "substitution_placeholding_error"
+    ],
+    "recommended_interventions": [
+      "sort expressions versus equations with explanation prompts",
+      "substitute-and-circle routines for each variable occurrence"
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+id: U3
+name: sharing_and_fair_partitioning
+domain: mathematics
+support_tier: Core release
+maturity_state: Drafted
+supported_profiles:
+- upstream-readiness-node-package
+evidence_class: Synthetic
+dependencies:
+- U2
+mastery:
+  direct_accuracy_threshold: 0.9
+  explanation_required: true
+  transfer_required: true
+  retention_check_days: 14
+statuses:
+- blocked
+- emerging
+- provisional
+- secure
+- unstable
+verification_gates:
+- id: G1
+  type: direct_performance
+  pass_rule: '>= 0.90 accuracy across equal-sharing and fair-partitioning tasks'
+- id: G2
+  type: meaning
+  pass_rule: correct explanation of fairness as same amount in at least 2 of 3 prompts
+- id: G3
+  type: transfer
+  pass_rule: successful fair-sharing reasoning in at least one changed context
+- id: G4
+  type: retention
+  pass_rule: '>= 0.85 delayed recheck accuracy after ~14 days'
+failure_modes:
+- U3-FM-01
+- U3-FM-02
+- U3-FM-03
+- U3-FM-04

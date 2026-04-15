@@ -1,0 +1,126 @@
+{
+  "node_id": "V3",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "V3-A-001",
+      "family": "direct_strategy",
+      "prompt": "Solve 46 + 23 using a tens-and-ones strategy.",
+      "target_node": "V3",
+      "secondary_dependency_targets": [
+        "V1",
+        "N4"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "V3-FM-01",
+        "V3-FM-02"
+      ],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "V3-A-002",
+      "family": "direct_strategy",
+      "prompt": "Solve 72 - 18 and explain how you handled the tens and ones.",
+      "target_node": "V3",
+      "secondary_dependency_targets": [
+        "V1",
+        "N4"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "V3-FM-01",
+        "V3-FM-02"
+      ],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "V3-B-001",
+      "family": "explanation",
+      "prompt": "Explain how breaking 34 into 30 and 4 can help solve 34 + 20.",
+      "target_node": "V3",
+      "secondary_dependency_targets": [
+        "V1",
+        "N4"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "V3-FM-01",
+        "V3-FM-02"
+      ],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "V3-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student adds the tens but forgets the ones in 46 + 23. What should be checked?",
+      "target_node": "V3",
+      "secondary_dependency_targets": [
+        "V1",
+        "N4"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "V3-FM-01",
+        "V3-FM-02"
+      ],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "V3-D-001",
+      "family": "transfer",
+      "prompt": "Use a story problem within 100 and solve it with a place-value drawing or strategy.",
+      "target_node": "V3",
+      "secondary_dependency_targets": [
+        "V1",
+        "N4"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "V3-FM-01",
+        "V3-FM-02"
+      ],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "V3-R-001",
+      "family": "retention",
+      "prompt": "After a delay, solve a new within-100 addition and subtraction set and explain one strategy.",
+      "target_node": "V3",
+      "secondary_dependency_targets": [
+        "V1",
+        "N4"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "V3-FM-01",
+        "V3-FM-02"
+      ],
+      "requires_human_scoring": true
+    }
+  ]
+}

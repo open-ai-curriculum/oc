@@ -1,0 +1,37 @@
+{
+  "node_id": "AP2",
+  "items": [
+    {
+      "item_id": "AP2-A1",
+      "item_family": "direct",
+      "prompt": "selects among algebraic, graphical, tabular, parametric, and polar representations in bounded AP Precalculus-style modeling and interpretation tasks",
+      "expected_evidence": "choose and justify an appropriate advanced representation or model family for a bounded AP Precalculus-style task",
+      "dominant_failure_mode": "representation_selection_misalignment",
+      "scoring_guidance": "Meets when the learner chooses a representation or function family that preserves the structure of the situation and supports a defensible analysis."
+    },
+    {
+      "item_id": "AP2-B1",
+      "item_family": "explanation",
+      "prompt": "explains how parameters, periodicity, symmetry, and representation choices shape AP Precalculus models across trigonometric, parametric, and polar settings",
+      "expected_evidence": "explain how parameters and representations control periodicity, symmetry, growth, and change",
+      "dominant_failure_mode": "trigonometric_modeling_fragmentation",
+      "scoring_guidance": "Meets when the learner explains why the model behaves as it does instead of reciting disconnected procedures for separate representations."
+    },
+    {
+      "item_id": "AP2-C1",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer error aligned to parametric_polar_disconnect.",
+      "expected_evidence": "compare function behavior across algebraic, graphical, parametric, and polar forms without losing the underlying structure",
+      "dominant_failure_mode": "parametric_polar_disconnect",
+      "scoring_guidance": "Meets when the learner identifies where the represented path, parameter, or feature was interpreted inconsistently across forms."
+    },
+    {
+      "item_id": "AP2-D1",
+      "item_family": "transfer",
+      "prompt": "interprets a less-familiar AP Precalculus modeling context and identifies which representation, family, or feature most strongly governs the situation",
+      "expected_evidence": "connect trigonometric, parametric, polar, and family-synthesis reasoning in one coherent modeling analysis",
+      "dominant_failure_mode": "local_global_behavior_confusion",
+      "scoring_guidance": "Meets when the learner preserves coherent cross-representation reasoning and identifies the feature that actually governs the modeled behavior."
+    }
+  ]
+}

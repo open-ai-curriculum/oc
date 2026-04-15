@@ -1,0 +1,30 @@
+[
+  {
+    "student_id": "example-secure",
+    "node": "AP3",
+    "status": "secure",
+    "direct_accuracy": 0.82,
+    "explanation_status": "meets",
+    "transfer_status": "meets",
+    "retention_status": "meets",
+    "dominant_failure_modes": [],
+    "recommended_interventions": []
+  },
+  {
+    "student_id": "example-blocked",
+    "node": "AP3",
+    "status": "blocked",
+    "direct_accuracy": 0.47,
+    "explanation_status": "weak",
+    "transfer_status": "failed",
+    "retention_status": "not_met",
+    "dominant_failure_modes": [
+      "limit_process_static_view",
+      "symbolic_graphical_motion_disconnect"
+    ],
+    "recommended_interventions": [
+      "compare tables and graphs where nearby behavior matters more than function value at a point",
+      "compare derivative sign charts, graphs, and motion descriptions for the same situation and identify where they agree or conflict"
+    ]
+  }
+]

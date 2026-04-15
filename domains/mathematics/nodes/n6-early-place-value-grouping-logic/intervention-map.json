@@ -1,0 +1,22 @@
+{
+  "node_id": "N6",
+  "version": "0.1",
+  "interventions": {
+    "N6-FM-01": [
+      "bundle_before_read_routine",
+      "tens_and_ones_aloud_labeling"
+    ],
+    "N6-FM-02": [
+      "tens_first_comparison_sequence",
+      "structured_compare_tens_then_ones_language"
+    ],
+    "N6-FM-03": [
+      "blocks_drawings_numerals_cycle",
+      "representation_matching_before_production"
+    ],
+    "N6-FM-04": [
+      "reversed_digit_pair_contrast",
+      "place_role_sentence_frames"
+    ]
+  }
+}

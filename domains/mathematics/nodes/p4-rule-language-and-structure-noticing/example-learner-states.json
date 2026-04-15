@@ -1,0 +1,22 @@
+{
+  "node_id": "P4",
+  "examples": [
+    {
+      "student_id": "example-p4-001",
+      "node": "P4",
+      "status": "blocked",
+      "direct_accuracy": 0.55,
+      "meaning_status": "weak",
+      "transfer_status": "failed",
+      "retention_status": "not_met",
+      "dominant_failure_modes": [
+        "P4-FM-01",
+        "P4-FM-02"
+      ],
+      "recommended_interventions": [
+        "address_rule_statement_weakness",
+        "practice_p4_rule_statement_weakness"
+      ]
+    }
+  ]
+}

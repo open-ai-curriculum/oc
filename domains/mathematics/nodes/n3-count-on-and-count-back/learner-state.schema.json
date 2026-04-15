@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "N3LearnerState",
+  "type": "object",
+  "required": [
+    "student_id",
+    "node",
+    "status",
+    "direct_accuracy",
+    "meaning_status",
+    "transfer_status",
+    "retention_status",
+    "dominant_failure_modes",
+    "recommended_interventions"
+  ],
+  "properties": {
+    "student_id": { "type": "string" },
+    "node": { "const": "N3" },
+    "status": {
+      "type": "string",
+      "enum": ["blocked", "emerging", "provisional", "secure", "unstable"]
+    },
+    "direct_accuracy": { "type": "number" },
+    "meaning_status": { "type": "string" },
+    "transfer_status": { "type": "string" },
+    "retention_status": { "type": "string" },
+    "dominant_failure_modes": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "recommended_interventions": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

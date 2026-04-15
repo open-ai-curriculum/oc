@@ -1,0 +1,37 @@
+{
+  "node_id": "J1",
+  "interventions": [
+    {
+      "failure_mode": "representation_alignment_breakdown",
+      "strategies": [
+        "align fraction and decimal forms through benchmark or equivalent-form conversion routines",
+        "require common-unit or common-form annotation before computation",
+        "use number-line overlays to compare the same quantity in multiple representations"
+      ]
+    },
+    {
+      "failure_mode": "signed_magnitude_confusion",
+      "strategies": [
+        "use directed-movement number-line tasks with rational increments",
+        "compare additive combination to distance or temperature-change contexts",
+        "rehearse sign and magnitude separately before recombining the result"
+      ]
+    },
+    {
+      "failure_mode": "whole_number_procedure_intrusion",
+      "strategies": [
+        "contrast rational-operation tasks with tempting whole-number shortcuts",
+        "use unit-language prompts that force attention to denominator, decimal place, or signed value",
+        "teacher error analysis highlighting why the procedure breaks quantity meaning"
+      ]
+    },
+    {
+      "failure_mode": "context_sign_transfer_breakdown",
+      "strategies": [
+        "translate among number-line movement, change situations, and symbolic expressions",
+        "use paired symbolic and contextual tasks with explicit reasonableness checks",
+        "teacher compare-and-connect routines across symbolic, visual, and verbal rational-number situations"
+      ]
+    }
+  ]
+}

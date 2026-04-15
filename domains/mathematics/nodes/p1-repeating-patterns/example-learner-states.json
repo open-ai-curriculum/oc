@@ -1,0 +1,16 @@
+{
+  "node_id": "P1",
+  "examples": [
+    {
+      "student_id": "example-p1-001",
+      "node": "P1",
+      "status": "blocked",
+      "direct_accuracy": 0.59,
+      "meaning_status": "weak",
+      "transfer_status": "failed",
+      "retention_status": "not_met",
+      "dominant_failure_modes": ["P1-FM-01", "P1-FM-03"],
+      "recommended_interventions": ["mark_one_full_cycle_first", "group_full_cycles_visually"]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "node_id": "G4",
+  "version": "0.1",
+  "interventions": {
+    "G4-FM-01": [
+      "address_shape-fit_weakness",
+      "practice_g4_shape-fit_weakness"
+    ],
+    "G4-FM-02": [
+      "address_gap-overlap_blindness",
+      "practice_g4_gap-overlap_blindness"
+    ],
+    "G4-FM-03": [
+      "address_single-arrangement_lock",
+      "practice_g4_single-arrangement_lock"
+    ],
+    "G4-FM-04": [
+      "address_tiling_explanation_weakness",
+      "practice_g4_tiling_explanation_weakness"
+    ]
+  }
+}

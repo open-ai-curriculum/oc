@@ -1,0 +1,22 @@
+{
+  "node_id": "N2",
+  "version": "0.1",
+  "interventions": {
+    "N2-FM-01": [
+      "concrete_join_and_separate_with_recount",
+      "change_narration_rehearsal"
+    ],
+    "N2-FM-02": [
+      "paired_story_contrast_sort",
+      "operation_selection_justification"
+    ],
+    "N2-FM-03": [
+      "manipulative_to_drawing_to_equation_sequence",
+      "symbol_meaning_rehearsal"
+    ],
+    "N2-FM-04": [
+      "covered_part_inference_tasks",
+      "compare_story_bar_modeling"
+    ]
+  }
+}

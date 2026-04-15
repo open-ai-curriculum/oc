@@ -1,0 +1,42 @@
+{
+  "node_id": "C4",
+  "examples": [
+    {
+      "learner_id": "sample-c4-blocked-01",
+      "node_id": "C4",
+      "status": "blocked",
+      "dependency_status": {
+        "C3": "secure"
+      },
+      "direct_accuracy": 0.56,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["C4-FM-02", "C4-FM-03"],
+      "recommended_interventions": [
+        "use side-by-side labeled sets",
+        "rearrange the same set while preserving count"
+      ],
+      "last_verified_at": "2026-04-14",
+      "review_state": "draft",
+      "notes": "Sometimes reverses more and less and is distracted by spread-out layouts."
+    },
+    {
+      "learner_id": "sample-c4-secure-01",
+      "node_id": "C4",
+      "status": "secure",
+      "dependency_status": {
+        "C3": "secure"
+      },
+      "direct_accuracy": 0.95,
+      "explanation_status": "met",
+      "transfer_status": "met",
+      "retention_status": "met",
+      "dominant_failure_modes": [],
+      "recommended_interventions": [],
+      "last_verified_at": "2026-04-14",
+      "review_state": "draft",
+      "notes": "Compares bounded quantities correctly and preserves comparison across rearrangements."
+    }
+  ]
+}

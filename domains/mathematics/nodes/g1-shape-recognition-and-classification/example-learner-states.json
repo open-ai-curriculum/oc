@@ -1,0 +1,16 @@
+{
+  "node_id": "G1",
+  "examples": [
+    {
+      "student_id": "example-g1-001",
+      "node": "G1",
+      "status": "blocked",
+      "direct_accuracy": 0.6,
+      "meaning_status": "weak",
+      "transfer_status": "failed",
+      "retention_status": "not_met",
+      "dominant_failure_modes": ["G1-FM-03", "G1-FM-04"],
+      "recommended_interventions": ["rotate_same_shape_name_constant", "control_non_geometric_cues"]
+    }
+  ]
+}

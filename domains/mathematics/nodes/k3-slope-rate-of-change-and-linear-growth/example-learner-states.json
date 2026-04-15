@@ -1,0 +1,30 @@
+[
+  {
+    "student_id": "example-secure",
+    "node": "K3",
+    "status": "secure",
+    "direct_accuracy": 0.9,
+    "explanation_status": "meets",
+    "transfer_status": "meets",
+    "retention_status": "meets",
+    "dominant_failure_modes": [],
+    "recommended_interventions": []
+  },
+  {
+    "student_id": "example-blocked",
+    "node": "K3",
+    "status": "blocked",
+    "direct_accuracy": 0.57,
+    "explanation_status": "weak",
+    "transfer_status": "failed",
+    "retention_status": "not_met",
+    "dominant_failure_modes": [
+      "change_ratio_breakdown",
+      "sign_direction_confusion"
+    ],
+    "recommended_interventions": [
+      "annotate change in output and change in input explicitly before computing the rate",
+      "sort graphs and contexts into increasing, decreasing, and constant categories"
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "node_id": "H3",
+  "interventions": [
+    {
+      "failure_mode": "reason_claim_mismatch",
+      "strategies": [
+        "pair each proof statement with a bounded list of valid possible reasons before independent construction",
+        "compare matched examples where the same claim needs different reasons in different contexts",
+        "use claim-reason sorting routines before full proof writing"
+      ]
+    },
+    {
+      "failure_mode": "proof_structure_opacity",
+      "strategies": [
+        "annotate givens, target conclusion, and needed intermediate results before writing proof steps",
+        "use teacher think-alouds that name why each subclaim is needed in the argument chain",
+        "compare complete proofs with scrambled-step versions and reconstruct the logic order"
+      ]
+    },
+    {
+      "failure_mode": "visual_assertion_substitution",
+      "strategies": [
+        "require theorem, definition, or property support for every non-given statement",
+        "compare visually plausible but unjustified claims with actually justified steps",
+        "use “what do we know” versus “what looks true” routines during proof review"
+      ]
+    },
+    {
+      "failure_mode": "algebra_geometry_link_breakdown",
+      "strategies": [
+        "use bounded mixed proofs that isolate one algebraic substitution or equality step at a time",
+        "label whether each step is algebra-driven or geometry-driven while preserving the same claim chain",
+        "compare correct and broken mixed proofs where the algebra no longer supports the geometry"
+      ]
+    }
+  ]
+}

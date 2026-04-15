@@ -1,0 +1,30 @@
+[
+  {
+    "student_id": "example-secure",
+    "node": "Q2",
+    "status": "secure",
+    "direct_accuracy": 0.9,
+    "explanation_status": "meets",
+    "transfer_status": "meets",
+    "retention_status": "meets",
+    "dominant_failure_modes": [],
+    "recommended_interventions": []
+  },
+  {
+    "student_id": "example-blocked",
+    "node": "Q2",
+    "status": "blocked",
+    "direct_accuracy": 0.58,
+    "explanation_status": "weak",
+    "transfer_status": "failed",
+    "retention_status": "not_met",
+    "dominant_failure_modes": [
+      "total_quantity_fixation",
+      "unit_label_loss"
+    ],
+    "recommended_interventions": [
+      "compare same-context situations where larger totals hide lower unit rates",
+      "always-name-the-unit response frames"
+    ]
+  }
+]

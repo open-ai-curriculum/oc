@@ -1,0 +1,29 @@
+{
+  "node_id": "M8",
+  "items": [
+    {
+      "item_id": "m8-a1",
+      "item_family": "direct_execution",
+      "prompt": "Representative direct task for standard length units and tool use.",
+      "expected_evidence": [
+        "Learner uses the intended structure, not only an answer-getting shortcut."
+      ],
+      "dominant_failure_mode_targets": [
+        "endpoint_misalignment"
+      ],
+      "context": "rulers"
+    },
+    {
+      "item_id": "m8-b1",
+      "item_family": "explanation",
+      "prompt": "Explain why the chosen structure fits the situation.",
+      "expected_evidence": [
+        "Learner names the structural relationship correctly."
+      ],
+      "dominant_failure_mode_targets": [
+        "hashmark_counting_confusion"
+      ],
+      "context": "measuring strips"
+    }
+  ]
+}

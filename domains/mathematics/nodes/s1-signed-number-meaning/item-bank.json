@@ -1,0 +1,29 @@
+{
+  "node_id": "S1",
+  "items": [
+    {
+      "item_id": "s1-a1",
+      "item_family": "direct_execution",
+      "prompt": "Representative direct task for signed number meaning.",
+      "expected_evidence": [
+        "Learner uses the intended structure, not only an answer-getting shortcut."
+      ],
+      "dominant_failure_mode_targets": [
+        "negative_as_decoration"
+      ],
+      "context": "number lines"
+    },
+    {
+      "item_id": "s1-b1",
+      "item_family": "explanation",
+      "prompt": "Explain why the chosen structure fits the situation.",
+      "expected_evidence": [
+        "Learner names the structural relationship correctly."
+      ],
+      "dominant_failure_mode_targets": [
+        "ordering_reversal"
+      ],
+      "context": "temperature stories"
+    }
+  ]
+}

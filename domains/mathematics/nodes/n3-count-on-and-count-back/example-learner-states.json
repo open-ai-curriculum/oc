@@ -1,0 +1,30 @@
+{
+  "node_id": "N3",
+  "examples": [
+    {
+      "student_id": "example-n3-001",
+      "node": "N3",
+      "status": "blocked",
+      "direct_accuracy": 0.61,
+      "meaning_status": "weak",
+      "transfer_status": "failed",
+      "retention_status": "not_met",
+      "dominant_failure_modes": ["N3-FM-01", "N3-FM-03"],
+      "recommended_interventions": [
+        "keep_first_number_in_head_rehearsal",
+        "one_count_word_per_move_support"
+      ]
+    },
+    {
+      "student_id": "example-n3-002",
+      "node": "N3",
+      "status": "secure",
+      "direct_accuracy": 0.93,
+      "meaning_status": "met",
+      "transfer_status": "met",
+      "retention_status": "met",
+      "dominant_failure_modes": [],
+      "recommended_interventions": []
+    }
+  ]
+}

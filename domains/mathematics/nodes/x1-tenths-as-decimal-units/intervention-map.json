@@ -1,0 +1,14 @@
+{
+  "node_id": "X1",
+  "interventions": {
+    "whole-and-tenths matching": [
+      "Match partitioned wholes, decimal numerals, and named tenths statements."
+    ],
+    "decimal-point meaning rehearsal": [
+      "Use contrast cases to show how the decimal point changes unit interpretation."
+    ],
+    "bounded whole consistency tasks": [
+      "Hold the whole constant while varying the number of tenths represented."
+    ]
+  }
+}

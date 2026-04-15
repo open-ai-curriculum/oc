@@ -1,0 +1,37 @@
+{
+  "node_id": "AP1",
+  "items": [
+    {
+      "item_id": "AP1-A1",
+      "item_family": "direct",
+      "prompt": "integrates statistical design, probability, and inferential evidence to answer bounded AP-style statistical questions",
+      "expected_evidence": "integrate distribution, association, design, and probability evidence in one bounded inferential argument",
+      "dominant_failure_mode": "evidence_chain_fragmentation",
+      "scoring_guidance": "Meets when the learner builds a coherent statistical argument that links model, design, and evidence strength correctly."
+    },
+    {
+      "item_id": "AP1-B1",
+      "item_family": "explanation",
+      "prompt": "explains how chance variation, study design, and probabilistic reasoning determine whether a statistical claim is persuasive",
+      "expected_evidence": "explain how chance variation and study design interact when interpreting evidence strength",
+      "dominant_failure_mode": "chance_evidence_opacity",
+      "scoring_guidance": "Meets when the learner explains AP-style statistical evidence as a structured reasoning chain rather than as procedural output."
+    },
+    {
+      "item_id": "AP1-C1",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer error aligned to inferential_overreach_from_weak_design.",
+      "expected_evidence": "critique AP-style statistical claims for misuse of probability, bias, or inferential overreach",
+      "dominant_failure_mode": "inferential_overreach_from_weak_design",
+      "scoring_guidance": "Meets when the learner identifies where a claim exceeded what the design, model, or evidence could support."
+    },
+    {
+      "item_id": "AP1-D1",
+      "item_family": "transfer",
+      "prompt": "interprets a less-familiar AP-style statistics scenario and identifies the most defensible conclusion under uncertainty",
+      "expected_evidence": "compare competing statistical explanations and identify the strongest supported conclusion",
+      "dominant_failure_mode": "model_claim_misalignment",
+      "scoring_guidance": "Meets when the learner preserves coherent probabilistic and inferential reasoning in a varied AP-style context."
+    }
+  ]
+}

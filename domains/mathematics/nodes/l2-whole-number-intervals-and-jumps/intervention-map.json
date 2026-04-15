@@ -1,0 +1,14 @@
+{
+  "node_id": "L2",
+  "interventions": {
+    "trace-the-span routines": [
+      "Have learners mark and count the full interval between positions."
+    ],
+    "fixed-step jump rehearsals": [
+      "Constrain all jumps in a representation to one stated step size."
+    ],
+    "change-versus-distance sorts": [
+      "Sort tasks by whether they ask for movement, endpoint, or interval."
+    ]
+  }
+}

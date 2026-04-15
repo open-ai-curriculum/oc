@@ -1,0 +1,29 @@
+{
+  "node_id": "M11",
+  "items": [
+    {
+      "item_id": "m11-a1",
+      "item_family": "direct_execution",
+      "prompt": "Representative direct task for money composition and exchange.",
+      "expected_evidence": [
+        "Learner uses the intended structure, not only an answer-getting shortcut."
+      ],
+      "dominant_failure_mode_targets": [
+        "coin_count_over_value"
+      ],
+      "context": "coins"
+    },
+    {
+      "item_id": "m11-b1",
+      "item_family": "explanation",
+      "prompt": "Explain why the chosen structure fits the situation.",
+      "expected_evidence": [
+        "Learner names the structural relationship correctly."
+      ],
+      "dominant_failure_mode_targets": [
+        "exchange_equivalence_gap"
+      ],
+      "context": "price tags"
+    }
+  ]
+}

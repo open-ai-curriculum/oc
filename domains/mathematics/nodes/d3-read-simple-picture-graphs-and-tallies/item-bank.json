@@ -1,0 +1,72 @@
+{
+  "node_id": "D3",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "D3-A-001",
+      "family": "direct_display_read",
+      "prompt": "Look at a picture graph and tell how many votes each category has.",
+      "target_node": "D3",
+      "secondary_dependency_targets": ["D2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation", "written_symbolic"],
+      "dominant_failure_modes_if_incorrect": ["D3-FM-01", "D3-FM-03"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "D3-A-002",
+      "family": "direct_display_read",
+      "prompt": "Read a tally chart and say which category has the most.",
+      "target_node": "D3",
+      "secondary_dependency_targets": ["D2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation", "written_explanation"],
+      "dominant_failure_modes_if_incorrect": ["D3-FM-01", "D3-FM-02"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "D3-B-001",
+      "family": "explanation",
+      "prompt": "Explain how a tally chart shows how many are in each category.",
+      "target_node": "D3",
+      "secondary_dependency_targets": ["D2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation", "written_explanation"],
+      "dominant_failure_modes_if_incorrect": ["D3-FM-03", "D3-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "D3-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student counts the pictures in a graph but ignores the category labels. What should be checked?",
+      "target_node": "D3",
+      "secondary_dependency_targets": ["D2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["multiple_choice", "oral_explanation", "written_explanation"],
+      "dominant_failure_modes_if_incorrect": ["D3-FM-02", "D3-FM-03"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "D3-D-001",
+      "family": "transfer",
+      "prompt": "Use either a picture graph or a tally chart to answer which category has fewer and how many it has.",
+      "target_node": "D3",
+      "secondary_dependency_targets": ["D2"],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": ["oral_explanation", "written_symbolic"],
+      "dominant_failure_modes_if_incorrect": ["D3-FM-01", "D3-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "D3-R-001",
+      "family": "retention",
+      "prompt": "After a delay, read a new simple display and answer two questions about category totals.",
+      "target_node": "D3",
+      "secondary_dependency_targets": ["D2"],
+      "difficulty_band": "retention",
+      "response_modes_allowed": ["oral_explanation", "written_symbolic"],
+      "dominant_failure_modes_if_incorrect": ["D3-FM-01", "D3-FM-02", "D3-FM-03"],
+      "requires_human_scoring": true
+    }
+  ]
+}

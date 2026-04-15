@@ -1,0 +1,26 @@
+{
+  "node_id": "U2",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "U2-FM-01": [
+      "label the repeated unit before counting",
+      "circle or mark each equal group",
+      "compare same unit repeated with mixed groups"
+    ],
+    "U2-FM-02": [
+      "sort equal and unequal group sets",
+      "compare one mismatching group with stable repeated groups",
+      "ask what must stay the same for the pattern"
+    ],
+    "U2-FM-03": [
+      "count by groups with teacher modeling",
+      "use same group again language",
+      "connect equal groups to tiled strips or repeated tiles"
+    ],
+    "U2-FM-04": [
+      "move between objects strips and tiled spaces",
+      "ask what repeats in each context",
+      "use parallel examples across contexts"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "node_id": "F3",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "F3-A-001",
+      "family": "direct_comparison",
+      "prompt": "Which is greater: 3/4 or 5/8?",
+      "target_node": "F3",
+      "secondary_dependency_targets": ["F1", "F2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["multiple_choice", "written_explanation", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["F3-FM-01", "F3-FM-02", "F3-FM-03"],
+      "requires_human_scoring": false
+    },
+    {
+      "item_id": "F3-B-001",
+      "family": "explanation",
+      "prompt": "Explain why 5/8 is less than 3/4.",
+      "target_node": "F3",
+      "secondary_dependency_targets": ["F2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation", "written_explanation", "diagram_annotation"],
+      "dominant_failure_modes_if_incorrect": ["F3-FM-02", "F3-FM-03"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "F3-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student says 1/8 is greater than 1/6 because 8 is bigger than 6. What is wrong?",
+      "target_node": "F3",
+      "secondary_dependency_targets": ["F1"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["multiple_choice", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["F3-FM-01", "F3-FM-02"],
+      "requires_human_scoring": false
+    },
+    {
+      "item_id": "F3-D-001",
+      "family": "transfer",
+      "prompt": "Two students walked 2/3 mile and 3/5 mile. Who walked farther?",
+      "target_node": "F3",
+      "secondary_dependency_targets": ["F2"],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": ["written_explanation", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["F3-FM-01", "F3-FM-03"],
+      "requires_human_scoring": true
+    }
+  ]
+}

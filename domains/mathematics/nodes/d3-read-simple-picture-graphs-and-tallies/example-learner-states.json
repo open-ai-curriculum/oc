@@ -1,0 +1,16 @@
+{
+  "node_id": "D3",
+  "examples": [
+    {
+      "student_id": "example-d3-001",
+      "node": "D3",
+      "status": "blocked",
+      "direct_accuracy": 0.56,
+      "meaning_status": "weak",
+      "transfer_status": "failed",
+      "retention_status": "not_met",
+      "dominant_failure_modes": ["D3-FM-02", "D3-FM-03"],
+      "recommended_interventions": ["trace_label_to_marks", "build_then_read_display"]
+    }
+  ]
+}

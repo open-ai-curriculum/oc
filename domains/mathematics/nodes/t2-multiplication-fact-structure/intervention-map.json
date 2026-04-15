@@ -1,0 +1,14 @@
+{
+  "node_id": "T2",
+  "interventions": {
+    "fact family structure sort": [
+      "Sort related facts by shared array or equal-group structure."
+    ],
+    "derive-from-known routines": [
+      "Prompt learners to build unknown facts from doubles, fives, tens, or near neighbors."
+    ],
+    "array rotation explanation": [
+      "Use rotated arrays to ground commutative reasoning in visible structure."
+    ]
+  }
+}

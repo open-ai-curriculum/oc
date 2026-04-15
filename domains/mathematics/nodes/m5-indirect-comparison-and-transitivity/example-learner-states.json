@@ -1,0 +1,16 @@
+{
+  "node_id": "M5",
+  "examples": [
+    {
+      "student_id": "example-m5-001",
+      "node": "M5",
+      "status": "blocked",
+      "direct_accuracy": 0.56,
+      "meaning_status": "weak",
+      "transfer_status": "failed",
+      "retention_status": "not_met",
+      "dominant_failure_modes": ["M5-FM-01", "M5-FM-04"],
+      "recommended_interventions": ["visible_three_object_chain_build", "arrow_chain_visual_support"]
+    }
+  ]
+}

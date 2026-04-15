@@ -1,0 +1,37 @@
+{
+  "node_id": "A5",
+  "items": [
+    {
+      "item_id": "A5-A1",
+      "item_family": "direct",
+      "prompt": "generates bounded tables and ordered pairs from a simple linear or proportional rule and plots them accurately",
+      "expected_evidence": "generate ordered pairs from simple rules and plot them accurately",
+      "dominant_failure_mode": "table_graph_disconnect",
+      "scoring_guidance": "Meets when the learner correctly coordinates rule, table, and plotted points."
+    },
+    {
+      "item_id": "A5-B1",
+      "item_family": "explanation",
+      "prompt": "explains how a table, graph, and verbal rule can represent the same linear relationship and what the constant change means",
+      "expected_evidence": "explain how a table, a set of points, and a verbal rule can represent the same relationship",
+      "dominant_failure_mode": "rate_structure_shallow_reading",
+      "scoring_guidance": "Meets when the learner explains the common relationship structure across representations."
+    },
+    {
+      "item_id": "A5-C1",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer error aligned to table_graph_disconnect.",
+      "expected_evidence": "identify constant change or constant multiplicative rate in bounded linear or proportional tables",
+      "dominant_failure_mode": "table_graph_disconnect",
+      "scoring_guidance": "Meets when the learner identifies how the peer broke the mapping between table values and plotted points."
+    },
+    {
+      "item_id": "A5-D1",
+      "item_family": "transfer",
+      "prompt": "succeeds across tables, verbal rules, graphs, and simple contextual representations of linear relationships",
+      "expected_evidence": "interpret what slope-like change means in bounded contexts without collapsing all patterns into additive sameness",
+      "dominant_failure_mode": "proportional_linear_misclassification",
+      "scoring_guidance": "Meets when the learner preserves linear-relationship meaning across varied representations and contexts."
+    }
+  ]
+}

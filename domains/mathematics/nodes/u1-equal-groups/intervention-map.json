@@ -1,0 +1,26 @@
+{
+  "node_id": "U1",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "U1-FM-01": [
+      "contrast same number of groups with same number in each group",
+      "compare matched and mismatched group sets",
+      "name group size explicitly in teacher language"
+    ],
+    "U1-FM-02": [
+      "count each group after making it",
+      "line up groups side by side",
+      "adjust one mismatched group to match the others"
+    ],
+    "U1-FM-03": [
+      "use small sets first",
+      "distribute one object per group in rounds",
+      "mark group spaces before placing objects"
+    ],
+    "U1-FM-04": [
+      "move from objects to pictures to short stories",
+      "ask what makes the groups equal in each case",
+      "use paired object and story examples"
+    ]
+  }
+}

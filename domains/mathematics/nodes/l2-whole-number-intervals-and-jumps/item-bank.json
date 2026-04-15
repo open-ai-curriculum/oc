@@ -1,0 +1,29 @@
+{
+  "node_id": "L2",
+  "items": [
+    {
+      "item_id": "l2-a1",
+      "item_family": "direct_execution",
+      "prompt": "Representative direct task for whole-number intervals and jumps.",
+      "expected_evidence": [
+        "Learner uses the intended structure, not only an answer-getting shortcut."
+      ],
+      "dominant_failure_mode_targets": [
+        "landing_label_only"
+      ],
+      "context": "open number lines"
+    },
+    {
+      "item_id": "l2-b1",
+      "item_family": "explanation",
+      "prompt": "Explain why the chosen structure fits the situation.",
+      "expected_evidence": [
+        "Learner names the structural relationship correctly."
+      ],
+      "dominant_failure_mode_targets": [
+        "jump_count_drift"
+      ],
+      "context": "story changes"
+    }
+  ]
+}

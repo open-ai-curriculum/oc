@@ -1,0 +1,37 @@
+{
+  "node_id": "G7",
+  "interventions": [
+    {
+      "failure_mode": "ray_length_bias",
+      "strategies": [
+        "overlay angle comparisons with different ray lengths",
+        "hinged-arm demonstrations showing fixed turn with variable arm length",
+        "sort-by-turn-not-length tasks"
+      ]
+    },
+    {
+      "failure_mode": "turn_direction_confusion",
+      "strategies": [
+        "body-turn rehearsal with verbal direction cues",
+        "clockwise versus counterclockwise matching sets",
+        "arrow-path tracing before angle comparison"
+      ]
+    },
+    {
+      "failure_mode": "benchmark_turn_instability",
+      "strategies": [
+        "daily benchmark-turn warmups",
+        "clock-face and navigation turn references",
+        "movement-to-diagram matching routines"
+      ]
+    },
+    {
+      "failure_mode": "static_shape_only_reasoning",
+      "strategies": [
+        "physical turning tasks before drawn representations",
+        "map-route direction change stories",
+        "teacher modeling of turn language linked to rays"
+      ]
+    }
+  ]
+}

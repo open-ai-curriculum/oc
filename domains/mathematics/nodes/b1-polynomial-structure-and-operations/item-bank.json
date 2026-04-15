@@ -1,0 +1,37 @@
+{
+  "node_id": "B1",
+  "items": [
+    {
+      "item_id": "B1-A1",
+      "item_family": "direct",
+      "prompt": "performs polynomial operations and uses structure to identify factors, zeros, and end behavior in bounded cases",
+      "expected_evidence": "perform polynomial operations and explain how the structure changes",
+      "dominant_failure_mode": "operation_structure_fragmentation",
+      "scoring_guidance": "Meets when the learner carries out operations accurately and preserves the structural meaning of the resulting polynomial."
+    },
+    {
+      "item_id": "B1-B1",
+      "item_family": "explanation",
+      "prompt": "explains how factors, zeros, degree, and leading coefficient influence polynomial behavior and representation choice",
+      "expected_evidence": "connect factors and zeros to graphical intercept behavior in bounded cases",
+      "dominant_failure_mode": "factor_zero_opacity",
+      "scoring_guidance": "Meets when the learner explains polynomial behavior as structured algebra-function meaning, not only symbolic output."
+    },
+    {
+      "item_id": "B1-C1",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer error aligned to form_purpose_mismatch.",
+      "expected_evidence": "choose or compare polynomial forms for a stated purpose such as finding zeros or reading end behavior",
+      "dominant_failure_mode": "form_purpose_mismatch",
+      "scoring_guidance": "Meets when the learner identifies where a less useful polynomial form obscured the intended reasoning goal."
+    },
+    {
+      "item_id": "B1-D1",
+      "item_family": "transfer",
+      "prompt": "interprets a polynomial in a less-familiar algebraic, graphical, or contextual setting and selects a representation that reveals the needed structure",
+      "expected_evidence": "identify degree, leading coefficient effects, and term structure in bounded polynomial expressions and graphs",
+      "dominant_failure_mode": "graph_expression_disconnect",
+      "scoring_guidance": "Meets when the learner preserves coherent polynomial structure across representation and purpose."
+    }
+  ]
+}

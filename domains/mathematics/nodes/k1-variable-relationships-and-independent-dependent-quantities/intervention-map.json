@@ -1,0 +1,37 @@
+{
+  "node_id": "K1",
+  "interventions": [
+    {
+      "failure_mode": "variable_role_swap",
+      "strategies": [
+        "label the driving quantity and responding quantity explicitly before solving",
+        "use input-output tables with highlighted variable roles",
+        "compare correct and reversed role assignments in matched situations"
+      ]
+    },
+    {
+      "failure_mode": "paired_value_fragmentation",
+      "strategies": [
+        "use one-relationship card sorts where multiple ordered pairs must be recognized as belonging together",
+        "rehearse \"same relationship, different input\" language",
+        "teacher think-alouds tying each pair back to one consistent relationship"
+      ]
+    },
+    {
+      "failure_mode": "representation_role_disconnect",
+      "strategies": [
+        "translate one relationship across table, graph, rule, and verbal form while preserving variable labels",
+        "require learners to restate which variable is changing and which variable depends on it after each representation shift",
+        "compare correct and incorrect cross-representation mappings"
+      ]
+    },
+    {
+      "failure_mode": "context_dependency_breakdown",
+      "strategies": [
+        "use contexts such as cost, distance, and time with explicit \"what changes first?\" routines",
+        "pair each table or graph with a plain-language explanation prompt",
+        "teacher compare-and-connect routines across symbolic, tabular, graph, and contextual relationship situations"
+      ]
+    }
+  ]
+}

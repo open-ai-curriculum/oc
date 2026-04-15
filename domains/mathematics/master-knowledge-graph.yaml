@@ -1,0 +1,624 @@
+domain: mathematics
+version: 0.1
+
+graph:
+  id: master_knowledge_graph
+  purpose: single authoritative mathematics knowledge graph with expansion from pre-k zero-state through grade 12 and advanced placement pathways
+  no_orphaned_nodes: true
+
+families:
+  - id: Z
+    name: zero_state_and_precounting
+    nodes:
+      - id: Z1
+        name: attention_to_quantity
+        depends_on: []
+        implementation_state: implemented
+      - id: Z2
+        name: match_and_sort_objects
+        depends_on: [Z1]
+        implementation_state: implemented
+      - id: Z3
+        name: pattern_and_sequence_readiness
+        depends_on: [Z2]
+        implementation_state: implemented
+
+  - id: C
+    name: counting_and_cardinality
+    nodes:
+      - id: C1
+        name: stable_counting_sequence
+        depends_on: [Z2]
+        implementation_state: implemented
+      - id: C2
+        name: one_to_one_correspondence
+        depends_on: [C1]
+        implementation_state: implemented
+      - id: C3
+        name: cardinality
+        depends_on: [C2]
+        implementation_state: implemented
+      - id: C4
+        name: compare_small_quantities
+        depends_on: [C3]
+        implementation_state: implemented
+      - id: C5
+        name: numeral_recognition_and_writing_readiness
+        depends_on: [C3]
+        implementation_state: implemented
+      - id: C6
+        name: quantity_symbol_correspondence
+        depends_on: [C4, C5]
+        implementation_state: implemented
+
+  - id: N
+    name: whole_number_and_operations
+    nodes:
+      - id: N1
+        name: compose_and_decompose_small_numbers
+        depends_on: [C3]
+        implementation_state: implemented
+      - id: N2
+        name: addition_and_subtraction_meaning
+        depends_on: [N1]
+        implementation_state: implemented
+      - id: N3
+        name: count_on_and_count_back
+        depends_on: [N2]
+        implementation_state: implemented
+      - id: N4
+        name: fluency_foundations
+        depends_on: [N2, N3]
+        implementation_state: implemented
+      - id: N5
+        name: teen_numbers_and_base_ten_composition_readiness
+        depends_on: [N1, C6]
+        implementation_state: implemented
+      - id: N6
+        name: early_place_value_grouping_logic
+        depends_on: [N5]
+        implementation_state: implemented
+
+  - id: V
+    name: place_value_and_multidigit_whole_numbers
+    nodes:
+      - id: V1
+        name: two_digit_number_structure
+        depends_on: [N6]
+        implementation_state: implemented
+      - id: V2
+        name: compare_and_order_multidigit_numbers
+        depends_on: [V1]
+        implementation_state: implemented
+      - id: V3
+        name: add_subtract_within_100_strategies
+        depends_on: [V1, N4]
+        implementation_state: implemented
+      - id: V4
+        name: regrouping_and_base_ten_equivalence
+        depends_on: [V1, V3]
+        implementation_state: implemented
+      - id: V5
+        name: add_subtract_within_1000
+        depends_on: [V4]
+        implementation_state: implemented
+
+  - id: X
+    name: decimals_and_fraction_decimal_connections
+    nodes:
+      - id: X1
+        name: tenths_as_decimal_units
+        depends_on: [V1, F1]
+        implementation_state: implemented
+      - id: X2
+        name: decimal_place_value_structure
+        depends_on: [X1, V2]
+        implementation_state: implemented
+      - id: X3
+        name: compare_and_order_decimals
+        depends_on: [X2, L3]
+        implementation_state: implemented
+      - id: X4
+        name: fraction_decimal_benchmark_connections
+        depends_on: [F3, X3]
+        implementation_state: implemented
+      - id: X5
+        name: decimal_locations_on_number_line
+        depends_on: [X3, L4]
+        implementation_state: implemented
+
+  - id: U
+    name: unitizing_and_sharing
+    nodes:
+      - id: U1
+        name: equal_groups
+        depends_on: [C3]
+        implementation_state: implemented
+      - id: U2
+        name: repeated_unit_reasoning
+        depends_on: [U1]
+        implementation_state: implemented
+      - id: U3
+        name: sharing_and_fair_partitioning
+        depends_on: [U2]
+        implementation_state: implemented
+      - id: U4
+        name: equal_partitioning_of_a_whole
+        depends_on: [U3]
+        implementation_state: implemented
+      - id: U5
+        name: equal_group_multiplication_readiness
+        depends_on: [U2]
+        implementation_state: implemented
+      - id: U6
+        name: equal_share_division_readiness
+        depends_on: [U3]
+        implementation_state: implemented
+
+  - id: T
+    name: multiplicative_reasoning_and_division
+    nodes:
+      - id: T1
+        name: arrays_and_rectangular_structures
+        depends_on: [U5, G4]
+        implementation_state: implemented
+      - id: T2
+        name: multiplication_fact_structure
+        depends_on: [T1, N4]
+        implementation_state: implemented
+      - id: T3
+        name: division_as_unknown_group_or_share
+        depends_on: [U6, T1]
+        implementation_state: implemented
+      - id: T4
+        name: multiplicative_comparison_and_scaling
+        depends_on: [T2, T3]
+        implementation_state: implemented
+      - id: T5
+        name: factors_multiples_and_divisibility
+        depends_on: [T2, V2]
+        implementation_state: implemented
+      - id: T6
+        name: multidigit_multiplication_structure
+        depends_on: [T2, V4]
+        implementation_state: implemented
+      - id: T7
+        name: multidigit_division_and_remainder_interpretation
+        depends_on: [T3, T6]
+        implementation_state: implemented
+
+  - id: M
+    name: measurement_and_magnitude
+    nodes:
+      - id: M1
+        name: measurable_attributes
+        depends_on: [C4]
+        implementation_state: implemented
+      - id: M2
+        name: iterated_units
+        depends_on: [M1]
+        implementation_state: implemented
+      - id: M3
+        name: unit_size_matters
+        depends_on: [M2]
+        implementation_state: implemented
+      - id: M4
+        name: length_comparison_and_ordering
+        depends_on: [M1]
+        implementation_state: implemented
+      - id: M5
+        name: indirect_comparison_and_transitivity
+        depends_on: [M4]
+        implementation_state: implemented
+      - id: M6
+        name: time_calendar_and_sequence_measurement_readiness
+        depends_on: [Z3]
+        implementation_state: implemented
+      - id: M7
+        name: money_and_value_unit_readiness
+        depends_on: [C4]
+        implementation_state: implemented
+      - id: M8
+        name: standard_length_units_and_tool_use
+        depends_on: [M5, V1]
+        implementation_state: implemented
+      - id: M9
+        name: perimeter_area_and_unit_square_covering
+        depends_on: [M8, G4]
+        implementation_state: implemented
+      - id: M10
+        name: clock_time_and_elapsed_intervals
+        depends_on: [M6, N3]
+        implementation_state: implemented
+      - id: M11
+        name: money_composition_and_exchange
+        depends_on: [M7, V1]
+        implementation_state: implemented
+      - id: M12
+        name: mass_and_volume_attributes
+        depends_on: [M1]
+        implementation_state: implemented
+      - id: M13
+        name: standard_mass_volume_units_and_comparison
+        depends_on: [M12, V1]
+        implementation_state: implemented
+      - id: M14
+        name: unit_conversion_within_measurement_systems
+        depends_on: [M8, M13, T4, V2]
+        implementation_state: implemented
+
+  - id: G
+    name: geometry_and_spatial_reasoning
+    nodes:
+      - id: G1
+        name: shape_recognition_and_classification
+        depends_on: [Z2]
+        implementation_state: implemented
+      - id: G2
+        name: position_direction_and_spatial_language
+        depends_on: [G1]
+        implementation_state: implemented
+      - id: G3
+        name: compose_and_decompose_shapes
+        depends_on: [G2]
+        implementation_state: implemented
+      - id: G4
+        name: pattern_blocks_and_tiling_structure
+        depends_on: [G3]
+        implementation_state: implemented
+      - id: G5
+        name: symmetry_and_equal_part_visual_reasoning
+        depends_on: [G1, U4]
+        implementation_state: implemented
+      - id: G6
+        name: polygon_attributes_and_hierarchy
+        depends_on: [G3, V2]
+        implementation_state: implemented
+      - id: G7
+        name: angle_concept_and_turn_measure
+        depends_on: [G2, G6]
+        implementation_state: implemented
+
+  - id: P
+    name: pattern_and_algebraic_readiness
+    nodes:
+      - id: P1
+        name: repeating_patterns
+        depends_on: [Z3]
+        implementation_state: implemented
+      - id: P2
+        name: growing_patterns
+        depends_on: [P1]
+        implementation_state: implemented
+      - id: P3
+        name: missing_element_pattern_reasoning
+        depends_on: [P2]
+        implementation_state: implemented
+      - id: P4
+        name: rule_language_and_structure_noticing
+        depends_on: [P3]
+        implementation_state: implemented
+
+  - id: D
+    name: data_and_representation
+    nodes:
+      - id: D1
+        name: sort_and_classify_by_attribute
+        depends_on: [Z2]
+        implementation_state: implemented
+      - id: D2
+        name: count_and_compare_category_totals
+        depends_on: [D1]
+        implementation_state: implemented
+      - id: D3
+        name: read_simple_picture_graphs_and_tallies
+        depends_on: [D2]
+        implementation_state: implemented
+      - id: D4
+        name: represent_simple_data_sets
+        depends_on: [D3]
+        implementation_state: implemented
+      - id: D5
+        name: scaled_bar_graphs_and_numerical_data
+        depends_on: [D4, V2]
+        implementation_state: implemented
+      - id: D6
+        name: line_plots_and_measurement_data
+        depends_on: [D5, M8, F2]
+        implementation_state: implemented
+
+  - id: L
+    name: number_line_and_linear_magnitude
+    nodes:
+      - id: L1
+        name: ordered_positions_on_number_line
+        depends_on: [C4, N3]
+        implementation_state: implemented
+      - id: L2
+        name: whole_number_intervals_and_jumps
+        depends_on: [L1, N4]
+        implementation_state: implemented
+      - id: L3
+        name: multidigit_magnitude_on_number_line
+        depends_on: [V2, L2]
+        implementation_state: implemented
+      - id: L4
+        name: fraction_locations_on_number_line
+        depends_on: [F3, F6, L3]
+        implementation_state: implemented
+
+  - id: Y
+    name: estimation_and_reasonableness
+    nodes:
+      - id: Y1
+        name: rounding_and_benchmark_whole_numbers
+        depends_on: [V2]
+        implementation_state: implemented
+      - id: Y2
+        name: whole_number_operation_estimation
+        depends_on: [Y1, V3]
+        implementation_state: implemented
+      - id: Y3
+        name: measurement_estimation_and_reasonableness
+        depends_on: [Y1, M8]
+        implementation_state: implemented
+      - id: Y4
+        name: fraction_benchmark_estimation
+        depends_on: [F3, L4]
+        implementation_state: implemented
+
+  - id: F
+    name: fraction_readiness_and_early_fraction
+    nodes:
+      - id: R1
+        name: part_whole_reasoning_with_equal_parts
+        depends_on: [N1, U4, M3]
+        implementation_state: implemented
+      - id: R2
+        name: unit_fraction_readiness
+        depends_on: [R1]
+        implementation_state: implemented
+      - id: R3
+        name: symbol_preparation
+        depends_on: [R2]
+        implementation_state: implemented
+      - id: F1
+        name: fraction_structure
+        depends_on: [R1, R2, R3]
+        implementation_state: implemented
+      - id: F2
+        name: equivalent_fractions
+        depends_on: [F1]
+        implementation_state: implemented
+      - id: F3
+        name: compare_fractions
+        depends_on: [F1, F2]
+        implementation_state: implemented
+      - id: F4
+        name: add_subtract_like_denominator_fractions
+        depends_on: [F1, F3]
+        implementation_state: implemented
+      - id: F5
+        name: add_subtract_unlike_denominator_fractions
+        depends_on: [F2, F3, F4, F6]
+        implementation_state: implemented
+      - id: F6
+        name: fraction_magnitude_beyond_one_whole
+        depends_on: [F3]
+        implementation_state: implemented
+
+  - id: Q
+    name: ratio_and_proportional_reasoning
+    nodes:
+      - id: Q1
+        name: ratio_as_multiplicative_comparison
+        depends_on: [F6, T4]
+        implementation_state: implemented
+      - id: Q2
+        name: unit_rate_reasoning
+        depends_on: [Q1, M14]
+        implementation_state: implemented
+      - id: Q3
+        name: proportional_relationships
+        depends_on: [Q2, T4]
+        implementation_state: implemented
+      - id: Q4
+        name: percent_as_rate_per_hundred
+        depends_on: [Q2, F2, V2]
+        implementation_state: implemented
+
+  - id: A
+    name: downstream_algebra_and_coordinate_reasoning
+    nodes:
+      - id: S1
+        name: signed_number_meaning
+        depends_on: [F3]
+        implementation_state: implemented
+      - id: S2
+        name: signed_number_operations
+        depends_on: [S1]
+        implementation_state: implemented
+      - id: E1
+        name: one_step_equations
+        depends_on: [S2]
+        implementation_state: implemented
+      - id: E2
+        name: multi_step_equations
+        depends_on: [E1]
+        implementation_state: implemented
+      - id: E3
+        name: variables_both_sides
+        depends_on: [E2]
+        implementation_state: implemented
+      - id: A1
+        name: variable_expressions_and_substitution
+        depends_on: [S2, E1]
+        implementation_state: implemented
+      - id: A2
+        name: distributive_reasoning_and_combining_like_terms
+        depends_on: [A1, T6]
+        implementation_state: implemented
+      - id: A3
+        name: inequalities_and_solution_sets
+        depends_on: [E1, S1, L4]
+        implementation_state: implemented
+      - id: A4
+        name: coordinate_plane_and_ordered_pairs
+        depends_on: [S1, G2]
+        implementation_state: implemented
+      - id: A5
+        name: linear_relationship_tables_and_graphs
+        depends_on: [A1, A4, Q3]
+        implementation_state: implemented
+
+  - id: J
+    name: rational_number_operations_and_middle_school_computation
+    nodes:
+      - id: J1
+        name: rational_number_addition_and_subtraction
+        depends_on: [F5, X4, S2]
+        implementation_state: implemented
+      - id: J2
+        name: rational_number_multiplication_and_division
+        depends_on: [J1, Q2, T4]
+        implementation_state: implemented
+      - id: J3
+        name: signed_rational_number_fluency_and_order
+        depends_on: [J1, J2, S1]
+        implementation_state: implemented
+      - id: J4
+        name: numerical_expressions_and_absolute_value
+        depends_on: [J3, A1]
+        implementation_state: implemented
+      - id: J5
+        name: percent_change_discount_tax_and_markup
+        depends_on: [Q4, J2, M14]
+        implementation_state: implemented
+      - id: J6
+        name: proportional_application_and_scale_modeling
+        depends_on: [Q3, J5, M14]
+        implementation_state: implemented
+
+  - id: K
+    name: functions_and_secondary_linear_algebra
+    nodes:
+      - id: K1
+        name: variable_relationships_and_independent_dependent_quantities
+        depends_on: [A1, A5]
+        implementation_state: implemented
+      - id: K2
+        name: function_as_input_output_rule
+        depends_on: [K1, A5]
+        implementation_state: implemented
+      - id: K3
+        name: slope_rate_of_change_and_linear_growth
+        depends_on: [K2, Q3, S1]
+        implementation_state: implemented
+      - id: K4
+        name: linear_equations_in_two_variables
+        depends_on: [K2, K3, A2]
+        implementation_state: implemented
+      - id: K5
+        name: linear_functions_multiple_representations
+        depends_on: [K3, K4, A5]
+        implementation_state: implemented
+      - id: K6
+        name: systems_of_linear_equations_and_inequalities
+        depends_on: [K4, K5, A3]
+        implementation_state: implemented
+      - id: K7
+        name: quadratic_foundations
+        depends_on: [A2, K2, T1]
+        implementation_state: implemented
+
+  - id: H
+    name: secondary_geometry_transformations_and_proof
+    nodes:
+      - id: H1
+        name: transformations_and_coordinate_symmetry
+        depends_on: [A4, G5, G6]
+        implementation_state: implemented
+      - id: H2
+        name: congruence_and_similarity_via_transformations
+        depends_on: [H1, Q3, G7]
+        implementation_state: implemented
+      - id: H3
+        name: proof_structure_and_geometric_argument
+        depends_on: [H2, A2, P4]
+        implementation_state: implemented
+      - id: H4
+        name: right_triangle_trigonometric_ratio_foundations
+        depends_on: [H2, G7, Q3]
+        implementation_state: implemented
+      - id: H5
+        name: circles_measurement_and_coordinate_geometry
+        depends_on: [H2, A4, M14]
+        implementation_state: implemented
+
+  - id: W
+    name: secondary_statistics_and_probability
+    nodes:
+      - id: W1
+        name: statistical_distributions_and_variability
+        depends_on: [D6, Y4, V2]
+        implementation_state: implemented
+      - id: W2
+        name: bivariate_data_and_linear_association
+        depends_on: [W1, A5]
+        implementation_state: implemented
+      - id: W3
+        name: sampling_inference_and_study_design
+        depends_on: [W1, D5]
+        implementation_state: implemented
+      - id: W4
+        name: probability_models_and_compound_events
+        depends_on: [D6, F2, Q1]
+        implementation_state: implemented
+
+  - id: B
+    name: advanced_algebra_trigonometry_and_precalculus
+    nodes:
+      - id: B1
+        name: polynomial_structure_and_operations
+        depends_on: [A2, K1, T6]
+        implementation_state: implemented
+      - id: B2
+        name: rational_radical_and_exponential_functions
+        depends_on: [B1, J1, K1]
+        implementation_state: implemented
+      - id: B3
+        name: logarithmic_and_inverse_function_reasoning
+        depends_on: [B2, K1]
+        implementation_state: implemented
+      - id: B4
+        name: trigonometric_functions_and_unit_circle
+        depends_on: [H4, A4, K1]
+        implementation_state: implemented
+      - id: B5
+        name: precalculus_function_synthesis_and_limits_foundations
+        depends_on: [B3, B4, K2]
+        implementation_state: implemented
+
+  - id: AP
+    name: advanced_placement_mathematics_pathways
+    nodes:
+      - id: AP1
+        name: ap_statistics_extension
+        depends_on: [W2, W3, W4]
+        implementation_state: implemented
+      - id: AP2
+        name: ap_precalculus_extension
+        depends_on: [B4, B5]
+        implementation_state: implemented
+      - id: AP3
+        name: calculus_limits_and_derivatives
+        depends_on: [B5, K2]
+        implementation_state: implemented
+      - id: AP4
+        name: integral_accumulation_and_fundamental_theorem
+        depends_on: [AP3, Q2]
+        implementation_state: implemented
+      - id: AP5
+        name: bc_series_and_advanced_calculus_extensions
+        depends_on: [AP4, B1]
+        implementation_state: implemented

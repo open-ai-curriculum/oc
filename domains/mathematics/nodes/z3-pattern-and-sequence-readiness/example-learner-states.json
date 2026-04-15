@@ -1,0 +1,42 @@
+{
+  "node_id": "Z3",
+  "examples": [
+    {
+      "learner_id": "sample-z3-blocked-01",
+      "node_id": "Z3",
+      "status": "blocked",
+      "dependency_status": {
+        "Z2": "secure"
+      },
+      "direct_accuracy": 0.54,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["Z3-FM-02", "Z3-FM-03"],
+      "recommended_interventions": [
+        "say the pattern before naming the next element",
+        "continue one step at a time"
+      ],
+      "last_verified_at": "2026-04-14",
+      "review_state": "draft",
+      "notes": "Can sometimes name a repeating pattern but guesses the next element inconsistently."
+    },
+    {
+      "learner_id": "sample-z3-secure-01",
+      "node_id": "Z3",
+      "status": "secure",
+      "dependency_status": {
+        "Z2": "secure"
+      },
+      "direct_accuracy": 0.95,
+      "explanation_status": "met",
+      "transfer_status": "met",
+      "retention_status": "met",
+      "dominant_failure_modes": [],
+      "recommended_interventions": [],
+      "last_verified_at": "2026-04-14",
+      "review_state": "draft",
+      "notes": "Identifies and extends simple repeating patterns across materials and contexts."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "node_id": "M6",
+  "version": "0.1",
+  "interventions": {
+    "M6-FM-01": [
+      "address_sequence-order_weakness",
+      "practice_m6_sequence-order_weakness"
+    ],
+    "M6-FM-02": [
+      "address_relative-time_language_weakness",
+      "practice_m6_relative-time_language_weakness"
+    ],
+    "M6-FM-03": [
+      "address_cycle-structure_weakness",
+      "practice_m6_cycle-structure_weakness"
+    ],
+    "M6-FM-04": [
+      "address_context-bounded_performance",
+      "practice_m6_context-bounded_performance"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "node_id": "L3",
+  "interventions": {
+    "anchor-first placement": [
+      "Require endpoint and midpoint identification before placing additional numbers."
+    ],
+    "compare-estimate-check cycles": [
+      "Estimate, justify, then verify placement using benchmark partitions."
+    ],
+    "same-line spacing critiques": [
+      "Compare plausible and implausible placements on one bounded line."
+    ]
+  }
+}

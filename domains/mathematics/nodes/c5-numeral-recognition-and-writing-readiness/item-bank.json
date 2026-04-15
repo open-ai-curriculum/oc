@@ -1,0 +1,37 @@
+{
+  "node_id": "C5",
+  "items": [
+    {
+      "item_id": "C5-A1",
+      "item_family": "direct",
+      "prompt": "recognizes bounded early numerals reliably in varied formats",
+      "expected_evidence": "identify named numerals in mixed sets",
+      "dominant_failure_mode": "symbol_name_instability",
+      "scoring_guidance": "Meets when the learner completes the direct task accurately."
+    },
+    {
+      "item_id": "C5-B1",
+      "item_family": "explanation",
+      "prompt": "matches spoken number names to written numerals",
+      "expected_evidence": "say the number name for shown numerals and select a numeral for a spoken number",
+      "dominant_failure_mode": "orientation_reversal",
+      "scoring_guidance": "Meets when the learner explains the concept coherently."
+    },
+    {
+      "item_id": "C5-C1",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer error aligned to symbol_set_confusion.",
+      "expected_evidence": "write bounded early numerals with stable orientation and distinguishing features",
+      "dominant_failure_mode": "symbol_set_confusion",
+      "scoring_guidance": "Meets when the learner identifies the source of the error and states the correct reasoning."
+    },
+    {
+      "item_id": "C5-D1",
+      "item_family": "transfer",
+      "prompt": "succeeds across cards, charts, tracing, and independent writing tasks",
+      "expected_evidence": "distinguish numerals from letters, shapes, or quantity pictures",
+      "dominant_failure_mode": "rote_sequence_without_symbol_access",
+      "scoring_guidance": "Meets when the learner succeeds in a less-familiar context."
+    }
+  ]
+}

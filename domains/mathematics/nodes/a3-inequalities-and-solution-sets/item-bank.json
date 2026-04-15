@@ -1,0 +1,37 @@
+{
+  "node_id": "A3",
+  "items": [
+    {
+      "item_id": "A3-A1",
+      "item_family": "direct",
+      "prompt": "solves bounded one-step inequalities and represents the resulting solution set on a number line",
+      "expected_evidence": "solve bounded one-step inequalities and explain the comparison relationship that remains true",
+      "dominant_failure_mode": "equation_inequality_collapse",
+      "scoring_guidance": "Meets when the learner preserves comparison meaning and represents the solution set correctly."
+    },
+    {
+      "item_id": "A3-B1",
+      "item_family": "explanation",
+      "prompt": "explains why an inequality can have many solutions and how endpoint and direction meaning work on a number line",
+      "expected_evidence": "explain why many values can satisfy an inequality and test candidate values appropriately",
+      "dominant_failure_mode": "solution_set_as_single_value",
+      "scoring_guidance": "Meets when the learner explains inequality solutions as a set of values rather than one answer."
+    },
+    {
+      "item_id": "A3-C1",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer error aligned to endpoint_direction_confusion.",
+      "expected_evidence": "represent solution sets with correct open or closed endpoint conventions in bounded cases",
+      "dominant_failure_mode": "endpoint_direction_confusion",
+      "scoring_guidance": "Meets when the learner identifies how the peer misrepresented the solution set on the number line."
+    },
+    {
+      "item_id": "A3-D1",
+      "item_family": "transfer",
+      "prompt": "succeeds across symbolic, number-line, verbal, and simple contextual inequality representations",
+      "expected_evidence": "connect symbolic inequalities to directional number-line and contextual threshold representations",
+      "dominant_failure_mode": "context_threshold_breakdown",
+      "scoring_guidance": "Meets when the learner preserves inequality meaning across multiple representations and contexts."
+    }
+  ]
+}

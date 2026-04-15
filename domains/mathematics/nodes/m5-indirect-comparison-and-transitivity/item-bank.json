@@ -1,0 +1,72 @@
+{
+  "node_id": "M5",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "M5-A-001",
+      "family": "direct_inference",
+      "prompt": "If stick A is longer than stick B, and stick B is longer than stick C, which stick is longest? Explain.",
+      "target_node": "M5",
+      "secondary_dependency_targets": ["M4"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation", "written_explanation"],
+      "dominant_failure_modes_if_incorrect": ["M5-FM-01", "M5-FM-02"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "M5-A-002",
+      "family": "direct_inference",
+      "prompt": "Ribbon A is longer than a marker. Ribbon B is shorter than that same marker. Which ribbon is longer?",
+      "target_node": "M5",
+      "secondary_dependency_targets": ["M4"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation", "written_explanation", "drawing"],
+      "dominant_failure_modes_if_incorrect": ["M5-FM-01", "M5-FM-03"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "M5-B-001",
+      "family": "explanation",
+      "prompt": "Explain how you can know which object is longer even when the two objects are not next to each other.",
+      "target_node": "M5",
+      "secondary_dependency_targets": ["M4"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation", "written_explanation"],
+      "dominant_failure_modes_if_incorrect": ["M5-FM-02", "M5-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "M5-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student knows A is longer than B and B is longer than C, but says C might still be longer than A. What should be checked?",
+      "target_node": "M5",
+      "secondary_dependency_targets": ["M4"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["multiple_choice", "oral_explanation", "written_explanation"],
+      "dominant_failure_modes_if_incorrect": ["M5-FM-01", "M5-FM-02"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "M5-D-001",
+      "family": "transfer",
+      "prompt": "Red tower is taller than blue, blue is taller than green. Order them from tallest to shortest and explain.",
+      "target_node": "M5",
+      "secondary_dependency_targets": ["M4"],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": ["written_explanation", "oral_explanation", "drawing"],
+      "dominant_failure_modes_if_incorrect": ["M5-FM-03", "M5-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "M5-R-001",
+      "family": "retention",
+      "prompt": "After a delay, use two earlier comparisons to decide which of three strips is shortest and explain why.",
+      "target_node": "M5",
+      "secondary_dependency_targets": ["M4"],
+      "difficulty_band": "retention",
+      "response_modes_allowed": ["oral_explanation", "written_explanation"],
+      "dominant_failure_modes_if_incorrect": ["M5-FM-01", "M5-FM-02", "M5-FM-03"],
+      "requires_human_scoring": true
+    }
+  ]
+}

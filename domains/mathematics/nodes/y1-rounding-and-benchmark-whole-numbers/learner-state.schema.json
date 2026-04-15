@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Y1LearnerState",
+  "type": "object",
+  "required": [
+    "student_id",
+    "node",
+    "status"
+  ],
+  "properties": {
+    "student_id": {
+      "type": "string"
+    },
+    "node": {
+      "const": "Y1"
+    },
+    "status": {
+      "type": "string"
+    },
+    "direct_accuracy": {
+      "type": "number"
+    },
+    "explanation_status": {
+      "type": "string"
+    },
+    "transfer_status": {
+      "type": "string"
+    },
+    "retention_status": {
+      "type": "string"
+    },
+    "dominant_failure_modes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "recommended_interventions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

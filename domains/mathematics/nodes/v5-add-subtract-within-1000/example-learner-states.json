@@ -1,0 +1,22 @@
+{
+  "node_id": "V5",
+  "examples": [
+    {
+      "student_id": "example-v5-001",
+      "node": "V5",
+      "status": "blocked",
+      "direct_accuracy": 0.55,
+      "meaning_status": "weak",
+      "transfer_status": "failed",
+      "retention_status": "not_met",
+      "dominant_failure_modes": [
+        "V5-FM-01",
+        "V5-FM-02"
+      ],
+      "recommended_interventions": [
+        "address_hundreds_tens_ones_coordination_weakness",
+        "practice_v5_hundreds_tens_ones_coordination_weakness"
+      ]
+    }
+  ]
+}

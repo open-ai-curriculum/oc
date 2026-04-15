@@ -1,0 +1,26 @@
+{
+  "node_id": "M1",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "M1-FM-01": [
+      "ask what are we comparing before the result",
+      "sort tasks by length area and amount",
+      "use sentence frames naming the attribute"
+    ],
+    "M1-FM-02": [
+      "require comparison statements to include the attribute word",
+      "compare the same objects on different attributes",
+      "use visuals that isolate one attribute at a time"
+    ],
+    "M1-FM-03": [
+      "contrast misleading visible-cue cases",
+      "ask which attribute matters in each case",
+      "use pairs where one cue is misleading"
+    ],
+    "M1-FM-04": [
+      "move from length to area to amount using the same language",
+      "ask what stays the same when the attribute changes",
+      "use parallel examples across contexts"
+    ]
+  }
+}

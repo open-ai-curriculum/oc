@@ -1,0 +1,29 @@
+{
+  "node_id": "E2",
+  "items": [
+    {
+      "item_id": "e2-a1",
+      "item_family": "direct_execution",
+      "prompt": "Representative direct task for multi-step equations.",
+      "expected_evidence": [
+        "Learner uses the intended structure, not only an answer-getting shortcut."
+      ],
+      "dominant_failure_mode_targets": [
+        "order_sequence_break"
+      ],
+      "context": "symbolic equations"
+    },
+    {
+      "item_id": "e2-b1",
+      "item_family": "explanation",
+      "prompt": "Explain why the chosen structure fits the situation.",
+      "expected_evidence": [
+        "Learner names the structural relationship correctly."
+      ],
+      "dominant_failure_mode_targets": [
+        "sign_loss_midstream"
+      ],
+      "context": "annotated solutions"
+    }
+  ]
+}

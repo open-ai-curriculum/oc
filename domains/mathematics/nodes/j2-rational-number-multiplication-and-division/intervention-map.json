@@ -1,0 +1,37 @@
+{
+  "node_id": "J2",
+  "interventions": [
+    {
+      "failure_mode": "unit_scale_breakdown",
+      "strategies": [
+        "use fraction-of-a-quantity and scale-model routines before symbolic compression",
+        "annotate input unit, scale factor, and resulting unit in each task",
+        "compare multiplication and division situations through explicit unit tracing"
+      ]
+    },
+    {
+      "failure_mode": "inverse_structure_confusion",
+      "strategies": [
+        "sort situations into scale-up, scale-down, unit-rate, and unknown-factor structures",
+        "rehearse inverse links between multiplication and division with rational numbers",
+        "use missing-factor tables before free symbolic solving"
+      ]
+    },
+    {
+      "failure_mode": "sign_rule_without_meaning",
+      "strategies": [
+        "use directed scaling and debt/gain contexts for signed products and quotients",
+        "compare sign outcomes with concrete meaning before symbolic generalization",
+        "teacher think-alouds separating magnitude reasoning from direction reasoning"
+      ]
+    },
+    {
+      "failure_mode": "rate_context_transfer_breakdown",
+      "strategies": [
+        "translate among rate tables, scaling stories, group-size contexts, and symbolic forms",
+        "pair each symbolic quotient or product with a unit interpretation question",
+        "teacher compare-and-connect routines across symbolic, tabular, and contextual rational multiplicative situations"
+      ]
+    }
+  ]
+}

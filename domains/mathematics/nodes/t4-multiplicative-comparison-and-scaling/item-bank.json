@@ -1,0 +1,29 @@
+{
+  "node_id": "T4",
+  "items": [
+    {
+      "item_id": "t4-a1",
+      "item_family": "direct_execution",
+      "prompt": "Representative direct task for multiplicative comparison and scaling.",
+      "expected_evidence": [
+        "Learner uses the intended structure, not only an answer-getting shortcut."
+      ],
+      "dominant_failure_mode_targets": [
+        "additive_substitution"
+      ],
+      "context": "comparison stories"
+    },
+    {
+      "item_id": "t4-b1",
+      "item_family": "explanation",
+      "prompt": "Explain why the chosen structure fits the situation.",
+      "expected_evidence": [
+        "Learner names the structural relationship correctly."
+      ],
+      "dominant_failure_mode_targets": [
+        "scale_factor_loss"
+      ],
+      "context": "strip diagrams"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "node_id": "D6",
+  "items": [
+    {
+      "item_id": "D6-A1",
+      "item_family": "direct",
+      "prompt": "plots measurement values on a line plot using a consistent scale and correct repeated marks",
+      "expected_evidence": "place X marks correctly above measurement values on a line plot",
+      "dominant_failure_mode": "mark_position_error",
+      "scoring_guidance": "Meets when the learner completes the representation task accurately."
+    },
+    {
+      "item_id": "D6-B1",
+      "item_family": "explanation",
+      "prompt": "reads and compares frequency at marked values including clustered or repeated measurements",
+      "expected_evidence": "interpret repeated measures and identify most/least frequent values",
+      "dominant_failure_mode": "frequency_tracking_loss",
+      "scoring_guidance": "Meets when the learner explains what the display shows and how to read it."
+    },
+    {
+      "item_id": "D6-C1",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer error aligned to measurement_scale_disconnect.",
+      "expected_evidence": "use the line plot to answer additive and comparison questions",
+      "dominant_failure_mode": "measurement_scale_disconnect",
+      "scoring_guidance": "Meets when the learner identifies the error source and states the correct interpretation."
+    },
+    {
+      "item_id": "D6-D1",
+      "item_family": "transfer",
+      "prompt": "succeeds across whole-number and fraction-marked measurement contexts",
+      "expected_evidence": "connect fraction-marked measurement positions to plotted data accurately",
+      "dominant_failure_mode": "distribution_question_confusion",
+      "scoring_guidance": "Meets when the learner succeeds in the less-familiar data context."
+    }
+  ]
+}

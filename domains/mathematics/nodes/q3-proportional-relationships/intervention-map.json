@@ -1,0 +1,37 @@
+{
+  "node_id": "Q3",
+  "interventions": [
+    {
+      "failure_mode": "additive_pattern_misclassification",
+      "strategies": [
+        "contrast additive and proportional tables with same-looking sequences",
+        "teacher modeling of same-factor checks",
+        "sort tasks for proportional versus non-proportional relationships"
+      ]
+    },
+    {
+      "failure_mode": "scale_invariance_breakdown",
+      "strategies": [
+        "equivalent-ratio build routines",
+        "constant-factor rehearsal across several pairs",
+        "ratio table row-to-row scaling annotations"
+      ]
+    },
+    {
+      "failure_mode": "table_extension_without_structure",
+      "strategies": [
+        "require factor explanations for each extension step",
+        "missing-value tasks with non-adjacent rows",
+        "normalize-to-unit and rebuild routines"
+      ]
+    },
+    {
+      "failure_mode": "representation_split",
+      "strategies": [
+        "translate one proportional relationship across word, table, graph-prep, and equation forms",
+        "match cards across representation types",
+        "teacher compare-and-connect routines"
+      ]
+    }
+  ]
+}

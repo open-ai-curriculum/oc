@@ -1,0 +1,10 @@
+{
+  "node_id": "U6",
+  "version": "0.1",
+  "interventions": {
+    "U6-FM-01": ["round_robin_distribution_routine", "recipient_placeholders_for_tracking"],
+    "U6-FM-02": ["fair_vs_unfair_contrast_with_justification", "same_amount_check_after_distribution"],
+    "U6-FM-03": ["near_fair_example_correction", "share_verification_before_close"],
+    "U6-FM-04": ["completed_share_to_inference_transition", "shared_among_sentence_frames"]
+  }
+}

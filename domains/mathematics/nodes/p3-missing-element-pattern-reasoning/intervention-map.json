@@ -1,0 +1,10 @@
+{
+  "node_id": "P3",
+  "version": "0.1",
+  "interventions": {
+    "P3-FM-01": ["rebuild_full_repeating_unit_first", "cover_and_reveal_within_cycle"],
+    "P3-FM-02": ["compare_change_before_and_after_blank", "growth_table_or_step_drawing_support"],
+    "P3-FM-03": ["check_answer_against_full_pattern", "local_plausible_vs_rule_consistent_contrast"],
+    "P3-FM-04": ["missing_pattern_sentence_frames", "explain_before_confirmation"]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "node_id": "F5",
+  "version": "0.1",
+  "failure_mode_interventions": {
+    "F5-FM-01": {
+      "name": "incorrect_common_denominator",
+      "interventions": [
+        "visual_fraction_strip_alignment",
+        "rewrite_first_then_compute",
+        "scaffolded_denominator_matching_sequence"
+      ],
+      "expected_effect": "stabilize common-unit selection before computation",
+      "reverification_target": "direct_execution_plus_explanation"
+    },
+    "F5-FM-02": {
+      "name": "direct_addition_error",
+      "interventions": [
+        "same_whole_partition_model",
+        "unit_size_vs_parts_explicit_contrast",
+        "compare_then_compute_discussion"
+      ],
+      "expected_effect": "stop combining denominators as totals",
+      "reverification_target": "visual_plus_symbolic_plus_explanation"
+    },
+    "F5-FM-03": {
+      "name": "equivalence_breakdown",
+      "interventions": [
+        "revisit_f2_scaling_tables",
+        "match_original_and_rewritten_fractions",
+        "same_value_smaller_pieces_explanation_routine"
+      ],
+      "expected_effect": "preserve value while changing unit size",
+      "reverification_target": "rewrite_plus_full_f5_item"
+    },
+    "F5-FM-04": {
+      "name": "mixed_number_loss",
+      "interventions": [
+        "decompose_whole_plus_fraction",
+        "bounded_regrouping_routine",
+        "temporarily_narrow_item_complexity"
+      ],
+      "expected_effect": "preserve whole-number structure",
+      "reverification_target": "bounded_mixed_number_execution"
+    },
+    "F5-FM-05": {
+      "name": "magnitude_blindness",
+      "interventions": [
+        "benchmark_estimation_before_solving",
+        "answer_plausibility_check",
+        "compare_result_to_benchmarks"
+      ],
+      "expected_effect": "improve answer plausibility monitoring",
+      "reverification_target": "transfer_with_estimate_and_check"
+    }
+  }
+}

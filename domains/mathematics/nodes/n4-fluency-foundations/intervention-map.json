@@ -1,0 +1,22 @@
+{
+  "node_id": "N4",
+  "version": "0.1",
+  "interventions": {
+    "N4-FM-01": [
+      "small_fact_family_rebuild",
+      "mixed_retrieval_with_immediate_feedback"
+    ],
+    "N4-FM-02": [
+      "recount_vs_efficient_strategy_contrast",
+      "pre_solve_strategy_selection"
+    ],
+    "N4-FM-03": [
+      "deliberate_small_scale_interleaving",
+      "strategy_label_before_solve"
+    ],
+    "N4-FM-04": [
+      "strategy_sentence_frames",
+      "dual_strategy_comparison"
+    ]
+  }
+}

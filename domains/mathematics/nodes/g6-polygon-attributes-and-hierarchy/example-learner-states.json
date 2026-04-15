@@ -1,0 +1,30 @@
+[
+  {
+    "student_id": "example-secure",
+    "node": "G6",
+    "status": "secure",
+    "direct_accuracy": 0.93,
+    "explanation_status": "meets",
+    "transfer_status": "meets",
+    "retention_status": "meets",
+    "dominant_failure_modes": [],
+    "recommended_interventions": []
+  },
+  {
+    "student_id": "example-blocked",
+    "node": "G6",
+    "status": "blocked",
+    "direct_accuracy": 0.61,
+    "explanation_status": "weak",
+    "transfer_status": "failed",
+    "retention_status": "not_met",
+    "dominant_failure_modes": [
+      "nondefining_attribute_bias",
+      "attribute_omission"
+    ],
+    "recommended_interventions": [
+      "attribute contrast sorts with rotated and resized examples",
+      "teacher think-aloud separating defining and non-defining features"
+    ]
+  }
+]

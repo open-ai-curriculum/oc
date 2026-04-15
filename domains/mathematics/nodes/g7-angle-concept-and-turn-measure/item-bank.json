@@ -1,0 +1,37 @@
+{
+  "node_id": "G7",
+  "items": [
+    {
+      "item_id": "G7-A1",
+      "item_family": "direct",
+      "prompt": "identifies an angle as the amount of turn between two rays or directions",
+      "expected_evidence": "show quarter-turn, half-turn, and full-turn actions and match them to diagrams",
+      "dominant_failure_mode": "ray_length_bias",
+      "scoring_guidance": "Meets when the learner completes the task accurately and justifies the choice."
+    },
+    {
+      "item_id": "G7-B1",
+      "item_family": "explanation",
+      "prompt": "compares angles as larger, smaller, or equal based on turn size rather than side length",
+      "expected_evidence": "compare two angles by amount of turn even when side lengths differ",
+      "dominant_failure_mode": "turn_direction_confusion",
+      "scoring_guidance": "Meets when the learner explains the reasoning using correct geometric language or supported demonstration."
+    },
+    {
+      "item_id": "G7-C1",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer error aligned to benchmark_turn_instability.",
+      "expected_evidence": "use spatial language to describe clockwise and counterclockwise turning situations",
+      "dominant_failure_mode": "benchmark_turn_instability",
+      "scoring_guidance": "Meets when the learner identifies the mistaken rule and states the correct reasoning."
+    },
+    {
+      "item_id": "G7-D1",
+      "item_family": "transfer",
+      "prompt": "succeeds across body movement, clock-like turns, and drawn angle comparisons",
+      "expected_evidence": "connect angle size to changes in direction in familiar contexts",
+      "dominant_failure_mode": "static_shape_only_reasoning",
+      "scoring_guidance": "Meets when the learner succeeds in a less-familiar context without loss of concept integrity."
+    }
+  ]
+}

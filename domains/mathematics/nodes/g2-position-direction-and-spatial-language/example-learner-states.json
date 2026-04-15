@@ -1,0 +1,16 @@
+{
+  "node_id": "G2",
+  "examples": [
+    {
+      "student_id": "example-g2-001",
+      "node": "G2",
+      "status": "blocked",
+      "direct_accuracy": 0.57,
+      "meaning_status": "weak",
+      "transfer_status": "failed",
+      "retention_status": "not_met",
+      "dominant_failure_modes": ["G2-FM-02", "G2-FM-04"],
+      "recommended_interventions": ["body_anchored_left_right_transition", "physical_to_picture_representation_cycle"]
+    }
+  ]
+}

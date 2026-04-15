@@ -1,0 +1,29 @@
+{
+  "node_id": "M10",
+  "items": [
+    {
+      "item_id": "m10-a1",
+      "item_family": "direct_execution",
+      "prompt": "Representative direct task for clock time and elapsed intervals.",
+      "expected_evidence": [
+        "Learner uses the intended structure, not only an answer-getting shortcut."
+      ],
+      "dominant_failure_mode_targets": [
+        "hour_minute_role_confusion"
+      ],
+      "context": "analog clocks"
+    },
+    {
+      "item_id": "m10-b1",
+      "item_family": "explanation",
+      "prompt": "Explain why the chosen structure fits the situation.",
+      "expected_evidence": [
+        "Learner names the structural relationship correctly."
+      ],
+      "dominant_failure_mode_targets": [
+        "clock_label_interval_blend"
+      ],
+      "context": "digital clocks"
+    }
+  ]
+}

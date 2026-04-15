@@ -1,0 +1,37 @@
+{
+  "node_id": "A2",
+  "interventions": [
+    {
+      "failure_mode": "distributive_structure_breakdown",
+      "strategies": [
+        "area-model expansion and compression routines",
+        "annotate each factor and distributed product before rewriting",
+        "equivalence checks with substitution after each rewrite"
+      ]
+    },
+    {
+      "failure_mode": "like_term_identity_confusion",
+      "strategies": [
+        "sort term cards into like and unlike families before combining",
+        "use unit-language rehearsal such as \"x plus x makes 2x, but x plus x-squared does not\"",
+        "coefficient-and-variable decomposition routines"
+      ]
+    },
+    {
+      "failure_mode": "factor_structure_blindness",
+      "strategies": [
+        "identify common factors in grouped-quantity or array contexts first",
+        "reverse-distribution tasks from expanded to factored form",
+        "compare multiple equivalent forms and highlight shared structure"
+      ]
+    },
+    {
+      "failure_mode": "structure_model_disconnect",
+      "strategies": [
+        "match symbolic expressions to area or rectangle models",
+        "rebuild symbolic rewrites from partitioned diagrams",
+        "teacher compare-and-connect routines across symbolic and model-based forms"
+      ]
+    }
+  ]
+}

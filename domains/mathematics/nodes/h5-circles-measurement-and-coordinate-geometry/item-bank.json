@@ -1,0 +1,37 @@
+{
+  "node_id": "H5",
+  "items": [
+    {
+      "item_id": "H5-A1",
+      "item_family": "direct",
+      "prompt": "computes and uses circle measures and coordinate-geometry quantities to solve bounded problems",
+      "expected_evidence": "solve bounded circle or coordinate-geometry problems with reasonableness checks",
+      "dominant_failure_mode": "formula_structure_fragmentation",
+      "scoring_guidance": "Meets when the learner selects and applies the correct measure or coordinate relationship with coherent geometric meaning."
+    },
+    {
+      "item_id": "H5-B1",
+      "item_family": "explanation",
+      "prompt": "explains how arc, angle, radius, and coordinate relationships govern bounded circle and coordinate-geometry situations",
+      "expected_evidence": "justify central-angle and inscribed-angle relationships in bounded diagrams",
+      "dominant_failure_mode": "arc_angle_meaning_gap",
+      "scoring_guidance": "Meets when the learner explains circle and coordinate relationships as connected geometric structure, not isolated formulas."
+    },
+    {
+      "item_id": "H5-C1",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer error aligned to coordinate_measure_substitution_error.",
+      "expected_evidence": "compute midpoint and distance and interpret simple circle-coordinate relationships",
+      "dominant_failure_mode": "coordinate_measure_substitution_error",
+      "scoring_guidance": "Meets when the learner identifies where coordinate values were substituted or interpreted incorrectly."
+    },
+    {
+      "item_id": "H5-D1",
+      "item_family": "transfer",
+      "prompt": "applies circle or coordinate-geometry reasoning in a less-familiar geometric or contextual setting and checks reasonableness",
+      "expected_evidence": "explain and use circle measures including circumference, area, arc length, and sectors",
+      "dominant_failure_mode": "measurement_context_disconnect",
+      "scoring_guidance": "Meets when the learner preserves correct geometric structure and validates whether the result fits the situation."
+    }
+  ]
+}

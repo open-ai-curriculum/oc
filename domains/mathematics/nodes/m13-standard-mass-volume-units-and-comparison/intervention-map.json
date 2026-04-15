@@ -1,0 +1,14 @@
+{
+  "node_id": "M13",
+  "interventions": {
+    "number-plus-unit matching": [
+      "Require every measured value to stay paired with its unit."
+    ],
+    "plausible-unit sorts": [
+      "Sort object and container measures by plausible unit choice."
+    ],
+    "same-number-different-unit contrasts": [
+      "Compare equal numerals with different units to surface meaning differences."
+    ]
+  }
+}

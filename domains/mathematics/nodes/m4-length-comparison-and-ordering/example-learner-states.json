@@ -1,0 +1,16 @@
+{
+  "node_id": "M4",
+  "examples": [
+    {
+      "student_id": "example-m4-001",
+      "node": "M4",
+      "status": "blocked",
+      "direct_accuracy": 0.6,
+      "meaning_status": "weak",
+      "transfer_status": "failed",
+      "retention_status": "not_met",
+      "dominant_failure_modes": ["M4-FM-01", "M4-FM-03"],
+      "recommended_interventions": ["endpoint_alignment_routine", "target_attribute_naming_before_compare"]
+    }
+  ]
+}

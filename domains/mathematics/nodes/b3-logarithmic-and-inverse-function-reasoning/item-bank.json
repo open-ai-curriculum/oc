@@ -1,0 +1,37 @@
+{
+  "node_id": "B3",
+  "items": [
+    {
+      "item_id": "B3-A1",
+      "item_family": "direct",
+      "prompt": "solves bounded exponential and logarithmic equations and interprets inverse-function relationships across representations",
+      "expected_evidence": "solve bounded exponential and logarithmic equations while preserving inverse-function meaning",
+      "dominant_failure_mode": "inverse_log_equivalence_fragmentation",
+      "scoring_guidance": "Meets when the learner solves accurately while preserving the inverse relationship between exponential and logarithmic forms."
+    },
+    {
+      "item_id": "B3-B1",
+      "item_family": "explanation",
+      "prompt": "explains why logarithms invert exponentials and how that inverse structure appears in equations, graphs, and domain/range relationships",
+      "expected_evidence": "explain inverse relationships between exponential and logarithmic forms in bounded cases",
+      "dominant_failure_mode": "inverse_structure_opacity",
+      "scoring_guidance": "Meets when the learner explains logarithmic behavior as inverse-function structure rather than as isolated notation."
+    },
+    {
+      "item_id": "B3-C1",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer error aligned to log_rule_without_domain_check.",
+      "expected_evidence": "compare logarithmic and exponential graphs and identify reflected or inverse-linked structure",
+      "dominant_failure_mode": "log_rule_without_domain_check",
+      "scoring_guidance": "Meets when the learner identifies where a logarithmic manipulation ignored inverse structure or domain restrictions."
+    },
+    {
+      "item_id": "B3-D1",
+      "item_family": "transfer",
+      "prompt": "interprets a less-familiar logarithmic or inverse-function context and selects the representation that reveals the needed meaning",
+      "expected_evidence": "interpret logarithmic quantities or scales with coherent algebraic and contextual meaning",
+      "dominant_failure_mode": "context_inverse_disconnect",
+      "scoring_guidance": "Meets when the learner preserves inverse-function meaning across representation and context."
+    }
+  ]
+}

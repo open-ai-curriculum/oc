@@ -1,0 +1,10 @@
+{
+  "node_id": "D3",
+  "version": "0.1",
+  "interventions": {
+    "D3-FM-01": ["point_and_count_display_marks", "single_display_type_before_mix"],
+    "D3-FM-02": ["trace_label_to_marks", "cover_unrelated_categories"],
+    "D3-FM-03": ["build_then_read_display", "what_does_each_mark_stand_for_prompt"],
+    "D3-FM-04": ["highlight_question_word_first", "map_question_type_to_display_action"]
+  }
+}

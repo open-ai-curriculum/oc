@@ -1,0 +1,37 @@
+{
+  "node_id": "G6",
+  "items": [
+    {
+      "item_id": "G6-A1",
+      "item_family": "direct",
+      "prompt": "identifies defining attributes of common polygons including side count, equal sides, and right angles where appropriate",
+      "expected_evidence": "name and sort triangles, quadrilaterals, pentagons, hexagons, and other familiar polygons by visible attributes",
+      "dominant_failure_mode": "nondefining_attribute_bias",
+      "scoring_guidance": "Meets when the learner completes the task accurately and justifies the choice."
+    },
+    {
+      "item_id": "G6-B1",
+      "item_family": "explanation",
+      "prompt": "sorts and classifies polygons into named categories using stated attribute rules",
+      "expected_evidence": "distinguish defining attributes from non-defining features such as orientation or size",
+      "dominant_failure_mode": "attribute_omission",
+      "scoring_guidance": "Meets when the learner explains the reasoning using correct geometric language or supported demonstration."
+    },
+    {
+      "item_id": "G6-C1",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer error aligned to hierarchy_reversal.",
+      "expected_evidence": "justify category membership using explicit geometric language",
+      "dominant_failure_mode": "hierarchy_reversal",
+      "scoring_guidance": "Meets when the learner identifies the mistaken rule and states the correct reasoning."
+    },
+    {
+      "item_id": "G6-D1",
+      "item_family": "transfer",
+      "prompt": "succeeds across drawings, sort tasks, and compare/classify prompts",
+      "expected_evidence": "reason about subclass relationships inside polygon families",
+      "dominant_failure_mode": "vocabulary_label_confusion",
+      "scoring_guidance": "Meets when the learner succeeds in a less-familiar context without loss of concept integrity."
+    }
+  ]
+}

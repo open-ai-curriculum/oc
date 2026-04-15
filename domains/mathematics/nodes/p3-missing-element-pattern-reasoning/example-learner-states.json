@@ -1,0 +1,16 @@
+{
+  "node_id": "P3",
+  "examples": [
+    {
+      "student_id": "example-p3-001",
+      "node": "P3",
+      "status": "blocked",
+      "direct_accuracy": 0.55,
+      "meaning_status": "weak",
+      "transfer_status": "failed",
+      "retention_status": "not_met",
+      "dominant_failure_modes": ["P3-FM-03", "P3-FM-04"],
+      "recommended_interventions": ["check_answer_against_full_pattern", "missing_pattern_sentence_frames"]
+    }
+  ]
+}

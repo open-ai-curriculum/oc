@@ -1,0 +1,29 @@
+{
+  "node_id": "X3",
+  "items": [
+    {
+      "item_id": "x3-a1",
+      "item_family": "direct_execution",
+      "prompt": "Representative direct task for compare and order decimals.",
+      "expected_evidence": [
+        "Learner uses the intended structure, not only an answer-getting shortcut."
+      ],
+      "dominant_failure_mode_targets": [
+        "longer_decimal_means_larger"
+      ],
+      "context": "decimal lists"
+    },
+    {
+      "item_id": "x3-b1",
+      "item_family": "explanation",
+      "prompt": "Explain why the chosen structure fits the situation.",
+      "expected_evidence": [
+        "Learner names the structural relationship correctly."
+      ],
+      "dominant_failure_mode_targets": [
+        "digit_by_digit_whole_number_bias"
+      ],
+      "context": "benchmark cards"
+    }
+  ]
+}

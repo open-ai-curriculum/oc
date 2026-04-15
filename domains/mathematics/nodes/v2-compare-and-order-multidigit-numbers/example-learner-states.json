@@ -1,0 +1,22 @@
+{
+  "node_id": "V2",
+  "examples": [
+    {
+      "student_id": "example-v2-001",
+      "node": "V2",
+      "status": "blocked",
+      "direct_accuracy": 0.55,
+      "meaning_status": "weak",
+      "transfer_status": "failed",
+      "retention_status": "not_met",
+      "dominant_failure_modes": [
+        "V2-FM-01",
+        "V2-FM-02"
+      ],
+      "recommended_interventions": [
+        "address_place_first_comparison_weakness",
+        "practice_v2_place_first_comparison_weakness"
+      ]
+    }
+  ]
+}

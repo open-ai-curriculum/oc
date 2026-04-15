@@ -1,0 +1,31 @@
+{
+  "node_id": "S2",
+  "examples": [
+    {
+      "student_id": "demo-secure",
+      "node": "S2",
+      "status": "mastered",
+      "direct_accuracy": 0.9,
+      "explanation_status": "secure",
+      "transfer_status": "secure",
+      "retention_status": "met",
+      "dominant_failure_modes": [],
+      "recommended_interventions": []
+    },
+    {
+      "student_id": "demo-blocked",
+      "node": "S2",
+      "status": "blocked",
+      "direct_accuracy": 0.62,
+      "explanation_status": "weak",
+      "transfer_status": "failed",
+      "retention_status": "not_met",
+      "dominant_failure_modes": [
+        "sign_rule_instability"
+      ],
+      "recommended_interventions": [
+        "operation-family contrasts"
+      ]
+    }
+  ]
+}

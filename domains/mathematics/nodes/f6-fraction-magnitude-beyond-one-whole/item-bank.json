@@ -1,0 +1,37 @@
+{
+  "node_id": "F6",
+  "items": [
+    {
+      "item_id": "F6-A1",
+      "item_family": "direct",
+      "prompt": "interprets improper fractions as quantities that may exceed one whole",
+      "expected_evidence": "explain why 5/4 represents one whole and one fourth more",
+      "dominant_failure_mode": "whole_number_override",
+      "scoring_guidance": "Meets when the learner completes the direct task accurately."
+    },
+    {
+      "item_id": "F6-B1",
+      "item_family": "explanation",
+      "prompt": "connects mixed numbers and improper fractions in bounded equivalent cases",
+      "expected_evidence": "match bounded mixed numbers and improper fractions that describe the same quantity",
+      "dominant_failure_mode": "mixed_improper_disconnect",
+      "scoring_guidance": "Meets when the learner explains the concept coherently."
+    },
+    {
+      "item_id": "F6-C1",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer error aligned to one_whole_boundary_confusion.",
+      "expected_evidence": "compare simple magnitudes greater than one whole without reverting to whole-number-only logic",
+      "dominant_failure_mode": "one_whole_boundary_confusion",
+      "scoring_guidance": "Meets when the learner identifies the source of the error and states the correct reasoning."
+    },
+    {
+      "item_id": "F6-D1",
+      "item_family": "transfer",
+      "prompt": "succeeds across visual models, symbolic forms, and early number-line situations",
+      "expected_evidence": "use whole-and-part composition language for fraction quantities beyond one",
+      "dominant_failure_mode": "comparison_reset_error",
+      "scoring_guidance": "Meets when the learner succeeds in a less-familiar context."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "node_id": "U5",
+  "version": "0.1",
+  "interventions": {
+    "U5-FM-01": ["equal_group_sort_with_explanation", "rebuild_groups_to_match_size"],
+    "U5-FM-02": ["replicate_one_group_routine", "physically_separated_equal_groups"],
+    "U5-FM-03": ["same_group_count_different_size_contrast", "name_group_count_and_size"],
+    "U5-FM-04": ["group_to_expression_bidirectional_mapping", "groups_of_sentence_frames"]
+  }
+}

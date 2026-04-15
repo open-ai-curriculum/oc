@@ -1,0 +1,16 @@
+{
+  "node_id": "G3",
+  "examples": [
+    {
+      "student_id": "example-g3-001",
+      "node": "G3",
+      "status": "blocked",
+      "direct_accuracy": 0.55,
+      "meaning_status": "weak",
+      "transfer_status": "failed",
+      "retention_status": "not_met",
+      "dominant_failure_modes": ["G3-FM-02", "G3-FM-03"],
+      "recommended_interventions": ["draw_cut_lines_and_name_parts", "rotate_piece_name_constant"]
+    }
+  ]
+}

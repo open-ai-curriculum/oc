@@ -1,0 +1,29 @@
+{
+  "node_id": "T7",
+  "items": [
+    {
+      "item_id": "t7-a1",
+      "item_family": "direct_execution",
+      "prompt": "Representative direct task for multidigit division and remainder interpretation.",
+      "expected_evidence": [
+        "Learner uses the intended structure, not only an answer-getting shortcut."
+      ],
+      "dominant_failure_mode_targets": [
+        "quotient_remainder_role_confusion"
+      ],
+      "context": "partial quotients"
+    },
+    {
+      "item_id": "t7-b1",
+      "item_family": "explanation",
+      "prompt": "Explain why the chosen structure fits the situation.",
+      "expected_evidence": [
+        "Learner names the structural relationship correctly."
+      ],
+      "dominant_failure_mode_targets": [
+        "partial_quotient_disconnect"
+      ],
+      "context": "grouping stories"
+    }
+  ]
+}

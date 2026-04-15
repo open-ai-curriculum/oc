@@ -1,0 +1,14 @@
+{
+  "node_id": "Y1",
+  "interventions": {
+    "neighbor-benchmark placement": [
+      "Place exact numbers between adjacent benchmarks before rounding."
+    ],
+    "benchmark-choice contrasts": [
+      "Compare multiple plausible benchmark levels and justify the best fit for the task."
+    ],
+    "number-line approximation routines": [
+      "Use bounded lines to show why a rounded value is near the original number."
+    ]
+  }
+}

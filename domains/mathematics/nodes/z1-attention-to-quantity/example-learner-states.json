@@ -1,0 +1,38 @@
+{
+  "node_id": "Z1",
+  "examples": [
+    {
+      "learner_id": "sample-z1-blocked-01",
+      "node_id": "Z1",
+      "status": "blocked",
+      "dependency_status": {},
+      "direct_accuracy": 0.5,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["Z1-FM-01", "Z1-FM-02"],
+      "recommended_interventions": [
+        "contrast one-object and many-object trays",
+        "use hide-add-reveal and hide-remove-reveal routines"
+      ],
+      "last_verified_at": "2026-04-14",
+      "review_state": "draft",
+      "notes": "Notices some sets but does not consistently register quantity change."
+    },
+    {
+      "learner_id": "sample-z1-secure-01",
+      "node_id": "Z1",
+      "status": "secure",
+      "dependency_status": {},
+      "direct_accuracy": 0.95,
+      "explanation_status": "met",
+      "transfer_status": "met",
+      "retention_status": "met",
+      "dominant_failure_modes": [],
+      "recommended_interventions": [],
+      "last_verified_at": "2026-04-14",
+      "review_state": "draft",
+      "notes": "Notices broad quantity states and changes across concrete and visual contexts."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "student_id": "example-secure",
+    "node": "K4",
+    "status": "secure",
+    "direct_accuracy": 0.9,
+    "explanation_status": "meets",
+    "transfer_status": "meets",
+    "retention_status": "meets",
+    "dominant_failure_modes": [],
+    "recommended_interventions": []
+  },
+  {
+    "student_id": "example-blocked",
+    "node": "K4",
+    "status": "blocked",
+    "direct_accuracy": 0.57,
+    "explanation_status": "weak",
+    "transfer_status": "failed",
+    "retention_status": "not_met",
+    "dominant_failure_modes": [
+      "pair_equation_mismatch",
+      "substitution_pair_breakdown"
+    ],
+    "recommended_interventions": [
+      "generate several ordered pairs from one equation and test them explicitly",
+      "use ordered-pair substitution routines with variable positions highlighted"
+    ]
+  }
+]

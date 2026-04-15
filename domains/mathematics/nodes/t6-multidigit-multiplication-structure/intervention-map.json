@@ -1,0 +1,14 @@
+{
+  "node_id": "T6",
+  "interventions": {
+    "expanded-form multiplication routines": [
+      "Decompose each factor and compute explicit partial products before compression."
+    ],
+    "area-to-symbol translation": [
+      "Translate repeatedly between rectangular models and symbolic multiplication."
+    ],
+    "place-value labeling of subproducts": [
+      "Label each partial product by its unit value before recombining."
+    ]
+  }
+}

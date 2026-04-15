@@ -1,0 +1,42 @@
+{
+  "node_id": "R2",
+  "examples": [
+    {
+      "learner_id": "sample-r2-blocked-01",
+      "node_id": "R2",
+      "status": "blocked",
+      "dependency_status": {
+        "R1": "secure"
+      },
+      "direct_accuracy": 0.58,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["R2-FM-03"],
+      "recommended_interventions": [
+        "compare the same whole partitioned into different counts",
+        "overlay one-half, one-third, and one-fourth models"
+      ],
+      "last_verified_at": "2026-04-14",
+      "review_state": "draft",
+      "notes": "Interprets larger partition count as larger one-part size."
+    },
+    {
+      "learner_id": "sample-r2-secure-01",
+      "node_id": "R2",
+      "status": "secure",
+      "dependency_status": {
+        "R1": "secure"
+      },
+      "direct_accuracy": 0.94,
+      "explanation_status": "met",
+      "transfer_status": "met",
+      "retention_status": "met",
+      "dominant_failure_modes": [],
+      "recommended_interventions": [],
+      "last_verified_at": "2026-04-14",
+      "review_state": "draft",
+      "notes": "Uses one-equal-part language consistently across area and sharing contexts."
+    }
+  ]
+}

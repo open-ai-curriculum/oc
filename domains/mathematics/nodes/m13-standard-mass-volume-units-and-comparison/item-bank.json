@@ -1,0 +1,29 @@
+{
+  "node_id": "M13",
+  "items": [
+    {
+      "item_id": "m13-a1",
+      "item_family": "direct_execution",
+      "prompt": "Representative direct task for standard mass/volume units and comparison.",
+      "expected_evidence": [
+        "Learner uses the intended structure, not only an answer-getting shortcut."
+      ],
+      "dominant_failure_mode_targets": [
+        "unit_label_drop"
+      ],
+      "context": "measurement statements"
+    },
+    {
+      "item_id": "m13-b1",
+      "item_family": "explanation",
+      "prompt": "Explain why the chosen structure fits the situation.",
+      "expected_evidence": [
+        "Learner names the structural relationship correctly."
+      ],
+      "dominant_failure_mode_targets": [
+        "cross_unit_false_equivalence"
+      ],
+      "context": "objects and containers"
+    }
+  ]
+}

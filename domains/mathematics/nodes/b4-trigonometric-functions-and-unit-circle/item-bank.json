@@ -1,0 +1,37 @@
+{
+  "node_id": "B4",
+  "items": [
+    {
+      "item_id": "B4-A1",
+      "item_family": "direct",
+      "prompt": "interprets unit-circle values and graphs bounded trigonometric functions using structural periodic reasoning",
+      "expected_evidence": "graph and interpret bounded sine, cosine, and tangent behavior using structural features",
+      "dominant_failure_mode": "angle_coordinate_period_fragmentation",
+      "scoring_guidance": "Meets when the learner preserves unit-circle, coordinate, and periodic structure while solving or graphing."
+    },
+    {
+      "item_id": "B4-B1",
+      "item_family": "explanation",
+      "prompt": "explains how movement around the unit circle generates trigonometric values and periodic graph behavior",
+      "expected_evidence": "connect periodic graph behavior to angle movement around the unit circle",
+      "dominant_failure_mode": "unit_circle_period_opacity",
+      "scoring_guidance": "Meets when the learner explains trigonometric behavior as structured angle-coordinate-function reasoning rather than as memorized value tables."
+    },
+    {
+      "item_id": "B4-C1",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer error aligned to quadrant_sign_misread.",
+      "expected_evidence": "identify and explain unit-circle coordinates and corresponding trigonometric values in bounded angle sets",
+      "dominant_failure_mode": "quadrant_sign_misread",
+      "scoring_guidance": "Meets when the learner identifies where quadrant position or coordinate sign structure was ignored."
+    },
+    {
+      "item_id": "B4-D1",
+      "item_family": "transfer",
+      "prompt": "interprets a less-familiar trigonometric-function context and selects the representation that reveals the needed periodic or angular meaning",
+      "expected_evidence": "solve bounded trigonometric-function questions while preserving periodic and coordinate meaning",
+      "dominant_failure_mode": "triangle_unit_circle_disconnect",
+      "scoring_guidance": "Meets when the learner preserves coherent trigonometric-function meaning across right-triangle, unit-circle, and graph contexts."
+    }
+  ]
+}

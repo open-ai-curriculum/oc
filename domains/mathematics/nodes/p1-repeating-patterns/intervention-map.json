@@ -1,0 +1,10 @@
+{
+  "node_id": "P1",
+  "version": "0.1",
+  "interventions": {
+    "P1-FM-01": ["mark_one_full_cycle_first", "compare_candidate_repeating_units"],
+    "P1-FM-02": ["restart_from_identified_cycle", "two_step_extension_practice"],
+    "P1-FM-03": ["group_full_cycles_visually", "contrast_different_repeating_units"],
+    "P1-FM-04": ["repeating_rule_sentence_frames", "explain_before_extend"]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "node_id": "X2",
+  "items": [
+    {
+      "item_id": "x2-a1",
+      "item_family": "direct_execution",
+      "prompt": "Representative direct task for decimal place-value structure.",
+      "expected_evidence": [
+        "Learner uses the intended structure, not only an answer-getting shortcut."
+      ],
+      "dominant_failure_mode_targets": [
+        "whole_number_place_transfer_error"
+      ],
+      "context": "place-value charts"
+    },
+    {
+      "item_id": "x2-b1",
+      "item_family": "explanation",
+      "prompt": "Explain why the chosen structure fits the situation.",
+      "expected_evidence": [
+        "Learner names the structural relationship correctly."
+      ],
+      "dominant_failure_mode_targets": [
+        "tenths_hundredths_blur"
+      ],
+      "context": "expanded forms"
+    }
+  ]
+}

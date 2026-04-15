@@ -1,0 +1,37 @@
+{
+  "node_id": "AP5",
+  "items": [
+    {
+      "item_id": "AP5-A1",
+      "item_family": "direct",
+      "prompt": "interprets sequences, series, partial sums, and local polynomial approximations in bounded BC-calculus contexts",
+      "expected_evidence": "interpret sequences, series, and partial sums consistently across tables, formulas, graphs, and verbal descriptions",
+      "dominant_failure_mode": "sequence_series_process_blur",
+      "scoring_guidance": "Meets when the learner treats BC-level series and approximation evidence as coherent limiting behavior rather than as disconnected procedures."
+    },
+    {
+      "item_id": "AP5-B1",
+      "item_family": "explanation",
+      "prompt": "explains how convergence, divergence, and Taylor-style approximation arise from the structure of terms, partial sums, and local behavior",
+      "expected_evidence": "explain why convergence or divergence claims follow from the structure of terms and accumulated partial behavior",
+      "dominant_failure_mode": "convergence_reasoning_instability",
+      "scoring_guidance": "Meets when the learner explains BC-level convergence and approximation as coherent structure-driven reasoning."
+    },
+    {
+      "item_id": "AP5-C1",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer error aligned to taylor_local_model_breakdown.",
+      "expected_evidence": "connect Taylor polynomial approximations to local function behavior and error-sensitive reasoning",
+      "dominant_failure_mode": "taylor_local_model_breakdown",
+      "scoring_guidance": "Meets when the learner identifies where a polynomial approximation stopped matching the intended local behavior or error expectation."
+    },
+    {
+      "item_id": "AP5-D1",
+      "item_family": "transfer",
+      "prompt": "interprets a less-familiar BC-calculus context and identifies which convergence, approximation, or advanced-change evidence governs the claim",
+      "expected_evidence": "justify BC-level calculus claims in bounded modeling or analysis tasks using the correct convergence, approximation, or advanced-change evidence",
+      "dominant_failure_mode": "advanced_change_context_drift",
+      "scoring_guidance": "Meets when the learner preserves coherent BC-calculus reasoning in a varied context and names the evidence that actually controls the conclusion."
+    }
+  ]
+}

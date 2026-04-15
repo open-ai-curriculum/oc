@@ -1,0 +1,22 @@
+{
+  "node_id": "N3",
+  "version": "0.1",
+  "interventions": {
+    "N3-FM-01": [
+      "keep_first_number_in_head_rehearsal",
+      "count_on_vs_full_recount_comparison"
+    ],
+    "N3-FM-02": [
+      "physical_forward_backward_number_path",
+      "subtraction_backward_jump_language_support"
+    ],
+    "N3-FM-03": [
+      "one_count_word_per_move_support",
+      "reduced_step_sequence_stabilization"
+    ],
+    "N3-FM-04": [
+      "strategy_efficiency_comparison",
+      "explicit_why_this_start_point_prompting"
+    ]
+  }
+}

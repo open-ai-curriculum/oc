@@ -1,0 +1,10 @@
+{
+  "node_id": "G2",
+  "version": "0.1",
+  "interventions": {
+    "G2-FM-01": ["paired_opposite_term_rehearsal", "examples_vs_nonexamples_for_position_terms"],
+    "G2-FM-02": ["body_anchored_left_right_transition", "gesture_plus_language_pairing"],
+    "G2-FM-03": ["one_step_to_two_step_direction_build", "restate_before_action"],
+    "G2-FM-04": ["physical_to_picture_representation_cycle", "constant_term_set_across_contexts"]
+  }
+}

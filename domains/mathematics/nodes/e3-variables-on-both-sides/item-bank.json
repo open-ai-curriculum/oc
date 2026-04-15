@@ -1,0 +1,29 @@
+{
+  "node_id": "E3",
+  "items": [
+    {
+      "item_id": "e3-a1",
+      "item_family": "direct_execution",
+      "prompt": "Representative direct task for variables on both sides.",
+      "expected_evidence": [
+        "Learner uses the intended structure, not only an answer-getting shortcut."
+      ],
+      "dominant_failure_mode_targets": [
+        "variable_transfer_inconsistency"
+      ],
+      "context": "symbolic equations"
+    },
+    {
+      "item_id": "e3-b1",
+      "item_family": "explanation",
+      "prompt": "Explain why the chosen structure fits the situation.",
+      "expected_evidence": [
+        "Learner names the structural relationship correctly."
+      ],
+      "dominant_failure_mode_targets": [
+        "identity_contradiction_confusion"
+      ],
+      "context": "classification tasks"
+    }
+  ]
+}

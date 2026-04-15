@@ -1,0 +1,25 @@
+# Intervention Playbook
+
+## `sequence_series_process_blur`
+
+- compare term-by-term behavior, partial-sum behavior, and infinite-sum claims in matched examples
+- use routines that force learners to say whether they are tracking terms, accumulated sums, or limiting behavior
+- require learners to name the object under discussion before applying any BC-level procedure
+
+## `convergence_reasoning_instability`
+
+- compare convergent and divergent examples with similar surface features and require a structural explanation of the difference
+- use routines that tie convergence reasoning to behavior of terms and partial sums before naming a formal test or theorem
+- require learners to explain why the chosen convergence argument fits the structure of the series
+
+## `taylor_local_model_breakdown`
+
+- compare local polynomial approximations at different centers or distances from the center and discuss why accuracy changes
+- use routines that connect derivative information at a point to the resulting polynomial approximation
+- require learners to explain what local behavior is being preserved and where the approximation can break down
+
+## `advanced_change_context_drift`
+
+- compare BC-style contexts that look procedurally similar but rely on different governing ideas such as convergence, approximation, or advanced accumulation
+- use decision routines that ask what the claim is actually about before selecting a theorem or procedure
+- require learners to justify the governing structure before carrying out advanced symbolic work

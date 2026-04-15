@@ -1,0 +1,40 @@
+id: P2
+name: growing_patterns
+domain: mathematics
+support_tier: Core release
+maturity_state: Drafted
+supported_profiles:
+- upstream-readiness-node-package
+evidence_class: Synthetic
+dependencies:
+- P1
+mastery:
+  direct_accuracy_threshold: 0.9
+  explanation_required: true
+  transfer_required: true
+  retention_check_days: 14
+statuses:
+- blocked
+- emerging
+- provisional
+- secure
+- unstable
+verification_gates:
+- id: G1
+  type: direct_performance
+  pass_rule: '>= 0.90 accuracy across growing-pattern identification and extension
+    tasks'
+- id: G2
+  type: meaning
+  pass_rule: correct explanation of the growth rule in at least 2 of 3 prompts
+- id: G3
+  type: transfer
+  pass_rule: successful growing-pattern reasoning in at least one changed representation
+- id: G4
+  type: retention
+  pass_rule: '>= 0.85 delayed recheck accuracy after ~14 days'
+failure_modes:
+- P2-FM-01
+- P2-FM-02
+- P2-FM-03
+- P2-FM-04

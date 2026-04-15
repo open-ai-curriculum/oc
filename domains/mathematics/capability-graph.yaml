@@ -1,0 +1,355 @@
+domain: mathematics
+version: 0.2
+note: local downstream segment now anchored to direct readiness predecessors defined in zero-state-to-f1-spine.yaml
+
+constitution:
+  - mastery_requires_demonstration
+  - dependency_integrity_required
+  - conceptual_and_procedural_dual_requirement
+  - failures_must_be_classified
+  - continuous_local_verification
+  - intervention_must_match_failure_mode
+  - retention_required
+  - transfer_required
+
+nodes:
+  - id: C1
+    name: stable_counting_sequence
+    depends_on: [Z2]
+    mastery:
+      direct_accuracy: 0.90
+      explanation_required: true
+      transfer_required: true
+      retention_check_days: 14
+    failure_modes:
+      - sequence_skip_or_substitution
+      - order_instability
+      - restart_dependence
+      - sequence_without_meaning
+
+  - id: U1
+    name: equal_groups
+    depends_on: [C3]
+    mastery:
+      direct_accuracy: 0.90
+      explanation_required: true
+      transfer_required: true
+      retention_check_days: 14
+    failure_modes:
+      - same_group_count_confusion
+      - group_size_drift
+      - production_instability
+      - context_boundary
+
+  - id: C4
+    name: compare_small_quantities
+    depends_on: [C3]
+    mastery:
+      direct_accuracy: 0.90
+      explanation_required: true
+      transfer_required: true
+      retention_check_days: 14
+    failure_modes:
+      - comparison_without_stable_count_basis
+      - more_less_reversal
+      - spread_out_means_more
+      - context_boundary
+
+  - id: C2
+    name: one_to_one_correspondence
+    depends_on: [C1]
+    mastery:
+      direct_accuracy: 0.90
+      explanation_required: true
+      transfer_required: true
+      retention_check_days: 14
+    failure_modes:
+      - skip_or_double_count
+      - count_tracking_instability
+      - layout_sensitivity
+      - procedure_without_meaning
+
+  - id: U2
+    name: repeated_unit_reasoning
+    depends_on: [U1]
+    mastery:
+      direct_accuracy: 0.90
+      explanation_required: true
+      transfer_required: true
+      retention_check_days: 14
+    failure_modes:
+      - unit_identity_drift
+      - unequal_group_acceptance
+      - group_as_collection_only
+      - context_boundary
+
+  - id: M1
+    name: measurable_attributes
+    depends_on: [C4]
+    mastery:
+      direct_accuracy: 0.90
+      explanation_required: true
+      transfer_required: true
+      retention_check_days: 14
+    failure_modes:
+      - attribute_identification_drift
+      - comparison_without_attribute_anchor
+      - single_cue_overgeneralization
+      - context_boundary
+
+  - id: C3
+    name: cardinality
+    depends_on: [C2]
+    mastery:
+      direct_accuracy: 0.90
+      explanation_required: true
+      transfer_required: true
+      retention_check_days: 14
+    failure_modes:
+      - count_to_answer_disconnect
+      - endless_recounting
+      - rearrangement_quantity_drift
+      - context_boundary
+
+  - id: U3
+    name: sharing_and_fair_partitioning
+    depends_on: [U2]
+    mastery:
+      direct_accuracy: 0.90
+      explanation_required: true
+      transfer_required: true
+      retention_check_days: 14
+    failure_modes:
+      - fairness_quantity_drift
+      - count_only_fairness
+      - distribution_instability
+      - whole_and_set_disconnect
+
+  - id: M2
+    name: iterated_units
+    depends_on: [M1]
+    mastery:
+      direct_accuracy: 0.90
+      explanation_required: true
+      transfer_required: true
+      retention_check_days: 14
+    failure_modes:
+      - unit_inconsistency
+      - gap_or_overlap_measurement
+      - surface_only_measurement
+      - context_bound_iteration
+
+  - id: F1
+    name: fraction_structure
+    depends_on: [R1, R2, R3]
+    mastery:
+      direct_accuracy: 0.90
+      explanation_required: true
+      transfer_required: true
+      retention_check_days: 14
+    failure_modes:
+      - whole_number_separation
+      - denominator_size_inversion
+      - symbolic_visual_disconnect
+
+  - id: R1
+    name: part_whole_reasoning_with_equal_parts
+    depends_on: [N1, U4, M3]
+    mastery:
+      direct_accuracy: 0.90
+      explanation_required: true
+      transfer_required: true
+      retention_check_days: 14
+    failure_modes:
+      - equality_blindness
+      - whole_reference_drift
+      - part_as_object
+      - unit_size_blindness
+
+  - id: N1
+    name: compose_and_decompose_small_numbers
+    depends_on: [C3]
+    mastery:
+      direct_accuracy: 0.90
+      explanation_required: true
+      transfer_required: true
+      retention_check_days: 14
+    failure_modes:
+      - whole_part_instability
+      - single_decomposition_lock
+      - counting_drift
+      - rearrangement_misunderstanding
+
+  - id: U4
+    name: equal_partitioning_of_a_whole
+    depends_on: [U3]
+    mastery:
+      direct_accuracy: 0.90
+      explanation_required: true
+      transfer_required: true
+      retention_check_days: 14
+    failure_modes:
+      - equality_blindness
+      - count_only_partition_logic
+      - production_instability
+      - fairness_without_geometry
+
+  - id: M3
+    name: unit_size_matters
+    depends_on: [M2]
+    mastery:
+      direct_accuracy: 0.90
+      explanation_required: true
+      transfer_required: true
+      retention_check_days: 14
+    failure_modes:
+      - unit_count_without_unit_meaning
+      - more_number_means_more_quantity
+      - partition_count_reversal
+      - context_bound_reasoning
+
+  - id: R2
+    name: unit_fraction_readiness
+    depends_on: [R1]
+    mastery:
+      direct_accuracy: 0.90
+      explanation_required: true
+      transfer_required: true
+      retention_check_days: 14
+    failure_modes:
+      - part_selection_drift
+      - whole_count_substitution
+      - denominator_magnitude_reversal
+      - fair_share_without_unit_meaning
+
+  - id: R3
+    name: symbol_preparation
+    depends_on: [R2]
+    mastery:
+      direct_accuracy: 0.90
+      explanation_required: true
+      transfer_required: true
+      retention_check_days: 14
+    failure_modes:
+      - symbol_position_swap
+      - role_collapse
+      - oral_symbol_disconnect
+      - symbol_without_quantity
+
+  - id: F2
+    name: equivalent_fractions
+    depends_on: [F1]
+    mastery:
+      direct_accuracy: 0.90
+      explanation_required: true
+      transfer_required: true
+      retention_check_days: 14
+    failure_modes:
+      - additive_distortion
+      - pattern_without_meaning
+      - unjustified_equivalence
+
+  - id: F3
+    name: compare_fractions
+    depends_on: [F1, F2]
+    mastery:
+      direct_accuracy: 0.90
+      explanation_required: true
+      transfer_required: true
+      retention_check_days: 14
+    failure_modes:
+      - whole_number_bias
+      - denominator_magnitude_error
+      - strategy_fragility
+
+  - id: F4
+    name: add_subtract_like_denominator_fractions
+    depends_on: [F1, F3]
+    mastery:
+      direct_accuracy: 0.90
+      explanation_required: true
+      transfer_required: true
+      retention_check_days: 14
+    failure_modes:
+      - adds_denominators
+      - improper_fraction_confusion
+      - procedure_without_quantity
+
+  - id: F5
+    name: add_subtract_unlike_denominator_fractions
+    depends_on: [F2, F3, F4]
+    mastery:
+      direct_accuracy: 0.90
+      explanation_required: true
+      transfer_required: true
+      retention_check_days: 21
+    failure_modes:
+      - incorrect_common_denominator
+      - direct_addition_error
+      - equivalence_breakdown
+      - mixed_number_loss
+
+  - id: S1
+    name: signed_number_meaning
+    depends_on: [F3]
+    mastery:
+      direct_accuracy: 0.90
+      explanation_required: true
+      transfer_required: true
+      retention_check_days: 14
+    failure_modes:
+      - negative_as_decoration
+      - ordering_reversal
+      - subtraction_change_confusion
+
+  - id: S2
+    name: signed_number_operations
+    depends_on: [S1]
+    mastery:
+      direct_accuracy: 0.90
+      explanation_required: true
+      transfer_required: true
+      retention_check_days: 21
+    failure_modes:
+      - sign_rule_instability
+      - subtraction_rule_confusion
+      - inverse_operation_gap
+
+  - id: E1
+    name: one_step_equations
+    depends_on: [S2]
+    mastery:
+      direct_accuracy: 0.90
+      explanation_required: true
+      transfer_required: true
+      retention_check_days: 21
+    failure_modes:
+      - equality_preservation_failure
+      - inverse_logic_gap
+      - no_solution_check
+
+  - id: E2
+    name: multi_step_equations
+    depends_on: [E1]
+    mastery:
+      direct_accuracy: 0.88
+      explanation_required: true
+      transfer_required: true
+      retention_check_days: 21
+    failure_modes:
+      - order_sequence_break
+      - sign_loss_midstream
+      - transcription_drift
+
+  - id: E3
+    name: variables_both_sides
+    depends_on: [E2]
+    mastery:
+      direct_accuracy: 0.85
+      explanation_required: true
+      transfer_required: true
+      retention_check_days: 28
+    failure_modes:
+      - variable_transfer_inconsistency
+      - identity_contradiction_confusion
+      - structural_misclassification

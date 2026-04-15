@@ -1,0 +1,22 @@
+{
+  "node_id": "V1",
+  "version": "0.1",
+  "interventions": {
+    "V1-FM-01": [
+      "address_tens_ones_structure_weakness",
+      "practice_v1_tens_ones_structure_weakness"
+    ],
+    "V1-FM-02": [
+      "address_form_translation_drift",
+      "practice_v1_form_translation_drift"
+    ],
+    "V1-FM-03": [
+      "address_digit_only_interpretation",
+      "practice_v1_digit_only_interpretation"
+    ],
+    "V1-FM-04": [
+      "address_two_digit_quantity_instability",
+      "practice_v1_two_digit_quantity_instability"
+    ]
+  }
+}

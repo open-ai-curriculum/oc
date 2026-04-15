@@ -1,0 +1,10 @@
+{
+  "node_id": "M5",
+  "version": "0.1",
+  "interventions": {
+    "M5-FM-01": ["visible_three_object_chain_build", "restate_each_relation_before_conclusion"],
+    "M5-FM-02": ["transitive_sentence_frames", "conclusion_follows_from_evidence_contrast"],
+    "M5-FM-03": ["shared_benchmark_comparison_practice", "reference_object_diagram_support"],
+    "M5-FM-04": ["arrow_chain_visual_support", "gradual_visual_to_verbal_chain_shift"]
+  }
+}

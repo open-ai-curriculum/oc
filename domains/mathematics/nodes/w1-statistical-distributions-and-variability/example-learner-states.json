@@ -1,0 +1,30 @@
+[
+  {
+    "student_id": "example-secure",
+    "node": "W1",
+    "status": "secure",
+    "direct_accuracy": 0.88,
+    "explanation_status": "meets",
+    "transfer_status": "meets",
+    "retention_status": "meets",
+    "dominant_failure_modes": [],
+    "recommended_interventions": []
+  },
+  {
+    "student_id": "example-blocked",
+    "node": "W1",
+    "status": "blocked",
+    "direct_accuracy": 0.57,
+    "explanation_status": "weak",
+    "transfer_status": "failed",
+    "retention_status": "not_met",
+    "dominant_failure_modes": [
+      "summary_selection_fragmentation",
+      "outlier_summary_blindness"
+    ],
+    "recommended_interventions": [
+      "classify distributions before choosing mean, median, or spread summaries",
+      "calculate mean and median side by side and discuss which moved more and why"
+    ]
+  }
+]

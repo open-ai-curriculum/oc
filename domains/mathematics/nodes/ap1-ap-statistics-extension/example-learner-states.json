@@ -1,0 +1,30 @@
+[
+  {
+    "student_id": "example-secure",
+    "node": "AP1",
+    "status": "secure",
+    "direct_accuracy": 0.81,
+    "explanation_status": "meets",
+    "transfer_status": "meets",
+    "retention_status": "meets",
+    "dominant_failure_modes": [],
+    "recommended_interventions": []
+  },
+  {
+    "student_id": "example-blocked",
+    "node": "AP1",
+    "status": "blocked",
+    "direct_accuracy": 0.46,
+    "explanation_status": "weak",
+    "transfer_status": "failed",
+    "retention_status": "not_met",
+    "dominant_failure_modes": [
+      "evidence_chain_fragmentation",
+      "inferential_overreach_from_weak_design"
+    ],
+    "recommended_interventions": [
+      "map each statistical claim to the design, sample, variability, and probability facts that support it",
+      "compare strong experimental designs, random samples, convenience samples, and observational studies on the same question"
+    ]
+  }
+]

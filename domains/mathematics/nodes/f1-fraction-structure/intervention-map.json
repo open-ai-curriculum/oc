@@ -1,0 +1,24 @@
+{
+  "node_id": "F1",
+  "version": "0.1",
+  "failure_mode_interventions": {
+    "F1-FM-01": {
+      "name": "whole_number_separation",
+      "interventions": ["equal_part_models", "parts_of_size_sentence_frames"],
+      "expected_effect": "connect numerator and denominator to one quantity model",
+      "reverification_target": "direct_plus_explanation"
+    },
+    "F1-FM-02": {
+      "name": "denominator_size_inversion",
+      "interventions": ["same_whole_partition_comparisons", "smaller_parts_when_more_parts"],
+      "expected_effect": "stabilize denominator meaning",
+      "reverification_target": "comparison_transfer_item"
+    },
+    "F1-FM-03": {
+      "name": "symbolic_visual_disconnect",
+      "interventions": ["symbol_diagram_matching", "bidirectional_representation_mapping"],
+      "expected_effect": "connect symbolic and visual forms",
+      "reverification_target": "diagram_symbol_set"
+    }
+  }
+}

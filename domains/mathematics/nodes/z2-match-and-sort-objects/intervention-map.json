@@ -1,0 +1,26 @@
+{
+  "node_id": "Z2",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "Z2-FM-01": [
+      "name the rule before sorting",
+      "compare two possible sorting rules explicitly",
+      "keep the task to one attribute at a time"
+    ],
+    "Z2-FM-02": [
+      "highlight the target attribute visually",
+      "sort the same set twice under different named rules",
+      "ask what stays the same inside each group"
+    ],
+    "Z2-FM-03": [
+      "ask which item does not belong and why",
+      "compare correct and incorrect groups side by side",
+      "remove one mismatched item at a time"
+    ],
+    "Z2-FM-04": [
+      "move from concrete objects to picture cards with the same rule language",
+      "use parallel sorting tasks across materials",
+      "restate the rule in each context"
+    ]
+  }
+}

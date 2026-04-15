@@ -1,0 +1,37 @@
+{
+  "node_id": "W4",
+  "items": [
+    {
+      "item_id": "W4-A1",
+      "item_family": "direct",
+      "prompt": "computes simple and compound probabilities and uses organized models to solve bounded chance problems",
+      "expected_evidence": "compute and interpret probabilities for simple and compound events in bounded sample spaces",
+      "dominant_failure_mode": "sample_space_model_fragmentation",
+      "scoring_guidance": "Meets when the learner builds a correct event model and computes probabilities consistent with that structure."
+    },
+    {
+      "item_id": "W4-B1",
+      "item_family": "explanation",
+      "prompt": "explains how event structure, independence, and conditioning affect the probability of a compound event",
+      "expected_evidence": "explain independence, dependence, and introductory conditional probability in context",
+      "dominant_failure_mode": "independence_conditioning_opacity",
+      "scoring_guidance": "Meets when the learner explains why the probability rule fits the event structure, not just the final number."
+    },
+    {
+      "item_id": "W4-C1",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer error aligned to overlap_double_counting.",
+      "expected_evidence": "represent compound events with organized models such as tables, trees, or set diagrams",
+      "dominant_failure_mode": "overlap_double_counting",
+      "scoring_guidance": "Meets when the learner identifies where overlapping outcomes were counted incorrectly or events were modeled inconsistently."
+    },
+    {
+      "item_id": "W4-D1",
+      "item_family": "transfer",
+      "prompt": "compares experimental and theoretical probabilities in a less-familiar repeated-trials context and judges whether the variation is plausible",
+      "expected_evidence": "compare experimental results to theoretical models and explain variation without overreacting to short-run noise",
+      "dominant_failure_mode": "short_run_variation_overreaction",
+      "scoring_guidance": "Meets when the learner preserves model meaning while interpreting trial-to-trial variation realistically."
+    }
+  ]
+}

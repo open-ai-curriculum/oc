@@ -1,0 +1,20 @@
+[
+  {
+    "learner_id": "learner-f3-001",
+    "node_id": "F3",
+    "status": "blocked",
+    "dependency_status": {
+      "F1": "secure",
+      "F2": "secure"
+    },
+    "direct_accuracy": 0.61,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["F3-FM-01", "F3-FM-02"],
+    "recommended_interventions": ["same_whole_visual_comparisons", "same_numerator_drawings"],
+    "last_verified_at": "2026-04-14",
+    "review_state": "draft",
+    "notes": "Still compares denominators as whole numbers."
+  }
+]

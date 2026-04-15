@@ -1,0 +1,37 @@
+{
+  "node_id": "Q3",
+  "items": [
+    {
+      "item_id": "Q3-A1",
+      "item_family": "direct",
+      "prompt": "recognizes when two quantities are in a proportional relationship and when they are not",
+      "expected_evidence": "identify whether paired quantities scale proportionally in bounded cases",
+      "dominant_failure_mode": "additive_pattern_misclassification",
+      "scoring_guidance": "Meets when the learner classifies proportional structure correctly."
+    },
+    {
+      "item_id": "Q3-B1",
+      "item_family": "explanation",
+      "prompt": "explains invariant multiplicative structure rather than relying on repeated additive change",
+      "expected_evidence": "justify why equal additive differences do not by themselves establish proportionality",
+      "dominant_failure_mode": "scale_invariance_breakdown",
+      "scoring_guidance": "Meets when the learner explains the invariant multiplicative relationship."
+    },
+    {
+      "item_id": "Q3-C1",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer error aligned to additive_pattern_misclassification.",
+      "expected_evidence": "justify why equal additive differences do not by themselves establish proportionality",
+      "dominant_failure_mode": "additive_pattern_misclassification",
+      "scoring_guidance": "Meets when the learner distinguishes additive patterning from proportional structure."
+    },
+    {
+      "item_id": "Q3-D1",
+      "item_family": "transfer",
+      "prompt": "succeeds across ratio tables, missing-value tasks, and simple constant-of-proportionality contexts",
+      "expected_evidence": "coordinate one-unit reasoning with equivalent-ratio growth across multiple representations",
+      "dominant_failure_mode": "representation_split",
+      "scoring_guidance": "Meets when the learner preserves proportional reasoning across representation changes."
+    }
+  ]
+}

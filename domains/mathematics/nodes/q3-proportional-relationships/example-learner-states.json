@@ -1,0 +1,30 @@
+[
+  {
+    "student_id": "example-secure",
+    "node": "Q3",
+    "status": "secure",
+    "direct_accuracy": 0.9,
+    "explanation_status": "meets",
+    "transfer_status": "meets",
+    "retention_status": "meets",
+    "dominant_failure_modes": [],
+    "recommended_interventions": []
+  },
+  {
+    "student_id": "example-blocked",
+    "node": "Q3",
+    "status": "blocked",
+    "direct_accuracy": 0.55,
+    "explanation_status": "weak",
+    "transfer_status": "failed",
+    "retention_status": "not_met",
+    "dominant_failure_modes": [
+      "additive_pattern_misclassification",
+      "representation_split"
+    ],
+    "recommended_interventions": [
+      "contrast additive and proportional tables with same-looking sequences",
+      "translate one proportional relationship across word, table, graph-prep, and equation forms"
+    ]
+  }
+]

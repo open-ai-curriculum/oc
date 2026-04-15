@@ -1,0 +1,14 @@
+{
+  "node_id": "Y4",
+  "interventions": {
+    "benchmark placement routines": [
+      "Place key benchmark fractions before estimating target values."
+    ],
+    "plausible-or-not fraction results": [
+      "Sort candidate fraction results by reasonableness against benchmarks."
+    ],
+    "operation-estimate-first loops": [
+      "Estimate a fraction result before exact computation or verification."
+    ]
+  }
+}

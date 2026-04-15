@@ -1,0 +1,37 @@
+{
+  "node_id": "W1",
+  "items": [
+    {
+      "item_id": "W1-A1",
+      "item_family": "direct",
+      "prompt": "computes and interprets center and spread measures and compares bounded data distributions from plots and tables",
+      "expected_evidence": "compare distributions using both numerical summaries and distribution features",
+      "dominant_failure_mode": "summary_selection_fragmentation",
+      "scoring_guidance": "Meets when the learner selects and interprets appropriate summaries while preserving the structure of the full distribution."
+    },
+    {
+      "item_id": "W1-B1",
+      "item_family": "explanation",
+      "prompt": "explains how center, spread, shape, and outliers together describe a distribution and when different summaries are more useful",
+      "expected_evidence": "justify why a chosen summary is informative for the distribution at hand",
+      "dominant_failure_mode": "distribution_feature_opacity",
+      "scoring_guidance": "Meets when the learner explains distributions as structured data sets rather than lists reduced to one number."
+    },
+    {
+      "item_id": "W1-C1",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer error aligned to outlier_summary_blindness.",
+      "expected_evidence": "compute and interpret mean, median, range, interquartile range, and mean absolute deviation in bounded cases",
+      "dominant_failure_mode": "outlier_summary_blindness",
+      "scoring_guidance": "Meets when the learner identifies how a chosen summary masked key distribution features or was distorted by outliers."
+    },
+    {
+      "item_id": "W1-D1",
+      "item_family": "transfer",
+      "prompt": "interprets and compares distributions in a less-familiar data context and checks whether the statistical claim is actually supported",
+      "expected_evidence": "describe the shape and variability of bounded data distributions from plots or tables",
+      "dominant_failure_mode": "graph_claim_disconnect",
+      "scoring_guidance": "Meets when the learner preserves distribution meaning across representation and claim context."
+    }
+  ]
+}

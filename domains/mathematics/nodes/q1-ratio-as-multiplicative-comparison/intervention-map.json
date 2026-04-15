@@ -1,0 +1,37 @@
+{
+  "node_id": "Q1",
+  "interventions": [
+    {
+      "failure_mode": "additive_comparison_substitution",
+      "strategies": [
+        "compare additive and multiplicative comparison task pairs",
+        "teacher think-aloud on for every language",
+        "same numbers different structure sorting tasks"
+      ]
+    },
+    {
+      "failure_mode": "part_part_part_whole_collapse",
+      "strategies": [
+        "use color-coded part-to-part versus part-to-whole diagrams",
+        "match ratio statements to correct visual models",
+        "explicit contrast routines for whole inclusion versus comparison only"
+      ]
+    },
+    {
+      "failure_mode": "representation_disconnect",
+      "strategies": [
+        "translate one ratio across diagram, table, words, and symbolic form",
+        "ratio card sorts across representation types",
+        "teacher modeling of invariant relationship across formats"
+      ]
+    },
+    {
+      "failure_mode": "order_reversal",
+      "strategies": [
+        "ordered-pair ratio reading rehearsal",
+        "swap-order non-example tasks",
+        "label first quantity and second quantity before writing the ratio"
+      ]
+    }
+  ]
+}

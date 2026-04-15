@@ -1,0 +1,120 @@
+{
+  "node_id": "G4",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "G4-A-001",
+      "family": "direct_tiling",
+      "prompt": "Use pattern blocks to cover a simple outline with no gaps or overlaps.",
+      "target_node": "G4",
+      "secondary_dependency_targets": [
+        "G3"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "G4-FM-01",
+        "G4-FM-02"
+      ],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "G4-A-002",
+      "family": "direct_tiling",
+      "prompt": "Look at a tiling attempt and identify any gaps or overlaps.",
+      "target_node": "G4",
+      "secondary_dependency_targets": [
+        "G3"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "G4-FM-01",
+        "G4-FM-02"
+      ],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "G4-B-001",
+      "family": "explanation",
+      "prompt": "Explain why some shapes fit together to cover a region and some do not.",
+      "target_node": "G4",
+      "secondary_dependency_targets": [
+        "G3"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "G4-FM-01",
+        "G4-FM-02"
+      ],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "G4-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student says a tiling is correct even though one small gap remains. What should be checked?",
+      "target_node": "G4",
+      "secondary_dependency_targets": [
+        "G3"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "G4-FM-01",
+        "G4-FM-02"
+      ],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "G4-D-001",
+      "family": "transfer",
+      "prompt": "Tile the same region with a different combination of shapes and explain how the fit changed.",
+      "target_node": "G4",
+      "secondary_dependency_targets": [
+        "G3"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "G4-FM-01",
+        "G4-FM-02"
+      ],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "G4-R-001",
+      "family": "retention",
+      "prompt": "After a delay, cover a new outline without gaps or overlaps and explain one fit decision.",
+      "target_node": "G4",
+      "secondary_dependency_targets": [
+        "G3"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "G4-FM-01",
+        "G4-FM-02"
+      ],
+      "requires_human_scoring": true
+    }
+  ]
+}

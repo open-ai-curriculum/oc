@@ -1,0 +1,14 @@
+{
+  "node_id": "E1",
+  "interventions": {
+    "balance-model rehearsal": [
+      "Use concrete or visual balance representations to reinforce same-operation-both-sides logic."
+    ],
+    "inverse-pair matching": [
+      "Match equations to the inverse operations needed to isolate the unknown."
+    ],
+    "substitution-check routines": [
+      "Require every solved equation to be checked by substitution before closure."
+    ]
+  }
+}

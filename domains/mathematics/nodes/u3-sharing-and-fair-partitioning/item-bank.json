@@ -1,0 +1,72 @@
+{
+  "node_id": "U3",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "U3-A-001",
+      "family": "direct_fair_share_reasoning",
+      "prompt": "Two children share 6 counters. Show a fair share.",
+      "target_node": "U3",
+      "secondary_dependency_targets": ["U2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["manipulative_model", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["U3-FM-01", "U3-FM-03"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "U3-A-002",
+      "family": "direct_fair_share_reasoning",
+      "prompt": "Three children share one sandwich. Which picture shows a fair share?",
+      "target_node": "U3",
+      "secondary_dependency_targets": ["U2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["selected_response", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["U3-FM-02", "U3-FM-04"],
+      "requires_human_scoring": false
+    },
+    {
+      "item_id": "U3-B-001",
+      "family": "explanation",
+      "prompt": "Explain what makes a sharing situation fair.",
+      "target_node": "U3",
+      "secondary_dependency_targets": ["U2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation", "written_explanation"],
+      "dominant_failure_modes_if_incorrect": ["U3-FM-01", "U3-FM-02"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "U3-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student says two children each got one piece, so the sharing is fair, but one piece is much larger. What went wrong?",
+      "target_node": "U3",
+      "secondary_dependency_targets": ["U2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["multiple_choice", "oral_explanation", "written_explanation"],
+      "dominant_failure_modes_if_incorrect": ["U3-FM-02", "U3-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "U3-D-001",
+      "family": "transfer",
+      "prompt": "Four children share 8 crackers and one juice pitcher. Describe what fair sharing would mean in this situation.",
+      "target_node": "U3",
+      "secondary_dependency_targets": ["U2"],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": ["oral_explanation", "written_explanation"],
+      "dominant_failure_modes_if_incorrect": ["U3-FM-01", "U3-FM-03", "U3-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "U3-R-001",
+      "family": "retention",
+      "prompt": "Look at a picture of two children with shares of fruit. Tell whether the share is fair and explain why.",
+      "target_node": "U3",
+      "secondary_dependency_targets": ["U2"],
+      "difficulty_band": "retention",
+      "response_modes_allowed": ["oral_explanation", "selected_response"],
+      "dominant_failure_modes_if_incorrect": ["U3-FM-01", "U3-FM-02"],
+      "requires_human_scoring": true
+    }
+  ]
+}

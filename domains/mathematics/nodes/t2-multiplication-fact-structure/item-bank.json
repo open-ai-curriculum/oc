@@ -1,0 +1,29 @@
+{
+  "node_id": "T2",
+  "items": [
+    {
+      "item_id": "t2-a1",
+      "item_family": "direct_execution",
+      "prompt": "Representative direct task for multiplication fact structure.",
+      "expected_evidence": [
+        "Learner uses the intended structure, not only an answer-getting shortcut."
+      ],
+      "dominant_failure_mode_targets": [
+        "fact_recall_without_meaning"
+      ],
+      "context": "fact prompts"
+    },
+    {
+      "item_id": "t2-b1",
+      "item_family": "explanation",
+      "prompt": "Explain why the chosen structure fits the situation.",
+      "expected_evidence": [
+        "Learner names the structural relationship correctly."
+      ],
+      "dominant_failure_mode_targets": [
+        "factor_role_confusion"
+      ],
+      "context": "arrays"
+    }
+  ]
+}

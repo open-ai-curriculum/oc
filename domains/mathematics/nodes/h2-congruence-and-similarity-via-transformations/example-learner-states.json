@@ -1,0 +1,30 @@
+[
+  {
+    "student_id": "example-secure",
+    "node": "H2",
+    "status": "secure",
+    "direct_accuracy": 0.87,
+    "explanation_status": "meets",
+    "transfer_status": "meets",
+    "retention_status": "meets",
+    "dominant_failure_modes": [],
+    "recommended_interventions": []
+  },
+  {
+    "student_id": "example-blocked",
+    "node": "H2",
+    "status": "blocked",
+    "direct_accuracy": 0.58,
+    "explanation_status": "weak",
+    "transfer_status": "failed",
+    "retention_status": "not_met",
+    "dominant_failure_modes": [
+      "correspondence_ratio_drift",
+      "congruence_similarity_conflation"
+    ],
+    "recommended_interventions": [
+      "label corresponding vertices and sides in matched order before comparing measurements",
+      "compare congruent and merely similar figure pairs in matched examples"
+    ]
+  }
+]

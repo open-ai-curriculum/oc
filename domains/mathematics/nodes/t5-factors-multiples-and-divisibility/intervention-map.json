@@ -1,0 +1,14 @@
+{
+  "node_id": "T5",
+  "interventions": {
+    "array-family reconstruction": [
+      "Build multiplication families with arrays to show factor-multiple structure."
+    ],
+    "divisible-or-not sort": [
+      "Sort numbers by whether they group evenly and justify each decision."
+    ],
+    "factor-pair listing routines": [
+      "List factor pairs systematically rather than guessing from isolated facts."
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "node_id": "D1",
+  "examples": [
+    {
+      "student_id": "example-d1-001",
+      "node": "D1",
+      "status": "blocked",
+      "direct_accuracy": 0.58,
+      "meaning_status": "weak",
+      "transfer_status": "failed",
+      "retention_status": "not_met",
+      "dominant_failure_modes": ["D1-FM-02", "D1-FM-03"],
+      "recommended_interventions": ["name_new_attribute_before_resort", "single_attribute_only_routine"]
+    }
+  ]
+}

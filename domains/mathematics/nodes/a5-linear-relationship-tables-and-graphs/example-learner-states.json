@@ -1,0 +1,30 @@
+[
+  {
+    "student_id": "example-secure",
+    "node": "A5",
+    "status": "secure",
+    "direct_accuracy": 0.9,
+    "explanation_status": "meets",
+    "transfer_status": "meets",
+    "retention_status": "meets",
+    "dominant_failure_modes": [],
+    "recommended_interventions": []
+  },
+  {
+    "student_id": "example-blocked",
+    "node": "A5",
+    "status": "blocked",
+    "direct_accuracy": 0.57,
+    "explanation_status": "weak",
+    "transfer_status": "failed",
+    "retention_status": "not_met",
+    "dominant_failure_modes": [
+      "table_graph_disconnect",
+      "proportional_linear_misclassification"
+    ],
+    "recommended_interventions": [
+      "translate one relationship through rule, table, ordered pairs, and graph in a fixed sequence",
+      "sort examples into proportional, other linear, and non-linear/non-matching cases"
+    ]
+  }
+]

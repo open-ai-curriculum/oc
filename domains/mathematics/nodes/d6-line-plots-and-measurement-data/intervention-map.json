@@ -1,0 +1,37 @@
+{
+  "node_id": "D6",
+  "interventions": [
+    {
+      "failure_mode": "mark_position_error",
+      "strategies": [
+        "guided plotting on pre-labeled number lines",
+        "value-to-tick matching before plotting",
+        "fraction tick rehearsal with measurement examples"
+      ]
+    },
+    {
+      "failure_mode": "frequency_tracking_loss",
+      "strategies": [
+        "stacked-mark counting routines",
+        "sort-table-to-line-plot transfer tasks",
+        "teacher modeling of one-mark-per-measure discipline"
+      ]
+    },
+    {
+      "failure_mode": "measurement_scale_disconnect",
+      "strategies": [
+        "measurement collection before plotting",
+        "fraction-unit line labeling practice",
+        "tool-use to record and then plot the same data"
+      ]
+    },
+    {
+      "failure_mode": "distribution_question_confusion",
+      "strategies": [
+        "question stems for total, difference, and frequency analysis",
+        "highlight-and-count annotation protocol",
+        "compare two line plots with guided discussion"
+      ]
+    }
+  ]
+}

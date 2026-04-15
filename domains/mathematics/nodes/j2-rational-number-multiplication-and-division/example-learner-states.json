@@ -1,0 +1,30 @@
+[
+  {
+    "student_id": "example-secure",
+    "node": "J2",
+    "status": "secure",
+    "direct_accuracy": 0.9,
+    "explanation_status": "meets",
+    "transfer_status": "meets",
+    "retention_status": "meets",
+    "dominant_failure_modes": [],
+    "recommended_interventions": []
+  },
+  {
+    "student_id": "example-blocked",
+    "node": "J2",
+    "status": "blocked",
+    "direct_accuracy": 0.57,
+    "explanation_status": "weak",
+    "transfer_status": "failed",
+    "retention_status": "not_met",
+    "dominant_failure_modes": [
+      "inverse_structure_confusion",
+      "sign_rule_without_meaning"
+    ],
+    "recommended_interventions": [
+      "sort situations into scale-up, scale-down, unit-rate, and unknown-factor structures",
+      "use directed scaling and debt/gain contexts for signed products and quotients"
+    ]
+  }
+]

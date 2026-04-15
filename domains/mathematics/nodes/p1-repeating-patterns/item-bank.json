@@ -1,0 +1,72 @@
+{
+  "node_id": "P1",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "P1-A-001",
+      "family": "direct_pattern",
+      "prompt": "Find the part that repeats in red, blue, red, blue, red, blue.",
+      "target_node": "P1",
+      "secondary_dependency_targets": ["Z3"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation", "manipulative_model"],
+      "dominant_failure_modes_if_incorrect": ["P1-FM-01", "P1-FM-03"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "P1-A-002",
+      "family": "direct_pattern",
+      "prompt": "Continue the pattern circle, square, circle, square, __, __.",
+      "target_node": "P1",
+      "secondary_dependency_targets": ["Z3"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["drawing", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["P1-FM-02", "P1-FM-03"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "P1-B-001",
+      "family": "explanation",
+      "prompt": "Explain why the next shape in an ABAB pattern must be A after B.",
+      "target_node": "P1",
+      "secondary_dependency_targets": ["Z3"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation", "written_explanation"],
+      "dominant_failure_modes_if_incorrect": ["P1-FM-01", "P1-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "P1-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student says the pattern red, red, blue, red, red, blue repeats as red, blue. What should be checked?",
+      "target_node": "P1",
+      "secondary_dependency_targets": ["Z3"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["multiple_choice", "oral_explanation", "written_explanation"],
+      "dominant_failure_modes_if_incorrect": ["P1-FM-01", "P1-FM-03"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "P1-D-001",
+      "family": "transfer",
+      "prompt": "Clap, snap, clap, snap, clap, snap. Tell what repeats and show what comes next.",
+      "target_node": "P1",
+      "secondary_dependency_targets": ["Z3"],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": ["gesture_or_action", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["P1-FM-02", "P1-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "P1-R-001",
+      "family": "retention",
+      "prompt": "After a delay, identify the repeating unit in a new pattern and continue it for two more steps.",
+      "target_node": "P1",
+      "secondary_dependency_targets": ["Z3"],
+      "difficulty_band": "retention",
+      "response_modes_allowed": ["drawing", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["P1-FM-01", "P1-FM-02", "P1-FM-03"],
+      "requires_human_scoring": true
+    }
+  ]
+}

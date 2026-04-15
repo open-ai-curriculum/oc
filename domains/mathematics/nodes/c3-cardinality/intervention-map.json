@@ -1,0 +1,26 @@
+{
+  "node_id": "C3",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "C3-FM-01": [
+      "use count-and-freeze routines",
+      "restate the last count word as the answer",
+      "ask how many altogether immediately after counting"
+    ],
+    "C3-FM-02": [
+      "rehearse stopping after the final count word",
+      "use teacher echo of the last count as the answer",
+      "build confidence with small fixed sets"
+    ],
+    "C3-FM-03": [
+      "rearrange the same objects without changing the set",
+      "ask whether anything was added or removed",
+      "compare before-and-after layouts with fixed totals"
+    ],
+    "C3-FM-04": [
+      "shift gradually from objects to pictures and stories",
+      "anchor each context back to concrete set models",
+      "identify which objects belong to the counted set"
+    ]
+  }
+}

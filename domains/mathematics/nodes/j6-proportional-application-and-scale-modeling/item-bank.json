@@ -1,0 +1,37 @@
+{
+  "node_id": "J6",
+  "items": [
+    {
+      "item_id": "J6-A1",
+      "item_family": "direct",
+      "prompt": "solves bounded proportional application and scale-model situations accurately",
+      "expected_evidence": "solve for unknowns in scale drawings, map scales, recipes, similar-shape, and conversion-style proportional contexts",
+      "dominant_failure_mode": "correspondence_mapping_breakdown",
+      "scoring_guidance": "Meets when the learner identifies corresponding quantities and preserves the proportional relationship accurately."
+    },
+    {
+      "item_id": "J6-B1",
+      "item_family": "explanation",
+      "prompt": "explains how invariant ratio or scale factor determines unknown values in an applied proportional situation",
+      "expected_evidence": "explain why the same multiplicative relationship must hold across corresponding quantities",
+      "dominant_failure_mode": "additive_application_drift",
+      "scoring_guidance": "Meets when the learner explains the applied proportional structure coherently."
+    },
+    {
+      "item_id": "J6-C1",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer error aligned to scale_factor_instability.",
+      "expected_evidence": "represent proportional applications using tables, unit-rate reasoning, or scale-factor structure",
+      "dominant_failure_mode": "scale_factor_instability",
+      "scoring_guidance": "Meets when the learner identifies how the peer broke the invariant ratio or scale-factor relationship."
+    },
+    {
+      "item_id": "J6-D1",
+      "item_family": "transfer",
+      "prompt": "succeeds across table, diagram, verbal, measurement, and simple contextual proportional-application representations",
+      "expected_evidence": "judge whether a proportional result is reasonable relative to the original quantities and scale",
+      "dominant_failure_mode": "contextual_scale_reasonableness_breakdown",
+      "scoring_guidance": "Meets when the learner preserves proportional-application meaning across multiple representations and contexts."
+    }
+  ]
+}
