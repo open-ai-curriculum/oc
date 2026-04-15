@@ -120,17 +120,6 @@ node scripts/audit-mathematics-domain.js
 - No averaging-away of failure modes when they can be classified meaningfully.
 - No validator output should be treated as instructional approval authority.
 
-## Immediate Next Work
-
-The current frontier is no longer graph expansion for mathematics. The graph is modeled and implemented across the current target scope.
-
-The next repository work should focus on one or more of:
-
-- stronger standards-layer integration against the governed math graph
-- CI automation for the validation path
-- additional domains built to the same spec-driven contract
-- downstream instructional artifacts generated from the validated node layer
-
 ## License
 
 This project and all repository contents are licensed under [PolyForm Noncommercial 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0/). See [LICENSE](LICENSE).
