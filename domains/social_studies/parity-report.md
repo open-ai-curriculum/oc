@@ -16,7 +16,7 @@ It has not yet reached full governance and assurance parity.
 - standards package scaffolding and state-profile surface
 - external-framework registry surface
 - maintained external framework profiles for every AP-facing social studies overlay family
-- ready-for-mapping public-framework audit posture for the strongest two AP-facing surfaces
+- ready-for-mapping public-framework audit posture for four AP-facing surfaces
 - standards-augmented graph artifacts
 - assessment overlay package
 - bounded graph-cut package surfaces
@@ -45,6 +45,6 @@ It has not yet reached full governance and assurance parity.
 
 ## Final Claim Boundary
 
-The repository can now responsibly claim that social studies has broad parity with mathematics at the level of graph architecture, standards scaffolding, external-framework registries, maintained AP-facing framework profiles, a limited ready-for-mapping audit tier, overlays, runtime/attachment surfaces, and exportability.
+The repository can now responsibly claim that social studies has broad parity with mathematics at the level of graph architecture, standards scaffolding, external-framework registries, maintained AP-facing framework profiles, a limited ready-for-mapping audit tier spanning four AP-facing surfaces, overlays, runtime/attachment surfaces, and exportability.
 
 It cannot yet responsibly claim parity in official external standards completeness or course-specific graph resolution in the most compressed history and economics areas.

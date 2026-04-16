@@ -7,7 +7,7 @@
       "item_id": "P5-DIR-001",
       "node_id": "P5",
       "item_family": "direct_execution",
-      "prompt": "A robot on a grid must reach a target square without hitting an obstacle. Write or describe the bounded program steps needed to store related values in a bounded structured collection rather than separate ad hoc variables.",
+      "prompt": "A robot on a grid must reach the star without hitting the wall.\n\nGrid task\n```\nS . .\n# # .\n. . *\n```\nWrite or describe the bounded program steps needed to store related values in a bounded structured collection rather than separate ad hoc variables.",
       "expected_evidence": "store related values in a bounded structured collection rather than separate ad hoc variables",
       "dominant_failure_mode_targets": [
         "P5-FM-01"
@@ -27,7 +27,7 @@
       "item_id": "P5-DIR-002",
       "node_id": "P5",
       "item_family": "direct_execution",
-      "prompt": "A small interactive game needs a button press to trigger an action, or a repeated movement to continue until a goal is reached. Show how the learner would trace how iteration or data operations affect each element or record.",
+      "prompt": "A small game should move a sprite when the space bar is pressed.\n\nStarter code\n```\nwhen key 'space' pressed\n  move ? steps\n  say 'jump!'\n```\nUse the snippet to show how the learner would trace how iteration or data operations affect each element or record.",
       "expected_evidence": "trace how iteration or data operations affect each element or record",
       "dominant_failure_mode_targets": [
         "P5-FM-02"
@@ -47,7 +47,7 @@
       "item_id": "P5-DIR-003",
       "node_id": "P5",
       "item_family": "direct_execution",
-      "prompt": "A short program is split into parts that pass values, repeat work, or update state. Trace the program and show how the learner would connect a data structure choice to the shape of the task.",
+      "prompt": "A short program is split into parts that pass values and update state.\n\nProgram\n```\nscore = 0\nfunction addBonus(points) {\n  return points + 5\n}\nscore = addBonus(score)\nif (score > 3) {\n  show 'win'\n}\n```\nTrace the program and show how the learner would connect a data structure choice to the shape of the task.",
       "expected_evidence": "connect a data structure choice to the shape of the task",
       "dominant_failure_mode_targets": [
         "P5-FM-03"
@@ -107,7 +107,7 @@
       "item_id": "P5-ERR-001",
       "node_id": "P5",
       "item_family": "error_diagnosis",
-      "prompt": "A learner response in structured data, collections, and programmed data operations suggests this breakdown: learner treats a collection as undifferentiated storage and does not track element meaning or structure. Diagnose the likely misconception or structural error. Focus on collection-as-bag thinking.",
+      "prompt": "A learner response in structured data, collections, and programmed data operations suggests this breakdown: learner treats a collection as undifferentiated storage and does not track element meaning or structure.\n\nArtifact\n```\nUse the bounded case description above to point to the exact misunderstanding or unstable dependency\n```\nDiagnose the likely misconception or structural error. Focus on collection-as-bag thinking.",
       "expected_evidence": "store related values in a bounded structured collection rather than separate ad hoc variables",
       "dominant_failure_mode_targets": [
         "P5-FM-01"
@@ -127,7 +127,7 @@
       "item_id": "P5-ERR-002",
       "node_id": "P5",
       "item_family": "error_diagnosis",
-      "prompt": "A learner response in structured data, collections, and programmed data operations suggests this breakdown: learner loses track of how a loop or data operation changes the collection over time. Diagnose the likely misconception or structural error. Focus on iteration-state drift.",
+      "prompt": "A learner response in structured data, collections, and programmed data operations suggests this breakdown: learner loses track of how a loop or data operation changes the collection over time.\n\nArtifact\n```\nUse the bounded case description above to point to the exact misunderstanding or unstable dependency\n```\nDiagnose the likely misconception or structural error. Focus on iteration-state drift.",
       "expected_evidence": "trace how iteration or data operations affect each element or record",
       "dominant_failure_mode_targets": [
         "P5-FM-02"
@@ -147,7 +147,7 @@
       "item_id": "P5-TRA-001",
       "node_id": "P5",
       "item_family": "transfer",
-      "prompt": "A learner who used blocks now has to reason through the same programming idea in a text-based example. Explain how they would connect a data structure choice to the shape of the task in the changed representation.",
+      "prompt": "A learner who used blocks now has to reason through the same idea in text.\n\nText version\n```\nrepeat 4 times {\n  moveForward()\n  turnRight()\n}\n```\nExplain how they would connect a data structure choice to the shape of the task in the changed representation.",
       "expected_evidence": "connect a data structure choice to the shape of the task",
       "dominant_failure_mode_targets": [
         "P5-FM-03"
@@ -167,7 +167,7 @@
       "item_id": "P5-TRA-002",
       "node_id": "P5",
       "item_family": "transfer",
-      "prompt": "A classroom app changes from a game context to a data-processing context, but the same underlying programming structure still matters. Show how the learner would avoid losing meaning about what stored fields or collection positions represent.",
+      "prompt": "A classroom app changes from a game context to a data-processing context.\n\nNew context\n```\nscores = [4, 7, 2]\ntotal = 0\nfor each score in scores {\n  total = total + score\n}\n```\nShow how the learner would avoid losing meaning about what stored fields or collection positions represent.",
       "expected_evidence": "avoid losing meaning about what stored fields or collection positions represent",
       "dominant_failure_mode_targets": [
         "P5-FM-04"
@@ -187,7 +187,7 @@
       "item_id": "P5-RET-001",
       "node_id": "P5",
       "item_family": "retention",
-      "prompt": "After a delay, the learner revisits a bounded program and must explain the result of one function call, loop, event, or state change. Show how they would store related values in a bounded structured collection rather than separate ad hoc variables.",
+      "prompt": "After a delay, the learner revisits a bounded program and must explain one function call, loop, event, or state change.\n\nProgram to revisit\n```\nlives = 2\nwhen click\n  lives = lives - 1\n  if lives == 0\n    show 'game over'\n```\nShow how they would store related values in a bounded structured collection rather than separate ad hoc variables.",
       "expected_evidence": "store related values in a bounded structured collection rather than separate ad hoc variables",
       "dominant_failure_mode_targets": [
         "P5-FM-04"
@@ -206,7 +206,7 @@
       "item_id": "P5-PRE-001",
       "node_id": "P5",
       "item_family": "prerequisite_probe",
-      "prompt": "Before closing structured data, collections, and programmed data operations, run a short check on functions, modular program design, and abstraction boundaries using a bounded programming task and determine whether the current error is really an upstream dependency issue.",
+      "prompt": "Before closing structured data, collections, and programmed data operations, run a short check on functions, modular program design, and abstraction boundaries using this bounded programming artifact:\n\nProbe artifact\n```\nstart = 1\nrepeat 3 times\n  start = start + 2\n```\nDetermine whether the current error is really an upstream dependency issue.",
       "expected_evidence": "shows whether functions, modular program design, and abstraction boundaries is secure enough to support structured data, collections, and programmed data operations",
       "dominant_failure_mode_targets": [
         "P5-FM-01"
@@ -228,7 +228,7 @@
       "item_id": "P5-PRE-002",
       "node_id": "P5",
       "item_family": "prerequisite_probe",
-      "prompt": "Before closing structured data, collections, and programmed data operations, run a short check on data transformation, tables, and computational models using a bounded programming task and determine whether the current error is really an upstream dependency issue.",
+      "prompt": "Before closing structured data, collections, and programmed data operations, run a short check on data transformation, tables, and computational models using this bounded programming artifact:\n\nProbe artifact\n```\nstart = 1\nrepeat 3 times\n  start = start + 2\n```\nDetermine whether the current error is really an upstream dependency issue.",
       "expected_evidence": "shows whether data transformation, tables, and computational models is secure enough to support structured data, collections, and programmed data operations",
       "dominant_failure_mode_targets": [
         "P5-FM-02"

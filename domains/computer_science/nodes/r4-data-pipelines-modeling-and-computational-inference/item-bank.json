@@ -7,7 +7,7 @@
       "item_id": "R4-DIR-001",
       "node_id": "R4",
       "item_family": "direct_execution",
-      "prompt": "A class collects simple information from a survey or sensor reading and needs to organize it into a table or chart. Show how the learner would name the stages through which data passes in a bounded computational workflow.",
+      "prompt": "A class collects survey data and needs to organize it.\n\nRaw data\n```\npet\ndog\ncat\ndog\nfish\ncat\n```\nShow how the learner would name the stages through which data passes in a bounded computational workflow.",
       "expected_evidence": "name the stages through which data passes in a bounded computational workflow",
       "dominant_failure_mode_targets": [
         "R4-FM-01"
@@ -27,7 +27,7 @@
       "item_id": "R4-DIR-002",
       "node_id": "R4",
       "item_family": "direct_execution",
-      "prompt": "A small dataset is transformed in a spreadsheet or simple program. Trace the change and show how the learner would connect transformed or modeled output back to earlier processing decisions.",
+      "prompt": "A small dataset is transformed in a spreadsheet.\n\nTable\n```\nname,score\nAva,7\nLuis,4\nMina,9\n```\nRule\n```\nadd a new column called passed where score >= 5\n```\nTrace the change and show how the learner would connect transformed or modeled output back to earlier processing decisions.",
       "expected_evidence": "connect transformed or modeled output back to earlier processing decisions",
       "dominant_failure_mode_targets": [
         "R4-FM-02"
@@ -47,7 +47,7 @@
       "item_id": "R4-DIR-003",
       "node_id": "R4",
       "item_family": "direct_execution",
-      "prompt": "A modeled or computed output is produced from earlier data-handling steps. Explain the pipeline and show how the learner would distinguish a model-based inference from raw observed data.",
+      "prompt": "A computed output is produced from earlier data-handling steps.\n\nPipeline brief\n```\ncollect step counts -> remove blanks -> average by day -> graph results\n```\nExplain the pipeline and show how the learner would distinguish a model-based inference from raw observed data.",
       "expected_evidence": "distinguish a model-based inference from raw observed data",
       "dominant_failure_mode_targets": [
         "R4-FM-03"
@@ -107,7 +107,7 @@
       "item_id": "R4-ERR-001",
       "node_id": "R4",
       "item_family": "error_diagnosis",
-      "prompt": "A learner response in data pipelines, modeling, and computational inference suggests this breakdown: learner cannot account for how data moved or changed across a bounded pipeline. Diagnose the likely misconception or structural error. Focus on pipeline-opacity.",
+      "prompt": "A learner response in data pipelines, modeling, and computational inference suggests this breakdown: learner cannot account for how data moved or changed across a bounded pipeline.\n\nArtifact\n```\nUse the bounded case description above to point to the exact misunderstanding or unstable dependency\n```\nDiagnose the likely misconception or structural error. Focus on pipeline-opacity.",
       "expected_evidence": "name the stages through which data passes in a bounded computational workflow",
       "dominant_failure_mode_targets": [
         "R4-FM-01"
@@ -127,7 +127,7 @@
       "item_id": "R4-ERR-002",
       "node_id": "R4",
       "item_family": "error_diagnosis",
-      "prompt": "A learner response in data pipelines, modeling, and computational inference suggests this breakdown: learner treats computed output or modeled inference as authoritative without checking assumptions or transformations. Diagnose the likely misconception or structural error. Focus on output-as-truth belief.",
+      "prompt": "A learner response in data pipelines, modeling, and computational inference suggests this breakdown: learner treats computed output or modeled inference as authoritative without checking assumptions or transformations.\n\nArtifact\n```\nUse the bounded case description above to point to the exact misunderstanding or unstable dependency\n```\nDiagnose the likely misconception or structural error. Focus on output-as-truth belief.",
       "expected_evidence": "connect transformed or modeled output back to earlier processing decisions",
       "dominant_failure_mode_targets": [
         "R4-FM-02"
@@ -147,7 +147,7 @@
       "item_id": "R4-TRA-001",
       "node_id": "R4",
       "item_family": "transfer",
-      "prompt": "The same data idea is presented once as a chart and once as a table or program output. Explain how the learner would distinguish a model-based inference from raw observed data across the changed representation.",
+      "prompt": "The same data idea is presented once as a table and once as a chart.\n\nTable view\n```\nMon 12\nTue 15\nWed 10\n```\nChart view\n```\nbar chart with three bars labeled Mon Tue Wed\n```\nExplain how the learner would distinguish a model-based inference from raw observed data across the changed representation.",
       "expected_evidence": "distinguish a model-based inference from raw observed data",
       "dominant_failure_mode_targets": [
         "R4-FM-03"
@@ -167,7 +167,7 @@
       "item_id": "R4-TRA-002",
       "node_id": "R4",
       "item_family": "transfer",
-      "prompt": "A familiar classroom dataset is replaced with a less-familiar context such as attendance, weather, or game scores. Show how the learner would still avoid overclaiming from computed outputs when data quality or assumptions are weak.",
+      "prompt": "A familiar classroom dataset is replaced with weather data.\n\nWeather data\n```\nday,temp\nMon,68\nTue,71\nWed,65\n```\nShow how the learner would still avoid overclaiming from computed outputs when data quality or assumptions are weak.",
       "expected_evidence": "avoid overclaiming from computed outputs when data quality or assumptions are weak",
       "dominant_failure_mode_targets": [
         "R4-FM-04"
@@ -187,7 +187,7 @@
       "item_id": "R4-RET-001",
       "node_id": "R4",
       "item_family": "retention",
-      "prompt": "After a delay, the learner revisits a new dataset, organized display, or model result and must explain what changed and what can be inferred. Show how they would name the stages through which data passes in a bounded computational workflow.",
+      "prompt": "After a delay, the learner revisits a new dataset and must explain what changed and what can be inferred.\n\nDelayed-check table\n```\nstudent,minutes_read\nAva,20\nLuis,35\nMina,15\n```\nShow how they would name the stages through which data passes in a bounded computational workflow.",
       "expected_evidence": "name the stages through which data passes in a bounded computational workflow",
       "dominant_failure_mode_targets": [
         "R4-FM-04"
@@ -206,7 +206,7 @@
       "item_id": "R4-PRE-001",
       "node_id": "R4",
       "item_family": "prerequisite_probe",
-      "prompt": "Check data transformation, tables, and computational models using a bounded data display or transformation before closing data pipelines, modeling, and computational inference, and determine whether the present error is really an upstream representation issue.",
+      "prompt": "Check data transformation, tables, and computational models using this bounded data display before closing data pipelines, modeling, and computational inference.\n\nProbe display\n```\nfavorite fruit counts shown in a two-column table\n```\nDetermine whether the present error is really an upstream representation issue.",
       "expected_evidence": "shows whether data transformation, tables, and computational models is secure enough to support data pipelines, modeling, and computational inference",
       "dominant_failure_mode_targets": [
         "R4-FM-01"
@@ -228,7 +228,7 @@
       "item_id": "R4-PRE-002",
       "node_id": "R4",
       "item_family": "prerequisite_probe",
-      "prompt": "Check structured data, collections, and programmed data operations using a bounded data display or transformation before closing data pipelines, modeling, and computational inference, and determine whether the present error is really an upstream representation issue.",
+      "prompt": "Check structured data, collections, and programmed data operations using this bounded data display before closing data pipelines, modeling, and computational inference.\n\nProbe display\n```\nfavorite fruit counts shown in a two-column table\n```\nDetermine whether the present error is really an upstream representation issue.",
       "expected_evidence": "shows whether structured data, collections, and programmed data operations is secure enough to support data pipelines, modeling, and computational inference",
       "dominant_failure_mode_targets": [
         "R4-FM-02"

@@ -7,7 +7,7 @@
       "item_id": "I3-DIR-001",
       "node_id": "I3",
       "item_family": "direct_execution",
-      "prompt": "A class discussion presents a digital sharing, messaging, or online participation scenario. Show how the learner would describe at least one way a computing system can affect different people differently.",
+      "prompt": "A class discussion presents a digital sharing or messaging case.\n\nMessage draft\n```\nCan u send me the quiz answers before class?\n```\nShow how the learner would describe at least one way a computing system can affect different people differently.",
       "expected_evidence": "describe at least one way a computing system can affect different people differently",
       "dominant_failure_mode_targets": [
         "I3-FM-01"
@@ -27,7 +27,7 @@
       "item_id": "I3-DIR-002",
       "node_id": "I3",
       "item_family": "direct_execution",
-      "prompt": "A learner must decide how to credit a source, communicate to an audience, or respond to a computing-impact case. Show how they would connect a design or data choice to a potential fairness issue.",
+      "prompt": "A learner must decide how to credit a source or communicate to an audience.\n\nSlide footer\n```\nPhoto of eclipse copied from the web with no source listed\n```\nShow how they would connect a design or data choice to a potential fairness issue.",
       "expected_evidence": "connect a design or data choice to a potential fairness issue",
       "dominant_failure_mode_targets": [
         "I3-FM-02"
@@ -47,7 +47,7 @@
       "item_id": "I3-DIR-003",
       "node_id": "I3",
       "item_family": "direct_execution",
-      "prompt": "A school or community technology policy case raises questions about bias, privacy, or governance. Show how the learner would evaluate a tool or decision using a named human-centered criterion.",
+      "prompt": "A school technology policy case raises questions about privacy or governance.\n\nPolicy brief\n```\nDistrict wants hallway cameras to use face recognition for attendance\n```\nShow how they would evaluate a tool or decision using a named human-centered criterion.",
       "expected_evidence": "evaluate a tool or decision using a named human-centered criterion",
       "dominant_failure_mode_targets": [
         "I3-FM-03"
@@ -108,7 +108,7 @@
       "item_id": "I3-ERR-001",
       "node_id": "I3",
       "item_family": "error_diagnosis",
-      "prompt": "In a digital communication or computing-impact case, a learner responds in a way that suggests this breakdown: learner assumes computing systems have no built-in impact from data or design choices. Diagnose the ethical or participation mistake. Focus on technology-neutrality assumption.",
+      "prompt": "In a digital communication or computing-impact case, a learner responds in a way that suggests this breakdown: learner assumes computing systems have no built-in impact from data or design choices.\n\nCase artifact\n```\nA student reposts a classmate's image without credit and says 'it was already online'\n```\nDiagnose the ethical or participation mistake. Focus on technology-neutrality assumption.",
       "expected_evidence": "describe at least one way a computing system can affect different people differently",
       "dominant_failure_mode_targets": [
         "I3-FM-01"
@@ -128,7 +128,7 @@
       "item_id": "I3-ERR-002",
       "node_id": "I3",
       "item_family": "error_diagnosis",
-      "prompt": "In a digital communication or computing-impact case, a learner responds in a way that suggests this breakdown: learner names fairness as a concern but cannot connect it to a system feature or data choice. Diagnose the ethical or participation mistake. Focus on fairness-without-cause.",
+      "prompt": "In a digital communication or computing-impact case, a learner responds in a way that suggests this breakdown: learner names fairness as a concern but cannot connect it to a system feature or data choice.\n\nCase artifact\n```\nA student reposts a classmate's image without credit and says 'it was already online'\n```\nDiagnose the ethical or participation mistake. Focus on fairness-without-cause.",
       "expected_evidence": "connect a design or data choice to a potential fairness issue",
       "dominant_failure_mode_targets": [
         "I3-FM-02"
@@ -148,7 +148,7 @@
       "item_id": "I3-TRA-001",
       "node_id": "I3",
       "item_family": "transfer",
-      "prompt": "A digital citizenship or ethics idea learned in one classroom example is now presented in a less-familiar platform or public-systems context. Explain how the learner would evaluate a tool or decision using a named human-centered criterion.",
+      "prompt": "A digital citizenship idea learned in classroom chat is now presented in a public video comment thread.\n\nComment thread\n```\nFirst comment: 'This app is trash.'\nReply box is open.\n```\nExplain how the learner would evaluate a tool or decision using a named human-centered criterion.",
       "expected_evidence": "evaluate a tool or decision using a named human-centered criterion",
       "dominant_failure_mode_targets": [
         "I3-FM-03"
@@ -168,7 +168,7 @@
       "item_id": "I3-TRA-002",
       "node_id": "I3",
       "item_family": "transfer",
-      "prompt": "A learner must move from a personal-use case to a broader social or institutional computing case and still preserve the same impact reasoning. Show how they would avoid reducing computing impacts to praise or blame without bounded analysis.",
+      "prompt": "A learner must move from a personal-use case to a broader public-system case.\n\nPublic-system case\n```\nA city app ranks neighborhoods for service priority using reported complaints\n```\nShow how they would avoid reducing computing impacts to praise or blame without bounded analysis.",
       "expected_evidence": "avoid reducing computing impacts to praise or blame without bounded analysis",
       "dominant_failure_mode_targets": [
         "I3-FM-04"
@@ -188,7 +188,7 @@
       "item_id": "I3-RET-001",
       "node_id": "I3",
       "item_family": "retention",
-      "prompt": "After a delay, the learner is given a new communication, attribution, impact, or governance case and must justify the responsible choice. Show how they would describe at least one way a computing system can affect different people differently.",
+      "prompt": "After a delay, the learner is given a new communication, attribution, impact, or governance case and must justify the responsible choice.\n\nDelayed case\n```\nStudent reposts a classmate's artwork to a shared channel without naming the artist\n```\nShow how they would describe at least one way a computing system can affect different people differently.",
       "expected_evidence": "describe at least one way a computing system can affect different people differently",
       "dominant_failure_mode_targets": [
         "I3-FM-04"
@@ -207,7 +207,7 @@
       "item_id": "I3-PRE-001",
       "node_id": "I3",
       "item_family": "prerequisite_probe",
-      "prompt": "Probe digital communication, attribution, and audience awareness through a short audience, impact, or systems case before closing computing impacts, bias, and human-centered evaluation, and decide whether the current issue is really upstream.",
+      "prompt": "Probe digital communication, attribution, and audience awareness through this short audience, impact, or systems artifact before closing computing impacts, bias, and human-centered evaluation.\n\nProbe artifact\n```\nA shared class document is visible to 'anyone with the link'\n```\nDecide whether the current issue is really upstream.",
       "expected_evidence": "shows whether digital communication, attribution, and audience awareness is secure enough to support computing impacts, bias, and human-centered evaluation",
       "dominant_failure_mode_targets": [
         "I3-FM-01"
@@ -229,7 +229,7 @@
       "item_id": "I3-PRE-002",
       "node_id": "I3",
       "item_family": "prerequisite_probe",
-      "prompt": "Probe data transformation, tables, and computational models through a short audience, impact, or systems case before closing computing impacts, bias, and human-centered evaluation, and decide whether the current issue is really upstream.",
+      "prompt": "Probe data transformation, tables, and computational models through this short audience, impact, or systems artifact before closing computing impacts, bias, and human-centered evaluation.\n\nProbe artifact\n```\nA shared class document is visible to 'anyone with the link'\n```\nDecide whether the current issue is really upstream.",
       "expected_evidence": "shows whether data transformation, tables, and computational models is secure enough to support computing impacts, bias, and human-centered evaluation",
       "dominant_failure_mode_targets": [
         "I3-FM-02"

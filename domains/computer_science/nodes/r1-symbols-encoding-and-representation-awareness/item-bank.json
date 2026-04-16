@@ -7,7 +7,7 @@
       "item_id": "R1-DIR-001",
       "node_id": "R1",
       "item_family": "direct_execution",
-      "prompt": "A class collects simple information from a survey or sensor reading and needs to organize it into a table or chart. Show how the learner would interpret icons, symbols, or simple codes with bounded meaning.",
+      "prompt": "A class collects survey data and needs to organize it.\n\nRaw data\n```\npet\ndog\ncat\ndog\nfish\ncat\n```\nShow how the learner would interpret icons, symbols, or simple codes with bounded meaning.",
       "expected_evidence": "interpret icons, symbols, or simple codes with bounded meaning",
       "dominant_failure_mode_targets": [
         "R1-FM-01"
@@ -27,7 +27,7 @@
       "item_id": "R1-DIR-002",
       "node_id": "R1",
       "item_family": "direct_execution",
-      "prompt": "A small dataset is transformed in a spreadsheet or simple program. Trace the change and show how the learner would use one representation to stand for information or action intentionally.",
+      "prompt": "A small dataset is transformed in a spreadsheet.\n\nTable\n```\nname,score\nAva,7\nLuis,4\nMina,9\n```\nRule\n```\nadd a new column called passed where score >= 5\n```\nTrace the change and show how the learner would use one representation to stand for information or action intentionally.",
       "expected_evidence": "use one representation to stand for information or action intentionally",
       "dominant_failure_mode_targets": [
         "R1-FM-02"
@@ -47,7 +47,7 @@
       "item_id": "R1-DIR-003",
       "node_id": "R1",
       "item_family": "direct_execution",
-      "prompt": "A modeled or computed output is produced from earlier data-handling steps. Explain the pipeline and show how the learner would compare two simple representations of the same information.",
+      "prompt": "A computed output is produced from earlier data-handling steps.\n\nPipeline brief\n```\ncollect step counts -> remove blanks -> average by day -> graph results\n```\nExplain the pipeline and show how the learner would compare two simple representations of the same information.",
       "expected_evidence": "compare two simple representations of the same information",
       "dominant_failure_mode_targets": [
         "R1-FM-03"
@@ -107,7 +107,7 @@
       "item_id": "R1-ERR-001",
       "node_id": "R1",
       "item_family": "error_diagnosis",
-      "prompt": "A learner response in symbols, encoding, and representation awareness suggests this breakdown: learner treats a representation as the thing itself rather than as a stand-in. Diagnose the likely misconception or structural error. Focus on symbol-object collapse.",
+      "prompt": "A learner response in symbols, encoding, and representation awareness suggests this breakdown: learner treats a representation as the thing itself rather than as a stand-in.\n\nArtifact\n```\nUse the bounded case description above to point to the exact misunderstanding or unstable dependency\n```\nDiagnose the likely misconception or structural error. Focus on symbol-object collapse.",
       "expected_evidence": "interpret icons, symbols, or simple codes with bounded meaning",
       "dominant_failure_mode_targets": [
         "R1-FM-01"
@@ -127,7 +127,7 @@
       "item_id": "R1-ERR-002",
       "node_id": "R1",
       "item_family": "error_diagnosis",
-      "prompt": "A learner response in symbols, encoding, and representation awareness suggests this breakdown: learner loses track of what a simple code or symbol means. Diagnose the likely misconception or structural error. Focus on code-meaning drift.",
+      "prompt": "A learner response in symbols, encoding, and representation awareness suggests this breakdown: learner loses track of what a simple code or symbol means.\n\nArtifact\n```\nUse the bounded case description above to point to the exact misunderstanding or unstable dependency\n```\nDiagnose the likely misconception or structural error. Focus on code-meaning drift.",
       "expected_evidence": "use one representation to stand for information or action intentionally",
       "dominant_failure_mode_targets": [
         "R1-FM-02"
@@ -147,7 +147,7 @@
       "item_id": "R1-TRA-001",
       "node_id": "R1",
       "item_family": "transfer",
-      "prompt": "The same data idea is presented once as a chart and once as a table or program output. Explain how the learner would compare two simple representations of the same information across the changed representation.",
+      "prompt": "The same data idea is presented once as a table and once as a chart.\n\nTable view\n```\nMon 12\nTue 15\nWed 10\n```\nChart view\n```\nbar chart with three bars labeled Mon Tue Wed\n```\nExplain how the learner would compare two simple representations of the same information across the changed representation.",
       "expected_evidence": "compare two simple representations of the same information",
       "dominant_failure_mode_targets": [
         "R1-FM-03"
@@ -167,7 +167,7 @@
       "item_id": "R1-TRA-002",
       "node_id": "R1",
       "item_family": "transfer",
-      "prompt": "A familiar classroom dataset is replaced with a less-familiar context such as attendance, weather, or game scores. Show how the learner would still avoid confusing the picture, symbol, or code with the underlying content.",
+      "prompt": "A familiar classroom dataset is replaced with weather data.\n\nWeather data\n```\nday,temp\nMon,68\nTue,71\nWed,65\n```\nShow how the learner would still avoid confusing the picture, symbol, or code with the underlying content.",
       "expected_evidence": "avoid confusing the picture, symbol, or code with the underlying content",
       "dominant_failure_mode_targets": [
         "R1-FM-04"
@@ -187,7 +187,7 @@
       "item_id": "R1-RET-001",
       "node_id": "R1",
       "item_family": "retention",
-      "prompt": "After a delay, the learner revisits a new dataset, organized display, or model result and must explain what changed and what can be inferred. Show how they would interpret icons, symbols, or simple codes with bounded meaning.",
+      "prompt": "After a delay, the learner revisits a new dataset and must explain what changed and what can be inferred.\n\nDelayed-check table\n```\nstudent,minutes_read\nAva,20\nLuis,35\nMina,15\n```\nShow how they would interpret icons, symbols, or simple codes with bounded meaning.",
       "expected_evidence": "interpret icons, symbols, or simple codes with bounded meaning",
       "dominant_failure_mode_targets": [
         "R1-FM-04"
@@ -206,7 +206,7 @@
       "item_id": "R1-PRE-001",
       "node_id": "R1",
       "item_family": "prerequisite_probe",
-      "prompt": "Check digital tool navigation and interface cause-effect using a bounded data display or transformation before closing symbols, encoding, and representation awareness, and determine whether the present error is really an upstream representation issue.",
+      "prompt": "Check digital tool navigation and interface cause-effect using this bounded data display before closing symbols, encoding, and representation awareness.\n\nProbe display\n```\nfavorite fruit counts shown in a two-column table\n```\nDetermine whether the present error is really an upstream representation issue.",
       "expected_evidence": "shows whether digital tool navigation and interface cause-effect is secure enough to support symbols, encoding, and representation awareness",
       "dominant_failure_mode_targets": [
         "R1-FM-01"

@@ -7,7 +7,7 @@
       "item_id": "A3-DIR-001",
       "node_id": "A3",
       "item_family": "direct_execution",
-      "prompt": "A class is designing steps for a character to collect objects in a maze. Break the task into a workable strategy and show how the learner would compare bounded procedures using named criteria rather than vague preference.",
+      "prompt": "A class is designing steps for a character to collect objects in a maze.\n\nMaze rules\n```\nCollect 3 gems\nAvoid lava tiles\nReach exit after final gem\n```\nBreak the task into a workable strategy and show how the learner would compare bounded procedures using named criteria rather than vague preference.",
       "expected_evidence": "compare bounded procedures using named criteria rather than vague preference",
       "dominant_failure_mode_targets": [
         "A3-FM-01"
@@ -27,7 +27,7 @@
       "item_id": "A3-DIR-002",
       "node_id": "A3",
       "item_family": "direct_execution",
-      "prompt": "Two different solution plans are proposed for the same computing problem. Compare them and show how the learner would connect problem constraints to algorithm choice.",
+      "prompt": "Two different solution plans are proposed for the same problem.\n\nPlan A\n```\nCheck every item in order until target is found\n```\nPlan B\n```\nSplit the list and eliminate half each step\n```\nCompare them and show how the learner would connect problem constraints to algorithm choice.",
       "expected_evidence": "connect problem constraints to algorithm choice",
       "dominant_failure_mode_targets": [
         "A3-FM-02"
@@ -47,7 +47,7 @@
       "item_id": "A3-DIR-003",
       "node_id": "A3",
       "item_family": "direct_execution",
-      "prompt": "A learner must formalize a small problem before choosing an algorithmic approach. Use the given conditions and show how they would explain why an algorithm can be preferable even when more than one approach is correct.",
+      "prompt": "A learner must formalize a small problem before choosing an approach.\n\nProblem brief\n```\nInput: a list of homework scores\nOutput: highest score\nConstraint: explain why your method works\n```\nUse the conditions and show how they would explain why an algorithm can be preferable even when more than one approach is correct.",
       "expected_evidence": "explain why an algorithm can be preferable even when more than one approach is correct",
       "dominant_failure_mode_targets": [
         "A3-FM-03"
@@ -107,7 +107,7 @@
       "item_id": "A3-ERR-001",
       "node_id": "A3",
       "item_family": "error_diagnosis",
-      "prompt": "A learner response in algorithm analysis, tradeoffs, and formalized problem solving suggests this breakdown: learner treats the first correct-looking algorithm as automatically optimal without comparison. Diagnose the likely misconception or structural error. Focus on first-correct-is-best belief.",
+      "prompt": "A learner response in algorithm analysis, tradeoffs, and formalized problem solving suggests this breakdown: learner treats the first correct-looking algorithm as automatically optimal without comparison.\n\nArtifact\n```\nUse the bounded case description above to point to the exact misunderstanding or unstable dependency\n```\nDiagnose the likely misconception or structural error. Focus on first-correct-is-best belief.",
       "expected_evidence": "compare bounded procedures using named criteria rather than vague preference",
       "dominant_failure_mode_targets": [
         "A3-FM-01"
@@ -127,7 +127,7 @@
       "item_id": "A3-ERR-002",
       "node_id": "A3",
       "item_family": "error_diagnosis",
-      "prompt": "A learner response in algorithm analysis, tradeoffs, and formalized problem solving suggests this breakdown: learner compares algorithms without acknowledging what is gained or lost. Diagnose the likely misconception or structural error. Focus on tradeoff-blind comparison.",
+      "prompt": "A learner response in algorithm analysis, tradeoffs, and formalized problem solving suggests this breakdown: learner compares algorithms without acknowledging what is gained or lost.\n\nArtifact\n```\nUse the bounded case description above to point to the exact misunderstanding or unstable dependency\n```\nDiagnose the likely misconception or structural error. Focus on tradeoff-blind comparison.",
       "expected_evidence": "connect problem constraints to algorithm choice",
       "dominant_failure_mode_targets": [
         "A3-FM-02"
@@ -147,7 +147,7 @@
       "item_id": "A3-TRA-001",
       "node_id": "A3",
       "item_family": "transfer",
-      "prompt": "A sorting or search idea learned in one classroom task is now presented in a different surface context. Explain how the learner would explain why an algorithm can be preferable even when more than one approach is correct without losing the underlying structure.",
+      "prompt": "A sorting idea learned with cards is now shown with playlist titles.\n\nPlaylist data\n```\n['Zoo', 'Apple', 'Moon', 'Beach']\n```\nExplain how the learner would explain why an algorithm can be preferable even when more than one approach is correct without losing the underlying structure.",
       "expected_evidence": "explain why an algorithm can be preferable even when more than one approach is correct",
       "dominant_failure_mode_targets": [
         "A3-FM-03"
@@ -167,7 +167,7 @@
       "item_id": "A3-TRA-002",
       "node_id": "A3",
       "item_family": "transfer",
-      "prompt": "A learner must compare two unfamiliar algorithm sketches in a new context and still preserve the same analytic discipline. Show how they would avoid treating performance claims as self-evident without bounded analysis.",
+      "prompt": "A learner must compare two unfamiliar algorithm sketches in a new context.\n\nSketch 1\n```\nRecalculate every result from scratch\n```\nSketch 2\n```\nStore intermediate results and reuse them\n```\nShow how they would avoid treating performance claims as self-evident without bounded analysis.",
       "expected_evidence": "avoid treating performance claims as self-evident without bounded analysis",
       "dominant_failure_mode_targets": [
         "A3-FM-04"
@@ -187,7 +187,7 @@
       "item_id": "A3-RET-001",
       "node_id": "A3",
       "item_family": "retention",
-      "prompt": "After a delay, the learner is given a fresh bounded problem and must choose or compare a strategy rather than just repeat a memorized one. Show how they would compare bounded procedures using named criteria rather than vague preference.",
+      "prompt": "After a delay, the learner is given a fresh bounded problem and must choose or compare a strategy rather than repeat a memorized one.\n\nNew problem\n```\nFind whether a name appears in a sorted class roster of 32 students\n```\nShow how they would compare bounded procedures using named criteria rather than vague preference.",
       "expected_evidence": "compare bounded procedures using named criteria rather than vague preference",
       "dominant_failure_mode_targets": [
         "A3-FM-04"
@@ -206,7 +206,7 @@
       "item_id": "A3-PRE-001",
       "node_id": "A3",
       "item_family": "prerequisite_probe",
-      "prompt": "Probe algorithm design, efficiency awareness, and decomposition discipline with a short decomposition or programming task before closing algorithm analysis, tradeoffs, and formalized problem solving, and decide whether the current weakness is upstream or truly algorithmic.",
+      "prompt": "Probe algorithm design, efficiency awareness, and decomposition discipline with a short decomposition artifact before closing algorithm analysis, tradeoffs, and formalized problem solving.\n\nProbe task\n```\nBreak 'make a quiz app' into smaller executable parts\n```\nDecide whether the current weakness is upstream or truly algorithmic.",
       "expected_evidence": "shows whether algorithm design, efficiency awareness, and decomposition discipline is secure enough to support algorithm analysis, tradeoffs, and formalized problem solving",
       "dominant_failure_mode_targets": [
         "A3-FM-01"
@@ -228,7 +228,7 @@
       "item_id": "A3-PRE-002",
       "node_id": "A3",
       "item_family": "prerequisite_probe",
-      "prompt": "Probe functions, modular program design, and abstraction boundaries with a short decomposition or programming task before closing algorithm analysis, tradeoffs, and formalized problem solving, and decide whether the current weakness is upstream or truly algorithmic.",
+      "prompt": "Probe functions, modular program design, and abstraction boundaries with a short decomposition artifact before closing algorithm analysis, tradeoffs, and formalized problem solving.\n\nProbe task\n```\nBreak 'make a quiz app' into smaller executable parts\n```\nDecide whether the current weakness is upstream or truly algorithmic.",
       "expected_evidence": "shows whether functions, modular program design, and abstraction boundaries is secure enough to support algorithm analysis, tradeoffs, and formalized problem solving",
       "dominant_failure_mode_targets": [
         "A3-FM-02"

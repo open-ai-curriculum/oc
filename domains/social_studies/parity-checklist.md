@@ -13,7 +13,7 @@ Provide a concrete parity checklist against the mathematics domain so social stu
 | Standards package scaffold exists | Complete | Social studies standards package, codification model, and registry added |
 | External-framework registry exists | Complete | Non-state framework work posture is now codified in markdown and JSON form with validation |
 | First external framework profiles exist | Complete | Every maintained AP-facing social studies overlay family now has a maintained framework-profile codification |
-| Ready-for-mapping external framework audits exist | Complete | AP United States Government and Politics and AP Human Geography now have maintained public-framework audit artifacts and upgraded registry posture |
+| Ready-for-mapping external framework audits exist | Complete | AP United States Government and Politics, AP Human Geography, AP United States History, and AP Macroeconomics now have maintained public-framework audit artifacts and upgraded registry posture |
 | First state profiles exist | Complete | California, New York, and Texas drafted |
 | Standards-augmented graph exists | Complete | md/yaml/json generated |
 | Assessment overlay model exists | Complete | Domain contract and overlay package added |
@@ -33,10 +33,10 @@ Provide a concrete parity checklist against the mathematics domain so social stu
 | Social-studies-specific parity report exists | Complete | Added in this wave |
 | Social-studies-specific final audit package exists | Complete | Dedicated validator suite now includes assessment-assurance checks in the top-level validation path |
 | Assessment framework assurance register exists | Complete | Markdown and JSON assurance surfaces now codify overlay-backed versus provisional external-assessment posture |
-| Official external standards completeness validated | Incomplete | Repository now has stronger external-framework/state-registry posture, full AP-facing framework profiles, and a limited ready-for-mapping tier, but official identifier-level completeness is not established |
+| Official external standards completeness validated | Incomplete | Repository now has stronger external-framework/state-registry posture, full AP-facing framework profiles, and a stronger ready-for-mapping tier, but official identifier-level completeness is not established |
 
 ## Main Remaining Gaps
 
 - stronger reviewed external standards crosswalk depth
 - course-specific refinement in history and economics where current overlays remain compressed
-- reviewed blueprint-level or identifier-level codification still trails the now-complete AP-facing framework-profile/graph-cut package and the limited ready-for-mapping tier
+- reviewed blueprint-level or identifier-level codification still trails the now-complete AP-facing framework-profile/graph-cut package and the stronger ready-for-mapping tier

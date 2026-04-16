@@ -7,7 +7,7 @@
       "item_id": "D1-DIR-001",
       "node_id": "D1",
       "item_family": "direct_execution",
-      "prompt": "A learner opens a classroom drawing app and needs to select the text tool, type a short label, and move it to the correct place on the canvas. Show how they would use taps, clicks, selections, and typed input with clear intent.",
+      "prompt": "A learner opens a classroom drawing app and must label a plant diagram.\n\nUI state\n```\nToolbar: pointer | text | brush\nCanvas: unlabeled plant image\nGoal: add the text 'stem' next to the correct part\n```\nExplain the intended sequence of interface actions and show how they would use taps, clicks, selections, and typed input with clear intent.",
       "expected_evidence": "use taps, clicks, selections, and typed input with clear intent",
       "dominant_failure_mode_targets": [
         "D1-FM-01"
@@ -27,7 +27,7 @@
       "item_id": "D1-DIR-002",
       "node_id": "D1",
       "item_family": "direct_execution",
-      "prompt": "On a tablet home screen, a learner taps an icon, types in a search field, and returns to the original screen. Describe what changed after each action and how the learner would name what changed on screen after an action.",
+      "prompt": "A learner starts on a tablet home screen, opens the reading app, searches for \"frogs\", and returns home.\n\nObserved screens\n```\n1. Home screen with app icons\n2. Reading app library page\n3. Search results for 'frogs'\n4. Home screen again\n```\nDescribe what changed after each action and how the learner would name what changed on screen after an action.",
       "expected_evidence": "name what changed on screen after an action",
       "dominant_failure_mode_targets": [
         "D1-FM-02"
@@ -47,7 +47,7 @@
       "item_id": "D1-DIR-003",
       "node_id": "D1",
       "item_family": "direct_execution",
-      "prompt": "A student is trying to submit a photo to a classroom app but keeps tapping unrelated icons. Use the interface sequence to show how they should distinguish successful navigation from random trial only.",
+      "prompt": "A student is trying to submit a photo to a classroom app but keeps tapping unrelated icons.\n\nIcon row\n```\ncamera | classroom app | settings | weather\n```\nUse the UI state and goal to show how they should distinguish successful navigation from random trial only.",
       "expected_evidence": "distinguish successful navigation from random trial only",
       "dominant_failure_mode_targets": [
         "D1-FM-03"
@@ -107,7 +107,7 @@
       "item_id": "D1-ERR-001",
       "node_id": "D1",
       "item_family": "error_diagnosis",
-      "prompt": "A learner response in digital tool navigation and interface cause-effect suggests this breakdown: learner explores screens by random clicking without stable action-outcome reasoning. Diagnose the likely misconception or structural error. Focus on random-interface-search.",
+      "prompt": "A learner response in digital tool navigation and interface cause-effect suggests this breakdown: learner explores screens by random clicking without stable action-outcome reasoning.\n\nArtifact\n```\nUse the bounded case description above to point to the exact misunderstanding or unstable dependency\n```\nDiagnose the likely misconception or structural error. Focus on random-interface-search.",
       "expected_evidence": "use taps, clicks, selections, and typed input with clear intent",
       "dominant_failure_mode_targets": [
         "D1-FM-01"
@@ -127,7 +127,7 @@
       "item_id": "D1-ERR-002",
       "node_id": "D1",
       "item_family": "error_diagnosis",
-      "prompt": "A learner response in digital tool navigation and interface cause-effect suggests this breakdown: learner confuses what a button, icon, or input action is for. Diagnose the likely misconception or structural error. Focus on control-function confusion.",
+      "prompt": "A learner response in digital tool navigation and interface cause-effect suggests this breakdown: learner confuses what a button, icon, or input action is for.\n\nArtifact\n```\nUse the bounded case description above to point to the exact misunderstanding or unstable dependency\n```\nDiagnose the likely misconception or structural error. Focus on control-function confusion.",
       "expected_evidence": "name what changed on screen after an action",
       "dominant_failure_mode_targets": [
         "D1-FM-02"
@@ -147,7 +147,7 @@
       "item_id": "D1-TRA-001",
       "node_id": "D1",
       "item_family": "transfer",
-      "prompt": "A learner who usually works on a tablet now has to find, open, and use the same kind of tool on a laptop. Explain how they would distinguish successful navigation from random trial only in the new interface.",
+      "prompt": "A learner who usually works on a tablet now must complete the same task on a laptop.\n\nTask\n```\nOpen the slide deck\nInsert one text box\nType 'Water cycle'\nSave and close\n```\nExplain how they would distinguish successful navigation from random trial only in the new interface.",
       "expected_evidence": "distinguish successful navigation from random trial only",
       "dominant_failure_mode_targets": [
         "D1-FM-03"
@@ -167,7 +167,7 @@
       "item_id": "D1-TRA-002",
       "node_id": "D1",
       "item_family": "transfer",
-      "prompt": "A classroom switches from one app to another with different icons but the same basic actions. Explain how a learner would connect a control or icon to its likely function in bounded cases without relying on random clicking.",
+      "prompt": "A classroom switches from one drawing app to another with different icon shapes but the same core actions.\n\nOld app icons\n```\ntext | image | save\n```\nNew app icons\n```\nT | photo | disk\n```\nExplain how a learner would connect a control or icon to its likely function in bounded cases without relying on random clicking.",
       "expected_evidence": "connect a control or icon to its likely function in bounded cases",
       "dominant_failure_mode_targets": [
         "D1-FM-04"
@@ -187,7 +187,7 @@
       "item_id": "D1-RET-001",
       "node_id": "D1",
       "item_family": "retention",
-      "prompt": "After a delay, the learner returns to a shared classroom device and must reopen the right app, make one bounded change, and explain how they knew the interface action worked. Show how they would use taps, clicks, selections, and typed input with clear intent.",
+      "prompt": "After a delay, the learner returns to a shared classroom device and must reopen yesterday's app, add a missing label, and confirm the change saved.\n\nChecklist\n```\n1. Open the correct app\n2. Find the slide with the missing label\n3. Add 'roots'\n4. Save\n```\nShow how they would use taps, clicks, selections, and typed input with clear intent.",
       "expected_evidence": "use taps, clicks, selections, and typed input with clear intent",
       "dominant_failure_mode_targets": [
         "D1-FM-04"

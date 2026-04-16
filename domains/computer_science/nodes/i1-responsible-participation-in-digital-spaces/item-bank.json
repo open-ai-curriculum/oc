@@ -7,7 +7,7 @@
       "item_id": "I1-DIR-001",
       "node_id": "I1",
       "item_family": "direct_execution",
-      "prompt": "A class discussion presents a digital sharing, messaging, or online participation scenario. Show how the learner would identify a safe or respectful action in a simple digital scenario.",
+      "prompt": "A class discussion presents a digital sharing or messaging case.\n\nMessage draft\n```\nCan u send me the quiz answers before class?\n```\nShow how the learner would identify a safe or respectful action in a simple digital scenario.",
       "expected_evidence": "identify a safe or respectful action in a simple digital scenario",
       "dominant_failure_mode_targets": [
         "I1-FM-01"
@@ -27,7 +27,7 @@
       "item_id": "I1-DIR-002",
       "node_id": "I1",
       "item_family": "direct_execution",
-      "prompt": "A learner must decide how to credit a source, communicate to an audience, or respond to a computing-impact case. Show how they would describe one reason a digital action has consequences.",
+      "prompt": "A learner must decide how to credit a source or communicate to an audience.\n\nSlide footer\n```\nPhoto of eclipse copied from the web with no source listed\n```\nShow how they would describe one reason a digital action has consequences.",
       "expected_evidence": "describe one reason a digital action has consequences",
       "dominant_failure_mode_targets": [
         "I1-FM-02"
@@ -47,7 +47,7 @@
       "item_id": "I1-DIR-003",
       "node_id": "I1",
       "item_family": "direct_execution",
-      "prompt": "A school or community technology policy case raises questions about bias, privacy, or governance. Show how the learner would distinguish private, shared, and public digital behavior in bounded cases.",
+      "prompt": "A school technology policy case raises questions about privacy or governance.\n\nPolicy brief\n```\nDistrict wants hallway cameras to use face recognition for attendance\n```\nShow how they would distinguish private, shared, and public digital behavior in bounded cases.",
       "expected_evidence": "distinguish private, shared, and public digital behavior in bounded cases",
       "dominant_failure_mode_targets": [
         "I1-FM-03"
@@ -107,7 +107,7 @@
       "item_id": "I1-ERR-001",
       "node_id": "I1",
       "item_family": "error_diagnosis",
-      "prompt": "In a digital communication or computing-impact case, a learner responds in a way that suggests this breakdown: learner treats digital actions as if they do not affect other people or the system. Diagnose the ethical or participation mistake. Focus on digital-actions-have-no-consequence belief.",
+      "prompt": "In a digital communication or computing-impact case, a learner responds in a way that suggests this breakdown: learner treats digital actions as if they do not affect other people or the system.\n\nCase artifact\n```\nA student reposts a classmate's image without credit and says 'it was already online'\n```\nDiagnose the ethical or participation mistake. Focus on digital-actions-have-no-consequence belief.",
       "expected_evidence": "identify a safe or respectful action in a simple digital scenario",
       "dominant_failure_mode_targets": [
         "I1-FM-01"
@@ -127,7 +127,7 @@
       "item_id": "I1-ERR-002",
       "node_id": "I1",
       "item_family": "error_diagnosis",
-      "prompt": "In a digital communication or computing-impact case, a learner responds in a way that suggests this breakdown: learner cannot distinguish what should stay private from what may be shared. Diagnose the ethical or participation mistake. Focus on private-shared-public confusion.",
+      "prompt": "In a digital communication or computing-impact case, a learner responds in a way that suggests this breakdown: learner cannot distinguish what should stay private from what may be shared.\n\nCase artifact\n```\nA student reposts a classmate's image without credit and says 'it was already online'\n```\nDiagnose the ethical or participation mistake. Focus on private-shared-public confusion.",
       "expected_evidence": "describe one reason a digital action has consequences",
       "dominant_failure_mode_targets": [
         "I1-FM-02"
@@ -147,7 +147,7 @@
       "item_id": "I1-TRA-001",
       "node_id": "I1",
       "item_family": "transfer",
-      "prompt": "A digital citizenship or ethics idea learned in one classroom example is now presented in a less-familiar platform or public-systems context. Explain how the learner would distinguish private, shared, and public digital behavior in bounded cases.",
+      "prompt": "A digital citizenship idea learned in classroom chat is now presented in a public video comment thread.\n\nComment thread\n```\nFirst comment: 'This app is trash.'\nReply box is open.\n```\nExplain how the learner would distinguish private, shared, and public digital behavior in bounded cases.",
       "expected_evidence": "distinguish private, shared, and public digital behavior in bounded cases",
       "dominant_failure_mode_targets": [
         "I1-FM-03"
@@ -167,7 +167,7 @@
       "item_id": "I1-TRA-002",
       "node_id": "I1",
       "item_family": "transfer",
-      "prompt": "A learner must move from a personal-use case to a broader social or institutional computing case and still preserve the same impact reasoning. Show how they would follow classroom technology routines without avoidable harm or disruption.",
+      "prompt": "A learner must move from a personal-use case to a broader public-system case.\n\nPublic-system case\n```\nA city app ranks neighborhoods for service priority using reported complaints\n```\nShow how they would follow classroom technology routines without avoidable harm or disruption.",
       "expected_evidence": "follow classroom technology routines without avoidable harm or disruption",
       "dominant_failure_mode_targets": [
         "I1-FM-04"
@@ -187,7 +187,7 @@
       "item_id": "I1-RET-001",
       "node_id": "I1",
       "item_family": "retention",
-      "prompt": "After a delay, the learner is given a new communication, attribution, impact, or governance case and must justify the responsible choice. Show how they would identify a safe or respectful action in a simple digital scenario.",
+      "prompt": "After a delay, the learner is given a new communication, attribution, impact, or governance case and must justify the responsible choice.\n\nDelayed case\n```\nStudent reposts a classmate's artwork to a shared channel without naming the artist\n```\nShow how they would identify a safe or respectful action in a simple digital scenario.",
       "expected_evidence": "identify a safe or respectful action in a simple digital scenario",
       "dominant_failure_mode_targets": [
         "I1-FM-04"
@@ -206,7 +206,7 @@
       "item_id": "I1-PRE-001",
       "node_id": "I1",
       "item_family": "prerequisite_probe",
-      "prompt": "Probe digital tool navigation and interface cause-effect through a short audience, impact, or systems case before closing responsible participation in digital spaces, and decide whether the current issue is really upstream.",
+      "prompt": "Probe digital tool navigation and interface cause-effect through this short audience, impact, or systems artifact before closing responsible participation in digital spaces.\n\nProbe artifact\n```\nA shared class document is visible to 'anyone with the link'\n```\nDecide whether the current issue is really upstream.",
       "expected_evidence": "shows whether digital tool navigation and interface cause-effect is secure enough to support responsible participation in digital spaces",
       "dominant_failure_mode_targets": [
         "I1-FM-01"

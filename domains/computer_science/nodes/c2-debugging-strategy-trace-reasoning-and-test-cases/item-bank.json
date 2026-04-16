@@ -7,7 +7,7 @@
       "item_id": "C2-DIR-001",
       "node_id": "C2",
       "item_family": "direct_execution",
-      "prompt": "A short program does not produce the intended result. Use the code, trace, or test case to show how the learner would trace values and control flow through a simple program.",
+      "prompt": "A short program does not produce the intended result.\n\nCode\n```\ncount = 1\nrepeat 3 times\n  count = count + 2\nprint(count)\n```\nUse the code or trace to show how the learner would trace values and control flow through a simple program.",
       "expected_evidence": "trace values and control flow through a simple program",
       "dominant_failure_mode_targets": [
         "C2-FM-01"
@@ -27,7 +27,7 @@
       "item_id": "C2-DIR-002",
       "node_id": "C2",
       "item_family": "direct_execution",
-      "prompt": "A learner is given a specification and a small set of tests for a program. Show how they would choose or explain a test case that checks a specific behavior.",
+      "prompt": "A learner is given a specification and a small set of tests.\n\nSpec\n```\nInput: a score from 0 to 10\nOutput: 'pass' if score >= 6 else 'retry'\n```\nTests\n```\nscore 8 -> pass\nscore 6 -> pass\nscore 4 -> retry\n```\nShow how they would choose or explain a test case that checks a specific behavior.",
       "expected_evidence": "choose or explain a test case that checks a specific behavior",
       "dominant_failure_mode_targets": [
         "C2-FM-02"
@@ -47,7 +47,7 @@
       "item_id": "C2-DIR-003",
       "node_id": "C2",
       "item_family": "direct_execution",
-      "prompt": "A team reviews an existing code change and must justify a cleanup or refactor without breaking behavior. Show how the learner would separate bug location from bug repair in a bounded case.",
+      "prompt": "A team reviews an existing code change.\n\nDiff summary\n```\n- duplicated score logic in three places\n+ new helper function scoreMessage(score)\n```\nShow how the learner would separate bug location from bug repair in a bounded case.",
       "expected_evidence": "separate bug location from bug repair in a bounded case",
       "dominant_failure_mode_targets": [
         "C2-FM-03"
@@ -107,7 +107,7 @@
       "item_id": "C2-ERR-001",
       "node_id": "C2",
       "item_family": "error_diagnosis",
-      "prompt": "A learner runs a short program, sees the wrong output, and responds in a way that suggests this breakdown: learner changes code repeatedly without tracing or a bounded hypothesis. Diagnose the debugging or quality mistake. Focus on guess-and-change debugging.",
+      "prompt": "A learner runs a short program, sees the wrong output, and responds in a way that suggests this breakdown: learner changes code repeatedly without tracing or a bounded hypothesis.\n\nCode artifact\n```\nvalue = 3\nif value > 5 {\n  show 'big'\n} else {\n  show 'small'\n}\n```\nDiagnose the debugging or quality mistake. Focus on guess-and-change debugging.",
       "expected_evidence": "trace values and control flow through a simple program",
       "dominant_failure_mode_targets": [
         "C2-FM-01"
@@ -127,7 +127,7 @@
       "item_id": "C2-ERR-002",
       "node_id": "C2",
       "item_family": "error_diagnosis",
-      "prompt": "A learner runs a short program, sees the wrong output, and responds in a way that suggests this breakdown: learner uses examples without explaining what behavior they are checking. Diagnose the debugging or quality mistake. Focus on test-case-without-purpose.",
+      "prompt": "A learner runs a short program, sees the wrong output, and responds in a way that suggests this breakdown: learner uses examples without explaining what behavior they are checking.\n\nCode artifact\n```\nvalue = 3\nif value > 5 {\n  show 'big'\n} else {\n  show 'small'\n}\n```\nDiagnose the debugging or quality mistake. Focus on test-case-without-purpose.",
       "expected_evidence": "choose or explain a test case that checks a specific behavior",
       "dominant_failure_mode_targets": [
         "C2-FM-02"
@@ -147,7 +147,7 @@
       "item_id": "C2-TRA-001",
       "node_id": "C2",
       "item_family": "transfer",
-      "prompt": "A debugging or quality idea learned in one code example is now presented in a different language or representation. Explain how the learner would separate bug location from bug repair in a bounded case in the new context.",
+      "prompt": "A debugging idea learned in blocks is now shown in text.\n\nText snippet\n```\nif score > 5 {\n  show 'pass'\n} else {\n  show 'retry'\n}\n```\nExplain how the learner would separate bug location from bug repair in a bounded case in the new context.",
       "expected_evidence": "separate bug location from bug repair in a bounded case",
       "dominant_failure_mode_targets": [
         "C2-FM-03"
@@ -167,7 +167,7 @@
       "item_id": "C2-TRA-002",
       "node_id": "C2",
       "item_family": "transfer",
-      "prompt": "A learner must evaluate a changed codebase artifact such as a diff, failed test, or review comment and still preserve the same software-quality reasoning. Show how they would avoid random code changes without a stated hypothesis.",
+      "prompt": "A learner must evaluate a changed codebase artifact.\n\nReview comment\n```\nThe new helper removed duplication, but no test covers score = 6\n```\nShow how they would avoid random code changes without a stated hypothesis.",
       "expected_evidence": "avoid random code changes without a stated hypothesis",
       "dominant_failure_mode_targets": [
         "C2-FM-04"
@@ -187,7 +187,7 @@
       "item_id": "C2-RET-001",
       "node_id": "C2",
       "item_family": "retention",
-      "prompt": "After a delay, the learner revisits a fresh bounded bug, specification, or refactor case and must justify the next step rather than guess. Show how they would trace values and control flow through a simple program.",
+      "prompt": "After a delay, the learner revisits a fresh bounded bug or specification case and must justify the next step rather than guess.\n\nDelayed bug\n```\nname = 'Ada'\nprint('Hello' + user)\n```\nShow how they would trace values and control flow through a simple program.",
       "expected_evidence": "trace values and control flow through a simple program",
       "dominant_failure_mode_targets": [
         "C2-FM-04"
@@ -206,7 +206,7 @@
       "item_id": "C2-PRE-001",
       "node_id": "C2",
       "item_family": "prerequisite_probe",
-      "prompt": "Check noticing errors, revising steps, and persistence in computing tasks with a short program trace or design task before closing debugging strategy, trace reasoning, and test cases, and determine whether the present quality issue is actually upstream.",
+      "prompt": "Check noticing errors, revising steps, and persistence in computing tasks with this short program-trace artifact before closing debugging strategy, trace reasoning, and test cases.\n\nProbe artifact\n```\nx = 2\nx = x + 3\nprint(x)\n```\nDetermine whether the present quality issue is actually upstream.",
       "expected_evidence": "shows whether noticing errors, revising steps, and persistence in computing tasks is secure enough to support debugging strategy, trace reasoning, and test cases",
       "dominant_failure_mode_targets": [
         "C2-FM-01"
@@ -228,7 +228,7 @@
       "item_id": "C2-PRE-002",
       "node_id": "C2",
       "item_family": "prerequisite_probe",
-      "prompt": "Check variables, conditionals, and stateful program behavior with a short program trace or design task before closing debugging strategy, trace reasoning, and test cases, and determine whether the present quality issue is actually upstream.",
+      "prompt": "Check variables, conditionals, and stateful program behavior with this short program-trace artifact before closing debugging strategy, trace reasoning, and test cases.\n\nProbe artifact\n```\nx = 2\nx = x + 3\nprint(x)\n```\nDetermine whether the present quality issue is actually upstream.",
       "expected_evidence": "shows whether variables, conditionals, and stateful program behavior is secure enough to support debugging strategy, trace reasoning, and test cases",
       "dominant_failure_mode_targets": [
         "C2-FM-02"

@@ -7,7 +7,7 @@
       "item_id": "C1-DIR-001",
       "node_id": "C1",
       "item_family": "direct_execution",
-      "prompt": "A short program does not produce the intended result. Use the code, trace, or test case to show how the learner would compare intended and actual outcomes in a simple computing task.",
+      "prompt": "A short program does not produce the intended result.\n\nCode\n```\ncount = 1\nrepeat 3 times\n  count = count + 2\nprint(count)\n```\nUse the code or trace to show how the learner would compare intended and actual outcomes in a simple computing task.",
       "expected_evidence": "compare intended and actual outcomes in a simple computing task",
       "dominant_failure_mode_targets": [
         "C1-FM-01"
@@ -27,7 +27,7 @@
       "item_id": "C1-DIR-002",
       "node_id": "C1",
       "item_family": "direct_execution",
-      "prompt": "A learner is given a specification and a small set of tests for a program. Show how they would name one step or action that may have caused the error.",
+      "prompt": "A learner is given a specification and a small set of tests.\n\nSpec\n```\nInput: a score from 0 to 10\nOutput: 'pass' if score >= 6 else 'retry'\n```\nTests\n```\nscore 8 -> pass\nscore 6 -> pass\nscore 4 -> retry\n```\nShow how they would name one step or action that may have caused the error.",
       "expected_evidence": "name one step or action that may have caused the error",
       "dominant_failure_mode_targets": [
         "C1-FM-02"
@@ -47,7 +47,7 @@
       "item_id": "C1-DIR-003",
       "node_id": "C1",
       "item_family": "direct_execution",
-      "prompt": "A team reviews an existing code change and must justify a cleanup or refactor without breaking behavior. Show how the learner would revise one part of a sequence instead of changing everything at once.",
+      "prompt": "A team reviews an existing code change.\n\nDiff summary\n```\n- duplicated score logic in three places\n+ new helper function scoreMessage(score)\n```\nShow how the learner would revise one part of a sequence instead of changing everything at once.",
       "expected_evidence": "revise one part of a sequence instead of changing everything at once",
       "dominant_failure_mode_targets": [
         "C1-FM-03"
@@ -107,7 +107,7 @@
       "item_id": "C1-ERR-001",
       "node_id": "C1",
       "item_family": "error_diagnosis",
-      "prompt": "A learner runs a short program, sees the wrong output, and responds in a way that suggests this breakdown: learner changes many steps at once and cannot track what fixed the issue. Diagnose the debugging or quality mistake. Focus on all-or-nothing revision.",
+      "prompt": "A learner runs a short program, sees the wrong output, and responds in a way that suggests this breakdown: learner changes many steps at once and cannot track what fixed the issue.\n\nCode artifact\n```\nvalue = 3\nif value > 5 {\n  show 'big'\n} else {\n  show 'small'\n}\n```\nDiagnose the debugging or quality mistake. Focus on all-or-nothing revision.",
       "expected_evidence": "compare intended and actual outcomes in a simple computing task",
       "dominant_failure_mode_targets": [
         "C1-FM-01"
@@ -127,7 +127,7 @@
       "item_id": "C1-ERR-002",
       "node_id": "C1",
       "item_family": "error_diagnosis",
-      "prompt": "A learner runs a short program, sees the wrong output, and responds in a way that suggests this breakdown: learner notices something is wrong but cannot identify a likely source. Diagnose the debugging or quality mistake. Focus on error-without-location.",
+      "prompt": "A learner runs a short program, sees the wrong output, and responds in a way that suggests this breakdown: learner notices something is wrong but cannot identify a likely source.\n\nCode artifact\n```\nvalue = 3\nif value > 5 {\n  show 'big'\n} else {\n  show 'small'\n}\n```\nDiagnose the debugging or quality mistake. Focus on error-without-location.",
       "expected_evidence": "name one step or action that may have caused the error",
       "dominant_failure_mode_targets": [
         "C1-FM-02"
@@ -147,7 +147,7 @@
       "item_id": "C1-TRA-001",
       "node_id": "C1",
       "item_family": "transfer",
-      "prompt": "A debugging or quality idea learned in one code example is now presented in a different language or representation. Explain how the learner would revise one part of a sequence instead of changing everything at once in the new context.",
+      "prompt": "A debugging idea learned in blocks is now shown in text.\n\nText snippet\n```\nif score > 5 {\n  show 'pass'\n} else {\n  show 'retry'\n}\n```\nExplain how the learner would revise one part of a sequence instead of changing everything at once in the new context.",
       "expected_evidence": "revise one part of a sequence instead of changing everything at once",
       "dominant_failure_mode_targets": [
         "C1-FM-03"
@@ -167,7 +167,7 @@
       "item_id": "C1-TRA-002",
       "node_id": "C1",
       "item_family": "transfer",
-      "prompt": "A learner must evaluate a changed codebase artifact such as a diff, failed test, or review comment and still preserve the same software-quality reasoning. Show how they would check whether a revision improved the result.",
+      "prompt": "A learner must evaluate a changed codebase artifact.\n\nReview comment\n```\nThe new helper removed duplication, but no test covers score = 6\n```\nShow how they would check whether a revision improved the result.",
       "expected_evidence": "check whether a revision improved the result",
       "dominant_failure_mode_targets": [
         "C1-FM-04"
@@ -187,7 +187,7 @@
       "item_id": "C1-RET-001",
       "node_id": "C1",
       "item_family": "retention",
-      "prompt": "After a delay, the learner revisits a fresh bounded bug, specification, or refactor case and must justify the next step rather than guess. Show how they would compare intended and actual outcomes in a simple computing task.",
+      "prompt": "After a delay, the learner revisits a fresh bounded bug or specification case and must justify the next step rather than guess.\n\nDelayed bug\n```\nname = 'Ada'\nprint('Hello' + user)\n```\nShow how they would compare intended and actual outcomes in a simple computing task.",
       "expected_evidence": "compare intended and actual outcomes in a simple computing task",
       "dominant_failure_mode_targets": [
         "C1-FM-04"
@@ -206,7 +206,7 @@
       "item_id": "C1-PRE-001",
       "node_id": "C1",
       "item_family": "prerequisite_probe",
-      "prompt": "Check sequencing commands and programmable action with a short program trace or design task before closing noticing errors, revising steps, and persistence in computing tasks, and determine whether the present quality issue is actually upstream.",
+      "prompt": "Check sequencing commands and programmable action with this short program-trace artifact before closing noticing errors, revising steps, and persistence in computing tasks.\n\nProbe artifact\n```\nx = 2\nx = x + 3\nprint(x)\n```\nDetermine whether the present quality issue is actually upstream.",
       "expected_evidence": "shows whether sequencing commands and programmable action is secure enough to support noticing errors, revising steps, and persistence in computing tasks",
       "dominant_failure_mode_targets": [
         "C1-FM-01"

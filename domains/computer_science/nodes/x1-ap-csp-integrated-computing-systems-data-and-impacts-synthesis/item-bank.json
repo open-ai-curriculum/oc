@@ -7,7 +7,7 @@
       "item_id": "X1-DIR-001",
       "node_id": "X1",
       "item_family": "direct_execution",
-      "prompt": "A learner reviews a bounded AP-style performance task or project proposal that combines code, data, systems, and impact claims. Show how they would connect program behavior, data processing, and system context in one bounded explanation.",
+      "prompt": "A learner reviews a bounded AP-style performance task.\n\nArtifact brief\n```\nApp: lunch picker\nData: student preferences\nSystem: shared web app\nImpact claim: reduces food waste\n```\nShow how they would connect program behavior, data processing, and system context in one bounded explanation.",
       "expected_evidence": "connect program behavior, data processing, and system context in one bounded explanation",
       "dominant_failure_mode_targets": [
         "X1-FM-01"
@@ -27,7 +27,7 @@
       "item_id": "X1-DIR-002",
       "node_id": "X1",
       "item_family": "direct_execution",
-      "prompt": "A class is evaluating an object-oriented or multi-component program design for an AP-style task. Show how the learner would interpret computing impacts with reference to technical mechanisms rather than broad claims alone.",
+      "prompt": "A class is evaluating an object-oriented or multi-component design for an AP-style task.\n\nDesign sketch\n```\nClass Menu stores meal options\nClass VoteCounter totals choices\nProgram writes results to a file\n```\nShow how they would interpret computing impacts with reference to technical mechanisms rather than broad claims alone.",
       "expected_evidence": "interpret computing impacts with reference to technical mechanisms rather than broad claims alone",
       "dominant_failure_mode_targets": [
         "X1-FM-02"
@@ -47,7 +47,7 @@
       "item_id": "X1-DIR-003",
       "node_id": "X1",
       "item_family": "direct_execution",
-      "prompt": "A capstone team proposes a cross-domain computing project with stated users, constraints, and architecture choices. Show how the learner would reason across abstractions instead of treating data, code, and social effects as separate silos.",
+      "prompt": "A capstone team proposes a cross-domain computing project.\n\nProject brief\n```\nUsers: school garden club\nGoal: track soil moisture\nConstraints: one tablet, intermittent Wi-Fi, shared student logins\n```\nShow how they would reason across abstractions instead of treating data, code, and social effects as separate silos.",
       "expected_evidence": "reason across abstractions instead of treating data, code, and social effects as separate silos",
       "dominant_failure_mode_targets": [
         "X1-FM-03"
@@ -107,7 +107,7 @@
       "item_id": "X1-ERR-001",
       "node_id": "X1",
       "item_family": "error_diagnosis",
-      "prompt": "During an AP-style synthesis or project review, a learner gives a response that suggests this breakdown: learner treats programming, data, systems, and impacts as separate talking points rather than one integrated computing account. Diagnose the integration mistake. Focus on topic-silo AP reasoning.",
+      "prompt": "During an AP-style synthesis or project review, a learner gives a response that suggests this breakdown: learner treats programming, data, systems, and impacts as separate talking points rather than one integrated computing account.\n\nProject-review artifact\n```\nProposal includes code, data, and users, but offers no verification or risk analysis\n```\nDiagnose the integration mistake. Focus on topic-silo AP reasoning.",
       "expected_evidence": "connect program behavior, data processing, and system context in one bounded explanation",
       "dominant_failure_mode_targets": [
         "X1-FM-01"
@@ -127,7 +127,7 @@
       "item_id": "X1-ERR-002",
       "node_id": "X1",
       "item_family": "error_diagnosis",
-      "prompt": "During an AP-style synthesis or project review, a learner gives a response that suggests this breakdown: learner cannot connect a bounded technical mechanism to a social or policy implication. Diagnose the integration mistake. Focus on technical-impact disconnect.",
+      "prompt": "During an AP-style synthesis or project review, a learner gives a response that suggests this breakdown: learner cannot connect a bounded technical mechanism to a social or policy implication.\n\nProject-review artifact\n```\nProposal includes code, data, and users, but offers no verification or risk analysis\n```\nDiagnose the integration mistake. Focus on technical-impact disconnect.",
       "expected_evidence": "interpret computing impacts with reference to technical mechanisms rather than broad claims alone",
       "dominant_failure_mode_targets": [
         "X1-FM-02"
@@ -147,7 +147,7 @@
       "item_id": "X1-TRA-001",
       "node_id": "X1",
       "item_family": "transfer",
-      "prompt": "A learner moves from an AP-style classroom prompt to an authentic design-review or project-planning case and must still reason across abstractions instead of treating data, code, and social effects as separate silos.",
+      "prompt": "A learner moves from an AP-style classroom prompt to an authentic design-review case.\n\nDesign-review prompt\n```\nA mobile app shares location data with a city dashboard to suggest safer walking routes\n```\nExplain how they would still reason across abstractions instead of treating data, code, and social effects as separate silos.",
       "expected_evidence": "reason across abstractions instead of treating data, code, and social effects as separate silos",
       "dominant_failure_mode_targets": [
         "X1-FM-03"
@@ -167,7 +167,7 @@
       "item_id": "X1-TRA-002",
       "node_id": "X1",
       "item_family": "transfer",
-      "prompt": "A bounded project changes domains, but the computing requirements, quality expectations, and reasoning structure still matter. Explain how the learner would avoid ap-style topic recitation without integrated causal structure.",
+      "prompt": "A bounded project changes domains, but the computing requirements still matter.\n\nNew domain brief\n```\nOriginal: library check-in tool\nNew: marine biology field log\nShared constraints: offline entry, shared data, teacher review\n```\nExplain how the learner would avoid ap-style topic recitation without integrated causal structure.",
       "expected_evidence": "avoid AP-style topic recitation without integrated causal structure",
       "dominant_failure_mode_targets": [
         "X1-FM-04"
@@ -187,7 +187,7 @@
       "item_id": "X1-RET-001",
       "node_id": "X1",
       "item_family": "retention",
-      "prompt": "After a delay, the learner is given a fresh AP-style synthesis or capstone-review case and must justify the design or critique using integrated computing reasoning. Show how they would connect program behavior, data processing, and system context in one bounded explanation.",
+      "prompt": "After a delay, the learner is given a fresh AP-style synthesis or capstone-review case and must justify the design or critique using integrated computing reasoning.\n\nDelayed brief\n```\nApp tracks bus arrival times\nInputs: GPS pings\nOutputs: rider alerts\nConcern: location privacy for student riders\n```\nShow how they would connect program behavior, data processing, and system context in one bounded explanation.",
       "expected_evidence": "connect program behavior, data processing, and system context in one bounded explanation",
       "dominant_failure_mode_targets": [
         "X1-FM-04"
@@ -206,7 +206,7 @@
       "item_id": "X1-PRE-001",
       "node_id": "X1",
       "item_family": "prerequisite_probe",
-      "prompt": "Before closing ap csp integrated computing systems, data, and impacts synthesis, run a short synthesis check on functions, modular program design, and abstraction boundaries and determine whether the learner is blocked by an upstream readiness gap rather than the current integration target.",
+      "prompt": "Before closing ap csp integrated computing systems, data, and impacts synthesis, run a short synthesis check on functions, modular program design, and abstraction boundaries.\n\nProbe artifact\n```\nCode snippet + one data table + one system-impact claim appear in the same prompt\n```\nDetermine whether the learner is blocked by an upstream readiness gap rather than the current integration target.",
       "expected_evidence": "shows whether functions, modular program design, and abstraction boundaries is secure enough to support ap csp integrated computing systems, data, and impacts synthesis",
       "dominant_failure_mode_targets": [
         "X1-FM-01"
@@ -228,7 +228,7 @@
       "item_id": "X1-PRE-002",
       "node_id": "X1",
       "item_family": "prerequisite_probe",
-      "prompt": "Before closing ap csp integrated computing systems, data, and impacts synthesis, run a short synthesis check on algorithm analysis, tradeoffs, and formalized problem solving and determine whether the learner is blocked by an upstream readiness gap rather than the current integration target.",
+      "prompt": "Before closing ap csp integrated computing systems, data, and impacts synthesis, run a short synthesis check on algorithm analysis, tradeoffs, and formalized problem solving.\n\nProbe artifact\n```\nCode snippet + one data table + one system-impact claim appear in the same prompt\n```\nDetermine whether the learner is blocked by an upstream readiness gap rather than the current integration target.",
       "expected_evidence": "shows whether algorithm analysis, tradeoffs, and formalized problem solving is secure enough to support ap csp integrated computing systems, data, and impacts synthesis",
       "dominant_failure_mode_targets": [
         "X1-FM-02"
@@ -250,7 +250,7 @@
       "item_id": "X1-PRE-003",
       "node_id": "X1",
       "item_family": "prerequisite_probe",
-      "prompt": "Before closing ap csp integrated computing systems, data, and impacts synthesis, run a short synthesis check on data pipelines, modeling, and computational inference and determine whether the learner is blocked by an upstream readiness gap rather than the current integration target.",
+      "prompt": "Before closing ap csp integrated computing systems, data, and impacts synthesis, run a short synthesis check on data pipelines, modeling, and computational inference.\n\nProbe artifact\n```\nCode snippet + one data table + one system-impact claim appear in the same prompt\n```\nDetermine whether the learner is blocked by an upstream readiness gap rather than the current integration target.",
       "expected_evidence": "shows whether data pipelines, modeling, and computational inference is secure enough to support ap csp integrated computing systems, data, and impacts synthesis",
       "dominant_failure_mode_targets": [
         "X1-FM-03"
@@ -272,7 +272,7 @@
       "item_id": "X1-PRE-004",
       "node_id": "X1",
       "item_family": "prerequisite_probe",
-      "prompt": "Before closing ap csp integrated computing systems, data, and impacts synthesis, run a short synthesis check on ethics, governance, and societal consequences of computing systems and determine whether the learner is blocked by an upstream readiness gap rather than the current integration target.",
+      "prompt": "Before closing ap csp integrated computing systems, data, and impacts synthesis, run a short synthesis check on ethics, governance, and societal consequences of computing systems.\n\nProbe artifact\n```\nCode snippet + one data table + one system-impact claim appear in the same prompt\n```\nDetermine whether the learner is blocked by an upstream readiness gap rather than the current integration target.",
       "expected_evidence": "shows whether ethics, governance, and societal consequences of computing systems is secure enough to support ap csp integrated computing systems, data, and impacts synthesis",
       "dominant_failure_mode_targets": [
         "X1-FM-04"

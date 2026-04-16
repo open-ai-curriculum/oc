@@ -7,7 +7,7 @@
       "item_id": "I2-DIR-001",
       "node_id": "I2",
       "item_family": "direct_execution",
-      "prompt": "A class discussion presents a digital sharing, messaging, or online participation scenario. Show how the learner would identify who a digital message is for in a simple scenario.",
+      "prompt": "A class discussion presents a digital sharing or messaging case.\n\nMessage draft\n```\nCan u send me the quiz answers before class?\n```\nShow how the learner would identify who a digital message is for in a simple scenario.",
       "expected_evidence": "identify who a digital message is for in a simple scenario",
       "dominant_failure_mode_targets": [
         "I2-FM-01"
@@ -27,7 +27,7 @@
       "item_id": "I2-DIR-002",
       "node_id": "I2",
       "item_family": "direct_execution",
-      "prompt": "A learner must decide how to credit a source, communicate to an audience, or respond to a computing-impact case. Show how they would distinguish own work from content that comes from another source.",
+      "prompt": "A learner must decide how to credit a source or communicate to an audience.\n\nSlide footer\n```\nPhoto of eclipse copied from the web with no source listed\n```\nShow how they would distinguish own work from content that comes from another source.",
       "expected_evidence": "distinguish own work from content that comes from another source",
       "dominant_failure_mode_targets": [
         "I2-FM-02"
@@ -47,7 +47,7 @@
       "item_id": "I2-DIR-003",
       "node_id": "I2",
       "item_family": "direct_execution",
-      "prompt": "A school or community technology policy case raises questions about bias, privacy, or governance. Show how the learner would make a respectful communication choice in a bounded digital setting.",
+      "prompt": "A school technology policy case raises questions about privacy or governance.\n\nPolicy brief\n```\nDistrict wants hallway cameras to use face recognition for attendance\n```\nShow how they would make a respectful communication choice in a bounded digital setting.",
       "expected_evidence": "make a respectful communication choice in a bounded digital setting",
       "dominant_failure_mode_targets": [
         "I2-FM-03"
@@ -109,7 +109,7 @@
       "item_id": "I2-ERR-001",
       "node_id": "I2",
       "item_family": "error_diagnosis",
-      "prompt": "In a digital communication or computing-impact case, a learner responds in a way that suggests this breakdown: learner sends or frames a message without considering who will receive it. Diagnose the ethical or participation mistake. Focus on audience-blind communication.",
+      "prompt": "In a digital communication or computing-impact case, a learner responds in a way that suggests this breakdown: learner sends or frames a message without considering who will receive it.\n\nCase artifact\n```\nA student reposts a classmate's image without credit and says 'it was already online'\n```\nDiagnose the ethical or participation mistake. Focus on audience-blind communication.",
       "expected_evidence": "identify who a digital message is for in a simple scenario",
       "dominant_failure_mode_targets": [
         "I2-FM-01"
@@ -129,7 +129,7 @@
       "item_id": "I2-ERR-002",
       "node_id": "I2",
       "item_family": "error_diagnosis",
-      "prompt": "In a digital communication or computing-impact case, a learner responds in a way that suggests this breakdown: learner does not distinguish own content from content created by others. Diagnose the ethical or participation mistake. Focus on source-ownership confusion.",
+      "prompt": "In a digital communication or computing-impact case, a learner responds in a way that suggests this breakdown: learner does not distinguish own content from content created by others.\n\nCase artifact\n```\nA student reposts a classmate's image without credit and says 'it was already online'\n```\nDiagnose the ethical or participation mistake. Focus on source-ownership confusion.",
       "expected_evidence": "distinguish own work from content that comes from another source",
       "dominant_failure_mode_targets": [
         "I2-FM-02"
@@ -149,7 +149,7 @@
       "item_id": "I2-TRA-001",
       "node_id": "I2",
       "item_family": "transfer",
-      "prompt": "A digital citizenship or ethics idea learned in one classroom example is now presented in a less-familiar platform or public-systems context. Explain how the learner would make a respectful communication choice in a bounded digital setting.",
+      "prompt": "A digital citizenship idea learned in classroom chat is now presented in a public video comment thread.\n\nComment thread\n```\nFirst comment: 'This app is trash.'\nReply box is open.\n```\nExplain how the learner would make a respectful communication choice in a bounded digital setting.",
       "expected_evidence": "make a respectful communication choice in a bounded digital setting",
       "dominant_failure_mode_targets": [
         "I2-FM-03"
@@ -169,7 +169,7 @@
       "item_id": "I2-TRA-002",
       "node_id": "I2",
       "item_family": "transfer",
-      "prompt": "A learner must move from a personal-use case to a broader social or institutional computing case and still preserve the same impact reasoning. Show how they would avoid ignoring audience or source when sharing digital content.",
+      "prompt": "A learner must move from a personal-use case to a broader public-system case.\n\nPublic-system case\n```\nA city app ranks neighborhoods for service priority using reported complaints\n```\nShow how they would avoid ignoring audience or source when sharing digital content.",
       "expected_evidence": "avoid ignoring audience or source when sharing digital content",
       "dominant_failure_mode_targets": [
         "I2-FM-04"
@@ -189,7 +189,7 @@
       "item_id": "I2-RET-001",
       "node_id": "I2",
       "item_family": "retention",
-      "prompt": "After a delay, the learner is given a new communication, attribution, impact, or governance case and must justify the responsible choice. Show how they would identify who a digital message is for in a simple scenario.",
+      "prompt": "After a delay, the learner is given a new communication, attribution, impact, or governance case and must justify the responsible choice.\n\nDelayed case\n```\nStudent reposts a classmate's artwork to a shared channel without naming the artist\n```\nShow how they would identify who a digital message is for in a simple scenario.",
       "expected_evidence": "identify who a digital message is for in a simple scenario",
       "dominant_failure_mode_targets": [
         "I2-FM-04"
@@ -208,7 +208,7 @@
       "item_id": "I2-PRE-001",
       "node_id": "I2",
       "item_family": "prerequisite_probe",
-      "prompt": "Probe responsible participation in digital spaces through a short audience, impact, or systems case before closing digital communication, attribution, and audience awareness, and decide whether the current issue is really upstream.",
+      "prompt": "Probe responsible participation in digital spaces through this short audience, impact, or systems artifact before closing digital communication, attribution, and audience awareness.\n\nProbe artifact\n```\nA shared class document is visible to 'anyone with the link'\n```\nDecide whether the current issue is really upstream.",
       "expected_evidence": "shows whether responsible participation in digital spaces is secure enough to support digital communication, attribution, and audience awareness",
       "dominant_failure_mode_targets": [
         "I2-FM-01"
@@ -230,7 +230,7 @@
       "item_id": "I2-PRE-002",
       "node_id": "I2",
       "item_family": "prerequisite_probe",
-      "prompt": "Probe file, device, and input-output workflow awareness through a short audience, impact, or systems case before closing digital communication, attribution, and audience awareness, and decide whether the current issue is really upstream.",
+      "prompt": "Probe file, device, and input-output workflow awareness through this short audience, impact, or systems artifact before closing digital communication, attribution, and audience awareness.\n\nProbe artifact\n```\nA shared class document is visible to 'anyone with the link'\n```\nDecide whether the current issue is really upstream.",
       "expected_evidence": "shows whether file, device, and input-output workflow awareness is secure enough to support digital communication, attribution, and audience awareness",
       "dominant_failure_mode_targets": [
         "I2-FM-02"

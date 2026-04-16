@@ -7,7 +7,7 @@
       "item_id": "R3-DIR-001",
       "node_id": "R3",
       "item_family": "direct_execution",
-      "prompt": "A class collects simple information from a survey or sensor reading and needs to organize it into a table or chart. Show how the learner would track what rule or operation was applied to the data.",
+      "prompt": "A class collects survey data and needs to organize it.\n\nRaw data\n```\npet\ndog\ncat\ndog\nfish\ncat\n```\nShow how the learner would track what rule or operation was applied to the data.",
       "expected_evidence": "track what rule or operation was applied to the data",
       "dominant_failure_mode_targets": [
         "R3-FM-01"
@@ -27,7 +27,7 @@
       "item_id": "R3-DIR-002",
       "node_id": "R3",
       "item_family": "direct_execution",
-      "prompt": "A small dataset is transformed in a spreadsheet or simple program. Trace the change and show how the learner would explain how a transformed table differs from the original data organization.",
+      "prompt": "A small dataset is transformed in a spreadsheet.\n\nTable\n```\nname,score\nAva,7\nLuis,4\nMina,9\n```\nRule\n```\nadd a new column called passed where score >= 5\n```\nTrace the change and show how the learner would explain how a transformed table differs from the original data organization.",
       "expected_evidence": "explain how a transformed table differs from the original data organization",
       "dominant_failure_mode_targets": [
         "R3-FM-02"
@@ -47,7 +47,7 @@
       "item_id": "R3-DIR-003",
       "node_id": "R3",
       "item_family": "direct_execution",
-      "prompt": "A modeled or computed output is produced from earlier data-handling steps. Explain the pipeline and show how the learner would connect the output representation back to the transformation process.",
+      "prompt": "A computed output is produced from earlier data-handling steps.\n\nPipeline brief\n```\ncollect step counts -> remove blanks -> average by day -> graph results\n```\nExplain the pipeline and show how the learner would connect the output representation back to the transformation process.",
       "expected_evidence": "connect the output representation back to the transformation process",
       "dominant_failure_mode_targets": [
         "R3-FM-03"
@@ -107,7 +107,7 @@
       "item_id": "R3-ERR-001",
       "node_id": "R3",
       "item_family": "error_diagnosis",
-      "prompt": "A learner response in data transformation, tables, and computational models suggests this breakdown: learner reads transformed output without understanding the rule that produced it. Diagnose the likely misconception or structural error. Focus on output-without-rule meaning.",
+      "prompt": "A learner response in data transformation, tables, and computational models suggests this breakdown: learner reads transformed output without understanding the rule that produced it.\n\nArtifact\n```\nUse the bounded case description above to point to the exact misunderstanding or unstable dependency\n```\nDiagnose the likely misconception or structural error. Focus on output-without-rule meaning.",
       "expected_evidence": "track what rule or operation was applied to the data",
       "dominant_failure_mode_targets": [
         "R3-FM-01"
@@ -127,7 +127,7 @@
       "item_id": "R3-ERR-002",
       "node_id": "R3",
       "item_family": "error_diagnosis",
-      "prompt": "A learner response in data transformation, tables, and computational models suggests this breakdown: learner loses track of what each column or transformed field represents. Diagnose the likely misconception or structural error. Focus on table-column drift.",
+      "prompt": "A learner response in data transformation, tables, and computational models suggests this breakdown: learner loses track of what each column or transformed field represents.\n\nArtifact\n```\nUse the bounded case description above to point to the exact misunderstanding or unstable dependency\n```\nDiagnose the likely misconception or structural error. Focus on table-column drift.",
       "expected_evidence": "explain how a transformed table differs from the original data organization",
       "dominant_failure_mode_targets": [
         "R3-FM-02"
@@ -147,7 +147,7 @@
       "item_id": "R3-TRA-001",
       "node_id": "R3",
       "item_family": "transfer",
-      "prompt": "The same data idea is presented once as a chart and once as a table or program output. Explain how the learner would connect the output representation back to the transformation process across the changed representation.",
+      "prompt": "The same data idea is presented once as a table and once as a chart.\n\nTable view\n```\nMon 12\nTue 15\nWed 10\n```\nChart view\n```\nbar chart with three bars labeled Mon Tue Wed\n```\nExplain how the learner would connect the output representation back to the transformation process across the changed representation.",
       "expected_evidence": "connect the output representation back to the transformation process",
       "dominant_failure_mode_targets": [
         "R3-FM-03"
@@ -167,7 +167,7 @@
       "item_id": "R3-TRA-002",
       "node_id": "R3",
       "item_family": "transfer",
-      "prompt": "A familiar classroom dataset is replaced with a less-familiar context such as attendance, weather, or game scores. Show how the learner would still avoid treating automated output as self-explanatory.",
+      "prompt": "A familiar classroom dataset is replaced with weather data.\n\nWeather data\n```\nday,temp\nMon,68\nTue,71\nWed,65\n```\nShow how the learner would still avoid treating automated output as self-explanatory.",
       "expected_evidence": "avoid treating automated output as self-explanatory",
       "dominant_failure_mode_targets": [
         "R3-FM-04"
@@ -187,7 +187,7 @@
       "item_id": "R3-RET-001",
       "node_id": "R3",
       "item_family": "retention",
-      "prompt": "After a delay, the learner revisits a new dataset, organized display, or model result and must explain what changed and what can be inferred. Show how they would track what rule or operation was applied to the data.",
+      "prompt": "After a delay, the learner revisits a new dataset and must explain what changed and what can be inferred.\n\nDelayed-check table\n```\nstudent,minutes_read\nAva,20\nLuis,35\nMina,15\n```\nShow how they would track what rule or operation was applied to the data.",
       "expected_evidence": "track what rule or operation was applied to the data",
       "dominant_failure_mode_targets": [
         "R3-FM-04"
@@ -206,7 +206,7 @@
       "item_id": "R3-PRE-001",
       "node_id": "R3",
       "item_family": "prerequisite_probe",
-      "prompt": "Check data collection, classification, and simple visualization using a bounded data display or transformation before closing data transformation, tables, and computational models, and determine whether the present error is really an upstream representation issue.",
+      "prompt": "Check data collection, classification, and simple visualization using this bounded data display before closing data transformation, tables, and computational models.\n\nProbe display\n```\nfavorite fruit counts shown in a two-column table\n```\nDetermine whether the present error is really an upstream representation issue.",
       "expected_evidence": "shows whether data collection, classification, and simple visualization is secure enough to support data transformation, tables, and computational models",
       "dominant_failure_mode_targets": [
         "R3-FM-01"
@@ -228,7 +228,7 @@
       "item_id": "R3-PRE-002",
       "node_id": "R3",
       "item_family": "prerequisite_probe",
-      "prompt": "Check algorithm design, efficiency awareness, and decomposition discipline using a bounded data display or transformation before closing data transformation, tables, and computational models, and determine whether the present error is really an upstream representation issue.",
+      "prompt": "Check algorithm design, efficiency awareness, and decomposition discipline using this bounded data display before closing data transformation, tables, and computational models.\n\nProbe display\n```\nfavorite fruit counts shown in a two-column table\n```\nDetermine whether the present error is really an upstream representation issue.",
       "expected_evidence": "shows whether algorithm design, efficiency awareness, and decomposition discipline is secure enough to support data transformation, tables, and computational models",
       "dominant_failure_mode_targets": [
         "R3-FM-02"

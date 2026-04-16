@@ -7,7 +7,7 @@
       "item_id": "X2-DIR-001",
       "node_id": "X2",
       "item_family": "direct_execution",
-      "prompt": "A learner reviews a bounded AP-style performance task or project proposal that combines code, data, systems, and impact claims. Show how they would reason across classes, methods, objects, and algorithms in one bounded program explanation.",
+      "prompt": "A learner reviews a bounded AP-style performance task.\n\nArtifact brief\n```\nApp: lunch picker\nData: student preferences\nSystem: shared web app\nImpact claim: reduces food waste\n```\nShow how they would reason across classes, methods, objects, and algorithms in one bounded program explanation.",
       "expected_evidence": "reason across classes, methods, objects, and algorithms in one bounded program explanation",
       "dominant_failure_mode_targets": [
         "X2-FM-01"
@@ -27,7 +27,7 @@
       "item_id": "X2-DIR-002",
       "node_id": "X2",
       "item_family": "direct_execution",
-      "prompt": "A class is evaluating an object-oriented or multi-component program design for an AP-style task. Show how the learner would apply object-oriented design and algorithm tradeoff thinking together.",
+      "prompt": "A class is evaluating an object-oriented or multi-component design for an AP-style task.\n\nDesign sketch\n```\nClass Menu stores meal options\nClass VoteCounter totals choices\nProgram writes results to a file\n```\nShow how they would apply object-oriented design and algorithm tradeoff thinking together.",
       "expected_evidence": "apply object-oriented design and algorithm tradeoff thinking together",
       "dominant_failure_mode_targets": [
         "X2-FM-02"
@@ -47,7 +47,7 @@
       "item_id": "X2-DIR-003",
       "node_id": "X2",
       "item_family": "direct_execution",
-      "prompt": "A capstone team proposes a cross-domain computing project with stated users, constraints, and architecture choices. Show how the learner would use testing or maintainability evidence when judging an implementation.",
+      "prompt": "A capstone team proposes a cross-domain computing project.\n\nProject brief\n```\nUsers: school garden club\nGoal: track soil moisture\nConstraints: one tablet, intermittent Wi-Fi, shared student logins\n```\nShow how they would use testing or maintainability evidence when judging an implementation.",
       "expected_evidence": "use testing or maintainability evidence when judging an implementation",
       "dominant_failure_mode_targets": [
         "X2-FM-03"
@@ -107,7 +107,7 @@
       "item_id": "X2-ERR-001",
       "node_id": "X2",
       "item_family": "error_diagnosis",
-      "prompt": "During an AP-style synthesis or project review, a learner gives a response that suggests this breakdown: learner treats ap csa as syntax or api memorization without integrated design and algorithm reasoning. Diagnose the integration mistake. Focus on syntax-first AP reasoning.",
+      "prompt": "During an AP-style synthesis or project review, a learner gives a response that suggests this breakdown: learner treats ap csa as syntax or api memorization without integrated design and algorithm reasoning.\n\nProject-review artifact\n```\nProposal includes code, data, and users, but offers no verification or risk analysis\n```\nDiagnose the integration mistake. Focus on syntax-first AP reasoning.",
       "expected_evidence": "reason across classes, methods, objects, and algorithms in one bounded program explanation",
       "dominant_failure_mode_targets": [
         "X2-FM-01"
@@ -127,7 +127,7 @@
       "item_id": "X2-ERR-002",
       "node_id": "X2",
       "item_family": "error_diagnosis",
-      "prompt": "During an AP-style synthesis or project review, a learner gives a response that suggests this breakdown: learner cannot connect class design and object behavior to the algorithm being implemented. Diagnose the integration mistake. Focus on object-algorithm disconnect.",
+      "prompt": "During an AP-style synthesis or project review, a learner gives a response that suggests this breakdown: learner cannot connect class design and object behavior to the algorithm being implemented.\n\nProject-review artifact\n```\nProposal includes code, data, and users, but offers no verification or risk analysis\n```\nDiagnose the integration mistake. Focus on object-algorithm disconnect.",
       "expected_evidence": "apply object-oriented design and algorithm tradeoff thinking together",
       "dominant_failure_mode_targets": [
         "X2-FM-02"
@@ -147,7 +147,7 @@
       "item_id": "X2-TRA-001",
       "node_id": "X2",
       "item_family": "transfer",
-      "prompt": "A learner moves from an AP-style classroom prompt to an authentic design-review or project-planning case and must still use testing or maintainability evidence when judging an implementation.",
+      "prompt": "A learner moves from an AP-style classroom prompt to an authentic design-review case.\n\nDesign-review prompt\n```\nA mobile app shares location data with a city dashboard to suggest safer walking routes\n```\nExplain how they would still use testing or maintainability evidence when judging an implementation.",
       "expected_evidence": "use testing or maintainability evidence when judging an implementation",
       "dominant_failure_mode_targets": [
         "X2-FM-03"
@@ -167,7 +167,7 @@
       "item_id": "X2-TRA-002",
       "node_id": "X2",
       "item_family": "transfer",
-      "prompt": "A bounded project changes domains, but the computing requirements, quality expectations, and reasoning structure still matter. Explain how the learner would avoid treating ap csa mastery as isolated java syntax recall.",
+      "prompt": "A bounded project changes domains, but the computing requirements still matter.\n\nNew domain brief\n```\nOriginal: library check-in tool\nNew: marine biology field log\nShared constraints: offline entry, shared data, teacher review\n```\nExplain how the learner would avoid treating ap csa mastery as isolated java syntax recall.",
       "expected_evidence": "avoid treating AP CSA mastery as isolated Java syntax recall",
       "dominant_failure_mode_targets": [
         "X2-FM-04"
@@ -187,7 +187,7 @@
       "item_id": "X2-RET-001",
       "node_id": "X2",
       "item_family": "retention",
-      "prompt": "After a delay, the learner is given a fresh AP-style synthesis or capstone-review case and must justify the design or critique using integrated computing reasoning. Show how they would reason across classes, methods, objects, and algorithms in one bounded program explanation.",
+      "prompt": "After a delay, the learner is given a fresh AP-style synthesis or capstone-review case and must justify the design or critique using integrated computing reasoning.\n\nDelayed brief\n```\nApp tracks bus arrival times\nInputs: GPS pings\nOutputs: rider alerts\nConcern: location privacy for student riders\n```\nShow how they would reason across classes, methods, objects, and algorithms in one bounded program explanation.",
       "expected_evidence": "reason across classes, methods, objects, and algorithms in one bounded program explanation",
       "dominant_failure_mode_targets": [
         "X2-FM-04"
@@ -206,7 +206,7 @@
       "item_id": "X2-PRE-001",
       "node_id": "X2",
       "item_family": "prerequisite_probe",
-      "prompt": "Before closing ap csa program design, objects, and algorithmic implementation, run a short synthesis check on object-oriented and multi-component program reasoning and determine whether the learner is blocked by an upstream readiness gap rather than the current integration target.",
+      "prompt": "Before closing ap csa program design, objects, and algorithmic implementation, run a short synthesis check on object-oriented and multi-component program reasoning.\n\nProbe artifact\n```\nCode snippet + one data table + one system-impact claim appear in the same prompt\n```\nDetermine whether the learner is blocked by an upstream readiness gap rather than the current integration target.",
       "expected_evidence": "shows whether object-oriented and multi-component program reasoning is secure enough to support ap csa program design, objects, and algorithmic implementation",
       "dominant_failure_mode_targets": [
         "X2-FM-01"
@@ -228,7 +228,7 @@
       "item_id": "X2-PRE-002",
       "node_id": "X2",
       "item_family": "prerequisite_probe",
-      "prompt": "Before closing ap csa program design, objects, and algorithmic implementation, run a short synthesis check on algorithm analysis, tradeoffs, and formalized problem solving and determine whether the learner is blocked by an upstream readiness gap rather than the current integration target.",
+      "prompt": "Before closing ap csa program design, objects, and algorithmic implementation, run a short synthesis check on algorithm analysis, tradeoffs, and formalized problem solving.\n\nProbe artifact\n```\nCode snippet + one data table + one system-impact claim appear in the same prompt\n```\nDetermine whether the learner is blocked by an upstream readiness gap rather than the current integration target.",
       "expected_evidence": "shows whether algorithm analysis, tradeoffs, and formalized problem solving is secure enough to support ap csa program design, objects, and algorithmic implementation",
       "dominant_failure_mode_targets": [
         "X2-FM-02"
@@ -250,7 +250,7 @@
       "item_id": "X2-PRE-003",
       "node_id": "X2",
       "item_family": "prerequisite_probe",
-      "prompt": "Before closing ap csa program design, objects, and algorithmic implementation, run a short synthesis check on refactoring, maintainability, and collaborative code change and determine whether the learner is blocked by an upstream readiness gap rather than the current integration target.",
+      "prompt": "Before closing ap csa program design, objects, and algorithmic implementation, run a short synthesis check on refactoring, maintainability, and collaborative code change.\n\nProbe artifact\n```\nCode snippet + one data table + one system-impact claim appear in the same prompt\n```\nDetermine whether the learner is blocked by an upstream readiness gap rather than the current integration target.",
       "expected_evidence": "shows whether refactoring, maintainability, and collaborative code change is secure enough to support ap csa program design, objects, and algorithmic implementation",
       "dominant_failure_mode_targets": [
         "X2-FM-03"

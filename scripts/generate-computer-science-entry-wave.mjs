@@ -104,124 +104,310 @@ function scenarioPrompt(node, family, index, evidence, failure, dep) {
   const templates = {
     D: {
       direct_execution: [
-        `A learner opens a classroom drawing app and needs to select the text tool, type a short label, and move it to the correct place on the canvas. Show how they would ${ev}.`,
-        `On a tablet home screen, a learner taps an icon, types in a search field, and returns to the original screen. Describe what changed after each action and how the learner would ${ev}.`,
-        `A student is trying to submit a photo to a classroom app but keeps tapping unrelated icons. Use the interface sequence to show how they should ${ev}.`,
+        `A learner opens a classroom drawing app and must label a plant diagram.
+
+${artifactBlock("UI state", "Toolbar: pointer | text | brush\nCanvas: unlabeled plant image\nGoal: add the text 'stem' next to the correct part")}
+Explain the intended sequence of interface actions and show how they would ${ev}.`,
+        `A learner starts on a tablet home screen, opens the reading app, searches for "frogs", and returns home.
+
+${artifactBlock("Observed screens", "1. Home screen with app icons\n2. Reading app library page\n3. Search results for 'frogs'\n4. Home screen again")}
+Describe what changed after each action and how the learner would ${ev}.`,
+        `A student is trying to submit a photo to a classroom app but keeps tapping unrelated icons.
+
+${artifactBlock("Icon row", "camera | classroom app | settings | weather")}
+Use the UI state and goal to show how they should ${ev}.`,
       ],
       transfer: [
-        `A learner who usually works on a tablet now has to find, open, and use the same kind of tool on a laptop. Explain how they would ${ev} in the new interface.`,
-        `A classroom switches from one app to another with different icons but the same basic actions. Explain how a learner would ${ev} without relying on random clicking.`,
+        `A learner who usually works on a tablet now must complete the same task on a laptop.
+
+${artifactBlock("Task", "Open the slide deck\nInsert one text box\nType 'Water cycle'\nSave and close")}
+Explain how they would ${ev} in the new interface.`,
+        `A classroom switches from one drawing app to another with different icon shapes but the same core actions.
+
+${artifactBlock("Old app icons", "text | image | save")}
+${artifactBlock("New app icons", "T | photo | disk")}
+Explain how a learner would ${ev} without relying on random clicking.`,
       ],
-      retention: `After a delay, the learner returns to a shared classroom device and must reopen the right app, make one bounded change, and explain how they knew the interface action worked. Show how they would ${ev}.`,
+      retention: `After a delay, the learner returns to a shared classroom device and must reopen yesterday's app, add a missing label, and confirm the change saved.
+
+${artifactBlock("Checklist", "1. Open the correct app\n2. Find the slide with the missing label\n3. Add 'roots'\n4. Save")}
+Show how they would ${ev}.`,
       prerequisite_probe: null,
     },
     P: {
       direct_execution: [
-        `A robot on a grid must reach a target square without hitting an obstacle. Write or describe the bounded program steps needed to ${ev}.`,
-        `A small interactive game needs a button press to trigger an action, or a repeated movement to continue until a goal is reached. Show how the learner would ${ev}.`,
-        `A short program is split into parts that pass values, repeat work, or update state. Trace the program and show how the learner would ${ev}.`,
+        `A robot on a grid must reach the star without hitting the wall.
+
+${artifactBlock("Grid task", "S . .\n# # .\n. . *")}
+Write or describe the bounded program steps needed to ${ev}.`,
+        `A small game should move a sprite when the space bar is pressed.
+
+${artifactBlock("Starter code", "when key 'space' pressed\n  move ? steps\n  say 'jump!'")}
+Use the snippet to show how the learner would ${ev}.`,
+        `A short program is split into parts that pass values and update state.
+
+${artifactBlock("Program", "score = 0\nfunction addBonus(points) {\n  return points + 5\n}\nscore = addBonus(score)\nif (score > 3) {\n  show 'win'\n}")}
+Trace the program and show how the learner would ${ev}.`,
       ],
       transfer: [
-        `A learner who used blocks now has to reason through the same programming idea in a text-based example. Explain how they would ${ev} in the changed representation.`,
-        `A classroom app changes from a game context to a data-processing context, but the same underlying programming structure still matters. Show how the learner would ${ev}.`,
+        `A learner who used blocks now has to reason through the same idea in text.
+
+${artifactBlock("Text version", "repeat 4 times {\n  moveForward()\n  turnRight()\n}")}
+Explain how they would ${ev} in the changed representation.`,
+        `A classroom app changes from a game context to a data-processing context.
+
+${artifactBlock("New context", "scores = [4, 7, 2]\ntotal = 0\nfor each score in scores {\n  total = total + score\n}")}
+Show how the learner would ${ev}.`,
       ],
-      retention: `After a delay, the learner revisits a bounded program and must explain the result of one function call, loop, event, or state change. Show how they would ${ev}.`,
-      prerequisite_probe: `Before closing ${title}, run a short check on ${depReadable} using a bounded programming task and determine whether the current error is really an upstream dependency issue.`,
+      retention: `After a delay, the learner revisits a bounded program and must explain one function call, loop, event, or state change.
+
+${artifactBlock("Program to revisit", "lives = 2\nwhen click\n  lives = lives - 1\n  if lives == 0\n    show 'game over'")}
+Show how they would ${ev}.`,
+      prerequisite_probe: `Before closing ${title}, run a short check on ${depReadable} using this bounded programming artifact:
+
+${artifactBlock("Probe artifact", "start = 1\nrepeat 3 times\n  start = start + 2")}
+Determine whether the current error is really an upstream dependency issue.`,
     },
     A: {
       direct_execution: [
-        `A class is designing steps for a character to collect objects in a maze. Break the task into a workable strategy and show how the learner would ${ev}.`,
-        `Two different solution plans are proposed for the same computing problem. Compare them and show how the learner would ${ev}.`,
-        `A learner must formalize a small problem before choosing an algorithmic approach. Use the given conditions and show how they would ${ev}.`,
+        `A class is designing steps for a character to collect objects in a maze.
+
+${artifactBlock("Maze rules", "Collect 3 gems\nAvoid lava tiles\nReach exit after final gem")}
+Break the task into a workable strategy and show how the learner would ${ev}.`,
+        `Two different solution plans are proposed for the same problem.
+
+${artifactBlock("Plan A", "Check every item in order until target is found")}
+${artifactBlock("Plan B", "Split the list and eliminate half each step")}
+Compare them and show how the learner would ${ev}.`,
+        `A learner must formalize a small problem before choosing an approach.
+
+${artifactBlock("Problem brief", "Input: a list of homework scores\nOutput: highest score\nConstraint: explain why your method works")}
+Use the conditions and show how they would ${ev}.`,
       ],
       transfer: [
-        `A sorting or search idea learned in one classroom task is now presented in a different surface context. Explain how the learner would ${ev} without losing the underlying structure.`,
-        `A learner must compare two unfamiliar algorithm sketches in a new context and still preserve the same analytic discipline. Show how they would ${ev}.`,
+        `A sorting idea learned with cards is now shown with playlist titles.
+
+${artifactBlock("Playlist data", "['Zoo', 'Apple', 'Moon', 'Beach']")}
+Explain how the learner would ${ev} without losing the underlying structure.`,
+        `A learner must compare two unfamiliar algorithm sketches in a new context.
+
+${artifactBlock("Sketch 1", "Recalculate every result from scratch")}
+${artifactBlock("Sketch 2", "Store intermediate results and reuse them")}
+Show how they would ${ev}.`,
       ],
-      retention: `After a delay, the learner is given a fresh bounded problem and must choose or compare a strategy rather than just repeat a memorized one. Show how they would ${ev}.`,
-      prerequisite_probe: `Probe ${depReadable} with a short decomposition or programming task before closing ${title}, and decide whether the current weakness is upstream or truly algorithmic.`,
+      retention: `After a delay, the learner is given a fresh bounded problem and must choose or compare a strategy rather than repeat a memorized one.
+
+${artifactBlock("New problem", "Find whether a name appears in a sorted class roster of 32 students")}
+Show how they would ${ev}.`,
+      prerequisite_probe: `Probe ${depReadable} with a short decomposition artifact before closing ${title}.
+
+${artifactBlock("Probe task", "Break 'make a quiz app' into smaller executable parts")}
+Decide whether the current weakness is upstream or truly algorithmic.`,
     },
     R: {
       direct_execution: [
-        `A class collects simple information from a survey or sensor reading and needs to organize it into a table or chart. Show how the learner would ${ev}.`,
-        `A small dataset is transformed in a spreadsheet or simple program. Trace the change and show how the learner would ${ev}.`,
-        `A modeled or computed output is produced from earlier data-handling steps. Explain the pipeline and show how the learner would ${ev}.`,
+        `A class collects survey data and needs to organize it.
+
+${artifactBlock("Raw data", "pet\ndog\ncat\ndog\nfish\ncat")}
+Show how the learner would ${ev}.`,
+        `A small dataset is transformed in a spreadsheet.
+
+${artifactBlock("Table", "name,score\nAva,7\nLuis,4\nMina,9")}
+${artifactBlock("Rule", "add a new column called passed where score >= 5")}
+Trace the change and show how the learner would ${ev}.`,
+        `A computed output is produced from earlier data-handling steps.
+
+${artifactBlock("Pipeline brief", "collect step counts -> remove blanks -> average by day -> graph results")}
+Explain the pipeline and show how the learner would ${ev}.`,
       ],
       transfer: [
-        `The same data idea is presented once as a chart and once as a table or program output. Explain how the learner would ${ev} across the changed representation.`,
-        `A familiar classroom dataset is replaced with a less-familiar context such as attendance, weather, or game scores. Show how the learner would still ${ev}.`,
+        `The same data idea is presented once as a table and once as a chart.
+
+${artifactBlock("Table view", "Mon 12\nTue 15\nWed 10")}
+${artifactBlock("Chart view", "bar chart with three bars labeled Mon Tue Wed")}
+Explain how the learner would ${ev} across the changed representation.`,
+        `A familiar classroom dataset is replaced with weather data.
+
+${artifactBlock("Weather data", "day,temp\nMon,68\nTue,71\nWed,65")}
+Show how the learner would still ${ev}.`,
       ],
-      retention: `After a delay, the learner revisits a new dataset, organized display, or model result and must explain what changed and what can be inferred. Show how they would ${ev}.`,
-      prerequisite_probe: `Check ${depReadable} using a bounded data display or transformation before closing ${title}, and determine whether the present error is really an upstream representation issue.`,
+      retention: `After a delay, the learner revisits a new dataset and must explain what changed and what can be inferred.
+
+${artifactBlock("Delayed-check table", "student,minutes_read\nAva,20\nLuis,35\nMina,15")}
+Show how they would ${ev}.`,
+      prerequisite_probe: `Check ${depReadable} using this bounded data display before closing ${title}.
+
+${artifactBlock("Probe display", "favorite fruit counts shown in a two-column table")}
+Determine whether the present error is really an upstream representation issue.`,
     },
     N: {
       direct_execution: [
-        `A student sends a file across a school network, and the teacher asks which devices or services are involved. Show how the learner would ${ev}.`,
-        `A classroom app stops working because a login, connection, or system layer matters. Explain the setup and show how the learner would ${ev}.`,
-        `A security scenario is presented involving access control, privacy, or a likely attack. Show how the learner would ${ev}.`,
+        `A student sends a file across a school network.
+
+${artifactBlock("Path options", "Chromebook -> Wi-Fi router -> school server -> teacher laptop")}
+Show how the learner would ${ev}.`,
+        `A classroom app stops working because a login or system layer matters.
+
+${artifactBlock("System note", "App says: 'Cannot load assignment data'\nStatus page: network online, login token expired")}
+Explain the setup and show how the learner would ${ev}.`,
+        `A security scenario involves access control and a possible attack.
+
+${artifactBlock("Security brief", "Shared club account password was posted in a group chat.\nOne student changed the page settings.")}
+Show how the learner would ${ev}.`,
       ],
       transfer: [
-        `A network or security idea learned with one classroom example is now embedded in a different system such as streaming, cloud storage, or a shared document. Explain how the learner would ${ev}.`,
-        `A learner must move from a visible device-level description to a more abstract system or threat-model case and still preserve the same reasoning. Show how they would ${ev}.`,
+        `A network or security idea learned with classroom file sharing is now embedded in cloud storage.
+
+${artifactBlock("Cloud case", "Phone uploads photo -> cloud storage -> shared album -> friend views image")}
+Explain how the learner would ${ev}.`,
+        `A learner must move from a visible device-level description to a more abstract threat-model case.
+
+${artifactBlock("Threat-model prompt", "Asset: grades database\nThreat: stolen staff password\nDefense options: MFA, stronger password, unplug Wi-Fi")}
+Show how they would ${ev}.`,
       ],
-      retention: `After a delay, the learner is given a fresh connected-system or security case and must explain the pathway, layer, risk, or defense involved. Show how they would ${ev}.`,
-      prerequisite_probe: `Use a short systems or access-control check on ${depReadable} before closing ${title}, and decide whether the current problem is actually an upstream dependency gap.`,
+      retention: `After a delay, the learner is given a fresh connected-system or security case and must explain the pathway, layer, risk, or defense involved.
+
+${artifactBlock("Delayed case", "Student tablet -> hotspot -> video app -> streaming server")}
+Show how they would ${ev}.`,
+      prerequisite_probe: `Use this short systems or access-control artifact on ${depReadable} before closing ${title}.
+
+${artifactBlock("Probe artifact", "Login page -> app dashboard -> cloud document -> share settings")}
+Decide whether the current problem is actually an upstream dependency gap.`,
     },
     C: {
       direct_execution: [
-        `A short program does not produce the intended result. Use the code, trace, or test case to show how the learner would ${ev}.`,
-        `A learner is given a specification and a small set of tests for a program. Show how they would ${ev}.`,
-        `A team reviews an existing code change and must justify a cleanup or refactor without breaking behavior. Show how the learner would ${ev}.`,
+        `A short program does not produce the intended result.
+
+${artifactBlock("Code", "count = 1\nrepeat 3 times\n  count = count + 2\nprint(count)")}
+Use the code or trace to show how the learner would ${ev}.`,
+        `A learner is given a specification and a small set of tests.
+
+${artifactBlock("Spec", "Input: a score from 0 to 10\nOutput: 'pass' if score >= 6 else 'retry'")}
+${artifactBlock("Tests", "score 8 -> pass\nscore 6 -> pass\nscore 4 -> retry")}
+Show how they would ${ev}.`,
+        `A team reviews an existing code change.
+
+${artifactBlock("Diff summary", "- duplicated score logic in three places\n+ new helper function scoreMessage(score)")}
+Show how the learner would ${ev}.`,
       ],
       transfer: [
-        `A debugging or quality idea learned in one code example is now presented in a different language or representation. Explain how the learner would ${ev} in the new context.`,
-        `A learner must evaluate a changed codebase artifact such as a diff, failed test, or review comment and still preserve the same software-quality reasoning. Show how they would ${ev}.`,
+        `A debugging idea learned in blocks is now shown in text.
+
+${artifactBlock("Text snippet", "if score > 5 {\n  show 'pass'\n} else {\n  show 'retry'\n}")}
+Explain how the learner would ${ev} in the new context.`,
+        `A learner must evaluate a changed codebase artifact.
+
+${artifactBlock("Review comment", "The new helper removed duplication, but no test covers score = 6")}
+Show how they would ${ev}.`,
       ],
-      retention: `After a delay, the learner revisits a fresh bounded bug, specification, or refactor case and must justify the next step rather than guess. Show how they would ${ev}.`,
-      prerequisite_probe: `Check ${depReadable} with a short program trace or design task before closing ${title}, and determine whether the present quality issue is actually upstream.`,
+      retention: `After a delay, the learner revisits a fresh bounded bug or specification case and must justify the next step rather than guess.
+
+${artifactBlock("Delayed bug", "name = 'Ada'\nprint('Hello' + user)")}
+Show how they would ${ev}.`,
+      prerequisite_probe: `Check ${depReadable} with this short program-trace artifact before closing ${title}.
+
+${artifactBlock("Probe artifact", "x = 2\nx = x + 3\nprint(x)")}
+Determine whether the present quality issue is actually upstream.`,
     },
     I: {
       direct_execution: [
-        `A class discussion presents a digital sharing, messaging, or online participation scenario. Show how the learner would ${ev}.`,
-        `A learner must decide how to credit a source, communicate to an audience, or respond to a computing-impact case. Show how they would ${ev}.`,
-        `A school or community technology policy case raises questions about bias, privacy, or governance. Show how the learner would ${ev}.`,
+        `A class discussion presents a digital sharing or messaging case.
+
+${artifactBlock("Message draft", "Can u send me the quiz answers before class?")}
+Show how the learner would ${ev}.`,
+        `A learner must decide how to credit a source or communicate to an audience.
+
+${artifactBlock("Slide footer", "Photo of eclipse copied from the web with no source listed")}
+Show how they would ${ev}.`,
+        `A school technology policy case raises questions about privacy or governance.
+
+${artifactBlock("Policy brief", "District wants hallway cameras to use face recognition for attendance")}
+Show how they would ${ev}.`,
       ],
       transfer: [
-        `A digital citizenship or ethics idea learned in one classroom example is now presented in a less-familiar platform or public-systems context. Explain how the learner would ${ev}.`,
-        `A learner must move from a personal-use case to a broader social or institutional computing case and still preserve the same impact reasoning. Show how they would ${ev}.`,
+        `A digital citizenship idea learned in classroom chat is now presented in a public video comment thread.
+
+${artifactBlock("Comment thread", "First comment: 'This app is trash.'\nReply box is open.")}
+Explain how the learner would ${ev}.`,
+        `A learner must move from a personal-use case to a broader public-system case.
+
+${artifactBlock("Public-system case", "A city app ranks neighborhoods for service priority using reported complaints")}
+Show how they would ${ev}.`,
       ],
-      retention: `After a delay, the learner is given a new communication, attribution, impact, or governance case and must justify the responsible choice. Show how they would ${ev}.`,
-      prerequisite_probe: `Probe ${depReadable} through a short audience, impact, or systems case before closing ${title}, and decide whether the current issue is really upstream.`,
+      retention: `After a delay, the learner is given a new communication, attribution, impact, or governance case and must justify the responsible choice.
+
+${artifactBlock("Delayed case", "Student reposts a classmate's artwork to a shared channel without naming the artist")}
+Show how they would ${ev}.`,
+      prerequisite_probe: `Probe ${depReadable} through this short audience, impact, or systems artifact before closing ${title}.
+
+${artifactBlock("Probe artifact", "A shared class document is visible to 'anyone with the link'")}
+Decide whether the current issue is really upstream.`,
     },
     X: {
       direct_execution: [
-        `A learner reviews a bounded AP-style performance task or project proposal that combines code, data, systems, and impact claims. Show how they would ${ev}.`,
-        `A class is evaluating an object-oriented or multi-component program design for an AP-style task. Show how the learner would ${ev}.`,
-        `A capstone team proposes a cross-domain computing project with stated users, constraints, and architecture choices. Show how the learner would ${ev}.`,
+        `A learner reviews a bounded AP-style performance task.
+
+${artifactBlock("Artifact brief", "App: lunch picker\nData: student preferences\nSystem: shared web app\nImpact claim: reduces food waste")}
+Show how they would ${ev}.`,
+        `A class is evaluating an object-oriented or multi-component design for an AP-style task.
+
+${artifactBlock("Design sketch", "Class Menu stores meal options\nClass VoteCounter totals choices\nProgram writes results to a file")}
+Show how they would ${ev}.`,
+        `A capstone team proposes a cross-domain computing project.
+
+${artifactBlock("Project brief", "Users: school garden club\nGoal: track soil moisture\nConstraints: one tablet, intermittent Wi-Fi, shared student logins")}
+Show how they would ${ev}.`,
       ],
       transfer: [
-        `A learner moves from an AP-style classroom prompt to an authentic design-review or project-planning case and must still ${ev}.`,
-        `A bounded project changes domains, but the computing requirements, quality expectations, and reasoning structure still matter. Explain how the learner would ${ev}.`,
+        `A learner moves from an AP-style classroom prompt to an authentic design-review case.
+
+${artifactBlock("Design-review prompt", "A mobile app shares location data with a city dashboard to suggest safer walking routes")}
+Explain how they would still ${ev}.`,
+        `A bounded project changes domains, but the computing requirements still matter.
+
+${artifactBlock("New domain brief", "Original: library check-in tool\nNew: marine biology field log\nShared constraints: offline entry, shared data, teacher review")}
+Explain how the learner would ${ev}.`,
       ],
-      retention: `After a delay, the learner is given a fresh AP-style synthesis or capstone-review case and must justify the design or critique using integrated computing reasoning. Show how they would ${ev}.`,
-      prerequisite_probe: `Before closing ${title}, run a short synthesis check on ${depReadable} and determine whether the learner is blocked by an upstream readiness gap rather than the current integration target.`,
+      retention: `After a delay, the learner is given a fresh AP-style synthesis or capstone-review case and must justify the design or critique using integrated computing reasoning.
+
+${artifactBlock("Delayed brief", "App tracks bus arrival times\nInputs: GPS pings\nOutputs: rider alerts\nConcern: location privacy for student riders")}
+Show how they would ${ev}.`,
+      prerequisite_probe: `Before closing ${title}, run a short synthesis check on ${depReadable}.
+
+${artifactBlock("Probe artifact", "Code snippet + one data table + one system-impact claim appear in the same prompt")}
+Determine whether the learner is blocked by an upstream readiness gap rather than the current integration target.`,
     },
   };
 
   if (family === "error_diagnosis") {
     if (prefix === "C") {
-      return `A learner runs a short program, sees the wrong output, and responds in a way that suggests this breakdown: ${failureDescription}. Diagnose the debugging or quality mistake. Focus on ${failureLabel}.`;
+      return `A learner runs a short program, sees the wrong output, and responds in a way that suggests this breakdown: ${failureDescription}.
+
+${artifactBlock("Code artifact", "value = 3\nif value > 5 {\n  show 'big'\n} else {\n  show 'small'\n}")}
+Diagnose the debugging or quality mistake. Focus on ${failureLabel}.`;
     }
     if (prefix === "N") {
-      return `In a network or security scenario, a learner responds in a way that suggests this breakdown: ${failureDescription}. Diagnose the systems or cybersecurity mistake. Focus on ${failureLabel}.`;
+      return `In a network or security scenario, a learner responds in a way that suggests this breakdown: ${failureDescription}.
+
+${artifactBlock("Security artifact", "Asset: shared class account\nEvent: password posted publicly\nResult: settings changed by another user")}
+Diagnose the systems or cybersecurity mistake. Focus on ${failureLabel}.`;
     }
     if (prefix === "I") {
-      return `In a digital communication or computing-impact case, a learner responds in a way that suggests this breakdown: ${failureDescription}. Diagnose the ethical or participation mistake. Focus on ${failureLabel}.`;
+      return `In a digital communication or computing-impact case, a learner responds in a way that suggests this breakdown: ${failureDescription}.
+
+${artifactBlock("Case artifact", "A student reposts a classmate's image without credit and says 'it was already online'")}
+Diagnose the ethical or participation mistake. Focus on ${failureLabel}.`;
     }
     if (prefix === "X") {
-      return `During an AP-style synthesis or project review, a learner gives a response that suggests this breakdown: ${failureDescription}. Diagnose the integration mistake. Focus on ${failureLabel}.`;
+      return `During an AP-style synthesis or project review, a learner gives a response that suggests this breakdown: ${failureDescription}.
+
+${artifactBlock("Project-review artifact", "Proposal includes code, data, and users, but offers no verification or risk analysis")}
+Diagnose the integration mistake. Focus on ${failureLabel}.`;
     }
-    return `A learner response in ${title} suggests this breakdown: ${failureDescription}. Diagnose the likely misconception or structural error. Focus on ${failureLabel}.`;
+    return `A learner response in ${title} suggests this breakdown: ${failureDescription}.
+
+${artifactBlock("Artifact", "Use the bounded case description above to point to the exact misunderstanding or unstable dependency")}
+Diagnose the likely misconception or structural error. Focus on ${failureLabel}.`;
   }
 
   if (family === "explanation") {

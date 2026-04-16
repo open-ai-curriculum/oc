@@ -7,7 +7,7 @@
       "item_id": "N1-DIR-001",
       "node_id": "N1",
       "item_family": "direct_execution",
-      "prompt": "A student sends a file across a school network, and the teacher asks which devices or services are involved. Show how the learner would name at least two connected parts in a simple digital system.",
+      "prompt": "A student sends a file across a school network.\n\nPath options\n```\nChromebook -> Wi-Fi router -> school server -> teacher laptop\n```\nShow how the learner would name at least two connected parts in a simple digital system.",
       "expected_evidence": "name at least two connected parts in a simple digital system",
       "dominant_failure_mode_targets": [
         "N1-FM-01"
@@ -27,7 +27,7 @@
       "item_id": "N1-DIR-002",
       "node_id": "N1",
       "item_family": "direct_execution",
-      "prompt": "A classroom app stops working because a login, connection, or system layer matters. Explain the setup and show how the learner would describe a bounded information movement between devices or system parts.",
+      "prompt": "A classroom app stops working because a login or system layer matters.\n\nSystem note\n```\nApp says: 'Cannot load assignment data'\nStatus page: network online, login token expired\n```\nExplain the setup and show how the learner would describe a bounded information movement between devices or system parts.",
       "expected_evidence": "describe a bounded information movement between devices or system parts",
       "dominant_failure_mode_targets": [
         "N1-FM-02"
@@ -47,7 +47,7 @@
       "item_id": "N1-DIR-003",
       "node_id": "N1",
       "item_family": "direct_execution",
-      "prompt": "A security scenario is presented involving access control, privacy, or a likely attack. Show how the learner would distinguish a local action from one that depends on a connection.",
+      "prompt": "A security scenario involves access control and a possible attack.\n\nSecurity brief\n```\nShared club account password was posted in a group chat.\nOne student changed the page settings.\n```\nShow how the learner would distinguish a local action from one that depends on a connection.",
       "expected_evidence": "distinguish a local action from one that depends on a connection",
       "dominant_failure_mode_targets": [
         "N1-FM-03"
@@ -107,7 +107,7 @@
       "item_id": "N1-ERR-001",
       "node_id": "N1",
       "item_family": "error_diagnosis",
-      "prompt": "In a network or security scenario, a learner responds in a way that suggests this breakdown: learner assumes one visible device is doing everything in a connected task. Diagnose the systems or cybersecurity mistake. Focus on single-device belief.",
+      "prompt": "In a network or security scenario, a learner responds in a way that suggests this breakdown: learner assumes one visible device is doing everything in a connected task.\n\nSecurity artifact\n```\nAsset: shared class account\nEvent: password posted publicly\nResult: settings changed by another user\n```\nDiagnose the systems or cybersecurity mistake. Focus on single-device belief.",
       "expected_evidence": "name at least two connected parts in a simple digital system",
       "dominant_failure_mode_targets": [
         "N1-FM-01"
@@ -127,7 +127,7 @@
       "item_id": "N1-ERR-002",
       "node_id": "N1",
       "item_family": "error_diagnosis",
-      "prompt": "In a network or security scenario, a learner responds in a way that suggests this breakdown: learner does not understand why a connection is needed for the bounded task. Diagnose the systems or cybersecurity mistake. Focus on connection-purpose confusion.",
+      "prompt": "In a network or security scenario, a learner responds in a way that suggests this breakdown: learner does not understand why a connection is needed for the bounded task.\n\nSecurity artifact\n```\nAsset: shared class account\nEvent: password posted publicly\nResult: settings changed by another user\n```\nDiagnose the systems or cybersecurity mistake. Focus on connection-purpose confusion.",
       "expected_evidence": "describe a bounded information movement between devices or system parts",
       "dominant_failure_mode_targets": [
         "N1-FM-02"
@@ -147,7 +147,7 @@
       "item_id": "N1-TRA-001",
       "node_id": "N1",
       "item_family": "transfer",
-      "prompt": "A network or security idea learned with one classroom example is now embedded in a different system such as streaming, cloud storage, or a shared document. Explain how the learner would distinguish a local action from one that depends on a connection.",
+      "prompt": "A network or security idea learned with classroom file sharing is now embedded in cloud storage.\n\nCloud case\n```\nPhone uploads photo -> cloud storage -> shared album -> friend views image\n```\nExplain how the learner would distinguish a local action from one that depends on a connection.",
       "expected_evidence": "distinguish a local action from one that depends on a connection",
       "dominant_failure_mode_targets": [
         "N1-FM-03"
@@ -167,7 +167,7 @@
       "item_id": "N1-TRA-002",
       "node_id": "N1",
       "item_family": "transfer",
-      "prompt": "A learner must move from a visible device-level description to a more abstract system or threat-model case and still preserve the same reasoning. Show how they would avoid describing all network activity as unexplained magic.",
+      "prompt": "A learner must move from a visible device-level description to a more abstract threat-model case.\n\nThreat-model prompt\n```\nAsset: grades database\nThreat: stolen staff password\nDefense options: MFA, stronger password, unplug Wi-Fi\n```\nShow how they would avoid describing all network activity as unexplained magic.",
       "expected_evidence": "avoid describing all network activity as unexplained magic",
       "dominant_failure_mode_targets": [
         "N1-FM-04"
@@ -187,7 +187,7 @@
       "item_id": "N1-RET-001",
       "node_id": "N1",
       "item_family": "retention",
-      "prompt": "After a delay, the learner is given a fresh connected-system or security case and must explain the pathway, layer, risk, or defense involved. Show how they would name at least two connected parts in a simple digital system.",
+      "prompt": "After a delay, the learner is given a fresh connected-system or security case and must explain the pathway, layer, risk, or defense involved.\n\nDelayed case\n```\nStudent tablet -> hotspot -> video app -> streaming server\n```\nShow how they would name at least two connected parts in a simple digital system.",
       "expected_evidence": "name at least two connected parts in a simple digital system",
       "dominant_failure_mode_targets": [
         "N1-FM-04"
@@ -206,7 +206,7 @@
       "item_id": "N1-PRE-001",
       "node_id": "N1",
       "item_family": "prerequisite_probe",
-      "prompt": "Use a short systems or access-control check on file, device, and input-output workflow awareness before closing connected devices and basic network awareness, and decide whether the current problem is actually an upstream dependency gap.",
+      "prompt": "Use this short systems or access-control artifact on file, device, and input-output workflow awareness before closing connected devices and basic network awareness.\n\nProbe artifact\n```\nLogin page -> app dashboard -> cloud document -> share settings\n```\nDecide whether the current problem is actually an upstream dependency gap.",
       "expected_evidence": "shows whether file, device, and input-output workflow awareness is secure enough to support connected devices and basic network awareness",
       "dominant_failure_mode_targets": [
         "N1-FM-01"

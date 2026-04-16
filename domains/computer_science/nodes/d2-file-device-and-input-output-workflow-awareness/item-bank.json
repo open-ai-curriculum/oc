@@ -7,7 +7,7 @@
       "item_id": "D2-DIR-001",
       "node_id": "D2",
       "item_family": "direct_execution",
-      "prompt": "A learner opens a classroom drawing app and needs to select the text tool, type a short label, and move it to the correct place on the canvas. Show how they would identify where information comes in and where it goes out in a simple workflow.",
+      "prompt": "A learner opens a classroom drawing app and must label a plant diagram.\n\nUI state\n```\nToolbar: pointer | text | brush\nCanvas: unlabeled plant image\nGoal: add the text 'stem' next to the correct part\n```\nExplain the intended sequence of interface actions and show how they would identify where information comes in and where it goes out in a simple workflow.",
       "expected_evidence": "identify where information comes in and where it goes out in a simple workflow",
       "dominant_failure_mode_targets": [
         "D2-FM-01"
@@ -27,7 +27,7 @@
       "item_id": "D2-DIR-002",
       "node_id": "D2",
       "item_family": "direct_execution",
-      "prompt": "On a tablet home screen, a learner taps an icon, types in a search field, and returns to the original screen. Describe what changed after each action and how the learner would describe a bounded file or device process as connected steps.",
+      "prompt": "A learner starts on a tablet home screen, opens the reading app, searches for \"frogs\", and returns home.\n\nObserved screens\n```\n1. Home screen with app icons\n2. Reading app library page\n3. Search results for 'frogs'\n4. Home screen again\n```\nDescribe what changed after each action and how the learner would describe a bounded file or device process as connected steps.",
       "expected_evidence": "describe a bounded file or device process as connected steps",
       "dominant_failure_mode_targets": [
         "D2-FM-02"
@@ -47,7 +47,7 @@
       "item_id": "D2-DIR-003",
       "node_id": "D2",
       "item_family": "direct_execution",
-      "prompt": "A student is trying to submit a photo to a classroom app but keeps tapping unrelated icons. Use the interface sequence to show how they should distinguish storing showing and sending as different workflow actions.",
+      "prompt": "A student is trying to submit a photo to a classroom app but keeps tapping unrelated icons.\n\nIcon row\n```\ncamera | classroom app | settings | weather\n```\nUse the UI state and goal to show how they should distinguish storing showing and sending as different workflow actions.",
       "expected_evidence": "distinguish storing showing and sending as different workflow actions",
       "dominant_failure_mode_targets": [
         "D2-FM-03"
@@ -107,7 +107,7 @@
       "item_id": "D2-ERR-001",
       "node_id": "D2",
       "item_family": "error_diagnosis",
-      "prompt": "A learner response in file, device, and input-output workflow awareness suggests this breakdown: learner confuses what a file, app, device, or display is doing in the workflow. Diagnose the likely misconception or structural error. Focus on file-device-role confusion.",
+      "prompt": "A learner response in file, device, and input-output workflow awareness suggests this breakdown: learner confuses what a file, app, device, or display is doing in the workflow.\n\nArtifact\n```\nUse the bounded case description above to point to the exact misunderstanding or unstable dependency\n```\nDiagnose the likely misconception or structural error. Focus on file-device-role confusion.",
       "expected_evidence": "identify where information comes in and where it goes out in a simple workflow",
       "dominant_failure_mode_targets": [
         "D2-FM-01"
@@ -127,7 +127,7 @@
       "item_id": "D2-ERR-002",
       "node_id": "D2",
       "item_family": "error_diagnosis",
-      "prompt": "A learner response in file, device, and input-output workflow awareness suggests this breakdown: learner cannot explain how information moves from one step to the next. Diagnose the likely misconception or structural error. Focus on input-output chain break.",
+      "prompt": "A learner response in file, device, and input-output workflow awareness suggests this breakdown: learner cannot explain how information moves from one step to the next.\n\nArtifact\n```\nUse the bounded case description above to point to the exact misunderstanding or unstable dependency\n```\nDiagnose the likely misconception or structural error. Focus on input-output chain break.",
       "expected_evidence": "describe a bounded file or device process as connected steps",
       "dominant_failure_mode_targets": [
         "D2-FM-02"
@@ -147,7 +147,7 @@
       "item_id": "D2-TRA-001",
       "node_id": "D2",
       "item_family": "transfer",
-      "prompt": "A learner who usually works on a tablet now has to find, open, and use the same kind of tool on a laptop. Explain how they would distinguish storing showing and sending as different workflow actions in the new interface.",
+      "prompt": "A learner who usually works on a tablet now must complete the same task on a laptop.\n\nTask\n```\nOpen the slide deck\nInsert one text box\nType 'Water cycle'\nSave and close\n```\nExplain how they would distinguish storing showing and sending as different workflow actions in the new interface.",
       "expected_evidence": "distinguish storing showing and sending as different workflow actions",
       "dominant_failure_mode_targets": [
         "D2-FM-03"
@@ -167,7 +167,7 @@
       "item_id": "D2-TRA-002",
       "node_id": "D2",
       "item_family": "transfer",
-      "prompt": "A classroom switches from one app to another with different icons but the same basic actions. Explain how a learner would avoid random navigation when moving through a simple digital task without relying on random clicking.",
+      "prompt": "A classroom switches from one drawing app to another with different icon shapes but the same core actions.\n\nOld app icons\n```\ntext | image | save\n```\nNew app icons\n```\nT | photo | disk\n```\nExplain how a learner would avoid random navigation when moving through a simple digital task without relying on random clicking.",
       "expected_evidence": "avoid random navigation when moving through a simple digital task",
       "dominant_failure_mode_targets": [
         "D2-FM-04"
@@ -187,7 +187,7 @@
       "item_id": "D2-RET-001",
       "node_id": "D2",
       "item_family": "retention",
-      "prompt": "After a delay, the learner returns to a shared classroom device and must reopen the right app, make one bounded change, and explain how they knew the interface action worked. Show how they would identify where information comes in and where it goes out in a simple workflow.",
+      "prompt": "After a delay, the learner returns to a shared classroom device and must reopen yesterday's app, add a missing label, and confirm the change saved.\n\nChecklist\n```\n1. Open the correct app\n2. Find the slide with the missing label\n3. Add 'roots'\n4. Save\n```\nShow how they would identify where information comes in and where it goes out in a simple workflow.",
       "expected_evidence": "identify where information comes in and where it goes out in a simple workflow",
       "dominant_failure_mode_targets": [
         "D2-FM-04"

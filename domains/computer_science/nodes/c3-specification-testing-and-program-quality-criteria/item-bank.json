@@ -7,7 +7,7 @@
       "item_id": "C3-DIR-001",
       "node_id": "C3",
       "item_family": "direct_execution",
-      "prompt": "A short program does not produce the intended result. Use the code, trace, or test case to show how the learner would state what a bounded program is required to do before judging whether it works.",
+      "prompt": "A short program does not produce the intended result.\n\nCode\n```\ncount = 1\nrepeat 3 times\n  count = count + 2\nprint(count)\n```\nUse the code or trace to show how the learner would state what a bounded program is required to do before judging whether it works.",
       "expected_evidence": "state what a bounded program is required to do before judging whether it works",
       "dominant_failure_mode_targets": [
         "C3-FM-01"
@@ -27,7 +27,7 @@
       "item_id": "C3-DIR-002",
       "node_id": "C3",
       "item_family": "direct_execution",
-      "prompt": "A learner is given a specification and a small set of tests for a program. Show how they would choose tests because they examine a specific feature, edge case, or expected failure mode.",
+      "prompt": "A learner is given a specification and a small set of tests.\n\nSpec\n```\nInput: a score from 0 to 10\nOutput: 'pass' if score >= 6 else 'retry'\n```\nTests\n```\nscore 8 -> pass\nscore 6 -> pass\nscore 4 -> retry\n```\nShow how they would choose tests because they examine a specific feature, edge case, or expected failure mode.",
       "expected_evidence": "choose tests because they examine a specific feature, edge case, or expected failure mode",
       "dominant_failure_mode_targets": [
         "C3-FM-02"
@@ -47,7 +47,7 @@
       "item_id": "C3-DIR-003",
       "node_id": "C3",
       "item_family": "direct_execution",
-      "prompt": "A team reviews an existing code change and must justify a cleanup or refactor without breaking behavior. Show how the learner would use named quality criteria rather than saying code is good because it runs once.",
+      "prompt": "A team reviews an existing code change.\n\nDiff summary\n```\n- duplicated score logic in three places\n+ new helper function scoreMessage(score)\n```\nShow how the learner would use named quality criteria rather than saying code is good because it runs once.",
       "expected_evidence": "use named quality criteria rather than saying code is good because it runs once",
       "dominant_failure_mode_targets": [
         "C3-FM-03"
@@ -107,7 +107,7 @@
       "item_id": "C3-ERR-001",
       "node_id": "C3",
       "item_family": "error_diagnosis",
-      "prompt": "A learner runs a short program, sees the wrong output, and responds in a way that suggests this breakdown: learner treats one successful execution as sufficient evidence of software quality or correctness. Diagnose the debugging or quality mistake. Focus on runs-once-equals-correct belief.",
+      "prompt": "A learner runs a short program, sees the wrong output, and responds in a way that suggests this breakdown: learner treats one successful execution as sufficient evidence of software quality or correctness.\n\nCode artifact\n```\nvalue = 3\nif value > 5 {\n  show 'big'\n} else {\n  show 'small'\n}\n```\nDiagnose the debugging or quality mistake. Focus on runs-once-equals-correct belief.",
       "expected_evidence": "state what a bounded program is required to do before judging whether it works",
       "dominant_failure_mode_targets": [
         "C3-FM-01"
@@ -127,7 +127,7 @@
       "item_id": "C3-ERR-002",
       "node_id": "C3",
       "item_family": "error_diagnosis",
-      "prompt": "A learner runs a short program, sees the wrong output, and responds in a way that suggests this breakdown: learner designs or interprets tests without anchoring them to a bounded specification. Diagnose the debugging or quality mistake. Focus on test-without-spec basis.",
+      "prompt": "A learner runs a short program, sees the wrong output, and responds in a way that suggests this breakdown: learner designs or interprets tests without anchoring them to a bounded specification.\n\nCode artifact\n```\nvalue = 3\nif value > 5 {\n  show 'big'\n} else {\n  show 'small'\n}\n```\nDiagnose the debugging or quality mistake. Focus on test-without-spec basis.",
       "expected_evidence": "choose tests because they examine a specific feature, edge case, or expected failure mode",
       "dominant_failure_mode_targets": [
         "C3-FM-02"
@@ -147,7 +147,7 @@
       "item_id": "C3-TRA-001",
       "node_id": "C3",
       "item_family": "transfer",
-      "prompt": "A debugging or quality idea learned in one code example is now presented in a different language or representation. Explain how the learner would use named quality criteria rather than saying code is good because it runs once in the new context.",
+      "prompt": "A debugging idea learned in blocks is now shown in text.\n\nText snippet\n```\nif score > 5 {\n  show 'pass'\n} else {\n  show 'retry'\n}\n```\nExplain how the learner would use named quality criteria rather than saying code is good because it runs once in the new context.",
       "expected_evidence": "use named quality criteria rather than saying code is good because it runs once",
       "dominant_failure_mode_targets": [
         "C3-FM-03"
@@ -167,7 +167,7 @@
       "item_id": "C3-TRA-002",
       "node_id": "C3",
       "item_family": "transfer",
-      "prompt": "A learner must evaluate a changed codebase artifact such as a diff, failed test, or review comment and still preserve the same software-quality reasoning. Show how they would avoid collapsing specification, implementation, and observed behavior into one unchecked claim.",
+      "prompt": "A learner must evaluate a changed codebase artifact.\n\nReview comment\n```\nThe new helper removed duplication, but no test covers score = 6\n```\nShow how they would avoid collapsing specification, implementation, and observed behavior into one unchecked claim.",
       "expected_evidence": "avoid collapsing specification, implementation, and observed behavior into one unchecked claim",
       "dominant_failure_mode_targets": [
         "C3-FM-04"
@@ -187,7 +187,7 @@
       "item_id": "C3-RET-001",
       "node_id": "C3",
       "item_family": "retention",
-      "prompt": "After a delay, the learner revisits a fresh bounded bug, specification, or refactor case and must justify the next step rather than guess. Show how they would state what a bounded program is required to do before judging whether it works.",
+      "prompt": "After a delay, the learner revisits a fresh bounded bug or specification case and must justify the next step rather than guess.\n\nDelayed bug\n```\nname = 'Ada'\nprint('Hello' + user)\n```\nShow how they would state what a bounded program is required to do before judging whether it works.",
       "expected_evidence": "state what a bounded program is required to do before judging whether it works",
       "dominant_failure_mode_targets": [
         "C3-FM-04"
@@ -206,7 +206,7 @@
       "item_id": "C3-PRE-001",
       "node_id": "C3",
       "item_family": "prerequisite_probe",
-      "prompt": "Check debugging strategy, trace reasoning, and test cases with a short program trace or design task before closing specification, testing, and program quality criteria, and determine whether the present quality issue is actually upstream.",
+      "prompt": "Check debugging strategy, trace reasoning, and test cases with this short program-trace artifact before closing specification, testing, and program quality criteria.\n\nProbe artifact\n```\nx = 2\nx = x + 3\nprint(x)\n```\nDetermine whether the present quality issue is actually upstream.",
       "expected_evidence": "shows whether debugging strategy, trace reasoning, and test cases is secure enough to support specification, testing, and program quality criteria",
       "dominant_failure_mode_targets": [
         "C3-FM-01"
@@ -228,7 +228,7 @@
       "item_id": "C3-PRE-002",
       "node_id": "C3",
       "item_family": "prerequisite_probe",
-      "prompt": "Check functions, modular program design, and abstraction boundaries with a short program trace or design task before closing specification, testing, and program quality criteria, and determine whether the present quality issue is actually upstream.",
+      "prompt": "Check functions, modular program design, and abstraction boundaries with this short program-trace artifact before closing specification, testing, and program quality criteria.\n\nProbe artifact\n```\nx = 2\nx = x + 3\nprint(x)\n```\nDetermine whether the present quality issue is actually upstream.",
       "expected_evidence": "shows whether functions, modular program design, and abstraction boundaries is secure enough to support specification, testing, and program quality criteria",
       "dominant_failure_mode_targets": [
         "C3-FM-02"

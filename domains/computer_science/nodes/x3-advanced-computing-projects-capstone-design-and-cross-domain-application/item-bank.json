@@ -7,7 +7,7 @@
       "item_id": "X3-DIR-001",
       "node_id": "X3",
       "item_family": "direct_execution",
-      "prompt": "A learner reviews a bounded AP-style performance task or project proposal that combines code, data, systems, and impact claims. Show how they would connect technical architecture, project goals, and stakeholder needs in a bounded design.",
+      "prompt": "A learner reviews a bounded AP-style performance task.\n\nArtifact brief\n```\nApp: lunch picker\nData: student preferences\nSystem: shared web app\nImpact claim: reduces food waste\n```\nShow how they would connect technical architecture, project goals, and stakeholder needs in a bounded design.",
       "expected_evidence": "connect technical architecture, project goals, and stakeholder needs in a bounded design",
       "dominant_failure_mode_targets": [
         "X3-FM-01"
@@ -27,7 +27,7 @@
       "item_id": "X3-DIR-002",
       "node_id": "X3",
       "item_family": "direct_execution",
-      "prompt": "A class is evaluating an object-oriented or multi-component program design for an AP-style task. Show how the learner would use quality, security, and maintainability reasoning while discussing project choices.",
+      "prompt": "A class is evaluating an object-oriented or multi-component design for an AP-style task.\n\nDesign sketch\n```\nClass Menu stores meal options\nClass VoteCounter totals choices\nProgram writes results to a file\n```\nShow how they would use quality, security, and maintainability reasoning while discussing project choices.",
       "expected_evidence": "use quality, security, and maintainability reasoning while discussing project choices",
       "dominant_failure_mode_targets": [
         "X3-FM-02"
@@ -47,7 +47,7 @@
       "item_id": "X3-DIR-003",
       "node_id": "X3",
       "item_family": "direct_execution",
-      "prompt": "A capstone team proposes a cross-domain computing project with stated users, constraints, and architecture choices. Show how the learner would show how computer science knowledge can be applied in another domain or authentic context without losing technical rigor.",
+      "prompt": "A capstone team proposes a cross-domain computing project.\n\nProject brief\n```\nUsers: school garden club\nGoal: track soil moisture\nConstraints: one tablet, intermittent Wi-Fi, shared student logins\n```\nShow how they would show how computer science knowledge can be applied in another domain or authentic context without losing technical rigor.",
       "expected_evidence": "show how computer science knowledge can be applied in another domain or authentic context without losing technical rigor",
       "dominant_failure_mode_targets": [
         "X3-FM-03"
@@ -107,7 +107,7 @@
       "item_id": "X3-ERR-001",
       "node_id": "X3",
       "item_family": "error_diagnosis",
-      "prompt": "During an AP-style synthesis or project review, a learner gives a response that suggests this breakdown: learner treats a large set of features as evidence of project quality without bounded design or verification reasoning. Diagnose the integration mistake. Focus on feature-count-as-capstone.",
+      "prompt": "During an AP-style synthesis or project review, a learner gives a response that suggests this breakdown: learner treats a large set of features as evidence of project quality without bounded design or verification reasoning.\n\nProject-review artifact\n```\nProposal includes code, data, and users, but offers no verification or risk analysis\n```\nDiagnose the integration mistake. Focus on feature-count-as-capstone.",
       "expected_evidence": "connect technical architecture, project goals, and stakeholder needs in a bounded design",
       "dominant_failure_mode_targets": [
         "X3-FM-01"
@@ -127,7 +127,7 @@
       "item_id": "X3-ERR-002",
       "node_id": "X3",
       "item_family": "error_diagnosis",
-      "prompt": "During an AP-style synthesis or project review, a learner gives a response that suggests this breakdown: learner discusses an applied project context without maintaining explicit computer science design, data, system, or quality reasoning. Diagnose the integration mistake. Focus on cross-domain-without-cs rigor.",
+      "prompt": "During an AP-style synthesis or project review, a learner gives a response that suggests this breakdown: learner discusses an applied project context without maintaining explicit computer science design, data, system, or quality reasoning.\n\nProject-review artifact\n```\nProposal includes code, data, and users, but offers no verification or risk analysis\n```\nDiagnose the integration mistake. Focus on cross-domain-without-cs rigor.",
       "expected_evidence": "use quality, security, and maintainability reasoning while discussing project choices",
       "dominant_failure_mode_targets": [
         "X3-FM-02"
@@ -147,7 +147,7 @@
       "item_id": "X3-TRA-001",
       "node_id": "X3",
       "item_family": "transfer",
-      "prompt": "A learner moves from an AP-style classroom prompt to an authentic design-review or project-planning case and must still show how computer science knowledge can be applied in another domain or authentic context without losing technical rigor.",
+      "prompt": "A learner moves from an AP-style classroom prompt to an authentic design-review case.\n\nDesign-review prompt\n```\nA mobile app shares location data with a city dashboard to suggest safer walking routes\n```\nExplain how they would still show how computer science knowledge can be applied in another domain or authentic context without losing technical rigor.",
       "expected_evidence": "show how computer science knowledge can be applied in another domain or authentic context without losing technical rigor",
       "dominant_failure_mode_targets": [
         "X3-FM-03"
@@ -167,7 +167,7 @@
       "item_id": "X3-TRA-002",
       "node_id": "X3",
       "item_family": "transfer",
-      "prompt": "A bounded project changes domains, but the computing requirements, quality expectations, and reasoning structure still matter. Explain how the learner would avoid treating a larger project as validated merely because it has many features.",
+      "prompt": "A bounded project changes domains, but the computing requirements still matter.\n\nNew domain brief\n```\nOriginal: library check-in tool\nNew: marine biology field log\nShared constraints: offline entry, shared data, teacher review\n```\nExplain how the learner would avoid treating a larger project as validated merely because it has many features.",
       "expected_evidence": "avoid treating a larger project as validated merely because it has many features",
       "dominant_failure_mode_targets": [
         "X3-FM-04"
@@ -187,7 +187,7 @@
       "item_id": "X3-RET-001",
       "node_id": "X3",
       "item_family": "retention",
-      "prompt": "After a delay, the learner is given a fresh AP-style synthesis or capstone-review case and must justify the design or critique using integrated computing reasoning. Show how they would connect technical architecture, project goals, and stakeholder needs in a bounded design.",
+      "prompt": "After a delay, the learner is given a fresh AP-style synthesis or capstone-review case and must justify the design or critique using integrated computing reasoning.\n\nDelayed brief\n```\nApp tracks bus arrival times\nInputs: GPS pings\nOutputs: rider alerts\nConcern: location privacy for student riders\n```\nShow how they would connect technical architecture, project goals, and stakeholder needs in a bounded design.",
       "expected_evidence": "connect technical architecture, project goals, and stakeholder needs in a bounded design",
       "dominant_failure_mode_targets": [
         "X3-FM-04"
@@ -206,7 +206,7 @@
       "item_id": "X3-PRE-001",
       "node_id": "X3",
       "item_family": "prerequisite_probe",
-      "prompt": "Before closing advanced computing projects, capstone design, and cross-domain application, run a short synthesis check on ap csp integrated computing systems, data, and impacts synthesis and determine whether the learner is blocked by an upstream readiness gap rather than the current integration target.",
+      "prompt": "Before closing advanced computing projects, capstone design, and cross-domain application, run a short synthesis check on ap csp integrated computing systems, data, and impacts synthesis.\n\nProbe artifact\n```\nCode snippet + one data table + one system-impact claim appear in the same prompt\n```\nDetermine whether the learner is blocked by an upstream readiness gap rather than the current integration target.",
       "expected_evidence": "shows whether ap csp integrated computing systems, data, and impacts synthesis is secure enough to support advanced computing projects, capstone design, and cross-domain application",
       "dominant_failure_mode_targets": [
         "X3-FM-01"
@@ -228,7 +228,7 @@
       "item_id": "X3-PRE-002",
       "node_id": "X3",
       "item_family": "prerequisite_probe",
-      "prompt": "Before closing advanced computing projects, capstone design, and cross-domain application, run a short synthesis check on ap csa program design, objects, and algorithmic implementation and determine whether the learner is blocked by an upstream readiness gap rather than the current integration target.",
+      "prompt": "Before closing advanced computing projects, capstone design, and cross-domain application, run a short synthesis check on ap csa program design, objects, and algorithmic implementation.\n\nProbe artifact\n```\nCode snippet + one data table + one system-impact claim appear in the same prompt\n```\nDetermine whether the learner is blocked by an upstream readiness gap rather than the current integration target.",
       "expected_evidence": "shows whether ap csa program design, objects, and algorithmic implementation is secure enough to support advanced computing projects, capstone design, and cross-domain application",
       "dominant_failure_mode_targets": [
         "X3-FM-02"
@@ -250,7 +250,7 @@
       "item_id": "X3-PRE-003",
       "node_id": "X3",
       "item_family": "prerequisite_probe",
-      "prompt": "Before closing advanced computing projects, capstone design, and cross-domain application, run a short synthesis check on cybersecurity mechanisms, threat models, and defensive reasoning and determine whether the learner is blocked by an upstream readiness gap rather than the current integration target.",
+      "prompt": "Before closing advanced computing projects, capstone design, and cross-domain application, run a short synthesis check on cybersecurity mechanisms, threat models, and defensive reasoning.\n\nProbe artifact\n```\nCode snippet + one data table + one system-impact claim appear in the same prompt\n```\nDetermine whether the learner is blocked by an upstream readiness gap rather than the current integration target.",
       "expected_evidence": "shows whether cybersecurity mechanisms, threat models, and defensive reasoning is secure enough to support advanced computing projects, capstone design, and cross-domain application",
       "dominant_failure_mode_targets": [
         "X3-FM-03"
@@ -272,7 +272,7 @@
       "item_id": "X3-PRE-004",
       "node_id": "X3",
       "item_family": "prerequisite_probe",
-      "prompt": "Before closing advanced computing projects, capstone design, and cross-domain application, run a short synthesis check on refactoring, maintainability, and collaborative code change and determine whether the learner is blocked by an upstream readiness gap rather than the current integration target.",
+      "prompt": "Before closing advanced computing projects, capstone design, and cross-domain application, run a short synthesis check on refactoring, maintainability, and collaborative code change.\n\nProbe artifact\n```\nCode snippet + one data table + one system-impact claim appear in the same prompt\n```\nDetermine whether the learner is blocked by an upstream readiness gap rather than the current integration target.",
       "expected_evidence": "shows whether refactoring, maintainability, and collaborative code change is secure enough to support advanced computing projects, capstone design, and cross-domain application",
       "dominant_failure_mode_targets": [
         "X3-FM-04"

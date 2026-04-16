@@ -7,7 +7,7 @@
       "item_id": "R2-DIR-001",
       "node_id": "R2",
       "item_family": "direct_execution",
-      "prompt": "A class collects simple information from a survey or sensor reading and needs to organize it into a table or chart. Show how the learner would record data with stable categories or attributes.",
+      "prompt": "A class collects survey data and needs to organize it.\n\nRaw data\n```\npet\ndog\ncat\ndog\nfish\ncat\n```\nShow how the learner would record data with stable categories or attributes.",
       "expected_evidence": "record data with stable categories or attributes",
       "dominant_failure_mode_targets": [
         "R2-FM-01"
@@ -27,7 +27,7 @@
       "item_id": "R2-DIR-002",
       "node_id": "R2",
       "item_family": "direct_execution",
-      "prompt": "A small dataset is transformed in a spreadsheet or simple program. Trace the change and show how the learner would explain the rule used to sort or classify data.",
+      "prompt": "A small dataset is transformed in a spreadsheet.\n\nTable\n```\nname,score\nAva,7\nLuis,4\nMina,9\n```\nRule\n```\nadd a new column called passed where score >= 5\n```\nTrace the change and show how the learner would explain the rule used to sort or classify data.",
       "expected_evidence": "explain the rule used to sort or classify data",
       "dominant_failure_mode_targets": [
         "R2-FM-02"
@@ -47,7 +47,7 @@
       "item_id": "R2-DIR-003",
       "node_id": "R2",
       "item_family": "direct_execution",
-      "prompt": "A modeled or computed output is produced from earlier data-handling steps. Explain the pipeline and show how the learner would match a simple visualization to the organized information it represents.",
+      "prompt": "A computed output is produced from earlier data-handling steps.\n\nPipeline brief\n```\ncollect step counts -> remove blanks -> average by day -> graph results\n```\nExplain the pipeline and show how the learner would match a simple visualization to the organized information it represents.",
       "expected_evidence": "match a simple visualization to the organized information it represents",
       "dominant_failure_mode_targets": [
         "R2-FM-03"
@@ -107,7 +107,7 @@
       "item_id": "R2-ERR-001",
       "node_id": "R2",
       "item_family": "error_diagnosis",
-      "prompt": "A learner response in data collection, classification, and simple visualization suggests this breakdown: learner records or views data without a stable organizing structure. Diagnose the likely misconception or structural error. Focus on data-pile reasoning.",
+      "prompt": "A learner response in data collection, classification, and simple visualization suggests this breakdown: learner records or views data without a stable organizing structure.\n\nArtifact\n```\nUse the bounded case description above to point to the exact misunderstanding or unstable dependency\n```\nDiagnose the likely misconception or structural error. Focus on data-pile reasoning.",
       "expected_evidence": "record data with stable categories or attributes",
       "dominant_failure_mode_targets": [
         "R2-FM-01"
@@ -127,7 +127,7 @@
       "item_id": "R2-ERR-002",
       "node_id": "R2",
       "item_family": "error_diagnosis",
-      "prompt": "A learner response in data collection, classification, and simple visualization suggests this breakdown: learner changes the classification rule during the task or mixes categories. Diagnose the likely misconception or structural error. Focus on category-drift.",
+      "prompt": "A learner response in data collection, classification, and simple visualization suggests this breakdown: learner changes the classification rule during the task or mixes categories.\n\nArtifact\n```\nUse the bounded case description above to point to the exact misunderstanding or unstable dependency\n```\nDiagnose the likely misconception or structural error. Focus on category-drift.",
       "expected_evidence": "explain the rule used to sort or classify data",
       "dominant_failure_mode_targets": [
         "R2-FM-02"
@@ -147,7 +147,7 @@
       "item_id": "R2-TRA-001",
       "node_id": "R2",
       "item_family": "transfer",
-      "prompt": "The same data idea is presented once as a chart and once as a table or program output. Explain how the learner would match a simple visualization to the organized information it represents across the changed representation.",
+      "prompt": "The same data idea is presented once as a table and once as a chart.\n\nTable view\n```\nMon 12\nTue 15\nWed 10\n```\nChart view\n```\nbar chart with three bars labeled Mon Tue Wed\n```\nExplain how the learner would match a simple visualization to the organized information it represents across the changed representation.",
       "expected_evidence": "match a simple visualization to the organized information it represents",
       "dominant_failure_mode_targets": [
         "R2-FM-03"
@@ -167,7 +167,7 @@
       "item_id": "R2-TRA-002",
       "node_id": "R2",
       "item_family": "transfer",
-      "prompt": "A familiar classroom dataset is replaced with a less-familiar context such as attendance, weather, or game scores. Show how the learner would still avoid mixing unrelated categories or changing the sorting rule mid-task.",
+      "prompt": "A familiar classroom dataset is replaced with weather data.\n\nWeather data\n```\nday,temp\nMon,68\nTue,71\nWed,65\n```\nShow how the learner would still avoid mixing unrelated categories or changing the sorting rule mid-task.",
       "expected_evidence": "avoid mixing unrelated categories or changing the sorting rule mid-task",
       "dominant_failure_mode_targets": [
         "R2-FM-04"
@@ -187,7 +187,7 @@
       "item_id": "R2-RET-001",
       "node_id": "R2",
       "item_family": "retention",
-      "prompt": "After a delay, the learner revisits a new dataset, organized display, or model result and must explain what changed and what can be inferred. Show how they would record data with stable categories or attributes.",
+      "prompt": "After a delay, the learner revisits a new dataset and must explain what changed and what can be inferred.\n\nDelayed-check table\n```\nstudent,minutes_read\nAva,20\nLuis,35\nMina,15\n```\nShow how they would record data with stable categories or attributes.",
       "expected_evidence": "record data with stable categories or attributes",
       "dominant_failure_mode_targets": [
         "R2-FM-04"
@@ -206,7 +206,7 @@
       "item_id": "R2-PRE-001",
       "node_id": "R2",
       "item_family": "prerequisite_probe",
-      "prompt": "Check symbols, encoding, and representation awareness using a bounded data display or transformation before closing data collection, classification, and simple visualization, and determine whether the present error is really an upstream representation issue.",
+      "prompt": "Check symbols, encoding, and representation awareness using this bounded data display before closing data collection, classification, and simple visualization.\n\nProbe display\n```\nfavorite fruit counts shown in a two-column table\n```\nDetermine whether the present error is really an upstream representation issue.",
       "expected_evidence": "shows whether symbols, encoding, and representation awareness is secure enough to support data collection, classification, and simple visualization",
       "dominant_failure_mode_targets": [
         "R2-FM-01"
@@ -228,7 +228,7 @@
       "item_id": "R2-PRE-002",
       "node_id": "R2",
       "item_family": "prerequisite_probe",
-      "prompt": "Check file, device, and input-output workflow awareness using a bounded data display or transformation before closing data collection, classification, and simple visualization, and determine whether the present error is really an upstream representation issue.",
+      "prompt": "Check file, device, and input-output workflow awareness using this bounded data display before closing data collection, classification, and simple visualization.\n\nProbe display\n```\nfavorite fruit counts shown in a two-column table\n```\nDetermine whether the present error is really an upstream representation issue.",
       "expected_evidence": "shows whether file, device, and input-output workflow awareness is secure enough to support data collection, classification, and simple visualization",
       "dominant_failure_mode_targets": [
         "R2-FM-02"

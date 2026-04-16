@@ -7,7 +7,7 @@
       "item_id": "C4-DIR-001",
       "node_id": "C4",
       "item_family": "direct_execution",
-      "prompt": "A short program does not produce the intended result. Use the code, trace, or test case to show how the learner would identify duplication, complexity, naming, or structure issues that affect maintainability.",
+      "prompt": "A short program does not produce the intended result.\n\nCode\n```\ncount = 1\nrepeat 3 times\n  count = count + 2\nprint(count)\n```\nUse the code or trace to show how the learner would identify duplication, complexity, naming, or structure issues that affect maintainability.",
       "expected_evidence": "identify duplication, complexity, naming, or structure issues that affect maintainability",
       "dominant_failure_mode_targets": [
         "C4-FM-01"
@@ -27,7 +27,7 @@
       "item_id": "C4-DIR-002",
       "node_id": "C4",
       "item_family": "direct_execution",
-      "prompt": "A learner is given a specification and a small set of tests for a program. Show how they would describe how a revision should preserve required behavior while improving code quality.",
+      "prompt": "A learner is given a specification and a small set of tests.\n\nSpec\n```\nInput: a score from 0 to 10\nOutput: 'pass' if score >= 6 else 'retry'\n```\nTests\n```\nscore 8 -> pass\nscore 6 -> pass\nscore 4 -> retry\n```\nShow how they would describe how a revision should preserve required behavior while improving code quality.",
       "expected_evidence": "describe how a revision should preserve required behavior while improving code quality",
       "dominant_failure_mode_targets": [
         "C4-FM-02"
@@ -47,7 +47,7 @@
       "item_id": "C4-DIR-003",
       "node_id": "C4",
       "item_family": "direct_execution",
-      "prompt": "A team reviews an existing code change and must justify a cleanup or refactor without breaking behavior. Show how the learner would interpret code changes as collaborative artifacts that need justification and review.",
+      "prompt": "A team reviews an existing code change.\n\nDiff summary\n```\n- duplicated score logic in three places\n+ new helper function scoreMessage(score)\n```\nShow how the learner would interpret code changes as collaborative artifacts that need justification and review.",
       "expected_evidence": "interpret code changes as collaborative artifacts that need justification and review",
       "dominant_failure_mode_targets": [
         "C4-FM-03"
@@ -107,7 +107,7 @@
       "item_id": "C4-ERR-001",
       "node_id": "C4",
       "item_family": "error_diagnosis",
-      "prompt": "A learner runs a short program, sees the wrong output, and responds in a way that suggests this breakdown: learner assumes a refactor is safe without checking behavior against tests or specifications. Diagnose the debugging or quality mistake. Focus on cleanup-without-proof.",
+      "prompt": "A learner runs a short program, sees the wrong output, and responds in a way that suggests this breakdown: learner assumes a refactor is safe without checking behavior against tests or specifications.\n\nCode artifact\n```\nvalue = 3\nif value > 5 {\n  show 'big'\n} else {\n  show 'small'\n}\n```\nDiagnose the debugging or quality mistake. Focus on cleanup-without-proof.",
       "expected_evidence": "identify duplication, complexity, naming, or structure issues that affect maintainability",
       "dominant_failure_mode_targets": [
         "C4-FM-01"
@@ -127,7 +127,7 @@
       "item_id": "C4-ERR-002",
       "node_id": "C4",
       "item_family": "error_diagnosis",
-      "prompt": "A learner runs a short program, sees the wrong output, and responds in a way that suggests this breakdown: learner says code is cleaner without naming what maintainability issue improved. Diagnose the debugging or quality mistake. Focus on maintainability-without-criteria.",
+      "prompt": "A learner runs a short program, sees the wrong output, and responds in a way that suggests this breakdown: learner says code is cleaner without naming what maintainability issue improved.\n\nCode artifact\n```\nvalue = 3\nif value > 5 {\n  show 'big'\n} else {\n  show 'small'\n}\n```\nDiagnose the debugging or quality mistake. Focus on maintainability-without-criteria.",
       "expected_evidence": "describe how a revision should preserve required behavior while improving code quality",
       "dominant_failure_mode_targets": [
         "C4-FM-02"
@@ -147,7 +147,7 @@
       "item_id": "C4-TRA-001",
       "node_id": "C4",
       "item_family": "transfer",
-      "prompt": "A debugging or quality idea learned in one code example is now presented in a different language or representation. Explain how the learner would interpret code changes as collaborative artifacts that need justification and review in the new context.",
+      "prompt": "A debugging idea learned in blocks is now shown in text.\n\nText snippet\n```\nif score > 5 {\n  show 'pass'\n} else {\n  show 'retry'\n}\n```\nExplain how the learner would interpret code changes as collaborative artifacts that need justification and review in the new context.",
       "expected_evidence": "interpret code changes as collaborative artifacts that need justification and review",
       "dominant_failure_mode_targets": [
         "C4-FM-03"
@@ -167,7 +167,7 @@
       "item_id": "C4-TRA-002",
       "node_id": "C4",
       "item_family": "transfer",
-      "prompt": "A learner must evaluate a changed codebase artifact such as a diff, failed test, or review comment and still preserve the same software-quality reasoning. Show how they would avoid treating cleanup as harmless when behavior preservation has not been checked.",
+      "prompt": "A learner must evaluate a changed codebase artifact.\n\nReview comment\n```\nThe new helper removed duplication, but no test covers score = 6\n```\nShow how they would avoid treating cleanup as harmless when behavior preservation has not been checked.",
       "expected_evidence": "avoid treating cleanup as harmless when behavior preservation has not been checked",
       "dominant_failure_mode_targets": [
         "C4-FM-04"
@@ -187,7 +187,7 @@
       "item_id": "C4-RET-001",
       "node_id": "C4",
       "item_family": "retention",
-      "prompt": "After a delay, the learner revisits a fresh bounded bug, specification, or refactor case and must justify the next step rather than guess. Show how they would identify duplication, complexity, naming, or structure issues that affect maintainability.",
+      "prompt": "After a delay, the learner revisits a fresh bounded bug or specification case and must justify the next step rather than guess.\n\nDelayed bug\n```\nname = 'Ada'\nprint('Hello' + user)\n```\nShow how they would identify duplication, complexity, naming, or structure issues that affect maintainability.",
       "expected_evidence": "identify duplication, complexity, naming, or structure issues that affect maintainability",
       "dominant_failure_mode_targets": [
         "C4-FM-04"
@@ -206,7 +206,7 @@
       "item_id": "C4-PRE-001",
       "node_id": "C4",
       "item_family": "prerequisite_probe",
-      "prompt": "Check specification, testing, and program quality criteria with a short program trace or design task before closing refactoring, maintainability, and collaborative code change, and determine whether the present quality issue is actually upstream.",
+      "prompt": "Check specification, testing, and program quality criteria with this short program-trace artifact before closing refactoring, maintainability, and collaborative code change.\n\nProbe artifact\n```\nx = 2\nx = x + 3\nprint(x)\n```\nDetermine whether the present quality issue is actually upstream.",
       "expected_evidence": "shows whether specification, testing, and program quality criteria is secure enough to support refactoring, maintainability, and collaborative code change",
       "dominant_failure_mode_targets": [
         "C4-FM-01"
@@ -228,7 +228,7 @@
       "item_id": "C4-PRE-002",
       "node_id": "C4",
       "item_family": "prerequisite_probe",
-      "prompt": "Check computing impacts, bias, and human-centered evaluation with a short program trace or design task before closing refactoring, maintainability, and collaborative code change, and determine whether the present quality issue is actually upstream.",
+      "prompt": "Check computing impacts, bias, and human-centered evaluation with this short program-trace artifact before closing refactoring, maintainability, and collaborative code change.\n\nProbe artifact\n```\nx = 2\nx = x + 3\nprint(x)\n```\nDetermine whether the present quality issue is actually upstream.",
       "expected_evidence": "shows whether computing impacts, bias, and human-centered evaluation is secure enough to support refactoring, maintainability, and collaborative code change",
       "dominant_failure_mode_targets": [
         "C4-FM-02"

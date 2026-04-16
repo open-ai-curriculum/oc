@@ -7,7 +7,7 @@
       "item_id": "P1-DIR-001",
       "node_id": "P1",
       "item_family": "direct_execution",
-      "prompt": "A robot on a grid must reach a target square without hitting an obstacle. Write or describe the bounded program steps needed to execute simple command sequences in order.",
+      "prompt": "A robot on a grid must reach the star without hitting the wall.\n\nGrid task\n```\nS . .\n# # .\n. . *\n```\nWrite or describe the bounded program steps needed to execute simple command sequences in order.",
       "expected_evidence": "execute simple command sequences in order",
       "dominant_failure_mode_targets": [
         "P1-FM-01"
@@ -27,7 +27,7 @@
       "item_id": "P1-DIR-002",
       "node_id": "P1",
       "item_family": "direct_execution",
-      "prompt": "A small interactive game needs a button press to trigger an action, or a repeated movement to continue until a goal is reached. Show how the learner would identify when a target fails because the order is wrong.",
+      "prompt": "A small game should move a sprite when the space bar is pressed.\n\nStarter code\n```\nwhen key 'space' pressed\n  move ? steps\n  say 'jump!'\n```\nUse the snippet to show how the learner would identify when a target fails because the order is wrong.",
       "expected_evidence": "identify when a target fails because the order is wrong",
       "dominant_failure_mode_targets": [
         "P1-FM-02"
@@ -47,7 +47,7 @@
       "item_id": "P1-DIR-003",
       "node_id": "P1",
       "item_family": "direct_execution",
-      "prompt": "A short program is split into parts that pass values, repeat work, or update state. Trace the program and show how the learner would describe a program as a set of steps rather than a wish or goal.",
+      "prompt": "A short program is split into parts that pass values and update state.\n\nProgram\n```\nscore = 0\nfunction addBonus(points) {\n  return points + 5\n}\nscore = addBonus(score)\nif (score > 3) {\n  show 'win'\n}\n```\nTrace the program and show how the learner would describe a program as a set of steps rather than a wish or goal.",
       "expected_evidence": "describe a program as a set of steps rather than a wish or goal",
       "dominant_failure_mode_targets": [
         "P1-FM-03"
@@ -107,7 +107,7 @@
       "item_id": "P1-ERR-001",
       "node_id": "P1",
       "item_family": "error_diagnosis",
-      "prompt": "A learner response in sequencing commands and programmable action suggests this breakdown: learner treats commands as if their order can be changed freely without changing the outcome. Diagnose the likely misconception or structural error. Focus on order-does-not-matter belief.",
+      "prompt": "A learner response in sequencing commands and programmable action suggests this breakdown: learner treats commands as if their order can be changed freely without changing the outcome.\n\nArtifact\n```\nUse the bounded case description above to point to the exact misunderstanding or unstable dependency\n```\nDiagnose the likely misconception or structural error. Focus on order-does-not-matter belief.",
       "expected_evidence": "execute simple command sequences in order",
       "dominant_failure_mode_targets": [
         "P1-FM-01"
@@ -127,7 +127,7 @@
       "item_id": "P1-ERR-002",
       "node_id": "P1",
       "item_family": "error_diagnosis",
-      "prompt": "A learner response in sequencing commands and programmable action suggests this breakdown: learner states the intended result but not the executable steps needed to get there. Diagnose the likely misconception or structural error. Focus on goal-step collapse.",
+      "prompt": "A learner response in sequencing commands and programmable action suggests this breakdown: learner states the intended result but not the executable steps needed to get there.\n\nArtifact\n```\nUse the bounded case description above to point to the exact misunderstanding or unstable dependency\n```\nDiagnose the likely misconception or structural error. Focus on goal-step collapse.",
       "expected_evidence": "identify when a target fails because the order is wrong",
       "dominant_failure_mode_targets": [
         "P1-FM-02"
@@ -147,7 +147,7 @@
       "item_id": "P1-TRA-001",
       "node_id": "P1",
       "item_family": "transfer",
-      "prompt": "A learner who used blocks now has to reason through the same programming idea in a text-based example. Explain how they would describe a program as a set of steps rather than a wish or goal in the changed representation.",
+      "prompt": "A learner who used blocks now has to reason through the same idea in text.\n\nText version\n```\nrepeat 4 times {\n  moveForward()\n  turnRight()\n}\n```\nExplain how they would describe a program as a set of steps rather than a wish or goal in the changed representation.",
       "expected_evidence": "describe a program as a set of steps rather than a wish or goal",
       "dominant_failure_mode_targets": [
         "P1-FM-03"
@@ -167,7 +167,7 @@
       "item_id": "P1-TRA-002",
       "node_id": "P1",
       "item_family": "transfer",
-      "prompt": "A classroom app changes from a game context to a data-processing context, but the same underlying programming structure still matters. Show how the learner would revise one step in a sequence to improve the outcome.",
+      "prompt": "A classroom app changes from a game context to a data-processing context.\n\nNew context\n```\nscores = [4, 7, 2]\ntotal = 0\nfor each score in scores {\n  total = total + score\n}\n```\nShow how the learner would revise one step in a sequence to improve the outcome.",
       "expected_evidence": "revise one step in a sequence to improve the outcome",
       "dominant_failure_mode_targets": [
         "P1-FM-04"
@@ -187,7 +187,7 @@
       "item_id": "P1-RET-001",
       "node_id": "P1",
       "item_family": "retention",
-      "prompt": "After a delay, the learner revisits a bounded program and must explain the result of one function call, loop, event, or state change. Show how they would execute simple command sequences in order.",
+      "prompt": "After a delay, the learner revisits a bounded program and must explain one function call, loop, event, or state change.\n\nProgram to revisit\n```\nlives = 2\nwhen click\n  lives = lives - 1\n  if lives == 0\n    show 'game over'\n```\nShow how they would execute simple command sequences in order.",
       "expected_evidence": "execute simple command sequences in order",
       "dominant_failure_mode_targets": [
         "P1-FM-04"
@@ -206,7 +206,7 @@
       "item_id": "P1-PRE-001",
       "node_id": "P1",
       "item_family": "prerequisite_probe",
-      "prompt": "Before closing sequencing commands and programmable action, run a short check on digital tool navigation and interface cause-effect using a bounded programming task and determine whether the current error is really an upstream dependency issue.",
+      "prompt": "Before closing sequencing commands and programmable action, run a short check on digital tool navigation and interface cause-effect using this bounded programming artifact:\n\nProbe artifact\n```\nstart = 1\nrepeat 3 times\n  start = start + 2\n```\nDetermine whether the current error is really an upstream dependency issue.",
       "expected_evidence": "shows whether digital tool navigation and interface cause-effect is secure enough to support sequencing commands and programmable action",
       "dominant_failure_mode_targets": [
         "P1-FM-01"
