@@ -1,0 +1,16 @@
+{
+  "node_id": "Q6",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "Q6-G1-01",
+      "node_id": "Q6",
+      "gate": "G1",
+      "prompt": "Use the evidence set to build a short argument or explanation for a specific audience and explain why the selected evidence supports your message.",
+      "source_type": "multi_source_evidence_set",
+      "response_mode": "oral_or_written_or_annotated",
+      "scoring_rule": "Builds a coherent claim, uses multiple relevant pieces of evidence, and adapts the communication to the audience or purpose.",
+      "failure_mode_targets": ["Q6-FM-01", "Q6-FM-02"]
+    }
+  ]
+}

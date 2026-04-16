@@ -1,0 +1,60 @@
+[
+  {
+    "item_id": "B3-IB-01",
+    "node_id": "B3",
+    "prompt": "Why is “the species changed because it needed to survive” not an acceptable explanation?",
+    "task_type": "evolution_critique",
+    "answer_key": "The explanation is not acceptable because it attributes change to need or intention rather than population-level variation, inheritance, and differential outcomes over time.",
+    "scorable_traits": [
+      "mechanism accuracy",
+      "critique quality",
+      "population reasoning"
+    ],
+    "target_failure_modes": [
+      "B3-FM-01"
+    ],
+    "context_tags": [
+      "evolution",
+      "selection"
+    ]
+  },
+  {
+    "item_id": "B3-IB-02",
+    "node_id": "B3",
+    "prompt": "What makes biodiversity evidence explanatory instead of descriptive?",
+    "task_type": "biodiversity_explanation",
+    "answer_key": "It becomes explanatory when it is connected to mechanisms such as variation, selection, isolation, or ecological pressures rather than listing differences only.",
+    "scorable_traits": [
+      "process linkage",
+      "evidence use",
+      "biological integration"
+    ],
+    "target_failure_modes": [
+      "B3-FM-03",
+      "B3-FM-04"
+    ],
+    "context_tags": [
+      "biodiversity",
+      "ecology"
+    ]
+  },
+  {
+    "item_id": "B3-IB-03",
+    "node_id": "B3",
+    "prompt": "How is drift different from selection in a bounded case?",
+    "task_type": "mechanism_comparison",
+    "answer_key": "A strong answer distinguishes random frequency change from differential outcomes tied to traits or conditions.",
+    "scorable_traits": [
+      "distinction making",
+      "concept accuracy",
+      "model fit"
+    ],
+    "target_failure_modes": [
+      "B3-FM-02"
+    ],
+    "context_tags": [
+      "population genetics",
+      "evolution"
+    ]
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "item_id": "E4-IB-01",
+    "node_id": "E4",
+    "prompt": "A graph shows an upward trend with substantial scatter. How should an explanation use the graph without overstating certainty?",
+    "task_type": "quantitative_explanation",
+    "answer_key": "The explanation should describe the overall trend while acknowledging scatter and limiting the strength of the claim accordingly.",
+    "scorable_traits": ["trend interpretation", "uncertainty calibration", "claim control"],
+    "target_failure_modes": ["E4-FM-01"],
+    "context_tags": ["graphs", "quantitative evidence"]
+  },
+  {
+    "item_id": "E4-IB-02",
+    "node_id": "E4",
+    "prompt": "Two studies report similar outcomes, but one has a much narrower sample and weaker controls. What critique is needed?",
+    "task_type": "data_critique",
+    "answer_key": "The critique should note that similar outcomes do not make the studies equally strong if one has weaker controls and less representative sampling.",
+    "scorable_traits": ["study comparison", "method critique", "evidence weighting"],
+    "target_failure_modes": ["E4-FM-02"],
+    "context_tags": ["studies", "evidence quality"]
+  },
+  {
+    "item_id": "E4-IB-03",
+    "node_id": "E4",
+    "prompt": "A learner says uncertainty means no explanation should be offered. What revision is needed?",
+    "task_type": "uncertainty_calibration",
+    "answer_key": "The revision should explain that uncertainty limits the strength and scope of the explanation but does not automatically eliminate all supported inference.",
+    "scorable_traits": ["uncertainty reasoning", "claim calibration", "epistemic discipline"],
+    "target_failure_modes": ["E4-FM-03"],
+    "context_tags": ["uncertainty", "argumentation"]
+  }
+]

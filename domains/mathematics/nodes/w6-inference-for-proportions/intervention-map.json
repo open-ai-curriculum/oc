@@ -1,0 +1,37 @@
+{
+  "node_id": "W6",
+  "interventions": [
+    {
+      "failure_mode": "inference_design_fragmentation",
+      "strategies": [
+        "pair each inference claim with the sample and design features that must be true for the claim to hold",
+        "compare matched studies that differ only in sampling method or design quality",
+        "require learners to restate a conclusion with explicit uncertainty and scope limits"
+      ]
+    },
+    {
+      "failure_mode": "representativeness_opacity",
+      "strategies": [
+        "compare random, convenience, and biased samples drawn from the same hypothetical population",
+        "use teacher think-alouds naming who is represented and who may be missing",
+        "require learners to explain why the sample should or should not generalize"
+      ]
+    },
+    {
+      "failure_mode": "causal_claim_leap",
+      "strategies": [
+        "compare surveys, observational studies, and experiments on the same topic and discuss claim limits",
+        "require learners to name what extra design feature would be needed to support a causal claim",
+        "use matched examples where a strong association still does not justify causation"
+      ]
+    },
+    {
+      "failure_mode": "bias_source_blindness",
+      "strategies": [
+        "use study-review routines that check sample selection, measurement method, and confounding factors one by one",
+        "compare stronger and weaker studies of the same question and identify the design weakness",
+        "require learners to name the most likely bias or weakness before accepting a conclusion"
+      ]
+    }
+  ]
+}

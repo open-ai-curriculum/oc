@@ -1,37 +1,128 @@
 {
   "node_id": "C5",
+  "policy_version": "1.0",
   "items": [
     {
-      "item_id": "C5-A1",
-      "item_family": "direct",
-      "prompt": "recognizes bounded early numerals reliably in varied formats",
+      "item_id": "C5-DIR-001",
+      "node_id": "C5",
+      "item_family": "direct_execution",
+      "prompt": "Describe the rigid transformation that maps one figure onto the other on a coordinate grid.",
       "expected_evidence": "identify named numerals in mixed sets",
       "dominant_failure_mode": "symbol_name_instability",
-      "scoring_guidance": "Meets when the learner completes the direct task accurately."
+      "scoring_guidance": "Meets when the learner demonstrates identify named numerals in mixed sets with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "C5-B1",
-      "item_family": "explanation",
-      "prompt": "matches spoken number names to written numerals",
+      "item_id": "C5-DIR-002",
+      "node_id": "C5",
+      "item_family": "direct_execution",
+      "prompt": "Classify the triangle and justify the classification using its defining attributes.",
       "expected_evidence": "say the number name for shown numerals and select a numeral for a spoken number",
       "dominant_failure_mode": "orientation_reversal",
-      "scoring_guidance": "Meets when the learner explains the concept coherently."
+      "scoring_guidance": "Meets when the learner demonstrates say the number name for shown numerals and select a numeral for a spoken number with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "C5-C1",
-      "item_family": "error_diagnosis",
-      "prompt": "Diagnose a peer error aligned to symbol_set_confusion.",
+      "item_id": "C5-DIR-003",
+      "node_id": "C5",
+      "item_family": "direct_execution",
+      "prompt": "Find a missing angle or side measure using the structure of the diagram.",
       "expected_evidence": "write bounded early numerals with stable orientation and distinguishing features",
       "dominant_failure_mode": "symbol_set_confusion",
-      "scoring_guidance": "Meets when the learner identifies the source of the error and states the correct reasoning."
+      "scoring_guidance": "Meets when the learner demonstrates write bounded early numerals with stable orientation and distinguishing features with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
     },
     {
-      "item_id": "C5-D1",
+      "item_id": "C5-EXP-001",
+      "node_id": "C5",
+      "item_family": "explanation",
+      "prompt": "Explain which properties remain unchanged under a rigid transformation and why that supports congruence.",
+      "expected_evidence": "identify named numerals in mixed sets",
+      "dominant_failure_mode": "orientation_reversal",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to identify named numerals in mixed sets.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "C5-EXP-002",
+      "node_id": "C5",
+      "item_family": "explanation",
+      "prompt": "Explain why the figure belongs to a category in the shape hierarchy.",
+      "expected_evidence": "say the number name for shown numerals and select a numeral for a spoken number",
+      "dominant_failure_mode": "symbol_set_confusion",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to say the number name for shown numerals and select a numeral for a spoken number.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "C5-ERR-001",
+      "node_id": "C5",
+      "item_family": "error_diagnosis",
+      "prompt": "A student claims two figures are congruent because they look the same size by eye. Diagnose the justification gap. Focus on symbol name instability.",
+      "expected_evidence": "identify named numerals in mixed sets",
+      "dominant_failure_mode": "symbol_name_instability",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward identify named numerals in mixed sets.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "C5-ERR-002",
+      "node_id": "C5",
+      "item_family": "error_diagnosis",
+      "prompt": "A student reflects a point across the x-axis but changes both coordinates. Identify the transformation error. Focus on orientation reversal.",
+      "expected_evidence": "say the number name for shown numerals and select a numeral for a spoken number",
+      "dominant_failure_mode": "orientation_reversal",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward say the number name for shown numerals and select a numeral for a spoken number.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "C5-TRA-001",
+      "node_id": "C5",
       "item_family": "transfer",
-      "prompt": "succeeds across cards, charts, tracing, and independent writing tasks",
-      "expected_evidence": "distinguish numerals from letters, shapes, or quantity pictures",
+      "prompt": "Use a transformation or coordinate argument to justify whether two figures are congruent in a less-familiar diagram.",
+      "expected_evidence": "identify named numerals in mixed sets",
+      "dominant_failure_mode": "symbol_set_confusion",
+      "scoring_guidance": "Meets when the learner preserves identify named numerals in mixed sets in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "C5-TRA-002",
+      "node_id": "C5",
+      "item_family": "transfer",
+      "prompt": "Apply angle or triangle reasoning in a contextual or composite-figure setting.",
+      "expected_evidence": "say the number name for shown numerals and select a numeral for a spoken number",
       "dominant_failure_mode": "rote_sequence_without_symbol_access",
-      "scoring_guidance": "Meets when the learner succeeds in a less-familiar context."
+      "scoring_guidance": "Meets when the learner preserves say the number name for shown numerals and select a numeral for a spoken number in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "C5-RET-001",
+      "node_id": "C5",
+      "item_family": "retention",
+      "prompt": "After a delay, describe a rigid motion on a grid and explain which measurements are preserved.",
+      "expected_evidence": "identify named numerals in mixed sets",
+      "dominant_failure_mode": "rote_sequence_without_symbol_access",
+      "scoring_guidance": "Meets when the learner still demonstrates identify named numerals in mixed sets on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "C5-PRE-001",
+      "node_id": "C5",
+      "item_family": "prerequisite_probe",
+      "prompt": "Check cardinality first so the system can distinguish an upstream spatial-structure gap from a true numeral recognition and writing readiness misunderstanding.",
+      "expected_evidence": "shows whether cardinality is secure enough to support numeral recognition and writing readiness",
+      "dominant_failure_mode": "orientation_reversal",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in cardinality from a current-node issue in numeral recognition and writing readiness.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "C3",
+      "suspected_knowledge_gap_if_incorrect": "cardinality"
     }
   ]
 }

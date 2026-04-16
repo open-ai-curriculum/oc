@@ -1,0 +1,26 @@
+{
+  "node_id": "D1",
+  "version": "0.1",
+  "interventions": {
+    "D1-FM-01": [
+      "restate the design goal in one sentence",
+      "contrast the problem to solve with extra background details",
+      "ask what the design must help the user or object do"
+    ],
+    "D1-FM-02": [
+      "sort statements into success goals versus limits",
+      "label one example of a criterion and one example of a constraint",
+      "compare two design tasks with different material or size limits"
+    ],
+    "D1-FM-03": [
+      "check each solution against the stated conditions one at a time",
+      "use a simple checklist for criteria and constraints",
+      "compare a fitting and non-fitting design sketch"
+    ],
+    "D1-FM-04": [
+      "repeat the same design reasoning routine across shelter bridge and water tasks",
+      "preserve the criteria-constraints structure while changing the problem",
+      "fade scaffolds after a successful familiar example"
+    ]
+  }
+}

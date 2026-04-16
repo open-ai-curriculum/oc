@@ -1,0 +1,32 @@
+[
+  {
+    "item_id": "P6-IB-01",
+    "node_id": "P6",
+    "prompt": "Why is it incomplete to explain a material property only with a macroscopic description when atomic interaction evidence is available?",
+    "task_type": "multiscale_physical_explanation",
+    "answer_key": "The explanation should connect the observed material property to relevant atomic or interaction models when the evidence supports that link.",
+    "scorable_traits": ["scale coordination", "model integration", "physical reasoning"],
+    "target_failure_modes": ["P6-FM-01"],
+    "context_tags": ["materials", "multiscale"]
+  },
+  {
+    "item_id": "P6-IB-02",
+    "node_id": "P6",
+    "prompt": "A learner combines chemistry and physics terms in one answer but never states what each model contributes. What critique is needed?",
+    "task_type": "model_coordination_analysis",
+    "answer_key": "The critique should require explicit explanation of each model's role and limit, rather than accepting mixed vocabulary as real integration.",
+    "scorable_traits": ["model roles", "false integration detection", "critique quality"],
+    "target_failure_modes": ["P6-FM-02"],
+    "context_tags": ["models", "integration"]
+  },
+  {
+    "item_id": "P6-IB-03",
+    "node_id": "P6",
+    "prompt": "What makes a quantitative critique of an advanced physical explanation stronger than simply saying the numbers look wrong?",
+    "task_type": "physical_evidence_critique",
+    "answer_key": "A stronger critique identifies which quantitative relationship, uncertainty range, or model assumption is violated or unsupported by the evidence.",
+    "scorable_traits": ["quantitative critique", "precision", "evidence-model linkage"],
+    "target_failure_modes": ["P6-FM-03"],
+    "context_tags": ["quantitative critique", "physical systems"]
+  }
+]

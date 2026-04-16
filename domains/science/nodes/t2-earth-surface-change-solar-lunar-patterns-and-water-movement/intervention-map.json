@@ -1,0 +1,26 @@
+{
+  "node_id": "T2",
+  "version": "0.1",
+  "interventions": {
+    "T2-FM-01": [
+      "compare before-and-after land or soil images",
+      "ask what moved changed or was carried away",
+      "use simple arrows or labels on the changed surface"
+    ],
+    "T2-FM-02": [
+      "chart sun or moon observations across several days",
+      "ask what repeated and what changed",
+      "use simple sequence images of the same sky event over time"
+    ],
+    "T2-FM-03": [
+      "trace where water starts moves and collects in a simple diagram",
+      "ask what direction the water went",
+      "compare flowing soaking and collecting examples"
+    ],
+    "T2-FM-04": [
+      "separate observed Earth/space evidence from imagined causes",
+      "ask what was actually seen in the chart image or local example",
+      "compare a science explanation with a pretend explanation"
+    ]
+  }
+}

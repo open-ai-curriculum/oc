@@ -1,0 +1,301 @@
+{
+  "node_id": "F3",
+  "policy_version": "1.0",
+  "version": "0.3",
+  "items": [
+    {
+      "item_id": "F3-D-001",
+      "family": "direct_execution",
+      "prompt": "Complete a bounded alphabetic-principle task that requires the learner to read supported connected text with growing automaticity.",
+      "target_node": "F3",
+      "secondary_dependency_targets": [
+        "F2",
+        "P2"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_response",
+        "written_marking",
+        "manipulative_selection"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "F3-FM-01",
+        "F3-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "F3-D-002",
+      "family": "direct_execution",
+      "prompt": "Show automatic word recognition and connected text fluency in a fresh but controlled alphabetic-principle task and make the learner maintain accuracy while tracking through text.",
+      "target_node": "F3",
+      "secondary_dependency_targets": [
+        "F2",
+        "P2"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_response",
+        "written_marking",
+        "manipulative_selection"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "F3-FM-02",
+        "F3-FM-03"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "F3-D-003",
+      "family": "direct_execution",
+      "prompt": "Use a slightly less-routine alphabetic-principle task to determine whether the learner can still preserve meaning while reading, not only pronounce isolated words.",
+      "target_node": "F3",
+      "secondary_dependency_targets": [
+        "F2",
+        "P2"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "oral_response",
+        "written_marking",
+        "manipulative_selection"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "F3-FM-03",
+        "F3-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "F3-D-004",
+      "family": "direct_execution",
+      "prompt": "Perform automatic word recognition and connected text fluency under a changed format within the same boundary and verify the learner can still support the move into sentence-level comprehension.",
+      "target_node": "F3",
+      "secondary_dependency_targets": [
+        "F2",
+        "P2"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "oral_response",
+        "written_marking",
+        "manipulative_selection"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "F3-FM-04",
+        "F3-FM-01"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "F3-E-001",
+      "family": "explanation",
+      "prompt": "Explain or annotate how the learner shows that they can read supported connected text with growing automaticity, and identify which evidence in the response demonstrates the intended meaning.",
+      "target_node": "F3",
+      "secondary_dependency_targets": [
+        "F2",
+        "P2"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_response",
+        "teacher_annotation",
+        "written_marking"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "F3-FM-01"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "F3-E-002",
+      "family": "explanation",
+      "prompt": "Ask for a brief justification, annotation, or teacher-scored explanation showing why the response used for automatic word recognition and connected text fluency is valid rather than routine only.",
+      "target_node": "F3",
+      "secondary_dependency_targets": [
+        "F2",
+        "P2"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_response",
+        "teacher_annotation",
+        "written_marking"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "F3-FM-02"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "F3-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A learner attempt shows labored-word-by-word reading. Diagnose the earliest breakdown and state what evidence separates it from secure automatic word recognition and connected text fluency.",
+      "target_node": "F3",
+      "secondary_dependency_targets": [
+        "F2",
+        "P2"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "F3-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "F3-C-002",
+      "family": "error_diagnosis",
+      "prompt": "Review a mismatched response that reflects tracking instability. Identify the dominant failure mode and explain why this is not just a minor performance slip.",
+      "target_node": "F3",
+      "secondary_dependency_targets": [
+        "F2",
+        "P2"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "F3-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "F3-T-001",
+      "family": "transfer",
+      "prompt": "Use automatic word recognition and connected text fluency in a changed word set, letter pattern, or encoding surface and judge whether the learner preserves the same underlying capability.",
+      "target_node": "F3",
+      "secondary_dependency_targets": [
+        "F2",
+        "P2"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "oral_response",
+        "written_marking",
+        "manipulative_selection"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "F3-FM-03"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "F3-T-002",
+      "family": "transfer",
+      "prompt": "Shift the learner into a changed word set, letter pattern, or encoding surface and require a response that still demonstrates automatic word recognition and connected text fluency without relying on the original routine.",
+      "target_node": "F3",
+      "secondary_dependency_targets": [
+        "F2",
+        "P2"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "oral_response",
+        "written_marking",
+        "manipulative_selection"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "F3-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "F3-R-001",
+      "family": "retention",
+      "prompt": "After approximately 14 days, run a fresh alphabetic-principle task to confirm the learner still demonstrates automatic word recognition and connected text fluency without re-teaching inside the check.",
+      "target_node": "F3",
+      "secondary_dependency_targets": [
+        "F2",
+        "P2"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "oral_response",
+        "written_marking",
+        "manipulative_selection"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "F3-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability"
+    },
+    {
+      "item_id": "F3-P-001",
+      "family": "prerequisite_probe",
+      "prompt": "Before assigning automatic word recognition and connected text fluency, probe whether decoding and encoding simple words is secure enough to support the current task.",
+      "target_node": "F3",
+      "secondary_dependency_targets": [
+        "F2",
+        "P2"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_response",
+        "teacher_annotation",
+        "written_marking"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "F3-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_disambiguation",
+      "dependency_target": "F2",
+      "suspected_knowledge_gap_if_incorrect": "decoding and encoding simple words"
+    },
+    {
+      "item_id": "F3-P-002",
+      "family": "prerequisite_probe",
+      "prompt": "Use a quick dependency check on concept of word spacing and text tracking to decide whether weak performance on automatic word recognition and connected text fluency is upstream or node-specific.",
+      "target_node": "F3",
+      "secondary_dependency_targets": [
+        "F2",
+        "P2"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_response",
+        "teacher_annotation",
+        "written_marking"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "F3-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_disambiguation",
+      "dependency_target": "P2",
+      "suspected_knowledge_gap_if_incorrect": "concept of word spacing and text tracking"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+[
+  {
+    "item_id": "C2-IB-01",
+    "node_id": "C2",
+    "prompt": "Why is “it sticks together because of bonds” too weak as an explanation?",
+    "task_type": "bonding_critique",
+    "answer_key": "A strong answer distinguishes what type of interaction is present and how that interaction explains the observed property.",
+    "scorable_traits": [
+      "precision",
+      "model selection",
+      "chemistry reasoning"
+    ],
+    "target_failure_modes": [
+      "C2-FM-01"
+    ],
+    "context_tags": [
+      "bonding",
+      "structure"
+    ]
+  },
+  {
+    "item_id": "C2-IB-02",
+    "node_id": "C2",
+    "prompt": "How can molecular shape matter for a property claim?",
+    "task_type": "shape_property_reasoning",
+    "answer_key": "Shape can affect polarity and interaction patterns, which can change properties such as boiling point or solubility.",
+    "scorable_traits": [
+      "structure-property linkage",
+      "causal reasoning",
+      "transfer"
+    ],
+    "target_failure_modes": [
+      "C2-FM-02",
+      "C2-FM-03"
+    ],
+    "context_tags": [
+      "molecular geometry",
+      "properties"
+    ]
+  },
+  {
+    "item_id": "C2-IB-03",
+    "node_id": "C2",
+    "prompt": "When is it risky to call one force simply stronger?",
+    "task_type": "interaction_comparison",
+    "answer_key": "It is risky when the comparison ignores context, structure, quantity, or what property is actually being explained.",
+    "scorable_traits": [
+      "claim boundary",
+      "comparison discipline",
+      "evidence use"
+    ],
+    "target_failure_modes": [
+      "C2-FM-04"
+    ],
+    "context_tags": [
+      "intermolecular forces",
+      "comparison"
+    ]
+  }
+]

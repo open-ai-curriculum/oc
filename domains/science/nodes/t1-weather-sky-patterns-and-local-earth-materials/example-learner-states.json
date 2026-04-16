@@ -1,0 +1,44 @@
+{
+  "node_id": "T1",
+  "examples": [
+    {
+      "learner_id": "sample-t1-blocked-01",
+      "node_id": "T1",
+      "status": "blocked",
+      "dependency_status": {
+        "Q1": "secure",
+        "E1": "secure"
+      },
+      "direct_accuracy": 0.5,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["T1-FM-02", "T1-FM-03"],
+      "recommended_interventions": [
+        "highlight repeated observations on a class chart",
+        "compare two local materials side by side"
+      ],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Can notice a single observation but does not yet track patterns over time or compare Earth materials consistently."
+    },
+    {
+      "learner_id": "sample-t1-secure-01",
+      "node_id": "T1",
+      "status": "secure",
+      "dependency_status": {
+        "Q1": "secure",
+        "E1": "secure"
+      },
+      "direct_accuracy": 0.95,
+      "explanation_status": "met",
+      "transfer_status": "met",
+      "retention_status": "met",
+      "dominant_failure_modes": [],
+      "recommended_interventions": [],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Describes weather and sky observations, notices simple patterns, and compares local Earth materials by observable properties."
+    }
+  ]
+}

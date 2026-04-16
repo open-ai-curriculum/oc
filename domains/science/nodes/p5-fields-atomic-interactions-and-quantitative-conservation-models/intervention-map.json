@@ -1,0 +1,29 @@
+{
+  "node_id": "P5",
+  "interventions": [
+    {
+      "failure_mode": "P5-FM-01",
+      "intervention_id": "P5-INT-01",
+      "name": "Contact Versus Field Model Choice",
+      "delivery": "comparison routine"
+    },
+    {
+      "failure_mode": "P5-FM-02",
+      "intervention_id": "P5-INT-02",
+      "name": "Atomic Model Boundary Check",
+      "delivery": "representation audit"
+    },
+    {
+      "failure_mode": "P5-FM-03",
+      "intervention_id": "P5-INT-03",
+      "name": "Closed-System Conservation Audit",
+      "delivery": "quantitative review"
+    },
+    {
+      "failure_mode": "P5-FM-04",
+      "intervention_id": "P5-INT-04",
+      "name": "Quantity To Model Meaning",
+      "delivery": "interpretation scaffold"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "item_id": "T4-IB-01",
+    "node_id": "T4",
+    "prompt": "A student says mountains only appear because rock piles up over time. What mechanism-oriented revision is needed?",
+    "task_type": "plate_process_explanation",
+    "answer_key": "The explanation should connect mountain formation to bounded Earth-process or plate-interaction models rather than a simple pile-up description.",
+    "scorable_traits": ["process model", "mechanism language", "revision quality"],
+    "target_failure_modes": ["T4-FM-01"],
+    "context_tags": ["plate processes", "surface change"]
+  },
+  {
+    "item_id": "T4-IB-02",
+    "node_id": "T4",
+    "prompt": "Trace water through at least two reservoirs after rainfall and explain why a one-arrow loop is incomplete.",
+    "task_type": "water_cycle_reasoning",
+    "answer_key": "Water can move among multiple reservoirs such as surface water, groundwater, atmosphere, and organisms, so a one-arrow loop misses system complexity.",
+    "scorable_traits": ["reservoir tracing", "system complexity", "bounded explanation"],
+    "target_failure_modes": ["T4-FM-02"],
+    "context_tags": ["water cycle", "Earth systems"]
+  },
+  {
+    "item_id": "T4-IB-03",
+    "node_id": "T4",
+    "prompt": "Why is it incomplete to explain an Earth-space event by naming only one object in the system?",
+    "task_type": "space_system_interaction",
+    "answer_key": "The explanation should include how objects interact within the system rather than naming one object as the entire cause.",
+    "scorable_traits": ["system interaction", "cause-effect control", "precision"],
+    "target_failure_modes": ["T4-FM-03"],
+    "context_tags": ["space systems", "interactions"]
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "learner_id": "example-fr2-emerging",
+    "node_id": "FR2",
+    "status": "emerging",
+    "dependency_status": {
+      "FR1": "secure"
+    },
+    "direct_accuracy": 0.78,
+    "explanation_status": "weak",
+    "transfer_status": "weak",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["FR2-FM-02", "FR2-FM-03"],
+    "recommended_interventions": [
+      "pair reading-like and encoding-like use of the same target",
+      "prompt what sound the print is representing"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Learner maps familiar items but does not consistently explain or apply the print-encoding relationship across directions."
+  }
+]

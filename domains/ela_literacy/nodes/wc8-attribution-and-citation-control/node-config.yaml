@@ -1,0 +1,42 @@
+id: WC8
+name: attribution_and_citation_control
+domain: ela_literacy
+support_tier: Core release
+maturity_state: Drafted
+supported_profiles:
+- research-writing-node-package
+evidence_class: Synthetic
+dependencies:
+- WC7
+- L3
+mastery:
+  direct_accuracy_threshold: 0.85
+  explanation_required: true
+  transfer_required: true
+  retention_check_days: 21
+statuses:
+- blocked
+- emerging
+- provisional
+- secure
+- unstable
+verification_gates:
+- id: G1
+  type: direct_performance
+  pass_rule: maintains usable attribution and citation control in research writing
+    in at least 5 of 6 supported opportunities
+- id: G2
+  type: meaning
+  pass_rule: attribution remains interpretable and appropriately linked to source
+    use in at least 4 of 5 prompts
+- id: G3
+  type: transfer
+  pass_rule: succeeds across at least one changed source set or citation-format surface
+- id: G4
+  type: retention
+  pass_rule: stable delayed recheck after approximately 21 days
+failure_modes:
+- WC8-FM-01
+- WC8-FM-02
+- WC8-FM-03
+- WC8-FM-04

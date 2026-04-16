@@ -1,0 +1,41 @@
+[
+  {
+    "learner_id": "ela-sample-r5-blocked",
+    "node_id": "R5",
+    "status": "blocked",
+    "dependency_status": {
+      "RC6": "secure"
+    },
+    "direct_accuracy": 0.46,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["R5-FM-01", "R5-FM-03"],
+    "recommended_interventions": [
+      "author-claim plus support frame",
+      "structure-and-source feature sort"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Retells informational content but struggles to analyze author claim or source role."
+  },
+  {
+    "learner_id": "ela-sample-r5-provisional",
+    "node_id": "R5",
+    "status": "provisional",
+    "dependency_status": {
+      "RC6": "secure"
+    },
+    "direct_accuracy": 0.89,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [
+      "brief changed-source informational analysis review"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Analyzes author claim and source use across short informational texts."
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "node_id": "B2",
+  "interventions": [
+    {
+      "intervention_id": "B2-INT-01",
+      "name": "B2 Intervention 1",
+      "addresses_failure_modes": [
+        "B2-FM-01"
+      ],
+      "summary": "gene-expression flow maps that force explicit intermediate reasoning from DNA to trait"
+    },
+    {
+      "intervention_id": "B2-INT-02",
+      "name": "B2 Intervention 2",
+      "addresses_failure_modes": [
+        "B2-FM-02"
+      ],
+      "summary": "genotype-phenotype-environment comparison tables to separate causal roles"
+    },
+    {
+      "intervention_id": "B2-INT-03",
+      "name": "B2 Intervention 3",
+      "addresses_failure_modes": [
+        "B2-FM-03"
+      ],
+      "summary": "inheritance-case sorts that distinguish transmission patterns from molecular explanation"
+    },
+    {
+      "intervention_id": "B2-INT-04",
+      "name": "B2 Intervention 4",
+      "addresses_failure_modes": [
+        "B2-FM-04"
+      ],
+      "summary": "biotechnology evidence reviews that focus on method limits and claim scope"
+    }
+  ]
+}

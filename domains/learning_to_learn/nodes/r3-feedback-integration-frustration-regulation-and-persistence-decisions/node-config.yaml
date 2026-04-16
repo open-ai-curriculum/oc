@@ -1,0 +1,26 @@
+id: R3
+name: feedback_integration_frustration_regulation_and_persistence_decisions
+domain: learning_to_learn
+support_tier: Incubation
+maturity_state: Drafted
+supported_profiles:
+  - cross-domain-learning-support-node-package
+evidence_class: Synthetic
+dependencies: [R2, S2]
+mastery:
+  direct_accuracy_threshold: 0.80
+  explanation_required: false
+  transfer_required: true
+  retention_check_days: 14
+statuses: [blocked, emerging, provisional, secure, unstable]
+verification_gates:
+  - id: G1
+    type: direct_performance
+    pass_rule: feedback integration regulation and persistence decision in at least 4 of 5 structured opportunities
+  - id: G2
+    type: transfer
+    pass_rule: successful feedback-and-revision routine in at least one changed task or feedback format
+  - id: G3
+    type: retention
+    pass_rule: stable recheck performance after approximately 14 days
+failure_modes: [R3-FM-01, R3-FM-02, R3-FM-03]

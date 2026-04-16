@@ -1,11 +1,12 @@
 {
   "node_id": "V4",
-  "version": "0.1",
+  "policy_version": "1.0",
+  "version": "0.3",
   "items": [
     {
-      "item_id": "V4-A-001",
-      "family": "direct_regrouping",
-      "prompt": "Show how 1 ten can be renamed as 10 ones.",
+      "item_id": "V4-D-001",
+      "family": "direct_execution",
+      "prompt": "Decide whether the table `(2, 6), (4, 12), (7, 21)` is proportional and justify the constant of proportionality.",
       "target_node": "V4",
       "secondary_dependency_targets": [
         "V1",
@@ -13,19 +14,21 @@
       ],
       "difficulty_band": "core",
       "response_modes_allowed": [
-        "oral_explanation",
-        "written_explanation"
+        "written_symbolic",
+        "oral_explanation"
       ],
       "dominant_failure_modes_if_incorrect": [
         "V4-FM-01",
         "V4-FM-02"
       ],
-      "requires_human_scoring": true
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
     },
     {
-      "item_id": "V4-A-002",
-      "family": "direct_regrouping",
-      "prompt": "Use a model or drawing to solve 52 - 18 with regrouping.",
+      "item_id": "V4-D-002",
+      "family": "direct_execution",
+      "prompt": "Find the unit rate for 18 miles in 3 hours and explain what it means.",
       "target_node": "V4",
       "secondary_dependency_targets": [
         "V1",
@@ -33,19 +36,65 @@
       ],
       "difficulty_band": "core",
       "response_modes_allowed": [
-        "oral_explanation",
-        "written_explanation"
+        "written_symbolic",
+        "oral_explanation"
       ],
       "dominant_failure_modes_if_incorrect": [
-        "V4-FM-01",
-        "V4-FM-02"
+        "V4-FM-02",
+        "V4-FM-03"
       ],
-      "requires_human_scoring": true
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
     },
     {
-      "item_id": "V4-B-001",
+      "item_id": "V4-D-003",
+      "family": "direct_execution",
+      "prompt": "Find 15% of 80 and explain how the percent is acting as a rate per hundred.",
+      "target_node": "V4",
+      "secondary_dependency_targets": [
+        "V1",
+        "V3"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "V4-FM-03",
+        "V4-FM-04"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "V4-D-004",
+      "family": "direct_execution",
+      "prompt": "Decide whether the table `(2, 6), (4, 12), (7, 21)` is proportional and justify the constant of proportionality.",
+      "target_node": "V4",
+      "secondary_dependency_targets": [
+        "V1",
+        "V3"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "V4-FM-04",
+        "V4-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "V4-E-001",
       "family": "explanation",
-      "prompt": "Explain why changing 1 ten into 10 ones does not change the total amount.",
+      "prompt": "Explain why equal differences alone do not prove a relationship is proportional.",
       "target_node": "V4",
       "secondary_dependency_targets": [
         "V1",
@@ -54,38 +103,86 @@
       "difficulty_band": "core",
       "response_modes_allowed": [
         "oral_explanation",
-        "written_explanation"
+        "written_explanation",
+        "diagram_annotation"
       ],
       "dominant_failure_modes_if_incorrect": [
-        "V4-FM-01",
         "V4-FM-02"
       ],
-      "requires_human_scoring": true
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "V4-E-002",
+      "family": "explanation",
+      "prompt": "Explain how a unit rate and a constant of proportionality describe the same multiplicative structure.",
+      "target_node": "V4",
+      "secondary_dependency_targets": [
+        "V1",
+        "V3"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "V4-FM-03"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
     },
     {
       "item_id": "V4-C-001",
       "family": "error_diagnosis",
-      "prompt": "A student borrows in subtraction but cannot explain what changed. What should be checked?",
+      "prompt": "A student says a table is proportional because it increases by 3 each row. Diagnose the additive-pattern error. Focus on regrouping equivalence weakness.",
       "target_node": "V4",
       "secondary_dependency_targets": [
         "V1",
         "V3"
       ],
-      "difficulty_band": "core",
+      "difficulty_band": "diagnostic",
       "response_modes_allowed": [
+        "multiple_choice",
         "oral_explanation",
         "written_explanation"
       ],
       "dominant_failure_modes_if_incorrect": [
-        "V4-FM-01",
-        "V4-FM-02"
+        "V4-FM-01"
       ],
-      "requires_human_scoring": true
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
     },
     {
-      "item_id": "V4-D-001",
+      "item_id": "V4-C-002",
+      "family": "error_diagnosis",
+      "prompt": "A student scales one quantity by 2 but the other by 3 and still claims proportionality. Identify the breakdown. Focus on borrow carry procedure without meaning.",
+      "target_node": "V4",
+      "secondary_dependency_targets": [
+        "V1",
+        "V3"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "V4-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "V4-T-001",
       "family": "transfer",
-      "prompt": "Connect a base-ten-block regrouping model to a written subtraction or addition method.",
+      "prompt": "A map uses 1 cm for every 5 km. How far does 7.2 cm represent, and why is the relationship proportional?",
       "target_node": "V4",
       "secondary_dependency_targets": [
         "V1",
@@ -93,19 +190,41 @@
       ],
       "difficulty_band": "transfer",
       "response_modes_allowed": [
-        "oral_explanation",
-        "written_explanation"
+        "written_symbolic",
+        "oral_explanation"
       ],
       "dominant_failure_modes_if_incorrect": [
-        "V4-FM-01",
-        "V4-FM-02"
+        "V4-FM-03"
       ],
-      "requires_human_scoring": true
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "V4-T-002",
+      "family": "transfer",
+      "prompt": "A recipe uses 3 cups of flour for 2 batches. Write an equation relating flour to batches and find the amount for 5 batches.",
+      "target_node": "V4",
+      "secondary_dependency_targets": [
+        "V1",
+        "V3"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "V4-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
     },
     {
       "item_id": "V4-R-001",
       "family": "retention",
-      "prompt": "After a delay, solve a new regrouping problem and explain the rename step.",
+      "prompt": "On a delayed check, determine whether 4 notebooks for $6 and 10 notebooks for $15 are proportional and justify your reasoning.",
       "target_node": "V4",
       "secondary_dependency_targets": [
         "V1",
@@ -113,14 +232,63 @@
       ],
       "difficulty_band": "retention",
       "response_modes_allowed": [
-        "oral_explanation",
-        "written_explanation"
+        "written_symbolic",
+        "oral_explanation"
       ],
       "dominant_failure_modes_if_incorrect": [
-        "V4-FM-01",
+        "V4-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability"
+    },
+    {
+      "item_id": "V4-P-001",
+      "family": "prerequisite_probe",
+      "prompt": "Probe two digit number structure before diagnosing regrouping and base ten equivalence, and state whether the learner is missing multiplicative structure or only the current proportional application.",
+      "target_node": "V4",
+      "secondary_dependency_targets": [
+        "V1",
+        "V3"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
         "V4-FM-02"
       ],
-      "requires_human_scoring": true
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "V1",
+      "suspected_knowledge_gap_if_incorrect": "two digit number structure",
+      "scoring_focus": "dependency_disambiguation"
+    },
+    {
+      "item_id": "V4-P-002",
+      "family": "prerequisite_probe",
+      "prompt": "Probe add subtract within 100 strategies before diagnosing regrouping and base ten equivalence, and state whether the learner is missing multiplicative structure or only the current proportional application.",
+      "target_node": "V4",
+      "secondary_dependency_targets": [
+        "V1",
+        "V3"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "V4-FM-03"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "V3",
+      "suspected_knowledge_gap_if_incorrect": "add subtract within 100 strategies",
+      "scoring_focus": "dependency_disambiguation"
     }
   ]
 }

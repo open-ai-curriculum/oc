@@ -1,0 +1,46 @@
+[
+  {
+    "learner_id": "example-g1-secure",
+    "node_id": "G1",
+    "status": "secure",
+    "dependency_status": {
+      "T4": "secure",
+      "M3": "secure",
+      "I3": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Explains geology and surface processes with coherent Earth-system and timescale reasoning."
+  },
+  {
+    "learner_id": "example-g1-emerging",
+    "node_id": "G1",
+    "status": "emerging",
+    "dependency_status": {
+      "T4": "secure",
+      "M3": "secure",
+      "I3": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [
+      "G1-FM-01",
+      "G1-FM-02"
+    ],
+    "recommended_interventions": [
+      "G1-INT-01",
+      "G1-INT-02"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Recognizes geologic vocabulary but explanations remain descriptive and weakly connected to process."
+  }
+]

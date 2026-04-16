@@ -1,0 +1,37 @@
+{
+  "node_id": "C4",
+  "interventions": [
+    {
+      "intervention_id": "C4-INT-01",
+      "name": "C4 Intervention 1",
+      "addresses_failure_modes": [
+        "C4-FM-01"
+      ],
+      "summary": "before-and-after refactor analyses requiring one named maintainability improvement and one preserved behavior claim"
+    },
+    {
+      "intervention_id": "C4-INT-02",
+      "name": "C4 Intervention 2",
+      "addresses_failure_modes": [
+        "C4-FM-02"
+      ],
+      "summary": "behavior-preservation checks that pair a revision with bounded tests or specification references"
+    },
+    {
+      "intervention_id": "C4-INT-03",
+      "name": "C4 Intervention 3",
+      "addresses_failure_modes": [
+        "C4-FM-03"
+      ],
+      "summary": "code-review style prompts that require a change rationale suitable for collaborators"
+    },
+    {
+      "intervention_id": "C4-INT-04",
+      "name": "C4 Intervention 4",
+      "addresses_failure_modes": [
+        "C4-FM-04"
+      ],
+      "summary": "paired refactor tasks that reapply one maintainability pattern in a second bounded code example"
+    }
+  ]
+}

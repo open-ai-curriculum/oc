@@ -1,0 +1,29 @@
+{
+  "node_id": "A2",
+  "interventions": [
+    {
+      "failure_mode": "A2-FM-01",
+      "intervention_id": "A2-INT-01",
+      "name": "Computation To Claim Map",
+      "delivery": "analysis scaffold"
+    },
+    {
+      "failure_mode": "A2-FM-02",
+      "intervention_id": "A2-INT-02",
+      "name": "Validity And Optimization Review",
+      "delivery": "paired critique"
+    },
+    {
+      "failure_mode": "A2-FM-03",
+      "intervention_id": "A2-INT-03",
+      "name": "Capstone Architecture Template",
+      "delivery": "planning framework"
+    },
+    {
+      "failure_mode": "A2-FM-04",
+      "intervention_id": "A2-INT-04",
+      "name": "Final Integration Claim Audit",
+      "delivery": "scope and quality review"
+    }
+  ]
+}

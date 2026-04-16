@@ -1,0 +1,40 @@
+id: E2
+name: claim_evidence_reasoning_and_competing_explanations
+domain: science
+support_tier: Incubation
+maturity_state: Drafted
+supported_profiles:
+- science-bridge-node-package
+evidence_class: Synthetic
+dependencies:
+- E1
+- I2
+mastery:
+  direct_accuracy_threshold: 0.9
+  explanation_required: true
+  transfer_required: true
+  retention_check_days: 21
+statuses:
+- blocked
+- emerging
+- provisional
+- secure
+- unstable
+verification_gates:
+- id: G1
+  type: direct_performance
+  pass_rule: '>= 0.90 accuracy across claim-evidence-reasoning and competing-explanation tasks'
+- id: G2
+  type: meaning
+  pass_rule: correct explanation of why one explanation is better supported in at least 2 of 3 prompts
+- id: G3
+  type: transfer
+  pass_rule: successful CER reasoning in at least one changed science context
+- id: G4
+  type: retention
+  pass_rule: '>= 0.85 delayed recheck accuracy after ~21 days'
+failure_modes:
+- E2-FM-01
+- E2-FM-02
+- E2-FM-03
+- E2-FM-04

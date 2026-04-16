@@ -1,0 +1,37 @@
+{
+  "node_id": "G5",
+  "interventions": [
+    {
+      "intervention_id": "G5-INT-01",
+      "name": "G5 Intervention 1",
+      "addresses_failure_modes": [
+        "G5-FM-01"
+      ],
+      "summary": "tradeoff matrices that require multiple sustainability criteria to be compared"
+    },
+    {
+      "intervention_id": "G5-INT-02",
+      "name": "G5 Intervention 2",
+      "addresses_failure_modes": [
+        "G5-FM-02"
+      ],
+      "summary": "impact-claim audits with explicit evidence and uncertainty checks"
+    },
+    {
+      "intervention_id": "G5-INT-03",
+      "name": "G5 Intervention 3",
+      "addresses_failure_modes": [
+        "G5-FM-03"
+      ],
+      "summary": "human-environment system maps connecting causes, constraints, and outcomes"
+    },
+    {
+      "intervention_id": "G5-INT-04",
+      "name": "G5 Intervention 4",
+      "addresses_failure_modes": [
+        "G5-FM-04"
+      ],
+      "summary": "source-evaluation routines for environmental data and argument quality"
+    }
+  ]
+}

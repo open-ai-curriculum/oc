@@ -1,0 +1,274 @@
+{
+  "meta": {
+    "generated_on": "2026-04-15",
+    "summary": {
+      "total_inventory_records": 32,
+      "covered": 32,
+      "partially_covered": 0,
+      "unmapped": 0,
+      "out_of_scope": 0,
+      "orphan_node_mappings": 0
+    },
+    "inventory_document": "docs/standards/social-studies-standards-inventory.json",
+    "node_map_document": "docs/standards/social-studies-node-standards-map.json",
+    "claim_boundary": "This report validates current repository-baseline coverage only."
+  },
+  "coverage": [
+    {
+      "standard_id": "social-studies-anchor-grades-11-12-advanced-secondary-synthesis-and-public-argument-interdisciplinary-research-and-evidence-synthesis",
+      "classification": "covered",
+      "matched_nodes": 4,
+      "grade_band": "Grades 11-12",
+      "domain": "advanced secondary synthesis and public argument",
+      "anchor_statement": "interdisciplinary research and evidence synthesis"
+    },
+    {
+      "standard_id": "social-studies-anchor-grades-11-12-advanced-secondary-synthesis-and-public-argument-capstone-argument-modeling-and-public-communication",
+      "classification": "covered",
+      "matched_nodes": 4,
+      "grade_band": "Grades 11-12",
+      "domain": "advanced secondary synthesis and public argument",
+      "anchor_statement": "capstone argument modeling and public communication"
+    },
+    {
+      "standard_id": "social-studies-anchor-kindergarten-to-grade-12-civics-and-collective-decision-making-community-rules-roles-and-fairness",
+      "classification": "covered",
+      "matched_nodes": 5,
+      "grade_band": "Kindergarten to Grade 12",
+      "domain": "civics and collective decision-making",
+      "anchor_statement": "community rules roles and fairness"
+    },
+    {
+      "standard_id": "social-studies-anchor-kindergarten-to-grade-12-civics-and-collective-decision-making-institutions-rights-responsibilities-and-processes",
+      "classification": "covered",
+      "matched_nodes": 5,
+      "grade_band": "Kindergarten to Grade 12",
+      "domain": "civics and collective decision-making",
+      "anchor_statement": "institutions rights responsibilities and processes"
+    },
+    {
+      "standard_id": "social-studies-anchor-kindergarten-to-grade-12-civics-and-collective-decision-making-civic-decision-making-and-deliberation",
+      "classification": "covered",
+      "matched_nodes": 5,
+      "grade_band": "Kindergarten to Grade 12",
+      "domain": "civics and collective decision-making",
+      "anchor_statement": "civic decision making and deliberation"
+    },
+    {
+      "standard_id": "social-studies-anchor-kindergarten-to-grade-12-civics-and-collective-decision-making-constitutional-principles-and-public-policy",
+      "classification": "covered",
+      "matched_nodes": 5,
+      "grade_band": "Kindergarten to Grade 12",
+      "domain": "civics and collective decision-making",
+      "anchor_statement": "constitutional principles and public policy"
+    },
+    {
+      "standard_id": "social-studies-anchor-kindergarten-to-grade-12-civics-and-collective-decision-making-comparative-government-and-civic-action",
+      "classification": "covered",
+      "matched_nodes": 5,
+      "grade_band": "Kindergarten to Grade 12",
+      "domain": "civics and collective decision-making",
+      "anchor_statement": "comparative government and civic action"
+    },
+    {
+      "standard_id": "social-studies-anchor-kindergarten-to-grade-12-civics-and-collective-decision-making-advanced-civic-argument-policy-design-and-participation",
+      "classification": "covered",
+      "matched_nodes": 5,
+      "grade_band": "Kindergarten to Grade 12",
+      "domain": "civics and collective decision-making",
+      "anchor_statement": "advanced civic argument policy design and participation"
+    },
+    {
+      "standard_id": "social-studies-anchor-kindergarten-to-grade-12-economics-and-exchange-systems-needs-wants-choice-and-exchange",
+      "classification": "covered",
+      "matched_nodes": 4,
+      "grade_band": "Kindergarten to Grade 12",
+      "domain": "economics and exchange systems",
+      "anchor_statement": "needs wants choice and exchange"
+    },
+    {
+      "standard_id": "social-studies-anchor-kindergarten-to-grade-12-economics-and-exchange-systems-production-consumption-and-local-markets",
+      "classification": "covered",
+      "matched_nodes": 4,
+      "grade_band": "Kindergarten to Grade 12",
+      "domain": "economics and exchange systems",
+      "anchor_statement": "production consumption and local markets"
+    },
+    {
+      "standard_id": "social-studies-anchor-kindergarten-to-grade-12-economics-and-exchange-systems-incentives-trade-and-simple-systems",
+      "classification": "covered",
+      "matched_nodes": 4,
+      "grade_band": "Kindergarten to Grade 12",
+      "domain": "economics and exchange systems",
+      "anchor_statement": "incentives trade and simple systems"
+    },
+    {
+      "standard_id": "social-studies-anchor-kindergarten-to-grade-12-economics-and-exchange-systems-markets-labor-and-public-resource-decisions",
+      "classification": "covered",
+      "matched_nodes": 4,
+      "grade_band": "Kindergarten to Grade 12",
+      "domain": "economics and exchange systems",
+      "anchor_statement": "markets labor and public resource decisions"
+    },
+    {
+      "standard_id": "social-studies-anchor-kindergarten-to-grade-12-economics-and-exchange-systems-macroeconomic-patterns-global-trade-and-finance-basics",
+      "classification": "covered",
+      "matched_nodes": 4,
+      "grade_band": "Kindergarten to Grade 12",
+      "domain": "economics and exchange systems",
+      "anchor_statement": "macroeconomic patterns global trade and finance basics"
+    },
+    {
+      "standard_id": "social-studies-anchor-kindergarten-to-grade-12-economics-and-exchange-systems-economic-analysis-policy-tradeoffs-and-capstone-modeling",
+      "classification": "covered",
+      "matched_nodes": 4,
+      "grade_band": "Kindergarten to Grade 12",
+      "domain": "economics and exchange systems",
+      "anchor_statement": "economic analysis policy tradeoffs and capstone modeling"
+    },
+    {
+      "standard_id": "social-studies-anchor-kindergarten-to-grade-12-geography-and-human-environment-systems-place-maps-and-environmental-features",
+      "classification": "covered",
+      "matched_nodes": 4,
+      "grade_band": "Kindergarten to Grade 12",
+      "domain": "geography and human-environment systems",
+      "anchor_statement": "place maps and environmental features"
+    },
+    {
+      "standard_id": "social-studies-anchor-kindergarten-to-grade-12-geography-and-human-environment-systems-human-environment-interaction-and-regions",
+      "classification": "covered",
+      "matched_nodes": 4,
+      "grade_band": "Kindergarten to Grade 12",
+      "domain": "geography and human-environment systems",
+      "anchor_statement": "human environment interaction and regions"
+    },
+    {
+      "standard_id": "social-studies-anchor-kindergarten-to-grade-12-geography-and-human-environment-systems-spatial-patterns-movement-and-resources",
+      "classification": "covered",
+      "matched_nodes": 4,
+      "grade_band": "Kindergarten to Grade 12",
+      "domain": "geography and human-environment systems",
+      "anchor_statement": "spatial patterns movement and resources"
+    },
+    {
+      "standard_id": "social-studies-anchor-kindergarten-to-grade-12-geography-and-human-environment-systems-geographic-reasoning-with-maps-data-and-scale",
+      "classification": "covered",
+      "matched_nodes": 4,
+      "grade_band": "Kindergarten to Grade 12",
+      "domain": "geography and human-environment systems",
+      "anchor_statement": "geographic reasoning with maps data and scale"
+    },
+    {
+      "standard_id": "social-studies-anchor-kindergarten-to-grade-12-geography-and-human-environment-systems-global-interdependence-migration-and-sustainability",
+      "classification": "covered",
+      "matched_nodes": 4,
+      "grade_band": "Kindergarten to Grade 12",
+      "domain": "geography and human-environment systems",
+      "anchor_statement": "global interdependence migration and sustainability"
+    },
+    {
+      "standard_id": "social-studies-anchor-kindergarten-to-grade-12-geography-and-human-environment-systems-geospatial-analysis-and-policy-application",
+      "classification": "covered",
+      "matched_nodes": 4,
+      "grade_band": "Kindergarten to Grade 12",
+      "domain": "geography and human-environment systems",
+      "anchor_statement": "geospatial analysis and policy application"
+    },
+    {
+      "standard_id": "social-studies-anchor-kindergarten-to-grade-12-history-and-source-reasoning-chronology-identity-and-community-memory",
+      "classification": "covered",
+      "matched_nodes": 5,
+      "grade_band": "Kindergarten to Grade 12",
+      "domain": "history and source reasoning",
+      "anchor_statement": "chronology identity and community memory"
+    },
+    {
+      "standard_id": "social-studies-anchor-kindergarten-to-grade-12-history-and-source-reasoning-historical-sources-and-past-present-comparison",
+      "classification": "covered",
+      "matched_nodes": 5,
+      "grade_band": "Kindergarten to Grade 12",
+      "domain": "history and source reasoning",
+      "anchor_statement": "historical sources and past present comparison"
+    },
+    {
+      "standard_id": "social-studies-anchor-kindergarten-to-grade-12-history-and-source-reasoning-causation-context-and-change-over-time",
+      "classification": "covered",
+      "matched_nodes": 5,
+      "grade_band": "Kindergarten to Grade 12",
+      "domain": "history and source reasoning",
+      "anchor_statement": "causation context and change over time"
+    },
+    {
+      "standard_id": "social-studies-anchor-kindergarten-to-grade-12-history-and-source-reasoning-sourcing-corroboration-and-historical-argument",
+      "classification": "covered",
+      "matched_nodes": 5,
+      "grade_band": "Kindergarten to Grade 12",
+      "domain": "history and source reasoning",
+      "anchor_statement": "sourcing corroboration and historical argument"
+    },
+    {
+      "standard_id": "social-studies-anchor-kindergarten-to-grade-12-history-and-source-reasoning-thematic-historical-analysis-and-periodization",
+      "classification": "covered",
+      "matched_nodes": 5,
+      "grade_band": "Kindergarten to Grade 12",
+      "domain": "history and source reasoning",
+      "anchor_statement": "thematic historical analysis and periodization"
+    },
+    {
+      "standard_id": "social-studies-anchor-kindergarten-to-grade-12-history-and-source-reasoning-historiography-public-history-and-capstone-argument",
+      "classification": "covered",
+      "matched_nodes": 5,
+      "grade_band": "Kindergarten to Grade 12",
+      "domain": "history and source reasoning",
+      "anchor_statement": "historiography public history and capstone argument"
+    },
+    {
+      "standard_id": "social-studies-anchor-kindergarten-to-grade-12-inquiry-evidence-and-discourse-observe-describe-and-question",
+      "classification": "covered",
+      "matched_nodes": 5,
+      "grade_band": "Kindergarten to Grade 12",
+      "domain": "inquiry, evidence, and discourse",
+      "anchor_statement": "observe describe and question"
+    },
+    {
+      "standard_id": "social-studies-anchor-kindergarten-to-grade-12-inquiry-evidence-and-discourse-compare-classify-and-sequence-evidence",
+      "classification": "covered",
+      "matched_nodes": 5,
+      "grade_band": "Kindergarten to Grade 12",
+      "domain": "inquiry, evidence, and discourse",
+      "anchor_statement": "compare classify and sequence evidence"
+    },
+    {
+      "standard_id": "social-studies-anchor-kindergarten-to-grade-12-inquiry-evidence-and-discourse-supported-explanation-from-evidence",
+      "classification": "covered",
+      "matched_nodes": 5,
+      "grade_band": "Kindergarten to Grade 12",
+      "domain": "inquiry, evidence, and discourse",
+      "anchor_statement": "supported explanation from evidence"
+    },
+    {
+      "standard_id": "social-studies-anchor-kindergarten-to-grade-12-inquiry-evidence-and-discourse-investigation-design-representation-and-data-use",
+      "classification": "covered",
+      "matched_nodes": 5,
+      "grade_band": "Kindergarten to Grade 12",
+      "domain": "inquiry, evidence, and discourse",
+      "anchor_statement": "investigation design representation and data use"
+    },
+    {
+      "standard_id": "social-studies-anchor-kindergarten-to-grade-12-inquiry-evidence-and-discourse-evaluation-of-sources-models-and-claims",
+      "classification": "covered",
+      "matched_nodes": 5,
+      "grade_band": "Kindergarten to Grade 12",
+      "domain": "inquiry, evidence, and discourse",
+      "anchor_statement": "evaluation of sources models and claims"
+    },
+    {
+      "standard_id": "social-studies-anchor-kindergarten-to-grade-12-inquiry-evidence-and-discourse-synthesis-argument-and-public-communication",
+      "classification": "covered",
+      "matched_nodes": 5,
+      "grade_band": "Kindergarten to Grade 12",
+      "domain": "inquiry, evidence, and discourse",
+      "anchor_statement": "synthesis argument and public communication"
+    }
+  ]
+}

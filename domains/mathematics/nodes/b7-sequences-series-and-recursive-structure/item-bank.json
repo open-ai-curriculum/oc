@@ -1,0 +1,140 @@
+{
+  "node_id": "B7",
+  "policy_version": "1.0",
+  "items": [
+    {
+      "item_id": "B7-DIR-001",
+      "node_id": "B7",
+      "item_family": "direct_execution",
+      "prompt": "Decide whether the table `(2, 6), (4, 12), (7, 21)` is proportional and justify the constant of proportionality.",
+      "expected_evidence": "classify bounded sequence situations as arithmetic, geometric, recursive, or non-matching and justify the classification",
+      "dominant_failure_mode": "family_synthesis_fragmentation",
+      "scoring_guidance": "Meets when the learner demonstrates classify bounded sequence situations as arithmetic, geometric, recursive, or non-matching and justify the classification with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
+    },
+    {
+      "item_id": "B7-DIR-002",
+      "node_id": "B7",
+      "item_family": "direct_execution",
+      "prompt": "Find the unit rate for 18 miles in 3 hours and explain what it means.",
+      "expected_evidence": "generate terms and rules for explicit and recursive sequences and translate between those forms when appropriate",
+      "dominant_failure_mode": "approaching_behavior_opacity",
+      "scoring_guidance": "Meets when the learner demonstrates generate terms and rules for explicit and recursive sequences and translate between those forms when appropriate with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
+    },
+    {
+      "item_id": "B7-DIR-003",
+      "node_id": "B7",
+      "item_family": "direct_execution",
+      "prompt": "Find 15% of 80 and explain how the percent is acting as a rate per hundred.",
+      "expected_evidence": "compute and interpret bounded finite arithmetic and geometric series in symbolic and contextual cases",
+      "dominant_failure_mode": "composition_representation_breakdown",
+      "scoring_guidance": "Meets when the learner demonstrates compute and interpret bounded finite arithmetic and geometric series in symbolic and contextual cases with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
+    },
+    {
+      "item_id": "B7-EXP-001",
+      "node_id": "B7",
+      "item_family": "explanation",
+      "prompt": "Explain why equal differences alone do not prove a relationship is proportional.",
+      "expected_evidence": "classify bounded sequence situations as arithmetic, geometric, recursive, or non-matching and justify the classification",
+      "dominant_failure_mode": "approaching_behavior_opacity",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to classify bounded sequence situations as arithmetic, geometric, recursive, or non-matching and justify the classification.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "B7-EXP-002",
+      "node_id": "B7",
+      "item_family": "explanation",
+      "prompt": "Explain how a unit rate and a constant of proportionality describe the same multiplicative structure.",
+      "expected_evidence": "generate terms and rules for explicit and recursive sequences and translate between those forms when appropriate",
+      "dominant_failure_mode": "composition_representation_breakdown",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to generate terms and rules for explicit and recursive sequences and translate between those forms when appropriate.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "B7-ERR-001",
+      "node_id": "B7",
+      "item_family": "error_diagnosis",
+      "prompt": "A student says a table is proportional because it increases by 3 each row. Diagnose the additive-pattern error. Focus on family synthesis fragmentation.",
+      "expected_evidence": "classify bounded sequence situations as arithmetic, geometric, recursive, or non-matching and justify the classification",
+      "dominant_failure_mode": "family_synthesis_fragmentation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward classify bounded sequence situations as arithmetic, geometric, recursive, or non-matching and justify the classification.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "B7-ERR-002",
+      "node_id": "B7",
+      "item_family": "error_diagnosis",
+      "prompt": "A student scales one quantity by 2 but the other by 3 and still claims proportionality. Identify the breakdown. Focus on approaching behavior opacity.",
+      "expected_evidence": "generate terms and rules for explicit and recursive sequences and translate between those forms when appropriate",
+      "dominant_failure_mode": "approaching_behavior_opacity",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward generate terms and rules for explicit and recursive sequences and translate between those forms when appropriate.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "B7-TRA-001",
+      "node_id": "B7",
+      "item_family": "transfer",
+      "prompt": "A map uses 1 cm for every 5 km. How far does 7.2 cm represent, and why is the relationship proportional?",
+      "expected_evidence": "classify bounded sequence situations as arithmetic, geometric, recursive, or non-matching and justify the classification",
+      "dominant_failure_mode": "composition_representation_breakdown",
+      "scoring_guidance": "Meets when the learner preserves classify bounded sequence situations as arithmetic, geometric, recursive, or non-matching and justify the classification in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "B7-TRA-002",
+      "node_id": "B7",
+      "item_family": "transfer",
+      "prompt": "A recipe uses 3 cups of flour for 2 batches. Write an equation relating flour to batches and find the amount for 5 batches.",
+      "expected_evidence": "generate terms and rules for explicit and recursive sequences and translate between those forms when appropriate",
+      "dominant_failure_mode": "cross_family_feature_blindness",
+      "scoring_guidance": "Meets when the learner preserves generate terms and rules for explicit and recursive sequences and translate between those forms when appropriate in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "B7-RET-001",
+      "node_id": "B7",
+      "item_family": "retention",
+      "prompt": "On a delayed check, determine whether 4 notebooks for $6 and 10 notebooks for $15 are proportional and justify your reasoning.",
+      "expected_evidence": "classify bounded sequence situations as arithmetic, geometric, recursive, or non-matching and justify the classification",
+      "dominant_failure_mode": "cross_family_feature_blindness",
+      "scoring_guidance": "Meets when the learner still demonstrates classify bounded sequence situations as arithmetic, geometric, recursive, or non-matching and justify the classification on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "B7-PRE-001",
+      "node_id": "B7",
+      "item_family": "prerequisite_probe",
+      "prompt": "Probe polynomial structure and operations before diagnosing sequences series and recursive structure, and state whether the learner is missing multiplicative structure or only the current proportional application.",
+      "expected_evidence": "shows whether polynomial structure and operations is secure enough to support sequences series and recursive structure",
+      "dominant_failure_mode": "approaching_behavior_opacity",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in polynomial structure and operations from a current-node issue in sequences series and recursive structure.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "B1",
+      "suspected_knowledge_gap_if_incorrect": "polynomial structure and operations"
+    },
+    {
+      "item_id": "B7-PRE-002",
+      "node_id": "B7",
+      "item_family": "prerequisite_probe",
+      "prompt": "Probe precalculus function synthesis and limits foundations before diagnosing sequences series and recursive structure, and state whether the learner is missing multiplicative structure or only the current proportional application.",
+      "expected_evidence": "shows whether precalculus function synthesis and limits foundations is secure enough to support sequences series and recursive structure",
+      "dominant_failure_mode": "composition_representation_breakdown",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in precalculus function synthesis and limits foundations from a current-node issue in sequences series and recursive structure.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "B5",
+      "suspected_knowledge_gap_if_incorrect": "precalculus function synthesis and limits foundations"
+    }
+  ]
+}

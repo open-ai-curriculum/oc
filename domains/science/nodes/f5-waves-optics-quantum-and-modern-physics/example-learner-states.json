@@ -1,0 +1,46 @@
+[
+  {
+    "learner_id": "example-f5-secure",
+    "node_id": "F5",
+    "status": "secure",
+    "dependency_status": {
+      "F4": "secure",
+      "P6": "secure",
+      "M5": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Explains waves, optics, and modern physics through bounded model choice and interaction reasoning."
+  },
+  {
+    "learner_id": "example-f5-emerging",
+    "node_id": "F5",
+    "status": "emerging",
+    "dependency_status": {
+      "F4": "secure",
+      "P6": "secure",
+      "M5": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [
+      "F5-FM-01",
+      "F5-FM-02"
+    ],
+    "recommended_interventions": [
+      "F5-INT-01",
+      "F5-INT-02"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Recognizes wave and quantum vocabulary but mixes models without checking their limits."
+  }
+]

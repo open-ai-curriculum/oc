@@ -1,0 +1,40 @@
+[
+  {
+    "learner_id": "example-t5-secure",
+    "node_id": "T5",
+    "status": "secure",
+    "dependency_status": {
+      "T4": "secure",
+      "M4": "secure",
+      "E3": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Maintains timescale discipline and bounded human-impact reasoning across Earth systems."
+  },
+  {
+    "learner_id": "example-t5-emerging",
+    "node_id": "T5",
+    "status": "emerging",
+    "dependency_status": {
+      "T4": "secure",
+      "M4": "secure",
+      "E3": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["T5-FM-01", "T5-FM-02"],
+    "recommended_interventions": ["T5-INT-01", "T5-INT-02"],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Collapses timescales and explains climate systems with one-variable stories."
+  }
+]

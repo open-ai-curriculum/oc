@@ -1,0 +1,60 @@
+[
+  {
+    "item_id": "B5-IB-01",
+    "node_id": "B5",
+    "prompt": "Why is one predator-prey relation not enough to explain an ecosystem shift?",
+    "task_type": "ecology_systems_reasoning",
+    "answer_key": "A strong answer notes that ecosystem shifts depend on multiple populations, resources, abiotic conditions, and interactions rather than one relation only.",
+    "scorable_traits": [
+      "systems reasoning",
+      "interaction complexity",
+      "critique"
+    ],
+    "target_failure_modes": [
+      "B5-FM-01"
+    ],
+    "context_tags": [
+      "ecology",
+      "systems"
+    ]
+  },
+  {
+    "item_id": "B5-IB-02",
+    "node_id": "B5",
+    "prompt": "What limits should be named before making a broad field-biology claim?",
+    "task_type": "field_method_critique",
+    "answer_key": "The claim should name sampling limits, location constraints, measurement error, and whether the evidence supports wider generalization.",
+    "scorable_traits": [
+      "method awareness",
+      "evidence caution",
+      "claim boundary"
+    ],
+    "target_failure_modes": [
+      "B5-FM-02"
+    ],
+    "context_tags": [
+      "field studies",
+      "sampling"
+    ]
+  },
+  {
+    "item_id": "B5-IB-03",
+    "node_id": "B5",
+    "prompt": "How can abiotic change alter biological outcomes?",
+    "task_type": "environmental_biology_explanation",
+    "answer_key": "Abiotic changes can shift resources, survival conditions, interactions, or carrying capacity, so they must be included in ecological explanations.",
+    "scorable_traits": [
+      "biotic-abiotic linkage",
+      "mechanism",
+      "transfer"
+    ],
+    "target_failure_modes": [
+      "B5-FM-03",
+      "B5-FM-04"
+    ],
+    "context_tags": [
+      "environmental biology",
+      "ecology"
+    ]
+  }
+]

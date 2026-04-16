@@ -1,0 +1,21 @@
+{
+  "node_id": "C1",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "C1-FM-01": [
+      "modeled confusion signals such as repeat please or show me",
+      "pause for explicit understanding check before error escalation",
+      "normalization of clarification as part of learning"
+    ],
+    "C1-FM-02": [
+      "sentence frames naming likely clarification needs",
+      "prompt to point to the unclear step word or example",
+      "separation of whole-task repeat from one-part repeat requests"
+    ],
+    "C1-FM-03": [
+      "clarification immediately before reattempt",
+      "one required next action after clarification",
+      "short reattempt to test whether the clarification is usable"
+    ]
+  }
+}

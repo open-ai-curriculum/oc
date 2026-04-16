@@ -1,0 +1,230 @@
+version: 0.1
+attachment_registry:
+  purpose: draft registry for subject-domain attachments to learning-to-learn support nodes
+  claim_boundary: attachment_records_model_cross_domain_support_without_replacing_subject_domain_mastery
+
+attachments:
+  - attachment_id: mathematics-f1-to-c1
+    subject_domain: mathematics
+    subject_node_id: F1
+    learning_to_learn_node_id: C1
+    attachment_type: MAY_ROUTE_TO_LEARNING_PROCESS_INTERVENTION
+    reason_code: confusion_signaling_readiness
+    gating_posture: informing
+    routing_rule: route_to_c1_when_fraction_structure_breakdown_cooccurs_with_silent_confusion_or_nonuse_of_clarification
+    subject_failure_mode_targets: [F1-FM-03]
+    learning_to_learn_failure_mode_targets: [C1-FM-01, C1-FM-03]
+    claim_boundary: does_not_replace_fraction_structure_mastery_evidence
+    review_status: draft
+    source_path: domains/learning_to_learn/cross-domain-attachments/attachment-registry.yaml
+    notes: useful when symbolic-visual mismatch persists because misunderstanding is not surfaced early enough for correction
+
+  - attachment_id: mathematics-f1-to-m1
+    subject_domain: mathematics
+    subject_node_id: F1
+    learning_to_learn_node_id: M1
+    attachment_type: SUPPORTED_BY_LEARNING_PROCESS_NODE
+    reason_code: encoding_and_retention_support
+    gating_posture: informing
+    routing_rule: route_to_m1_when_fraction_structure_meaning_fails_to_hold_across_symbolic_and_visual_representations
+    subject_failure_mode_targets: [F1-FM-01, F1-FM-03]
+    learning_to_learn_failure_mode_targets: [M1-FM-01, M1-FM-03]
+    claim_boundary: does_not_replace_fraction_structure_mastery_evidence
+    review_status: draft
+    source_path: domains/learning_to_learn/cross-domain-attachments/attachment-registry.yaml
+    notes: fraction structure often requires explicit represent-and-rehearse routines before delayed recall becomes meaningful
+
+  - attachment_id: mathematics-f2-to-m1
+    subject_domain: mathematics
+    subject_node_id: F2
+    learning_to_learn_node_id: M1
+    attachment_type: REQUIRES_LEARNING_PROCESS_SUPPORT
+    reason_code: encoding_and_retention_support
+    gating_posture: co-gating
+    routing_rule: route_to_m1_when_equivalence_scaling_steps_do_not_hold_in_memory_during_generation_or_recheck
+    subject_failure_mode_targets: [F2-FM-01, F2-FM-03]
+    learning_to_learn_failure_mode_targets: [M1-FM-01, M1-FM-02]
+    claim_boundary: does_not_replace_equivalent_fraction_mastery_evidence
+    review_status: draft
+    source_path: domains/learning_to_learn/cross-domain-attachments/attachment-registry.yaml
+    notes: generating equivalent fractions often fails when scaling structure is not encoded actively enough to preserve value
+
+  - attachment_id: mathematics-f2-to-s1
+    subject_domain: mathematics
+    subject_node_id: F2
+    learning_to_learn_node_id: S1
+    attachment_type: MAY_ROUTE_TO_LEARNING_PROCESS_INTERVENTION
+    reason_code: productive_practice_support
+    gating_posture: intervention-only
+    routing_rule: route_to_s1_when_additive_distortion_persists_because_practice_repeats_pattern_without_checking_value_preservation
+    subject_failure_mode_targets: [F2-FM-01, F2-FM-02]
+    learning_to_learn_failure_mode_targets: [S1-FM-01, S1-FM-03]
+    claim_boundary: does_not_replace_equivalent_fraction_mastery_evidence
+    review_status: draft
+    source_path: domains/learning_to_learn/cross-domain-attachments/attachment-registry.yaml
+    notes: support is needed when learners practice a broken scaling routine without a visible check-correct cycle
+
+  - attachment_id: mathematics-f3-to-c1
+    subject_domain: mathematics
+    subject_node_id: F3
+    learning_to_learn_node_id: C1
+    attachment_type: MAY_ROUTE_TO_LEARNING_PROCESS_INTERVENTION
+    reason_code: confusion_signaling_readiness
+    gating_posture: informing
+    routing_rule: route_to_c1_when_whole_number_bias_persists_without_the_learner_signaling_that_the_strategy_no_longer_fits
+    subject_failure_mode_targets: [F3-FM-01, F3-FM-03]
+    learning_to_learn_failure_mode_targets: [C1-FM-01, C1-FM-02]
+    claim_boundary: does_not_replace_fraction_comparison_mastery_evidence
+    review_status: draft
+    source_path: domains/learning_to_learn/cross-domain-attachments/attachment-registry.yaml
+    notes: some comparison failures are worsened by not asking for a different model or benchmark when the first strategy collapses
+
+  - attachment_id: mathematics-f3-to-s1
+    subject_domain: mathematics
+    subject_node_id: F3
+    learning_to_learn_node_id: S1
+    attachment_type: MAY_ROUTE_TO_LEARNING_PROCESS_INTERVENTION
+    reason_code: productive_practice_support
+    gating_posture: intervention-only
+    routing_rule: route_to_s1_when_fraction_comparison_practice_repeats_whole_number_rules_without_quantity_checking
+    subject_failure_mode_targets: [F3-FM-01, F3-FM-02, F3-FM-03]
+    learning_to_learn_failure_mode_targets: [S1-FM-01, S1-FM-03]
+    claim_boundary: does_not_replace_fraction_comparison_mastery_evidence
+    review_status: draft
+    source_path: domains/learning_to_learn/cross-domain-attachments/attachment-registry.yaml
+    notes: fraction comparison benefits from explicit strategy-fit checks rather than repeated unexamined attempts
+
+  - attachment_id: mathematics-f4-to-s1
+    subject_domain: mathematics
+    subject_node_id: F4
+    learning_to_learn_node_id: S1
+    attachment_type: MAY_ROUTE_TO_LEARNING_PROCESS_INTERVENTION
+    reason_code: productive_practice_support
+    gating_posture: intervention-only
+    routing_rule: route_to_s1_when_like_denominator_procedure_errors_persist_because_attempts_are_not_checked_against_unit_size_meaning
+    subject_failure_mode_targets: [F4-FM-01, F4-FM-03]
+    learning_to_learn_failure_mode_targets: [S1-FM-01, S1-FM-03]
+    claim_boundary: does_not_replace_like_denominator_fraction_mastery_evidence
+    review_status: draft
+    source_path: domains/learning_to_learn/cross-domain-attachments/attachment-registry.yaml
+    notes: especially useful when learners keep adding denominators without a visible self-check step
+
+  - attachment_id: mathematics-f4-to-r1
+    subject_domain: mathematics
+    subject_node_id: F4
+    learning_to_learn_node_id: R1
+    attachment_type: MAY_ROUTE_TO_LEARNING_PROCESS_INTERVENTION
+    reason_code: help_seeking_and_feedback_support
+    gating_posture: informing
+    routing_rule: route_to_r1_when_feedback_about_unit_size_or_improper_fraction_meaning_is_not_used_for_revision
+    subject_failure_mode_targets: [F4-FM-02, F4-FM-03]
+    learning_to_learn_failure_mode_targets: [R1-FM-01, R1-FM-03]
+    claim_boundary: does_not_replace_like_denominator_fraction_mastery_evidence
+    review_status: draft
+    source_path: domains/learning_to_learn/cross-domain-attachments/attachment-registry.yaml
+    notes: some F4 instability persists because the learner does not revise after corrective feedback
+
+  - attachment_id: mathematics-f5-to-m1
+    subject_domain: mathematics
+    subject_node_id: F5
+    learning_to_learn_node_id: M1
+    attachment_type: REQUIRES_LEARNING_PROCESS_SUPPORT
+    reason_code: encoding_and_retention_support
+    gating_posture: co-gating
+    routing_rule: route_to_m1_when_fraction_procedure_failure_cooccurs_with_fragile_encoding_or_short_delay_recall
+    subject_failure_mode_targets: [F5-FM-01, F5-FM-03]
+    learning_to_learn_failure_mode_targets: [M1-FM-01, M1-FM-02]
+    claim_boundary: does_not_replace_fraction_mastery_evidence
+    review_status: draft
+    source_path: domains/learning_to_learn/cross-domain-attachments/attachment-registry.yaml
+    notes: unlike-denominator fraction work often fails when content structure and encoding stability both break
+
+  - attachment_id: mathematics-f5-to-s1
+    subject_domain: mathematics
+    subject_node_id: F5
+    learning_to_learn_node_id: S1
+    attachment_type: MAY_ROUTE_TO_LEARNING_PROCESS_INTERVENTION
+    reason_code: productive_practice_support
+    gating_posture: intervention-only
+    routing_rule: route_to_s1_when_unlike_denominator_attempts_repeat_broken_common_denominator_or_direct_addition_routines_without_checking
+    subject_failure_mode_targets: [F5-FM-01, F5-FM-02, F5-FM-03]
+    learning_to_learn_failure_mode_targets: [S1-FM-01, S1-FM-03]
+    claim_boundary: does_not_replace_unlike_denominator_fraction_mastery_evidence
+    review_status: draft
+    source_path: domains/learning_to_learn/cross-domain-attachments/attachment-registry.yaml
+    notes: F5 often needs explicit check-correct routines so incorrect denominator choices do not get automatized
+
+  - attachment_id: mathematics-f5-to-r1
+    subject_domain: mathematics
+    subject_node_id: F5
+    learning_to_learn_node_id: R1
+    attachment_type: MAY_ROUTE_TO_LEARNING_PROCESS_INTERVENTION
+    reason_code: help_seeking_and_feedback_support
+    gating_posture: informing
+    routing_rule: route_to_r1_when_fraction_rewrite_or_magnitude_feedback_is_ignored_and_revision_does_not_follow
+    subject_failure_mode_targets: [F5-FM-04, F5-FM-05]
+    learning_to_learn_failure_mode_targets: [R1-FM-02, R1-FM-03]
+    claim_boundary: does_not_replace_unlike_denominator_fraction_mastery_evidence
+    review_status: draft
+    source_path: domains/learning_to_learn/cross-domain-attachments/attachment-registry.yaml
+    notes: mixed-number and plausibility errors often persist when learners do not use feedback to revise the solution path
+
+  - attachment_id: ela-f2-to-c1
+    subject_domain: ela_literacy
+    subject_node_id: F2
+    learning_to_learn_node_id: C1
+    attachment_type: MAY_ROUTE_TO_LEARNING_PROCESS_INTERVENTION
+    reason_code: confusion_signaling_readiness
+    gating_posture: intervention-only
+    routing_rule: route_to_c1_when_decoding_breakdown_is_compounded_by_silent_confusion_or_nonuse_of_clarification
+    subject_failure_mode_targets: []
+    learning_to_learn_failure_mode_targets: [C1-FM-01, C1-FM-03]
+    claim_boundary: does_not_replace_decoding_mastery_evidence
+    review_status: draft
+    source_path: domains/learning_to_learn/cross-domain-attachments/attachment-registry.yaml
+    notes: clarification signaling may affect whether decoding support can be used productively
+
+  - attachment_id: science-q1-to-a1
+    subject_domain: science
+    subject_node_id: Q1
+    learning_to_learn_node_id: A1
+    attachment_type: SUPPORTED_BY_LEARNING_PROCESS_NODE
+    reason_code: task_entry_readiness
+    gating_posture: co-gating
+    routing_rule: route_to_a1_when_observation_tasks_fail_at_entry_orientation_or_first_routine_completion
+    subject_failure_mode_targets: []
+    learning_to_learn_failure_mode_targets: [A1-FM-01, A1-FM-02, A1-FM-03]
+    claim_boundary: does_not_replace_science_observation_evidence
+    review_status: draft
+    source_path: domains/learning_to_learn/cross-domain-attachments/attachment-registry.yaml
+    notes: early science observation routines require stable task entry and orientation before content evidence can be interpreted honestly
+
+  - attachment_id: mathematics-e1-to-s1
+    subject_domain: mathematics
+    subject_node_id: E1
+    learning_to_learn_node_id: S1
+    attachment_type: MAY_ROUTE_TO_LEARNING_PROCESS_INTERVENTION
+    reason_code: productive_practice_support
+    gating_posture: intervention-only
+    routing_rule: route_to_s1_when_equation_attempts_show_guess_and_move_on_or_error_ends_the_routine
+    subject_failure_mode_targets: []
+    learning_to_learn_failure_mode_targets: [S1-FM-01, S1-FM-02]
+    claim_boundary: does_not_replace_equation_solving_mastery_evidence
+    review_status: draft
+    source_path: domains/learning_to_learn/cross-domain-attachments/attachment-registry.yaml
+    notes: one-step equations often require explicit check-correct routines to make error analysis usable
+
+  - attachment_id: social-studies-h1-to-r1
+    subject_domain: social_studies
+    subject_node_id: H1
+    learning_to_learn_node_id: R1
+    attachment_type: MAY_ROUTE_TO_LEARNING_PROCESS_INTERVENTION
+    reason_code: help_seeking_and_feedback_support
+    gating_posture: informing
+    routing_rule: route_to_r1_when_inquiry_or_memory_work_breaks_down_because_stuck_state_is_not_signaled_or_feedback_is_not_used
+    subject_failure_mode_targets: []
+    learning_to_learn_failure_mode_targets: [R1-FM-01, R1-FM-02, R1-FM-03]
+    claim_boundary: does_not_replace_social_studies_reasoning_or_memory_evidence
+    review_status: draft
+    source_path: domains/learning_to_learn/cross-domain-attachments/attachment-registry.yaml
+    notes: this attachment is intended to support intervention interpretation rather than to gate the social studies node directly

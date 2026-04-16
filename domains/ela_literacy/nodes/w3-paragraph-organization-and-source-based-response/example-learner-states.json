@@ -1,0 +1,43 @@
+[
+  {
+    "learner_id": "ela-sample-w3-blocked",
+    "node_id": "W3",
+    "status": "blocked",
+    "dependency_status": {
+      "W2": "secure",
+      "RC6": "provisional"
+    },
+    "direct_accuracy": 0.43,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["W3-FM-01", "W3-FM-02"],
+    "recommended_interventions": [
+      "topic sentence plus two support plan",
+      "quote or detail insertion frame"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Produces multiple sentences, but they do not organize around a clear response idea."
+  },
+  {
+    "learner_id": "ela-sample-w3-provisional",
+    "node_id": "W3",
+    "status": "provisional",
+    "dependency_status": {
+      "W2": "secure",
+      "RC6": "secure"
+    },
+    "direct_accuracy": 0.87,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [
+      "brief changed-source paragraph review"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Organizes short source-based paragraphs with clear internal coherence."
+  }
+]

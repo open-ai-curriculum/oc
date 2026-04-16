@@ -1,0 +1,37 @@
+{
+  "node_id": "X3",
+  "interventions": [
+    {
+      "intervention_id": "X3-INT-01",
+      "name": "X3 Intervention 1",
+      "addresses_failure_modes": [
+        "X3-FM-01"
+      ],
+      "summary": "project-framing templates requiring requirements, constraints, users, and success criteria to be named explicitly"
+    },
+    {
+      "intervention_id": "X3-INT-02",
+      "name": "X3 Intervention 2",
+      "addresses_failure_modes": [
+        "X3-FM-02"
+      ],
+      "summary": "design-review routines that force architecture, quality, security, and ethical considerations into one bounded project account"
+    },
+    {
+      "intervention_id": "X3-INT-03",
+      "name": "X3 Intervention 3",
+      "addresses_failure_modes": [
+        "X3-FM-03"
+      ],
+      "summary": "cross-domain application prompts asking what remains distinctly computer-science about an applied project"
+    },
+    {
+      "intervention_id": "X3-INT-04",
+      "name": "X3 Intervention 4",
+      "addresses_failure_modes": [
+        "X3-FM-04"
+      ],
+      "summary": "paired capstone analyses transferring the same synthesis structure to a second advanced project scenario"
+    }
+  ]
+}

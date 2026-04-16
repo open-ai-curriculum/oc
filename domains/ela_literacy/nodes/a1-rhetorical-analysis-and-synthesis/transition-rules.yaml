@@ -1,0 +1,26 @@
+node_id: A1
+version: 0.1
+transitions:
+  - from: blocked
+    to: emerging
+    when:
+      - direct_accuracy_improves_meaningfully
+      - dependency_W5_not_blocked
+      - dependency_R6_not_blocked
+      - dependency_L3_not_blocked
+  - from: emerging
+    to: provisional
+    when:
+      - direct_gate_passes
+      - meaning_gate_passes
+      - transfer_gate_passes
+      - retention_not_yet_due
+  - from: provisional
+    to: secure
+    when:
+      - retention_gate_passes
+  - from: secure
+    to: unstable
+    when:
+      - delayed_recheck_fails
+      - rhetorical_analysis_reverts_to_summary_or_assertion

@@ -1,0 +1,32 @@
+[
+  {
+    "item_id": "T3-IB-01",
+    "node_id": "T3",
+    "prompt": "A student says one cold day proves the climate is changing back. What revision is needed?",
+    "task_type": "climate_pattern_explanation",
+    "answer_key": "A single day is a short-term weather event and is not enough to justify a long-term climate claim.",
+    "scorable_traits": ["weather-climate distinction", "claim bounding", "time scale control"],
+    "target_failure_modes": ["T3-FM-01"],
+    "context_tags": ["climate", "patterns"]
+  },
+  {
+    "item_id": "T3-IB-02",
+    "node_id": "T3",
+    "prompt": "Explain a moon phase or seasonal pattern using a bounded Earth-Sun-Moon system model.",
+    "task_type": "earth_sun_moon_reasoning",
+    "answer_key": "The explanation should connect the observed pattern to relative positions or motions in the Earth-Sun-Moon system without overstating the model.",
+    "scorable_traits": ["system relation", "pattern explanation", "bounded modeling"],
+    "target_failure_modes": ["T3-FM-02"],
+    "context_tags": ["Earth-Sun-Moon", "patterns"]
+  },
+  {
+    "item_id": "T3-IB-03",
+    "node_id": "T3",
+    "prompt": "A map shows two rivers close together on the page. Why might that not mean they are close in walking distance?",
+    "task_type": "map_scale_interpretation",
+    "answer_key": "A map is a scaled representation, so page distance does not directly equal real-world distance without using the scale.",
+    "scorable_traits": ["scale interpretation", "representation limits", "precision"],
+    "target_failure_modes": ["T3-FM-03"],
+    "context_tags": ["maps", "scale"]
+  }
+]

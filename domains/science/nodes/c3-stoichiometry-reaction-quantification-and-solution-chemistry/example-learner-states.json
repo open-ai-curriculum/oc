@@ -1,0 +1,46 @@
+[
+  {
+    "learner_id": "example-c3-secure",
+    "node_id": "C3",
+    "status": "secure",
+    "dependency_status": {
+      "C2": "secure",
+      "I4": "secure",
+      "E4": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Uses stoichiometric and solution reasoning with conserved-quantity meaning and measurement discipline."
+  },
+  {
+    "learner_id": "example-c3-emerging",
+    "node_id": "C3",
+    "status": "emerging",
+    "dependency_status": {
+      "C2": "secure",
+      "I4": "secure",
+      "E4": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [
+      "C3-FM-01",
+      "C3-FM-02"
+    ],
+    "recommended_interventions": [
+      "C3-INT-01",
+      "C3-INT-02"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Can manipulate symbols and units but loses the chemical meaning of ratios and solutions."
+  }
+]

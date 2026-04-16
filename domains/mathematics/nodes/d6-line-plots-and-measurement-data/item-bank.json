@@ -1,37 +1,140 @@
 {
   "node_id": "D6",
+  "policy_version": "1.0",
   "items": [
     {
-      "item_id": "D6-A1",
-      "item_family": "direct",
-      "prompt": "plots measurement values on a line plot using a consistent scale and correct repeated marks",
+      "item_id": "D6-DIR-001",
+      "node_id": "D6",
+      "item_family": "direct_execution",
+      "prompt": "Compute `3/4 + 1/8` by rewriting to common units and show the equivalent fractions you used.",
       "expected_evidence": "place X marks correctly above measurement values on a line plot",
       "dominant_failure_mode": "mark_position_error",
-      "scoring_guidance": "Meets when the learner completes the representation task accurately."
+      "scoring_guidance": "Meets when the learner demonstrates place X marks correctly above measurement values on a line plot with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "D6-B1",
-      "item_family": "explanation",
-      "prompt": "reads and compares frequency at marked values including clustered or repeated measurements",
+      "item_id": "D6-DIR-002",
+      "node_id": "D6",
+      "item_family": "direct_execution",
+      "prompt": "Compute `5/6 - 1/4` and justify the common denominator choice.",
       "expected_evidence": "interpret repeated measures and identify most/least frequent values",
       "dominant_failure_mode": "frequency_tracking_loss",
-      "scoring_guidance": "Meets when the learner explains what the display shows and how to read it."
+      "scoring_guidance": "Meets when the learner demonstrates interpret repeated measures and identify most/least frequent values with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "D6-C1",
-      "item_family": "error_diagnosis",
-      "prompt": "Diagnose a peer error aligned to measurement_scale_disconnect.",
+      "item_id": "D6-DIR-003",
+      "node_id": "D6",
+      "item_family": "direct_execution",
+      "prompt": "Place `2/3` and `5/8` on the same number line and determine which is greater.",
       "expected_evidence": "use the line plot to answer additive and comparison questions",
       "dominant_failure_mode": "measurement_scale_disconnect",
-      "scoring_guidance": "Meets when the learner identifies the error source and states the correct interpretation."
+      "scoring_guidance": "Meets when the learner demonstrates use the line plot to answer additive and comparison questions with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
     },
     {
-      "item_id": "D6-D1",
+      "item_id": "D6-EXP-001",
+      "node_id": "D6",
+      "item_family": "explanation",
+      "prompt": "Explain why `3/4` can be rewritten as `6/8` without changing its value.",
+      "expected_evidence": "place X marks correctly above measurement values on a line plot",
+      "dominant_failure_mode": "frequency_tracking_loss",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to place X marks correctly above measurement values on a line plot.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "D6-EXP-002",
+      "node_id": "D6",
+      "item_family": "explanation",
+      "prompt": "Explain why fractions can only be combined directly when they refer to equal-sized parts.",
+      "expected_evidence": "interpret repeated measures and identify most/least frequent values",
+      "dominant_failure_mode": "measurement_scale_disconnect",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to interpret repeated measures and identify most/least frequent values.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "D6-ERR-001",
+      "node_id": "D6",
+      "item_family": "error_diagnosis",
+      "prompt": "A student says `3/4 + 1/8 = 4/12`. Diagnose the first structural mistake. Focus on mark position error.",
+      "expected_evidence": "place X marks correctly above measurement values on a line plot",
+      "dominant_failure_mode": "mark_position_error",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward place X marks correctly above measurement values on a line plot.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "D6-ERR-002",
+      "node_id": "D6",
+      "item_family": "error_diagnosis",
+      "prompt": "A student rewrites `2/3` as `3/4` before adding. Identify the equivalence error. Focus on frequency tracking loss.",
+      "expected_evidence": "interpret repeated measures and identify most/least frequent values",
+      "dominant_failure_mode": "frequency_tracking_loss",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward interpret repeated measures and identify most/least frequent values.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "D6-TRA-001",
+      "node_id": "D6",
       "item_family": "transfer",
-      "prompt": "succeeds across whole-number and fraction-marked measurement contexts",
-      "expected_evidence": "connect fraction-marked measurement positions to plotted data accurately",
+      "prompt": "A recipe uses `3/4` cup of oats and `1/8` cup of seeds. How much is used altogether?",
+      "expected_evidence": "place X marks correctly above measurement values on a line plot",
+      "dominant_failure_mode": "measurement_scale_disconnect",
+      "scoring_guidance": "Meets when the learner preserves place X marks correctly above measurement values on a line plot in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "D6-TRA-002",
+      "node_id": "D6",
+      "item_family": "transfer",
+      "prompt": "A hiker walks `5/6` mile in the morning and `1/4` mile less in the afternoon. How much farther was the morning walk?",
+      "expected_evidence": "interpret repeated measures and identify most/least frequent values",
       "dominant_failure_mode": "distribution_question_confusion",
-      "scoring_guidance": "Meets when the learner succeeds in the less-familiar data context."
+      "scoring_guidance": "Meets when the learner preserves interpret repeated measures and identify most/least frequent values in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "D6-RET-001",
+      "node_id": "D6",
+      "item_family": "retention",
+      "prompt": "After a delay, solve `2/3 + 1/6` and explain why the rewrite keeps the quantity unchanged.",
+      "expected_evidence": "place X marks correctly above measurement values on a line plot",
+      "dominant_failure_mode": "distribution_question_confusion",
+      "scoring_guidance": "Meets when the learner still demonstrates place X marks correctly above measurement values on a line plot on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "D6-PRE-001",
+      "node_id": "D6",
+      "item_family": "prerequisite_probe",
+      "prompt": "Before closing line plots and measurement data, complete a prerequisite check on scaled bar graphs and numerical data and explain how that prior understanding supports the fraction reasoning.",
+      "expected_evidence": "shows whether scaled bar graphs and numerical data is secure enough to support line plots and measurement data",
+      "dominant_failure_mode": "frequency_tracking_loss",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in scaled bar graphs and numerical data from a current-node issue in line plots and measurement data.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "D5",
+      "suspected_knowledge_gap_if_incorrect": "scaled bar graphs and numerical data"
+    },
+    {
+      "item_id": "D6-PRE-002",
+      "node_id": "D6",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a quick standard length units and tool use probe to determine whether the error belongs to the prerequisite or to line plots and measurement data.",
+      "expected_evidence": "shows whether standard length units and tool use is secure enough to support line plots and measurement data",
+      "dominant_failure_mode": "measurement_scale_disconnect",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in standard length units and tool use from a current-node issue in line plots and measurement data.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "M8",
+      "suspected_knowledge_gap_if_incorrect": "standard length units and tool use"
     }
   ]
 }

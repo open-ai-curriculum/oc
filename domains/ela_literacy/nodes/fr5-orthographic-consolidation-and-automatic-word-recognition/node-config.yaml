@@ -1,0 +1,36 @@
+id: FR5
+name: orthographic_consolidation_and_automatic_word_recognition
+domain: ela_literacy
+support_tier: Core release
+maturity_state: Drafted
+supported_profiles:
+  - foundational-reading-node-package
+evidence_class: Synthetic
+dependencies:
+  - FR4
+mastery:
+  direct_accuracy_threshold: 0.9
+  explanation_required: false
+  transfer_required: true
+  retention_check_days: 21
+statuses:
+  - blocked
+  - emerging
+  - provisional
+  - secure
+  - unstable
+verification_gates:
+  - id: G1
+    type: direct_performance
+    pass_rule: recognizes and decodes known words or patterns with stable accuracy and reduced effort in at least 9 of 10 structured opportunities
+  - id: G2
+    type: transfer
+    pass_rule: maintains automatic recognition across at least one changed set, spacing interval, or mixed list surface
+  - id: G3
+    type: retention
+    pass_rule: stable delayed recheck after approximately 21 days
+failure_modes:
+  - FR5-FM-01
+  - FR5-FM-02
+  - FR5-FM-03
+  - FR5-FM-04

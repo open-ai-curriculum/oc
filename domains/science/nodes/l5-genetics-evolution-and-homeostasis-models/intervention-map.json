@@ -1,0 +1,29 @@
+{
+  "node_id": "L5",
+  "interventions": [
+    {
+      "failure_mode": "L5-FM-01",
+      "intervention_id": "L5-INT-01",
+      "name": "Inherited Versus Acquired Trait Sort",
+      "delivery": "comparison routine"
+    },
+    {
+      "failure_mode": "L5-FM-02",
+      "intervention_id": "L5-INT-02",
+      "name": "Population Change Reframe",
+      "delivery": "modeling discussion"
+    },
+    {
+      "failure_mode": "L5-FM-03",
+      "intervention_id": "L5-INT-03",
+      "name": "Dynamic Regulation Graphing",
+      "delivery": "graph and explain"
+    },
+    {
+      "failure_mode": "L5-FM-04",
+      "intervention_id": "L5-INT-04",
+      "name": "Gene To Trait Context Map",
+      "delivery": "model scaffold"
+    }
+  ]
+}

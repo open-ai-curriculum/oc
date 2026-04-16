@@ -1,0 +1,26 @@
+{
+  "node_id": "F2",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "F2-FM-01": [
+      "cue-reduced decoding strip",
+      "sound-by-sound left-to-right tracking",
+      "immediate correction at first guess point"
+    ],
+    "F2-FM-02": [
+      "decode-then-spell paired trials",
+      "oral segmenting before writing",
+      "same-word bidirectional mapping task"
+    ],
+    "F2-FM-03": [
+      "novel simple-word rotation",
+      "same correspondences across changed items",
+      "mixed order low-rehearsal probes"
+    ],
+    "F2-FM-04": [
+      "sound boxes for ordered phonemes",
+      "stretch-and-blend routine",
+      "short-word sequence rebuild"
+    ]
+  }
+}

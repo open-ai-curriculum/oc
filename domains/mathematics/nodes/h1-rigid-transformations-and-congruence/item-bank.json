@@ -1,37 +1,140 @@
 {
   "node_id": "H1",
+  "policy_version": "1.0",
   "items": [
     {
-      "item_id": "H1-A1",
-      "item_family": "direct",
-      "prompt": "performs and verifies translations, rotations, and reflections in bounded grid and coordinate settings",
+      "item_id": "H1-DIR-001",
+      "node_id": "H1",
+      "item_family": "direct_execution",
+      "prompt": "Plot the point `(3, -2)` and explain what each coordinate controls.",
       "expected_evidence": "perform and verify rigid transformations on grids or coordinate planes in bounded cases",
       "dominant_failure_mode": "motion_rule_execution_breakdown",
-      "scoring_guidance": "Meets when the learner executes rigid transformations accurately and preserves the intended figure correspondence."
+      "scoring_guidance": "Meets when the learner demonstrates perform and verify rigid transformations on grids or coordinate planes in bounded cases with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "H1-B1",
-      "item_family": "explanation",
-      "prompt": "explains which properties are preserved under a rigid transformation and how symmetry creates an image/preimage relationship",
+      "item_id": "H1-DIR-002",
+      "node_id": "H1",
+      "item_family": "direct_execution",
+      "prompt": "Find the slope between `(1, 4)` and `(5, 12)` and interpret it as a rate of change.",
       "expected_evidence": "explain which lengths, angles, and orientation properties are preserved or changed by a given transformation",
       "dominant_failure_mode": "preservation_meaning_gap",
-      "scoring_guidance": "Meets when the learner explains rigid-motion preservation and symmetry meaning beyond naming the transformation."
+      "scoring_guidance": "Meets when the learner demonstrates explain which lengths, angles, and orientation properties are preserved or changed by a given transformation with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "H1-C1",
-      "item_family": "error_diagnosis",
-      "prompt": "Diagnose a peer error aligned to correspondence_label_drift.",
+      "item_id": "H1-DIR-003",
+      "node_id": "H1",
+      "item_family": "direct_execution",
+      "prompt": "Determine whether the table represents a function and justify your decision.",
       "expected_evidence": "identify corresponding points and figures under coordinate symmetry or rigid motion",
       "dominant_failure_mode": "correspondence_label_drift",
-      "scoring_guidance": "Meets when the learner identifies where the peer lost point correspondence or mislabeled image/preimage structure."
+      "scoring_guidance": "Meets when the learner demonstrates identify corresponding points and figures under coordinate symmetry or rigid motion with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
     },
     {
-      "item_id": "H1-D1",
+      "item_id": "H1-EXP-001",
+      "node_id": "H1",
+      "item_family": "explanation",
+      "prompt": "Explain how a table, graph, and equation can represent the same linear relationship.",
+      "expected_evidence": "perform and verify rigid transformations on grids or coordinate planes in bounded cases",
+      "dominant_failure_mode": "preservation_meaning_gap",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to perform and verify rigid transformations on grids or coordinate planes in bounded cases.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "H1-EXP-002",
+      "node_id": "H1",
+      "item_family": "explanation",
+      "prompt": "Explain what slope means in both graphical and contextual terms.",
+      "expected_evidence": "explain which lengths, angles, and orientation properties are preserved or changed by a given transformation",
+      "dominant_failure_mode": "correspondence_label_drift",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to explain which lengths, angles, and orientation properties are preserved or changed by a given transformation.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "H1-ERR-001",
+      "node_id": "H1",
+      "item_family": "error_diagnosis",
+      "prompt": "A student reverses the coordinates and plots `(3, -2)` as `(-2, 3)`. Diagnose the mapping error. Focus on motion rule execution breakdown.",
+      "expected_evidence": "perform and verify rigid transformations on grids or coordinate planes in bounded cases",
+      "dominant_failure_mode": "motion_rule_execution_breakdown",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward perform and verify rigid transformations on grids or coordinate planes in bounded cases.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "H1-ERR-002",
+      "node_id": "H1",
+      "item_family": "error_diagnosis",
+      "prompt": "A student says every straight-looking graph is proportional. Identify the misclassification. Focus on preservation meaning gap.",
+      "expected_evidence": "explain which lengths, angles, and orientation properties are preserved or changed by a given transformation",
+      "dominant_failure_mode": "preservation_meaning_gap",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward explain which lengths, angles, and orientation properties are preserved or changed by a given transformation.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "H1-TRA-001",
+      "node_id": "H1",
       "item_family": "transfer",
-      "prompt": "uses transformation sequences or symmetry reasoning in a less-familiar coordinate or geometric setting",
-      "expected_evidence": "justify congruence claims through transformation sequences rather than visual resemblance alone",
+      "prompt": "A ride-share charges a fixed fee plus a cost per mile. Write a rule, make a table, and interpret the slope and intercept.",
+      "expected_evidence": "perform and verify rigid transformations on grids or coordinate planes in bounded cases",
+      "dominant_failure_mode": "correspondence_label_drift",
+      "scoring_guidance": "Meets when the learner preserves perform and verify rigid transformations on grids or coordinate planes in bounded cases in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "H1-TRA-002",
+      "node_id": "H1",
+      "item_family": "transfer",
+      "prompt": "Given a graph and a verbal description, decide whether they could represent the same relationship and justify the match.",
+      "expected_evidence": "explain which lengths, angles, and orientation properties are preserved or changed by a given transformation",
       "dominant_failure_mode": "visual_congruence_overreach",
-      "scoring_guidance": "Meets when the learner uses rigid-motion reasoning, not appearance alone, to justify congruence in a varied setting."
+      "scoring_guidance": "Meets when the learner preserves explain which lengths, angles, and orientation properties are preserved or changed by a given transformation in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "H1-RET-001",
+      "node_id": "H1",
+      "item_family": "retention",
+      "prompt": "On a delayed check, move between a rule, a table, and a graph for a linear relationship and explain the connection.",
+      "expected_evidence": "perform and verify rigid transformations on grids or coordinate planes in bounded cases",
+      "dominant_failure_mode": "visual_congruence_overreach",
+      "scoring_guidance": "Meets when the learner still demonstrates perform and verify rigid transformations on grids or coordinate planes in bounded cases on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "H1-PRE-001",
+      "node_id": "H1",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a prerequisite probe on coordinate plane and ordered pairs to see whether the learner is blocked by graph/coordinate foundations or by transformations and coordinate symmetry itself.",
+      "expected_evidence": "shows whether coordinate plane and ordered pairs is secure enough to support transformations and coordinate symmetry",
+      "dominant_failure_mode": "preservation_meaning_gap",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in coordinate plane and ordered pairs from a current-node issue in transformations and coordinate symmetry.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "A4",
+      "suspected_knowledge_gap_if_incorrect": "coordinate plane and ordered pairs"
+    },
+    {
+      "item_id": "H1-PRE-002",
+      "node_id": "H1",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a prerequisite probe on symmetry and equal part visual reasoning to see whether the learner is blocked by graph/coordinate foundations or by transformations and coordinate symmetry itself.",
+      "expected_evidence": "shows whether symmetry and equal part visual reasoning is secure enough to support transformations and coordinate symmetry",
+      "dominant_failure_mode": "correspondence_label_drift",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in symmetry and equal part visual reasoning from a current-node issue in transformations and coordinate symmetry.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "G5",
+      "suspected_knowledge_gap_if_incorrect": "symmetry and equal part visual reasoning"
     }
   ]
 }

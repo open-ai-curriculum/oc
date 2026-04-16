@@ -1,0 +1,250 @@
+{
+  "node_id": "N5",
+  "policy_version": "1.0",
+  "version": "0.4",
+  "items": [
+    {
+      "item_id": "N5-DIR-001",
+      "node_id": "N5",
+      "item_family": "direct_execution",
+      "prompt": "A student sends a file across a school network, and the teacher asks which devices or services are involved. Show how the learner would describe who or what the system is being protected from in a bounded scenario.",
+      "expected_evidence": "describe who or what the system is being protected from in a bounded scenario",
+      "dominant_failure_mode_targets": [
+        "N5-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates describe who or what the system is being protected from in a bounded scenario with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "N5-DIR-002",
+      "node_id": "N5",
+      "item_family": "direct_execution",
+      "prompt": "A classroom app stops working because a login, connection, or system layer matters. Explain the setup and show how the learner would connect a defensive mechanism to the specific threat it is intended to reduce.",
+      "expected_evidence": "connect a defensive mechanism to the specific threat it is intended to reduce",
+      "dominant_failure_mode_targets": [
+        "N5-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates connect a defensive mechanism to the specific threat it is intended to reduce with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "N5-DIR-003",
+      "node_id": "N5",
+      "item_family": "direct_execution",
+      "prompt": "A security scenario is presented involving access control, privacy, or a likely attack. Show how the learner would recognize that security controls can involve usability, cost, or performance tradeoffs.",
+      "expected_evidence": "recognize that security controls can involve usability, cost, or performance tradeoffs",
+      "dominant_failure_mode_targets": [
+        "N5-FM-03"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates recognize that security controls can involve usability, cost, or performance tradeoffs with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "N5-EXP-001",
+      "node_id": "N5",
+      "item_family": "explanation",
+      "prompt": "Why is a list of security tools not enough to explain cybersecurity?",
+      "expected_evidence": "because cybersecurity reasoning must connect a protective mechanism to a specific bounded threat or vulnerability, not just name tools.",
+      "dominant_failure_mode_targets": [
+        "N5-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to because cybersecurity reasoning must connect a protective mechanism to a specific bounded threat or vulnerability, not just name tools."
+    },
+    {
+      "item_id": "N5-EXP-002",
+      "node_id": "N5",
+      "item_family": "explanation",
+      "prompt": "What does a threat model help you decide?",
+      "expected_evidence": "it helps identify what the system is being protected from so the chosen defenses match the actual risk rather than a generic fear.",
+      "dominant_failure_mode_targets": [
+        "N5-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to it helps identify what the system is being protected from so the chosen defenses match the actual risk rather than a generic fear."
+    },
+    {
+      "item_id": "N5-ERR-001",
+      "node_id": "N5",
+      "item_family": "error_diagnosis",
+      "prompt": "In a network or security scenario, a learner responds in a way that suggests this breakdown: learner names security tools or practices without connecting them to a bounded threat model. Diagnose the systems or cybersecurity mistake. Focus on tool-list security.",
+      "expected_evidence": "describe who or what the system is being protected from in a bounded scenario",
+      "dominant_failure_mode_targets": [
+        "N5-FM-01"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward describe who or what the system is being protected from in a bounded scenario."
+    },
+    {
+      "item_id": "N5-ERR-002",
+      "node_id": "N5",
+      "item_family": "error_diagnosis",
+      "prompt": "In a network or security scenario, a learner responds in a way that suggests this breakdown: learner cannot explain why a particular defensive mechanism fits the stated risk. Diagnose the systems or cybersecurity mistake. Focus on threat-mechanism mismatch.",
+      "expected_evidence": "connect a defensive mechanism to the specific threat it is intended to reduce",
+      "dominant_failure_mode_targets": [
+        "N5-FM-02"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward connect a defensive mechanism to the specific threat it is intended to reduce."
+    },
+    {
+      "item_id": "N5-TRA-001",
+      "node_id": "N5",
+      "item_family": "transfer",
+      "prompt": "A network or security idea learned with one classroom example is now embedded in a different system such as streaming, cloud storage, or a shared document. Explain how the learner would recognize that security controls can involve usability, cost, or performance tradeoffs.",
+      "expected_evidence": "recognize that security controls can involve usability, cost, or performance tradeoffs",
+      "dominant_failure_mode_targets": [
+        "N5-FM-03"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves recognize that security controls can involve usability, cost, or performance tradeoffs in a changed computing context or representation."
+    },
+    {
+      "item_id": "N5-TRA-002",
+      "node_id": "N5",
+      "item_family": "transfer",
+      "prompt": "A learner must move from a visible device-level description to a more abstract system or threat-model case and still preserve the same reasoning. Show how they would avoid naming tools without explaining what attack surface or risk they address.",
+      "expected_evidence": "avoid naming tools without explaining what attack surface or risk they address",
+      "dominant_failure_mode_targets": [
+        "N5-FM-04"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves avoid naming tools without explaining what attack surface or risk they address in a changed computing context or representation."
+    },
+    {
+      "item_id": "N5-RET-001",
+      "node_id": "N5",
+      "item_family": "retention",
+      "prompt": "After a delay, the learner is given a fresh connected-system or security case and must explain the pathway, layer, risk, or defense involved. Show how they would describe who or what the system is being protected from in a bounded scenario.",
+      "expected_evidence": "describe who or what the system is being protected from in a bounded scenario",
+      "dominant_failure_mode_targets": [
+        "N5-FM-04"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_explanation",
+        "constructed_response"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability",
+      "scoring_guidance": "Meets when the learner still demonstrates describe who or what the system is being protected from in a bounded scenario on a delayed recheck without a blocking recurrence."
+    },
+    {
+      "item_id": "N5-PRE-001",
+      "node_id": "N5",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a short systems or access-control check on systems architecture, resource constraints, and platform layers before closing cybersecurity mechanisms, threat models, and defensive reasoning, and decide whether the current problem is actually an upstream dependency gap.",
+      "expected_evidence": "shows whether systems architecture, resource constraints, and platform layers is secure enough to support cybersecurity mechanisms, threat models, and defensive reasoning",
+      "dominant_failure_mode_targets": [
+        "N5-FM-01"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in systems architecture, resource constraints, and platform layers from a current-node issue in cybersecurity mechanisms, threat models, and defensive reasoning.",
+      "dependency_target": "N4",
+      "suspected_knowledge_gap_if_incorrect": "systems architecture, resource constraints, and platform layers"
+    },
+    {
+      "item_id": "N5-PRE-002",
+      "node_id": "N5",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a short systems or access-control check on specification, testing, and program quality criteria before closing cybersecurity mechanisms, threat models, and defensive reasoning, and decide whether the current problem is actually an upstream dependency gap.",
+      "expected_evidence": "shows whether specification, testing, and program quality criteria is secure enough to support cybersecurity mechanisms, threat models, and defensive reasoning",
+      "dominant_failure_mode_targets": [
+        "N5-FM-02"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in specification, testing, and program quality criteria from a current-node issue in cybersecurity mechanisms, threat models, and defensive reasoning.",
+      "dependency_target": "C3",
+      "suspected_knowledge_gap_if_incorrect": "specification, testing, and program quality criteria"
+    }
+  ]
+}

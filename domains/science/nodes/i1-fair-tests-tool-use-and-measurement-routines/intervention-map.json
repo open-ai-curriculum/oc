@@ -1,0 +1,26 @@
+{
+  "node_id": "I1",
+  "version": "0.1",
+  "interventions": {
+    "I1-FM-01": [
+      "use side-by-side examples of one-change versus many-change tests",
+      "ask which part must stay the same before running the test",
+      "rehearse one-variable language with simple classroom materials"
+    ],
+    "I1-FM-02": [
+      "match common science tools to what each one measures or helps observe",
+      "compare a correct and incorrect tool choice",
+      "practice naming the purpose before picking the tool"
+    ],
+    "I1-FM-03": [
+      "use a simple table with one row per trial",
+      "model how to record immediately after each observation",
+      "compare complete and incomplete records"
+    ],
+    "I1-FM-04": [
+      "repeat the same fair-test routine across motion plant and materials contexts",
+      "preserve the question structure while changing materials",
+      "fade prompts gradually after one successful familiar task"
+    ]
+  }
+}

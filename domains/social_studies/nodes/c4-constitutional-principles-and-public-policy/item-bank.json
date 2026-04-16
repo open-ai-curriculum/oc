@@ -1,0 +1,16 @@
+{
+  "node_id": "C4",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "C4-G1-01",
+      "node_id": "C4",
+      "gate": "G1",
+      "prompt": "Use the scenario to explain which civic principle matters and how it affects the policy choice.",
+      "context_type": "policy_scenario",
+      "response_mode": "oral_or_written_or_deliberation_notes",
+      "scoring_rule": "Identifies a plausible civic principle and connects it meaningfully to the policy decision.",
+      "failure_mode_targets": ["C4-FM-01", "C4-FM-02"]
+    }
+  ]
+}

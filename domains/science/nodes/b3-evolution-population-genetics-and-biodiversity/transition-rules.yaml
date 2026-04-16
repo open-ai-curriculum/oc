@@ -1,0 +1,25 @@
+node_id: B3
+version: 0.1
+transitions:
+  - from: blocked
+    to: emerging
+    when:
+      - direct_accuracy_improves_meaningfully
+      - dependencies_b2_and_l5_and_e4_are_not_both_blocked
+  - from: emerging
+    to: provisional
+    when:
+      - dependencies_b2_and_l5_and_e4_are_secure
+      - direct_gate_passes
+      - meaning_gate_passes
+      - transfer_gate_passes
+      - retention_not_yet_due
+  - from: provisional
+    to: secure
+    when:
+      - retention_gate_passes
+  - from: secure
+    to: unstable
+    when:
+      - delayed_recheck_fails
+      - dependency_b2_or_l5_or_e4_becomes_unstable

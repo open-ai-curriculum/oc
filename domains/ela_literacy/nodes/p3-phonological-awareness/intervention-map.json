@@ -1,0 +1,26 @@
+{
+  "node_id": "P3",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "P3-FM-01": [
+      "oral-only sound contrasts with minimized semantic load",
+      "explicit cue to listen for sound rather than meaning",
+      "paired items that foreground sound structure"
+    ],
+    "P3-FM-02": [
+      "tapping or clapping for spoken-unit segmentation",
+      "single manageable oral unit at a time",
+      "repeated fixed oral pattern before added complexity"
+    ],
+    "P3-FM-03": [
+      "stable sound target with changed response format",
+      "move from imitation to independent response deliberately",
+      "same sound pattern across multiple oral tasks"
+    ],
+    "P3-FM-04": [
+      "shorter spoken strings",
+      "front-loaded target sound feature",
+      "pause between repetitions to reduce overload"
+    ]
+  }
+}

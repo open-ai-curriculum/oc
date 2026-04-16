@@ -1,0 +1,26 @@
+{
+  "node_id": "WC1",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "WC1-FM-01": [
+      "tighten the task around idea-to-sentence collapse so the target is more visible",
+      "keep the response surface bounded enough to isolate the real bottleneck",
+      "rerun a changed-surface check after one short intervention cycle"
+    ],
+    "WC1-FM-02": [
+      "tighten the task around fragment instability so the target is more visible",
+      "keep the response surface bounded enough to isolate the real bottleneck",
+      "rerun a changed-surface check after one short intervention cycle"
+    ],
+    "WC1-FM-03": [
+      "tighten the task around prompt dependence so the target is more visible",
+      "keep the response surface bounded enough to isolate the real bottleneck",
+      "rerun a changed-surface check after one short intervention cycle"
+    ],
+    "WC1-FM-04": [
+      "tighten the task around sentence-meaning drift so the target is more visible",
+      "keep the response surface bounded enough to isolate the real bottleneck",
+      "rerun a changed-surface check after one short intervention cycle"
+    ]
+  }
+}

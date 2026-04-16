@@ -1,0 +1,1681 @@
+{
+  "meta": {
+    "generated_on": "2026-04-15",
+    "inventory_record_count": 36,
+    "mapped_node_count": 146,
+    "coverage_classification_counts": {
+      "covered": 31,
+      "partially_covered": 3,
+      "unmapped": 0,
+      "out_of_scope": 2
+    },
+    "orphan_node_mapping_count": 0,
+    "source_inventory": "docs/standards/mathematics-standards-inventory.json",
+    "source_node_map": "docs/standards/mathematics-node-standards-map.json"
+  },
+  "standards": [
+    {
+      "standard_id": "math-anchor-advanced-placement-post-ccss-extension-advanced-coursework-beyond-the-current-codified-k-12-standards-corpus-advanced-placement-statistics-precalculus-and-calculus-extensions-advanced-coursework-nodes-extend-beyond-the-currently-codified-ccss-state-standards-baseline",
+      "grade_band_or_category": "Advanced Placement / Post-CCSS extension",
+      "domain": "advanced coursework beyond the current codified K-12 standards corpus",
+      "cluster_or_grouping": "advanced placement statistics, precalculus, and calculus extensions",
+      "anchor_statement": "advanced coursework nodes extend beyond the currently codified CCSS/state standards baseline",
+      "official_identifier": null,
+      "inventory_scope_status": "out_of_scope",
+      "coverage_expectation": "out_of_scope",
+      "content_baseline_mapping_status": "repository_only_or_beyond_current_content_baseline",
+      "ccss_mapping_status": "out_of_scope_current_ccss_baseline",
+      "coverage_note": "Current repository standards corpus does not yet codify College Board AP standards, so these nodes remain explicitly out of scope for direct content-standard alignment.",
+      "family_ids": [
+        "AP"
+      ],
+      "family_names": [
+        "advanced_placement_mathematics_pathways"
+      ],
+      "node_ids": [
+        "AP1",
+        "AP2",
+        "AP3",
+        "AP4",
+        "AP5",
+        "AP6",
+        "AP7",
+        "AP8",
+        "AP9"
+      ],
+      "node_names": [
+        "ap_precalculus_extension",
+        "ap_statistics_extension",
+        "applications_of_derivatives",
+        "applications_of_integration",
+        "bc_series_and_advanced_calculus_extensions",
+        "derivative_rules_and_computation",
+        "differential_equations_foundations",
+        "integral_meaning_and_accumulation",
+        "limits_and_continuity"
+      ],
+      "source_documents": [
+        "docs/standards/mathematics-content-standards-baseline.md",
+        "docs/standards/ccss/common-core-state-standards-mathematics.md"
+      ],
+      "review_status": "draft",
+      "node_count": 9,
+      "coverage_classification": "out_of_scope",
+      "validation_rationale": "The inventory record is explicitly outside the current codified K-12 mathematics standards scope.",
+      "matched_node_count": 9,
+      "matched_node_ids": [
+        "AP1",
+        "AP2",
+        "AP3",
+        "AP4",
+        "AP5",
+        "AP6",
+        "AP7",
+        "AP8",
+        "AP9"
+      ]
+    },
+    {
+      "standard_id": "math-anchor-grade-8-to-high-school-functions-algebra-function-structure-linear-relationships-systems-and-quadratic-foundations-reason-about-functions-rate-of-change-multiple-representations-systems-and-early-quadratic-structure",
+      "grade_band_or_category": "Grade 8 to High School",
+      "domain": "functions / algebra",
+      "cluster_or_grouping": "function structure, linear relationships, systems, and quadratic foundations",
+      "anchor_statement": "reason about functions, rate of change, multiple representations, systems, and early quadratic structure",
+      "official_identifier": null,
+      "inventory_scope_status": "in_scope",
+      "coverage_expectation": "direct",
+      "content_baseline_mapping_status": "mapped",
+      "ccss_mapping_status": "mapped",
+      "coverage_note": "Crosses from Grade 8 functions into high-school algebra/functions territory.",
+      "family_ids": [
+        "K"
+      ],
+      "family_names": [
+        "functions_and_secondary_linear_algebra"
+      ],
+      "node_ids": [
+        "K1",
+        "K2",
+        "K3",
+        "K4",
+        "K5",
+        "K6",
+        "K7"
+      ],
+      "node_names": [
+        "function_as_input_output_rule",
+        "linear_equations_in_two_variables",
+        "linear_functions_multiple_representations",
+        "quadratic_foundations",
+        "slope_rate_of_change_and_linear_growth",
+        "systems_of_linear_equations_and_inequalities",
+        "variable_relationships_and_independent_dependent_quantities"
+      ],
+      "source_documents": [
+        "docs/standards/mathematics-content-standards-baseline.md",
+        "docs/standards/ccss/common-core-state-standards-mathematics.md"
+      ],
+      "review_status": "draft",
+      "node_count": 7,
+      "coverage_classification": "covered",
+      "validation_rationale": "At least one mathematics node has a direct mapped CCSS posture for this inventory record.",
+      "matched_node_count": 7,
+      "matched_node_ids": [
+        "K1",
+        "K2",
+        "K3",
+        "K4",
+        "K5",
+        "K6",
+        "K7"
+      ]
+    },
+    {
+      "standard_id": "math-anchor-grade-8-to-high-school-geometry-transformations-proof-similarity-trigonometric-foundations-and-coordinate-geometry-reason-about-geometric-structure-transformations-proof-similarity-and-trigonometric-relationships",
+      "grade_band_or_category": "Grade 8 to High School",
+      "domain": "geometry",
+      "cluster_or_grouping": "transformations, proof, similarity, trigonometric foundations, and coordinate geometry",
+      "anchor_statement": "reason about geometric structure, transformations, proof, similarity, and trigonometric relationships",
+      "official_identifier": null,
+      "inventory_scope_status": "in_scope",
+      "coverage_expectation": "direct",
+      "content_baseline_mapping_status": "mapped",
+      "ccss_mapping_status": "mapped",
+      "coverage_note": "Direct secondary geometry surface.",
+      "family_ids": [
+        "H"
+      ],
+      "family_names": [
+        "secondary_geometry_transformations_and_proof"
+      ],
+      "node_ids": [
+        "H1",
+        "H2",
+        "H3",
+        "H4",
+        "H5"
+      ],
+      "node_names": [
+        "circles_measurement_and_coordinate_geometry",
+        "congruence_and_similarity_via_transformations",
+        "proof_structure_and_geometric_argument",
+        "right_triangle_trigonometric_ratio_foundations",
+        "transformations_and_coordinate_symmetry"
+      ],
+      "source_documents": [
+        "docs/standards/mathematics-content-standards-baseline.md",
+        "docs/standards/ccss/common-core-state-standards-mathematics.md"
+      ],
+      "review_status": "draft",
+      "node_count": 5,
+      "coverage_classification": "covered",
+      "validation_rationale": "At least one mathematics node has a direct mapped CCSS posture for this inventory record.",
+      "matched_node_count": 5,
+      "matched_node_ids": [
+        "H1",
+        "H2",
+        "H3",
+        "H4",
+        "H5"
+      ]
+    },
+    {
+      "standard_id": "math-anchor-grades-1-2-operations-and-algebraic-thinking-number-representation-ordered-positions-and-magnitude-representation-use-linear-position-to-represent-ordered-whole-number-magnitude",
+      "grade_band_or_category": "Grades 1-2",
+      "domain": "operations and algebraic thinking / number representation",
+      "cluster_or_grouping": "ordered positions and magnitude representation",
+      "anchor_statement": "use linear position to represent ordered whole-number magnitude",
+      "official_identifier": null,
+      "inventory_scope_status": "in_scope",
+      "coverage_expectation": "direct",
+      "content_baseline_mapping_status": "mapped",
+      "ccss_mapping_status": "mapped",
+      "coverage_note": "Cross-domain representation surface spanning whole-number and fraction magnitude.",
+      "family_ids": [
+        "L"
+      ],
+      "family_names": [
+        "number_line_and_linear_magnitude"
+      ],
+      "node_ids": [
+        "L1"
+      ],
+      "node_names": [
+        "ordered_positions_on_number_line"
+      ],
+      "source_documents": [
+        "docs/standards/mathematics-content-standards-baseline.md",
+        "docs/standards/ccss/common-core-state-standards-mathematics.md"
+      ],
+      "review_status": "draft",
+      "node_count": 1,
+      "coverage_classification": "covered",
+      "validation_rationale": "At least one mathematics node has a direct mapped CCSS posture for this inventory record.",
+      "matched_node_count": 1,
+      "matched_node_ids": [
+        "L1"
+      ]
+    },
+    {
+      "standard_id": "math-anchor-grades-1-3-number-and-operations-in-base-ten-place-value-and-multidigit-whole-number-reasoning-understand-place-value-and-use-it-to-structure-multidigit-comparison-and-operations",
+      "grade_band_or_category": "Grades 1-3",
+      "domain": "number and operations in base ten",
+      "cluster_or_grouping": "place value and multidigit whole-number reasoning",
+      "anchor_statement": "understand place value and use it to structure multidigit comparison and operations",
+      "official_identifier": null,
+      "inventory_scope_status": "in_scope",
+      "coverage_expectation": "direct",
+      "content_baseline_mapping_status": "mapped",
+      "ccss_mapping_status": "mapped",
+      "coverage_note": "Direct base-ten alignment surface.",
+      "family_ids": [
+        "V"
+      ],
+      "family_names": [
+        "place_value_and_multidigit_whole_numbers"
+      ],
+      "node_ids": [
+        "V1",
+        "V2",
+        "V3",
+        "V4",
+        "V5"
+      ],
+      "node_names": [
+        "add_subtract_within_1000",
+        "add_subtract_within_100_strategies",
+        "compare_and_order_multidigit_numbers",
+        "regrouping_and_base_ten_equivalence",
+        "two_digit_number_structure"
+      ],
+      "source_documents": [
+        "docs/standards/mathematics-content-standards-baseline.md",
+        "docs/standards/ccss/common-core-state-standards-mathematics.md"
+      ],
+      "review_status": "draft",
+      "node_count": 5,
+      "coverage_classification": "covered",
+      "validation_rationale": "At least one mathematics node has a direct mapped CCSS posture for this inventory record.",
+      "matched_node_count": 5,
+      "matched_node_ids": [
+        "V1",
+        "V2",
+        "V3",
+        "V4",
+        "V5"
+      ]
+    },
+    {
+      "standard_id": "math-anchor-grades-1-3-number-and-operations-in-base-ten-number-representation-whole-number-intervals-and-jumps-represent-equal-intervals-and-additive-jumps-on-a-number-line",
+      "grade_band_or_category": "Grades 1-3",
+      "domain": "number and operations in base ten / number representation",
+      "cluster_or_grouping": "whole-number intervals and jumps",
+      "anchor_statement": "represent equal intervals and additive jumps on a number line",
+      "official_identifier": null,
+      "inventory_scope_status": "in_scope",
+      "coverage_expectation": "direct",
+      "content_baseline_mapping_status": "mapped",
+      "ccss_mapping_status": "mapped",
+      "coverage_note": "Cross-domain representation surface spanning whole-number and fraction magnitude.",
+      "family_ids": [
+        "L"
+      ],
+      "family_names": [
+        "number_line_and_linear_magnitude"
+      ],
+      "node_ids": [
+        "L2"
+      ],
+      "node_names": [
+        "whole_number_intervals_and_jumps"
+      ],
+      "source_documents": [
+        "docs/standards/mathematics-content-standards-baseline.md",
+        "docs/standards/ccss/common-core-state-standards-mathematics.md"
+      ],
+      "review_status": "draft",
+      "node_count": 1,
+      "coverage_classification": "covered",
+      "validation_rationale": "At least one mathematics node has a direct mapped CCSS posture for this inventory record.",
+      "matched_node_count": 1,
+      "matched_node_ids": [
+        "L2"
+      ]
+    },
+    {
+      "standard_id": "math-anchor-grades-2-3-number-and-operations-with-fractions-equal-parts-and-unit-fraction-readiness-establish-equal-part-and-unit-fraction-meaning-before-formal-fraction-notation",
+      "grade_band_or_category": "Grades 2-3",
+      "domain": "number and operations with fractions",
+      "cluster_or_grouping": "equal parts and unit-fraction readiness",
+      "anchor_statement": "establish equal-part and unit-fraction meaning before formal fraction notation",
+      "official_identifier": null,
+      "inventory_scope_status": "in_scope_readiness_only",
+      "coverage_expectation": "readiness",
+      "content_baseline_mapping_status": "mapped",
+      "ccss_mapping_status": "partial_readiness_alignment",
+      "coverage_note": "Readiness layer immediately preceding direct fraction-standards work.",
+      "family_ids": [
+        "F"
+      ],
+      "family_names": [
+        "fraction_readiness_and_early_fraction"
+      ],
+      "node_ids": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "node_names": [
+        "part_whole_reasoning_with_equal_parts",
+        "symbol_preparation",
+        "unit_fraction_readiness"
+      ],
+      "source_documents": [
+        "docs/standards/mathematics-content-standards-baseline.md",
+        "docs/standards/ccss/common-core-state-standards-mathematics.md"
+      ],
+      "review_status": "draft",
+      "node_count": 3,
+      "coverage_classification": "partially_covered",
+      "validation_rationale": "The inventory record is represented only through readiness or partial-alignment nodes.",
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        "R1",
+        "R2",
+        "R3"
+      ]
+    },
+    {
+      "standard_id": "math-anchor-grades-2-4-number-and-operations-in-base-ten-multidigit-magnitude-representation-locate-and-compare-multidigit-numbers-on-a-number-line",
+      "grade_band_or_category": "Grades 2-4",
+      "domain": "number and operations in base ten",
+      "cluster_or_grouping": "multidigit magnitude representation",
+      "anchor_statement": "locate and compare multidigit numbers on a number line",
+      "official_identifier": null,
+      "inventory_scope_status": "in_scope",
+      "coverage_expectation": "direct",
+      "content_baseline_mapping_status": "mapped",
+      "ccss_mapping_status": "mapped",
+      "coverage_note": "Cross-domain representation surface spanning whole-number and fraction magnitude.",
+      "family_ids": [
+        "L"
+      ],
+      "family_names": [
+        "number_line_and_linear_magnitude"
+      ],
+      "node_ids": [
+        "L3"
+      ],
+      "node_names": [
+        "multidigit_magnitude_on_number_line"
+      ],
+      "source_documents": [
+        "docs/standards/mathematics-content-standards-baseline.md",
+        "docs/standards/ccss/common-core-state-standards-mathematics.md"
+      ],
+      "review_status": "draft",
+      "node_count": 1,
+      "coverage_classification": "covered",
+      "validation_rationale": "At least one mathematics node has a direct mapped CCSS posture for this inventory record.",
+      "matched_node_count": 1,
+      "matched_node_ids": [
+        "L3"
+      ]
+    },
+    {
+      "standard_id": "math-anchor-grades-3-5-measurement-and-data-measurement-estimation-and-reasonableness-estimate-measurement-outcomes-and-judge-whether-results-are-reasonable",
+      "grade_band_or_category": "Grades 3-5",
+      "domain": "measurement and data",
+      "cluster_or_grouping": "measurement estimation and reasonableness",
+      "anchor_statement": "estimate measurement outcomes and judge whether results are reasonable",
+      "official_identifier": null,
+      "inventory_scope_status": "in_scope",
+      "coverage_expectation": "direct",
+      "content_baseline_mapping_status": "mapped",
+      "ccss_mapping_status": "mapped",
+      "coverage_note": "Repository estimation surface spanning multiple elementary mathematics domains.",
+      "family_ids": [
+        "Y"
+      ],
+      "family_names": [
+        "estimation_and_reasonableness"
+      ],
+      "node_ids": [
+        "Y3"
+      ],
+      "node_names": [
+        "measurement_estimation_and_reasonableness"
+      ],
+      "source_documents": [
+        "docs/standards/mathematics-content-standards-baseline.md",
+        "docs/standards/ccss/common-core-state-standards-mathematics.md"
+      ],
+      "review_status": "draft",
+      "node_count": 1,
+      "coverage_classification": "covered",
+      "validation_rationale": "At least one mathematics node has a direct mapped CCSS posture for this inventory record.",
+      "matched_node_count": 1,
+      "matched_node_ids": [
+        "Y3"
+      ]
+    },
+    {
+      "standard_id": "math-anchor-grades-3-5-number-and-operations-in-base-ten-estimation-for-whole-number-operations-estimate-whole-number-operation-results-using-place-value-benchmarks",
+      "grade_band_or_category": "Grades 3-5",
+      "domain": "number and operations in base ten",
+      "cluster_or_grouping": "estimation for whole-number operations",
+      "anchor_statement": "estimate whole-number operation results using place-value benchmarks",
+      "official_identifier": null,
+      "inventory_scope_status": "in_scope",
+      "coverage_expectation": "direct",
+      "content_baseline_mapping_status": "mapped",
+      "ccss_mapping_status": "mapped",
+      "coverage_note": "Repository estimation surface spanning multiple elementary mathematics domains.",
+      "family_ids": [
+        "Y"
+      ],
+      "family_names": [
+        "estimation_and_reasonableness"
+      ],
+      "node_ids": [
+        "Y2"
+      ],
+      "node_names": [
+        "whole_number_operation_estimation"
+      ],
+      "source_documents": [
+        "docs/standards/mathematics-content-standards-baseline.md",
+        "docs/standards/ccss/common-core-state-standards-mathematics.md"
+      ],
+      "review_status": "draft",
+      "node_count": 1,
+      "coverage_classification": "covered",
+      "validation_rationale": "At least one mathematics node has a direct mapped CCSS posture for this inventory record.",
+      "matched_node_count": 1,
+      "matched_node_ids": [
+        "Y2"
+      ]
+    },
+    {
+      "standard_id": "math-anchor-grades-3-5-number-and-operations-in-base-ten-rounding-and-benchmark-reasoning-use-rounding-and-benchmark-whole-numbers-to-judge-reasonableness",
+      "grade_band_or_category": "Grades 3-5",
+      "domain": "number and operations in base ten",
+      "cluster_or_grouping": "rounding and benchmark reasoning",
+      "anchor_statement": "use rounding and benchmark whole numbers to judge reasonableness",
+      "official_identifier": null,
+      "inventory_scope_status": "in_scope",
+      "coverage_expectation": "direct",
+      "content_baseline_mapping_status": "mapped",
+      "ccss_mapping_status": "mapped",
+      "coverage_note": "Repository estimation surface spanning multiple elementary mathematics domains.",
+      "family_ids": [
+        "Y"
+      ],
+      "family_names": [
+        "estimation_and_reasonableness"
+      ],
+      "node_ids": [
+        "Y1"
+      ],
+      "node_names": [
+        "rounding_and_benchmark_whole_numbers"
+      ],
+      "source_documents": [
+        "docs/standards/mathematics-content-standards-baseline.md",
+        "docs/standards/ccss/common-core-state-standards-mathematics.md"
+      ],
+      "review_status": "draft",
+      "node_count": 1,
+      "coverage_classification": "covered",
+      "validation_rationale": "At least one mathematics node has a direct mapped CCSS posture for this inventory record.",
+      "matched_node_count": 1,
+      "matched_node_ids": [
+        "Y1"
+      ]
+    },
+    {
+      "standard_id": "math-anchor-grades-3-5-number-and-operations-with-fractions-fraction-benchmark-estimation-use-benchmark-fractions-to-estimate-and-compare-fraction-quantities",
+      "grade_band_or_category": "Grades 3-5",
+      "domain": "number and operations with fractions",
+      "cluster_or_grouping": "fraction benchmark estimation",
+      "anchor_statement": "use benchmark fractions to estimate and compare fraction quantities",
+      "official_identifier": null,
+      "inventory_scope_status": "in_scope",
+      "coverage_expectation": "direct",
+      "content_baseline_mapping_status": "mapped",
+      "ccss_mapping_status": "mapped",
+      "coverage_note": "Repository estimation surface spanning multiple elementary mathematics domains.",
+      "family_ids": [
+        "Y"
+      ],
+      "family_names": [
+        "estimation_and_reasonableness"
+      ],
+      "node_ids": [
+        "Y4"
+      ],
+      "node_names": [
+        "fraction_benchmark_estimation"
+      ],
+      "source_documents": [
+        "docs/standards/mathematics-content-standards-baseline.md",
+        "docs/standards/ccss/common-core-state-standards-mathematics.md"
+      ],
+      "review_status": "draft",
+      "node_count": 1,
+      "coverage_classification": "covered",
+      "validation_rationale": "At least one mathematics node has a direct mapped CCSS posture for this inventory record.",
+      "matched_node_count": 1,
+      "matched_node_ids": [
+        "Y4"
+      ]
+    },
+    {
+      "standard_id": "math-anchor-grades-3-5-number-and-operations-with-fractions-fraction-number-line-representation-represent-fraction-magnitude-on-the-number-line-including-beyond-one-whole",
+      "grade_band_or_category": "Grades 3-5",
+      "domain": "number and operations with fractions",
+      "cluster_or_grouping": "fraction number-line representation",
+      "anchor_statement": "represent fraction magnitude on the number line, including beyond one whole",
+      "official_identifier": null,
+      "inventory_scope_status": "in_scope",
+      "coverage_expectation": "direct",
+      "content_baseline_mapping_status": "mapped",
+      "ccss_mapping_status": "mapped",
+      "coverage_note": "Cross-domain representation surface spanning whole-number and fraction magnitude.",
+      "family_ids": [
+        "L"
+      ],
+      "family_names": [
+        "number_line_and_linear_magnitude"
+      ],
+      "node_ids": [
+        "L4"
+      ],
+      "node_names": [
+        "fraction_locations_on_number_line"
+      ],
+      "source_documents": [
+        "docs/standards/mathematics-content-standards-baseline.md",
+        "docs/standards/ccss/common-core-state-standards-mathematics.md"
+      ],
+      "review_status": "draft",
+      "node_count": 1,
+      "coverage_classification": "covered",
+      "validation_rationale": "At least one mathematics node has a direct mapped CCSS posture for this inventory record.",
+      "matched_node_count": 1,
+      "matched_node_ids": [
+        "L4"
+      ]
+    },
+    {
+      "standard_id": "math-anchor-grades-3-5-number-and-operations-with-fractions-fraction-structure-equivalence-comparison-and-operations-reason-about-fraction-quantity-equivalence-comparison-and-operations",
+      "grade_band_or_category": "Grades 3-5",
+      "domain": "number and operations with fractions",
+      "cluster_or_grouping": "fraction structure, equivalence, comparison, and operations",
+      "anchor_statement": "reason about fraction quantity, equivalence, comparison, and operations",
+      "official_identifier": null,
+      "inventory_scope_status": "in_scope",
+      "coverage_expectation": "direct",
+      "content_baseline_mapping_status": "mapped",
+      "ccss_mapping_status": "mapped",
+      "coverage_note": "Direct fraction content-standards surface.",
+      "family_ids": [
+        "F"
+      ],
+      "family_names": [
+        "fraction_readiness_and_early_fraction"
+      ],
+      "node_ids": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F6"
+      ],
+      "node_names": [
+        "add_subtract_like_denominator_fractions",
+        "add_subtract_unlike_denominator_fractions",
+        "compare_fractions",
+        "equivalent_fractions",
+        "fraction_magnitude_beyond_one_whole",
+        "fraction_structure"
+      ],
+      "source_documents": [
+        "docs/standards/mathematics-content-standards-baseline.md",
+        "docs/standards/ccss/common-core-state-standards-mathematics.md"
+      ],
+      "review_status": "draft",
+      "node_count": 6,
+      "coverage_classification": "covered",
+      "validation_rationale": "At least one mathematics node has a direct mapped CCSS posture for this inventory record.",
+      "matched_node_count": 6,
+      "matched_node_ids": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F6"
+      ]
+    },
+    {
+      "standard_id": "math-anchor-grades-3-5-operations-and-algebraic-thinking-number-and-operations-in-base-ten-multiplicative-reasoning-and-multidigit-operation-structure-use-multiplicative-structure-for-facts-comparison-multidigit-multiplication-and-division",
+      "grade_band_or_category": "Grades 3-5",
+      "domain": "operations and algebraic thinking / number and operations in base ten",
+      "cluster_or_grouping": "multiplicative reasoning and multidigit operation structure",
+      "anchor_statement": "use multiplicative structure for facts, comparison, multidigit multiplication, and division",
+      "official_identifier": null,
+      "inventory_scope_status": "in_scope",
+      "coverage_expectation": "direct",
+      "content_baseline_mapping_status": "mapped",
+      "ccss_mapping_status": "mapped",
+      "coverage_note": "Direct upper-elementary multiplicative reasoning surface.",
+      "family_ids": [
+        "T"
+      ],
+      "family_names": [
+        "multiplicative_reasoning_and_division"
+      ],
+      "node_ids": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5",
+        "T6",
+        "T7"
+      ],
+      "node_names": [
+        "arrays_and_rectangular_structures",
+        "division_as_unknown_group_or_share",
+        "factors_multiples_and_divisibility",
+        "multidigit_division_and_remainder_interpretation",
+        "multidigit_multiplication_structure",
+        "multiplication_fact_structure",
+        "multiplicative_comparison_and_scaling"
+      ],
+      "source_documents": [
+        "docs/standards/mathematics-content-standards-baseline.md",
+        "docs/standards/ccss/common-core-state-standards-mathematics.md"
+      ],
+      "review_status": "draft",
+      "node_count": 7,
+      "coverage_classification": "covered",
+      "validation_rationale": "At least one mathematics node has a direct mapped CCSS posture for this inventory record.",
+      "matched_node_count": 7,
+      "matched_node_ids": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5",
+        "T6",
+        "T7"
+      ]
+    },
+    {
+      "standard_id": "math-anchor-grades-4-5-number-and-operations-in-base-ten-number-and-operations-with-fractions-decimal-place-value-and-fraction-decimal-connections-extend-place-value-reasoning-to-decimals-and-connect-decimals-to-fraction-benchmarks",
+      "grade_band_or_category": "Grades 4-5",
+      "domain": "number and operations in base ten / number and operations with fractions",
+      "cluster_or_grouping": "decimal place value and fraction-decimal connections",
+      "anchor_statement": "extend place-value reasoning to decimals and connect decimals to fraction benchmarks",
+      "official_identifier": null,
+      "inventory_scope_status": "in_scope",
+      "coverage_expectation": "direct",
+      "content_baseline_mapping_status": "mapped",
+      "ccss_mapping_status": "mapped",
+      "coverage_note": "Upper-elementary decimal and fraction-decimal connection surface.",
+      "family_ids": [
+        "X"
+      ],
+      "family_names": [
+        "decimals_and_fraction_decimal_connections"
+      ],
+      "node_ids": [
+        "X1",
+        "X2",
+        "X3",
+        "X4",
+        "X5"
+      ],
+      "node_names": [
+        "compare_and_order_decimals",
+        "decimal_locations_on_number_line",
+        "decimal_place_value_structure",
+        "fraction_decimal_benchmark_connections",
+        "tenths_as_decimal_units"
+      ],
+      "source_documents": [
+        "docs/standards/mathematics-content-standards-baseline.md",
+        "docs/standards/ccss/common-core-state-standards-mathematics.md"
+      ],
+      "review_status": "draft",
+      "node_count": 5,
+      "coverage_classification": "covered",
+      "validation_rationale": "At least one mathematics node has a direct mapped CCSS posture for this inventory record.",
+      "matched_node_count": 5,
+      "matched_node_ids": [
+        "X1",
+        "X2",
+        "X3",
+        "X4",
+        "X5"
+      ]
+    },
+    {
+      "standard_id": "math-anchor-grades-6-12-statistics-and-probability-distributions-association-inference-design-and-probability-analyze-data-reason-about-variability-and-make-probabilistic-or-inferential-claims",
+      "grade_band_or_category": "Grades 6-12",
+      "domain": "statistics and probability",
+      "cluster_or_grouping": "distributions, association, inference, design, and probability",
+      "anchor_statement": "analyze data, reason about variability, and make probabilistic or inferential claims",
+      "official_identifier": null,
+      "inventory_scope_status": "in_scope",
+      "coverage_expectation": "direct",
+      "content_baseline_mapping_status": "mapped",
+      "ccss_mapping_status": "mapped",
+      "coverage_note": "Crosses from middle-grades statistics and probability into high-school statistics.",
+      "family_ids": [
+        "W"
+      ],
+      "family_names": [
+        "secondary_statistics_and_probability"
+      ],
+      "node_ids": [
+        "W1",
+        "W2",
+        "W3",
+        "W4",
+        "W5",
+        "W6",
+        "W7",
+        "W8",
+        "W9"
+      ],
+      "node_names": [
+        "bivariate_data_and_linear_association",
+        "chi_square_reasoning",
+        "inference_for_means",
+        "inference_for_proportions",
+        "inference_for_regression_slope",
+        "probability_models_and_compound_events",
+        "sampling_distributions",
+        "sampling_inference_and_study_design",
+        "statistical_distributions_and_variability"
+      ],
+      "source_documents": [
+        "docs/standards/mathematics-content-standards-baseline.md",
+        "docs/standards/ccss/common-core-state-standards-mathematics.md"
+      ],
+      "review_status": "draft",
+      "node_count": 9,
+      "coverage_classification": "covered",
+      "validation_rationale": "At least one mathematics node has a direct mapped CCSS posture for this inventory record.",
+      "matched_node_count": 9,
+      "matched_node_ids": [
+        "W1",
+        "W2",
+        "W3",
+        "W4",
+        "W5",
+        "W6",
+        "W7",
+        "W8",
+        "W9"
+      ]
+    },
+    {
+      "standard_id": "math-anchor-grades-6-7-ratios-and-proportional-relationships-ratio-unit-rate-proportionality-and-percent-reason-with-ratios-unit-rates-proportional-relationships-and-percent",
+      "grade_band_or_category": "Grades 6-7",
+      "domain": "ratios and proportional relationships",
+      "cluster_or_grouping": "ratio, unit rate, proportionality, and percent",
+      "anchor_statement": "reason with ratios, unit rates, proportional relationships, and percent",
+      "official_identifier": null,
+      "inventory_scope_status": "in_scope",
+      "coverage_expectation": "direct",
+      "content_baseline_mapping_status": "mapped",
+      "ccss_mapping_status": "mapped",
+      "coverage_note": "Direct middle-grades ratio and proportional reasoning surface.",
+      "family_ids": [
+        "Q"
+      ],
+      "family_names": [
+        "ratio_and_proportional_reasoning"
+      ],
+      "node_ids": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "node_names": [
+        "percent_as_rate_per_hundred",
+        "proportional_relationships",
+        "ratio_as_multiplicative_comparison",
+        "unit_rate_reasoning"
+      ],
+      "source_documents": [
+        "docs/standards/mathematics-content-standards-baseline.md",
+        "docs/standards/ccss/common-core-state-standards-mathematics.md"
+      ],
+      "review_status": "draft",
+      "node_count": 4,
+      "coverage_classification": "covered",
+      "validation_rationale": "At least one mathematics node has a direct mapped CCSS posture for this inventory record.",
+      "matched_node_count": 4,
+      "matched_node_ids": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ]
+    },
+    {
+      "standard_id": "math-anchor-grades-6-7-the-number-system-signed-number-meaning-and-operations-reason-about-signed-number-magnitude-order-and-operations",
+      "grade_band_or_category": "Grades 6-7",
+      "domain": "the number system",
+      "cluster_or_grouping": "signed number meaning and operations",
+      "anchor_statement": "reason about signed-number magnitude, order, and operations",
+      "official_identifier": null,
+      "inventory_scope_status": "in_scope",
+      "coverage_expectation": "direct",
+      "content_baseline_mapping_status": "mapped",
+      "ccss_mapping_status": "mapped",
+      "coverage_note": "Direct middle-grades number-system surface.",
+      "family_ids": [
+        "A"
+      ],
+      "family_names": [
+        "downstream_algebra_and_coordinate_reasoning"
+      ],
+      "node_ids": [
+        "S1",
+        "S2"
+      ],
+      "node_names": [
+        "signed_number_meaning",
+        "signed_number_operations"
+      ],
+      "source_documents": [
+        "docs/standards/mathematics-content-standards-baseline.md",
+        "docs/standards/ccss/common-core-state-standards-mathematics.md"
+      ],
+      "review_status": "draft",
+      "node_count": 2,
+      "coverage_classification": "covered",
+      "validation_rationale": "At least one mathematics node has a direct mapped CCSS posture for this inventory record.",
+      "matched_node_count": 2,
+      "matched_node_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    {
+      "standard_id": "math-anchor-grades-6-7-the-number-system-ratios-and-proportional-relationships-rational-number-operations-and-proportional-application-operate-with-rational-numbers-and-apply-proportional-reasoning-in-context",
+      "grade_band_or_category": "Grades 6-7",
+      "domain": "the number system / ratios and proportional relationships",
+      "cluster_or_grouping": "rational number operations and proportional application",
+      "anchor_statement": "operate with rational numbers and apply proportional reasoning in context",
+      "official_identifier": null,
+      "inventory_scope_status": "in_scope",
+      "coverage_expectation": "direct",
+      "content_baseline_mapping_status": "mapped",
+      "ccss_mapping_status": "mapped",
+      "coverage_note": "Direct middle-grades rational-number and application surface.",
+      "family_ids": [
+        "J"
+      ],
+      "family_names": [
+        "rational_number_operations_and_middle_school_computation"
+      ],
+      "node_ids": [
+        "J1",
+        "J2",
+        "J3",
+        "J4",
+        "J5",
+        "J6"
+      ],
+      "node_names": [
+        "numerical_expressions_and_absolute_value",
+        "percent_change_discount_tax_and_markup",
+        "proportional_application_and_scale_modeling",
+        "rational_number_addition_and_subtraction",
+        "rational_number_multiplication_and_division",
+        "signed_rational_number_fluency_and_order"
+      ],
+      "source_documents": [
+        "docs/standards/mathematics-content-standards-baseline.md",
+        "docs/standards/ccss/common-core-state-standards-mathematics.md"
+      ],
+      "review_status": "draft",
+      "node_count": 6,
+      "coverage_classification": "covered",
+      "validation_rationale": "At least one mathematics node has a direct mapped CCSS posture for this inventory record.",
+      "matched_node_count": 6,
+      "matched_node_ids": [
+        "J1",
+        "J2",
+        "J3",
+        "J4",
+        "J5",
+        "J6"
+      ]
+    },
+    {
+      "standard_id": "math-anchor-grades-6-8-expressions-and-equations-equation-solving-and-algebraic-structure-solve-and-interpret-equations-using-structural-equality-and-inverse-reasoning",
+      "grade_band_or_category": "Grades 6-8",
+      "domain": "expressions and equations",
+      "cluster_or_grouping": "equation solving and algebraic structure",
+      "anchor_statement": "solve and interpret equations using structural equality and inverse reasoning",
+      "official_identifier": null,
+      "inventory_scope_status": "in_scope",
+      "coverage_expectation": "direct",
+      "content_baseline_mapping_status": "mapped",
+      "ccss_mapping_status": "mapped",
+      "coverage_note": "Direct middle-grades equations surface.",
+      "family_ids": [
+        "A"
+      ],
+      "family_names": [
+        "downstream_algebra_and_coordinate_reasoning"
+      ],
+      "node_ids": [
+        "E1",
+        "E2",
+        "E3"
+      ],
+      "node_names": [
+        "multi_step_equations",
+        "one_step_equations",
+        "variables_both_sides"
+      ],
+      "source_documents": [
+        "docs/standards/mathematics-content-standards-baseline.md",
+        "docs/standards/ccss/common-core-state-standards-mathematics.md"
+      ],
+      "review_status": "draft",
+      "node_count": 3,
+      "coverage_classification": "covered",
+      "validation_rationale": "At least one mathematics node has a direct mapped CCSS posture for this inventory record.",
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        "E1",
+        "E2",
+        "E3"
+      ]
+    },
+    {
+      "standard_id": "math-anchor-grades-6-8-expressions-and-equations-functions-geometry-expressions-inequalities-coordinates-and-early-linear-relationships-use-variables-equations-inequalities-and-coordinate-reasoning-to-describe-relationships",
+      "grade_band_or_category": "Grades 6-8",
+      "domain": "expressions and equations / functions / geometry",
+      "cluster_or_grouping": "expressions, inequalities, coordinates, and early linear relationships",
+      "anchor_statement": "use variables, equations, inequalities, and coordinate reasoning to describe relationships",
+      "official_identifier": null,
+      "inventory_scope_status": "in_scope",
+      "coverage_expectation": "direct",
+      "content_baseline_mapping_status": "mapped",
+      "ccss_mapping_status": "mapped",
+      "coverage_note": "Bridge from middle-grades algebraic structure into functions and coordinate reasoning.",
+      "family_ids": [
+        "A"
+      ],
+      "family_names": [
+        "downstream_algebra_and_coordinate_reasoning"
+      ],
+      "node_ids": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ],
+      "node_names": [
+        "coordinate_plane_and_ordered_pairs",
+        "distributive_reasoning_and_combining_like_terms",
+        "inequalities_and_solution_sets",
+        "linear_relationship_tables_and_graphs",
+        "variable_expressions_and_substitution"
+      ],
+      "source_documents": [
+        "docs/standards/mathematics-content-standards-baseline.md",
+        "docs/standards/ccss/common-core-state-standards-mathematics.md"
+      ],
+      "review_status": "draft",
+      "node_count": 5,
+      "coverage_classification": "covered",
+      "validation_rationale": "At least one mathematics node has a direct mapped CCSS posture for this inventory record.",
+      "matched_node_count": 5,
+      "matched_node_ids": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "standard_id": "math-anchor-high-school-algebra-functions-number-and-quantity-advanced-algebraic-and-precalculus-structure-reason-about-advanced-algebraic-structure-function-families-and-precalculus-behavior",
+      "grade_band_or_category": "High School",
+      "domain": "algebra / functions / number and quantity",
+      "cluster_or_grouping": "advanced algebraic and precalculus structure",
+      "anchor_statement": "reason about advanced algebraic structure, function families, and precalculus behavior",
+      "official_identifier": null,
+      "inventory_scope_status": "in_scope",
+      "coverage_expectation": "direct",
+      "content_baseline_mapping_status": "mapped",
+      "ccss_mapping_status": "mapped",
+      "coverage_note": "High-school advanced algebra and function-family surface.",
+      "family_ids": [
+        "B"
+      ],
+      "family_names": [
+        "advanced_algebra_trigonometry_and_precalculus"
+      ],
+      "node_ids": [
+        "B1",
+        "B10",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9"
+      ],
+      "node_names": [
+        "complex_numbers_and_quadratic_extensions",
+        "conic_sections_and_coordinate_models",
+        "logarithmic_and_inverse_function_reasoning",
+        "polynomial_structure_and_operations",
+        "precalculus_function_synthesis_and_limits_foundations",
+        "rational_radical_and_exponential_functions",
+        "sequences_series_and_recursive_structure",
+        "trigonometric_functions_and_unit_circle",
+        "trigonometric_identities_equations_and_analytic_trig",
+        "vectors_matrices_and_parametric_foundations"
+      ],
+      "source_documents": [
+        "docs/standards/mathematics-content-standards-baseline.md",
+        "docs/standards/ccss/common-core-state-standards-mathematics.md"
+      ],
+      "review_status": "draft",
+      "node_count": 10,
+      "coverage_classification": "covered",
+      "validation_rationale": "At least one mathematics node has a direct mapped CCSS posture for this inventory record.",
+      "matched_node_count": 10,
+      "matched_node_ids": [
+        "B1",
+        "B10",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9"
+      ]
+    },
+    {
+      "standard_id": "math-anchor-kindergarten-counting-and-cardinality-compare-numbers-and-quantities-compare-small-quantities-and-determine-more-less-or-equal",
+      "grade_band_or_category": "Kindergarten",
+      "domain": "counting and cardinality",
+      "cluster_or_grouping": "compare numbers and quantities",
+      "anchor_statement": "compare small quantities and determine more, less, or equal",
+      "official_identifier": null,
+      "inventory_scope_status": "in_scope",
+      "coverage_expectation": "direct",
+      "content_baseline_mapping_status": "mapped",
+      "ccss_mapping_status": "mapped",
+      "coverage_note": "Direct kindergarten counting-and-cardinality alignment surface.",
+      "family_ids": [
+        "C"
+      ],
+      "family_names": [
+        "counting_and_cardinality"
+      ],
+      "node_ids": [
+        "C4"
+      ],
+      "node_names": [
+        "compare_small_quantities"
+      ],
+      "source_documents": [
+        "docs/standards/mathematics-content-standards-baseline.md",
+        "docs/standards/ccss/common-core-state-standards-mathematics.md"
+      ],
+      "review_status": "draft",
+      "node_count": 1,
+      "coverage_classification": "covered",
+      "validation_rationale": "At least one mathematics node has a direct mapped CCSS posture for this inventory record.",
+      "matched_node_count": 1,
+      "matched_node_ids": [
+        "C4"
+      ]
+    },
+    {
+      "standard_id": "math-anchor-kindergarten-counting-and-cardinality-connect-numerals-and-quantities-match-symbols-to-counted-quantities-and-quantity-names",
+      "grade_band_or_category": "Kindergarten",
+      "domain": "counting and cardinality",
+      "cluster_or_grouping": "connect numerals and quantities",
+      "anchor_statement": "match symbols to counted quantities and quantity names",
+      "official_identifier": null,
+      "inventory_scope_status": "in_scope",
+      "coverage_expectation": "direct",
+      "content_baseline_mapping_status": "mapped",
+      "ccss_mapping_status": "mapped",
+      "coverage_note": "Direct kindergarten counting-and-cardinality alignment surface.",
+      "family_ids": [
+        "C"
+      ],
+      "family_names": [
+        "counting_and_cardinality"
+      ],
+      "node_ids": [
+        "C6"
+      ],
+      "node_names": [
+        "quantity_symbol_correspondence"
+      ],
+      "source_documents": [
+        "docs/standards/mathematics-content-standards-baseline.md",
+        "docs/standards/ccss/common-core-state-standards-mathematics.md"
+      ],
+      "review_status": "draft",
+      "node_count": 1,
+      "coverage_classification": "covered",
+      "validation_rationale": "At least one mathematics node has a direct mapped CCSS posture for this inventory record.",
+      "matched_node_count": 1,
+      "matched_node_ids": [
+        "C6"
+      ]
+    },
+    {
+      "standard_id": "math-anchor-kindergarten-counting-and-cardinality-connect-numerals-and-quantities-numeral-recognition-and-writing-readiness-supporting-numeral-quantity-alignment",
+      "grade_band_or_category": "Kindergarten",
+      "domain": "counting and cardinality",
+      "cluster_or_grouping": "connect numerals and quantities",
+      "anchor_statement": "numeral recognition and writing readiness supporting numeral-quantity alignment",
+      "official_identifier": null,
+      "inventory_scope_status": "in_scope_readiness_only",
+      "coverage_expectation": "readiness",
+      "content_baseline_mapping_status": "mapped",
+      "ccss_mapping_status": "partial_readiness_alignment",
+      "coverage_note": "Direct kindergarten counting-and-cardinality alignment surface.",
+      "family_ids": [
+        "C"
+      ],
+      "family_names": [
+        "counting_and_cardinality"
+      ],
+      "node_ids": [
+        "C5"
+      ],
+      "node_names": [
+        "numeral_recognition_and_writing_readiness"
+      ],
+      "source_documents": [
+        "docs/standards/mathematics-content-standards-baseline.md",
+        "docs/standards/ccss/common-core-state-standards-mathematics.md"
+      ],
+      "review_status": "draft",
+      "node_count": 1,
+      "coverage_classification": "partially_covered",
+      "validation_rationale": "The inventory record is represented only through readiness or partial-alignment nodes.",
+      "matched_node_count": 1,
+      "matched_node_ids": [
+        "C5"
+      ]
+    },
+    {
+      "standard_id": "math-anchor-kindergarten-counting-and-cardinality-count-to-tell-the-number-of-objects-cardinality-and-the-final-count-principle",
+      "grade_band_or_category": "Kindergarten",
+      "domain": "counting and cardinality",
+      "cluster_or_grouping": "count to tell the number of objects",
+      "anchor_statement": "cardinality and the final-count principle",
+      "official_identifier": null,
+      "inventory_scope_status": "in_scope",
+      "coverage_expectation": "direct",
+      "content_baseline_mapping_status": "mapped",
+      "ccss_mapping_status": "mapped",
+      "coverage_note": "Direct kindergarten counting-and-cardinality alignment surface.",
+      "family_ids": [
+        "C"
+      ],
+      "family_names": [
+        "counting_and_cardinality"
+      ],
+      "node_ids": [
+        "C3"
+      ],
+      "node_names": [
+        "cardinality"
+      ],
+      "source_documents": [
+        "docs/standards/mathematics-content-standards-baseline.md",
+        "docs/standards/ccss/common-core-state-standards-mathematics.md"
+      ],
+      "review_status": "draft",
+      "node_count": 1,
+      "coverage_classification": "covered",
+      "validation_rationale": "At least one mathematics node has a direct mapped CCSS posture for this inventory record.",
+      "matched_node_count": 1,
+      "matched_node_ids": [
+        "C3"
+      ]
+    },
+    {
+      "standard_id": "math-anchor-kindergarten-counting-and-cardinality-count-to-tell-the-number-of-objects-one-to-one-correspondence-while-counting-objects",
+      "grade_band_or_category": "Kindergarten",
+      "domain": "counting and cardinality",
+      "cluster_or_grouping": "count to tell the number of objects",
+      "anchor_statement": "one-to-one correspondence while counting objects",
+      "official_identifier": null,
+      "inventory_scope_status": "in_scope",
+      "coverage_expectation": "direct",
+      "content_baseline_mapping_status": "mapped",
+      "ccss_mapping_status": "mapped",
+      "coverage_note": "Direct kindergarten counting-and-cardinality alignment surface.",
+      "family_ids": [
+        "C"
+      ],
+      "family_names": [
+        "counting_and_cardinality"
+      ],
+      "node_ids": [
+        "C2"
+      ],
+      "node_names": [
+        "one_to_one_correspondence"
+      ],
+      "source_documents": [
+        "docs/standards/mathematics-content-standards-baseline.md",
+        "docs/standards/ccss/common-core-state-standards-mathematics.md"
+      ],
+      "review_status": "draft",
+      "node_count": 1,
+      "coverage_classification": "covered",
+      "validation_rationale": "At least one mathematics node has a direct mapped CCSS posture for this inventory record.",
+      "matched_node_count": 1,
+      "matched_node_ids": [
+        "C2"
+      ]
+    },
+    {
+      "standard_id": "math-anchor-kindergarten-counting-and-cardinality-know-number-names-and-the-count-sequence-count-sequence-fluency-and-stable-verbal-counting",
+      "grade_band_or_category": "Kindergarten",
+      "domain": "counting and cardinality",
+      "cluster_or_grouping": "know number names and the count sequence",
+      "anchor_statement": "count sequence fluency and stable verbal counting",
+      "official_identifier": null,
+      "inventory_scope_status": "in_scope",
+      "coverage_expectation": "direct",
+      "content_baseline_mapping_status": "mapped",
+      "ccss_mapping_status": "mapped",
+      "coverage_note": "Direct kindergarten counting-and-cardinality alignment surface.",
+      "family_ids": [
+        "C"
+      ],
+      "family_names": [
+        "counting_and_cardinality"
+      ],
+      "node_ids": [
+        "C1"
+      ],
+      "node_names": [
+        "stable_counting_sequence"
+      ],
+      "source_documents": [
+        "docs/standards/mathematics-content-standards-baseline.md",
+        "docs/standards/ccss/common-core-state-standards-mathematics.md"
+      ],
+      "review_status": "draft",
+      "node_count": 1,
+      "coverage_classification": "covered",
+      "validation_rationale": "At least one mathematics node has a direct mapped CCSS posture for this inventory record.",
+      "matched_node_count": 1,
+      "matched_node_ids": [
+        "C1"
+      ]
+    },
+    {
+      "standard_id": "math-anchor-kindergarten-to-grade-1-operations-and-algebraic-thinking-whole-number-composition-and-early-addition-subtraction-meaning-compose-and-decompose-numbers-and-reason-about-addition-and-subtraction",
+      "grade_band_or_category": "Kindergarten to Grade 1",
+      "domain": "operations and algebraic thinking",
+      "cluster_or_grouping": "whole-number composition and early addition/subtraction meaning",
+      "anchor_statement": "compose and decompose numbers and reason about addition and subtraction",
+      "official_identifier": null,
+      "inventory_scope_status": "in_scope",
+      "coverage_expectation": "direct",
+      "content_baseline_mapping_status": "mapped",
+      "ccss_mapping_status": "mapped",
+      "coverage_note": "Direct early-operations alignment surface; later nodes also support base-ten readiness.",
+      "family_ids": [
+        "N"
+      ],
+      "family_names": [
+        "whole_number_and_operations"
+      ],
+      "node_ids": [
+        "N1",
+        "N2",
+        "N3",
+        "N4",
+        "N5",
+        "N6"
+      ],
+      "node_names": [
+        "addition_and_subtraction_meaning",
+        "compose_and_decompose_small_numbers",
+        "count_on_and_count_back",
+        "early_place_value_grouping_logic",
+        "fluency_foundations",
+        "teen_numbers_and_base_ten_composition_readiness"
+      ],
+      "source_documents": [
+        "docs/standards/mathematics-content-standards-baseline.md",
+        "docs/standards/ccss/common-core-state-standards-mathematics.md"
+      ],
+      "review_status": "draft",
+      "node_count": 6,
+      "coverage_classification": "covered",
+      "validation_rationale": "At least one mathematics node has a direct mapped CCSS posture for this inventory record.",
+      "matched_node_count": 6,
+      "matched_node_ids": [
+        "N1",
+        "N2",
+        "N3",
+        "N4",
+        "N5",
+        "N6"
+      ]
+    },
+    {
+      "standard_id": "math-anchor-kindergarten-to-grade-2-operations-and-algebraic-thinking-pattern-rule-and-structure-readiness-notice-repeated-and-growing-structure-as-readiness-for-algebraic-thinking",
+      "grade_band_or_category": "Kindergarten to Grade 2",
+      "domain": "operations and algebraic thinking",
+      "cluster_or_grouping": "pattern, rule, and structure readiness",
+      "anchor_statement": "notice repeated and growing structure as readiness for algebraic thinking",
+      "official_identifier": null,
+      "inventory_scope_status": "in_scope_readiness_only",
+      "coverage_expectation": "readiness",
+      "content_baseline_mapping_status": "mapped",
+      "ccss_mapping_status": "partial_readiness_alignment",
+      "coverage_note": "Pattern nodes are repository readiness structures that support later OA-style reasoning without claiming one-to-one official standard equivalence.",
+      "family_ids": [
+        "P"
+      ],
+      "family_names": [
+        "pattern_and_algebraic_readiness"
+      ],
+      "node_ids": [
+        "P1",
+        "P2",
+        "P3",
+        "P4"
+      ],
+      "node_names": [
+        "growing_patterns",
+        "missing_element_pattern_reasoning",
+        "repeating_patterns",
+        "rule_language_and_structure_noticing"
+      ],
+      "source_documents": [
+        "docs/standards/mathematics-content-standards-baseline.md",
+        "docs/standards/ccss/common-core-state-standards-mathematics.md"
+      ],
+      "review_status": "draft",
+      "node_count": 4,
+      "coverage_classification": "partially_covered",
+      "validation_rationale": "The inventory record is represented only through readiness or partial-alignment nodes.",
+      "matched_node_count": 4,
+      "matched_node_ids": [
+        "P1",
+        "P2",
+        "P3",
+        "P4"
+      ]
+    },
+    {
+      "standard_id": "math-anchor-kindergarten-to-grade-3-operations-and-algebraic-thinking-number-and-operations-with-fractions-equal-groups-equal-shares-and-partitioning-readiness-reason-about-equal-groups-equal-shares-and-partitioning-as-foundations-for-multiplication-division-and-fractions",
+      "grade_band_or_category": "Kindergarten to Grade 3",
+      "domain": "operations and algebraic thinking / number and operations with fractions",
+      "cluster_or_grouping": "equal groups, equal shares, and partitioning readiness",
+      "anchor_statement": "reason about equal groups, equal shares, and partitioning as foundations for multiplication, division, and fractions",
+      "official_identifier": null,
+      "inventory_scope_status": "in_scope",
+      "coverage_expectation": "direct",
+      "content_baseline_mapping_status": "mapped",
+      "ccss_mapping_status": "mapped",
+      "coverage_note": "Mixed direct and readiness alignment surface across early operations and fractions.",
+      "family_ids": [
+        "U"
+      ],
+      "family_names": [
+        "unitizing_and_sharing"
+      ],
+      "node_ids": [
+        "U1",
+        "U2",
+        "U3",
+        "U4",
+        "U5",
+        "U6"
+      ],
+      "node_names": [
+        "equal_group_multiplication_readiness",
+        "equal_groups",
+        "equal_partitioning_of_a_whole",
+        "equal_share_division_readiness",
+        "repeated_unit_reasoning",
+        "sharing_and_fair_partitioning"
+      ],
+      "source_documents": [
+        "docs/standards/mathematics-content-standards-baseline.md",
+        "docs/standards/ccss/common-core-state-standards-mathematics.md"
+      ],
+      "review_status": "draft",
+      "node_count": 6,
+      "coverage_classification": "covered",
+      "validation_rationale": "At least one mathematics node has a direct mapped CCSS posture for this inventory record.",
+      "matched_node_count": 6,
+      "matched_node_ids": [
+        "U1",
+        "U2",
+        "U3",
+        "U4",
+        "U5",
+        "U6"
+      ]
+    },
+    {
+      "standard_id": "math-anchor-kindergarten-to-grade-5-geometry-shape-spatial-reasoning-symmetry-and-angle-foundations-recognize-compose-classify-and-reason-about-geometric-figures-and-spatial-structure",
+      "grade_band_or_category": "Kindergarten to Grade 5",
+      "domain": "geometry",
+      "cluster_or_grouping": "shape, spatial reasoning, symmetry, and angle foundations",
+      "anchor_statement": "recognize, compose, classify, and reason about geometric figures and spatial structure",
+      "official_identifier": null,
+      "inventory_scope_status": "in_scope",
+      "coverage_expectation": "direct",
+      "content_baseline_mapping_status": "mapped",
+      "ccss_mapping_status": "mapped",
+      "coverage_note": "Direct elementary-geometry surface; later nodes approach upper-elementary geometry foundations.",
+      "family_ids": [
+        "G"
+      ],
+      "family_names": [
+        "geometry_and_spatial_reasoning"
+      ],
+      "node_ids": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7"
+      ],
+      "node_names": [
+        "angle_concept_and_turn_measure",
+        "compose_and_decompose_shapes",
+        "pattern_blocks_and_tiling_structure",
+        "polygon_attributes_and_hierarchy",
+        "position_direction_and_spatial_language",
+        "shape_recognition_and_classification",
+        "symmetry_and_equal_part_visual_reasoning"
+      ],
+      "source_documents": [
+        "docs/standards/mathematics-content-standards-baseline.md",
+        "docs/standards/ccss/common-core-state-standards-mathematics.md"
+      ],
+      "review_status": "draft",
+      "node_count": 7,
+      "coverage_classification": "covered",
+      "validation_rationale": "At least one mathematics node has a direct mapped CCSS posture for this inventory record.",
+      "matched_node_count": 7,
+      "matched_node_ids": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7"
+      ]
+    },
+    {
+      "standard_id": "math-anchor-kindergarten-to-grade-5-measurement-and-data-data-representation-and-interpretation-sort-represent-and-interpret-simple-data-sets-and-graphs",
+      "grade_band_or_category": "Kindergarten to Grade 5",
+      "domain": "measurement and data",
+      "cluster_or_grouping": "data representation and interpretation",
+      "anchor_statement": "sort, represent, and interpret simple data sets and graphs",
+      "official_identifier": null,
+      "inventory_scope_status": "in_scope",
+      "coverage_expectation": "direct",
+      "content_baseline_mapping_status": "mapped",
+      "ccss_mapping_status": "mapped",
+      "coverage_note": "Direct elementary data-representation surface.",
+      "family_ids": [
+        "D"
+      ],
+      "family_names": [
+        "data_and_representation"
+      ],
+      "node_ids": [
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "D6"
+      ],
+      "node_names": [
+        "count_and_compare_category_totals",
+        "line_plots_and_measurement_data",
+        "read_simple_picture_graphs_and_tallies",
+        "represent_simple_data_sets",
+        "scaled_bar_graphs_and_numerical_data",
+        "sort_and_classify_by_attribute"
+      ],
+      "source_documents": [
+        "docs/standards/mathematics-content-standards-baseline.md",
+        "docs/standards/ccss/common-core-state-standards-mathematics.md"
+      ],
+      "review_status": "draft",
+      "node_count": 6,
+      "coverage_classification": "covered",
+      "validation_rationale": "At least one mathematics node has a direct mapped CCSS posture for this inventory record.",
+      "matched_node_count": 6,
+      "matched_node_ids": [
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "D6"
+      ]
+    },
+    {
+      "standard_id": "math-anchor-kindergarten-to-grade-5-measurement-and-data-measurement-attributes-units-comparison-and-conversion-reason-about-measurable-attributes-units-comparison-representation-and-conversion",
+      "grade_band_or_category": "Kindergarten to Grade 5",
+      "domain": "measurement and data",
+      "cluster_or_grouping": "measurement attributes, units, comparison, and conversion",
+      "anchor_statement": "reason about measurable attributes, units, comparison, representation, and conversion",
+      "official_identifier": null,
+      "inventory_scope_status": "in_scope",
+      "coverage_expectation": "direct",
+      "content_baseline_mapping_status": "mapped",
+      "ccss_mapping_status": "mapped",
+      "coverage_note": "Direct measurement-and-data surface across elementary mathematics.",
+      "family_ids": [
+        "M"
+      ],
+      "family_names": [
+        "measurement_and_magnitude"
+      ],
+      "node_ids": [
+        "M1",
+        "M10",
+        "M11",
+        "M12",
+        "M13",
+        "M14",
+        "M2",
+        "M3",
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M8",
+        "M9"
+      ],
+      "node_names": [
+        "clock_time_and_elapsed_intervals",
+        "indirect_comparison_and_transitivity",
+        "iterated_units",
+        "length_comparison_and_ordering",
+        "mass_and_volume_attributes",
+        "measurable_attributes",
+        "money_and_value_unit_readiness",
+        "money_composition_and_exchange",
+        "perimeter_area_and_unit_square_covering",
+        "standard_length_units_and_tool_use",
+        "standard_mass_volume_units_and_comparison",
+        "time_calendar_and_sequence_measurement_readiness",
+        "unit_conversion_within_measurement_systems",
+        "unit_size_matters"
+      ],
+      "source_documents": [
+        "docs/standards/mathematics-content-standards-baseline.md",
+        "docs/standards/ccss/common-core-state-standards-mathematics.md"
+      ],
+      "review_status": "draft",
+      "node_count": 14,
+      "coverage_classification": "covered",
+      "validation_rationale": "At least one mathematics node has a direct mapped CCSS posture for this inventory record.",
+      "matched_node_count": 14,
+      "matched_node_ids": [
+        "M1",
+        "M10",
+        "M11",
+        "M12",
+        "M13",
+        "M14",
+        "M2",
+        "M3",
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M8",
+        "M9"
+      ]
+    },
+    {
+      "standard_id": "math-anchor-pre-k-pre-standard-mathematical-readiness-pre-kindergarten-quantitative-and-structural-readiness-pre-kindergarten-readiness-prior-to-kindergarten-mathematics-standards",
+      "grade_band_or_category": "Pre-K",
+      "domain": "pre-standard mathematical readiness",
+      "cluster_or_grouping": "pre-kindergarten quantitative and structural readiness",
+      "anchor_statement": "pre-kindergarten readiness prior to kindergarten mathematics standards",
+      "official_identifier": null,
+      "inventory_scope_status": "out_of_scope",
+      "coverage_expectation": "out_of_scope",
+      "content_baseline_mapping_status": "repository_only_or_beyond_current_content_baseline",
+      "ccss_mapping_status": "out_of_scope_current_ccss_baseline",
+      "coverage_note": "Repository zero-state readiness sits before the current kindergarten-through-high-school standards baseline.",
+      "family_ids": [
+        "Z"
+      ],
+      "family_names": [
+        "zero_state_and_precounting"
+      ],
+      "node_ids": [
+        "Z1",
+        "Z2",
+        "Z3"
+      ],
+      "node_names": [
+        "attention_to_quantity",
+        "match_and_sort_objects",
+        "pattern_and_sequence_readiness"
+      ],
+      "source_documents": [
+        "docs/standards/mathematics-content-standards-baseline.md",
+        "docs/standards/ccss/common-core-state-standards-mathematics.md"
+      ],
+      "review_status": "draft",
+      "node_count": 3,
+      "coverage_classification": "out_of_scope",
+      "validation_rationale": "The inventory record is explicitly outside the current codified K-12 mathematics standards scope.",
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        "Z1",
+        "Z2",
+        "Z3"
+      ]
+    }
+  ],
+  "orphan_node_mappings": []
+}

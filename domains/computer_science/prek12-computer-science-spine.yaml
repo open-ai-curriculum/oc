@@ -1,0 +1,140 @@
+domain: computer_science
+version: 0.1
+
+spine:
+  id: prek12_computer_science_spine
+  purpose: governed kindergarten through grade 12 computer science spine integrating programming systems data quality and impacts reasoning
+  grade_bands: [K-2, 3-5, 6-8, 9-12]
+
+families:
+  - id: D
+    name: digital_environment_and_device_system_fluency
+    nodes:
+      - id: D1
+        name: digital_tool_navigation_and_interface_cause_effect
+        depends_on: []
+      - id: D2
+        name: file_device_and_input_output_workflow_awareness
+        depends_on: [D1]
+
+  - id: P
+    name: programming_and_control_flow_development
+    nodes:
+      - id: P1
+        name: sequencing_commands_and_programmable_action
+        depends_on: [D1]
+      - id: P2
+        name: loops_events_and_reusable_program_patterns
+        depends_on: [P1]
+      - id: P3
+        name: variables_conditionals_and_stateful_program_behavior
+        depends_on: [P2, R2]
+      - id: P4
+        name: functions_modular_program_design_and_abstraction_boundaries
+        depends_on: [P3, A2]
+      - id: P5
+        name: structured_data_collections_and_programmed_data_operations
+        depends_on: [P4, R3]
+      - id: P6
+        name: object_oriented_and_multi_component_program_reasoning
+        depends_on: [P5, C3]
+
+  - id: A
+    name: algorithms_and_decomposition
+    nodes:
+      - id: A1
+        name: pattern_generalization_and_stepwise_problem_breakdown
+        depends_on: [P1, R1]
+      - id: A2
+        name: algorithm_design_efficiency_awareness_and_decomposition_discipline
+        depends_on: [A1, P2]
+      - id: A3
+        name: algorithm_analysis_tradeoffs_and_formalized_problem_solving
+        depends_on: [A2, P4]
+
+  - id: R
+    name: data_and_representation_reasoning
+    nodes:
+      - id: R1
+        name: symbols_encoding_and_representation_awareness
+        depends_on: [D1]
+      - id: R2
+        name: data_collection_classification_and_simple_visualization
+        depends_on: [R1, D2]
+      - id: R3
+        name: data_transformation_tables_and_computational_models
+        depends_on: [R2, A2]
+      - id: R4
+        name: data_pipelines_modeling_and_computational_inference
+        depends_on: [R3, P5]
+
+  - id: N
+    name: networks_systems_and_cybersecurity
+    nodes:
+      - id: N1
+        name: connected_devices_and_basic_network_awareness
+        depends_on: [D2]
+      - id: N2
+        name: network_pathways_protocol_ideas_and_system_dependence
+        depends_on: [N1, R2]
+      - id: N3
+        name: security_risk_access_control_and_privacy_foundations
+        depends_on: [N2, I2]
+      - id: N4
+        name: systems_architecture_resource_constraints_and_platform_layers
+        depends_on: [N3, P4]
+      - id: N5
+        name: cybersecurity_mechanisms_threat_models_and_defensive_reasoning
+        depends_on: [N4, C3]
+
+  - id: C
+    name: software_construction_debugging_and_quality
+    nodes:
+      - id: C1
+        name: noticing_errors_revising_steps_and_persistence_in_computing_tasks
+        depends_on: [P1]
+      - id: C2
+        name: debugging_strategy_trace_reasoning_and_test_cases
+        depends_on: [C1, P3]
+      - id: C3
+        name: specification_testing_and_program_quality_criteria
+        depends_on: [C2, P4]
+      - id: C4
+        name: refactoring_maintainability_and_collaborative_code_change
+        depends_on: [C3, I3]
+
+  - id: I
+    name: impacts_ethics_and_collaborative_computing_practice
+    nodes:
+      - id: I1
+        name: responsible_participation_in_digital_spaces
+        depends_on: [D1]
+      - id: I2
+        name: digital_communication_attribution_and_audience_awareness
+        depends_on: [I1, D2]
+      - id: I3
+        name: computing_impacts_bias_and_human_centered_evaluation
+        depends_on: [I2, R3]
+      - id: I4
+        name: ethics_governance_and_societal_consequences_of_computing_systems
+        depends_on: [I3, N4]
+
+  - id: X
+    name: advanced_secondary_computer_science_integration
+    nodes:
+      - id: X1
+        name: ap_csp_integrated_computing_systems_data_and_impacts_synthesis
+        depends_on: [P4, A3, R4, I4]
+      - id: X2
+        name: ap_csa_program_design_objects_and_algorithmic_implementation
+        depends_on: [P6, A3, C4]
+      - id: X3
+        name: advanced_computing_projects_capstone_design_and_cross_domain_application
+        depends_on: [X1, X2, N5, C4]
+
+initial_implementation_priority:
+  - D1
+  - P1
+  - R1
+  - I1
+  - C1

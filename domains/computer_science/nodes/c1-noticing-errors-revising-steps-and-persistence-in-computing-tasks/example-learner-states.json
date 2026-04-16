@@ -1,0 +1,42 @@
+[
+  {
+    "learner_id": "example-c1-secure",
+    "node_id": "C1",
+    "status": "secure",
+    "dependency_status": {
+      "P1": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Notices computing errors, revises one step intentionally, and checks results with stable persistence."
+  },
+  {
+    "learner_id": "example-c1-emerging",
+    "node_id": "C1",
+    "status": "emerging",
+    "dependency_status": {
+      "P1": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [
+      "C1-FM-01",
+      "C1-FM-02"
+    ],
+    "recommended_interventions": [
+      "C1-INT-01",
+      "C1-INT-02"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Can tell something failed but revisions remain random, untracked, or short-lived."
+  }
+]

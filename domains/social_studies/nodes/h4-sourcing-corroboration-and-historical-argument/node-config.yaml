@@ -1,0 +1,40 @@
+id: H4
+name: sourcing_corroboration_and_historical_argument
+domain: social_studies
+support_tier: Incubation
+maturity_state: Drafted
+supported_profiles:
+- history-argument-node-package
+evidence_class: Synthetic
+dependencies:
+- H3
+- Q4
+mastery:
+  direct_accuracy_threshold: 0.85
+  explanation_required: true
+  transfer_required: true
+  retention_check_days: 14
+statuses:
+- blocked
+- emerging
+- provisional
+- secure
+- unstable
+verification_gates:
+- id: G1
+  type: direct_performance
+  pass_rule: '>= 0.85 accuracy across sourcing corroboration and historical-argument tasks'
+- id: G2
+  type: meaning
+  pass_rule: explains how source position corroboration or conflict affects the argument in at least 2 of 3 prompts
+- id: G3
+  type: transfer
+  pass_rule: successful performance in at least one changed source set or historical context
+- id: G4
+  type: retention
+  pass_rule: '>= 0.80 delayed recheck accuracy after ~14 days'
+failure_modes:
+- H4-FM-01
+- H4-FM-02
+- H4-FM-03
+- H4-FM-04

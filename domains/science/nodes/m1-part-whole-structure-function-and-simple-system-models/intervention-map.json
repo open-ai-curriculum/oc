@@ -1,0 +1,26 @@
+{
+  "node_id": "M1",
+  "version": "0.1",
+  "interventions": {
+    "M1-FM-01": [
+      "highlight one important part at a time within the whole",
+      "label parts on a simple diagram",
+      "contrast important and non-critical details for the same model"
+    ],
+    "M1-FM-02": [
+      "point from the model to the real object or picture repeatedly",
+      "use sentence frames such as this part of the model stands for",
+      "compare a model with the thing it represents"
+    ],
+    "M1-FM-03": [
+      "pair each visible structure with one concrete function",
+      "ask what this part helps the system do",
+      "compare two structures with different jobs"
+    ],
+    "M1-FM-04": [
+      "repeat the same modeling routine across organisms objects and Earth-space examples",
+      "preserve the part-function structure while changing the domain",
+      "fade scaffolds after a successful familiar example"
+    ]
+  }
+}

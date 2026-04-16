@@ -1,0 +1,29 @@
+{
+  "node_id": "M5",
+  "interventions": [
+    {
+      "failure_mode": "M5-FM-01",
+      "intervention_id": "M5-INT-01",
+      "name": "Model Versus Reality Separation",
+      "delivery": "reflection routine"
+    },
+    {
+      "failure_mode": "M5-FM-02",
+      "intervention_id": "M5-INT-02",
+      "name": "Evidence To Mechanism Mapping",
+      "delivery": "table and explanation"
+    },
+    {
+      "failure_mode": "M5-FM-03",
+      "intervention_id": "M5-INT-03",
+      "name": "Analogy Boundary Chart",
+      "delivery": "comparison scaffold"
+    },
+    {
+      "failure_mode": "M5-FM-04",
+      "intervention_id": "M5-INT-04",
+      "name": "Competing Model Review",
+      "delivery": "evidence-based critique"
+    }
+  ]
+}

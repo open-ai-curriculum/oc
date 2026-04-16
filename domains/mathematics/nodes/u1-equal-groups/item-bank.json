@@ -1,72 +1,258 @@
 {
   "node_id": "U1",
-  "version": "0.1",
+  "policy_version": "1.0",
+  "version": "0.3",
   "items": [
     {
-      "item_id": "U1-A-001",
-      "family": "direct_equal_group_reasoning",
-      "prompt": "Which groups have the same number of counters in each group?",
+      "item_id": "U1-D-001",
+      "family": "direct_execution",
+      "prompt": "Represent `6 × 4` with an array or equal-group drawing and find the product.",
       "target_node": "U1",
-      "secondary_dependency_targets": ["C3"],
+      "secondary_dependency_targets": [
+        "C3"
+      ],
       "difficulty_band": "core",
-      "response_modes_allowed": ["selected_response", "oral_explanation"],
-      "dominant_failure_modes_if_incorrect": ["U1-FM-01", "U1-FM-02"],
-      "requires_human_scoring": false
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "U1-FM-01",
+        "U1-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
     },
     {
-      "item_id": "U1-A-002",
-      "family": "direct_equal_group_reasoning",
-      "prompt": "Make 3 equal groups with 6 counters.",
+      "item_id": "U1-D-002",
+      "family": "direct_execution",
+      "prompt": "Find `7 × 8` using a known fact or decomposition strategy and explain the structure used.",
       "target_node": "U1",
-      "secondary_dependency_targets": ["C3"],
+      "secondary_dependency_targets": [
+        "C3"
+      ],
       "difficulty_band": "core",
-      "response_modes_allowed": ["manipulative_model", "oral_explanation"],
-      "dominant_failure_modes_if_incorrect": ["U1-FM-02", "U1-FM-03"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "U1-FM-02",
+        "U1-FM-03"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
     },
     {
-      "item_id": "U1-B-001",
+      "item_id": "U1-D-003",
+      "family": "direct_execution",
+      "prompt": "Interpret `24 ÷ 6` as both equal sharing and number of groups.",
+      "target_node": "U1",
+      "secondary_dependency_targets": [
+        "C3"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "U1-FM-03",
+        "U1-FM-04"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "U1-D-004",
+      "family": "direct_execution",
+      "prompt": "Represent `6 × 4` with an array or equal-group drawing and find the product.",
+      "target_node": "U1",
+      "secondary_dependency_targets": [
+        "C3"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "U1-FM-04",
+        "U1-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "U1-E-001",
       "family": "explanation",
-      "prompt": "Explain why two groups of 4 and one group of 3 are not equal groups.",
+      "prompt": "Explain what the two factors mean in an equal-groups or array model.",
       "target_node": "U1",
-      "secondary_dependency_targets": ["C3"],
+      "secondary_dependency_targets": [
+        "C3"
+      ],
       "difficulty_band": "core",
-      "response_modes_allowed": ["oral_explanation", "written_explanation"],
-      "dominant_failure_modes_if_incorrect": ["U1-FM-01", "U1-FM-04"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "U1-FM-02"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "U1-E-002",
+      "family": "explanation",
+      "prompt": "Explain how a known multiplication fact can help derive a nearby fact.",
+      "target_node": "U1",
+      "secondary_dependency_targets": [
+        "C3"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "U1-FM-03"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
     },
     {
       "item_id": "U1-C-001",
       "family": "error_diagnosis",
-      "prompt": "A student says groups are equal because there are three groups, even though one group has fewer objects. What should be checked?",
+      "prompt": "A student says `3 × 5` means 3 objects total arranged in 5 groups. Diagnose the factor-role confusion. Focus on same group count confusion.",
       "target_node": "U1",
-      "secondary_dependency_targets": ["C3"],
-      "difficulty_band": "core",
-      "response_modes_allowed": ["multiple_choice", "oral_explanation", "written_explanation"],
-      "dominant_failure_modes_if_incorrect": ["U1-FM-01", "U1-FM-02"],
-      "requires_human_scoring": true
+      "secondary_dependency_targets": [
+        "C3"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "U1-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
     },
     {
-      "item_id": "U1-D-001",
-      "family": "transfer",
-      "prompt": "Three children each get the same number of blocks. Explain what equal groups means in this story.",
+      "item_id": "U1-C-002",
+      "family": "error_diagnosis",
+      "prompt": "A student solves `24 ÷ 6` with repeated subtraction but cannot explain what the quotient means. Identify the meaning gap. Focus on group size drift.",
       "target_node": "U1",
-      "secondary_dependency_targets": ["C3"],
+      "secondary_dependency_targets": [
+        "C3"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "U1-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "U1-T-001",
+      "family": "transfer",
+      "prompt": "A classroom has 6 rows of 4 chairs. Represent the situation with an equation, a drawing, and a verbal interpretation.",
+      "target_node": "U1",
+      "secondary_dependency_targets": [
+        "C3"
+      ],
       "difficulty_band": "transfer",
-      "response_modes_allowed": ["oral_explanation", "written_explanation"],
-      "dominant_failure_modes_if_incorrect": ["U1-FM-01", "U1-FM-03", "U1-FM-04"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "U1-FM-03"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "U1-T-002",
+      "family": "transfer",
+      "prompt": "A baker packs 24 muffins equally into 6 boxes. Explain both the operation and the meaning of the quotient.",
+      "target_node": "U1",
+      "secondary_dependency_targets": [
+        "C3"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "U1-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
     },
     {
       "item_id": "U1-R-001",
       "family": "retention",
-      "prompt": "Tell whether the picture shows equal groups and explain one reason.",
+      "prompt": "On a delayed check, solve `8 × 6` or `42 ÷ 7` and explain the structure, not just the fact recall.",
       "target_node": "U1",
-      "secondary_dependency_targets": ["C3"],
+      "secondary_dependency_targets": [
+        "C3"
+      ],
       "difficulty_band": "retention",
-      "response_modes_allowed": ["selected_response", "oral_explanation"],
-      "dominant_failure_modes_if_incorrect": ["U1-FM-01", "U1-FM-02"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "U1-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability"
+    },
+    {
+      "item_id": "U1-P-001",
+      "family": "prerequisite_probe",
+      "prompt": "Use a prerequisite check on cardinality to tell whether the learner is missing equal-group structure or the current multiplication/division idea.",
+      "target_node": "U1",
+      "secondary_dependency_targets": [
+        "C3"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "U1-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "C3",
+      "suspected_knowledge_gap_if_incorrect": "cardinality",
+      "scoring_focus": "dependency_disambiguation"
     }
   ]
 }

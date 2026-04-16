@@ -1,0 +1,37 @@
+{
+  "node_id": "F3",
+  "interventions": [
+    {
+      "intervention_id": "F3-INT-01",
+      "name": "F3 Intervention 1",
+      "addresses_failure_modes": [
+        "F3-FM-01"
+      ],
+      "summary": "temperature-versus-energy comparison tasks with explicit transfer reasoning"
+    },
+    {
+      "intervention_id": "F3-INT-02",
+      "name": "F3 Intervention 2",
+      "addresses_failure_modes": [
+        "F3-FM-02"
+      ],
+      "summary": "fluid-system diagrams that require boundary, pressure, and flow interpretation"
+    },
+    {
+      "intervention_id": "F3-INT-03",
+      "name": "F3 Intervention 3",
+      "addresses_failure_modes": [
+        "F3-FM-03"
+      ],
+      "summary": "thermal-process maps connecting state variables, transfer, and constraints"
+    },
+    {
+      "intervention_id": "F3-INT-04",
+      "name": "F3 Intervention 4",
+      "addresses_failure_modes": [
+        "F3-FM-04"
+      ],
+      "summary": "bounded-case sorts for fluid and thermodynamic models"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "node_id": "Q3",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "Q3-G1-01",
+      "node_id": "Q3",
+      "gate": "G1",
+      "prompt": "Make a short explanation about the source or scenario and point to the evidence that supports it.",
+      "source_type": "mixed_source",
+      "response_mode": "oral_or_written_or_highlighted",
+      "scoring_rule": "States a plausible explanation and identifies relevant evidence.",
+      "failure_mode_targets": ["Q3-FM-01", "Q3-FM-02"]
+    }
+  ]
+}

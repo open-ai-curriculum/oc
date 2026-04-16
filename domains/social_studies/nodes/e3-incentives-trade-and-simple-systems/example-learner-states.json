@@ -1,0 +1,23 @@
+{
+  "node_id": "E3",
+  "examples": [
+    {
+      "learner_id": "sample-e3-blocked-01",
+      "node_id": "E3",
+      "status": "blocked",
+      "dependency_status": { "E2": "secure", "Q3": "secure" },
+      "direct_accuracy": 0.58,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["E3-FM-01"],
+      "recommended_interventions": [
+        "compare behavior before and after an incentive change",
+        "ask what choice becomes more likely and why"
+      ],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Names the incentive but does not connect it to behavior change."
+    }
+  ]
+}

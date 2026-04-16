@@ -1,0 +1,16 @@
+{
+  "node_id": "E1",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "E1-G1-01",
+      "node_id": "E1",
+      "gate": "G1",
+      "prompt": "Decide which choice is a need or a want in the scenario and explain the exchange or tradeoff.",
+      "context_type": "everyday_choice_scenario",
+      "response_mode": "oral_or_drawn_or_written",
+      "scoring_rule": "Makes a plausible distinction and explains the basic choice or exchange.",
+      "failure_mode_targets": ["E1-FM-01", "E1-FM-02"]
+    }
+  ]
+}

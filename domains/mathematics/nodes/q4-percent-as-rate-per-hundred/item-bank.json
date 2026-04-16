@@ -1,37 +1,140 @@
 {
   "node_id": "Q4",
+  "policy_version": "1.0",
   "items": [
     {
-      "item_id": "Q4-A1",
-      "item_family": "direct",
-      "prompt": "interpret common percents as rates per hundred and represent them in fraction, decimal, or hundred-model form",
-      "expected_evidence": "use hundred grids, benchmark percents, and equivalent forms to reason about common percents",
+      "item_id": "Q4-DIR-001",
+      "node_id": "Q4",
+      "item_family": "direct_execution",
+      "prompt": "Decide whether the table `(2, 6), (4, 12), (7, 21)` is proportional and justify the constant of proportionality.",
+      "expected_evidence": "explain that 25% means 25 out of 100 and connect it to 1/4 and 0.25 in bounded cases",
       "dominant_failure_mode": "symbol_without_quantity",
-      "scoring_guidance": "Meets when the learner represents percent as an amount out of one hundred rather than as a detached symbol."
+      "scoring_guidance": "Meets when the learner demonstrates explain that 25% means 25 out of 100 and connect it to 1/4 and 0.25 in bounded cases with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "Q4-B1",
+      "item_id": "Q4-DIR-002",
+      "node_id": "Q4",
+      "item_family": "direct_execution",
+      "prompt": "Find the unit rate for 18 miles in 3 hours and explain what it means.",
+      "expected_evidence": "use hundred grids, benchmark percents, and equivalent forms to reason about common percents",
+      "dominant_failure_mode": "equivalent_form_disconnect",
+      "scoring_guidance": "Meets when the learner demonstrates use hundred grids, benchmark percents, and equivalent forms to reason about common percents with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
+    },
+    {
+      "item_id": "Q4-DIR-003",
+      "node_id": "Q4",
+      "item_family": "direct_execution",
+      "prompt": "Find 15% of 80 and explain how the percent is acting as a rate per hundred.",
+      "expected_evidence": "solve bounded percent-of-whole and what-percent questions without collapsing percent into unrelated whole-number operations",
+      "dominant_failure_mode": "base_whole_confusion",
+      "scoring_guidance": "Meets when the learner demonstrates solve bounded percent-of-whole and what-percent questions without collapsing percent into unrelated whole-number operations with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
+    },
+    {
+      "item_id": "Q4-EXP-001",
+      "node_id": "Q4",
       "item_family": "explanation",
-      "prompt": "explain how a percent, an equivalent fraction, and a decimal can describe the same bounded quantity",
+      "prompt": "Explain why equal differences alone do not prove a relationship is proportional.",
       "expected_evidence": "explain that 25% means 25 out of 100 and connect it to 1/4 and 0.25 in bounded cases",
       "dominant_failure_mode": "equivalent_form_disconnect",
-      "scoring_guidance": "Meets when the learner explains percent through rate-per-hundred and equivalent-form structure."
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to explain that 25% means 25 out of 100 and connect it to 1/4 and 0.25 in bounded cases.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
     },
     {
-      "item_id": "Q4-C1",
+      "item_id": "Q4-EXP-002",
+      "node_id": "Q4",
+      "item_family": "explanation",
+      "prompt": "Explain how a unit rate and a constant of proportionality describe the same multiplicative structure.",
+      "expected_evidence": "use hundred grids, benchmark percents, and equivalent forms to reason about common percents",
+      "dominant_failure_mode": "base_whole_confusion",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to use hundred grids, benchmark percents, and equivalent forms to reason about common percents.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "Q4-ERR-001",
+      "node_id": "Q4",
       "item_family": "error_diagnosis",
-      "prompt": "Diagnose a peer error aligned to symbol_without_quantity.",
-      "expected_evidence": "solve bounded percent-of-whole and what-percent questions without collapsing percent into unrelated whole-number operations",
+      "prompt": "A student says a table is proportional because it increases by 3 each row. Diagnose the additive-pattern error. Focus on symbol without quantity.",
+      "expected_evidence": "explain that 25% means 25 out of 100 and connect it to 1/4 and 0.25 in bounded cases",
       "dominant_failure_mode": "symbol_without_quantity",
-      "scoring_guidance": "Meets when the learner identifies why the peer lost the meaning of percent as rate per hundred."
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward explain that 25% means 25 out of 100 and connect it to 1/4 and 0.25 in bounded cases.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
     },
     {
-      "item_id": "Q4-D1",
+      "item_id": "Q4-ERR-002",
+      "node_id": "Q4",
+      "item_family": "error_diagnosis",
+      "prompt": "A student scales one quantity by 2 but the other by 3 and still claims proportionality. Identify the breakdown. Focus on equivalent form disconnect.",
+      "expected_evidence": "use hundred grids, benchmark percents, and equivalent forms to reason about common percents",
+      "dominant_failure_mode": "equivalent_form_disconnect",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward use hundred grids, benchmark percents, and equivalent forms to reason about common percents.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "Q4-TRA-001",
+      "node_id": "Q4",
       "item_family": "transfer",
-      "prompt": "succeeds across percent-of-whole, part-percent, benchmark discount, and simple data-description contexts",
-      "expected_evidence": "compare percent situations across tables, visuals, and contextual descriptions",
+      "prompt": "A map uses 1 cm for every 5 km. How far does 7.2 cm represent, and why is the relationship proportional?",
+      "expected_evidence": "explain that 25% means 25 out of 100 and connect it to 1/4 and 0.25 in bounded cases",
+      "dominant_failure_mode": "base_whole_confusion",
+      "scoring_guidance": "Meets when the learner preserves explain that 25% means 25 out of 100 and connect it to 1/4 and 0.25 in bounded cases in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "Q4-TRA-002",
+      "node_id": "Q4",
+      "item_family": "transfer",
+      "prompt": "A recipe uses 3 cups of flour for 2 batches. Write an equation relating flour to batches and find the amount for 5 batches.",
+      "expected_evidence": "use hundred grids, benchmark percents, and equivalent forms to reason about common percents",
       "dominant_failure_mode": "context_transfer_breakdown",
-      "scoring_guidance": "Meets when the learner preserves percent reasoning across representation and context changes."
+      "scoring_guidance": "Meets when the learner preserves use hundred grids, benchmark percents, and equivalent forms to reason about common percents in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "Q4-RET-001",
+      "node_id": "Q4",
+      "item_family": "retention",
+      "prompt": "On a delayed check, determine whether 4 notebooks for $6 and 10 notebooks for $15 are proportional and justify your reasoning.",
+      "expected_evidence": "explain that 25% means 25 out of 100 and connect it to 1/4 and 0.25 in bounded cases",
+      "dominant_failure_mode": "context_transfer_breakdown",
+      "scoring_guidance": "Meets when the learner still demonstrates explain that 25% means 25 out of 100 and connect it to 1/4 and 0.25 in bounded cases on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "Q4-PRE-001",
+      "node_id": "Q4",
+      "item_family": "prerequisite_probe",
+      "prompt": "Probe unit rate reasoning before diagnosing percent as rate per hundred, and state whether the learner is missing multiplicative structure or only the current proportional application.",
+      "expected_evidence": "shows whether unit rate reasoning is secure enough to support percent as rate per hundred",
+      "dominant_failure_mode": "equivalent_form_disconnect",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in unit rate reasoning from a current-node issue in percent as rate per hundred.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "Q2",
+      "suspected_knowledge_gap_if_incorrect": "unit rate reasoning"
+    },
+    {
+      "item_id": "Q4-PRE-002",
+      "node_id": "Q4",
+      "item_family": "prerequisite_probe",
+      "prompt": "Probe equivalent fractions before diagnosing percent as rate per hundred, and state whether the learner is missing multiplicative structure or only the current proportional application.",
+      "expected_evidence": "shows whether equivalent fractions is secure enough to support percent as rate per hundred",
+      "dominant_failure_mode": "base_whole_confusion",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in equivalent fractions from a current-node issue in percent as rate per hundred.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "F2",
+      "suspected_knowledge_gap_if_incorrect": "equivalent fractions"
     }
   ]
 }

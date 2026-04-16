@@ -1,29 +1,294 @@
 {
   "node_id": "T6",
+  "policy_version": "1.0",
+  "version": "0.3",
   "items": [
     {
-      "item_id": "t6-a1",
-      "item_family": "direct_execution",
-      "prompt": "Representative direct task for multidigit multiplication structure.",
-      "expected_evidence": [
-        "Learner uses the intended structure, not only an answer-getting shortcut."
+      "item_id": "T6-D-001",
+      "family": "direct_execution",
+      "prompt": "Write `0.47` in expanded form and identify the value of each digit.",
+      "target_node": "T6",
+      "secondary_dependency_targets": [
+        "T2",
+        "V4"
       ],
-      "dominant_failure_mode_targets": [
-        "partial_product_place_loss"
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
       ],
-      "context": "expanded forms"
-    },
-    {
-      "item_id": "t6-b1",
-      "item_family": "explanation",
-      "prompt": "Explain why the chosen structure fits the situation.",
-      "expected_evidence": [
-        "Learner names the structural relationship correctly."
-      ],
-      "dominant_failure_mode_targets": [
+      "dominant_failure_modes_if_incorrect": [
+        "partial_product_place_loss",
         "compression_without_structure"
       ],
-      "context": "area models"
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "T6-D-002",
+      "family": "direct_execution",
+      "prompt": "Compare `0.6` and `0.57` and justify the comparison with place-value language.",
+      "target_node": "T6",
+      "secondary_dependency_targets": [
+        "T2",
+        "V4"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "compression_without_structure",
+        "area_model_disconnect"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "T6-D-003",
+      "family": "direct_execution",
+      "prompt": "Plot `0.35` on a number line between `0.3` and `0.4`.",
+      "target_node": "T6",
+      "secondary_dependency_targets": [
+        "T2",
+        "V4"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "area_model_disconnect",
+        "recombination_error"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "T6-D-004",
+      "family": "direct_execution",
+      "prompt": "Write `0.47` in expanded form and identify the value of each digit.",
+      "target_node": "T6",
+      "secondary_dependency_targets": [
+        "T2",
+        "V4"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "recombination_error",
+        "partial_product_place_loss"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "T6-E-001",
+      "family": "explanation",
+      "prompt": "Explain why the `5` in `0.5` represents a larger value than the `5` in `0.05`.",
+      "target_node": "T6",
+      "secondary_dependency_targets": [
+        "T2",
+        "V4"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "compression_without_structure"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "T6-E-002",
+      "family": "explanation",
+      "prompt": "Explain how moving one place to the right changes the unit value in decimal notation.",
+      "target_node": "T6",
+      "secondary_dependency_targets": [
+        "T2",
+        "V4"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "area_model_disconnect"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "T6-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student says `0.8 < 0.35` because 8 is less than 35. Diagnose the place-value mistake. Focus on partial product place loss.",
+      "target_node": "T6",
+      "secondary_dependency_targets": [
+        "T2",
+        "V4"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "partial_product_place_loss"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "T6-C-002",
+      "family": "error_diagnosis",
+      "prompt": "A student writes `0.4 = 4/100`. Identify the unit mismatch. Focus on compression without structure.",
+      "target_node": "T6",
+      "secondary_dependency_targets": [
+        "T2",
+        "V4"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "compression_without_structure"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "T6-T-001",
+      "family": "transfer",
+      "prompt": "A runner completes `0.75` km of a 1 km lap. Represent the distance with a decimal, fraction, and place-value description.",
+      "target_node": "T6",
+      "secondary_dependency_targets": [
+        "T2",
+        "V4"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "area_model_disconnect"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "T6-T-002",
+      "family": "transfer",
+      "prompt": "A price tag shows `$0.65`. Explain the same amount using ones, tenths, and hundredths language.",
+      "target_node": "T6",
+      "secondary_dependency_targets": [
+        "T2",
+        "V4"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "recombination_error"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "T6-R-001",
+      "family": "retention",
+      "prompt": "On a delayed check, decompose `1.08` into place-value units and explain how you know each part.",
+      "target_node": "T6",
+      "secondary_dependency_targets": [
+        "T2",
+        "V4"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "recombination_error"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability"
+    },
+    {
+      "item_id": "T6-P-001",
+      "family": "prerequisite_probe",
+      "prompt": "Complete a prerequisite probe on multiplication fact structure to determine whether the decimal error is really a place-value dependency gap.",
+      "target_node": "T6",
+      "secondary_dependency_targets": [
+        "T2",
+        "V4"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "compression_without_structure"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "T2",
+      "suspected_knowledge_gap_if_incorrect": "multiplication fact structure",
+      "scoring_focus": "dependency_disambiguation"
+    },
+    {
+      "item_id": "T6-P-002",
+      "family": "prerequisite_probe",
+      "prompt": "Complete a prerequisite probe on regrouping and base ten equivalence to determine whether the decimal error is really a place-value dependency gap.",
+      "target_node": "T6",
+      "secondary_dependency_targets": [
+        "T2",
+        "V4"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "area_model_disconnect"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "V4",
+      "suspected_knowledge_gap_if_incorrect": "regrouping and base ten equivalence",
+      "scoring_focus": "dependency_disambiguation"
     }
   ]
 }

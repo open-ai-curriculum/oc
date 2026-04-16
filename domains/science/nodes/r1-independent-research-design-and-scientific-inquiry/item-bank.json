@@ -1,0 +1,60 @@
+[
+  {
+    "item_id": "R1-IB-01",
+    "node_id": "R1",
+    "prompt": "Why is a polished project not enough to count as strong inquiry?",
+    "task_type": "research_quality_critique",
+    "answer_key": "A strong answer distinguishes presentation quality from question-method alignment, evidence quality, and justified interpretation.",
+    "scorable_traits": [
+      "quality criteria",
+      "evidence discipline",
+      "precision"
+    ],
+    "target_failure_modes": [
+      "R1-FM-02"
+    ],
+    "context_tags": [
+      "research",
+      "inquiry"
+    ]
+  },
+  {
+    "item_id": "R1-IB-02",
+    "node_id": "R1",
+    "prompt": "What makes a research question and method well aligned?",
+    "task_type": "question_method_alignment",
+    "answer_key": "The method should produce evidence capable of addressing the bounded question and its variables meaningfully.",
+    "scorable_traits": [
+      "design reasoning",
+      "method fit",
+      "transfer"
+    ],
+    "target_failure_modes": [
+      "R1-FM-01"
+    ],
+    "context_tags": [
+      "research design",
+      "methods"
+    ]
+  },
+  {
+    "item_id": "R1-IB-03",
+    "node_id": "R1",
+    "prompt": "Why must limitations be explicit in scientific inquiry?",
+    "task_type": "limitations_reasoning",
+    "answer_key": "Because limitations and uncertainty affect how strongly results can support the claim and prevent overinterpretation.",
+    "scorable_traits": [
+      "uncertainty",
+      "claim boundary",
+      "discipline"
+    ],
+    "target_failure_modes": [
+      "R1-FM-03",
+      "R1-FM-04"
+    ],
+    "context_tags": [
+      "scientific inquiry",
+      "limitations"
+    ]
+  }
+]

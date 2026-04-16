@@ -1,0 +1,41 @@
+id: L6
+name: molecular_biology_complex_ecology_and_biological_systems_integration
+domain: science
+support_tier: Incubation
+maturity_state: Drafted
+supported_profiles:
+- science-secondary-node-package
+evidence_class: Synthetic
+dependencies:
+- L5
+- E4
+- I5
+mastery:
+  direct_accuracy_threshold: 0.9
+  explanation_required: true
+  transfer_required: true
+  retention_check_days: 42
+statuses:
+- blocked
+- emerging
+- provisional
+- secure
+- unstable
+verification_gates:
+- id: G1
+  type: direct_performance
+  pass_rule: '>= 0.90 accuracy across molecular biology, complex ecology, and biological-systems integration tasks'
+- id: G2
+  type: meaning
+  pass_rule: correct explanation of multiscale biological interactions in at least 2 of 3 prompts
+- id: G3
+  type: transfer
+  pass_rule: successful reasoning in at least one unfamiliar advanced biological integration context
+- id: G4
+  type: retention
+  pass_rule: '>= 0.85 delayed recheck accuracy after ~42 days'
+failure_modes:
+- L6-FM-01
+- L6-FM-02
+- L6-FM-03
+- L6-FM-04

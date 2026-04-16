@@ -1,0 +1,14 @@
+node_id: H6B
+transitions:
+- from: blocked
+  to: emerging
+  rule: first successful direct-performance evidence recorded
+- from: emerging
+  to: provisional
+  rule: direct accuracy and explanation thresholds met
+- from: provisional
+  to: secure
+  rule: transfer and retention gates satisfied
+- from: secure
+  to: unstable
+  rule: later evidence falls below direct or retention threshold

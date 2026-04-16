@@ -1,0 +1,39 @@
+id: P1
+name: sequencing_commands_and_programmable_action
+domain: computer_science
+support_tier: Incubation
+maturity_state: Drafted
+supported_profiles:
+- computer-science-entry-node-package
+evidence_class: Synthetic
+dependencies:
+- D1
+mastery:
+  direct_accuracy_threshold: 0.9
+  explanation_required: true
+  transfer_required: true
+  retention_check_days: 14
+statuses:
+- blocked
+- emerging
+- provisional
+- secure
+- unstable
+verification_gates:
+- id: G1
+  type: direct_performance
+  pass_rule: '>= 0.90 accuracy across sequencing commands and programmable action tasks'
+- id: G2
+  type: meaning
+  pass_rule: correct explanation in at least 2 of 3 prompts using bounded programming-sequence reasoning
+- id: G3
+  type: transfer
+  pass_rule: successful reasoning in at least one unfamiliar computing context
+- id: G4
+  type: retention
+  pass_rule: '>= 0.85 delayed recheck accuracy after ~14 days'
+failure_modes:
+- P1-FM-01
+- P1-FM-02
+- P1-FM-03
+- P1-FM-04

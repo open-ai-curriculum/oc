@@ -1,0 +1,52 @@
+domain: social_studies
+version: 0.1
+
+capability_graph:
+  id: social_studies_capability_graph
+  purpose: scoped view of the social studies domain capability graph for initial K-12 scaffolding
+
+entry_nodes:
+  - Q1
+
+priority_wave:
+  - Q1
+  - Q2
+  - H1
+  - C1
+  - G1
+  - E1
+
+frontier_nodes:
+  - H6
+  - C6
+  - G6
+  - E6
+  - A2
+
+cross_branch_links:
+  - from: H3
+    to: C4
+    rationale: civic constitutional and policy reasoning depends on historical context and change over time
+  - from: G4
+    to: C5
+    rationale: comparative government and civic action require geographic reasoning with maps data and scale
+  - from: G4
+    to: E5
+    rationale: macroeconomic and trade reasoning depends on geographic movement interdependence and scale
+  - from: C4
+    to: G6
+    rationale: geospatial policy application depends on public-policy reasoning
+  - from: C4
+    to: E6
+    rationale: economic policy tradeoff analysis depends on constitutional and public-policy reasoning
+  - from: E5
+    to: C6
+    rationale: advanced civic participation requires economic context for policy design
+  - from: H5
+    to: A1
+    rationale: interdisciplinary synthesis requires mature historical analysis and source evaluation
+
+claim_boundary:
+  review_state: draft
+  standards_alignment_state: not_started
+  classroom_release_state: not_approved

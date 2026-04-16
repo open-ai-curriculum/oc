@@ -1,0 +1,265 @@
+{
+  "node_id": "R4",
+  "policy_version": "1.0",
+  "version": "0.3",
+  "items": [
+    {
+      "item_id": "R4-D-001",
+      "family": "direct_execution",
+      "prompt": "Complete a bounded reading-analysis task that requires the learner to analyze theme, character, and structure in literary texts.",
+      "target_node": "R4",
+      "secondary_dependency_targets": [
+        "RC6"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_response",
+        "oral_response",
+        "annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "R4-FM-01",
+        "R4-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "R4-D-002",
+      "family": "direct_execution",
+      "prompt": "Show literary structure theme and character analysis in a fresh but controlled reading-analysis task and make the learner support literary claims with relevant textual detail.",
+      "target_node": "R4",
+      "secondary_dependency_targets": [
+        "RC6"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_response",
+        "oral_response",
+        "annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "R4-FM-02",
+        "R4-FM-03"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "R4-D-003",
+      "family": "direct_execution",
+      "prompt": "Use a slightly less-routine reading-analysis task to determine whether the learner can still move beyond summary into interpretation.",
+      "target_node": "R4",
+      "secondary_dependency_targets": [
+        "RC6"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_response",
+        "oral_response",
+        "annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "R4-FM-03",
+        "R4-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "R4-D-004",
+      "family": "direct_execution",
+      "prompt": "Perform literary structure theme and character analysis under a changed format within the same boundary and verify the learner can still support later advanced literary analysis and intertextual work.",
+      "target_node": "R4",
+      "secondary_dependency_targets": [
+        "RC6"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_response",
+        "oral_response",
+        "annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "R4-FM-04",
+        "R4-FM-01"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "R4-E-001",
+      "family": "explanation",
+      "prompt": "Explain or annotate how the learner shows that they can analyze theme, character, and structure in literary texts, and identify which evidence in the response demonstrates the intended meaning.",
+      "target_node": "R4",
+      "secondary_dependency_targets": [
+        "RC6"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_explanation",
+        "oral_explanation",
+        "annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "R4-FM-01"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "R4-E-002",
+      "family": "explanation",
+      "prompt": "Ask for a brief justification, annotation, or teacher-scored explanation showing why the response used for literary structure theme and character analysis is valid rather than routine only.",
+      "target_node": "R4",
+      "secondary_dependency_targets": [
+        "RC6"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_explanation",
+        "oral_explanation",
+        "annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "R4-FM-02"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "R4-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A learner attempt shows summary-only response. Diagnose the earliest breakdown and state what evidence separates it from secure literary structure theme and character analysis.",
+      "target_node": "R4",
+      "secondary_dependency_targets": [
+        "RC6"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "R4-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "R4-C-002",
+      "family": "error_diagnosis",
+      "prompt": "Review a mismatched response that reflects evidence-to-interpretation weakness. Identify the dominant failure mode and explain why this is not just a minor performance slip.",
+      "target_node": "R4",
+      "secondary_dependency_targets": [
+        "RC6"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "R4-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "R4-T-001",
+      "family": "transfer",
+      "prompt": "Use literary structure theme and character analysis in a changed text set, genre, or analytic prompt and judge whether the learner preserves the same underlying capability.",
+      "target_node": "R4",
+      "secondary_dependency_targets": [
+        "RC6"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_response",
+        "oral_response",
+        "annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "R4-FM-03"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "R4-T-002",
+      "family": "transfer",
+      "prompt": "Shift the learner into a changed text set, genre, or analytic prompt and require a response that still demonstrates literary structure theme and character analysis without relying on the original routine.",
+      "target_node": "R4",
+      "secondary_dependency_targets": [
+        "RC6"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_response",
+        "oral_response",
+        "annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "R4-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "R4-R-001",
+      "family": "retention",
+      "prompt": "After approximately 14 days, run a fresh reading-analysis task to confirm the learner still demonstrates literary structure theme and character analysis without re-teaching inside the check.",
+      "target_node": "R4",
+      "secondary_dependency_targets": [
+        "RC6"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_response",
+        "oral_response",
+        "annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "R4-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability"
+    },
+    {
+      "item_id": "R4-P-001",
+      "family": "prerequisite_probe",
+      "prompt": "Before assigning literary structure theme and character analysis, probe whether evidence explanation and text grounded response is secure enough to support the current task.",
+      "target_node": "R4",
+      "secondary_dependency_targets": [
+        "RC6"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "written_explanation",
+        "oral_explanation",
+        "annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "R4-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_disambiguation",
+      "dependency_target": "RC6",
+      "suspected_knowledge_gap_if_incorrect": "evidence explanation and text grounded response"
+    }
+  ]
+}

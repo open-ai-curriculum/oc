@@ -1,0 +1,301 @@
+{
+  "node_id": "L2",
+  "policy_version": "1.0",
+  "version": "0.3",
+  "items": [
+    {
+      "item_id": "L2-D-001",
+      "family": "direct_execution",
+      "prompt": "Complete a bounded language-control task that requires the learner to interpret words in supported context.",
+      "target_node": "L2",
+      "secondary_dependency_targets": [
+        "FR4",
+        "RC3"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_response",
+        "editing_marks",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "L2-FM-01",
+        "L2-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "L2-D-002",
+      "family": "direct_execution",
+      "prompt": "Show morphology word meaning and academic vocabulary in a fresh but controlled language-control task and make the learner use morphology or word-part clues where appropriate.",
+      "target_node": "L2",
+      "secondary_dependency_targets": [
+        "FR4",
+        "RC3"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_response",
+        "editing_marks",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "L2-FM-02",
+        "L2-FM-03"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "L2-D-003",
+      "family": "direct_execution",
+      "prompt": "Use a slightly less-routine language-control task to determine whether the learner can still apply academic vocabulary in comprehension or production tasks.",
+      "target_node": "L2",
+      "secondary_dependency_targets": [
+        "FR4",
+        "RC3"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_response",
+        "editing_marks",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "L2-FM-03",
+        "L2-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "L2-D-004",
+      "family": "direct_execution",
+      "prompt": "Perform morphology word meaning and academic vocabulary under a changed format within the same boundary and verify the learner can still support later sentence revision, evidence-based response, and composition work.",
+      "target_node": "L2",
+      "secondary_dependency_targets": [
+        "FR4",
+        "RC3"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_response",
+        "editing_marks",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "L2-FM-04",
+        "L2-FM-01"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "L2-E-001",
+      "family": "explanation",
+      "prompt": "Explain or annotate how the learner shows that they can interpret words in supported context, and identify which evidence in the response demonstrates the intended meaning.",
+      "target_node": "L2",
+      "secondary_dependency_targets": [
+        "FR4",
+        "RC3"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_explanation",
+        "oral_explanation",
+        "editing_marks"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "L2-FM-01"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "L2-E-002",
+      "family": "explanation",
+      "prompt": "Ask for a brief justification, annotation, or teacher-scored explanation showing why the response used for morphology word meaning and academic vocabulary is valid rather than routine only.",
+      "target_node": "L2",
+      "secondary_dependency_targets": [
+        "FR4",
+        "RC3"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_explanation",
+        "oral_explanation",
+        "editing_marks"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "L2-FM-02"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "L2-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A learner attempt shows context-blind word meaning. Diagnose the earliest breakdown and state what evidence separates it from secure morphology word meaning and academic vocabulary.",
+      "target_node": "L2",
+      "secondary_dependency_targets": [
+        "FR4",
+        "RC3"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "L2-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "L2-C-002",
+      "family": "error_diagnosis",
+      "prompt": "Review a mismatched response that reflects morphology cue miss. Identify the dominant failure mode and explain why this is not just a minor performance slip.",
+      "target_node": "L2",
+      "secondary_dependency_targets": [
+        "FR4",
+        "RC3"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "L2-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "L2-T-001",
+      "family": "transfer",
+      "prompt": "Use morphology word meaning and academic vocabulary in a changed sentence set, revision demand, or usage context and judge whether the learner preserves the same underlying capability.",
+      "target_node": "L2",
+      "secondary_dependency_targets": [
+        "FR4",
+        "RC3"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_response",
+        "editing_marks",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "L2-FM-03"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "L2-T-002",
+      "family": "transfer",
+      "prompt": "Shift the learner into a changed sentence set, revision demand, or usage context and require a response that still demonstrates morphology word meaning and academic vocabulary without relying on the original routine.",
+      "target_node": "L2",
+      "secondary_dependency_targets": [
+        "FR4",
+        "RC3"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_response",
+        "editing_marks",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "L2-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "L2-R-001",
+      "family": "retention",
+      "prompt": "After approximately 14 days, run a fresh language-control task to confirm the learner still demonstrates morphology word meaning and academic vocabulary without re-teaching inside the check.",
+      "target_node": "L2",
+      "secondary_dependency_targets": [
+        "FR4",
+        "RC3"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_response",
+        "editing_marks",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "L2-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability"
+    },
+    {
+      "item_id": "L2-P-001",
+      "family": "prerequisite_probe",
+      "prompt": "Before assigning morphology word meaning and academic vocabulary, probe whether word level decoding generalization is secure enough to support the current task.",
+      "target_node": "L2",
+      "secondary_dependency_targets": [
+        "FR4",
+        "RC3"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "written_explanation",
+        "oral_explanation",
+        "editing_marks"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "L2-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_disambiguation",
+      "dependency_target": "FR4",
+      "suspected_knowledge_gap_if_incorrect": "word level decoding generalization"
+    },
+    {
+      "item_id": "L2-P-002",
+      "family": "prerequisite_probe",
+      "prompt": "Use a quick dependency check on sentence level meaning construction to decide whether weak performance on morphology word meaning and academic vocabulary is upstream or node-specific.",
+      "target_node": "L2",
+      "secondary_dependency_targets": [
+        "FR4",
+        "RC3"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "written_explanation",
+        "oral_explanation",
+        "editing_marks"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "L2-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_disambiguation",
+      "dependency_target": "RC3",
+      "suspected_knowledge_gap_if_incorrect": "sentence level meaning construction"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+[
+  {
+    "item_id": "C4-IB-01",
+    "node_id": "C4",
+    "prompt": "Why is equilibrium not the same as a finished reaction?",
+    "task_type": "equilibrium_explanation",
+    "answer_key": "Equilibrium can involve ongoing forward and reverse processes at balanced rates rather than a stopped system.",
+    "scorable_traits": [
+      "dynamic systems reasoning",
+      "precision",
+      "mechanism"
+    ],
+    "target_failure_modes": [
+      "C4-FM-02"
+    ],
+    "context_tags": [
+      "equilibrium",
+      "rates"
+    ]
+  },
+  {
+    "item_id": "C4-IB-02",
+    "node_id": "C4",
+    "prompt": "How is a rate claim different from an equilibrium claim?",
+    "task_type": "rate_vs_equilibrium",
+    "answer_key": "A rate claim addresses how quickly change occurs, while an equilibrium claim addresses the relative balance of opposing processes in the system.",
+    "scorable_traits": [
+      "distinction making",
+      "concept accuracy",
+      "transfer"
+    ],
+    "target_failure_modes": [
+      "C4-FM-01"
+    ],
+    "context_tags": [
+      "kinetics",
+      "equilibrium"
+    ]
+  },
+  {
+    "item_id": "C4-IB-03",
+    "node_id": "C4",
+    "prompt": "What makes an acid-base explanation stronger than a pH label?",
+    "task_type": "acid_base_reasoning",
+    "answer_key": "A stronger explanation describes proton transfer, interacting species, and how conditions affect the chemical system.",
+    "scorable_traits": [
+      "model use",
+      "chemical reasoning",
+      "claim depth"
+    ],
+    "target_failure_modes": [
+      "C4-FM-03",
+      "C4-FM-04"
+    ],
+    "context_tags": [
+      "acid-base",
+      "systems"
+    ]
+  }
+]

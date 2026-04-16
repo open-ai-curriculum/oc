@@ -1,0 +1,26 @@
+{
+  "node_id": "E4",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "E4-FM-01": [
+      "map the roles and choices of the labor-market participants",
+      "trace one decision through to a market effect",
+      "compare connected and disconnected labor scenarios"
+    ],
+    "E4-FM-02": [
+      "chart two competing uses for the same limited resource",
+      "require one gain and one loss for the allocation choice",
+      "compare a one-sided and tradeoff-aware response"
+    ],
+    "E4-FM-03": [
+      "identify the economic and civic features of the same decision",
+      "connect one institution to one resource-allocation effect",
+      "compare a purely economic reading with an integrated one"
+    ],
+    "E4-FM-04": [
+      "preteach core labor and allocation terms",
+      "use concrete diagrams or tokens before abstraction",
+      "simplify the scenario before increasing complexity"
+    ]
+  }
+}

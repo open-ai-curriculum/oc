@@ -1,0 +1,42 @@
+{
+  "node_id": "E1",
+  "examples": [
+    {
+      "learner_id": "sample-e1-blocked-01",
+      "node_id": "E1",
+      "status": "blocked",
+      "dependency_status": {
+        "Q2": "secure"
+      },
+      "direct_accuracy": 0.49,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["E1-FM-01", "E1-FM-02"],
+      "recommended_interventions": [
+        "use two-column supports labeled claim and evidence",
+        "compare evidence-based and non-evidence-based explanations"
+      ],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Can state what happened but does not yet support the claim with relevant evidence."
+    },
+    {
+      "learner_id": "sample-e1-secure-01",
+      "node_id": "E1",
+      "status": "secure",
+      "dependency_status": {
+        "Q2": "secure"
+      },
+      "direct_accuracy": 0.94,
+      "explanation_status": "met",
+      "transfer_status": "met",
+      "retention_status": "met",
+      "dominant_failure_modes": [],
+      "recommended_interventions": [],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Uses direct observations and simple recorded results to support claims across multiple early science contexts."
+    }
+  ]
+}

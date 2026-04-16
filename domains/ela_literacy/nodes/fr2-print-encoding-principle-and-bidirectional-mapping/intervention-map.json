@@ -1,0 +1,26 @@
+{
+  "node_id": "FR2",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "FR2-FM-01": [
+      "vary the prompt format while keeping the target logic constant",
+      "ask what sound or spoken part the print is representing",
+      "paired demonstration with a small example"
+    ],
+    "FR2-FM-02": [
+      "pair reading-like and encoding-like use of the same target",
+      "keep spoken and printed forms visible together",
+      "reduce task length while preserving both directions"
+    ],
+    "FR2-FM-03": [
+      "prompt what print is standing for",
+      "small set of examples and non-examples",
+      "verify FR1 remains secure"
+    ],
+    "FR2-FM-04": [
+      "same target logic across a small changed-set task",
+      "change one variable at a time",
+      "revisit a known example after the changed example"
+    ]
+  }
+}

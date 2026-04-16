@@ -1,0 +1,39 @@
+[
+  {
+    "learner_id": "example-m1-blocked",
+    "node_id": "M1",
+    "status": "blocked",
+    "dependency_status": {
+      "A1": "met",
+      "C1": "met"
+    },
+    "direct_accuracy": 0.41,
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["M1-FM-01", "M1-FM-02"],
+    "recommended_interventions": [
+      "active repeat say show or mark move immediately after presentation",
+      "shorter amount of information held at one time"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Observes modeled information but does not encode it actively enough for immediate reuse."
+  },
+  {
+    "learner_id": "example-m1-secure",
+    "node_id": "M1",
+    "status": "secure",
+    "dependency_status": {
+      "A1": "met",
+      "C1": "met"
+    },
+    "direct_accuracy": 0.87,
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Uses grouping and rehearsal to encode new information across verbal and visual tasks."
+  }
+]

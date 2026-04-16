@@ -1,0 +1,44 @@
+[
+  {
+    "learner_id": "example-r3-secure",
+    "node_id": "R3",
+    "status": "secure",
+    "dependency_status": {
+      "R2": "secure",
+      "A2": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Explains data transformations and simple computational models with stable rule and representation tracking."
+  },
+  {
+    "learner_id": "example-r3-emerging",
+    "node_id": "R3",
+    "status": "emerging",
+    "dependency_status": {
+      "R2": "secure",
+      "A2": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [
+      "R3-FM-01",
+      "R3-FM-02"
+    ],
+    "recommended_interventions": [
+      "R3-INT-01",
+      "R3-INT-02"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Can produce transformed outputs but still overtrusts tables or models without understanding how they were formed."
+  }
+]

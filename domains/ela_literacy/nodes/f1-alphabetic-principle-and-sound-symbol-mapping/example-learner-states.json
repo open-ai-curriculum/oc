@@ -1,0 +1,23 @@
+[
+  {
+    "learner_id": "example-f1-emerging",
+    "node_id": "F1",
+    "status": "emerging",
+    "dependency_status": {
+      "P3": "secure",
+      "P4": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "weak",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["F1-FM-02", "F1-FM-03"],
+    "recommended_interventions": [
+      "small sound-symbol set in both directions",
+      "paired reading-like and encoding-like tasks with the same target set"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Learner can name some sounds from letters but loses the mapping in changed sets."
+  }
+]

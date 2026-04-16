@@ -1,0 +1,140 @@
+{
+  "node_id": "B8",
+  "policy_version": "1.0",
+  "items": [
+    {
+      "item_id": "B8-DIR-001",
+      "node_id": "B8",
+      "item_family": "direct_execution",
+      "prompt": "Solve `x + 7 = 19` and show how each step preserves equality.",
+      "expected_evidence": "perform bounded addition, subtraction, multiplication, and simple powers with complex numbers",
+      "dominant_failure_mode": "representation_structure_disconnect",
+      "scoring_guidance": "Meets when the learner demonstrates perform bounded addition, subtraction, multiplication, and simple powers with complex numbers with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
+    },
+    {
+      "item_id": "B8-DIR-002",
+      "node_id": "B8",
+      "item_family": "direct_execution",
+      "prompt": "Solve `4x = 28`, then check the solution by substitution.",
+      "expected_evidence": "solve bounded quadratic equations with non-real roots and represent the solutions correctly",
+      "dominant_failure_mode": "feature_meaning_collapse",
+      "scoring_guidance": "Meets when the learner demonstrates solve bounded quadratic equations with non-real roots and represent the solutions correctly with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
+    },
+    {
+      "item_id": "B8-DIR-003",
+      "node_id": "B8",
+      "item_family": "direct_execution",
+      "prompt": "Match the equation `n - 5 = 12` to a balance or missing-value situation and solve it.",
+      "expected_evidence": "explain why conjugate structures arise in polynomial contexts with real coefficients",
+      "dominant_failure_mode": "zero_solution_confusion",
+      "scoring_guidance": "Meets when the learner demonstrates explain why conjugate structures arise in polynomial contexts with real coefficients with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
+    },
+    {
+      "item_id": "B8-EXP-001",
+      "node_id": "B8",
+      "item_family": "explanation",
+      "prompt": "Explain why subtracting the same value from both sides of an equation preserves the solution set.",
+      "expected_evidence": "perform bounded addition, subtraction, multiplication, and simple powers with complex numbers",
+      "dominant_failure_mode": "feature_meaning_collapse",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to perform bounded addition, subtraction, multiplication, and simple powers with complex numbers.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "B8-EXP-002",
+      "node_id": "B8",
+      "item_family": "explanation",
+      "prompt": "Explain what the variable represents and why inverse operations help isolate it.",
+      "expected_evidence": "solve bounded quadratic equations with non-real roots and represent the solutions correctly",
+      "dominant_failure_mode": "zero_solution_confusion",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to solve bounded quadratic equations with non-real roots and represent the solutions correctly.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "B8-ERR-001",
+      "node_id": "B8",
+      "item_family": "error_diagnosis",
+      "prompt": "A student solves `x + 5 = 13` by writing `x = 13 + 5`. Diagnose the first structural mistake. Focus on representation structure disconnect.",
+      "expected_evidence": "perform bounded addition, subtraction, multiplication, and simple powers with complex numbers",
+      "dominant_failure_mode": "representation_structure_disconnect",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward perform bounded addition, subtraction, multiplication, and simple powers with complex numbers.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "B8-ERR-002",
+      "node_id": "B8",
+      "item_family": "error_diagnosis",
+      "prompt": "A student solves `3x = 18` by dividing only the `x`. Explain what went wrong. Focus on feature meaning collapse.",
+      "expected_evidence": "solve bounded quadratic equations with non-real roots and represent the solutions correctly",
+      "dominant_failure_mode": "feature_meaning_collapse",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward solve bounded quadratic equations with non-real roots and represent the solutions correctly.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "B8-TRA-001",
+      "node_id": "B8",
+      "item_family": "transfer",
+      "prompt": "A gym charges a $12 signup fee plus $5 per class. Write and solve an equation for the number of classes if the total was $32.",
+      "expected_evidence": "perform bounded addition, subtraction, multiplication, and simple powers with complex numbers",
+      "dominant_failure_mode": "zero_solution_confusion",
+      "scoring_guidance": "Meets when the learner preserves perform bounded addition, subtraction, multiplication, and simple powers with complex numbers in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "B8-TRA-002",
+      "node_id": "B8",
+      "item_family": "transfer",
+      "prompt": "A balance model has three equal bags and 6 loose counters on one side and 24 counters on the other. Write and solve the equation.",
+      "expected_evidence": "solve bounded quadratic equations with non-real roots and represent the solutions correctly",
+      "dominant_failure_mode": "linear_overgeneralization",
+      "scoring_guidance": "Meets when the learner preserves solve bounded quadratic equations with non-real roots and represent the solutions correctly in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "B8-RET-001",
+      "node_id": "B8",
+      "item_family": "retention",
+      "prompt": "Two weeks later, solve `m/3 = 8` and explain how you know the result is reasonable.",
+      "expected_evidence": "perform bounded addition, subtraction, multiplication, and simple powers with complex numbers",
+      "dominant_failure_mode": "linear_overgeneralization",
+      "scoring_guidance": "Meets when the learner still demonstrates perform bounded addition, subtraction, multiplication, and simple powers with complex numbers on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "B8-PRE-001",
+      "node_id": "B8",
+      "item_family": "prerequisite_probe",
+      "prompt": "Before solving complex numbers and quadratic extensions, complete a prerequisite check on quadratic foundations and explain how it supports the current equation work.",
+      "expected_evidence": "shows whether quadratic foundations is secure enough to support complex numbers and quadratic extensions",
+      "dominant_failure_mode": "feature_meaning_collapse",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in quadratic foundations from a current-node issue in complex numbers and quadratic extensions.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "K7",
+      "suspected_knowledge_gap_if_incorrect": "quadratic foundations"
+    },
+    {
+      "item_id": "B8-PRE-002",
+      "node_id": "B8",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a quick polynomial structure and operations check to explain whether the learner is blocked by prerequisite structure or by complex numbers and quadratic extensions itself.",
+      "expected_evidence": "shows whether polynomial structure and operations is secure enough to support complex numbers and quadratic extensions",
+      "dominant_failure_mode": "zero_solution_confusion",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in polynomial structure and operations from a current-node issue in complex numbers and quadratic extensions.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "B1",
+      "suspected_knowledge_gap_if_incorrect": "polynomial structure and operations"
+    }
+  ]
+}

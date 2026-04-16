@@ -1,29 +1,294 @@
 {
   "node_id": "X4",
+  "policy_version": "1.0",
+  "version": "0.3",
   "items": [
     {
-      "item_id": "x4-a1",
-      "item_family": "direct_execution",
-      "prompt": "Representative direct task for fraction-decimal benchmark connections.",
-      "expected_evidence": [
-        "Learner uses the intended structure, not only an answer-getting shortcut."
+      "item_id": "X4-D-001",
+      "family": "direct_execution",
+      "prompt": "Compute `3/4 + 1/8` by rewriting to common units and show the equivalent fractions you used.",
+      "target_node": "X4",
+      "secondary_dependency_targets": [
+        "F3",
+        "X3"
       ],
-      "dominant_failure_mode_targets": [
-        "representation_split"
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
       ],
-      "context": "benchmark cards"
-    },
-    {
-      "item_id": "x4-b1",
-      "item_family": "explanation",
-      "prompt": "Explain why the chosen structure fits the situation.",
-      "expected_evidence": [
-        "Learner names the structural relationship correctly."
-      ],
-      "dominant_failure_mode_targets": [
+      "dominant_failure_modes_if_incorrect": [
+        "representation_split",
         "benchmark_mismatch"
       ],
-      "context": "number lines"
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "X4-D-002",
+      "family": "direct_execution",
+      "prompt": "Compute `5/6 - 1/4` and justify the common denominator choice.",
+      "target_node": "X4",
+      "secondary_dependency_targets": [
+        "F3",
+        "X3"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "benchmark_mismatch",
+        "exact_vs_approx_blur"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "X4-D-003",
+      "family": "direct_execution",
+      "prompt": "Place `2/3` and `5/8` on the same number line and determine which is greater.",
+      "target_node": "X4",
+      "secondary_dependency_targets": [
+        "F3",
+        "X3"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "exact_vs_approx_blur",
+        "cross_representation_ordering_drift"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "X4-D-004",
+      "family": "direct_execution",
+      "prompt": "Compute `3/4 + 1/8` by rewriting to common units and show the equivalent fractions you used.",
+      "target_node": "X4",
+      "secondary_dependency_targets": [
+        "F3",
+        "X3"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "cross_representation_ordering_drift",
+        "representation_split"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "X4-E-001",
+      "family": "explanation",
+      "prompt": "Explain why `3/4` can be rewritten as `6/8` without changing its value.",
+      "target_node": "X4",
+      "secondary_dependency_targets": [
+        "F3",
+        "X3"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "benchmark_mismatch"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "X4-E-002",
+      "family": "explanation",
+      "prompt": "Explain why fractions can only be combined directly when they refer to equal-sized parts.",
+      "target_node": "X4",
+      "secondary_dependency_targets": [
+        "F3",
+        "X3"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "exact_vs_approx_blur"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "X4-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student says `3/4 + 1/8 = 4/12`. Diagnose the first structural mistake. Focus on representation split.",
+      "target_node": "X4",
+      "secondary_dependency_targets": [
+        "F3",
+        "X3"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "representation_split"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "X4-C-002",
+      "family": "error_diagnosis",
+      "prompt": "A student rewrites `2/3` as `3/4` before adding. Identify the equivalence error. Focus on benchmark mismatch.",
+      "target_node": "X4",
+      "secondary_dependency_targets": [
+        "F3",
+        "X3"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "benchmark_mismatch"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "X4-T-001",
+      "family": "transfer",
+      "prompt": "A recipe uses `3/4` cup of oats and `1/8` cup of seeds. How much is used altogether?",
+      "target_node": "X4",
+      "secondary_dependency_targets": [
+        "F3",
+        "X3"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "exact_vs_approx_blur"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "X4-T-002",
+      "family": "transfer",
+      "prompt": "A hiker walks `5/6` mile in the morning and `1/4` mile less in the afternoon. How much farther was the morning walk?",
+      "target_node": "X4",
+      "secondary_dependency_targets": [
+        "F3",
+        "X3"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "cross_representation_ordering_drift"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "X4-R-001",
+      "family": "retention",
+      "prompt": "After a delay, solve `2/3 + 1/6` and explain why the rewrite keeps the quantity unchanged.",
+      "target_node": "X4",
+      "secondary_dependency_targets": [
+        "F3",
+        "X3"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "cross_representation_ordering_drift"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability"
+    },
+    {
+      "item_id": "X4-P-001",
+      "family": "prerequisite_probe",
+      "prompt": "Before closing fraction decimal benchmark connections, complete a prerequisite check on compare fractions and explain how that prior understanding supports the fraction reasoning.",
+      "target_node": "X4",
+      "secondary_dependency_targets": [
+        "F3",
+        "X3"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "benchmark_mismatch"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "F3",
+      "suspected_knowledge_gap_if_incorrect": "compare fractions",
+      "scoring_focus": "dependency_disambiguation"
+    },
+    {
+      "item_id": "X4-P-002",
+      "family": "prerequisite_probe",
+      "prompt": "Use a quick compare and order decimals probe to determine whether the error belongs to the prerequisite or to fraction decimal benchmark connections.",
+      "target_node": "X4",
+      "secondary_dependency_targets": [
+        "F3",
+        "X3"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "exact_vs_approx_blur"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "X3",
+      "suspected_knowledge_gap_if_incorrect": "compare and order decimals",
+      "scoring_focus": "dependency_disambiguation"
     }
   ]
 }

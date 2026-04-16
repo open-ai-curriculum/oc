@@ -1,0 +1,207 @@
+{
+  "meta": {
+    "id": "science-assessment-overlays",
+    "generated_on": "2026-04-15",
+    "source_graph": "domains/science/capability-graph.yaml",
+    "overlay_count": 11
+  },
+  "overlays": [
+    {
+      "overlay_id": "act-science-overlay",
+      "title": "ACT Science Overlay",
+      "assessment_family": "ACT Science",
+      "assessment_version_or_cycle": "current-public-framework",
+      "status": "draft",
+      "overlay_summary_classification": "content_complete",
+      "coverage_units": [
+        { "unit_id": "act-science-data-interpretation", "title": "Data Interpretation and Trend Reasoning", "coverage_classification": "covered", "mapped_capability_nodes": ["Q3", "I3", "I4", "E4"], "unresolved_gaps": [] },
+        { "unit_id": "act-science-investigation-and-method-critique", "title": "Investigation and Method Critique", "coverage_classification": "covered", "mapped_capability_nodes": ["I4", "I5", "E4"], "unresolved_gaps": [] },
+        { "unit_id": "act-science-model-and-viewpoint-evaluation", "title": "Model and Competing Viewpoint Evaluation", "coverage_classification": "covered", "mapped_capability_nodes": ["M3", "M5", "E3", "E5"], "unresolved_gaps": [] }
+      ],
+      "unresolved_gaps": [],
+      "source_documents": ["domains/science/external-assessment-coverage-scan.md"],
+      "claim_boundary": "ACT Science coverage is represented as a reporting-surface overlay, not as a test-score guarantee."
+    },
+    {
+      "overlay_id": "ap-biology-overlay",
+      "title": "AP Biology Overlay",
+      "assessment_family": "AP Biology",
+      "assessment_version_or_cycle": "current-public-framework",
+      "status": "draft",
+      "overlay_summary_classification": "content_complete",
+      "coverage_units": [
+        { "unit_id": "apbio-chemistry-of-life", "title": "Chemistry of Life", "coverage_classification": "covered", "mapped_capability_nodes": ["L3", "L5", "L6", "P5"], "unresolved_gaps": [] },
+        { "unit_id": "apbio-cell-structure-function", "title": "Cell Structure and Function", "coverage_classification": "covered", "mapped_capability_nodes": ["L3", "L5"], "unresolved_gaps": [] },
+        { "unit_id": "apbio-cellular-energetics", "title": "Cellular Energetics", "coverage_classification": "covered", "mapped_capability_nodes": ["L3", "L6", "M4"], "unresolved_gaps": [] },
+        { "unit_id": "apbio-cell-communication-cycle", "title": "Cell Communication and Cell Cycle", "coverage_classification": "covered", "mapped_capability_nodes": ["L5", "L6"], "unresolved_gaps": [] },
+        { "unit_id": "apbio-heredity", "title": "Heredity", "coverage_classification": "covered", "mapped_capability_nodes": ["L5"], "unresolved_gaps": [] },
+        { "unit_id": "apbio-gene-expression-regulation", "title": "Gene Expression and Regulation", "coverage_classification": "covered", "mapped_capability_nodes": ["L5", "L6"], "unresolved_gaps": [] },
+        { "unit_id": "apbio-natural-selection", "title": "Natural Selection", "coverage_classification": "covered", "mapped_capability_nodes": ["L5"], "unresolved_gaps": [] },
+        { "unit_id": "apbio-ecology", "title": "Ecology", "coverage_classification": "covered", "mapped_capability_nodes": ["L4", "L6", "T5"], "unresolved_gaps": [] }
+      ],
+      "unresolved_gaps": [],
+      "source_documents": ["domains/science/external-assessment-coverage-scan.md"],
+      "claim_boundary": "AP Biology coverage is content-surface oriented and does not claim College Board score guarantees."
+    },
+    {
+      "overlay_id": "ap-chemistry-overlay",
+      "title": "AP Chemistry Overlay",
+      "assessment_family": "AP Chemistry",
+      "assessment_version_or_cycle": "current-public-framework",
+      "status": "draft",
+      "overlay_summary_classification": "content_complete",
+      "coverage_units": [
+        { "unit_id": "apchem-atomic-structure", "title": "Atomic Structure and Properties", "coverage_classification": "covered", "mapped_capability_nodes": ["C1", "P5"], "unresolved_gaps": [] },
+        { "unit_id": "apchem-bonding-structure", "title": "Bonding and Molecular Structure", "coverage_classification": "covered", "mapped_capability_nodes": ["C2", "M5"], "unresolved_gaps": [] },
+        { "unit_id": "apchem-reactions-stoichiometry", "title": "Reactions and Quantitative Relationships", "coverage_classification": "covered", "mapped_capability_nodes": ["C3", "I4", "E4"], "unresolved_gaps": [] },
+        { "unit_id": "apchem-kinetics-thermodynamics", "title": "Kinetics and Thermodynamics", "coverage_classification": "covered", "mapped_capability_nodes": ["C4", "C5", "M4"], "unresolved_gaps": [] },
+        { "unit_id": "apchem-equilibrium-acid-base", "title": "Equilibrium and Acid-Base Reasoning", "coverage_classification": "covered", "mapped_capability_nodes": ["C4", "E4"], "unresolved_gaps": [] },
+        { "unit_id": "apchem-electrochemistry", "title": "Electrochemistry", "coverage_classification": "covered", "mapped_capability_nodes": ["C5", "P6"], "unresolved_gaps": [] }
+      ],
+      "unresolved_gaps": [],
+      "source_documents": ["domains/science/external-assessment-coverage-scan.md"],
+      "claim_boundary": "AP Chemistry coverage is content-surface oriented and does not claim full AP unit-policy or score equivalence."
+    },
+    {
+      "overlay_id": "ap-environmental-science-overlay",
+      "title": "AP Environmental Science Overlay",
+      "assessment_family": "AP Environmental Science",
+      "assessment_version_or_cycle": "current-public-framework",
+      "status": "draft",
+      "overlay_summary_classification": "content_complete",
+      "coverage_units": [
+        { "unit_id": "apes-ecosystems", "title": "Ecosystems", "coverage_classification": "covered", "mapped_capability_nodes": ["L4", "L6", "T5"], "unresolved_gaps": [] },
+        { "unit_id": "apes-biodiversity-populations", "title": "Biodiversity and Populations", "coverage_classification": "covered", "mapped_capability_nodes": ["L4", "L5", "L6"], "unresolved_gaps": [] },
+        { "unit_id": "apes-earth-systems-resources", "title": "Earth Systems and Resources", "coverage_classification": "covered", "mapped_capability_nodes": ["T3", "T4", "T5"], "unresolved_gaps": [] },
+        { "unit_id": "apes-land-water-use", "title": "Land and Water Use", "coverage_classification": "covered", "mapped_capability_nodes": ["T5", "T6"], "unresolved_gaps": [] },
+        { "unit_id": "apes-energy-pollution", "title": "Energy, Pollution, and Resource Impacts", "coverage_classification": "covered", "mapped_capability_nodes": ["T5", "T6", "A1"], "unresolved_gaps": [] },
+        { "unit_id": "apes-climate-change", "title": "Climate Change", "coverage_classification": "covered", "mapped_capability_nodes": ["T5", "T6"], "unresolved_gaps": [] }
+      ],
+      "unresolved_gaps": [],
+      "source_documents": ["domains/science/external-assessment-coverage-scan.md"],
+      "claim_boundary": "AP Environmental Science coverage is modeled as a content-surface overlay and does not claim exam-score guarantees."
+    },
+    {
+      "overlay_id": "ap-physics-1-overlay",
+      "title": "AP Physics 1 Overlay",
+      "assessment_family": "AP Physics 1",
+      "assessment_version_or_cycle": "current-public-framework",
+      "status": "draft",
+      "overlay_summary_classification": "content_complete",
+      "coverage_units": [
+        { "unit_id": "app1-kinematics-forces", "title": "Kinematics and Forces", "coverage_classification": "covered", "mapped_capability_nodes": ["F1", "P3"], "unresolved_gaps": [] },
+        { "unit_id": "app1-energy-momentum", "title": "Energy and Momentum", "coverage_classification": "covered", "mapped_capability_nodes": ["F1", "M4"], "unresolved_gaps": [] },
+        { "unit_id": "app1-rotation", "title": "Rotational Motion", "coverage_classification": "covered", "mapped_capability_nodes": ["F2", "F1"], "unresolved_gaps": [] },
+        { "unit_id": "app1-oscillations-waves", "title": "Oscillations and Waves", "coverage_classification": "covered", "mapped_capability_nodes": ["F2", "P3", "P4"], "unresolved_gaps": [] },
+        { "unit_id": "app1-lab-practices", "title": "Physics Practices and Experimental Design", "coverage_classification": "covered", "mapped_capability_nodes": ["I4", "I5", "E4"], "unresolved_gaps": [] }
+      ],
+      "unresolved_gaps": [],
+      "source_documents": ["domains/science/external-assessment-coverage-scan.md"],
+      "claim_boundary": "AP Physics 1 coverage is content-surface oriented and does not claim full College Board unit fidelity."
+    },
+    {
+      "overlay_id": "ap-physics-2-overlay",
+      "title": "AP Physics 2 Overlay",
+      "assessment_family": "AP Physics 2",
+      "assessment_version_or_cycle": "current-public-framework",
+      "status": "draft",
+      "overlay_summary_classification": "content_complete",
+      "coverage_units": [
+        { "unit_id": "app2-fluids-thermo", "title": "Fluids and Thermodynamics", "coverage_classification": "covered", "mapped_capability_nodes": ["F3", "P6"], "unresolved_gaps": [] },
+        { "unit_id": "app2-electric-force-field", "title": "Electric Force, Field, and Potential", "coverage_classification": "covered", "mapped_capability_nodes": ["F4", "M5"], "unresolved_gaps": [] },
+        { "unit_id": "app2-circuits-magnetism", "title": "Circuits and Magnetism", "coverage_classification": "covered", "mapped_capability_nodes": ["F4", "R3"], "unresolved_gaps": [] },
+        { "unit_id": "app2-optics-modern-physics", "title": "Optics and Modern Physics", "coverage_classification": "covered", "mapped_capability_nodes": ["F5", "P6"], "unresolved_gaps": [] },
+        { "unit_id": "app2-physics-practices", "title": "Advanced Physics Practices", "coverage_classification": "covered", "mapped_capability_nodes": ["I5", "E4", "E5"], "unresolved_gaps": [] }
+      ],
+      "unresolved_gaps": [],
+      "source_documents": ["domains/science/external-assessment-coverage-scan.md"],
+      "claim_boundary": "AP Physics 2 coverage is content-surface oriented and does not claim full course-policy equivalence."
+    },
+    {
+      "overlay_id": "ap-physics-c-overlay",
+      "title": "AP Physics C Overlay",
+      "assessment_family": "AP Physics C",
+      "assessment_version_or_cycle": "current-public-framework",
+      "status": "draft",
+      "overlay_summary_classification": "content_substantial_but_compressed",
+      "coverage_units": [
+        { "unit_id": "appc-mechanics", "title": "Mechanics", "coverage_classification": "covered", "mapped_capability_nodes": ["F1", "F2", "I5"], "unresolved_gaps": [] },
+        { "unit_id": "appc-electricity-magnetism", "title": "Electricity and Magnetism", "coverage_classification": "covered", "mapped_capability_nodes": ["F4", "M5", "P6"], "unresolved_gaps": [] },
+        { "unit_id": "appc-calculus-embedded-physics-modeling", "title": "Calculus-Embedded Physics Modeling", "coverage_classification": "partially_covered", "mapped_capability_nodes": ["F6", "I5", "E5"], "unresolved_gaps": ["Full AP Physics C parity still depends on external calculus readiness from the mathematics domain and assessment-policy details not represented in the science graph."] }
+      ],
+      "unresolved_gaps": ["Full AP Physics C parity still depends on external calculus readiness from the mathematics domain and assessment-policy details not represented in the science graph."],
+      "source_documents": ["domains/science/external-assessment-coverage-scan.md"],
+      "claim_boundary": "AP Physics C coverage is partial and does not claim full exam alignment."
+    },
+    {
+      "overlay_id": "terranova-science-overlay",
+      "title": "TerraNova Science Overlay",
+      "assessment_family": "TerraNova Science",
+      "assessment_version_or_cycle": "current-public-framework-not-verified-in-this-pass",
+      "status": "draft",
+      "overlay_summary_classification": "exploratory",
+      "coverage_units": [
+        { "unit_id": "terranova-life", "title": "Life Science", "coverage_classification": "covered", "mapped_capability_nodes": ["L1", "L2", "L3", "L4", "L5", "L6"], "unresolved_gaps": [] },
+        { "unit_id": "terranova-physical", "title": "Physical Science", "coverage_classification": "covered", "mapped_capability_nodes": ["P1", "P2", "P3", "P4", "P5", "P6"], "unresolved_gaps": [] },
+        { "unit_id": "terranova-earth-space", "title": "Earth and Space Science", "coverage_classification": "covered", "mapped_capability_nodes": ["T1", "T2", "T3", "T4", "T5", "T6"], "unresolved_gaps": [] },
+        { "unit_id": "terranova-practices", "title": "Scientific Practices", "coverage_classification": "covered", "mapped_capability_nodes": ["Q1", "I1", "I3", "E3", "E4"], "unresolved_gaps": ["A current official TerraNova science blueprint was not verified in this pass."] }
+      ],
+      "unresolved_gaps": ["Current TerraNova science blueprint validation remains provisional."],
+      "source_documents": ["domains/science/external-assessment-coverage-scan.md"],
+      "claim_boundary": "TerraNova Science coverage is exploratory and not a validated blueprint crosswalk."
+    },
+    {
+      "overlay_id": "state-science-achievement-tests-overlay",
+      "title": "State Science Achievement Tests Overlay",
+      "assessment_family": "State science achievement tests",
+      "assessment_version_or_cycle": "ngss-style-public-frameworks",
+      "status": "draft",
+      "overlay_summary_classification": "content_complete",
+      "coverage_units": [
+        { "unit_id": "state-science-k5", "title": "Elementary Science", "coverage_classification": "covered", "mapped_capability_nodes": ["Q1", "Q2", "I1", "E1", "L1", "P1", "T1", "I2", "M1", "E2", "D1", "D2", "L2", "P2", "T2"], "unresolved_gaps": [] },
+        { "unit_id": "state-science-68", "title": "Middle Grade Science", "coverage_classification": "covered", "mapped_capability_nodes": ["I3", "M2", "M3", "E3", "D3", "L3", "L4", "P3", "P4", "T3", "T4"], "unresolved_gaps": [] },
+        { "unit_id": "state-science-912-life", "title": "Secondary Life Science", "coverage_classification": "covered", "mapped_capability_nodes": ["L5", "L6"], "unresolved_gaps": [] },
+        { "unit_id": "state-science-912-physical", "title": "Secondary Physical Science", "coverage_classification": "covered", "mapped_capability_nodes": ["P5", "P6"], "unresolved_gaps": [] },
+        { "unit_id": "state-science-912-earth-space-and-practices", "title": "Secondary Earth-Space and Scientific Practices", "coverage_classification": "covered", "mapped_capability_nodes": ["T5", "T6", "I4", "I5", "E4", "E5", "A1", "A2"], "unresolved_gaps": [] }
+      ],
+      "unresolved_gaps": [],
+      "source_documents": ["domains/science/external-assessment-coverage-scan.md"],
+      "claim_boundary": "This overlay models broad NGSS-style state science achievement surfaces and does not claim state-specific blueprint equivalence."
+    },
+    {
+      "overlay_id": "naep-science-overlay",
+      "title": "NAEP Science Overlay",
+      "assessment_family": "NAEP Science",
+      "assessment_version_or_cycle": "current-public-framework",
+      "status": "draft",
+      "overlay_summary_classification": "content_substantial_but_compressed",
+      "coverage_units": [
+        { "unit_id": "naep-physical", "title": "Physical Science", "coverage_classification": "covered", "mapped_capability_nodes": ["P1", "P2", "P3", "P4", "P5", "P6"], "unresolved_gaps": [] },
+        { "unit_id": "naep-life", "title": "Life Science", "coverage_classification": "covered", "mapped_capability_nodes": ["L1", "L2", "L3", "L4", "L5", "L6"], "unresolved_gaps": [] },
+        { "unit_id": "naep-earth-space", "title": "Earth and Space Science", "coverage_classification": "covered", "mapped_capability_nodes": ["T1", "T2", "T3", "T4", "T5", "T6"], "unresolved_gaps": [] },
+        { "unit_id": "naep-practices", "title": "Scientific Practices", "coverage_classification": "partially_covered", "mapped_capability_nodes": ["Q3", "I3", "I4", "E4", "A1"], "unresolved_gaps": ["NAEP-specific reporting-category distinctions remain overlay-level and somewhat compressed."] }
+      ],
+      "unresolved_gaps": ["NAEP reporting distinctions remain more compressed than the current graph families."],
+      "source_documents": ["domains/science/external-assessment-coverage-scan.md"],
+      "claim_boundary": "NAEP Science coverage is content-surface oriented and does not claim framework-policy equivalence."
+    },
+    {
+      "overlay_id": "ib-sciences-overlay",
+      "title": "IB Diploma Sciences Overlay",
+      "assessment_family": "IB Diploma Programme sciences",
+      "assessment_version_or_cycle": "current-public-framework",
+      "status": "draft",
+      "overlay_summary_classification": "content_substantial_but_compressed",
+      "coverage_units": [
+        { "unit_id": "ib-biology", "title": "IB Biology", "coverage_classification": "covered", "mapped_capability_nodes": ["B1", "B2", "B3", "B5"], "unresolved_gaps": [] },
+        { "unit_id": "ib-chemistry", "title": "IB Chemistry", "coverage_classification": "covered", "mapped_capability_nodes": ["C1", "C2", "C3", "C4", "C5"], "unresolved_gaps": [] },
+        { "unit_id": "ib-physics", "title": "IB Physics", "coverage_classification": "covered", "mapped_capability_nodes": ["F1", "F3", "F4", "F5"], "unresolved_gaps": [] },
+        { "unit_id": "ib-ess", "title": "IB Environmental Systems and Societies", "coverage_classification": "covered", "mapped_capability_nodes": ["B5", "G5", "G6", "A1"], "unresolved_gaps": [] },
+        { "unit_id": "ib-internal-assessment-and-inquiry", "title": "Internal Assessment and Inquiry", "coverage_classification": "partially_covered", "mapped_capability_nodes": ["I5", "E5", "A2"], "unresolved_gaps": ["IB internal-assessment and level-specific workflow expectations are not separately modeled as course overlays."] }
+      ],
+      "unresolved_gaps": ["IB sciences now have explicit subject-level pathway support in the graph, but SL/HL differentiation and internal-assessment policy posture remain overlay-level."],
+      "source_documents": ["domains/science/external-assessment-coverage-scan.md"],
+      "claim_boundary": "IB sciences coverage is partial and does not claim full course-specification parity."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+[
+  {
+    "item_id": "R3-IB-01",
+    "node_id": "R3",
+    "prompt": "Why should sensor output not be trusted automatically?",
+    "task_type": "instrumentation_critique",
+    "answer_key": "A strong answer checks calibration, circuit behavior, noise, and whether the device is actually measuring the intended quantity well.",
+    "scorable_traits": [
+      "measurement awareness",
+      "systems reasoning",
+      "precision"
+    ],
+    "target_failure_modes": [
+      "R3-FM-01",
+      "R3-FM-02"
+    ],
+    "context_tags": [
+      "instrumentation",
+      "sensors"
+    ]
+  },
+  {
+    "item_id": "R3-IB-02",
+    "node_id": "R3",
+    "prompt": "What makes a sensor explanation more than naming the component?",
+    "task_type": "sensor_system_reasoning",
+    "answer_key": "It connects the physical quantity, the sensor mechanism, the circuit behavior, and the interpreted output.",
+    "scorable_traits": [
+      "system integration",
+      "model use",
+      "transfer"
+    ],
+    "target_failure_modes": [
+      "R3-FM-03"
+    ],
+    "context_tags": [
+      "electronics",
+      "measurement"
+    ]
+  },
+  {
+    "item_id": "R3-IB-03",
+    "node_id": "R3",
+    "prompt": "How can a measurement setup be overclaimed?",
+    "task_type": "measurement_setup_boundary",
+    "answer_key": "It can be overclaimed when the setup is treated as valid without calibration, comparison, or limitation checks.",
+    "scorable_traits": [
+      "claim boundary",
+      "design reasoning",
+      "discipline"
+    ],
+    "target_failure_modes": [
+      "R3-FM-04"
+    ],
+    "context_tags": [
+      "measurement",
+      "validation"
+    ]
+  }
+]

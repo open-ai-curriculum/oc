@@ -1,0 +1,88 @@
+registry_id: learning-to-learn-core-support-artifact-registry
+domain: learning_to_learn
+status: draft
+version: "0.1"
+target_scope:
+  primary_node_ids: [A3, M4, S4, R4, T2]
+  notes: initial upper-band support asset registry for independent-learning orchestration
+
+artifacts:
+  - artifact_id: ltl-a3-planning-template
+    artifact_type: PlanningTemplate
+    title: Independent work structuring template
+    status: draft
+    support_tier: Incubation
+    maturity_state: Drafted
+    target_entity_type: CapabilityNode
+    target_entity_id: A3
+    primary_node_id: A3
+    purpose: externalize planning and checkpoint structure before longer independent work begins
+    delivery_format: markdown-template
+    source_path: domains/learning_to_learn/artifact-attachments/learning-to-learn-core-support-artifact-registry.yaml
+    verification_gate_targets: [G1]
+    failure_mode_targets: [A3-FM-01, A3-FM-03]
+    review_status: draft
+
+  - artifact_id: ltl-m4-retrieval-calendar
+    artifact_type: RetrievalRoutine
+    title: Long-horizon retrieval calendar routine
+    status: draft
+    support_tier: Incubation
+    maturity_state: Drafted
+    target_entity_type: CapabilityNode
+    target_entity_id: M4
+    primary_node_id: M4
+    purpose: structure mixed retrieval and consolidation across longer intervals
+    delivery_format: routine-spec
+    source_path: domains/learning_to_learn/artifact-attachments/learning-to-learn-core-support-artifact-registry.yaml
+    verification_gate_targets: [G1, G3]
+    failure_mode_targets: [M4-FM-01, M4-FM-03]
+    review_status: draft
+
+  - artifact_id: ltl-s4-strategy-comparison-task
+    artifact_type: StrategyComparisonTask
+    title: Strategy and source comparison task
+    status: draft
+    support_tier: Incubation
+    maturity_state: Drafted
+    target_entity_type: CapabilityNode
+    target_entity_id: S4
+    primary_node_id: S4
+    purpose: require explicit comparison of options before revision
+    delivery_format: task-spec
+    source_path: domains/learning_to_learn/artifact-attachments/learning-to-learn-core-support-artifact-registry.yaml
+    verification_gate_targets: [G1]
+    failure_mode_targets: [S4-FM-01, S4-FM-02]
+    review_status: draft
+
+  - artifact_id: ltl-r4-decision-support
+    artifact_type: TeacherDecisionSupport
+    title: Adaptive learning decision support
+    status: draft
+    support_tier: Incubation
+    maturity_state: Drafted
+    target_entity_type: CapabilityNode
+    target_entity_id: R4
+    primary_node_id: R4
+    purpose: make evidence-based evaluation and bounded adaptive decisions visible to teachers and agents
+    delivery_format: decision-support-note
+    source_path: domains/learning_to_learn/artifact-attachments/learning-to-learn-core-support-artifact-registry.yaml
+    verification_gate_targets: [G1, G2]
+    failure_mode_targets: [R4-FM-01, R4-FM-02, R4-FM-03]
+    review_status: draft
+
+  - artifact_id: ltl-t2-far-transfer-probe
+    artifact_type: TransferProbe
+    title: Far-transfer and orchestration probe
+    status: draft
+    support_tier: Incubation
+    maturity_state: Drafted
+    target_entity_type: CapabilityNode
+    target_entity_id: T2
+    primary_node_id: T2
+    purpose: probe abstraction and independent orchestration in a novel context
+    delivery_format: verification-probe
+    source_path: domains/learning_to_learn/artifact-attachments/learning-to-learn-core-support-artifact-registry.yaml
+    verification_gate_targets: [G1, G2]
+    failure_mode_targets: [T2-FM-01, T2-FM-02, T2-FM-03]
+    review_status: draft

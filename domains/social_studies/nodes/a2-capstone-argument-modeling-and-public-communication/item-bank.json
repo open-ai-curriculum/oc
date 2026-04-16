@@ -1,0 +1,16 @@
+{
+  "node_id": "A2",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "A2-G1-01",
+      "node_id": "A2",
+      "gate": "G1",
+      "prompt": "Use the capstone evidence and strand outputs to produce a final public-facing argument or model and explain why the audience and medium choices fit the message.",
+      "source_type": "capstone_multimodal_evidence_set",
+      "response_mode": "oral_or_written_or_annotated",
+      "scoring_rule": "Builds a coherent final public product that integrates strand capstones, aligns medium to audience, and names important limits or modeling choices.",
+      "failure_mode_targets": ["A2-FM-01", "A2-FM-02"]
+    }
+  ]
+}

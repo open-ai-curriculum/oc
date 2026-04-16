@@ -1,0 +1,60 @@
+[
+  {
+    "item_id": "F1-IB-01",
+    "node_id": "F1",
+    "prompt": "Why is choosing an equation by keyword not enough in a mechanics problem?",
+    "task_type": "mechanics_model_selection",
+    "answer_key": "A strong answer explains the physical model, assumptions, and represented quantities rather than matching words to a formula only.",
+    "scorable_traits": [
+      "model selection",
+      "physics reasoning",
+      "representation use"
+    ],
+    "target_failure_modes": [
+      "F1-FM-01"
+    ],
+    "context_tags": [
+      "mechanics",
+      "kinematics"
+    ]
+  },
+  {
+    "item_id": "F1-IB-02",
+    "node_id": "F1",
+    "prompt": "How is an energy explanation different from a force explanation in the same motion case?",
+    "task_type": "force_energy_comparison",
+    "answer_key": "A strong answer distinguishes interaction cause from system-state change and shows why each model highlights different features of the motion.",
+    "scorable_traits": [
+      "distinction making",
+      "causal reasoning",
+      "transfer"
+    ],
+    "target_failure_modes": [
+      "F1-FM-02"
+    ],
+    "context_tags": [
+      "energy",
+      "forces"
+    ]
+  },
+  {
+    "item_id": "F1-IB-03",
+    "node_id": "F1",
+    "prompt": "What makes a momentum claim well bounded?",
+    "task_type": "momentum_reasoning",
+    "answer_key": "It should identify the interaction interval, relevant system boundary, and what measurements support the claim.",
+    "scorable_traits": [
+      "system boundary",
+      "measurement linkage",
+      "precision"
+    ],
+    "target_failure_modes": [
+      "F1-FM-03",
+      "F1-FM-04"
+    ],
+    "context_tags": [
+      "momentum",
+      "collisions"
+    ]
+  }
+]

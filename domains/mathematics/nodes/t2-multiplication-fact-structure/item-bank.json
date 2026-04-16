@@ -1,29 +1,294 @@
 {
   "node_id": "T2",
+  "policy_version": "1.0",
+  "version": "0.3",
   "items": [
     {
-      "item_id": "t2-a1",
-      "item_family": "direct_execution",
-      "prompt": "Representative direct task for multiplication fact structure.",
-      "expected_evidence": [
-        "Learner uses the intended structure, not only an answer-getting shortcut."
+      "item_id": "T2-D-001",
+      "family": "direct_execution",
+      "prompt": "Solve `x + 7 = 19` and show how each step preserves equality.",
+      "target_node": "T2",
+      "secondary_dependency_targets": [
+        "T1",
+        "N4"
       ],
-      "dominant_failure_mode_targets": [
-        "fact_recall_without_meaning"
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
       ],
-      "context": "fact prompts"
-    },
-    {
-      "item_id": "t2-b1",
-      "item_family": "explanation",
-      "prompt": "Explain why the chosen structure fits the situation.",
-      "expected_evidence": [
-        "Learner names the structural relationship correctly."
-      ],
-      "dominant_failure_mode_targets": [
+      "dominant_failure_modes_if_incorrect": [
+        "fact_recall_without_meaning",
         "factor_role_confusion"
       ],
-      "context": "arrays"
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "T2-D-002",
+      "family": "direct_execution",
+      "prompt": "Solve `4x = 28`, then check the solution by substitution.",
+      "target_node": "T2",
+      "secondary_dependency_targets": [
+        "T1",
+        "N4"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "factor_role_confusion",
+        "derived_fact_breakdown"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "T2-D-003",
+      "family": "direct_execution",
+      "prompt": "Match the equation `n - 5 = 12` to a balance or missing-value situation and solve it.",
+      "target_node": "T2",
+      "secondary_dependency_targets": [
+        "T1",
+        "N4"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "derived_fact_breakdown",
+        "commutativity_as_rule_only"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "T2-D-004",
+      "family": "direct_execution",
+      "prompt": "Solve `x + 7 = 19` and show how each step preserves equality.",
+      "target_node": "T2",
+      "secondary_dependency_targets": [
+        "T1",
+        "N4"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "commutativity_as_rule_only",
+        "fact_recall_without_meaning"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "T2-E-001",
+      "family": "explanation",
+      "prompt": "Explain why subtracting the same value from both sides of an equation preserves the solution set.",
+      "target_node": "T2",
+      "secondary_dependency_targets": [
+        "T1",
+        "N4"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "factor_role_confusion"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "T2-E-002",
+      "family": "explanation",
+      "prompt": "Explain what the variable represents and why inverse operations help isolate it.",
+      "target_node": "T2",
+      "secondary_dependency_targets": [
+        "T1",
+        "N4"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "derived_fact_breakdown"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "T2-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student solves `x + 5 = 13` by writing `x = 13 + 5`. Diagnose the first structural mistake. Focus on fact recall without meaning.",
+      "target_node": "T2",
+      "secondary_dependency_targets": [
+        "T1",
+        "N4"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "fact_recall_without_meaning"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "T2-C-002",
+      "family": "error_diagnosis",
+      "prompt": "A student solves `3x = 18` by dividing only the `x`. Explain what went wrong. Focus on factor role confusion.",
+      "target_node": "T2",
+      "secondary_dependency_targets": [
+        "T1",
+        "N4"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "factor_role_confusion"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "T2-T-001",
+      "family": "transfer",
+      "prompt": "A gym charges a $12 signup fee plus $5 per class. Write and solve an equation for the number of classes if the total was $32.",
+      "target_node": "T2",
+      "secondary_dependency_targets": [
+        "T1",
+        "N4"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "derived_fact_breakdown"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "T2-T-002",
+      "family": "transfer",
+      "prompt": "A balance model has three equal bags and 6 loose counters on one side and 24 counters on the other. Write and solve the equation.",
+      "target_node": "T2",
+      "secondary_dependency_targets": [
+        "T1",
+        "N4"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "commutativity_as_rule_only"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "T2-R-001",
+      "family": "retention",
+      "prompt": "Two weeks later, solve `m/3 = 8` and explain how you know the result is reasonable.",
+      "target_node": "T2",
+      "secondary_dependency_targets": [
+        "T1",
+        "N4"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "commutativity_as_rule_only"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability"
+    },
+    {
+      "item_id": "T2-P-001",
+      "family": "prerequisite_probe",
+      "prompt": "Before solving multiplication fact structure, complete a prerequisite check on arrays and rectangular structures and explain how it supports the current equation work.",
+      "target_node": "T2",
+      "secondary_dependency_targets": [
+        "T1",
+        "N4"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "factor_role_confusion"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "T1",
+      "suspected_knowledge_gap_if_incorrect": "arrays and rectangular structures",
+      "scoring_focus": "dependency_disambiguation"
+    },
+    {
+      "item_id": "T2-P-002",
+      "family": "prerequisite_probe",
+      "prompt": "Use a quick fluency foundations check to explain whether the learner is blocked by prerequisite structure or by multiplication fact structure itself.",
+      "target_node": "T2",
+      "secondary_dependency_targets": [
+        "T1",
+        "N4"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "derived_fact_breakdown"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "N4",
+      "suspected_knowledge_gap_if_incorrect": "fluency foundations",
+      "scoring_focus": "dependency_disambiguation"
     }
   ]
 }

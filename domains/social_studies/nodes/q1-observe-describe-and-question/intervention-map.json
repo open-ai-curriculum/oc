@@ -1,0 +1,26 @@
+{
+  "node_id": "Q1",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "Q1-FM-01": [
+      "use teacher-guided noticing with one feature at a time",
+      "highlight or point to relevant areas before releasing responsibility",
+      "contrast missed details with correctly noticed details"
+    ],
+    "Q1-FM-02": [
+      "separate what we can see from what we think in a simple T-chart",
+      "model sentence stems for observation versus inference",
+      "revisit the same source with explicit evidence language"
+    ],
+    "Q1-FM-03": [
+      "provide question stems tied to observed details",
+      "ask the learner to point to the feature that prompted the question",
+      "compare connected versus disconnected questions"
+    ],
+    "Q1-FM-04": [
+      "reduce language load and increase response-mode options",
+      "verify that the learner can access the source through the available modality",
+      "re-administer with simplified directions or interpreted support where appropriate"
+    ]
+  }
+}

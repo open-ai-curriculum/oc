@@ -1,0 +1,75 @@
+domain: social_studies
+version: 0.1
+
+graph:
+  id: ap_comparative_government_and_politics_focused_graph
+  purpose: bounded comparative-government-facing graph cut for the current AP Comparative Government and Politics support surface
+  assessment_family: AP Comparative Government and Politics
+  assurance_posture: partial_country_case_fidelity
+
+families:
+  - id: C
+    name: civics_and_collective_decision_making
+    nodes:
+      - id: C2
+        name: institutions_rights_responsibilities_and_processes
+        depends_on: [C1, Q2]
+      - id: C3
+        name: civic_decision_making_and_deliberation
+        depends_on: [C2, Q3]
+      - id: C4
+        name: constitutional_principles_and_public_policy
+        depends_on: [C3, H3, Q4]
+      - id: C5
+        name: comparative_government_and_civic_action
+        depends_on: [C4, G4, Q5]
+      - id: C6
+        name: advanced_civic_argument_policy_design_and_participation
+        depends_on: [C5, E5, Q6]
+
+  - id: Q
+    name: inquiry_evidence_and_discourse
+    nodes:
+      - id: Q4
+        name: investigation_design_representation_and_data_use
+        depends_on: [Q3]
+      - id: Q5
+        name: evaluation_of_sources_models_and_claims
+        depends_on: [Q4]
+      - id: Q6
+        name: synthesis_argument_and_public_communication
+        depends_on: [Q5]
+
+  - id: E
+    name: economics_and_exchange_systems
+    nodes:
+      - id: E4
+        name: markets_labor_and_public_resource_decisions
+        depends_on: [E3, C2, Q4]
+      - id: E5
+        name: macroeconomic_patterns_global_trade_and_finance_basics
+        depends_on: [E4, G4, Q5]
+
+  - id: G
+    name: geography_and_human_environment_systems
+    nodes:
+      - id: G5
+        name: global_interdependence_migration_and_sustainability
+        depends_on: [G4, Q5]
+      - id: G6
+        name: geospatial_analysis_and_policy_application
+        depends_on: [G5, C4, Q6]
+
+  - id: A
+    name: advanced_secondary_synthesis_and_public_argument
+    nodes:
+      - id: A1
+        name: interdisciplinary_research_and_evidence_synthesis
+        depends_on: [H5, C5, G5, E5, Q6]
+      - id: A2
+        name: capstone_argument_modeling_and_public_communication
+        depends_on: [A1, H6, C6, G6, E6]
+
+out_of_scope:
+  - first_class_country_case_entities
+  - detailed_comparative_political_economy_subgraphs

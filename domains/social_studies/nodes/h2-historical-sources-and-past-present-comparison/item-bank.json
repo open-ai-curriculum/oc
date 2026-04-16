@@ -1,0 +1,16 @@
+{
+  "node_id": "H2",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "H2-G1-01",
+      "node_id": "H2",
+      "gate": "G1",
+      "prompt": "Use the historical source to name one way the past is the same as or different from today.",
+      "source_type": "photo_or_artifact_or_short_text",
+      "response_mode": "oral_or_written_or_highlighted",
+      "scoring_rule": "States a plausible comparison and grounds it in a source detail.",
+      "failure_mode_targets": ["H2-FM-01", "H2-FM-02"]
+    }
+  ]
+}

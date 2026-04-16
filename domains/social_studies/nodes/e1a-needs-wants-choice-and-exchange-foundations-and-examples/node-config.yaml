@@ -1,0 +1,39 @@
+id: E1A
+name: needs_wants_choice_and_exchange_foundations_and_examples
+domain: social_studies
+support_tier: Incubation
+maturity_state: Drafted
+supported_profiles:
+- economics-decomposition-node-package
+evidence_class: Synthetic
+dependencies:
+- none
+mastery:
+  direct_accuracy_threshold: 0.85
+  explanation_required: true
+  transfer_required: true
+  retention_check_days: 14
+statuses:
+- blocked
+- emerging
+- provisional
+- secure
+- unstable
+verification_gates:
+- id: G1
+  type: direct_performance
+  pass_rule: '>= 0.85 accuracy across needs wants choice and exchange foundations and examples tasks'
+- id: G2
+  type: meaning
+  pass_rule: explains the structure or reasoning of the node in at least 2 of 3 prompts
+- id: G3
+  type: transfer
+  pass_rule: successful performance in at least one changed task context
+- id: G4
+  type: retention
+  pass_rule: '>= 0.80 delayed recheck accuracy after ~14 days'
+failure_modes:
+- E1A-FM-01
+- E1A-FM-02
+- E1A-FM-03
+- E1A-FM-04

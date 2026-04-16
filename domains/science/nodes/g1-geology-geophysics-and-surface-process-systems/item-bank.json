@@ -1,0 +1,60 @@
+[
+  {
+    "item_id": "G1-IB-01",
+    "node_id": "G1",
+    "prompt": "Why is naming a rock type not enough to explain a geologic history?",
+    "task_type": "geology_explanation",
+    "answer_key": "A strong answer connects the rock evidence to processes and conditions rather than stopping at identification only.",
+    "scorable_traits": [
+      "process linkage",
+      "evidence use",
+      "Earth-system reasoning"
+    ],
+    "target_failure_modes": [
+      "G1-FM-01",
+      "G1-FM-04"
+    ],
+    "context_tags": [
+      "geology",
+      "rocks"
+    ]
+  },
+  {
+    "item_id": "G1-IB-02",
+    "node_id": "G1",
+    "prompt": "What makes a surface-process explanation different from a deep-time geologic claim?",
+    "task_type": "timescale_reasoning",
+    "answer_key": "A surface-process explanation is bounded to shorter-term mechanisms, while deep-time claims require longer Earth-history models and evidence.",
+    "scorable_traits": [
+      "timescale distinction",
+      "claim boundary",
+      "precision"
+    ],
+    "target_failure_modes": [
+      "G1-FM-02"
+    ],
+    "context_tags": [
+      "geology",
+      "timescales"
+    ]
+  },
+  {
+    "item_id": "G1-IB-03",
+    "node_id": "G1",
+    "prompt": "Why should tectonics be explained as a system rather than a list of features?",
+    "task_type": "tectonic_systems_reasoning",
+    "answer_key": "A strong explanation connects forces, boundaries, materials, and outcomes instead of listing isolated terms.",
+    "scorable_traits": [
+      "systems reasoning",
+      "causal coherence",
+      "transfer"
+    ],
+    "target_failure_modes": [
+      "G1-FM-03"
+    ],
+    "context_tags": [
+      "tectonics",
+      "earth systems"
+    ]
+  }
+]

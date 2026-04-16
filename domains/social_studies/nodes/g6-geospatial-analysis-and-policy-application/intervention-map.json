@@ -1,0 +1,26 @@
+{
+  "node_id": "G6",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "G6-FM-01": [
+      "require every spatial claim to connect to a concrete planning or policy choice",
+      "compare map analysis alone with map analysis tied to decision criteria",
+      "use decision prompts that ask so what should happen here"
+    ],
+    "G6-FM-02": [
+      "compare local regional and national action options for the same case",
+      "require one sentence on why the chosen scale fits the problem",
+      "contrast scale-fit and scale-mismatch recommendations"
+    ],
+    "G6-FM-03": [
+      "require one limitation or uncertainty statement for the chosen representation",
+      "compare strong and weak map-based evidence qualifications",
+      "ask what the map cannot show before final recommendation drafting"
+    ],
+    "G6-FM-04": [
+      "reduce representation complexity and preteach geospatial terms",
+      "provide a legend and layer-by-layer reading sequence before synthesis",
+      "verify whether tooling or vocabulary scaffolds materially change performance"
+    ]
+  }
+}

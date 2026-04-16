@@ -574,6 +574,26 @@ families:
         name: probability_models_and_compound_events
         depends_on: [D6, F2, Q1]
         implementation_state: implemented
+      - id: W5
+        name: sampling_distributions
+        depends_on: [W1, W4]
+        implementation_state: implemented
+      - id: W6
+        name: inference_for_proportions
+        depends_on: [W5, W3]
+        implementation_state: implemented
+      - id: W7
+        name: inference_for_means
+        depends_on: [W5, W3]
+        implementation_state: implemented
+      - id: W8
+        name: chi_square_reasoning
+        depends_on: [W4, W3]
+        implementation_state: implemented
+      - id: W9
+        name: inference_for_regression_slope
+        depends_on: [W2, W5, W3]
+        implementation_state: implemented
 
   - id: B
     name: advanced_algebra_trigonometry_and_precalculus
@@ -598,27 +618,63 @@ families:
         name: precalculus_function_synthesis_and_limits_foundations
         depends_on: [B3, B4, K2]
         implementation_state: implemented
+      - id: B6
+        name: trigonometric_identities_equations_and_analytic_trig
+        depends_on: [B4, A2, K2]
+        implementation_state: implemented
+      - id: B7
+        name: sequences_series_and_recursive_structure
+        depends_on: [B1, B5]
+        implementation_state: implemented
+      - id: B8
+        name: complex_numbers_and_quadratic_extensions
+        depends_on: [K7, B1]
+        implementation_state: implemented
+      - id: B9
+        name: conic_sections_and_coordinate_models
+        depends_on: [A4, H5, B1]
+        implementation_state: implemented
+      - id: B10
+        name: vectors_matrices_and_parametric_foundations
+        depends_on: [A4, K1, B6]
+        implementation_state: implemented
 
   - id: AP
     name: advanced_placement_mathematics_pathways
     nodes:
       - id: AP1
         name: ap_statistics_extension
-        depends_on: [W2, W3, W4]
+        depends_on: [W2, W4, W5, W6, W7, W8, W9]
         implementation_state: implemented
       - id: AP2
         name: ap_precalculus_extension
-        depends_on: [B4, B5]
+        depends_on: [B5, B6, B9, B10]
         implementation_state: implemented
       - id: AP3
-        name: calculus_limits_and_derivatives
+        name: limits_and_continuity
         depends_on: [B5, K2]
         implementation_state: implemented
       - id: AP4
-        name: integral_accumulation_and_fundamental_theorem
-        depends_on: [AP3, Q2]
+        name: derivative_rules_and_computation
+        depends_on: [AP3]
         implementation_state: implemented
       - id: AP5
+        name: applications_of_derivatives
+        depends_on: [AP4]
+        implementation_state: implemented
+      - id: AP6
+        name: integral_meaning_and_accumulation
+        depends_on: [AP4, Q2]
+        implementation_state: implemented
+      - id: AP7
+        name: applications_of_integration
+        depends_on: [AP6, AP5]
+        implementation_state: implemented
+      - id: AP8
+        name: differential_equations_foundations
+        depends_on: [AP4, AP6]
+        implementation_state: implemented
+      - id: AP9
         name: bc_series_and_advanced_calculus_extensions
-        depends_on: [AP4, B1]
+        depends_on: [AP6, B7]
         implementation_state: implemented

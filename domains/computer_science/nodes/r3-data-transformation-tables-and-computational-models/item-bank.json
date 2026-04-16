@@ -1,0 +1,250 @@
+{
+  "node_id": "R3",
+  "policy_version": "1.0",
+  "version": "0.4",
+  "items": [
+    {
+      "item_id": "R3-DIR-001",
+      "node_id": "R3",
+      "item_family": "direct_execution",
+      "prompt": "A class collects simple information from a survey or sensor reading and needs to organize it into a table or chart. Show how the learner would track what rule or operation was applied to the data.",
+      "expected_evidence": "track what rule or operation was applied to the data",
+      "dominant_failure_mode_targets": [
+        "R3-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates track what rule or operation was applied to the data with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "R3-DIR-002",
+      "node_id": "R3",
+      "item_family": "direct_execution",
+      "prompt": "A small dataset is transformed in a spreadsheet or simple program. Trace the change and show how the learner would explain how a transformed table differs from the original data organization.",
+      "expected_evidence": "explain how a transformed table differs from the original data organization",
+      "dominant_failure_mode_targets": [
+        "R3-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates explain how a transformed table differs from the original data organization with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "R3-DIR-003",
+      "node_id": "R3",
+      "item_family": "direct_execution",
+      "prompt": "A modeled or computed output is produced from earlier data-handling steps. Explain the pipeline and show how the learner would connect the output representation back to the transformation process.",
+      "expected_evidence": "connect the output representation back to the transformation process",
+      "dominant_failure_mode_targets": [
+        "R3-FM-03"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates connect the output representation back to the transformation process with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "R3-EXP-001",
+      "node_id": "R3",
+      "item_family": "explanation",
+      "prompt": "Why is a transformed data table not self-explanatory?",
+      "expected_evidence": "because you need to know what rule or process created the new values before the output can be interpreted correctly.",
+      "dominant_failure_mode_targets": [
+        "R3-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to because you need to know what rule or process created the new values before the output can be interpreted correctly."
+    },
+    {
+      "item_id": "R3-EXP-002",
+      "node_id": "R3",
+      "item_family": "explanation",
+      "prompt": "How can a column in a table become confusing after a transformation?",
+      "expected_evidence": "a column can become confusing if its meaning changes and the learner does not track what the new values represent.",
+      "dominant_failure_mode_targets": [
+        "R3-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to a column can become confusing if its meaning changes and the learner does not track what the new values represent."
+    },
+    {
+      "item_id": "R3-ERR-001",
+      "node_id": "R3",
+      "item_family": "error_diagnosis",
+      "prompt": "A learner response in data transformation, tables, and computational models suggests this breakdown: learner reads transformed output without understanding the rule that produced it. Diagnose the likely misconception or structural error. Focus on output-without-rule meaning.",
+      "expected_evidence": "track what rule or operation was applied to the data",
+      "dominant_failure_mode_targets": [
+        "R3-FM-01"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward track what rule or operation was applied to the data."
+    },
+    {
+      "item_id": "R3-ERR-002",
+      "node_id": "R3",
+      "item_family": "error_diagnosis",
+      "prompt": "A learner response in data transformation, tables, and computational models suggests this breakdown: learner loses track of what each column or transformed field represents. Diagnose the likely misconception or structural error. Focus on table-column drift.",
+      "expected_evidence": "explain how a transformed table differs from the original data organization",
+      "dominant_failure_mode_targets": [
+        "R3-FM-02"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward explain how a transformed table differs from the original data organization."
+    },
+    {
+      "item_id": "R3-TRA-001",
+      "node_id": "R3",
+      "item_family": "transfer",
+      "prompt": "The same data idea is presented once as a chart and once as a table or program output. Explain how the learner would connect the output representation back to the transformation process across the changed representation.",
+      "expected_evidence": "connect the output representation back to the transformation process",
+      "dominant_failure_mode_targets": [
+        "R3-FM-03"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves connect the output representation back to the transformation process in a changed computing context or representation."
+    },
+    {
+      "item_id": "R3-TRA-002",
+      "node_id": "R3",
+      "item_family": "transfer",
+      "prompt": "A familiar classroom dataset is replaced with a less-familiar context such as attendance, weather, or game scores. Show how the learner would still avoid treating automated output as self-explanatory.",
+      "expected_evidence": "avoid treating automated output as self-explanatory",
+      "dominant_failure_mode_targets": [
+        "R3-FM-04"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves avoid treating automated output as self-explanatory in a changed computing context or representation."
+    },
+    {
+      "item_id": "R3-RET-001",
+      "node_id": "R3",
+      "item_family": "retention",
+      "prompt": "After a delay, the learner revisits a new dataset, organized display, or model result and must explain what changed and what can be inferred. Show how they would track what rule or operation was applied to the data.",
+      "expected_evidence": "track what rule or operation was applied to the data",
+      "dominant_failure_mode_targets": [
+        "R3-FM-04"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_explanation",
+        "constructed_response"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability",
+      "scoring_guidance": "Meets when the learner still demonstrates track what rule or operation was applied to the data on a delayed recheck without a blocking recurrence."
+    },
+    {
+      "item_id": "R3-PRE-001",
+      "node_id": "R3",
+      "item_family": "prerequisite_probe",
+      "prompt": "Check data collection, classification, and simple visualization using a bounded data display or transformation before closing data transformation, tables, and computational models, and determine whether the present error is really an upstream representation issue.",
+      "expected_evidence": "shows whether data collection, classification, and simple visualization is secure enough to support data transformation, tables, and computational models",
+      "dominant_failure_mode_targets": [
+        "R3-FM-01"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in data collection, classification, and simple visualization from a current-node issue in data transformation, tables, and computational models.",
+      "dependency_target": "R2",
+      "suspected_knowledge_gap_if_incorrect": "data collection, classification, and simple visualization"
+    },
+    {
+      "item_id": "R3-PRE-002",
+      "node_id": "R3",
+      "item_family": "prerequisite_probe",
+      "prompt": "Check algorithm design, efficiency awareness, and decomposition discipline using a bounded data display or transformation before closing data transformation, tables, and computational models, and determine whether the present error is really an upstream representation issue.",
+      "expected_evidence": "shows whether algorithm design, efficiency awareness, and decomposition discipline is secure enough to support data transformation, tables, and computational models",
+      "dominant_failure_mode_targets": [
+        "R3-FM-02"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in algorithm design, efficiency awareness, and decomposition discipline from a current-node issue in data transformation, tables, and computational models.",
+      "dependency_target": "A2",
+      "suspected_knowledge_gap_if_incorrect": "algorithm design, efficiency awareness, and decomposition discipline"
+    }
+  ]
+}

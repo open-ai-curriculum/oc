@@ -1,0 +1,26 @@
+{
+  "node_id": "Q3",
+  "version": "0.1",
+  "interventions": {
+    "Q3-FM-01": [
+      "restate the phenomenon with a visible anchor image or event",
+      "use sentence frames such as We are trying to figure out",
+      "contrast the focal question with near-but-different questions"
+    ],
+    "Q3-FM-02": [
+      "pause before discussion contributions and restate the class question",
+      "sort on-topic and off-topic statements",
+      "use a visible prompt card naming the science focus"
+    ],
+    "Q3-FM-03": [
+      "compare relevant and irrelevant observations for the same question",
+      "ask which detail helps explain the phenomenon",
+      "highlight evidence that directly bears on the focal question"
+    ],
+    "Q3-FM-04": [
+      "repeat the same framing routine across life physical and Earth-space examples",
+      "preserve the sensemaking structure while changing the phenomenon",
+      "fade scaffolds after one successful familiar example"
+    ]
+  }
+}

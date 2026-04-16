@@ -1,0 +1,37 @@
+{
+  "node_id": "B3",
+  "interventions": [
+    {
+      "intervention_id": "B3-INT-01",
+      "name": "B3 Intervention 1",
+      "addresses_failure_modes": [
+        "B3-FM-01"
+      ],
+      "summary": "individual-versus-population explanation sorts to remove need-based reasoning"
+    },
+    {
+      "intervention_id": "B3-INT-02",
+      "name": "B3 Intervention 2",
+      "addresses_failure_modes": [
+        "B3-FM-02"
+      ],
+      "summary": "mechanism comparison routines separating selection, drift, migration, and mutation roles"
+    },
+    {
+      "intervention_id": "B3-INT-03",
+      "name": "B3 Intervention 3",
+      "addresses_failure_modes": [
+        "B3-FM-03"
+      ],
+      "summary": "biodiversity case analyses that require process explanations rather than description only"
+    },
+    {
+      "intervention_id": "B3-INT-04",
+      "name": "B3 Intervention 4",
+      "addresses_failure_modes": [
+        "B3-FM-04"
+      ],
+      "summary": "population-evidence checks that tie claims to observable frequency or comparative patterns"
+    }
+  ]
+}

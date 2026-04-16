@@ -1,0 +1,30 @@
+[
+  {
+    "student_id": "example-secure",
+    "node": "B9",
+    "status": "secure",
+    "direct_accuracy": 0.84,
+    "explanation_status": "meets",
+    "transfer_status": "meets",
+    "retention_status": "meets",
+    "dominant_failure_modes": [],
+    "recommended_interventions": []
+  },
+  {
+    "student_id": "example-blocked",
+    "node": "B9",
+    "status": "blocked",
+    "direct_accuracy": 0.53,
+    "explanation_status": "weak",
+    "transfer_status": "failed",
+    "retention_status": "not_met",
+    "dominant_failure_modes": [
+      "formula_structure_fragmentation",
+      "coordinate_measure_substitution_error"
+    ],
+    "recommended_interventions": [
+      "classify bounded tasks by structure before selecting circumference, area, arc-length, sector, midpoint, or distance routines",
+      "annotate x- and y-coordinate substitutions line by line for midpoint and distance routines"
+    ]
+  }
+]

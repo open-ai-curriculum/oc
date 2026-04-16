@@ -1,29 +1,294 @@
 {
   "node_id": "M9",
+  "policy_version": "1.0",
+  "version": "0.3",
   "items": [
     {
-      "item_id": "m9-a1",
-      "item_family": "direct_execution",
-      "prompt": "Representative direct task for perimeter, area, and unit-square covering.",
-      "expected_evidence": [
-        "Learner uses the intended structure, not only an answer-getting shortcut."
+      "item_id": "M9-D-001",
+      "family": "direct_execution",
+      "prompt": "Decide whether the table `(2, 6), (4, 12), (7, 21)` is proportional and justify the constant of proportionality.",
+      "target_node": "M9",
+      "secondary_dependency_targets": [
+        "M8",
+        "G4"
       ],
-      "dominant_failure_mode_targets": [
-        "perimeter_area_blend"
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
       ],
-      "context": "rectangles"
-    },
-    {
-      "item_id": "m9-b1",
-      "item_family": "explanation",
-      "prompt": "Explain why the chosen structure fits the situation.",
-      "expected_evidence": [
-        "Learner names the structural relationship correctly."
-      ],
-      "dominant_failure_mode_targets": [
+      "dominant_failure_modes_if_incorrect": [
+        "perimeter_area_blend",
         "boundary_unit_loss"
       ],
-      "context": "composite figures"
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "M9-D-002",
+      "family": "direct_execution",
+      "prompt": "Find the unit rate for 18 miles in 3 hours and explain what it means.",
+      "target_node": "M9",
+      "secondary_dependency_targets": [
+        "M8",
+        "G4"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "boundary_unit_loss",
+        "square_cover_gap_overlap"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "M9-D-003",
+      "family": "direct_execution",
+      "prompt": "Find 15% of 80 and explain how the percent is acting as a rate per hundred.",
+      "target_node": "M9",
+      "secondary_dependency_targets": [
+        "M8",
+        "G4"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "square_cover_gap_overlap",
+        "same_number_false_equivalence"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "M9-D-004",
+      "family": "direct_execution",
+      "prompt": "Decide whether the table `(2, 6), (4, 12), (7, 21)` is proportional and justify the constant of proportionality.",
+      "target_node": "M9",
+      "secondary_dependency_targets": [
+        "M8",
+        "G4"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "same_number_false_equivalence",
+        "perimeter_area_blend"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "M9-E-001",
+      "family": "explanation",
+      "prompt": "Explain why equal differences alone do not prove a relationship is proportional.",
+      "target_node": "M9",
+      "secondary_dependency_targets": [
+        "M8",
+        "G4"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "boundary_unit_loss"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "M9-E-002",
+      "family": "explanation",
+      "prompt": "Explain how a unit rate and a constant of proportionality describe the same multiplicative structure.",
+      "target_node": "M9",
+      "secondary_dependency_targets": [
+        "M8",
+        "G4"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "square_cover_gap_overlap"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "M9-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student says a table is proportional because it increases by 3 each row. Diagnose the additive-pattern error. Focus on perimeter area blend.",
+      "target_node": "M9",
+      "secondary_dependency_targets": [
+        "M8",
+        "G4"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "perimeter_area_blend"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "M9-C-002",
+      "family": "error_diagnosis",
+      "prompt": "A student scales one quantity by 2 but the other by 3 and still claims proportionality. Identify the breakdown. Focus on boundary unit loss.",
+      "target_node": "M9",
+      "secondary_dependency_targets": [
+        "M8",
+        "G4"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "boundary_unit_loss"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "M9-T-001",
+      "family": "transfer",
+      "prompt": "A map uses 1 cm for every 5 km. How far does 7.2 cm represent, and why is the relationship proportional?",
+      "target_node": "M9",
+      "secondary_dependency_targets": [
+        "M8",
+        "G4"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "square_cover_gap_overlap"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "M9-T-002",
+      "family": "transfer",
+      "prompt": "A recipe uses 3 cups of flour for 2 batches. Write an equation relating flour to batches and find the amount for 5 batches.",
+      "target_node": "M9",
+      "secondary_dependency_targets": [
+        "M8",
+        "G4"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "same_number_false_equivalence"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "M9-R-001",
+      "family": "retention",
+      "prompt": "On a delayed check, determine whether 4 notebooks for $6 and 10 notebooks for $15 are proportional and justify your reasoning.",
+      "target_node": "M9",
+      "secondary_dependency_targets": [
+        "M8",
+        "G4"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "same_number_false_equivalence"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability"
+    },
+    {
+      "item_id": "M9-P-001",
+      "family": "prerequisite_probe",
+      "prompt": "Probe standard length units and tool use before diagnosing perimeter area and unit square covering, and state whether the learner is missing multiplicative structure or only the current proportional application.",
+      "target_node": "M9",
+      "secondary_dependency_targets": [
+        "M8",
+        "G4"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "boundary_unit_loss"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "M8",
+      "suspected_knowledge_gap_if_incorrect": "standard length units and tool use",
+      "scoring_focus": "dependency_disambiguation"
+    },
+    {
+      "item_id": "M9-P-002",
+      "family": "prerequisite_probe",
+      "prompt": "Probe pattern blocks and tiling structure before diagnosing perimeter area and unit square covering, and state whether the learner is missing multiplicative structure or only the current proportional application.",
+      "target_node": "M9",
+      "secondary_dependency_targets": [
+        "M8",
+        "G4"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "square_cover_gap_overlap"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "G4",
+      "suspected_knowledge_gap_if_incorrect": "pattern blocks and tiling structure",
+      "scoring_focus": "dependency_disambiguation"
     }
   ]
 }

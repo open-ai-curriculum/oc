@@ -1,0 +1,72 @@
+{
+  "node_id": "E1",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "E1-A-001",
+      "family": "claim_and_evidence",
+      "prompt": "A puddle was larger in the morning and smaller in the afternoon. What happened, and what observation is your evidence?",
+      "target_node": "E1",
+      "secondary_dependency_targets": ["Q2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation", "short_text"],
+      "dominant_failure_modes_if_incorrect": ["E1-FM-01", "E1-FM-02"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "E1-A-002",
+      "family": "claim_and_evidence",
+      "prompt": "Which observation is the best evidence that one plant got more water than another?",
+      "target_node": "E1",
+      "secondary_dependency_targets": ["Q2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["selected_response", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["E1-FM-02", "E1-FM-03"],
+      "requires_human_scoring": false
+    },
+    {
+      "item_id": "E1-B-001",
+      "family": "explanation",
+      "prompt": "Explain why the thermometer reading is evidence that the water got warmer.",
+      "target_node": "E1",
+      "secondary_dependency_targets": ["Q2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["E1-FM-01", "E1-FM-03"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "E1-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student says the faster car won because it is cooler-looking. What is wrong with that explanation?",
+      "target_node": "E1",
+      "secondary_dependency_targets": ["Q2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["multiple_choice", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["E1-FM-02", "E1-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "E1-D-001",
+      "family": "transfer",
+      "prompt": "Use one observation to support a claim about a seed and one observation to support a claim about the weather. Explain how both are evidence.",
+      "target_node": "E1",
+      "secondary_dependency_targets": ["Q2"],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": ["oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["E1-FM-01", "E1-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "E1-R-001",
+      "family": "retention",
+      "prompt": "After time has passed, choose the best evidence for a simple claim about a melting ice cube and explain your choice.",
+      "target_node": "E1",
+      "secondary_dependency_targets": ["Q2"],
+      "difficulty_band": "retention",
+      "response_modes_allowed": ["selected_response", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["E1-FM-02", "E1-FM-03"],
+      "requires_human_scoring": true
+    }
+  ]
+}

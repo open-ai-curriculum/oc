@@ -1,0 +1,37 @@
+{
+  "node_id": "N4",
+  "interventions": [
+    {
+      "intervention_id": "N4-INT-01",
+      "name": "N4 Intervention 1",
+      "addresses_failure_modes": [
+        "N4-FM-01"
+      ],
+      "summary": "layered architecture diagrams that require each bounded component or service to be named and related"
+    },
+    {
+      "intervention_id": "N4-INT-02",
+      "name": "N4 Intervention 2",
+      "addresses_failure_modes": [
+        "N4-FM-02"
+      ],
+      "summary": "resource-budget tasks comparing how one design changes under tighter time, memory, or bandwidth limits"
+    },
+    {
+      "intervention_id": "N4-INT-03",
+      "name": "N4 Intervention 3",
+      "addresses_failure_modes": [
+        "N4-FM-03"
+      ],
+      "summary": "application-versus-platform scenario sorts with explicit responsibility explanations"
+    },
+    {
+      "intervention_id": "N4-INT-04",
+      "name": "N4 Intervention 4",
+      "addresses_failure_modes": [
+        "N4-FM-04"
+      ],
+      "summary": "paired architecture analyses transferring the same layer-and-resource reasoning to a second system example"
+    }
+  ]
+}

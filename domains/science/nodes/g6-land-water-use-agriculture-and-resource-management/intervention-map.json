@@ -1,0 +1,37 @@
+{
+  "node_id": "G6",
+  "interventions": [
+    {
+      "intervention_id": "G6-INT-01",
+      "name": "G6 Intervention 1",
+      "addresses_failure_modes": [
+        "G6-FM-01"
+      ],
+      "summary": "resource-planning tasks that force long-term and downstream consequence checks"
+    },
+    {
+      "intervention_id": "G6-INT-02",
+      "name": "G6 Intervention 2",
+      "addresses_failure_modes": [
+        "G6-FM-02"
+      ],
+      "summary": "agriculture-system maps connecting soil, water, biodiversity, and production goals"
+    },
+    {
+      "intervention_id": "G6-INT-03",
+      "name": "G6 Intervention 3",
+      "addresses_failure_modes": [
+        "G6-FM-03"
+      ],
+      "summary": "criteria-and-constraint tables for land and water management decisions"
+    },
+    {
+      "intervention_id": "G6-INT-04",
+      "name": "G6 Intervention 4",
+      "addresses_failure_modes": [
+        "G6-FM-04"
+      ],
+      "summary": "case reviews that compare local gains with broader system impacts"
+    }
+  ]
+}

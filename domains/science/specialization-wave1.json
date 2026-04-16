@@ -1,0 +1,453 @@
+[
+  {
+    "id": "B1",
+    "slug": "b1-biomolecules-cellular-structure-and-metabolism",
+    "title": "B1 Biomolecules, Cellular Structure, and Metabolism",
+    "short": "advanced secondary biology specialization for biomolecules, cells, and metabolism",
+    "domainArea": "advanced biological specialization",
+    "deps": ["L3", "L5", "P5", "M4"],
+    "purpose": "The learner explains cellular function using biomolecule structure, membrane transport, organelle roles, and metabolic energy-transformation models without collapsing cell behavior into memorized part lists.",
+    "exit": [
+      "explains how biomolecule structure constrains function in bounded biological cases",
+      "connects organelles, membranes, and transport processes into coherent cellular-system explanations",
+      "uses metabolism models to explain energy capture, release, or transfer in cells",
+      "succeeds across more than one advanced cell-biology context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "distinguish structural descriptions from functional cellular explanations",
+      "explain membrane transport and organelle roles using mechanism language",
+      "connect ATP, respiration, or photosynthetic energy transformations to cell activity",
+      "coordinate molecular and cellular evidence without scale collapse"
+    ],
+    "failure": [
+      ["01", "cell-part list substitution", "learner names cell structures without explaining their coordinated functional roles."],
+      ["02", "membrane-process collapse", "learner confuses diffusion, active transport, or membrane selectivity as interchangeable."],
+      ["03", "metabolism-as-purpose drift", "learner explains metabolic processes teleologically instead of by constrained energy transformation."],
+      ["04", "molecule-to-cell disconnect", "learner cannot connect biomolecule properties to cellular behavior."]
+    ],
+    "interventions": [
+      "structure-to-function comparison routines that force explicit biomolecule and organelle role explanations",
+      "membrane transport scenario sorts that separate passive, active, and selective processes",
+      "energy pathway maps that connect inputs, transformations, and outputs in respiration or photosynthesis",
+      "cross-scale prompts linking molecular properties to whole-cell performance"
+    ],
+    "items": [
+      ["Why is it incomplete to describe a cell membrane only as a border when explaining nutrient uptake?", "cellular_mechanism_explanation", "The explanation should include selective transport and the membrane's role in controlling what moves into and out of the cell.", ["scale coordination", "mechanism", "biological precision"], ["01", "02"], ["cells", "transport"]],
+      ["A learner says ATP exists so the cell can have energy when it needs it. What correction is needed?", "metabolism_critique", "The correction should explain ATP as part of energy-transfer processes rather than as a purpose-driven reserve that acts on its own.", ["energy reasoning", "critique quality", "mechanistic language"], ["03"], ["metabolism", "energy"]],
+      ["How can biomolecule structure help explain a cell's function?", "structure_function_reasoning", "A strong answer links the properties of proteins, lipids, carbohydrates, or nucleic acids to specific cellular behaviors or constraints.", ["structure-function alignment", "evidence use", "cross-scale linkage"], ["04"], ["biomolecules", "cells"]]
+    ],
+    "noteSecure": "Explains biomolecule structure, membrane processes, and metabolism with coherent cellular models.",
+    "noteEmerging": "Recognizes cell parts but explains transport and metabolism with fragmented or purpose-driven language."
+  },
+  {
+    "id": "B2",
+    "slug": "b2-gene-expression-inheritance-and-biotechnology",
+    "title": "B2 Gene Expression, Inheritance, and Biotechnology",
+    "short": "advanced secondary biology specialization for gene expression, inheritance, and biotechnology",
+    "domainArea": "advanced biological specialization",
+    "deps": ["B1", "L5", "I4"],
+    "purpose": "The learner explains how information flows from genetic material to expressed traits and evaluates biotechnology methods without reducing inheritance to deterministic trait slogans.",
+    "exit": [
+      "explains gene-to-trait pathways with bounded molecular and regulatory reasoning",
+      "distinguishes inheritance patterns from gene expression and environmental influence",
+      "evaluates biotechnology claims using method and evidence quality",
+      "succeeds across more than one heredity or biotechnology context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "trace information flow from DNA through expression to trait outcomes",
+      "compare genotype, phenotype, regulation, and environment without role collapse",
+      "evaluate biotechnology methods such as editing, amplification, or screening with evidence awareness",
+      "avoid deterministic overclaiming about gene-trait relations"
+    ],
+    "failure": [
+      ["01", "dna-to-trait shortcut", "learner skips expression and regulation steps when explaining inherited traits."],
+      ["02", "gene-determinism overreach", "learner treats genes as fully determining outcomes without environmental or regulatory context."],
+      ["03", "inheritance-pattern confusion", "learner confuses trait transmission patterns with molecular mechanisms."],
+      ["04", "biotech-method credibility drift", "learner accepts biotechnology claims without method or evidence critique."]
+    ],
+    "interventions": [
+      "gene-expression flow maps that force explicit intermediate reasoning from DNA to trait",
+      "genotype-phenotype-environment comparison tables to separate causal roles",
+      "inheritance-case sorts that distinguish transmission patterns from molecular explanation",
+      "biotechnology evidence reviews that focus on method limits and claim scope"
+    ],
+    "items": [
+      ["Why is it incomplete to say a trait appears only because the gene for it is present?", "gene_expression_reasoning", "A strong answer explains that gene presence is not enough by itself because expression, regulation, and environment can affect the trait outcome.", ["causal precision", "regulation awareness", "biological reasoning"], ["01", "02"], ["genetics", "expression"]],
+      ["A biotech report claims a method guarantees a desired trait. What should be checked first?", "biotechnology_claim_critique", "The first check is whether the method, evidence, and limits support the claim rather than assuming certainty from the technology label alone.", ["evidence critique", "method awareness", "claim boundary"], ["04"], ["biotechnology", "evidence"]],
+      ["How is an inheritance pattern different from a gene-expression explanation?", "inheritance_vs_expression", "An inheritance pattern describes how traits are passed across generations, while gene-expression reasoning explains how information is used to produce traits within organisms.", ["distinction making", "concept accuracy", "transfer"], ["03"], ["inheritance", "gene expression"]]
+    ],
+    "noteSecure": "Explains gene expression and inheritance with bounded, non-deterministic reasoning and critiques biotechnology claims appropriately.",
+    "noteEmerging": "Uses gene language but collapses regulation, environment, and method critique."
+  },
+  {
+    "id": "B3",
+    "slug": "b3-evolution-population-genetics-and-biodiversity",
+    "title": "B3 Evolution, Population Genetics, and Biodiversity",
+    "short": "advanced secondary biology specialization for evolution, population genetics, and biodiversity",
+    "domainArea": "advanced biological specialization",
+    "deps": ["B2", "L5", "E4"],
+    "purpose": "The learner explains evolutionary change and biodiversity using variation, inheritance, selection, drift, and population-level evidence without reverting to need-based organism stories.",
+    "exit": [
+      "explains evolutionary change at the population level using bounded mechanisms",
+      "uses variation and inheritance evidence to explain biodiversity patterns",
+      "distinguishes selection, drift, and related evolutionary processes in bounded cases",
+      "succeeds across more than one biodiversity or population-genetics context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "separate organism survival stories from population-level change explanations",
+      "use variation, allele-frequency, or comparative-evidence language appropriately",
+      "explain biodiversity as an outcome of multiple evolutionary processes and ecological context",
+      "critique overconfident or teleological evolutionary claims"
+    ],
+    "failure": [
+      ["01", "teleological-evolution return", "learner explains population change as organisms changing because they need to."],
+      ["02", "selection-drift collapse", "learner treats different evolutionary mechanisms as equivalent."],
+      ["03", "biodiversity-as-listing", "learner catalogs diversity without explaining pattern-producing processes."],
+      ["04", "population-evidence weakness", "learner makes evolutionary claims without enough population-level evidence."]
+    ],
+    "interventions": [
+      "individual-versus-population explanation sorts to remove need-based reasoning",
+      "mechanism comparison routines separating selection, drift, migration, and mutation roles",
+      "biodiversity case analyses that require process explanations rather than description only",
+      "population-evidence checks that tie claims to observable frequency or comparative patterns"
+    ],
+    "items": [
+      ["Why is “the species changed because it needed to survive” not an acceptable explanation?", "evolution_critique", "The explanation is not acceptable because it attributes change to need or intention rather than population-level variation, inheritance, and differential outcomes over time.", ["mechanism accuracy", "critique quality", "population reasoning"], ["01"], ["evolution", "selection"]],
+      ["What makes biodiversity evidence explanatory instead of descriptive?", "biodiversity_explanation", "It becomes explanatory when it is connected to mechanisms such as variation, selection, isolation, or ecological pressures rather than listing differences only.", ["process linkage", "evidence use", "biological integration"], ["03", "04"], ["biodiversity", "ecology"]],
+      ["How is drift different from selection in a bounded case?", "mechanism_comparison", "A strong answer distinguishes random frequency change from differential outcomes tied to traits or conditions.", ["distinction making", "concept accuracy", "model fit"], ["02"], ["population genetics", "evolution"]]
+    ],
+    "noteSecure": "Explains population change and biodiversity with non-teleological, evidence-bounded evolutionary reasoning.",
+    "noteEmerging": "Uses evolution vocabulary but falls back to organism-level need stories and weak evidence."
+  },
+  {
+    "id": "B4",
+    "slug": "b4-anatomy-physiology-and-system-regulation",
+    "title": "B4 Anatomy, Physiology, and System Regulation",
+    "short": "advanced secondary biology specialization for anatomy, physiology, and regulation",
+    "domainArea": "advanced biological specialization",
+    "deps": ["B1", "L5", "M4"],
+    "purpose": "The learner explains coordinated body-system function and regulation using feedback, transport, and interaction models without reducing physiology to isolated organ facts.",
+    "exit": [
+      "explains body-system coordination using transport, signaling, and regulation models",
+      "uses feedback language to explain stability and response in physiological systems",
+      "distinguishes structure naming from functional system explanation",
+      "succeeds across more than one anatomy or physiology context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "coordinate multiple body systems in a single functional explanation",
+      "explain physiological regulation as dynamic feedback rather than static balance only",
+      "use anatomy details only when they support mechanism explanations",
+      "identify where organ-level and system-level evidence must both matter"
+    ],
+    "failure": [
+      ["01", "organ-fact fragmentation", "learner lists organs or structures without explaining coordinated function."],
+      ["02", "feedback-loop instability", "learner cannot explain negative or positive feedback coherently."],
+      ["03", "static-homeostasis claim", "learner treats regulation as keeping systems unchanged rather than dynamically responsive."],
+      ["04", "system-interaction omission", "learner explains one body system while ignoring necessary cross-system interactions."]
+    ],
+    "interventions": [
+      "system-mapping routines that require transport and signaling links across organs",
+      "feedback-loop annotation tasks distinguishing sensor, control, and response roles",
+      "homeostasis scenarios that show fluctuation within regulated ranges",
+      "multi-system case analysis with explicit cross-system evidence prompts"
+    ],
+    "items": [
+      ["Why is a list of heart parts not enough to explain circulation?", "physiology_explanation", "A strong answer explains how structures work together with vessels, pressure, exchange, and regulation rather than naming parts only.", ["system coordination", "mechanism", "functional reasoning"], ["01"], ["circulation", "anatomy"]],
+      ["What makes homeostasis dynamic rather than static?", "feedback_reasoning", "Dynamic homeostasis involves ongoing sensing, response, and adjustment within ranges rather than keeping conditions fixed at a single value.", ["feedback understanding", "regulation language", "precision"], ["02", "03"], ["homeostasis", "physiology"]],
+      ["When must two body systems be explained together?", "cross_system_reasoning", "They must be explained together when the function or failure of one depends on transport, signaling, or regulation from another system.", ["integration", "evidence use", "transfer"], ["04"], ["body systems", "regulation"]]
+    ],
+    "noteSecure": "Explains anatomy and physiology through coordinated system regulation and feedback.",
+    "noteEmerging": "Knows body-part vocabulary but explains system behavior in isolated fragments."
+  },
+  {
+    "id": "B5",
+    "slug": "b5-ecology-field-systems-and-environmental-biology",
+    "title": "B5 Ecology, Field Systems, and Environmental Biology",
+    "short": "advanced secondary biology specialization for ecology, field systems, and environmental biology",
+    "domainArea": "advanced biological specialization",
+    "deps": ["L4", "L6", "T5", "I4"],
+    "purpose": "The learner explains ecological and field-based biological systems using interacting populations, abiotic constraints, measurement evidence, and environmental change models without collapsing outcomes to one variable.",
+    "exit": [
+      "explains ecological change using interacting biotic and abiotic factors",
+      "uses field evidence and sampling logic in environmental-biology claims",
+      "connects ecosystem outcomes to environmental-system change without overclaiming certainty",
+      "succeeds across more than one field-biology or ecology context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "integrate population, resource, and abiotic-condition reasoning",
+      "use field methods and sampling limits when evaluating ecosystem claims",
+      "connect local biological observations to larger environmental-system models appropriately",
+      "avoid single-cause explanations for ecological change"
+    ],
+    "failure": [
+      ["01", "single-variable ecology collapse", "learner explains ecosystem outcomes with one factor only when interactions matter."],
+      ["02", "field-evidence overreach", "learner generalizes beyond what the sampling design supports."],
+      ["03", "biotic-abiotic disconnect", "learner separates living-system reasoning from environmental constraints."],
+      ["04", "impact-claim inflation", "learner overstates human or environmental impact without enough evidence scale."]
+    ],
+    "interventions": [
+      "interaction webs that force multiple-factor ecological explanations",
+      "sampling-design reviews that tie claim scope to field evidence limits",
+      "biotic-abiotic link charts connecting organisms to environmental drivers",
+      "impact-evidence routines that compare local observation with broader-system inference"
+    ],
+    "items": [
+      ["Why is one predator-prey relation not enough to explain an ecosystem shift?", "ecology_systems_reasoning", "A strong answer notes that ecosystem shifts depend on multiple populations, resources, abiotic conditions, and interactions rather than one relation only.", ["systems reasoning", "interaction complexity", "critique"], ["01"], ["ecology", "systems"]],
+      ["What limits should be named before making a broad field-biology claim?", "field_method_critique", "The claim should name sampling limits, location constraints, measurement error, and whether the evidence supports wider generalization.", ["method awareness", "evidence caution", "claim boundary"], ["02"], ["field studies", "sampling"]],
+      ["How can abiotic change alter biological outcomes?", "environmental_biology_explanation", "Abiotic changes can shift resources, survival conditions, interactions, or carrying capacity, so they must be included in ecological explanations.", ["biotic-abiotic linkage", "mechanism", "transfer"], ["03", "04"], ["environmental biology", "ecology"]]
+    ],
+    "noteSecure": "Explains ecology and environmental biology with multi-factor, evidence-bounded field reasoning.",
+    "noteEmerging": "Uses ecology vocabulary but overgeneralizes from narrow observations and single causes."
+  },
+  {
+    "id": "B6",
+    "slug": "b6-organismal-specializations-botany-zoology-and-marine-biology",
+    "title": "B6 Organismal Specializations, Botany, Zoology, and Marine Biology",
+    "short": "advanced secondary biology specialization for organismal pathways including botany, zoology, and marine biology",
+    "domainArea": "advanced biological specialization",
+    "deps": ["B4", "B5", "T6"],
+    "purpose": "The learner extends advanced biological reasoning into plant, animal, and marine organism systems using habitat, adaptation, physiology, and environmental interaction models without fragmenting organism study from broader system logic.",
+    "exit": [
+      "explains organismal specialization using physiology, environment, and adaptation together",
+      "connects plant, animal, or marine cases to broader biological and Earth-system constraints",
+      "uses comparative organism evidence without reducing explanation to trait cataloging",
+      "succeeds across more than one organism-specialization context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "compare organism groups using functional and environmental reasoning",
+      "connect marine or terrestrial organism behavior to habitat-system conditions",
+      "explain specialization through coordinated structure, physiology, and ecological fit",
+      "avoid trait-listing without system explanation"
+    ],
+    "failure": [
+      ["01", "trait-catalog substitution", "learner lists organism traits without explaining their system role."],
+      ["02", "habitat-disconnect reasoning", "learner ignores environmental constraints when explaining organism function."],
+      ["03", "marine-system isolation", "learner treats marine biology as detached from Earth-system processes."],
+      ["04", "comparative-overgeneralization", "learner overextends one organism case to unrelated groups without evidence."]
+    ],
+    "interventions": [
+      "comparative organism studies that force structure-function-environment links",
+      "habitat constraint prompts for plant, animal, and marine cases",
+      "marine-system maps connecting organisms to water, climate, and Earth-system processes",
+      "classification-to-explanation routines that move beyond trait catalogs"
+    ],
+    "items": [
+      ["Why is naming plant structures not enough to explain adaptation?", "organismal_reasoning", "A strong answer must connect structures to functions and environmental constraints rather than naming them only.", ["structure-function reasoning", "environment linkage", "transfer"], ["01", "02"], ["botany", "adaptation"]],
+      ["What makes marine biology explanations depend on Earth systems too?", "marine_systems_explanation", "Marine explanations depend on currents, chemistry, climate, and habitat conditions, so organism reasoning must connect to larger Earth systems.", ["cross-domain integration", "system awareness", "evidence use"], ["03"], ["marine biology", "earth systems"]],
+      ["Why should evidence from one animal group not be generalized automatically to another?", "comparative_critique", "Different groups can have different structures, environments, and evolutionary histories, so comparative claims need bounded evidence.", ["claim boundary", "comparative reasoning", "discipline"], ["04"], ["zoology", "comparison"]]
+    ],
+    "noteSecure": "Explains botany, zoology, and marine biology as organism-environment systems rather than trait catalogs.",
+    "noteEmerging": "Recognizes organism differences but explanations remain descriptive and weakly connected to habitat or systems."
+  },
+  {
+    "id": "C1",
+    "slug": "c1-atomic-structure-periodicity-and-quantum-models",
+    "title": "C1 Atomic Structure, Periodicity, and Quantum Models",
+    "short": "advanced secondary chemistry specialization for atomic structure, periodicity, and quantum models",
+    "domainArea": "chemistry specialization",
+    "deps": ["P5", "M5"],
+    "purpose": "The learner explains matter using atomic structure, periodicity, and quantized-energy models without reducing atomic behavior to memorized table patterns only.",
+    "exit": [
+      "explains atomic structure using bounded particle and energy-level models",
+      "uses periodicity to predict properties with model-based justification",
+      "connects quantum-model ideas to observable chemical behavior in limited cases",
+      "succeeds across more than one advanced chemistry context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "distinguish model purpose from literal picturing of atomic structure",
+      "use periodic trends with mechanistic justification rather than recall only",
+      "relate electron arrangement and energy levels to observable property differences",
+      "avoid overclaiming from simplified atomic representations"
+    ],
+    "failure": [
+      ["01", "periodic-table recall only", "learner uses periodic patterns without explaining why they matter."],
+      ["02", "orbital-picture literalism", "learner treats model diagrams as direct physical pictures rather than explanatory models."],
+      ["03", "energy-level disconnect", "learner cannot connect energy-level reasoning to chemical behavior."],
+      ["04", "atomic-property overgeneralization", "learner extends a trend or model beyond its justified range."]
+    ],
+    "interventions": [
+      "periodic-trend explanations that require causal rather than recall-only justification",
+      "model-versus-reality comparison prompts for atomic and quantum representations",
+      "energy-level tasks that connect arrangement to observable outcomes",
+      "bounded-case reviews that identify where atomic trends stop being sufficient by themselves"
+    ],
+    "items": [
+      ["Why is naming a periodic trend not enough?", "periodicity_explanation", "A strong answer explains how atomic structure and electron arrangement support the trend rather than reciting the pattern only.", ["mechanistic justification", "concept accuracy", "transfer"], ["01"], ["periodicity", "atomic structure"]],
+      ["What makes an orbital diagram a model rather than a picture?", "model_critique", "It simplifies and represents explanatory relationships; it should not be treated as a literal photograph of electron behavior.", ["model awareness", "claim boundary", "precision"], ["02"], ["quantum models", "representation"]],
+      ["How can energy-level reasoning help predict behavior?", "energy_level_reasoning", "It helps connect electron arrangement and possible transitions to patterns in reactivity or interaction.", ["structure-property linkage", "model fit", "scientific reasoning"], ["03", "04"], ["atomic structure", "energy levels"]]
+    ],
+    "noteSecure": "Explains periodicity and atomic models with causal, bounded reasoning rather than recall only.",
+    "noteEmerging": "Can recite trends but not justify them with atomic or energy-level models."
+  },
+  {
+    "id": "C2",
+    "slug": "c2-bonding-structure-and-intermolecular-forces",
+    "title": "C2 Bonding, Structure, and Intermolecular Forces",
+    "short": "advanced secondary chemistry specialization for bonding, structure, and intermolecular forces",
+    "domainArea": "chemistry specialization",
+    "deps": ["C1", "P5"],
+    "purpose": "The learner predicts material behavior from bonding, structure, polarity, and intermolecular-force models without collapsing all interactions into one generic bond idea.",
+    "exit": [
+      "distinguishes major bonding and interaction models in bounded cases",
+      "uses structure and polarity to predict material properties",
+      "connects intermolecular forces to observable outcomes such as phase or solubility behavior",
+      "succeeds across more than one advanced chemistry context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "distinguish intramolecular and intermolecular reasoning appropriately",
+      "connect shape, polarity, or network structure to material behavior",
+      "justify property predictions with interaction models",
+      "avoid treating all attractions as equivalent"
+    ],
+    "failure": [
+      ["01", "bond-type collapse", "learner treats ionic, covalent, metallic, and intermolecular interactions as the same relation."],
+      ["02", "shape-polarity disconnect", "learner cannot connect geometry and polarity to behavior."],
+      ["03", "property-without-model support", "learner predicts properties without interaction-based justification."],
+      ["04", "force-strength overclaim", "learner overstates one interaction type without bounded comparison."]
+    ],
+    "interventions": [
+      "interaction sorting tasks that separate bond categories and force types",
+      "shape-and-polarity modeling routines tied to property prediction",
+      "property-explanation prompts that require explicit interaction evidence",
+      "comparison tables that bound claims about relative force strength and effect"
+    ],
+    "items": [
+      ["Why is “it sticks together because of bonds” too weak as an explanation?", "bonding_critique", "A strong answer distinguishes what type of interaction is present and how that interaction explains the observed property.", ["precision", "model selection", "chemistry reasoning"], ["01"], ["bonding", "structure"]],
+      ["How can molecular shape matter for a property claim?", "shape_property_reasoning", "Shape can affect polarity and interaction patterns, which can change properties such as boiling point or solubility.", ["structure-property linkage", "causal reasoning", "transfer"], ["02", "03"], ["molecular geometry", "properties"]],
+      ["When is it risky to call one force simply stronger?", "interaction_comparison", "It is risky when the comparison ignores context, structure, quantity, or what property is actually being explained.", ["claim boundary", "comparison discipline", "evidence use"], ["04"], ["intermolecular forces", "comparison"]]
+    ],
+    "noteSecure": "Predicts chemical behavior from bonding and interaction models with appropriate distinctions.",
+    "noteEmerging": "Uses bond vocabulary broadly but collapses interaction types and property logic."
+  },
+  {
+    "id": "C3",
+    "slug": "c3-stoichiometry-reaction-quantification-and-solution-chemistry",
+    "title": "C3 Stoichiometry, Reaction Quantification, and Solution Chemistry",
+    "short": "advanced secondary chemistry specialization for stoichiometry, reaction quantification, and solution chemistry",
+    "domainArea": "chemistry specialization",
+    "deps": ["C2", "I4", "E4"],
+    "purpose": "The learner quantifies chemical change and solution behavior using conservation, ratio, and measurement logic without treating symbolic procedures as detached from matter relationships.",
+    "exit": [
+      "uses balanced-relationship reasoning to quantify reaction outcomes",
+      "connects stoichiometric procedures to conserved matter models",
+      "explains concentration and solution behavior with bounded quantitative meaning",
+      "succeeds across more than one advanced chemistry context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "justify quantitative steps with conserved-quantity reasoning",
+      "connect symbolic representations to reactant-product meaning",
+      "explain concentration or dilution without unit-role collapse",
+      "evaluate whether measurements support the quantitative claim scope"
+    ],
+    "failure": [
+      ["01", "equation-procedure detachment", "learner runs symbolic routines without matter-conservation meaning."],
+      ["02", "mole-ratio instability", "learner misuses or misinterprets proportional reaction relationships."],
+      ["03", "solution-unit collapse", "learner confuses amount, concentration, and volume roles."],
+      ["04", "measurement-claim mismatch", "learner overstates quantitative certainty beyond measurement quality."]
+    ],
+    "interventions": [
+      "particle-to-equation routines linking symbolic steps to conserved matter changes",
+      "ratio interpretation tasks that force unit-aware stoichiometric reasoning",
+      "solution concentration comparisons separating amount, volume, and concentration",
+      "quantitative claim checks tied to measurement quality and uncertainty"
+    ],
+    "items": [
+      ["Why is balancing an equation not just a symbolic formatting step?", "stoichiometry_meaning", "Balancing represents conserved relationships among reactants and products, so it supports quantitative reasoning about matter changes.", ["conservation meaning", "representation linkage", "chemistry reasoning"], ["01"], ["stoichiometry", "conservation"]],
+      ["What is being compared in a mole ratio?", "ratio_reasoning", "A mole ratio compares proportional amounts of substances in the balanced reaction, not arbitrary numbers detached from the process.", ["ratio meaning", "unit awareness", "precision"], ["02"], ["quantification", "moles"]],
+      ["How can a concentration claim go wrong even with correct arithmetic?", "solution_critique", "It can go wrong if amount, volume, units, or measurement quality are misunderstood or mismatched to the claim.", ["unit discipline", "measurement awareness", "critique quality"], ["03", "04"], ["solutions", "measurement"]]
+    ],
+    "noteSecure": "Uses stoichiometric and solution reasoning with conserved-quantity meaning and measurement discipline.",
+    "noteEmerging": "Can manipulate symbols and units but loses the chemical meaning of ratios and solutions."
+  },
+  {
+    "id": "C4",
+    "slug": "c4-kinetics-equilibrium-and-acid-base-systems",
+    "title": "C4 Kinetics, Equilibrium, and Acid-Base Systems",
+    "short": "advanced secondary chemistry specialization for kinetics, equilibrium, and acid-base systems",
+    "domainArea": "chemistry specialization",
+    "deps": ["C3", "M4"],
+    "purpose": "The learner explains reversible chemical systems through rate, equilibrium, and proton-transfer reasoning without treating dynamic systems as static endpoints only.",
+    "exit": [
+      "explains reaction rate changes using collision or system-condition reasoning",
+      "explains equilibrium as dynamic balance rather than reaction completion only",
+      "uses acid-base models to explain proton transfer and system change in bounded cases",
+      "succeeds across more than one advanced chemistry context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "distinguish rate from extent or completion of reaction",
+      "explain dynamic equilibrium using forward and reverse process reasoning",
+      "connect acid-base behavior to transfer models and system conditions",
+      "avoid overgeneralized catalyst or pH claims"
+    ],
+    "failure": [
+      ["01", "rate-equilibrium confusion", "learner confuses reaction speed with equilibrium position or completion."],
+      ["02", "static-equilibrium belief", "learner treats equilibrium as no activity rather than dynamic balance."],
+      ["03", "acid-base label recall only", "learner uses acid or base labels without transfer-model explanation."],
+      ["04", "condition-effect overgeneralization", "learner states condition changes without bounded system reasoning."]
+    ],
+    "interventions": [
+      "rate-versus-equilibrium comparison tasks that separate distinct system questions",
+      "dynamic-equilibrium animations and annotations showing bidirectional change",
+      "acid-base transfer maps that require particle and system language",
+      "condition-change reasoning routines that force bounded predictions rather than slogans"
+    ],
+    "items": [
+      ["Why is equilibrium not the same as a finished reaction?", "equilibrium_explanation", "Equilibrium can involve ongoing forward and reverse processes at balanced rates rather than a stopped system.", ["dynamic systems reasoning", "precision", "mechanism"], ["02"], ["equilibrium", "rates"]],
+      ["How is a rate claim different from an equilibrium claim?", "rate_vs_equilibrium", "A rate claim addresses how quickly change occurs, while an equilibrium claim addresses the relative balance of opposing processes in the system.", ["distinction making", "concept accuracy", "transfer"], ["01"], ["kinetics", "equilibrium"]],
+      ["What makes an acid-base explanation stronger than a pH label?", "acid_base_reasoning", "A stronger explanation describes proton transfer, interacting species, and how conditions affect the chemical system.", ["model use", "chemical reasoning", "claim depth"], ["03", "04"], ["acid-base", "systems"]]
+    ],
+    "noteSecure": "Explains kinetic, equilibrium, and acid-base systems with dynamic, bounded chemical reasoning.",
+    "noteEmerging": "Recognizes terms but merges rate, equilibrium, and acid-base ideas into static slogans."
+  },
+  {
+    "id": "C5",
+    "slug": "c5-thermodynamics-electrochemistry-and-chemical-change-systems",
+    "title": "C5 Thermodynamics, Electrochemistry, and Chemical Change Systems",
+    "short": "advanced secondary chemistry specialization for thermodynamics, electrochemistry, and chemical change systems",
+    "domainArea": "chemistry specialization",
+    "deps": ["C4", "P6", "M4"],
+    "purpose": "The learner models energetic feasibility, redox change, and electrochemical systems quantitatively without treating energy labels or cell diagrams as self-explanatory.",
+    "exit": [
+      "uses thermodynamic reasoning to discuss feasibility and system energy change in bounded cases",
+      "explains oxidation-reduction and electrochemical behavior with particle and system models",
+      "connects chemical energy change to measurable electrochemical outcomes",
+      "succeeds across more than one advanced chemistry context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "distinguish energy release from spontaneity or usefulness claims",
+      "explain redox changes with electron-transfer reasoning",
+      "connect electrochemical setup, directionality, and measurement meaning",
+      "avoid treating formal notation as complete explanation by itself"
+    ],
+    "failure": [
+      ["01", "thermo-label shortcut", "learner uses energy labels without system-feasibility reasoning."],
+      ["02", "redox-role confusion", "learner confuses oxidation and reduction or the direction of electron transfer."],
+      ["03", "electrochemical-diagram memorization", "learner recalls parts of a cell without explaining how they work together."],
+      ["04", "measurement-energy disconnect", "learner cannot connect electrochemical measurements to chemical-system meaning."]
+    ],
+    "interventions": [
+      "thermodynamic case reviews that separate feasibility, energy change, and practical outcome claims",
+      "redox tracking tasks that require explicit electron-transfer reasoning",
+      "electrochemical system maps tying setup components to process roles",
+      "measurement-to-model prompts linking voltage or directionality to chemical change"
+    ],
+    "items": [
+      ["Why is calling a process “energy releasing” not enough to explain feasibility?", "thermodynamics_critique", "A strong answer distinguishes energy change from the broader system conditions that determine whether the process is favored in the bounded case.", ["claim boundary", "systems reasoning", "precision"], ["01"], ["thermodynamics", "feasibility"]],
+      ["What makes a redox explanation more than oxidation and reduction labels?", "redox_reasoning", "It must track electron transfer and identify how the interacting species change within the system.", ["electron-transfer reasoning", "concept accuracy", "chemistry precision"], ["02"], ["redox", "electrochemistry"]],
+      ["How should a voltage measurement connect back to a chemical explanation?", "electrochemistry_explanation", "It should be tied to the direction and strength of the electrochemical process and the system setup rather than treated as an isolated number.", ["measurement linkage", "system explanation", "transfer"], ["03", "04"], ["electrochemistry", "measurement"]]
+    ],
+    "noteSecure": "Explains thermodynamics and electrochemistry through bounded energy, redox, and measurement models.",
+    "noteEmerging": "Uses thermodynamics and redox vocabulary but explanations remain label-driven and disconnected from system behavior."
+  }
+]

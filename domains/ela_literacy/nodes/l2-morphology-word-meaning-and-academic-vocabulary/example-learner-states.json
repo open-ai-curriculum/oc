@@ -1,0 +1,43 @@
+[
+  {
+    "learner_id": "ela-sample-l2-blocked",
+    "node_id": "L2",
+    "status": "blocked",
+    "dependency_status": {
+      "FR4": "secure",
+      "RC3": "secure"
+    },
+    "direct_accuracy": 0.45,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["L2-FM-01", "L2-FM-02"],
+    "recommended_interventions": [
+      "context sentence meaning check",
+      "prefix-suffix clue routine"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Uses rough word guesses and misses helpful word-part clues."
+  },
+  {
+    "learner_id": "ela-sample-l2-provisional",
+    "node_id": "L2",
+    "status": "provisional",
+    "dependency_status": {
+      "FR4": "secure",
+      "RC3": "secure"
+    },
+    "direct_accuracy": 0.88,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [
+      "brief mixed-context vocabulary review"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Uses context and morphology to interpret and apply targeted academic words."
+  }
+]

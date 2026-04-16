@@ -1,0 +1,29 @@
+{
+  "node_id": "I4",
+  "interventions": [
+    {
+      "failure_mode": "I4-FM-01",
+      "intervention_id": "I4-INT-01",
+      "name": "Variable Prioritization Rebuild",
+      "delivery": "design review routine"
+    },
+    {
+      "failure_mode": "I4-FM-02",
+      "intervention_id": "I4-INT-02",
+      "name": "Sampling Plan Comparison",
+      "delivery": "case analysis"
+    },
+    {
+      "failure_mode": "I4-FM-03",
+      "intervention_id": "I4-INT-03",
+      "name": "Error Source Sorting",
+      "delivery": "classification and explanation"
+    },
+    {
+      "failure_mode": "I4-FM-04",
+      "intervention_id": "I4-INT-04",
+      "name": "Conclusion Strength Calibration",
+      "delivery": "claim review protocol"
+    }
+  ]
+}

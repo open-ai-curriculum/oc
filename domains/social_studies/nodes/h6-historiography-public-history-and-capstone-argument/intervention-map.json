@@ -1,0 +1,26 @@
+{
+  "node_id": "H6",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "H6-FM-01": [
+      "compare two interpretations with a shared evidence organizer",
+      "require one claim about how the interpretations differ and why",
+      "model interpretation-to-evidence matching before independent writing"
+    ],
+    "H6-FM-02": [
+      "compare how the same historical claim changes across exhibit speech and essay formats",
+      "require one sentence on audience and one on medium before drafting",
+      "contrast effective and ineffective public-history framings of the same material"
+    ],
+    "H6-FM-03": [
+      "require the argument to name an interpretive position explicitly",
+      "compare evidence summaries with arguments that take a historiographic stance",
+      "use counterposition prompts before final claim writing"
+    ],
+    "H6-FM-04": [
+      "reduce interpretive load and preteach public-history terms",
+      "stage interpretation comparison before final public product design",
+      "verify whether vocabulary or medium scaffolds materially change performance"
+    ]
+  }
+}

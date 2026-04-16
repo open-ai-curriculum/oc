@@ -1,0 +1,60 @@
+[
+  {
+    "item_id": "G5-IB-01",
+    "node_id": "G5",
+    "prompt": "Why is one sustainability metric not enough for an environmental decision?",
+    "task_type": "sustainability_tradeoff_reasoning",
+    "answer_key": "A strong answer explains that environmental decisions involve multiple interacting criteria and tradeoffs rather than a single score.",
+    "scorable_traits": [
+      "tradeoff reasoning",
+      "systems thinking",
+      "precision"
+    ],
+    "target_failure_modes": [
+      "G5-FM-01"
+    ],
+    "context_tags": [
+      "sustainability",
+      "decision making"
+    ]
+  },
+  {
+    "item_id": "G5-IB-02",
+    "node_id": "G5",
+    "prompt": "What makes an environmental impact claim evidence-based instead of advocacy only?",
+    "task_type": "environmental_impact_critique",
+    "answer_key": "It uses bounded evidence, identifies uncertainty, and ties the claim to system relationships rather than assertion alone.",
+    "scorable_traits": [
+      "evidence use",
+      "uncertainty",
+      "discipline"
+    ],
+    "target_failure_modes": [
+      "G5-FM-02",
+      "G5-FM-04"
+    ],
+    "context_tags": [
+      "environmental science",
+      "claims"
+    ]
+  },
+  {
+    "item_id": "G5-IB-03",
+    "node_id": "G5",
+    "prompt": "Why should human and environmental factors be modeled together?",
+    "task_type": "human_environment_systems",
+    "answer_key": "Because environmental outcomes often emerge from interactions between human actions, biological systems, and Earth-system constraints.",
+    "scorable_traits": [
+      "integration",
+      "causal reasoning",
+      "transfer"
+    ],
+    "target_failure_modes": [
+      "G5-FM-03"
+    ],
+    "context_tags": [
+      "human impact",
+      "systems"
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "learner_id": "example-m5-secure",
+    "node_id": "M5",
+    "status": "secure",
+    "dependency_status": {
+      "M4": "secure",
+      "I4": "secure"
+    },
+    "direct_accuracy": 0.92,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Uses invisible-mechanism models with evidence linkage and controlled analogy limits."
+  },
+  {
+    "learner_id": "example-m5-emerging",
+    "node_id": "M5",
+    "status": "emerging",
+    "dependency_status": {
+      "M4": "secure",
+      "I4": "secure"
+    },
+    "direct_accuracy": 0.68,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["M5-FM-01", "M5-FM-03"],
+    "recommended_interventions": ["M5-INT-01", "M5-INT-03"],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Treats models literally and overextends analogy features."
+  }
+]

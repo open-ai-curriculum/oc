@@ -1,0 +1,41 @@
+id: T3
+name: climate_resources_earth_sun_moon_systems_and_map_scale
+domain: science
+support_tier: Incubation
+maturity_state: Drafted
+supported_profiles:
+- science-middle-grade-node-package
+evidence_class: Synthetic
+dependencies:
+- T2
+- M3
+- I3
+mastery:
+  direct_accuracy_threshold: 0.9
+  explanation_required: true
+  transfer_required: true
+  retention_check_days: 28
+statuses:
+- blocked
+- emerging
+- provisional
+- secure
+- unstable
+verification_gates:
+- id: G1
+  type: direct_performance
+  pass_rule: '>= 0.90 accuracy across climate, Earth-Sun-Moon, resource, and map-scale tasks'
+- id: G2
+  type: meaning
+  pass_rule: correct explanation of a system pattern or resource use issue in at least 2 of 3 prompts
+- id: G3
+  type: transfer
+  pass_rule: successful reasoning in at least one unfamiliar Earth or space system context
+- id: G4
+  type: retention
+  pass_rule: '>= 0.85 delayed recheck accuracy after ~28 days'
+failure_modes:
+- T3-FM-01
+- T3-FM-02
+- T3-FM-03
+- T3-FM-04

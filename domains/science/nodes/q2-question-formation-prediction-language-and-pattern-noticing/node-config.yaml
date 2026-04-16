@@ -1,0 +1,39 @@
+id: Q2
+name: question_formation_prediction_language_and_pattern_noticing
+domain: science
+support_tier: Incubation
+maturity_state: Drafted
+supported_profiles:
+- science-entry-node-package
+evidence_class: Synthetic
+dependencies:
+- Q1
+mastery:
+  direct_accuracy_threshold: 0.9
+  explanation_required: true
+  transfer_required: true
+  retention_check_days: 14
+statuses:
+- blocked
+- emerging
+- provisional
+- secure
+- unstable
+verification_gates:
+- id: G1
+  type: direct_performance
+  pass_rule: '>= 0.90 accuracy across bounded question, simple prediction, and pattern-noticing tasks'
+- id: G2
+  type: meaning
+  pass_rule: correct explanation of what the question prediction or pattern is about in at least 2 of 3 prompts
+- id: G3
+  type: transfer
+  pass_rule: successful questioning or prediction in at least one changed phenomenon or material context
+- id: G4
+  type: retention
+  pass_rule: '>= 0.85 delayed recheck accuracy after ~14 days'
+failure_modes:
+- Q2-FM-01
+- Q2-FM-02
+- Q2-FM-03
+- Q2-FM-04

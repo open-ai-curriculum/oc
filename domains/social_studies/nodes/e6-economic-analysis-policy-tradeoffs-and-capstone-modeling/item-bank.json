@@ -1,0 +1,16 @@
+{
+  "node_id": "E6",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "E6-G1-01",
+      "node_id": "E6",
+      "gate": "G1",
+      "prompt": "Use the evidence to build a bounded economic model or recommendation for a policy or market problem and explain the tradeoffs that shape it.",
+      "context_type": "economic_analysis_or_policy_tradeoff_scenario",
+      "response_mode": "oral_or_written_or_diagrammed",
+      "scoring_rule": "Builds a plausible economic analysis, makes assumptions explicit, and compares meaningful tradeoffs or constraints in the recommendation.",
+      "failure_mode_targets": ["E6-FM-01", "E6-FM-02"]
+    }
+  ]
+}

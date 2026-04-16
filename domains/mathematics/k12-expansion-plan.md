@@ -208,5 +208,5 @@ The domain should track completion using two different measures:
 
 At present:
 
-- current modeled-graph implementation is complete
-- overall K-12/AP architecture coverage is not complete because the secondary and AP families are not yet modeled
+- current modeled-graph implementation is complete for the currently authored node set
+- overall K-12/AP architecture coverage is not complete because the secondary and AP families, while now modeled, are not yet sufficiently decomposed for strong standards and assessment fidelity

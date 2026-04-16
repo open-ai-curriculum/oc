@@ -1,0 +1,23 @@
+{
+  "node_id": "H1",
+  "examples": [
+    {
+      "learner_id": "sample-h1-blocked-01",
+      "node_id": "H1",
+      "status": "blocked",
+      "dependency_status": { "Q1": "secure" },
+      "direct_accuracy": 0.6,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["H1-FM-01"],
+      "recommended_interventions": [
+        "use concrete before-now-after sequences",
+        "anchor events with visual timeline strips"
+      ],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Needs support maintaining basic event order."
+    }
+  ]
+}

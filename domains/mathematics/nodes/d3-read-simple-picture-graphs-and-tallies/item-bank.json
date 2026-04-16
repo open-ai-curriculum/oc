@@ -1,72 +1,258 @@
 {
   "node_id": "D3",
-  "version": "0.1",
+  "policy_version": "1.0",
+  "version": "0.3",
   "items": [
     {
-      "item_id": "D3-A-001",
-      "family": "direct_display_read",
-      "prompt": "Look at a picture graph and tell how many votes each category has.",
+      "item_id": "D3-D-001",
+      "family": "direct_execution",
+      "prompt": "Classify the study as survey, observational study, or experiment and state what claim is supported.",
       "target_node": "D3",
-      "secondary_dependency_targets": ["D2"],
+      "secondary_dependency_targets": [
+        "D2"
+      ],
       "difficulty_band": "core",
-      "response_modes_allowed": ["oral_explanation", "written_symbolic"],
-      "dominant_failure_modes_if_incorrect": ["D3-FM-01", "D3-FM-03"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "D3-FM-01",
+        "D3-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
     },
     {
-      "item_id": "D3-A-002",
-      "family": "direct_display_read",
-      "prompt": "Read a tally chart and say which category has the most.",
+      "item_id": "D3-D-002",
+      "family": "direct_execution",
+      "prompt": "Use a two-way table or probability model to find the probability of a compound event.",
       "target_node": "D3",
-      "secondary_dependency_targets": ["D2"],
+      "secondary_dependency_targets": [
+        "D2"
+      ],
       "difficulty_band": "core",
-      "response_modes_allowed": ["oral_explanation", "written_explanation"],
-      "dominant_failure_modes_if_incorrect": ["D3-FM-01", "D3-FM-02"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "D3-FM-02",
+        "D3-FM-03"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
     },
     {
-      "item_id": "D3-B-001",
+      "item_id": "D3-D-003",
+      "family": "direct_execution",
+      "prompt": "Describe the center and spread of a distribution using the given plot.",
+      "target_node": "D3",
+      "secondary_dependency_targets": [
+        "D2"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "D3-FM-03",
+        "D3-FM-04"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "D3-D-004",
+      "family": "direct_execution",
+      "prompt": "Classify the study as survey, observational study, or experiment and state what claim is supported.",
+      "target_node": "D3",
+      "secondary_dependency_targets": [
+        "D2"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "D3-FM-04",
+        "D3-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "D3-E-001",
       "family": "explanation",
-      "prompt": "Explain how a tally chart shows how many are in each category.",
+      "prompt": "Explain how sample design affects what can be inferred about a population.",
       "target_node": "D3",
-      "secondary_dependency_targets": ["D2"],
+      "secondary_dependency_targets": [
+        "D2"
+      ],
       "difficulty_band": "core",
-      "response_modes_allowed": ["oral_explanation", "written_explanation"],
-      "dominant_failure_modes_if_incorrect": ["D3-FM-03", "D3-FM-04"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "D3-FM-02"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "D3-E-002",
+      "family": "explanation",
+      "prompt": "Explain why theoretical probability and short-run experimental results can differ.",
+      "target_node": "D3",
+      "secondary_dependency_targets": [
+        "D2"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "D3-FM-03"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
     },
     {
       "item_id": "D3-C-001",
       "family": "error_diagnosis",
-      "prompt": "A student counts the pictures in a graph but ignores the category labels. What should be checked?",
+      "prompt": "A student uses an observational study to claim causation. Diagnose the study-design error. Focus on display count reading error.",
       "target_node": "D3",
-      "secondary_dependency_targets": ["D2"],
-      "difficulty_band": "core",
-      "response_modes_allowed": ["multiple_choice", "oral_explanation", "written_explanation"],
-      "dominant_failure_modes_if_incorrect": ["D3-FM-02", "D3-FM-03"],
-      "requires_human_scoring": true
+      "secondary_dependency_targets": [
+        "D2"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "D3-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
     },
     {
-      "item_id": "D3-D-001",
-      "family": "transfer",
-      "prompt": "Use either a picture graph or a tally chart to answer which category has fewer and how many it has.",
+      "item_id": "D3-C-002",
+      "family": "error_diagnosis",
+      "prompt": "A student adds overlapping events as if they were disjoint. Identify the double-counting mistake. Focus on label to quantity disconnect.",
       "target_node": "D3",
-      "secondary_dependency_targets": ["D2"],
+      "secondary_dependency_targets": [
+        "D2"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "D3-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "D3-T-001",
+      "family": "transfer",
+      "prompt": "Read a less-familiar graph or study summary and decide whether the reported conclusion is supported.",
+      "target_node": "D3",
+      "secondary_dependency_targets": [
+        "D2"
+      ],
       "difficulty_band": "transfer",
-      "response_modes_allowed": ["oral_explanation", "written_symbolic"],
-      "dominant_failure_modes_if_incorrect": ["D3-FM-01", "D3-FM-04"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "D3-FM-03"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "D3-T-002",
+      "family": "transfer",
+      "prompt": "Given a probability simulation result, explain whether the difference from theory is surprising or expected.",
+      "target_node": "D3",
+      "secondary_dependency_targets": [
+        "D2"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "D3-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
     },
     {
       "item_id": "D3-R-001",
       "family": "retention",
-      "prompt": "After a delay, read a new simple display and answer two questions about category totals.",
+      "prompt": "After a delay, interpret a new sample summary and state one supported inference and one unsupported claim.",
       "target_node": "D3",
-      "secondary_dependency_targets": ["D2"],
+      "secondary_dependency_targets": [
+        "D2"
+      ],
       "difficulty_band": "retention",
-      "response_modes_allowed": ["oral_explanation", "written_symbolic"],
-      "dominant_failure_modes_if_incorrect": ["D3-FM-01", "D3-FM-02", "D3-FM-03"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "D3-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability"
+    },
+    {
+      "item_id": "D3-P-001",
+      "family": "prerequisite_probe",
+      "prompt": "Run a prerequisite check on count and compare category totals to determine whether the reported error reflects upstream representation limits or current read simple picture graphs and tallies reasoning.",
+      "target_node": "D3",
+      "secondary_dependency_targets": [
+        "D2"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "D3-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "D2",
+      "suspected_knowledge_gap_if_incorrect": "count and compare category totals",
+      "scoring_focus": "dependency_disambiguation"
     }
   ]
 }

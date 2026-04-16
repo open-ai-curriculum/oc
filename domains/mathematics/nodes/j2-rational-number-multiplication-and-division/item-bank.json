@@ -1,37 +1,140 @@
 {
   "node_id": "J2",
+  "policy_version": "1.0",
   "items": [
     {
-      "item_id": "J2-A1",
-      "item_family": "direct",
-      "prompt": "multiplies and divides bounded rational numbers across fraction, decimal, signed, and rate-based representations",
+      "item_id": "J2-DIR-001",
+      "node_id": "J2",
+      "item_family": "direct_execution",
+      "prompt": "Compute `3/4 + 1/8` by rewriting to common units and show the equivalent fractions you used.",
       "expected_evidence": "multiply and divide rational quantities using scaling, unit-rate, or inverse structure",
       "dominant_failure_mode": "unit_scale_breakdown",
-      "scoring_guidance": "Meets when the learner computes the result accurately while preserving scale and unit meaning."
+      "scoring_guidance": "Meets when the learner demonstrates multiply and divide rational quantities using scaling, unit-rate, or inverse structure with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "J2-B1",
-      "item_family": "explanation",
-      "prompt": "explains how scaling, unit-rate, inverse, or sign structure justifies a rational-number product or quotient",
-      "expected_evidence": "explain why the result is reasonable using unit, scale, benchmark, or sign language",
+      "item_id": "J2-DIR-002",
+      "node_id": "J2",
+      "item_family": "direct_execution",
+      "prompt": "Compute `5/6 - 1/4` and justify the common denominator choice.",
+      "expected_evidence": "interpret products and quotients involving fractions, decimals, and signed values coherently",
       "dominant_failure_mode": "inverse_structure_confusion",
-      "scoring_guidance": "Meets when the learner explains the operation using coherent multiplicative and sign structure."
+      "scoring_guidance": "Meets when the learner demonstrates interpret products and quotients involving fractions, decimals, and signed values coherently with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "J2-C1",
-      "item_family": "error_diagnosis",
-      "prompt": "Diagnose a peer error aligned to sign_rule_without_meaning.",
+      "item_id": "J2-DIR-003",
+      "node_id": "J2",
+      "item_family": "direct_execution",
+      "prompt": "Place `2/3` and `5/8` on the same number line and determine which is greater.",
+      "expected_evidence": "explain why the result is reasonable using unit, scale, benchmark, or sign language",
+      "dominant_failure_mode": "sign_rule_without_meaning",
+      "scoring_guidance": "Meets when the learner demonstrates explain why the result is reasonable using unit, scale, benchmark, or sign language with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
+    },
+    {
+      "item_id": "J2-EXP-001",
+      "node_id": "J2",
+      "item_family": "explanation",
+      "prompt": "Explain why `3/4` can be rewritten as `6/8` without changing its value.",
+      "expected_evidence": "multiply and divide rational quantities using scaling, unit-rate, or inverse structure",
+      "dominant_failure_mode": "inverse_structure_confusion",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to multiply and divide rational quantities using scaling, unit-rate, or inverse structure.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "J2-EXP-002",
+      "node_id": "J2",
+      "item_family": "explanation",
+      "prompt": "Explain why fractions can only be combined directly when they refer to equal-sized parts.",
       "expected_evidence": "interpret products and quotients involving fractions, decimals, and signed values coherently",
       "dominant_failure_mode": "sign_rule_without_meaning",
-      "scoring_guidance": "Meets when the learner identifies how the peer produced a sign or scale result without structural justification."
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to interpret products and quotients involving fractions, decimals, and signed values coherently.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
     },
     {
-      "item_id": "J2-D1",
+      "item_id": "J2-ERR-001",
+      "node_id": "J2",
+      "item_family": "error_diagnosis",
+      "prompt": "A student says `3/4 + 1/8 = 4/12`. Diagnose the first structural mistake. Focus on unit scale breakdown.",
+      "expected_evidence": "multiply and divide rational quantities using scaling, unit-rate, or inverse structure",
+      "dominant_failure_mode": "unit_scale_breakdown",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward multiply and divide rational quantities using scaling, unit-rate, or inverse structure.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "J2-ERR-002",
+      "node_id": "J2",
+      "item_family": "error_diagnosis",
+      "prompt": "A student rewrites `2/3` as `3/4` before adding. Identify the equivalence error. Focus on inverse structure confusion.",
+      "expected_evidence": "interpret products and quotients involving fractions, decimals, and signed values coherently",
+      "dominant_failure_mode": "inverse_structure_confusion",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward interpret products and quotients involving fractions, decimals, and signed values coherently.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "J2-TRA-001",
+      "node_id": "J2",
       "item_family": "transfer",
-      "prompt": "succeeds across symbolic, table, verbal, and simple contextual rational-number multiplication and division cases",
-      "expected_evidence": "connect symbolic work to rate, scaling, grouping, and bounded contextual situations",
+      "prompt": "A recipe uses `3/4` cup of oats and `1/8` cup of seeds. How much is used altogether?",
+      "expected_evidence": "multiply and divide rational quantities using scaling, unit-rate, or inverse structure",
+      "dominant_failure_mode": "sign_rule_without_meaning",
+      "scoring_guidance": "Meets when the learner preserves multiply and divide rational quantities using scaling, unit-rate, or inverse structure in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "J2-TRA-002",
+      "node_id": "J2",
+      "item_family": "transfer",
+      "prompt": "A hiker walks `5/6` mile in the morning and `1/4` mile less in the afternoon. How much farther was the morning walk?",
+      "expected_evidence": "interpret products and quotients involving fractions, decimals, and signed values coherently",
       "dominant_failure_mode": "rate_context_transfer_breakdown",
-      "scoring_guidance": "Meets when the learner preserves multiplicative rational-number meaning across multiple representations and contexts."
+      "scoring_guidance": "Meets when the learner preserves interpret products and quotients involving fractions, decimals, and signed values coherently in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "J2-RET-001",
+      "node_id": "J2",
+      "item_family": "retention",
+      "prompt": "After a delay, solve `2/3 + 1/6` and explain why the rewrite keeps the quantity unchanged.",
+      "expected_evidence": "multiply and divide rational quantities using scaling, unit-rate, or inverse structure",
+      "dominant_failure_mode": "rate_context_transfer_breakdown",
+      "scoring_guidance": "Meets when the learner still demonstrates multiply and divide rational quantities using scaling, unit-rate, or inverse structure on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "J2-PRE-001",
+      "node_id": "J2",
+      "item_family": "prerequisite_probe",
+      "prompt": "Before closing rational number multiplication and division, complete a prerequisite check on rational number addition and subtraction and explain how that prior understanding supports the fraction reasoning.",
+      "expected_evidence": "shows whether rational number addition and subtraction is secure enough to support rational number multiplication and division",
+      "dominant_failure_mode": "inverse_structure_confusion",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in rational number addition and subtraction from a current-node issue in rational number multiplication and division.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "J1",
+      "suspected_knowledge_gap_if_incorrect": "rational number addition and subtraction"
+    },
+    {
+      "item_id": "J2-PRE-002",
+      "node_id": "J2",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a quick unit rate reasoning probe to determine whether the error belongs to the prerequisite or to rational number multiplication and division.",
+      "expected_evidence": "shows whether unit rate reasoning is secure enough to support rational number multiplication and division",
+      "dominant_failure_mode": "sign_rule_without_meaning",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in unit rate reasoning from a current-node issue in rational number multiplication and division.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "Q2",
+      "suspected_knowledge_gap_if_incorrect": "unit rate reasoning"
     }
   ]
 }

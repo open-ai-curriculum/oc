@@ -1,0 +1,26 @@
+{
+  "node_id": "Q4",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "Q4-FM-01": [
+      "match several questions to several evidence displays",
+      "identify what kind of information each representation is best for",
+      "contrast a relevant and irrelevant display for the same question"
+    ],
+    "Q4-FM-02": [
+      "ask what the detail means for the question after each observation",
+      "use sentence frames linking data to conclusion",
+      "reduce the task to one data point and one inference at a time"
+    ],
+    "Q4-FM-03": [
+      "narrow the question to what the evidence can actually answer",
+      "separate answerable and unanswerable questions with the same dataset",
+      "constrain conclusions to the available evidence window"
+    ],
+    "Q4-FM-04": [
+      "simplify the display and preteach key terms",
+      "allow annotation plus oral explanation",
+      "verify whether access supports materially change performance"
+    ]
+  }
+}

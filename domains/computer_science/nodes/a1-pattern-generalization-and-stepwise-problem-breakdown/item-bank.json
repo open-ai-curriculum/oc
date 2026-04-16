@@ -1,0 +1,251 @@
+{
+  "node_id": "A1",
+  "policy_version": "1.0",
+  "version": "0.4",
+  "items": [
+    {
+      "item_id": "A1-DIR-001",
+      "node_id": "A1",
+      "item_family": "direct_execution",
+      "prompt": "A class is designing steps for a character to collect objects in a maze. Break the task into a workable strategy and show how the learner would separate a larger task into smaller executable pieces.",
+      "expected_evidence": "separate a larger task into smaller executable pieces",
+      "dominant_failure_mode_targets": [
+        "A1-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates separate a larger task into smaller executable pieces with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "A1-DIR-002",
+      "node_id": "A1",
+      "item_family": "direct_execution",
+      "prompt": "Two different solution plans are proposed for the same computing problem. Compare them and show how the learner would identify what stays the same across two similar tasks.",
+      "expected_evidence": "identify what stays the same across two similar tasks",
+      "dominant_failure_mode_targets": [
+        "A1-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates identify what stays the same across two similar tasks with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "A1-DIR-003",
+      "node_id": "A1",
+      "item_family": "direct_execution",
+      "prompt": "A learner must formalize a small problem before choosing an algorithmic approach. Use the given conditions and show how they would describe why a step belongs where it does in the breakdown.",
+      "expected_evidence": "describe why a step belongs where it does in the breakdown",
+      "dominant_failure_mode_targets": [
+        "A1-FM-03"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates describe why a step belongs where it does in the breakdown with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "A1-EXP-001",
+      "node_id": "A1",
+      "item_family": "explanation",
+      "prompt": "Why is “make the character reach the goal” not enough as an algorithm?",
+      "expected_evidence": "because it states the goal but does not break the task into executable steps the program or person can follow.",
+      "dominant_failure_mode_targets": [
+        "A1-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to because it states the goal but does not break the task into executable steps the program or person can follow."
+    },
+    {
+      "item_id": "A1-EXP-002",
+      "node_id": "A1",
+      "item_family": "explanation",
+      "prompt": "How can a pattern help you solve a new but similar task?",
+      "expected_evidence": "a pattern helps by showing what structure stays the same so the learner can reuse part of the solution instead of starting from scratch.",
+      "dominant_failure_mode_targets": [
+        "A1-FM-02",
+        "A1-FM-04"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to a pattern helps by showing what structure stays the same so the learner can reuse part of the solution instead of starting from scratch."
+    },
+    {
+      "item_id": "A1-ERR-001",
+      "node_id": "A1",
+      "item_family": "error_diagnosis",
+      "prompt": "A learner response in pattern generalization and stepwise problem breakdown suggests this breakdown: learner treats a multi-step task as one vague command or wish. Diagnose the likely misconception or structural error. Focus on one-big-step collapse.",
+      "expected_evidence": "separate a larger task into smaller executable pieces",
+      "dominant_failure_mode_targets": [
+        "A1-FM-01"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward separate a larger task into smaller executable pieces."
+    },
+    {
+      "item_id": "A1-ERR-002",
+      "node_id": "A1",
+      "item_family": "error_diagnosis",
+      "prompt": "A learner response in pattern generalization and stepwise problem breakdown suggests this breakdown: learner does not recognize repeated structure across similar cases. Diagnose the likely misconception or structural error. Focus on pattern-noticing weakness.",
+      "expected_evidence": "identify what stays the same across two similar tasks",
+      "dominant_failure_mode_targets": [
+        "A1-FM-02"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward identify what stays the same across two similar tasks."
+    },
+    {
+      "item_id": "A1-TRA-001",
+      "node_id": "A1",
+      "item_family": "transfer",
+      "prompt": "A sorting or search idea learned in one classroom task is now presented in a different surface context. Explain how the learner would describe why a step belongs where it does in the breakdown without losing the underlying structure.",
+      "expected_evidence": "describe why a step belongs where it does in the breakdown",
+      "dominant_failure_mode_targets": [
+        "A1-FM-03"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves describe why a step belongs where it does in the breakdown in a changed computing context or representation."
+    },
+    {
+      "item_id": "A1-TRA-002",
+      "node_id": "A1",
+      "item_family": "transfer",
+      "prompt": "A learner must compare two unfamiliar algorithm sketches in a new context and still preserve the same analytic discipline. Show how they would avoid treating a problem as solved by one vague instruction.",
+      "expected_evidence": "avoid treating a problem as solved by one vague instruction",
+      "dominant_failure_mode_targets": [
+        "A1-FM-04"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves avoid treating a problem as solved by one vague instruction in a changed computing context or representation."
+    },
+    {
+      "item_id": "A1-RET-001",
+      "node_id": "A1",
+      "item_family": "retention",
+      "prompt": "After a delay, the learner is given a fresh bounded problem and must choose or compare a strategy rather than just repeat a memorized one. Show how they would separate a larger task into smaller executable pieces.",
+      "expected_evidence": "separate a larger task into smaller executable pieces",
+      "dominant_failure_mode_targets": [
+        "A1-FM-04"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_explanation",
+        "constructed_response"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability",
+      "scoring_guidance": "Meets when the learner still demonstrates separate a larger task into smaller executable pieces on a delayed recheck without a blocking recurrence."
+    },
+    {
+      "item_id": "A1-PRE-001",
+      "node_id": "A1",
+      "item_family": "prerequisite_probe",
+      "prompt": "Probe sequencing commands and programmable action with a short decomposition or programming task before closing pattern generalization and stepwise problem breakdown, and decide whether the current weakness is upstream or truly algorithmic.",
+      "expected_evidence": "shows whether sequencing commands and programmable action is secure enough to support pattern generalization and stepwise problem breakdown",
+      "dominant_failure_mode_targets": [
+        "A1-FM-01"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in sequencing commands and programmable action from a current-node issue in pattern generalization and stepwise problem breakdown.",
+      "dependency_target": "P1",
+      "suspected_knowledge_gap_if_incorrect": "sequencing commands and programmable action"
+    },
+    {
+      "item_id": "A1-PRE-002",
+      "node_id": "A1",
+      "item_family": "prerequisite_probe",
+      "prompt": "Probe symbols, encoding, and representation awareness with a short decomposition or programming task before closing pattern generalization and stepwise problem breakdown, and decide whether the current weakness is upstream or truly algorithmic.",
+      "expected_evidence": "shows whether symbols, encoding, and representation awareness is secure enough to support pattern generalization and stepwise problem breakdown",
+      "dominant_failure_mode_targets": [
+        "A1-FM-02"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in symbols, encoding, and representation awareness from a current-node issue in pattern generalization and stepwise problem breakdown.",
+      "dependency_target": "R1",
+      "suspected_knowledge_gap_if_incorrect": "symbols, encoding, and representation awareness"
+    }
+  ]
+}

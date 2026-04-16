@@ -1,0 +1,44 @@
+{
+  "node_id": "M3",
+  "examples": [
+    {
+      "learner_id": "sample-m3-blocked-01",
+      "node_id": "M3",
+      "status": "blocked",
+      "dependency_status": {
+        "M2": "secure",
+        "I2": "secure"
+      },
+      "direct_accuracy": 0.46,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["M3-FM-01", "M3-FM-03"],
+      "recommended_interventions": [
+        "compare close-up and system-wide views of the same phenomenon",
+        "map at least two interacting parts and the link between them"
+      ],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Can discuss one part of a system but not yet scale or interaction effects across the whole model."
+    },
+    {
+      "learner_id": "sample-m3-secure-01",
+      "node_id": "M3",
+      "status": "secure",
+      "dependency_status": {
+        "M2": "secure",
+        "I2": "secure"
+      },
+      "direct_accuracy": 0.92,
+      "explanation_status": "met",
+      "transfer_status": "met",
+      "retention_status": "met",
+      "dominant_failure_modes": [],
+      "recommended_interventions": [],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Explains why scale matters and how interacting system parts influence one another across multiple science domains."
+    }
+  ]
+}

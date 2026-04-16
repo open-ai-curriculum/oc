@@ -1,0 +1,228 @@
+{
+  "node_id": "I1",
+  "policy_version": "1.0",
+  "version": "0.4",
+  "items": [
+    {
+      "item_id": "I1-DIR-001",
+      "node_id": "I1",
+      "item_family": "direct_execution",
+      "prompt": "A class discussion presents a digital sharing, messaging, or online participation scenario. Show how the learner would identify a safe or respectful action in a simple digital scenario.",
+      "expected_evidence": "identify a safe or respectful action in a simple digital scenario",
+      "dominant_failure_mode_targets": [
+        "I1-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates identify a safe or respectful action in a simple digital scenario with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "I1-DIR-002",
+      "node_id": "I1",
+      "item_family": "direct_execution",
+      "prompt": "A learner must decide how to credit a source, communicate to an audience, or respond to a computing-impact case. Show how they would describe one reason a digital action has consequences.",
+      "expected_evidence": "describe one reason a digital action has consequences",
+      "dominant_failure_mode_targets": [
+        "I1-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates describe one reason a digital action has consequences with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "I1-DIR-003",
+      "node_id": "I1",
+      "item_family": "direct_execution",
+      "prompt": "A school or community technology policy case raises questions about bias, privacy, or governance. Show how the learner would distinguish private, shared, and public digital behavior in bounded cases.",
+      "expected_evidence": "distinguish private, shared, and public digital behavior in bounded cases",
+      "dominant_failure_mode_targets": [
+        "I1-FM-03"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates distinguish private, shared, and public digital behavior in bounded cases with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "I1-EXP-001",
+      "node_id": "I1",
+      "item_family": "explanation",
+      "prompt": "Why can a digital action still matter even if it happens on a screen?",
+      "expected_evidence": "because digital actions can affect other people, information, devices, or shared spaces even if the action is not physical in the same way.",
+      "dominant_failure_mode_targets": [
+        "I1-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to because digital actions can affect other people, information, devices, or shared spaces even if the action is not physical in the same way."
+    },
+    {
+      "item_id": "I1-EXP-002",
+      "node_id": "I1",
+      "item_family": "explanation",
+      "prompt": "How is something private different from something shared online?",
+      "expected_evidence": "private information should stay limited to the right people, while shared information is intentionally available to others in a bounded group or context.",
+      "dominant_failure_mode_targets": [
+        "I1-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to private information should stay limited to the right people, while shared information is intentionally available to others in a bounded group or context."
+    },
+    {
+      "item_id": "I1-ERR-001",
+      "node_id": "I1",
+      "item_family": "error_diagnosis",
+      "prompt": "In a digital communication or computing-impact case, a learner responds in a way that suggests this breakdown: learner treats digital actions as if they do not affect other people or the system. Diagnose the ethical or participation mistake. Focus on digital-actions-have-no-consequence belief.",
+      "expected_evidence": "identify a safe or respectful action in a simple digital scenario",
+      "dominant_failure_mode_targets": [
+        "I1-FM-01"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward identify a safe or respectful action in a simple digital scenario."
+    },
+    {
+      "item_id": "I1-ERR-002",
+      "node_id": "I1",
+      "item_family": "error_diagnosis",
+      "prompt": "In a digital communication or computing-impact case, a learner responds in a way that suggests this breakdown: learner cannot distinguish what should stay private from what may be shared. Diagnose the ethical or participation mistake. Focus on private-shared-public confusion.",
+      "expected_evidence": "describe one reason a digital action has consequences",
+      "dominant_failure_mode_targets": [
+        "I1-FM-02"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward describe one reason a digital action has consequences."
+    },
+    {
+      "item_id": "I1-TRA-001",
+      "node_id": "I1",
+      "item_family": "transfer",
+      "prompt": "A digital citizenship or ethics idea learned in one classroom example is now presented in a less-familiar platform or public-systems context. Explain how the learner would distinguish private, shared, and public digital behavior in bounded cases.",
+      "expected_evidence": "distinguish private, shared, and public digital behavior in bounded cases",
+      "dominant_failure_mode_targets": [
+        "I1-FM-03"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves distinguish private, shared, and public digital behavior in bounded cases in a changed computing context or representation."
+    },
+    {
+      "item_id": "I1-TRA-002",
+      "node_id": "I1",
+      "item_family": "transfer",
+      "prompt": "A learner must move from a personal-use case to a broader social or institutional computing case and still preserve the same impact reasoning. Show how they would follow classroom technology routines without avoidable harm or disruption.",
+      "expected_evidence": "follow classroom technology routines without avoidable harm or disruption",
+      "dominant_failure_mode_targets": [
+        "I1-FM-04"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves follow classroom technology routines without avoidable harm or disruption in a changed computing context or representation."
+    },
+    {
+      "item_id": "I1-RET-001",
+      "node_id": "I1",
+      "item_family": "retention",
+      "prompt": "After a delay, the learner is given a new communication, attribution, impact, or governance case and must justify the responsible choice. Show how they would identify a safe or respectful action in a simple digital scenario.",
+      "expected_evidence": "identify a safe or respectful action in a simple digital scenario",
+      "dominant_failure_mode_targets": [
+        "I1-FM-04"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_explanation",
+        "constructed_response"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability",
+      "scoring_guidance": "Meets when the learner still demonstrates identify a safe or respectful action in a simple digital scenario on a delayed recheck without a blocking recurrence."
+    },
+    {
+      "item_id": "I1-PRE-001",
+      "node_id": "I1",
+      "item_family": "prerequisite_probe",
+      "prompt": "Probe digital tool navigation and interface cause-effect through a short audience, impact, or systems case before closing responsible participation in digital spaces, and decide whether the current issue is really upstream.",
+      "expected_evidence": "shows whether digital tool navigation and interface cause-effect is secure enough to support responsible participation in digital spaces",
+      "dominant_failure_mode_targets": [
+        "I1-FM-01"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in digital tool navigation and interface cause-effect from a current-node issue in responsible participation in digital spaces.",
+      "dependency_target": "D1",
+      "suspected_knowledge_gap_if_incorrect": "digital tool navigation and interface cause-effect"
+    }
+  ]
+}

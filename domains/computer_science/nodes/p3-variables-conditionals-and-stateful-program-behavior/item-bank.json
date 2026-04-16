@@ -1,0 +1,250 @@
+{
+  "node_id": "P3",
+  "policy_version": "1.0",
+  "version": "0.4",
+  "items": [
+    {
+      "item_id": "P3-DIR-001",
+      "node_id": "P3",
+      "item_family": "direct_execution",
+      "prompt": "A robot on a grid must reach a target square without hitting an obstacle. Write or describe the bounded program steps needed to describe what a variable stands for and how it changes.",
+      "expected_evidence": "describe what a variable stands for and how it changes",
+      "dominant_failure_mode_targets": [
+        "P3-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates describe what a variable stands for and how it changes with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "P3-DIR-002",
+      "node_id": "P3",
+      "item_family": "direct_execution",
+      "prompt": "A small interactive game needs a button press to trigger an action, or a repeated movement to continue until a goal is reached. Show how the learner would trace a simple conditional outcome from the stated condition.",
+      "expected_evidence": "trace a simple conditional outcome from the stated condition",
+      "dominant_failure_mode_targets": [
+        "P3-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates trace a simple conditional outcome from the stated condition with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "P3-DIR-003",
+      "node_id": "P3",
+      "item_family": "direct_execution",
+      "prompt": "A short program is split into parts that pass values, repeat work, or update state. Trace the program and show how the learner would connect program state to later outputs or actions.",
+      "expected_evidence": "connect program state to later outputs or actions",
+      "dominant_failure_mode_targets": [
+        "P3-FM-03"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates connect program state to later outputs or actions with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "P3-EXP-001",
+      "node_id": "P3",
+      "item_family": "explanation",
+      "prompt": "Why is a variable more than just a word in a program?",
+      "expected_evidence": "a variable stores a value that can be used and changed, so it affects how the program behaves over time.",
+      "dominant_failure_mode_targets": [
+        "P3-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to a variable stores a value that can be used and changed, so it affects how the program behaves over time."
+    },
+    {
+      "item_id": "P3-EXP-002",
+      "node_id": "P3",
+      "item_family": "explanation",
+      "prompt": "How can you tell which branch an if statement will follow?",
+      "expected_evidence": "you compare the current program state or value with the condition and determine whether the condition is true or false.",
+      "dominant_failure_mode_targets": [
+        "P3-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to you compare the current program state or value with the condition and determine whether the condition is true or false."
+    },
+    {
+      "item_id": "P3-ERR-001",
+      "node_id": "P3",
+      "item_family": "error_diagnosis",
+      "prompt": "A learner response in variables, conditionals, and stateful program behavior suggests this breakdown: learner treats a variable as a label only and not as a changing stored value. Diagnose the likely misconception or structural error. Focus on variable-as-name only.",
+      "expected_evidence": "describe what a variable stands for and how it changes",
+      "dominant_failure_mode_targets": [
+        "P3-FM-01"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward describe what a variable stands for and how it changes."
+    },
+    {
+      "item_id": "P3-ERR-002",
+      "node_id": "P3",
+      "item_family": "error_diagnosis",
+      "prompt": "A learner response in variables, conditionals, and stateful program behavior suggests this breakdown: learner cannot determine which path a bounded conditional should follow. Diagnose the likely misconception or structural error. Focus on conditional-branch confusion.",
+      "expected_evidence": "trace a simple conditional outcome from the stated condition",
+      "dominant_failure_mode_targets": [
+        "P3-FM-02"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward trace a simple conditional outcome from the stated condition."
+    },
+    {
+      "item_id": "P3-TRA-001",
+      "node_id": "P3",
+      "item_family": "transfer",
+      "prompt": "A learner who used blocks now has to reason through the same programming idea in a text-based example. Explain how they would connect program state to later outputs or actions in the changed representation.",
+      "expected_evidence": "connect program state to later outputs or actions",
+      "dominant_failure_mode_targets": [
+        "P3-FM-03"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves connect program state to later outputs or actions in a changed computing context or representation."
+    },
+    {
+      "item_id": "P3-TRA-002",
+      "node_id": "P3",
+      "item_family": "transfer",
+      "prompt": "A classroom app changes from a game context to a data-processing context, but the same underlying programming structure still matters. Show how the learner would avoid treating stored values and displayed labels as interchangeable.",
+      "expected_evidence": "avoid treating stored values and displayed labels as interchangeable",
+      "dominant_failure_mode_targets": [
+        "P3-FM-04"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves avoid treating stored values and displayed labels as interchangeable in a changed computing context or representation."
+    },
+    {
+      "item_id": "P3-RET-001",
+      "node_id": "P3",
+      "item_family": "retention",
+      "prompt": "After a delay, the learner revisits a bounded program and must explain the result of one function call, loop, event, or state change. Show how they would describe what a variable stands for and how it changes.",
+      "expected_evidence": "describe what a variable stands for and how it changes",
+      "dominant_failure_mode_targets": [
+        "P3-FM-04"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_explanation",
+        "constructed_response"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability",
+      "scoring_guidance": "Meets when the learner still demonstrates describe what a variable stands for and how it changes on a delayed recheck without a blocking recurrence."
+    },
+    {
+      "item_id": "P3-PRE-001",
+      "node_id": "P3",
+      "item_family": "prerequisite_probe",
+      "prompt": "Before closing variables, conditionals, and stateful program behavior, run a short check on loops, events, and reusable program patterns using a bounded programming task and determine whether the current error is really an upstream dependency issue.",
+      "expected_evidence": "shows whether loops, events, and reusable program patterns is secure enough to support variables, conditionals, and stateful program behavior",
+      "dominant_failure_mode_targets": [
+        "P3-FM-01"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in loops, events, and reusable program patterns from a current-node issue in variables, conditionals, and stateful program behavior.",
+      "dependency_target": "P2",
+      "suspected_knowledge_gap_if_incorrect": "loops, events, and reusable program patterns"
+    },
+    {
+      "item_id": "P3-PRE-002",
+      "node_id": "P3",
+      "item_family": "prerequisite_probe",
+      "prompt": "Before closing variables, conditionals, and stateful program behavior, run a short check on data collection, classification, and simple visualization using a bounded programming task and determine whether the current error is really an upstream dependency issue.",
+      "expected_evidence": "shows whether data collection, classification, and simple visualization is secure enough to support variables, conditionals, and stateful program behavior",
+      "dominant_failure_mode_targets": [
+        "P3-FM-02"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in data collection, classification, and simple visualization from a current-node issue in variables, conditionals, and stateful program behavior.",
+      "dependency_target": "R2",
+      "suspected_knowledge_gap_if_incorrect": "data collection, classification, and simple visualization"
+    }
+  ]
+}

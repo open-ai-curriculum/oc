@@ -1,0 +1,26 @@
+{
+  "node_id": "R3",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "R3-FM-01": [
+      "answer-plus-evidence frame",
+      "point-to-detail before answer",
+      "text-based versus opinion contrast"
+    ],
+    "R3-FM-02": [
+      "relevant-versus-irrelevant detail sort",
+      "narrowed evidence target prompt",
+      "question-to-detail match check"
+    ],
+    "R3-FM-03": [
+      "because or this-shows explanation frame",
+      "modeled evidence-to-claim link",
+      "bounded reasoning follow-up"
+    ],
+    "R3-FM-04": [
+      "narrative-to-informational response rotation",
+      "oral-to-written format variation",
+      "same evidence demand across changed surfaces"
+    ]
+  }
+}

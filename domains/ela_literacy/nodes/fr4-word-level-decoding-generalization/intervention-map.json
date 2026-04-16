@@ -1,0 +1,26 @@
+{
+  "node_id": "FR4",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "FR4-FM-01": [
+      "rotate multiple small changed sets",
+      "alternate old and new sets",
+      "explain why the same decoding logic still applies"
+    ],
+    "FR4-FM-02": [
+      "reduce contextual cues",
+      "require attention to each word element",
+      "use isolated and minimally cued targets"
+    ],
+    "FR4-FM-03": [
+      "pair reading and spelling of new targets",
+      "small changed set for full bidirectional application",
+      "immediate encode-after-decode practice"
+    ],
+    "FR4-FM-04": [
+      "vary one task feature at a time",
+      "keep the same word-level demand across surfaces",
+      "return to a successful surface after the changed trial"
+    ]
+  }
+}

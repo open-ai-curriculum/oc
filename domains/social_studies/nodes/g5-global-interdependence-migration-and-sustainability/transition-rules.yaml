@@ -1,0 +1,16 @@
+node_id: G5
+version: 0.1
+transitions:
+  - from: blocked
+    to: emerging
+    when:
+      - g3_and_q4_dependencies_not_blocking
+      - direct_accuracy_improves_meaningfully
+  - from: emerging
+    to: provisional
+    when:
+      - g3_and_q4_dependencies_secure_or_provisional
+      - direct_gate_passes
+      - meaning_gate_passes
+      - transfer_gate_passes
+      - retention_not_yet_due

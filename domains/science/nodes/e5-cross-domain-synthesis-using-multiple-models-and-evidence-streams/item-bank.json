@@ -1,0 +1,32 @@
+[
+  {
+    "item_id": "E5-IB-01",
+    "node_id": "E5",
+    "prompt": "A phenomenon requires climate data, ecosystem evidence, and a systems model. Why is using only one of those sources likely incomplete?",
+    "task_type": "evidence_stream_synthesis",
+    "answer_key": "Because each source supports a different part of the explanation, and relying on one alone can leave key mechanisms, scales, or evidence gaps unaddressed.",
+    "scorable_traits": ["evidence integration", "role distinction", "bounded synthesis"],
+    "target_failure_modes": ["E5-FM-01"],
+    "context_tags": ["interdisciplinary", "synthesis"]
+  },
+  {
+    "item_id": "E5-IB-02",
+    "node_id": "E5",
+    "prompt": "Two models explain different aspects of the same phenomenon. What makes a combined explanation disciplined rather than sloppy?",
+    "task_type": "multi_model_comparison",
+    "answer_key": "A disciplined explanation states what each model explains, where each is limited, and how they complement rather than replace one another.",
+    "scorable_traits": ["model coordination", "limit awareness", "integration quality"],
+    "target_failure_modes": ["E5-FM-02"],
+    "context_tags": ["models", "synthesis"]
+  },
+  {
+    "item_id": "E5-IB-03",
+    "node_id": "E5",
+    "prompt": "Critique an explanation that uses vocabulary from genetics, climate, and chemistry but provides no evidence for how those ideas connect.",
+    "task_type": "integrated_explanation_critique",
+    "answer_key": "The critique should identify that the explanation is not genuinely integrated because it lacks evidence-backed links and clear model roles across domains.",
+    "scorable_traits": ["false synthesis detection", "evidence linkage", "critique quality"],
+    "target_failure_modes": ["E5-FM-03"],
+    "context_tags": ["argumentation", "cross-domain"]
+  }
+]

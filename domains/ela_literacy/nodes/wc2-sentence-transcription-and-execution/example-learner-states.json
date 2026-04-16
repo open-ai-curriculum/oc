@@ -1,0 +1,26 @@
+[
+  {
+    "learner_id": "example-wc2-emerging",
+    "node_id": "WC2",
+    "status": "emerging",
+    "dependency_status": {
+      "WC1": "secure",
+      "FR4": "secure"
+    },
+    "direct_accuracy": 0.77,
+    "explanation_status": "weak",
+    "transfer_status": "weak",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [
+      "WC2-FM-01",
+      "WC2-FM-02"
+    ],
+    "recommended_interventions": [
+      "tighten the task around transcription bottleneck so the target is more visible",
+      "keep the response surface bounded enough to isolate the real bottleneck"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Learner shows emerging control on WC2 but still needs stronger transfer and explanation."
+  }
+]

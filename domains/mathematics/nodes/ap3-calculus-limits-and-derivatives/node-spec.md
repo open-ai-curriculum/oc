@@ -3,7 +3,7 @@
 ## Node Identity
 
 - id: `AP3`
-- name: `calculus_limits_and_derivatives`
+- name: `limits_and_continuity`
 - domain: `mathematics`
 - support tier: `Core release`
 - current maturity state: `Drafted`
@@ -12,7 +12,7 @@
 
 ## Purpose
 
-The learner synthesizes limit reasoning, derivative meaning, local linear behavior, and rate-of-change interpretation into a coherent introductory calculus system rather than treating limits and derivatives as isolated symbolic procedures.
+The learner interprets limits and continuity as the conceptual entry to calculus, using approaching behavior, continuity conditions, and representation-consistent reasoning rather than treating limits as substitution tricks.
 
 ## Dependencies
 
@@ -25,9 +25,9 @@ The learner synthesizes limit reasoning, derivative meaning, local linear behavi
 The learner is secure on this node only when all of the following are true:
 
 1. interprets limits numerically, graphically, verbally, and symbolically as statements about approaching behavior rather than static substitution rituals
-2. explains derivatives as instantaneous rate of change and local linear structure across motion, graph, and formula contexts
-3. connects secant-to-tangent reasoning, slope behavior, and derivative sign or magnitude to the behavior of a function
-4. selects and justifies derivative-based reasoning in bounded optimization, motion, and local-analysis contexts
+2. distinguishes defined value, limit value, and continuity status in bounded algebraic and graphical cases
+3. explains continuity in terms of coherent local behavior and identifies removable, jump, or unbounded discontinuity in bounded settings
+4. connects one-sided limits, infinite limits, and asymptotic behavior without collapsing them into mechanical notation routines
 5. passes a delayed recheck after spacing
 
 
@@ -43,9 +43,9 @@ The learner is secure on this node only when all of the following are true:
 The learner can:
 
 - interpret approaching behavior consistently across tables, graphs, formulas, and verbal descriptions
-- explain derivative meaning through slope, rate, motion, and local linearization rather than only through symbolic rules
-- connect derivative sign, magnitude, and change to increasing, decreasing, and extremum behavior
-- justify calculus claims in bounded modeling or analysis tasks using the correct local or rate-based evidence
+- distinguish function value, limit value, and continuity status in bounded cases
+- classify bounded discontinuity and asymptotic behavior using correct limit language
+- justify continuity and limit claims using the correct local evidence rather than answer-pattern mimicry
 
 
 ## Claim Boundary

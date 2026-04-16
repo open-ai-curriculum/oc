@@ -1,0 +1,16 @@
+{
+  "node_id": "E2",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "E2-G1-01",
+      "node_id": "E2",
+      "gate": "G1",
+      "prompt": "Identify the producer and consumer in the local market scenario and explain what is being exchanged.",
+      "context_type": "local_market_scenario",
+      "response_mode": "oral_or_written_or_sorting",
+      "scoring_rule": "Identifies plausible producer and consumer roles and describes the exchange.",
+      "failure_mode_targets": ["E2-FM-01", "E2-FM-02"]
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "node_id": "R2",
+  "policy_version": "1.0",
+  "version": "0.4",
+  "items": [
+    {
+      "item_id": "R2-DIR-001",
+      "node_id": "R2",
+      "item_family": "direct_execution",
+      "prompt": "A class collects simple information from a survey or sensor reading and needs to organize it into a table or chart. Show how the learner would record data with stable categories or attributes.",
+      "expected_evidence": "record data with stable categories or attributes",
+      "dominant_failure_mode_targets": [
+        "R2-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates record data with stable categories or attributes with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "R2-DIR-002",
+      "node_id": "R2",
+      "item_family": "direct_execution",
+      "prompt": "A small dataset is transformed in a spreadsheet or simple program. Trace the change and show how the learner would explain the rule used to sort or classify data.",
+      "expected_evidence": "explain the rule used to sort or classify data",
+      "dominant_failure_mode_targets": [
+        "R2-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates explain the rule used to sort or classify data with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "R2-DIR-003",
+      "node_id": "R2",
+      "item_family": "direct_execution",
+      "prompt": "A modeled or computed output is produced from earlier data-handling steps. Explain the pipeline and show how the learner would match a simple visualization to the organized information it represents.",
+      "expected_evidence": "match a simple visualization to the organized information it represents",
+      "dominant_failure_mode_targets": [
+        "R2-FM-03"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates match a simple visualization to the organized information it represents with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "R2-EXP-001",
+      "node_id": "R2",
+      "item_family": "explanation",
+      "prompt": "Why is a list of facts not yet organized data?",
+      "expected_evidence": "it is not yet organized data until the information is recorded with a stable structure, rule, or category system.",
+      "dominant_failure_mode_targets": [
+        "R2-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to it is not yet organized data until the information is recorded with a stable structure, rule, or category system."
+    },
+    {
+      "item_id": "R2-EXP-002",
+      "node_id": "R2",
+      "item_family": "explanation",
+      "prompt": "What should stay the same while you sort data into groups?",
+      "expected_evidence": "the sorting rule should stay stable so each item is classified according to the same basis.",
+      "dominant_failure_mode_targets": [
+        "R2-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to the sorting rule should stay stable so each item is classified according to the same basis."
+    },
+    {
+      "item_id": "R2-ERR-001",
+      "node_id": "R2",
+      "item_family": "error_diagnosis",
+      "prompt": "A learner response in data collection, classification, and simple visualization suggests this breakdown: learner records or views data without a stable organizing structure. Diagnose the likely misconception or structural error. Focus on data-pile reasoning.",
+      "expected_evidence": "record data with stable categories or attributes",
+      "dominant_failure_mode_targets": [
+        "R2-FM-01"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward record data with stable categories or attributes."
+    },
+    {
+      "item_id": "R2-ERR-002",
+      "node_id": "R2",
+      "item_family": "error_diagnosis",
+      "prompt": "A learner response in data collection, classification, and simple visualization suggests this breakdown: learner changes the classification rule during the task or mixes categories. Diagnose the likely misconception or structural error. Focus on category-drift.",
+      "expected_evidence": "explain the rule used to sort or classify data",
+      "dominant_failure_mode_targets": [
+        "R2-FM-02"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward explain the rule used to sort or classify data."
+    },
+    {
+      "item_id": "R2-TRA-001",
+      "node_id": "R2",
+      "item_family": "transfer",
+      "prompt": "The same data idea is presented once as a chart and once as a table or program output. Explain how the learner would match a simple visualization to the organized information it represents across the changed representation.",
+      "expected_evidence": "match a simple visualization to the organized information it represents",
+      "dominant_failure_mode_targets": [
+        "R2-FM-03"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves match a simple visualization to the organized information it represents in a changed computing context or representation."
+    },
+    {
+      "item_id": "R2-TRA-002",
+      "node_id": "R2",
+      "item_family": "transfer",
+      "prompt": "A familiar classroom dataset is replaced with a less-familiar context such as attendance, weather, or game scores. Show how the learner would still avoid mixing unrelated categories or changing the sorting rule mid-task.",
+      "expected_evidence": "avoid mixing unrelated categories or changing the sorting rule mid-task",
+      "dominant_failure_mode_targets": [
+        "R2-FM-04"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves avoid mixing unrelated categories or changing the sorting rule mid-task in a changed computing context or representation."
+    },
+    {
+      "item_id": "R2-RET-001",
+      "node_id": "R2",
+      "item_family": "retention",
+      "prompt": "After a delay, the learner revisits a new dataset, organized display, or model result and must explain what changed and what can be inferred. Show how they would record data with stable categories or attributes.",
+      "expected_evidence": "record data with stable categories or attributes",
+      "dominant_failure_mode_targets": [
+        "R2-FM-04"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_explanation",
+        "constructed_response"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability",
+      "scoring_guidance": "Meets when the learner still demonstrates record data with stable categories or attributes on a delayed recheck without a blocking recurrence."
+    },
+    {
+      "item_id": "R2-PRE-001",
+      "node_id": "R2",
+      "item_family": "prerequisite_probe",
+      "prompt": "Check symbols, encoding, and representation awareness using a bounded data display or transformation before closing data collection, classification, and simple visualization, and determine whether the present error is really an upstream representation issue.",
+      "expected_evidence": "shows whether symbols, encoding, and representation awareness is secure enough to support data collection, classification, and simple visualization",
+      "dominant_failure_mode_targets": [
+        "R2-FM-01"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in symbols, encoding, and representation awareness from a current-node issue in data collection, classification, and simple visualization.",
+      "dependency_target": "R1",
+      "suspected_knowledge_gap_if_incorrect": "symbols, encoding, and representation awareness"
+    },
+    {
+      "item_id": "R2-PRE-002",
+      "node_id": "R2",
+      "item_family": "prerequisite_probe",
+      "prompt": "Check file, device, and input-output workflow awareness using a bounded data display or transformation before closing data collection, classification, and simple visualization, and determine whether the present error is really an upstream representation issue.",
+      "expected_evidence": "shows whether file, device, and input-output workflow awareness is secure enough to support data collection, classification, and simple visualization",
+      "dominant_failure_mode_targets": [
+        "R2-FM-02"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in file, device, and input-output workflow awareness from a current-node issue in data collection, classification, and simple visualization.",
+      "dependency_target": "D2",
+      "suspected_knowledge_gap_if_incorrect": "file, device, and input-output workflow awareness"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "learner_id": "example-c2-secure",
+    "node_id": "C2",
+    "status": "secure",
+    "dependency_status": {
+      "C1": "secure",
+      "P3": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Uses tracing and test cases intentionally to debug bounded programs with stated reasons for revisions."
+  },
+  {
+    "learner_id": "example-c2-emerging",
+    "node_id": "C2",
+    "status": "emerging",
+    "dependency_status": {
+      "C1": "secure",
+      "P3": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [
+      "C2-FM-01",
+      "C2-FM-02"
+    ],
+    "recommended_interventions": [
+      "C2-INT-01",
+      "C2-INT-02"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Can notice bugs and make changes but still debugs by guesswork and weak verification."
+  }
+]

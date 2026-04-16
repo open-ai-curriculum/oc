@@ -1,37 +1,140 @@
 {
   "node_id": "G7",
+  "policy_version": "1.0",
   "items": [
     {
-      "item_id": "G7-A1",
-      "item_family": "direct",
-      "prompt": "identifies an angle as the amount of turn between two rays or directions",
+      "item_id": "G7-DIR-001",
+      "node_id": "G7",
+      "item_family": "direct_execution",
+      "prompt": "Describe the rigid transformation that maps one figure onto the other on a coordinate grid.",
       "expected_evidence": "show quarter-turn, half-turn, and full-turn actions and match them to diagrams",
       "dominant_failure_mode": "ray_length_bias",
-      "scoring_guidance": "Meets when the learner completes the task accurately and justifies the choice."
+      "scoring_guidance": "Meets when the learner demonstrates show quarter-turn, half-turn, and full-turn actions and match them to diagrams with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "G7-B1",
-      "item_family": "explanation",
-      "prompt": "compares angles as larger, smaller, or equal based on turn size rather than side length",
+      "item_id": "G7-DIR-002",
+      "node_id": "G7",
+      "item_family": "direct_execution",
+      "prompt": "Classify the triangle and justify the classification using its defining attributes.",
       "expected_evidence": "compare two angles by amount of turn even when side lengths differ",
       "dominant_failure_mode": "turn_direction_confusion",
-      "scoring_guidance": "Meets when the learner explains the reasoning using correct geometric language or supported demonstration."
+      "scoring_guidance": "Meets when the learner demonstrates compare two angles by amount of turn even when side lengths differ with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "G7-C1",
-      "item_family": "error_diagnosis",
-      "prompt": "Diagnose a peer error aligned to benchmark_turn_instability.",
+      "item_id": "G7-DIR-003",
+      "node_id": "G7",
+      "item_family": "direct_execution",
+      "prompt": "Find a missing angle or side measure using the structure of the diagram.",
       "expected_evidence": "use spatial language to describe clockwise and counterclockwise turning situations",
       "dominant_failure_mode": "benchmark_turn_instability",
-      "scoring_guidance": "Meets when the learner identifies the mistaken rule and states the correct reasoning."
+      "scoring_guidance": "Meets when the learner demonstrates use spatial language to describe clockwise and counterclockwise turning situations with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
     },
     {
-      "item_id": "G7-D1",
+      "item_id": "G7-EXP-001",
+      "node_id": "G7",
+      "item_family": "explanation",
+      "prompt": "Explain which properties remain unchanged under a rigid transformation and why that supports congruence.",
+      "expected_evidence": "show quarter-turn, half-turn, and full-turn actions and match them to diagrams",
+      "dominant_failure_mode": "turn_direction_confusion",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to show quarter-turn, half-turn, and full-turn actions and match them to diagrams.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "G7-EXP-002",
+      "node_id": "G7",
+      "item_family": "explanation",
+      "prompt": "Explain why the figure belongs to a category in the shape hierarchy.",
+      "expected_evidence": "compare two angles by amount of turn even when side lengths differ",
+      "dominant_failure_mode": "benchmark_turn_instability",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to compare two angles by amount of turn even when side lengths differ.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "G7-ERR-001",
+      "node_id": "G7",
+      "item_family": "error_diagnosis",
+      "prompt": "A student claims two figures are congruent because they look the same size by eye. Diagnose the justification gap. Focus on ray length bias.",
+      "expected_evidence": "show quarter-turn, half-turn, and full-turn actions and match them to diagrams",
+      "dominant_failure_mode": "ray_length_bias",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward show quarter-turn, half-turn, and full-turn actions and match them to diagrams.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "G7-ERR-002",
+      "node_id": "G7",
+      "item_family": "error_diagnosis",
+      "prompt": "A student reflects a point across the x-axis but changes both coordinates. Identify the transformation error. Focus on turn direction confusion.",
+      "expected_evidence": "compare two angles by amount of turn even when side lengths differ",
+      "dominant_failure_mode": "turn_direction_confusion",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward compare two angles by amount of turn even when side lengths differ.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "G7-TRA-001",
+      "node_id": "G7",
       "item_family": "transfer",
-      "prompt": "succeeds across body movement, clock-like turns, and drawn angle comparisons",
-      "expected_evidence": "connect angle size to changes in direction in familiar contexts",
+      "prompt": "Use a transformation or coordinate argument to justify whether two figures are congruent in a less-familiar diagram.",
+      "expected_evidence": "show quarter-turn, half-turn, and full-turn actions and match them to diagrams",
+      "dominant_failure_mode": "benchmark_turn_instability",
+      "scoring_guidance": "Meets when the learner preserves show quarter-turn, half-turn, and full-turn actions and match them to diagrams in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "G7-TRA-002",
+      "node_id": "G7",
+      "item_family": "transfer",
+      "prompt": "Apply angle or triangle reasoning in a contextual or composite-figure setting.",
+      "expected_evidence": "compare two angles by amount of turn even when side lengths differ",
       "dominant_failure_mode": "static_shape_only_reasoning",
-      "scoring_guidance": "Meets when the learner succeeds in a less-familiar context without loss of concept integrity."
+      "scoring_guidance": "Meets when the learner preserves compare two angles by amount of turn even when side lengths differ in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "G7-RET-001",
+      "node_id": "G7",
+      "item_family": "retention",
+      "prompt": "After a delay, describe a rigid motion on a grid and explain which measurements are preserved.",
+      "expected_evidence": "show quarter-turn, half-turn, and full-turn actions and match them to diagrams",
+      "dominant_failure_mode": "static_shape_only_reasoning",
+      "scoring_guidance": "Meets when the learner still demonstrates show quarter-turn, half-turn, and full-turn actions and match them to diagrams on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "G7-PRE-001",
+      "node_id": "G7",
+      "item_family": "prerequisite_probe",
+      "prompt": "Check position direction and spatial language first so the system can distinguish an upstream spatial-structure gap from a true angle concept and turn measure misunderstanding.",
+      "expected_evidence": "shows whether position direction and spatial language is secure enough to support angle concept and turn measure",
+      "dominant_failure_mode": "turn_direction_confusion",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in position direction and spatial language from a current-node issue in angle concept and turn measure.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "G2",
+      "suspected_knowledge_gap_if_incorrect": "position direction and spatial language"
+    },
+    {
+      "item_id": "G7-PRE-002",
+      "node_id": "G7",
+      "item_family": "prerequisite_probe",
+      "prompt": "Check polygon attributes and hierarchy first so the system can distinguish an upstream spatial-structure gap from a true angle concept and turn measure misunderstanding.",
+      "expected_evidence": "shows whether polygon attributes and hierarchy is secure enough to support angle concept and turn measure",
+      "dominant_failure_mode": "benchmark_turn_instability",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in polygon attributes and hierarchy from a current-node issue in angle concept and turn measure.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "G6",
+      "suspected_knowledge_gap_if_incorrect": "polygon attributes and hierarchy"
     }
   ]
 }

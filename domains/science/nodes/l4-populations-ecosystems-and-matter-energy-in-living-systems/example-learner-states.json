@@ -1,0 +1,40 @@
+[
+  {
+    "learner_id": "example-l4-secure",
+    "node_id": "L4",
+    "status": "secure",
+    "dependency_status": {
+      "L2": "secure",
+      "M3": "secure",
+      "E3": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Maintains ecological scale and matter-energy distinctions across cases."
+  },
+  {
+    "learner_id": "example-l4-emerging",
+    "node_id": "L4",
+    "status": "emerging",
+    "dependency_status": {
+      "L2": "secure",
+      "M3": "secure",
+      "E3": "secure"
+    },
+    "direct_accuracy": 0.69,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["L4-FM-01", "L4-FM-03"],
+    "recommended_interventions": ["L4-INT-01", "L4-INT-03"],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Confuses population with organism and treats matter and energy as identical flows."
+  }
+]

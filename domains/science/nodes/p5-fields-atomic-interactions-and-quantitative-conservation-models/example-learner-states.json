@@ -1,0 +1,40 @@
+[
+  {
+    "learner_id": "example-p5-secure",
+    "node_id": "P5",
+    "status": "secure",
+    "dependency_status": {
+      "P4": "secure",
+      "M5": "secure",
+      "E4": "secure"
+    },
+    "direct_accuracy": 0.94,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Uses field and atomic interaction models with quantitative conservation discipline."
+  },
+  {
+    "learner_id": "example-p5-emerging",
+    "node_id": "P5",
+    "status": "emerging",
+    "dependency_status": {
+      "P4": "secure",
+      "M5": "secure",
+      "E4": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["P5-FM-01", "P5-FM-04"],
+    "recommended_interventions": ["P5-INT-01", "P5-INT-04"],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Defaults to contact-only stories and manipulates quantities without model interpretation."
+  }
+]

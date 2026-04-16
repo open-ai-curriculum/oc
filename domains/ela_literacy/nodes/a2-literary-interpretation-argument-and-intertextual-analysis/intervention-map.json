@@ -1,0 +1,26 @@
+{
+  "node_id": "A2",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "A2-FM-01": [
+      "summary-versus-interpretation contrast",
+      "one-cited-moment one-claim frame",
+      "bounded interpretive target routine"
+    ],
+    "A2-FM-02": [
+      "claim-evidence-reasoning literary frame",
+      "modeled support for literary reading",
+      "single-problem interpretive focus"
+    ],
+    "A2-FM-03": [
+      "two-text contribution map",
+      "preserve-differences comparison routine",
+      "bounded intertextual argument frame"
+    ],
+    "A2-FM-04": [
+      "changed literary task rotation",
+      "gradual complexity shift",
+      "stable advanced-literary frame across texts"
+    ]
+  }
+}

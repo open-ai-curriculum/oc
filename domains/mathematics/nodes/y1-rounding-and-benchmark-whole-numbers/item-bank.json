@@ -1,29 +1,258 @@
 {
   "node_id": "Y1",
+  "policy_version": "1.0",
+  "version": "0.3",
   "items": [
     {
-      "item_id": "y1-a1",
-      "item_family": "direct_execution",
-      "prompt": "Representative direct task for rounding and benchmark whole numbers.",
-      "expected_evidence": [
-        "Learner uses the intended structure, not only an answer-getting shortcut."
+      "item_id": "Y1-D-001",
+      "family": "direct_execution",
+      "prompt": "Write `0.47` in expanded form and identify the value of each digit.",
+      "target_node": "Y1",
+      "secondary_dependency_targets": [
+        "V2"
       ],
-      "dominant_failure_mode_targets": [
-        "benchmark_place_confusion"
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
       ],
-      "context": "rounding prompts"
-    },
-    {
-      "item_id": "y1-b1",
-      "item_family": "explanation",
-      "prompt": "Explain why the chosen structure fits the situation.",
-      "expected_evidence": [
-        "Learner names the structural relationship correctly."
-      ],
-      "dominant_failure_mode_targets": [
+      "dominant_failure_modes_if_incorrect": [
+        "benchmark_place_confusion",
         "rounding_rule_without_magnitude"
       ],
-      "context": "number lines"
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "Y1-D-002",
+      "family": "direct_execution",
+      "prompt": "Compare `0.6` and `0.57` and justify the comparison with place-value language.",
+      "target_node": "Y1",
+      "secondary_dependency_targets": [
+        "V2"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "rounding_rule_without_magnitude",
+        "interval_anchor_loss"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "Y1-D-003",
+      "family": "direct_execution",
+      "prompt": "Plot `0.35` on a number line between `0.3` and `0.4`.",
+      "target_node": "Y1",
+      "secondary_dependency_targets": [
+        "V2"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "interval_anchor_loss",
+        "context_scale_mismatch"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "Y1-D-004",
+      "family": "direct_execution",
+      "prompt": "Write `0.47` in expanded form and identify the value of each digit.",
+      "target_node": "Y1",
+      "secondary_dependency_targets": [
+        "V2"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "context_scale_mismatch",
+        "benchmark_place_confusion"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "Y1-E-001",
+      "family": "explanation",
+      "prompt": "Explain why the `5` in `0.5` represents a larger value than the `5` in `0.05`.",
+      "target_node": "Y1",
+      "secondary_dependency_targets": [
+        "V2"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "rounding_rule_without_magnitude"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "Y1-E-002",
+      "family": "explanation",
+      "prompt": "Explain how moving one place to the right changes the unit value in decimal notation.",
+      "target_node": "Y1",
+      "secondary_dependency_targets": [
+        "V2"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "interval_anchor_loss"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "Y1-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student says `0.8 < 0.35` because 8 is less than 35. Diagnose the place-value mistake. Focus on benchmark place confusion.",
+      "target_node": "Y1",
+      "secondary_dependency_targets": [
+        "V2"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "benchmark_place_confusion"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "Y1-C-002",
+      "family": "error_diagnosis",
+      "prompt": "A student writes `0.4 = 4/100`. Identify the unit mismatch. Focus on rounding rule without magnitude.",
+      "target_node": "Y1",
+      "secondary_dependency_targets": [
+        "V2"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "rounding_rule_without_magnitude"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "Y1-T-001",
+      "family": "transfer",
+      "prompt": "A runner completes `0.75` km of a 1 km lap. Represent the distance with a decimal, fraction, and place-value description.",
+      "target_node": "Y1",
+      "secondary_dependency_targets": [
+        "V2"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "interval_anchor_loss"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "Y1-T-002",
+      "family": "transfer",
+      "prompt": "A price tag shows `$0.65`. Explain the same amount using ones, tenths, and hundredths language.",
+      "target_node": "Y1",
+      "secondary_dependency_targets": [
+        "V2"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "context_scale_mismatch"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "Y1-R-001",
+      "family": "retention",
+      "prompt": "On a delayed check, decompose `1.08` into place-value units and explain how you know each part.",
+      "target_node": "Y1",
+      "secondary_dependency_targets": [
+        "V2"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "context_scale_mismatch"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability"
+    },
+    {
+      "item_id": "Y1-P-001",
+      "family": "prerequisite_probe",
+      "prompt": "Complete a prerequisite probe on compare and order multidigit numbers to determine whether the decimal error is really a place-value dependency gap.",
+      "target_node": "Y1",
+      "secondary_dependency_targets": [
+        "V2"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "rounding_rule_without_magnitude"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "V2",
+      "suspected_knowledge_gap_if_incorrect": "compare and order multidigit numbers",
+      "scoring_focus": "dependency_disambiguation"
     }
   ]
 }

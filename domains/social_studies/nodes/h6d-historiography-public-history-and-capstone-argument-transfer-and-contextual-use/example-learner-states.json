@@ -1,0 +1,18 @@
+{
+  "node_id": "H6D",
+  "examples": [
+    {
+      "learner_id": "example-learner-1",
+      "node_id": "H6D",
+      "status": "emerging",
+      "direct_accuracy": 0.62,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": [
+        "H6D-FM-02"
+      ],
+      "notes": "Needs support in transfer and contextual use."
+    }
+  ]
+}

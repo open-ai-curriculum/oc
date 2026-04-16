@@ -1,0 +1,37 @@
+{
+  "node_id": "C5",
+  "interventions": [
+    {
+      "intervention_id": "C5-INT-01",
+      "name": "C5 Intervention 1",
+      "addresses_failure_modes": [
+        "C5-FM-01"
+      ],
+      "summary": "thermodynamic case reviews that separate feasibility, energy change, and practical outcome claims"
+    },
+    {
+      "intervention_id": "C5-INT-02",
+      "name": "C5 Intervention 2",
+      "addresses_failure_modes": [
+        "C5-FM-02"
+      ],
+      "summary": "redox tracking tasks that require explicit electron-transfer reasoning"
+    },
+    {
+      "intervention_id": "C5-INT-03",
+      "name": "C5 Intervention 3",
+      "addresses_failure_modes": [
+        "C5-FM-03"
+      ],
+      "summary": "electrochemical system maps tying setup components to process roles"
+    },
+    {
+      "intervention_id": "C5-INT-04",
+      "name": "C5 Intervention 4",
+      "addresses_failure_modes": [
+        "C5-FM-04"
+      ],
+      "summary": "measurement-to-model prompts linking voltage or directionality to chemical change"
+    }
+  ]
+}

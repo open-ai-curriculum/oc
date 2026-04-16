@@ -1,0 +1,38 @@
+id: M4
+name: knowledge_consolidation_synthesis_and_long_horizon_retention
+domain: learning_to_learn
+support_tier: Incubation
+maturity_state: Drafted
+supported_profiles:
+  - cross-domain-learning-support-node-package
+evidence_class: Synthetic
+dependencies: [M3, S3, T1]
+mastery:
+  direct_accuracy_threshold: 0.85
+  explanation_required: true
+  transfer_required: true
+  retention_check_days: 35
+statuses: [blocked, emerging, provisional, secure, unstable]
+verification_gates:
+  - id: G1
+    type: direct_performance
+    pass_rule: consolidates and retrieves connected ideas across a longer interval in at least 4 of 5 opportunities
+  - id: G2
+    type: transfer
+    pass_rule: uses the consolidation routine to connect learning across at least two units or domains
+  - id: G3
+    type: retention
+    pass_rule: stable recheck performance after approximately 35 days
+failure_modes: [M4-FM-01, M4-FM-02, M4-FM-03]
+artifact_files:
+  - node-spec.md
+  - verification-model.md
+  - failure-taxonomy.md
+  - intervention-playbook.md
+  - intervention-map.json
+  - learner-state-model.md
+  - learner-state.schema.json
+  - example-learner-states.json
+  - transition-rules.yaml
+  - teacher-observability.md
+  - agent-behavior.md

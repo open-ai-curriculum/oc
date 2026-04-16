@@ -1,0 +1,30 @@
+[
+  {
+    "student_id": "example-secure",
+    "node": "AP8",
+    "status": "secure",
+    "direct_accuracy": 0.82,
+    "explanation_status": "meets",
+    "transfer_status": "meets",
+    "retention_status": "meets",
+    "dominant_failure_modes": [],
+    "recommended_interventions": []
+  },
+  {
+    "student_id": "example-blocked",
+    "node": "AP8",
+    "status": "blocked",
+    "direct_accuracy": 0.47,
+    "explanation_status": "weak",
+    "transfer_status": "failed",
+    "retention_status": "not_met",
+    "dominant_failure_modes": [
+      "accumulation_without_rate_link",
+      "signed_area_orientation_confusion"
+    ],
+    "recommended_interventions": [
+      "compare rate graphs and accumulation stories so learners must explain what is being accumulated and in what units",
+      "compare above-axis and below-axis regions in the same graph and ask what each contributes to net change versus total amount"
+    ]
+  }
+]

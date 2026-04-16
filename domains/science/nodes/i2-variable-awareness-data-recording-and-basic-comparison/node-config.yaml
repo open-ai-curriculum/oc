@@ -1,0 +1,40 @@
+id: I2
+name: variable_awareness_data_recording_and_basic_comparison
+domain: science
+support_tier: Incubation
+maturity_state: Drafted
+supported_profiles:
+- science-bridge-node-package
+evidence_class: Synthetic
+dependencies:
+- I1
+- Q3
+mastery:
+  direct_accuracy_threshold: 0.9
+  explanation_required: true
+  transfer_required: true
+  retention_check_days: 21
+statuses:
+- blocked
+- emerging
+- provisional
+- secure
+- unstable
+verification_gates:
+- id: G1
+  type: direct_performance
+  pass_rule: '>= 0.90 accuracy across variable-awareness, data-recording, and basic-comparison tasks'
+- id: G2
+  type: meaning
+  pass_rule: correct explanation of what changed what stayed the same or what the comparison shows in at least 2 of 3 prompts
+- id: G3
+  type: transfer
+  pass_rule: successful data-comparison reasoning in at least one changed context
+- id: G4
+  type: retention
+  pass_rule: '>= 0.85 delayed recheck accuracy after ~21 days'
+failure_modes:
+- I2-FM-01
+- I2-FM-02
+- I2-FM-03
+- I2-FM-04

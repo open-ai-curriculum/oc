@@ -1,0 +1,41 @@
+[
+  {
+    "learner_id": "ela-sample-f2-blocked",
+    "node_id": "F2",
+    "status": "blocked",
+    "dependency_status": {
+      "F1": "emerging"
+    },
+    "direct_accuracy": 0.42,
+    "explanation_status": "not_met",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["F2-FM-01", "F2-FM-04"],
+    "recommended_interventions": [
+      "continuous-sound push-through blending",
+      "tap-and-spell sound boxes"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Relies on first-letter cue and picture guessing."
+  },
+  {
+    "learner_id": "ela-sample-f2-provisional",
+    "node_id": "F2",
+    "status": "provisional",
+    "dependency_status": {
+      "F1": "secure"
+    },
+    "direct_accuracy": 0.9,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [
+      "short mixed decoding-encoding review"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Transfers to changed CVC word sets; retention still pending."
+  }
+]

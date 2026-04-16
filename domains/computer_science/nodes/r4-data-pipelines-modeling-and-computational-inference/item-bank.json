@@ -1,0 +1,250 @@
+{
+  "node_id": "R4",
+  "policy_version": "1.0",
+  "version": "0.4",
+  "items": [
+    {
+      "item_id": "R4-DIR-001",
+      "node_id": "R4",
+      "item_family": "direct_execution",
+      "prompt": "A class collects simple information from a survey or sensor reading and needs to organize it into a table or chart. Show how the learner would name the stages through which data passes in a bounded computational workflow.",
+      "expected_evidence": "name the stages through which data passes in a bounded computational workflow",
+      "dominant_failure_mode_targets": [
+        "R4-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates name the stages through which data passes in a bounded computational workflow with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "R4-DIR-002",
+      "node_id": "R4",
+      "item_family": "direct_execution",
+      "prompt": "A small dataset is transformed in a spreadsheet or simple program. Trace the change and show how the learner would connect transformed or modeled output back to earlier processing decisions.",
+      "expected_evidence": "connect transformed or modeled output back to earlier processing decisions",
+      "dominant_failure_mode_targets": [
+        "R4-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates connect transformed or modeled output back to earlier processing decisions with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "R4-DIR-003",
+      "node_id": "R4",
+      "item_family": "direct_execution",
+      "prompt": "A modeled or computed output is produced from earlier data-handling steps. Explain the pipeline and show how the learner would distinguish a model-based inference from raw observed data.",
+      "expected_evidence": "distinguish a model-based inference from raw observed data",
+      "dominant_failure_mode_targets": [
+        "R4-FM-03"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates distinguish a model-based inference from raw observed data with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "R4-EXP-001",
+      "node_id": "R4",
+      "item_family": "explanation",
+      "prompt": "Why is a data pipeline more than just one final chart or output?",
+      "expected_evidence": "a pipeline includes the sequence of collection, cleaning, transformation, and modeling steps that shape what the output means.",
+      "dominant_failure_mode_targets": [
+        "R4-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to a pipeline includes the sequence of collection, cleaning, transformation, and modeling steps that shape what the output means."
+    },
+    {
+      "item_id": "R4-EXP-002",
+      "node_id": "R4",
+      "item_family": "explanation",
+      "prompt": "Why should you question a computed output before treating it as truth?",
+      "expected_evidence": "because the output depends on data quality, transformations, and modeling assumptions, so its meaning is bounded by those conditions.",
+      "dominant_failure_mode_targets": [
+        "R4-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to because the output depends on data quality, transformations, and modeling assumptions, so its meaning is bounded by those conditions."
+    },
+    {
+      "item_id": "R4-ERR-001",
+      "node_id": "R4",
+      "item_family": "error_diagnosis",
+      "prompt": "A learner response in data pipelines, modeling, and computational inference suggests this breakdown: learner cannot account for how data moved or changed across a bounded pipeline. Diagnose the likely misconception or structural error. Focus on pipeline-opacity.",
+      "expected_evidence": "name the stages through which data passes in a bounded computational workflow",
+      "dominant_failure_mode_targets": [
+        "R4-FM-01"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward name the stages through which data passes in a bounded computational workflow."
+    },
+    {
+      "item_id": "R4-ERR-002",
+      "node_id": "R4",
+      "item_family": "error_diagnosis",
+      "prompt": "A learner response in data pipelines, modeling, and computational inference suggests this breakdown: learner treats computed output or modeled inference as authoritative without checking assumptions or transformations. Diagnose the likely misconception or structural error. Focus on output-as-truth belief.",
+      "expected_evidence": "connect transformed or modeled output back to earlier processing decisions",
+      "dominant_failure_mode_targets": [
+        "R4-FM-02"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward connect transformed or modeled output back to earlier processing decisions."
+    },
+    {
+      "item_id": "R4-TRA-001",
+      "node_id": "R4",
+      "item_family": "transfer",
+      "prompt": "The same data idea is presented once as a chart and once as a table or program output. Explain how the learner would distinguish a model-based inference from raw observed data across the changed representation.",
+      "expected_evidence": "distinguish a model-based inference from raw observed data",
+      "dominant_failure_mode_targets": [
+        "R4-FM-03"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves distinguish a model-based inference from raw observed data in a changed computing context or representation."
+    },
+    {
+      "item_id": "R4-TRA-002",
+      "node_id": "R4",
+      "item_family": "transfer",
+      "prompt": "A familiar classroom dataset is replaced with a less-familiar context such as attendance, weather, or game scores. Show how the learner would still avoid overclaiming from computed outputs when data quality or assumptions are weak.",
+      "expected_evidence": "avoid overclaiming from computed outputs when data quality or assumptions are weak",
+      "dominant_failure_mode_targets": [
+        "R4-FM-04"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves avoid overclaiming from computed outputs when data quality or assumptions are weak in a changed computing context or representation."
+    },
+    {
+      "item_id": "R4-RET-001",
+      "node_id": "R4",
+      "item_family": "retention",
+      "prompt": "After a delay, the learner revisits a new dataset, organized display, or model result and must explain what changed and what can be inferred. Show how they would name the stages through which data passes in a bounded computational workflow.",
+      "expected_evidence": "name the stages through which data passes in a bounded computational workflow",
+      "dominant_failure_mode_targets": [
+        "R4-FM-04"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_explanation",
+        "constructed_response"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability",
+      "scoring_guidance": "Meets when the learner still demonstrates name the stages through which data passes in a bounded computational workflow on a delayed recheck without a blocking recurrence."
+    },
+    {
+      "item_id": "R4-PRE-001",
+      "node_id": "R4",
+      "item_family": "prerequisite_probe",
+      "prompt": "Check data transformation, tables, and computational models using a bounded data display or transformation before closing data pipelines, modeling, and computational inference, and determine whether the present error is really an upstream representation issue.",
+      "expected_evidence": "shows whether data transformation, tables, and computational models is secure enough to support data pipelines, modeling, and computational inference",
+      "dominant_failure_mode_targets": [
+        "R4-FM-01"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in data transformation, tables, and computational models from a current-node issue in data pipelines, modeling, and computational inference.",
+      "dependency_target": "R3",
+      "suspected_knowledge_gap_if_incorrect": "data transformation, tables, and computational models"
+    },
+    {
+      "item_id": "R4-PRE-002",
+      "node_id": "R4",
+      "item_family": "prerequisite_probe",
+      "prompt": "Check structured data, collections, and programmed data operations using a bounded data display or transformation before closing data pipelines, modeling, and computational inference, and determine whether the present error is really an upstream representation issue.",
+      "expected_evidence": "shows whether structured data, collections, and programmed data operations is secure enough to support data pipelines, modeling, and computational inference",
+      "dominant_failure_mode_targets": [
+        "R4-FM-02"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in structured data, collections, and programmed data operations from a current-node issue in data pipelines, modeling, and computational inference.",
+      "dependency_target": "P5",
+      "suspected_knowledge_gap_if_incorrect": "structured data, collections, and programmed data operations"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "node_id": "AC5",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "AC5-FM-01": [
+      "tighten the task around intertextual-link fragility so the target is more visible",
+      "keep the response surface bounded enough to isolate the real bottleneck",
+      "rerun a changed-surface check after one short intervention cycle"
+    ],
+    "AC5-FM-02": [
+      "tighten the task around argument-structure collapse so the target is more visible",
+      "keep the response surface bounded enough to isolate the real bottleneck",
+      "rerun a changed-surface check after one short intervention cycle"
+    ],
+    "AC5-FM-03": [
+      "tighten the task around evidence-distribution imbalance so the target is more visible",
+      "keep the response surface bounded enough to isolate the real bottleneck",
+      "rerun a changed-surface check after one short intervention cycle"
+    ],
+    "AC5-FM-04": [
+      "tighten the task around task-transfer fragility so the target is more visible",
+      "keep the response surface bounded enough to isolate the real bottleneck",
+      "rerun a changed-surface check after one short intervention cycle"
+    ]
+  }
+}

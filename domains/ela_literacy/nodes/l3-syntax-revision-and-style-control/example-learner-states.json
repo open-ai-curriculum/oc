@@ -1,0 +1,43 @@
+[
+  {
+    "learner_id": "ela-sample-l3-blocked",
+    "node_id": "L3",
+    "status": "blocked",
+    "dependency_status": {
+      "L1": "secure",
+      "L2": "provisional"
+    },
+    "direct_accuracy": 0.42,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["L3-FM-01", "L3-FM-02"],
+    "recommended_interventions": [
+      "before-and-after revision comparison",
+      "audience-and-purpose revision cue"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Edits punctuation and spelling but rarely improves clarity or style strategically."
+  },
+  {
+    "learner_id": "ela-sample-l3-provisional",
+    "node_id": "L3",
+    "status": "provisional",
+    "dependency_status": {
+      "L1": "secure",
+      "L2": "secure"
+    },
+    "direct_accuracy": 0.87,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [
+      "brief changed-context revision review"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Revises sentence structure and diction to improve clarity and rhetorical fit."
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "node_id": "R6",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "R6-FM-01": [
+      "two-text compare-and-synthesize frame",
+      "single-text versus cross-text contrast",
+      "small source-set synthesis routine"
+    ],
+    "R6-FM-02": [
+      "claim-evidence grid across sources",
+      "agree-differ-complicate prompt",
+      "single-focus synthesis claim"
+    ],
+    "R6-FM-03": [
+      "one-feature-at-a-time rhetorical focus",
+      "cross-source feature comparison",
+      "reduced concept-load synthesis task"
+    ],
+    "R6-FM-04": [
+      "changed source-set rotation",
+      "stable synthesis frame across disciplines",
+      "controlled context variation"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "learner_id": "example-p2-emerging",
+    "node_id": "P2",
+    "status": "emerging",
+    "dependency_status": {
+      "P1": "secure",
+      "O2": "secure"
+    },
+    "direct_accuracy": 0.69,
+    "transfer_status": "weak",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["P2-FM-01", "P2-FM-03"],
+    "recommended_interventions": [
+      "finger tracking with repeated short text",
+      "same shared-reading routine across two different layouts"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Tracks a familiar big-book line but loses word boundaries in smaller print."
+  }
+]

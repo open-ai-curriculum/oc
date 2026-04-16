@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "generated_on": "2026-04-15",
+    "inventory_record_count": 18,
+    "mapped_node_count": 42,
+    "coverage_classification_counts": {
+      "covered": 18,
+      "partially_covered": 0,
+      "unmapped": 0,
+      "out_of_scope": 0
+    },
+    "orphan_node_mapping_count": 0,
+    "source_inventory": "docs/standards/science-standards-inventory.json",
+    "source_node_map": "docs/standards/science-node-standards-map.json"
+  },
+  "standards": [
+    { "standard_id": "science-anchor-k2-sensemaking-observation-questioning-and-evidence-talk", "coverage_classification": "covered", "matched_node_count": 4, "matched_node_ids": ["Q1", "Q2", "Q3", "E1"] },
+    { "standard_id": "science-anchor-k2-investigation-measurement-and-data-routines", "coverage_classification": "covered", "matched_node_count": 1, "matched_node_ids": ["I1"] },
+    { "standard_id": "science-anchor-k2-life-science-organisms-needs-traits-and-habitats", "coverage_classification": "covered", "matched_node_count": 1, "matched_node_ids": ["L1"] },
+    { "standard_id": "science-anchor-k2-physical-science-matter-motion-and-contact-interactions", "coverage_classification": "covered", "matched_node_count": 1, "matched_node_ids": ["P1"] },
+    { "standard_id": "science-anchor-k2-earth-space-weather-sky-patterns-and-local-materials", "coverage_classification": "covered", "matched_node_count": 1, "matched_node_ids": ["T1"] },
+    { "standard_id": "science-anchor-35-investigation-modeling-claims-and-design", "coverage_classification": "covered", "matched_node_count": 6, "matched_node_ids": ["Q3", "I2", "M1", "E2", "D1", "D2"] },
+    { "standard_id": "science-anchor-35-life-science-life-cycles-inheritance-and-ecosystem-relationships", "coverage_classification": "covered", "matched_node_count": 1, "matched_node_ids": ["L2"] },
+    { "standard_id": "science-anchor-35-physical-science-matter-change-energy-transfer-and-observable-forces", "coverage_classification": "covered", "matched_node_count": 1, "matched_node_ids": ["P2"] },
+    { "standard_id": "science-anchor-35-earth-space-surface-change-water-movement-and-solar-lunar-patterns", "coverage_classification": "covered", "matched_node_count": 1, "matched_node_ids": ["T2"] },
+    { "standard_id": "science-anchor-68-investigation-reliability-multivariable-design-and-uncertainty", "coverage_classification": "covered", "matched_node_count": 3, "matched_node_ids": ["I3", "I4", "I5"] },
+    { "standard_id": "science-anchor-68-modeling-mechanism-scale-and-systems", "coverage_classification": "covered", "matched_node_count": 3, "matched_node_ids": ["M2", "M3", "M4"] },
+    { "standard_id": "science-anchor-68-explanation-argument-revision-and-design-tradeoffs", "coverage_classification": "covered", "matched_node_count": 3, "matched_node_ids": ["E3", "D3", "D4"] },
+    { "standard_id": "science-anchor-68-life-science-cells-body-systems-populations-and-ecosystem-matter-energy", "coverage_classification": "covered", "matched_node_count": 2, "matched_node_ids": ["L3", "L4"] },
+    { "standard_id": "science-anchor-68-physical-science-particles-waves-forces-reactions-and-conservation", "coverage_classification": "covered", "matched_node_count": 2, "matched_node_ids": ["P3", "P4"] },
+    { "standard_id": "science-anchor-68-earth-space-climate-resources-plate-processes-water-cycle-and-space-interactions", "coverage_classification": "covered", "matched_node_count": 2, "matched_node_ids": ["T3", "T4"] },
+    { "standard_id": "science-anchor-912-advanced-investigation-modeling-explanation-and-optimization", "coverage_classification": "covered", "matched_node_count": 7, "matched_node_ids": ["I4", "I5", "M5", "E4", "E5", "D4", "A2"] },
+    { "standard_id": "science-anchor-912-disciplinary-depth-life-physical-and-earth-space-systems", "coverage_classification": "covered", "matched_node_count": 6, "matched_node_ids": ["L5", "L6", "P5", "P6", "T5", "T6"] },
+    { "standard_id": "science-anchor-912-interdisciplinary-capstone-science-and-engineering-integration", "coverage_classification": "covered", "matched_node_count": 2, "matched_node_ids": ["A1", "A2"] }
+  ]
+}

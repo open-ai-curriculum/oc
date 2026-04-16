@@ -1,0 +1,23 @@
+{
+  "node_id": "C1",
+  "examples": [
+    {
+      "learner_id": "sample-c1-blocked-01",
+      "node_id": "C1",
+      "status": "blocked",
+      "dependency_status": { "Q1": "secure" },
+      "direct_accuracy": 0.61,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["C1-FM-03"],
+      "recommended_interventions": [
+        "compare fair and unfair scenarios with explicit reasons",
+        "sort examples by shared rule versus individual want"
+      ],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Treats fairness as preference rather than shared expectation."
+    }
+  ]
+}

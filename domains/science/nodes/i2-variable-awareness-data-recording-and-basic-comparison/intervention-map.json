@@ -1,0 +1,26 @@
+{
+  "node_id": "I2",
+  "version": "0.1",
+  "interventions": {
+    "I2-FM-01": [
+      "use what changed / what stayed the same sorting routines",
+      "point to one focal changed factor before reading the data",
+      "compare two investigations with different changed factors"
+    ],
+    "I2-FM-02": [
+      "model one-row-per-trial recording",
+      "use a simplified table with fewer fields",
+      "compare clean and messy records before drawing conclusions"
+    ],
+    "I2-FM-03": [
+      "compare two entries side by side",
+      "highlight which quantity or outcome should be compared",
+      "use sentence frames such as This one is greater because"
+    ],
+    "I2-FM-04": [
+      "repeat the same variable/data routine across plant motion and materials tests",
+      "preserve the comparison structure while changing the phenomenon",
+      "fade scaffolds after success in one familiar task"
+    ]
+  }
+}

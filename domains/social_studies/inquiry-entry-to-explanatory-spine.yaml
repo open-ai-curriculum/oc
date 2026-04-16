@@ -1,0 +1,80 @@
+domain: social_studies
+version: 0.1
+
+spine:
+  id: inquiry_entry_to_explanatory
+  purpose: bounded inquiry-to-explanation social studies spine required before the middle branch layer is a legitimate target
+
+families:
+  - id: Q
+    name: inquiry_evidence_and_discourse
+    nodes:
+      - id: Q1
+        name: observe_describe_and_question
+        depends_on: []
+      - id: Q2
+        name: compare_classify_and_sequence_evidence
+        depends_on: [Q1]
+      - id: Q3
+        name: supported_explanation_from_evidence
+        depends_on: [Q2]
+
+  - id: H
+    name: history_and_source_reasoning
+    nodes:
+      - id: H1
+        name: chronology_identity_and_community_memory
+        depends_on: [Q1]
+      - id: H2
+        name: historical_sources_and_past_present_comparison
+        depends_on: [H1, Q2]
+
+  - id: C
+    name: civics_and_collective_decision_making
+    nodes:
+      - id: C1
+        name: community_rules_roles_and_fairness
+        depends_on: [Q1]
+      - id: C2
+        name: institutions_rights_responsibilities_and_processes
+        depends_on: [C1, Q2]
+
+  - id: G
+    name: geography_and_human_environment_systems
+    nodes:
+      - id: G1
+        name: place_maps_and_environmental_features
+        depends_on: [Q1]
+      - id: G2
+        name: human_environment_interaction_and_regions
+        depends_on: [G1, Q2]
+
+  - id: E
+    name: economics_and_exchange_systems
+    nodes:
+      - id: E1
+        name: needs_wants_choice_and_exchange
+        depends_on: [Q1]
+      - id: E2
+        name: production_consumption_and_local_markets
+        depends_on: [E1, Q2]
+
+direct_predecessors_to_middle_branch_layer:
+  - Q3
+  - H2
+  - C2
+  - G2
+  - E2
+
+implementation_priority:
+  - Q1
+  - Q2
+  - Q3
+  - H1
+  - C1
+  - G1
+  - E1
+  - H2
+  - C2
+  - G2
+  - E2

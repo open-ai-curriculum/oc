@@ -1,0 +1,67 @@
+registry_id: social_studies_capstone_public_argument_attachments
+domain: social_studies
+status: draft
+version: 0.1
+target_scope:
+  primary_node_ids:
+    - Q6
+    - H5
+    - C5
+    - G5
+    - E5
+    - A1
+    - A2
+  notes: secondary capstone slice connecting evidence synthesis, comparative analysis, policy reasoning, and public communication
+artifacts:
+  - artifact_id: ss-q6-source-set-argument-bundle-01
+    artifact_type: AssessmentBundle
+    title: Source-set argument bundle
+    status: draft
+    support_tier: Incubation
+    maturity_state: Drafted
+    target_entity_type: CapabilityNode
+    target_entity_id: Q6
+    primary_node_id: Q6
+    purpose: assess synthesis, claim construction, and public-facing explanation from mixed social studies sources
+    delivery_format: printable_and_digital
+    source_path: domains/social_studies/artifact-attachments/capstone-public-argument-attachment-registry.yaml
+    review_status: draft
+  - artifact_id: ss-a1-research-synthesis-studio-01
+    artifact_type: LessonPattern
+    title: Interdisciplinary research synthesis studio
+    status: draft
+    support_tier: Incubation
+    maturity_state: Drafted
+    target_entity_type: CapabilityNode
+    target_entity_id: A1
+    primary_node_id: A1
+    purpose: support research-question framing, evidence organization, and cross-branch synthesis
+    delivery_format: studio_protocol
+    source_path: domains/social_studies/artifact-attachments/capstone-public-argument-attachment-registry.yaml
+    review_status: draft
+  - artifact_id: ss-a2-public-briefing-performance-task-01
+    artifact_type: PerformanceTask
+    title: Public briefing performance task
+    status: draft
+    support_tier: Incubation
+    maturity_state: Drafted
+    target_entity_type: CapabilityNode
+    target_entity_id: A2
+    primary_node_id: A2
+    purpose: demonstrate capstone argument, modeling, and public communication under authentic constraints
+    delivery_format: performance_task
+    source_path: domains/social_studies/artifact-attachments/capstone-public-argument-attachment-registry.yaml
+    review_status: draft
+  - artifact_id: ss-capstone-feedback-revision-routine-01
+    artifact_type: InterventionAsset
+    title: Capstone feedback and revision routine
+    status: draft
+    support_tier: Incubation
+    maturity_state: Drafted
+    target_entity_type: CapabilityNode
+    target_entity_id: A2
+    primary_node_id: A2
+    purpose: support revision after critique, evidence mismatch, or audience-communication breakdown
+    delivery_format: routine
+    source_path: domains/social_studies/artifact-attachments/capstone-public-argument-attachment-registry.yaml
+    review_status: draft

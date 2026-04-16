@@ -1,49 +1,96 @@
 {
   "node_id": "M6",
-  "version": "0.1",
+  "policy_version": "1.0",
+  "version": "0.3",
   "items": [
     {
-      "item_id": "M6-A-001",
-      "family": "direct_sequence",
-      "prompt": "Put the parts of the day in order: morning, afternoon, evening, night.",
+      "item_id": "M6-D-001",
+      "family": "direct_execution",
+      "prompt": "Measure the object to the nearest unit and explain the starting point and unit choice.",
       "target_node": "M6",
       "secondary_dependency_targets": [
         "Z3"
       ],
       "difficulty_band": "core",
       "response_modes_allowed": [
-        "oral_explanation",
-        "written_explanation"
+        "written_symbolic",
+        "oral_explanation"
       ],
       "dominant_failure_modes_if_incorrect": [
         "M6-FM-01",
         "M6-FM-02"
       ],
-      "requires_human_scoring": true
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
     },
     {
-      "item_id": "M6-A-002",
-      "family": "direct_sequence",
-      "prompt": "If today is Tuesday, what day was yesterday and what day is tomorrow?",
+      "item_id": "M6-D-002",
+      "family": "direct_execution",
+      "prompt": "Find the area or perimeter of the figure and state which attribute you computed.",
       "target_node": "M6",
       "secondary_dependency_targets": [
         "Z3"
       ],
       "difficulty_band": "core",
       "response_modes_allowed": [
-        "oral_explanation",
-        "written_explanation"
+        "written_symbolic",
+        "oral_explanation"
       ],
       "dominant_failure_modes_if_incorrect": [
-        "M6-FM-01",
-        "M6-FM-02"
+        "M6-FM-02",
+        "M6-FM-03"
       ],
-      "requires_human_scoring": true
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
     },
     {
-      "item_id": "M6-B-001",
+      "item_id": "M6-D-003",
+      "family": "direct_execution",
+      "prompt": "Convert a quantity within the same measurement system and justify the conversion factor.",
+      "target_node": "M6",
+      "secondary_dependency_targets": [
+        "Z3"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "M6-FM-03",
+        "M6-FM-04"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "M6-D-004",
+      "family": "direct_execution",
+      "prompt": "Measure the object to the nearest unit and explain the starting point and unit choice.",
+      "target_node": "M6",
+      "secondary_dependency_targets": [
+        "Z3"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "M6-FM-04",
+        "M6-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "M6-E-001",
       "family": "explanation",
-      "prompt": "Explain how you know what comes before and after a day in a weekly sequence.",
+      "prompt": "Explain why the chosen unit fits the attribute being measured.",
       "target_node": "M6",
       "secondary_dependency_targets": [
         "Z3"
@@ -51,70 +98,161 @@
       "difficulty_band": "core",
       "response_modes_allowed": [
         "oral_explanation",
-        "written_explanation"
+        "written_explanation",
+        "diagram_annotation"
       ],
       "dominant_failure_modes_if_incorrect": [
-        "M6-FM-01",
         "M6-FM-02"
       ],
-      "requires_human_scoring": true
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "M6-E-002",
+      "family": "explanation",
+      "prompt": "Explain the difference between measuring length, area, and volume in this situation.",
+      "target_node": "M6",
+      "secondary_dependency_targets": [
+        "Z3"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "M6-FM-03"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
     },
     {
       "item_id": "M6-C-001",
       "family": "error_diagnosis",
-      "prompt": "A student answers yesterday and tomorrow by guessing without using the sequence. What should be checked?",
+      "prompt": "A student starts measuring from the 1 mark instead of 0 and reports the raw endpoint. Diagnose the measurement error. Focus on sequence order weakness.",
       "target_node": "M6",
       "secondary_dependency_targets": [
         "Z3"
       ],
-      "difficulty_band": "core",
+      "difficulty_band": "diagnostic",
       "response_modes_allowed": [
+        "multiple_choice",
         "oral_explanation",
         "written_explanation"
       ],
       "dominant_failure_modes_if_incorrect": [
-        "M6-FM-01",
-        "M6-FM-02"
+        "M6-FM-01"
       ],
-      "requires_human_scoring": true
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
     },
     {
-      "item_id": "M6-D-001",
+      "item_id": "M6-C-002",
+      "family": "error_diagnosis",
+      "prompt": "A student adds all side lengths to find area. Identify the attribute confusion. Focus on relative time language weakness.",
+      "target_node": "M6",
+      "secondary_dependency_targets": [
+        "Z3"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "M6-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "M6-T-001",
       "family": "transfer",
-      "prompt": "Use a picture schedule to answer what happens before lunch and after lunch.",
+      "prompt": "Use the measurement idea in a real context such as elapsed time, money, area, or conversion.",
       "target_node": "M6",
       "secondary_dependency_targets": [
         "Z3"
       ],
       "difficulty_band": "transfer",
       "response_modes_allowed": [
-        "oral_explanation",
-        "written_explanation"
+        "written_symbolic",
+        "oral_explanation"
       ],
       "dominant_failure_modes_if_incorrect": [
-        "M6-FM-01",
-        "M6-FM-02"
+        "M6-FM-03"
       ],
-      "requires_human_scoring": true
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "M6-T-002",
+      "family": "transfer",
+      "prompt": "Estimate first, then measure or compute, and explain whether the result is reasonable.",
+      "target_node": "M6",
+      "secondary_dependency_targets": [
+        "Z3"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "M6-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
     },
     {
       "item_id": "M6-R-001",
       "family": "retention",
-      "prompt": "After a delay, answer before/after questions on a new weekly or daily sequence and explain one answer.",
+      "prompt": "On a delayed check, solve a fresh measurement task and explain why the units make sense.",
       "target_node": "M6",
       "secondary_dependency_targets": [
         "Z3"
       ],
       "difficulty_band": "retention",
       "response_modes_allowed": [
-        "oral_explanation",
-        "written_explanation"
+        "written_symbolic",
+        "oral_explanation"
       ],
       "dominant_failure_modes_if_incorrect": [
-        "M6-FM-01",
+        "M6-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability"
+    },
+    {
+      "item_id": "M6-P-001",
+      "family": "prerequisite_probe",
+      "prompt": "Probe pattern and sequence readiness before closing time calendar and sequence measurement readiness, and state whether the learner is blocked by an upstream knowledge gap.",
+      "target_node": "M6",
+      "secondary_dependency_targets": [
+        "Z3"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
         "M6-FM-02"
       ],
-      "requires_human_scoring": true
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "Z3",
+      "suspected_knowledge_gap_if_incorrect": "pattern and sequence readiness",
+      "scoring_focus": "dependency_disambiguation"
     }
   ]
 }

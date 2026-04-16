@@ -1,0 +1,26 @@
+{
+  "node_id": "E1",
+  "version": "0.1",
+  "interventions": {
+    "E1-FM-01": [
+      "use two-column supports labeled claim and evidence",
+      "ask the learner to point to the observation before stating the claim",
+      "rehearse sentence frames such as I know this because I observed"
+    ],
+    "E1-FM-02": [
+      "compare evidence-based and non-evidence-based explanations",
+      "ask what was actually seen measured or recorded",
+      "remove authority language and return to direct observation"
+    ],
+    "E1-FM-03": [
+      "sort strong and weak evidence for the same claim",
+      "ask which observation most directly answers the question",
+      "contrast relevant with irrelevant details"
+    ],
+    "E1-FM-04": [
+      "repeat evidence-talk routines across plants motion weather and material examples",
+      "preserve the claim-evidence structure while changing the phenomenon",
+      "fade prompts after a successful familiar example"
+    ]
+  }
+}

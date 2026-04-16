@@ -1,0 +1,22 @@
+[
+  {
+    "learner_id": "example-fr5-emerging",
+    "node_id": "FR5",
+    "status": "emerging",
+    "dependency_status": {
+      "FR4": "secure"
+    },
+    "direct_accuracy": 0.88,
+    "automaticity_status": "weak",
+    "transfer_status": "weak",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["FR5-FM-01", "FR5-FM-02"],
+    "recommended_interventions": [
+      "bounded rehearsal of already-decodable items",
+      "mix consolidated and recently learned items in a short list"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Learner reads accurately but still uses effortful decoding for many familiar items, especially in mixed lists."
+  }
+]

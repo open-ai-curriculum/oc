@@ -1,37 +1,140 @@
 {
   "node_id": "Q1",
+  "policy_version": "1.0",
   "items": [
     {
-      "item_id": "Q1-A1",
-      "item_family": "direct",
-      "prompt": "interprets ratio language as a multiplicative relationship between two quantities",
+      "item_id": "Q1-DIR-001",
+      "node_id": "Q1",
+      "item_family": "direct_execution",
+      "prompt": "Decide whether the table `(2, 6), (4, 12), (7, 21)` is proportional and justify the constant of proportionality.",
       "expected_evidence": "explain statements such as 2 to 3 or 3 for every 5 as coordinated multiplicative relationships",
       "dominant_failure_mode": "additive_comparison_substitution",
-      "scoring_guidance": "Meets when the learner interprets and represents the ratio correctly."
+      "scoring_guidance": "Meets when the learner demonstrates explain statements such as 2 to 3 or 3 for every 5 as coordinated multiplicative relationships with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "Q1-B1",
+      "item_id": "Q1-DIR-002",
+      "node_id": "Q1",
+      "item_family": "direct_execution",
+      "prompt": "Find the unit rate for 18 miles in 3 hours and explain what it means.",
+      "expected_evidence": "match verbal, pictorial, tabular, and symbolic ratio representations in bounded cases",
+      "dominant_failure_mode": "part_part_part_whole_collapse",
+      "scoring_guidance": "Meets when the learner demonstrates match verbal, pictorial, tabular, and symbolic ratio representations in bounded cases with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
+    },
+    {
+      "item_id": "Q1-DIR-003",
+      "node_id": "Q1",
+      "item_family": "direct_execution",
+      "prompt": "Find 15% of 80 and explain how the percent is acting as a rate per hundred.",
+      "expected_evidence": "reject additive interpretations when a task is ratio-based",
+      "dominant_failure_mode": "representation_disconnect",
+      "scoring_guidance": "Meets when the learner demonstrates reject additive interpretations when a task is ratio-based with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
+    },
+    {
+      "item_id": "Q1-EXP-001",
+      "node_id": "Q1",
       "item_family": "explanation",
-      "prompt": "represents simple ratios in words, diagrams, tables, and symbolic ratio forms",
+      "prompt": "Explain why equal differences alone do not prove a relationship is proportional.",
+      "expected_evidence": "explain statements such as 2 to 3 or 3 for every 5 as coordinated multiplicative relationships",
+      "dominant_failure_mode": "part_part_part_whole_collapse",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to explain statements such as 2 to 3 or 3 for every 5 as coordinated multiplicative relationships.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "Q1-EXP-002",
+      "node_id": "Q1",
+      "item_family": "explanation",
+      "prompt": "Explain how a unit rate and a constant of proportionality describe the same multiplicative structure.",
       "expected_evidence": "match verbal, pictorial, tabular, and symbolic ratio representations in bounded cases",
       "dominant_failure_mode": "representation_disconnect",
-      "scoring_guidance": "Meets when the learner explains how the forms describe the same ratio relationship."
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to match verbal, pictorial, tabular, and symbolic ratio representations in bounded cases.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
     },
     {
-      "item_id": "Q1-C1",
+      "item_id": "Q1-ERR-001",
+      "node_id": "Q1",
       "item_family": "error_diagnosis",
-      "prompt": "Diagnose a peer error aligned to additive_comparison_substitution.",
-      "expected_evidence": "reject additive interpretations when a task is ratio-based",
+      "prompt": "A student says a table is proportional because it increases by 3 each row. Diagnose the additive-pattern error. Focus on additive comparison substitution.",
+      "expected_evidence": "explain statements such as 2 to 3 or 3 for every 5 as coordinated multiplicative relationships",
       "dominant_failure_mode": "additive_comparison_substitution",
-      "scoring_guidance": "Meets when the learner identifies the additive mistake and states the multiplicative relationship."
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward explain statements such as 2 to 3 or 3 for every 5 as coordinated multiplicative relationships.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
     },
     {
-      "item_id": "Q1-D1",
-      "item_family": "transfer",
-      "prompt": "succeeds across part-to-part and part-to-whole ratio contexts without collapsing them into the same claim",
-      "expected_evidence": "compare simple ratio situations using multiplicative rather than difference-based reasoning",
+      "item_id": "Q1-ERR-002",
+      "node_id": "Q1",
+      "item_family": "error_diagnosis",
+      "prompt": "A student scales one quantity by 2 but the other by 3 and still claims proportionality. Identify the breakdown. Focus on part part part whole collapse.",
+      "expected_evidence": "match verbal, pictorial, tabular, and symbolic ratio representations in bounded cases",
       "dominant_failure_mode": "part_part_part_whole_collapse",
-      "scoring_guidance": "Meets when the learner succeeds in a different ratio context without collapsing relationship type."
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward match verbal, pictorial, tabular, and symbolic ratio representations in bounded cases.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "Q1-TRA-001",
+      "node_id": "Q1",
+      "item_family": "transfer",
+      "prompt": "A map uses 1 cm for every 5 km. How far does 7.2 cm represent, and why is the relationship proportional?",
+      "expected_evidence": "explain statements such as 2 to 3 or 3 for every 5 as coordinated multiplicative relationships",
+      "dominant_failure_mode": "representation_disconnect",
+      "scoring_guidance": "Meets when the learner preserves explain statements such as 2 to 3 or 3 for every 5 as coordinated multiplicative relationships in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "Q1-TRA-002",
+      "node_id": "Q1",
+      "item_family": "transfer",
+      "prompt": "A recipe uses 3 cups of flour for 2 batches. Write an equation relating flour to batches and find the amount for 5 batches.",
+      "expected_evidence": "match verbal, pictorial, tabular, and symbolic ratio representations in bounded cases",
+      "dominant_failure_mode": "order_reversal",
+      "scoring_guidance": "Meets when the learner preserves match verbal, pictorial, tabular, and symbolic ratio representations in bounded cases in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "Q1-RET-001",
+      "node_id": "Q1",
+      "item_family": "retention",
+      "prompt": "On a delayed check, determine whether 4 notebooks for $6 and 10 notebooks for $15 are proportional and justify your reasoning.",
+      "expected_evidence": "explain statements such as 2 to 3 or 3 for every 5 as coordinated multiplicative relationships",
+      "dominant_failure_mode": "order_reversal",
+      "scoring_guidance": "Meets when the learner still demonstrates explain statements such as 2 to 3 or 3 for every 5 as coordinated multiplicative relationships on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "Q1-PRE-001",
+      "node_id": "Q1",
+      "item_family": "prerequisite_probe",
+      "prompt": "Probe fraction magnitude beyond one whole before diagnosing ratio as multiplicative comparison, and state whether the learner is missing multiplicative structure or only the current proportional application.",
+      "expected_evidence": "shows whether fraction magnitude beyond one whole is secure enough to support ratio as multiplicative comparison",
+      "dominant_failure_mode": "part_part_part_whole_collapse",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in fraction magnitude beyond one whole from a current-node issue in ratio as multiplicative comparison.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "F6",
+      "suspected_knowledge_gap_if_incorrect": "fraction magnitude beyond one whole"
+    },
+    {
+      "item_id": "Q1-PRE-002",
+      "node_id": "Q1",
+      "item_family": "prerequisite_probe",
+      "prompt": "Probe multiplicative comparison and scaling before diagnosing ratio as multiplicative comparison, and state whether the learner is missing multiplicative structure or only the current proportional application.",
+      "expected_evidence": "shows whether multiplicative comparison and scaling is secure enough to support ratio as multiplicative comparison",
+      "dominant_failure_mode": "representation_disconnect",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in multiplicative comparison and scaling from a current-node issue in ratio as multiplicative comparison.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "T4",
+      "suspected_knowledge_gap_if_incorrect": "multiplicative comparison and scaling"
     }
   ]
 }

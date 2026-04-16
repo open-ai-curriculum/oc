@@ -1,0 +1,44 @@
+id: W2
+name: sentence_generation_and_transcription
+domain: ela_literacy
+support_tier: Core release
+maturity_state: Superseded
+supported_profiles:
+- legacy-writing-or-analysis-node-package
+evidence_class: Synthetic
+dependencies:
+- FR4
+- L1
+- W1
+mastery:
+  direct_accuracy_threshold: 0.85
+  explanation_required: true
+  transfer_required: true
+  retention_check_days: 14
+statuses:
+- blocked
+- emerging
+- provisional
+- secure
+- unstable
+verification_gates:
+- id: G1
+  type: direct_performance
+  pass_rule: produces complete written sentences with manageable transcription load
+    in at least 5 of 6 supported opportunities
+- id: G2
+  type: meaning
+  pass_rule: sentence meaning remains recoverable and relevant to prompt in at least
+    4 of 5 responses
+- id: G3
+  type: transfer
+  pass_rule: succeeds across at least one changed topic, sentence frame, or production
+    context
+- id: G4
+  type: retention
+  pass_rule: stable delayed recheck after approximately 14 days
+failure_modes:
+- W2-FM-01
+- W2-FM-02
+- W2-FM-03
+- W2-FM-04

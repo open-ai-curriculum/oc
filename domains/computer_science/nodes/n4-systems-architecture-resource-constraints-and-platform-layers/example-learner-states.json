@@ -1,0 +1,44 @@
+[
+  {
+    "learner_id": "example-n4-secure",
+    "node_id": "N4",
+    "status": "secure",
+    "dependency_status": {
+      "N3": "secure",
+      "P4": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Explains layered system architecture and resource constraints with stable platform-responsibility reasoning."
+  },
+  {
+    "learner_id": "example-n4-emerging",
+    "node_id": "N4",
+    "status": "emerging",
+    "dependency_status": {
+      "N3": "secure",
+      "P4": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [
+      "N4-FM-01",
+      "N4-FM-02"
+    ],
+    "recommended_interventions": [
+      "N4-INT-01",
+      "N4-INT-02"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Can name system parts but still reasons about software and platforms as one flattened machine."
+  }
+]

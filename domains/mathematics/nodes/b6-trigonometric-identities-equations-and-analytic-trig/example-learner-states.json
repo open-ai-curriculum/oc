@@ -1,0 +1,30 @@
+[
+  {
+    "student_id": "example-secure",
+    "node": "B6",
+    "status": "secure",
+    "direct_accuracy": 0.83,
+    "explanation_status": "meets",
+    "transfer_status": "meets",
+    "retention_status": "meets",
+    "dominant_failure_modes": [],
+    "recommended_interventions": []
+  },
+  {
+    "student_id": "example-blocked",
+    "node": "B6",
+    "status": "blocked",
+    "direct_accuracy": 0.48,
+    "explanation_status": "weak",
+    "transfer_status": "failed",
+    "retention_status": "not_met",
+    "dominant_failure_modes": [
+      "angle_coordinate_period_fragmentation",
+      "quadrant_sign_misread"
+    ],
+    "recommended_interventions": [
+      "connect angle position, unit-circle coordinates, and graph points in one matched routine",
+      "mark quadrants and expected sign patterns before computing values"
+    ]
+  }
+]

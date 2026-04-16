@@ -1,0 +1,29 @@
+{
+  "node_id": "E5",
+  "interventions": [
+    {
+      "failure_mode": "E5-FM-01",
+      "intervention_id": "E5-INT-01",
+      "name": "Evidence Source Mapping",
+      "delivery": "claim support routine"
+    },
+    {
+      "failure_mode": "E5-FM-02",
+      "intervention_id": "E5-INT-02",
+      "name": "Model Role Table",
+      "delivery": "comparison scaffold"
+    },
+    {
+      "failure_mode": "E5-FM-03",
+      "intervention_id": "E5-INT-03",
+      "name": "Pseudo-Integration Critique",
+      "delivery": "review protocol"
+    },
+    {
+      "failure_mode": "E5-FM-04",
+      "intervention_id": "E5-INT-04",
+      "name": "Synthesis Boundary Check",
+      "delivery": "scope audit"
+    }
+  ]
+}

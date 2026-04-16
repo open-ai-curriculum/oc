@@ -1,0 +1,43 @@
+[
+  {
+    "learner_id": "ela-sample-r3-blocked",
+    "node_id": "R3",
+    "status": "blocked",
+    "dependency_status": {
+      "R2": "secure",
+      "O3": "secure"
+    },
+    "direct_accuracy": 0.47,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["R3-FM-01", "R3-FM-03"],
+    "recommended_interventions": [
+      "answer-with-evidence frame",
+      "evidence then because explanation"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Responds with opinions and can rarely connect details back to the question."
+  },
+  {
+    "learner_id": "ela-sample-r3-provisional",
+    "node_id": "R3",
+    "status": "provisional",
+    "dependency_status": {
+      "R2": "secure",
+      "O3": "secure"
+    },
+    "direct_accuracy": 0.9,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [
+      "brief varied evidence-response review"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Uses relevant evidence in both oral and short written response formats."
+  }
+]

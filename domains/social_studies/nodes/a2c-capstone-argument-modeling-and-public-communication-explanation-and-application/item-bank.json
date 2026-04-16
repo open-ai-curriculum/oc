@@ -1,0 +1,18 @@
+{
+  "node_id": "A2C",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "A2C-G1-01",
+      "node_id": "A2C",
+      "gate": "G1",
+      "prompt": "Complete a bounded explanation and application task for capstone argument modeling and public communication and explain your reasoning.",
+      "response_mode": "oral_or_written_or_annotated",
+      "scoring_rule": "Completes the task accurately and gives a usable explanation of the structure or reasoning.",
+      "failure_mode_targets": [
+        "A2C-FM-01",
+        "A2C-FM-02"
+      ]
+    }
+  ]
+}

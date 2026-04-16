@@ -1,0 +1,37 @@
+{
+  "node_id": "B4",
+  "interventions": [
+    {
+      "intervention_id": "B4-INT-01",
+      "name": "B4 Intervention 1",
+      "addresses_failure_modes": [
+        "B4-FM-01"
+      ],
+      "summary": "system-mapping routines that require transport and signaling links across organs"
+    },
+    {
+      "intervention_id": "B4-INT-02",
+      "name": "B4 Intervention 2",
+      "addresses_failure_modes": [
+        "B4-FM-02"
+      ],
+      "summary": "feedback-loop annotation tasks distinguishing sensor, control, and response roles"
+    },
+    {
+      "intervention_id": "B4-INT-03",
+      "name": "B4 Intervention 3",
+      "addresses_failure_modes": [
+        "B4-FM-03"
+      ],
+      "summary": "homeostasis scenarios that show fluctuation within regulated ranges"
+    },
+    {
+      "intervention_id": "B4-INT-04",
+      "name": "B4 Intervention 4",
+      "addresses_failure_modes": [
+        "B4-FM-04"
+      ],
+      "summary": "multi-system case analysis with explicit cross-system evidence prompts"
+    }
+  ]
+}

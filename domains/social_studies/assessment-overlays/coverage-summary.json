@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "id": "social-studies-assessment-overlays-summary",
+    "generated_on": "2026-04-15",
+    "overlay_count": 7
+  },
+  "summary": {
+    "content_substantial_but_compressed": 4,
+    "content_partial": 2,
+    "content_complete": 0,
+    "exploratory": 1
+  },
+  "overlay_summaries": [
+    {
+      "overlay_id": "ap-united-states-history-overlay",
+      "assessment_family": "AP United States History",
+      "overlay_summary_classification": "content_substantial_but_compressed",
+      "unit_count": 4
+    },
+    {
+      "overlay_id": "ap-world-history-modern-overlay",
+      "assessment_family": "AP World History: Modern",
+      "overlay_summary_classification": "content_substantial_but_compressed",
+      "unit_count": 4
+    },
+    {
+      "overlay_id": "ap-united-states-government-and-politics-overlay",
+      "assessment_family": "AP United States Government and Politics",
+      "overlay_summary_classification": "content_substantial_but_compressed",
+      "unit_count": 5
+    },
+    {
+      "overlay_id": "ap-comparative-government-and-politics-overlay",
+      "assessment_family": "AP Comparative Government and Politics",
+      "overlay_summary_classification": "content_partial",
+      "unit_count": 4
+    },
+    {
+      "overlay_id": "ap-human-geography-overlay",
+      "assessment_family": "AP Human Geography",
+      "overlay_summary_classification": "content_substantial_but_compressed",
+      "unit_count": 4
+    },
+    {
+      "overlay_id": "ap-macroeconomics-overlay",
+      "assessment_family": "AP Macroeconomics",
+      "overlay_summary_classification": "content_partial",
+      "unit_count": 4
+    },
+    {
+      "overlay_id": "ap-microeconomics-overlay",
+      "assessment_family": "AP Microeconomics",
+      "overlay_summary_classification": "exploratory",
+      "unit_count": 4
+    }
+  ]
+}

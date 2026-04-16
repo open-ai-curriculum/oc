@@ -1,0 +1,30 @@
+[
+  {
+    "student_id": "example-secure",
+    "node": "W5",
+    "status": "secure",
+    "direct_accuracy": 0.85,
+    "explanation_status": "meets",
+    "transfer_status": "meets",
+    "retention_status": "meets",
+    "dominant_failure_modes": [],
+    "recommended_interventions": []
+  },
+  {
+    "student_id": "example-blocked",
+    "node": "W5",
+    "status": "blocked",
+    "direct_accuracy": 0.52,
+    "explanation_status": "weak",
+    "transfer_status": "failed",
+    "retention_status": "not_met",
+    "dominant_failure_modes": [
+      "representativeness_opacity",
+      "causal_claim_leap"
+    ],
+    "recommended_interventions": [
+      "compare random, convenience, and biased samples drawn from the same hypothetical population",
+      "compare surveys, observational studies, and experiments on the same topic and discuss claim limits"
+    ]
+  }
+]

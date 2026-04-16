@@ -3,7 +3,7 @@
 ## Node Identity
 
 - id: `AP5`
-- name: `bc_series_and_advanced_calculus_extensions`
+- name: `applications_of_derivatives`
 - domain: `mathematics`
 - support tier: `Core release`
 - current maturity state: `Drafted`
@@ -12,22 +12,21 @@
 
 ## Purpose
 
-The learner synthesizes sequence and series reasoning, polynomial approximation, advanced integral and differential connections, and BC-level convergence judgment into a coherent advanced-calculus extension rather than treating those topics as disconnected formula sets.
+The learner uses derivatives to analyze behavior, justify extrema, and solve bounded contextual problems, treating derivative applications as a distinct reasoning surface rather than as a short epilogue to derivative computation.
 
 ## Dependencies
 
 - `AP4`
-- `B1`
 
 
 ## Exit Conditions
 
 The learner is secure on this node only when all of the following are true:
 
-1. interprets sequences and infinite series as structured limiting processes rather than as endless arithmetic procedures
-2. explains convergence, divergence, and approximation using the underlying behavior of terms, partial sums, and local polynomial models
-3. connects Taylor polynomial reasoning, error awareness, and advanced integral or differential relationships in bounded BC-style contexts
-4. selects and justifies BC-level calculus reasoning in bounded series, approximation, and advanced change contexts
+1. uses first- and second-derivative information to analyze increasing, decreasing, concavity, and extrema behavior in bounded cases
+2. solves bounded optimization, motion, and related-rates problems using defensible derivative-based setup and interpretation
+3. connects derivative sign, critical points, and local/global behavior claims without reducing the work to chart templates alone
+4. justifies derivative-application conclusions with correct contextual and graphical meaning
 5. passes a delayed recheck after spacing
 
 
@@ -42,10 +41,10 @@ The learner is secure on this node only when all of the following are true:
 
 The learner can:
 
-- interpret sequences, series, and partial sums consistently across tables, formulas, graphs, and verbal descriptions
-- explain why convergence or divergence claims follow from the structure of terms and accumulated partial behavior
-- connect Taylor polynomial approximations to local function behavior and error-sensitive reasoning
-- justify BC-level calculus claims in bounded modeling or analysis tasks using the correct convergence, approximation, or advanced-change evidence
+- analyze function behavior using first- and second-derivative evidence in bounded symbolic, graphical, and contextual settings
+- solve bounded optimization, motion, or related-rates problems with correct derivative structure
+- explain why a claimed maximum, minimum, or behavior interval follows from derivative evidence
+- justify derivative-application conclusions in context rather than reporting only algebraic output
 
 
 ## Claim Boundary

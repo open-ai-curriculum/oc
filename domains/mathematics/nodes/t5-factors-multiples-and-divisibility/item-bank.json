@@ -1,29 +1,294 @@
 {
   "node_id": "T5",
+  "policy_version": "1.0",
+  "version": "0.3",
   "items": [
     {
-      "item_id": "t5-a1",
-      "item_family": "direct_execution",
-      "prompt": "Representative direct task for factors, multiples, and divisibility.",
-      "expected_evidence": [
-        "Learner uses the intended structure, not only an answer-getting shortcut."
+      "item_id": "T5-D-001",
+      "family": "direct_execution",
+      "prompt": "Represent `6 × 4` with an array or equal-group drawing and find the product.",
+      "target_node": "T5",
+      "secondary_dependency_targets": [
+        "T2",
+        "V2"
       ],
-      "dominant_failure_mode_targets": [
-        "factor_multiple_role_confusion"
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
       ],
-      "context": "arrays"
-    },
-    {
-      "item_id": "t5-b1",
-      "item_family": "explanation",
-      "prompt": "Explain why the chosen structure fits the situation.",
-      "expected_evidence": [
-        "Learner names the structural relationship correctly."
-      ],
-      "dominant_failure_mode_targets": [
+      "dominant_failure_modes_if_incorrect": [
+        "factor_multiple_role_confusion",
         "divisibility_as_rule_only"
       ],
-      "context": "number classifications"
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "T5-D-002",
+      "family": "direct_execution",
+      "prompt": "Find `7 × 8` using a known fact or decomposition strategy and explain the structure used.",
+      "target_node": "T5",
+      "secondary_dependency_targets": [
+        "T2",
+        "V2"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "divisibility_as_rule_only",
+        "remainder_blindness"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "T5-D-003",
+      "family": "direct_execution",
+      "prompt": "Interpret `24 ÷ 6` as both equal sharing and number of groups.",
+      "target_node": "T5",
+      "secondary_dependency_targets": [
+        "T2",
+        "V2"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "remainder_blindness",
+        "family_structure_disconnect"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "T5-D-004",
+      "family": "direct_execution",
+      "prompt": "Represent `6 × 4` with an array or equal-group drawing and find the product.",
+      "target_node": "T5",
+      "secondary_dependency_targets": [
+        "T2",
+        "V2"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "family_structure_disconnect",
+        "factor_multiple_role_confusion"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "T5-E-001",
+      "family": "explanation",
+      "prompt": "Explain what the two factors mean in an equal-groups or array model.",
+      "target_node": "T5",
+      "secondary_dependency_targets": [
+        "T2",
+        "V2"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "divisibility_as_rule_only"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "T5-E-002",
+      "family": "explanation",
+      "prompt": "Explain how a known multiplication fact can help derive a nearby fact.",
+      "target_node": "T5",
+      "secondary_dependency_targets": [
+        "T2",
+        "V2"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "remainder_blindness"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "T5-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student says `3 × 5` means 3 objects total arranged in 5 groups. Diagnose the factor-role confusion. Focus on factor multiple role confusion.",
+      "target_node": "T5",
+      "secondary_dependency_targets": [
+        "T2",
+        "V2"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "factor_multiple_role_confusion"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "T5-C-002",
+      "family": "error_diagnosis",
+      "prompt": "A student solves `24 ÷ 6` with repeated subtraction but cannot explain what the quotient means. Identify the meaning gap. Focus on divisibility as rule only.",
+      "target_node": "T5",
+      "secondary_dependency_targets": [
+        "T2",
+        "V2"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "divisibility_as_rule_only"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "T5-T-001",
+      "family": "transfer",
+      "prompt": "A classroom has 6 rows of 4 chairs. Represent the situation with an equation, a drawing, and a verbal interpretation.",
+      "target_node": "T5",
+      "secondary_dependency_targets": [
+        "T2",
+        "V2"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "remainder_blindness"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "T5-T-002",
+      "family": "transfer",
+      "prompt": "A baker packs 24 muffins equally into 6 boxes. Explain both the operation and the meaning of the quotient.",
+      "target_node": "T5",
+      "secondary_dependency_targets": [
+        "T2",
+        "V2"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "family_structure_disconnect"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "T5-R-001",
+      "family": "retention",
+      "prompt": "On a delayed check, solve `8 × 6` or `42 ÷ 7` and explain the structure, not just the fact recall.",
+      "target_node": "T5",
+      "secondary_dependency_targets": [
+        "T2",
+        "V2"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "family_structure_disconnect"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability"
+    },
+    {
+      "item_id": "T5-P-001",
+      "family": "prerequisite_probe",
+      "prompt": "Use a prerequisite check on multiplication fact structure to tell whether the learner is missing equal-group structure or the current multiplication/division idea.",
+      "target_node": "T5",
+      "secondary_dependency_targets": [
+        "T2",
+        "V2"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "divisibility_as_rule_only"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "T2",
+      "suspected_knowledge_gap_if_incorrect": "multiplication fact structure",
+      "scoring_focus": "dependency_disambiguation"
+    },
+    {
+      "item_id": "T5-P-002",
+      "family": "prerequisite_probe",
+      "prompt": "Use a prerequisite check on compare and order multidigit numbers to tell whether the learner is missing equal-group structure or the current multiplication/division idea.",
+      "target_node": "T5",
+      "secondary_dependency_targets": [
+        "T2",
+        "V2"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "remainder_blindness"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "V2",
+      "suspected_knowledge_gap_if_incorrect": "compare and order multidigit numbers",
+      "scoring_focus": "dependency_disambiguation"
     }
   ]
 }

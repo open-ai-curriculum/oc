@@ -1,0 +1,72 @@
+{
+  "node_id": "Q2",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "Q2-A-001",
+      "family": "question_and_prediction",
+      "prompt": "Seeds near a window and seeds in a dark box are starting to look different. Ask one question that could be checked by watching them.",
+      "target_node": "Q2",
+      "secondary_dependency_targets": ["Q1"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation", "short_text"],
+      "dominant_failure_modes_if_incorrect": ["Q2-FM-01", "Q2-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "Q2-A-002",
+      "family": "question_and_prediction",
+      "prompt": "A ball is rolled down the same ramp again. What is a simple prediction you can make?",
+      "target_node": "Q2",
+      "secondary_dependency_targets": ["Q1"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation", "selected_response"],
+      "dominant_failure_modes_if_incorrect": ["Q2-FM-02", "Q2-FM-03"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "Q2-B-001",
+      "family": "explanation",
+      "prompt": "Explain why your question about the cloud pattern is something that could actually be checked.",
+      "target_node": "Q2",
+      "secondary_dependency_targets": ["Q1"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["Q2-FM-01", "Q2-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "Q2-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student asks, Why is this bug happy? What should be checked about that question before using it in science?",
+      "target_node": "Q2",
+      "secondary_dependency_targets": ["Q1"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["multiple_choice", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["Q2-FM-01", "Q2-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "Q2-D-001",
+      "family": "transfer",
+      "prompt": "Ask one checkable question about a plant and one checkable question about a puddle. Explain what makes both questions scientific.",
+      "target_node": "Q2",
+      "secondary_dependency_targets": ["Q1"],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": ["oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["Q2-FM-03", "Q2-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "Q2-R-001",
+      "family": "retention",
+      "prompt": "After time has passed, look at a repeated classroom weather chart and state one pattern and one prediction for tomorrow.",
+      "target_node": "Q2",
+      "secondary_dependency_targets": ["Q1"],
+      "difficulty_band": "retention",
+      "response_modes_allowed": ["oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["Q2-FM-02", "Q2-FM-03"],
+      "requires_human_scoring": true
+    }
+  ]
+}

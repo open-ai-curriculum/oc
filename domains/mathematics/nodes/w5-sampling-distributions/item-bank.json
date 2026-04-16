@@ -1,0 +1,140 @@
+{
+  "node_id": "W5",
+  "policy_version": "1.0",
+  "items": [
+    {
+      "item_id": "W5-DIR-001",
+      "node_id": "W5",
+      "item_family": "direct_execution",
+      "prompt": "Solve `x + 7 = 19` and show how each step preserves equality.",
+      "expected_evidence": "explain why sample statistics vary across repeated samples and how sampling distributions model that variation",
+      "dominant_failure_mode": "inference_design_fragmentation",
+      "scoring_guidance": "Meets when the learner demonstrates explain why sample statistics vary across repeated samples and how sampling distributions model that variation with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
+    },
+    {
+      "item_id": "W5-DIR-002",
+      "node_id": "W5",
+      "item_family": "direct_execution",
+      "prompt": "Solve `4x = 28`, then check the solution by substitution.",
+      "expected_evidence": "interpret bounded sampling-distribution summaries for proportions or means in words and notation",
+      "dominant_failure_mode": "representativeness_opacity",
+      "scoring_guidance": "Meets when the learner demonstrates interpret bounded sampling-distribution summaries for proportions or means in words and notation with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
+    },
+    {
+      "item_id": "W5-DIR-003",
+      "node_id": "W5",
+      "item_family": "direct_execution",
+      "prompt": "Match the equation `n - 5 = 12` to a balance or missing-value situation and solve it.",
+      "expected_evidence": "compare how larger or smaller sample sizes change inferential stability through standard error",
+      "dominant_failure_mode": "causal_claim_leap",
+      "scoring_guidance": "Meets when the learner demonstrates compare how larger or smaller sample sizes change inferential stability through standard error with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
+    },
+    {
+      "item_id": "W5-EXP-001",
+      "node_id": "W5",
+      "item_family": "explanation",
+      "prompt": "Explain why subtracting the same value from both sides of an equation preserves the solution set.",
+      "expected_evidence": "explain why sample statistics vary across repeated samples and how sampling distributions model that variation",
+      "dominant_failure_mode": "representativeness_opacity",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to explain why sample statistics vary across repeated samples and how sampling distributions model that variation.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "W5-EXP-002",
+      "node_id": "W5",
+      "item_family": "explanation",
+      "prompt": "Explain what the variable represents and why inverse operations help isolate it.",
+      "expected_evidence": "interpret bounded sampling-distribution summaries for proportions or means in words and notation",
+      "dominant_failure_mode": "causal_claim_leap",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to interpret bounded sampling-distribution summaries for proportions or means in words and notation.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "W5-ERR-001",
+      "node_id": "W5",
+      "item_family": "error_diagnosis",
+      "prompt": "A student solves `x + 5 = 13` by writing `x = 13 + 5`. Diagnose the first structural mistake. Focus on inference design fragmentation.",
+      "expected_evidence": "explain why sample statistics vary across repeated samples and how sampling distributions model that variation",
+      "dominant_failure_mode": "inference_design_fragmentation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward explain why sample statistics vary across repeated samples and how sampling distributions model that variation.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "W5-ERR-002",
+      "node_id": "W5",
+      "item_family": "error_diagnosis",
+      "prompt": "A student solves `3x = 18` by dividing only the `x`. Explain what went wrong. Focus on representativeness opacity.",
+      "expected_evidence": "interpret bounded sampling-distribution summaries for proportions or means in words and notation",
+      "dominant_failure_mode": "representativeness_opacity",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward interpret bounded sampling-distribution summaries for proportions or means in words and notation.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "W5-TRA-001",
+      "node_id": "W5",
+      "item_family": "transfer",
+      "prompt": "A gym charges a $12 signup fee plus $5 per class. Write and solve an equation for the number of classes if the total was $32.",
+      "expected_evidence": "explain why sample statistics vary across repeated samples and how sampling distributions model that variation",
+      "dominant_failure_mode": "causal_claim_leap",
+      "scoring_guidance": "Meets when the learner preserves explain why sample statistics vary across repeated samples and how sampling distributions model that variation in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "W5-TRA-002",
+      "node_id": "W5",
+      "item_family": "transfer",
+      "prompt": "A balance model has three equal bags and 6 loose counters on one side and 24 counters on the other. Write and solve the equation.",
+      "expected_evidence": "interpret bounded sampling-distribution summaries for proportions or means in words and notation",
+      "dominant_failure_mode": "bias_source_blindness",
+      "scoring_guidance": "Meets when the learner preserves interpret bounded sampling-distribution summaries for proportions or means in words and notation in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "W5-RET-001",
+      "node_id": "W5",
+      "item_family": "retention",
+      "prompt": "Two weeks later, solve `m/3 = 8` and explain how you know the result is reasonable.",
+      "expected_evidence": "explain why sample statistics vary across repeated samples and how sampling distributions model that variation",
+      "dominant_failure_mode": "bias_source_blindness",
+      "scoring_guidance": "Meets when the learner still demonstrates explain why sample statistics vary across repeated samples and how sampling distributions model that variation on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "W5-PRE-001",
+      "node_id": "W5",
+      "item_family": "prerequisite_probe",
+      "prompt": "Before solving sampling distributions, complete a prerequisite check on statistical distributions and variability and explain how it supports the current equation work.",
+      "expected_evidence": "shows whether statistical distributions and variability is secure enough to support sampling distributions",
+      "dominant_failure_mode": "representativeness_opacity",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in statistical distributions and variability from a current-node issue in sampling distributions.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "W1",
+      "suspected_knowledge_gap_if_incorrect": "statistical distributions and variability"
+    },
+    {
+      "item_id": "W5-PRE-002",
+      "node_id": "W5",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a quick probability models and compound events check to explain whether the learner is blocked by prerequisite structure or by sampling distributions itself.",
+      "expected_evidence": "shows whether probability models and compound events is secure enough to support sampling distributions",
+      "dominant_failure_mode": "causal_claim_leap",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in probability models and compound events from a current-node issue in sampling distributions.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "W4",
+      "suspected_knowledge_gap_if_incorrect": "probability models and compound events"
+    }
+  ]
+}

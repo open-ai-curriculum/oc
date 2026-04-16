@@ -1,0 +1,140 @@
+{
+  "node_id": "W8",
+  "policy_version": "1.0",
+  "items": [
+    {
+      "item_id": "W8-DIR-001",
+      "node_id": "W8",
+      "item_family": "direct_execution",
+      "prompt": "Classify the study as survey, observational study, or experiment and state what claim is supported.",
+      "expected_evidence": "compute or interpret expected counts in bounded categorical-data settings",
+      "dominant_failure_mode": "sample_space_model_fragmentation",
+      "scoring_guidance": "Meets when the learner demonstrates compute or interpret expected counts in bounded categorical-data settings with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
+    },
+    {
+      "item_id": "W8-DIR-002",
+      "node_id": "W8",
+      "item_family": "direct_execution",
+      "prompt": "Use a two-way table or probability model to find the probability of a compound event.",
+      "expected_evidence": "explain what a chi-square comparison says about fit or association in categorical data",
+      "dominant_failure_mode": "independence_conditioning_opacity",
+      "scoring_guidance": "Meets when the learner demonstrates explain what a chi-square comparison says about fit or association in categorical data with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
+    },
+    {
+      "item_id": "W8-DIR-003",
+      "node_id": "W8",
+      "item_family": "direct_execution",
+      "prompt": "Describe the center and spread of a distribution using the given plot.",
+      "expected_evidence": "distinguish observed-versus-expected evidence from stronger causal claims",
+      "dominant_failure_mode": "overlap_double_counting",
+      "scoring_guidance": "Meets when the learner demonstrates distinguish observed-versus-expected evidence from stronger causal claims with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
+    },
+    {
+      "item_id": "W8-EXP-001",
+      "node_id": "W8",
+      "item_family": "explanation",
+      "prompt": "Explain how sample design affects what can be inferred about a population.",
+      "expected_evidence": "compute or interpret expected counts in bounded categorical-data settings",
+      "dominant_failure_mode": "independence_conditioning_opacity",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to compute or interpret expected counts in bounded categorical-data settings.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "W8-EXP-002",
+      "node_id": "W8",
+      "item_family": "explanation",
+      "prompt": "Explain why theoretical probability and short-run experimental results can differ.",
+      "expected_evidence": "explain what a chi-square comparison says about fit or association in categorical data",
+      "dominant_failure_mode": "overlap_double_counting",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to explain what a chi-square comparison says about fit or association in categorical data.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "W8-ERR-001",
+      "node_id": "W8",
+      "item_family": "error_diagnosis",
+      "prompt": "A student uses an observational study to claim causation. Diagnose the study-design error. Focus on sample space model fragmentation.",
+      "expected_evidence": "compute or interpret expected counts in bounded categorical-data settings",
+      "dominant_failure_mode": "sample_space_model_fragmentation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward compute or interpret expected counts in bounded categorical-data settings.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "W8-ERR-002",
+      "node_id": "W8",
+      "item_family": "error_diagnosis",
+      "prompt": "A student adds overlapping events as if they were disjoint. Identify the double-counting mistake. Focus on independence conditioning opacity.",
+      "expected_evidence": "explain what a chi-square comparison says about fit or association in categorical data",
+      "dominant_failure_mode": "independence_conditioning_opacity",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward explain what a chi-square comparison says about fit or association in categorical data.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "W8-TRA-001",
+      "node_id": "W8",
+      "item_family": "transfer",
+      "prompt": "Read a less-familiar graph or study summary and decide whether the reported conclusion is supported.",
+      "expected_evidence": "compute or interpret expected counts in bounded categorical-data settings",
+      "dominant_failure_mode": "overlap_double_counting",
+      "scoring_guidance": "Meets when the learner preserves compute or interpret expected counts in bounded categorical-data settings in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "W8-TRA-002",
+      "node_id": "W8",
+      "item_family": "transfer",
+      "prompt": "Given a probability simulation result, explain whether the difference from theory is surprising or expected.",
+      "expected_evidence": "explain what a chi-square comparison says about fit or association in categorical data",
+      "dominant_failure_mode": "short_run_variation_overreaction",
+      "scoring_guidance": "Meets when the learner preserves explain what a chi-square comparison says about fit or association in categorical data in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "W8-RET-001",
+      "node_id": "W8",
+      "item_family": "retention",
+      "prompt": "After a delay, interpret a new sample summary and state one supported inference and one unsupported claim.",
+      "expected_evidence": "compute or interpret expected counts in bounded categorical-data settings",
+      "dominant_failure_mode": "short_run_variation_overreaction",
+      "scoring_guidance": "Meets when the learner still demonstrates compute or interpret expected counts in bounded categorical-data settings on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "W8-PRE-001",
+      "node_id": "W8",
+      "item_family": "prerequisite_probe",
+      "prompt": "Run a prerequisite check on probability models and compound events to determine whether the reported error reflects upstream representation limits or current chi square reasoning reasoning.",
+      "expected_evidence": "shows whether probability models and compound events is secure enough to support chi square reasoning",
+      "dominant_failure_mode": "independence_conditioning_opacity",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in probability models and compound events from a current-node issue in chi square reasoning.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "W4",
+      "suspected_knowledge_gap_if_incorrect": "probability models and compound events"
+    },
+    {
+      "item_id": "W8-PRE-002",
+      "node_id": "W8",
+      "item_family": "prerequisite_probe",
+      "prompt": "Run a prerequisite check on sampling inference and study design to determine whether the reported error reflects upstream representation limits or current chi square reasoning reasoning.",
+      "expected_evidence": "shows whether sampling inference and study design is secure enough to support chi square reasoning",
+      "dominant_failure_mode": "overlap_double_counting",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in sampling inference and study design from a current-node issue in chi square reasoning.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "W3",
+      "suspected_knowledge_gap_if_incorrect": "sampling inference and study design"
+    }
+  ]
+}

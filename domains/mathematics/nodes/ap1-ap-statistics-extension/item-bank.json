@@ -1,37 +1,140 @@
 {
   "node_id": "AP1",
+  "policy_version": "1.0",
   "items": [
     {
-      "item_id": "AP1-A1",
-      "item_family": "direct",
-      "prompt": "integrates statistical design, probability, and inferential evidence to answer bounded AP-style statistical questions",
-      "expected_evidence": "integrate distribution, association, design, and probability evidence in one bounded inferential argument",
+      "item_id": "AP1-DIR-001",
+      "node_id": "AP1",
+      "item_family": "direct_execution",
+      "prompt": "Solve `x + 7 = 19` and show how each step preserves equality.",
+      "expected_evidence": "integrate distribution, association, design, probability, and the correct inferential routine in one bounded AP Statistics-style argument",
       "dominant_failure_mode": "evidence_chain_fragmentation",
-      "scoring_guidance": "Meets when the learner builds a coherent statistical argument that links model, design, and evidence strength correctly."
+      "scoring_guidance": "Meets when the learner demonstrates integrate distribution, association, design, probability, and the correct inferential routine in one bounded AP Statistics-style argument with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "AP1-B1",
-      "item_family": "explanation",
-      "prompt": "explains how chance variation, study design, and probabilistic reasoning determine whether a statistical claim is persuasive",
-      "expected_evidence": "explain how chance variation and study design interact when interpreting evidence strength",
+      "item_id": "AP1-DIR-002",
+      "node_id": "AP1",
+      "item_family": "direct_execution",
+      "prompt": "Solve `4x = 28`, then check the solution by substitution.",
+      "expected_evidence": "justify whether a scenario calls for proportion, mean, chi-square, or regression-slope inference",
       "dominant_failure_mode": "chance_evidence_opacity",
-      "scoring_guidance": "Meets when the learner explains AP-style statistical evidence as a structured reasoning chain rather than as procedural output."
+      "scoring_guidance": "Meets when the learner demonstrates justify whether a scenario calls for proportion, mean, chi-square, or regression-slope inference with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "AP1-C1",
-      "item_family": "error_diagnosis",
-      "prompt": "Diagnose a peer error aligned to inferential_overreach_from_weak_design.",
-      "expected_evidence": "critique AP-style statistical claims for misuse of probability, bias, or inferential overreach",
+      "item_id": "AP1-DIR-003",
+      "node_id": "AP1",
+      "item_family": "direct_execution",
+      "prompt": "Match the equation `n - 5 = 12` to a balance or missing-value situation and solve it.",
+      "expected_evidence": "explain how chance variation and study structure interact when interpreting evidence strength",
       "dominant_failure_mode": "inferential_overreach_from_weak_design",
-      "scoring_guidance": "Meets when the learner identifies where a claim exceeded what the design, model, or evidence could support."
+      "scoring_guidance": "Meets when the learner demonstrates explain how chance variation and study structure interact when interpreting evidence strength with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
     },
     {
-      "item_id": "AP1-D1",
+      "item_id": "AP1-EXP-001",
+      "node_id": "AP1",
+      "item_family": "explanation",
+      "prompt": "Explain why subtracting the same value from both sides of an equation preserves the solution set.",
+      "expected_evidence": "integrate distribution, association, design, probability, and the correct inferential routine in one bounded AP Statistics-style argument",
+      "dominant_failure_mode": "chance_evidence_opacity",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to integrate distribution, association, design, probability, and the correct inferential routine in one bounded AP Statistics-style argument.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "AP1-EXP-002",
+      "node_id": "AP1",
+      "item_family": "explanation",
+      "prompt": "Explain what the variable represents and why inverse operations help isolate it.",
+      "expected_evidence": "justify whether a scenario calls for proportion, mean, chi-square, or regression-slope inference",
+      "dominant_failure_mode": "inferential_overreach_from_weak_design",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to justify whether a scenario calls for proportion, mean, chi-square, or regression-slope inference.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "AP1-ERR-001",
+      "node_id": "AP1",
+      "item_family": "error_diagnosis",
+      "prompt": "A student solves `x + 5 = 13` by writing `x = 13 + 5`. Diagnose the first structural mistake. Focus on evidence chain fragmentation.",
+      "expected_evidence": "integrate distribution, association, design, probability, and the correct inferential routine in one bounded AP Statistics-style argument",
+      "dominant_failure_mode": "evidence_chain_fragmentation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward integrate distribution, association, design, probability, and the correct inferential routine in one bounded AP Statistics-style argument.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "AP1-ERR-002",
+      "node_id": "AP1",
+      "item_family": "error_diagnosis",
+      "prompt": "A student solves `3x = 18` by dividing only the `x`. Explain what went wrong. Focus on chance evidence opacity.",
+      "expected_evidence": "justify whether a scenario calls for proportion, mean, chi-square, or regression-slope inference",
+      "dominant_failure_mode": "chance_evidence_opacity",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward justify whether a scenario calls for proportion, mean, chi-square, or regression-slope inference.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "AP1-TRA-001",
+      "node_id": "AP1",
       "item_family": "transfer",
-      "prompt": "interprets a less-familiar AP-style statistics scenario and identifies the most defensible conclusion under uncertainty",
-      "expected_evidence": "compare competing statistical explanations and identify the strongest supported conclusion",
+      "prompt": "A gym charges a $12 signup fee plus $5 per class. Write and solve an equation for the number of classes if the total was $32.",
+      "expected_evidence": "integrate distribution, association, design, probability, and the correct inferential routine in one bounded AP Statistics-style argument",
+      "dominant_failure_mode": "inferential_overreach_from_weak_design",
+      "scoring_guidance": "Meets when the learner preserves integrate distribution, association, design, probability, and the correct inferential routine in one bounded AP Statistics-style argument in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "AP1-TRA-002",
+      "node_id": "AP1",
+      "item_family": "transfer",
+      "prompt": "A balance model has three equal bags and 6 loose counters on one side and 24 counters on the other. Write and solve the equation.",
+      "expected_evidence": "justify whether a scenario calls for proportion, mean, chi-square, or regression-slope inference",
       "dominant_failure_mode": "model_claim_misalignment",
-      "scoring_guidance": "Meets when the learner preserves coherent probabilistic and inferential reasoning in a varied AP-style context."
+      "scoring_guidance": "Meets when the learner preserves justify whether a scenario calls for proportion, mean, chi-square, or regression-slope inference in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "AP1-RET-001",
+      "node_id": "AP1",
+      "item_family": "retention",
+      "prompt": "Two weeks later, solve `m/3 = 8` and explain how you know the result is reasonable.",
+      "expected_evidence": "integrate distribution, association, design, probability, and the correct inferential routine in one bounded AP Statistics-style argument",
+      "dominant_failure_mode": "model_claim_misalignment",
+      "scoring_guidance": "Meets when the learner still demonstrates integrate distribution, association, design, probability, and the correct inferential routine in one bounded AP Statistics-style argument on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "AP1-PRE-001",
+      "node_id": "AP1",
+      "item_family": "prerequisite_probe",
+      "prompt": "Before solving ap statistics extension, complete a prerequisite check on bivariate data and linear association and explain how it supports the current equation work.",
+      "expected_evidence": "shows whether bivariate data and linear association is secure enough to support ap statistics extension",
+      "dominant_failure_mode": "chance_evidence_opacity",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in bivariate data and linear association from a current-node issue in ap statistics extension.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "W2",
+      "suspected_knowledge_gap_if_incorrect": "bivariate data and linear association"
+    },
+    {
+      "item_id": "AP1-PRE-002",
+      "node_id": "AP1",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a quick probability models and compound events check to explain whether the learner is blocked by prerequisite structure or by ap statistics extension itself.",
+      "expected_evidence": "shows whether probability models and compound events is secure enough to support ap statistics extension",
+      "dominant_failure_mode": "inferential_overreach_from_weak_design",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in probability models and compound events from a current-node issue in ap statistics extension.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "W4",
+      "suspected_knowledge_gap_if_incorrect": "probability models and compound events"
     }
   ]
 }

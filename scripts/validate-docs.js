@@ -202,6 +202,259 @@ function validateMathematicsDomain() {
   }
 }
 
+function validateElaLiteracyDomain() {
+  const auditScript = path.join(__dirname, 'validate-ela-literacy-domain.js');
+  if (!fs.existsSync(auditScript)) {
+    fail('Missing scripts/validate-ela-literacy-domain.js');
+    return;
+  }
+
+  try {
+    childProcess.execFileSync(process.execPath, [auditScript], {
+      cwd: repoRoot,
+      stdio: 'inherit',
+    });
+  } catch (error) {
+    process.exitCode = 1;
+  }
+}
+
+function validateLearningToLearnDomain() {
+  const auditScript = path.join(__dirname, 'validate-learning-to-learn-domain.js');
+  if (!fs.existsSync(auditScript)) {
+    fail('Missing scripts/validate-learning-to-learn-domain.js');
+    return;
+  }
+
+  try {
+    childProcess.execFileSync(process.execPath, [auditScript], {
+      cwd: repoRoot,
+      stdio: 'inherit',
+    });
+  } catch (error) {
+    process.exitCode = 1;
+  }
+}
+
+function validateLearningToLearnLinks() {
+  const learningToLearnDocs = [
+    'domains/learning_to_learn/README.md',
+    'domains/learning_to_learn/master-learning-to-learn-graph-architecture.md',
+    'domains/learning_to_learn/downstream-expansion-plan.md',
+    'domains/learning_to_learn/artifact-attachments/README.md',
+    'domains/learning_to_learn/runtime/README.md',
+    'domains/learning_to_learn/exports/operational-graph/README.md',
+  ];
+
+  for (const relativePath of learningToLearnDocs) {
+    validateLinks(relativePath);
+  }
+}
+
+function validateMathematicsCrossDomainRuntime() {
+  const auditScript = path.join(__dirname, 'validate-mathematics-cross-domain-runtime.js');
+  if (!fs.existsSync(auditScript)) {
+    fail('Missing scripts/validate-mathematics-cross-domain-runtime.js');
+    return;
+  }
+
+  try {
+    childProcess.execFileSync(process.execPath, [auditScript], {
+      cwd: repoRoot,
+      stdio: 'inherit',
+    });
+  } catch (error) {
+    process.exitCode = 1;
+  }
+}
+
+function validateMathematicsCrossDomainRoutingExamples() {
+  const auditScript = path.join(__dirname, 'validate-mathematics-cross-domain-routing-examples.js');
+  if (!fs.existsSync(auditScript)) {
+    fail('Missing scripts/validate-mathematics-cross-domain-routing-examples.js');
+    return;
+  }
+
+  try {
+    childProcess.execFileSync(process.execPath, [auditScript], {
+      cwd: repoRoot,
+      stdio: 'inherit',
+    });
+  } catch (error) {
+    process.exitCode = 1;
+  }
+}
+
+function validateSocialStudiesDomain() {
+  const auditScript = path.join(__dirname, 'validate-social-studies-domain.js');
+  if (!fs.existsSync(auditScript)) {
+    fail('Missing scripts/validate-social-studies-domain.js');
+    return;
+  }
+
+  try {
+    childProcess.execFileSync(process.execPath, [auditScript], {
+      cwd: repoRoot,
+      stdio: 'inherit',
+    });
+  } catch (error) {
+    process.exitCode = 1;
+  }
+}
+
+function validateSocialStudiesStandardsCoverage() {
+  const auditScript = path.join(__dirname, 'validate-social-studies-standards-coverage.js');
+  if (!fs.existsSync(auditScript)) {
+    fail('Missing scripts/validate-social-studies-standards-coverage.js');
+    return;
+  }
+
+  try {
+    childProcess.execFileSync(process.execPath, [auditScript], {
+      cwd: repoRoot,
+      stdio: 'inherit',
+    });
+  } catch (error) {
+    process.exitCode = 1;
+  }
+}
+
+function validateSocialStudiesAssessmentOverlays() {
+  const auditScript = path.join(__dirname, 'validate-social-studies-assessment-overlays.js');
+  if (!fs.existsSync(auditScript)) {
+    fail('Missing scripts/validate-social-studies-assessment-overlays.js');
+    return;
+  }
+
+  try {
+    childProcess.execFileSync(process.execPath, [auditScript], {
+      cwd: repoRoot,
+      stdio: 'inherit',
+    });
+  } catch (error) {
+    process.exitCode = 1;
+  }
+}
+
+function validateSocialStudiesAssessmentFrameworkAssurance() {
+  const auditScript = path.join(__dirname, 'validate-social-studies-assessment-framework-assurance.js');
+  if (!fs.existsSync(auditScript)) {
+    fail('Missing scripts/validate-social-studies-assessment-framework-assurance.js');
+    return;
+  }
+
+  try {
+    childProcess.execFileSync(process.execPath, [auditScript], {
+      cwd: repoRoot,
+      stdio: 'inherit',
+    });
+  } catch (error) {
+    process.exitCode = 1;
+  }
+}
+
+function validateSocialStudiesExternalFrameworkRegistry() {
+  const auditScript = path.join(__dirname, 'validate-social-studies-external-framework-registry.js');
+  if (!fs.existsSync(auditScript)) {
+    fail('Missing scripts/validate-social-studies-external-framework-registry.js');
+    return;
+  }
+
+  try {
+    childProcess.execFileSync(process.execPath, [auditScript], {
+      cwd: repoRoot,
+      stdio: 'inherit',
+    });
+  } catch (error) {
+    process.exitCode = 1;
+  }
+}
+
+function validateSocialStudiesFocusedGraphCuts() {
+  const auditScript = path.join(__dirname, 'validate-social-studies-focused-graph-cuts.js');
+  if (!fs.existsSync(auditScript)) {
+    fail('Missing scripts/validate-social-studies-focused-graph-cuts.js');
+    return;
+  }
+
+  try {
+    childProcess.execFileSync(process.execPath, [auditScript], {
+      cwd: repoRoot,
+      stdio: 'inherit',
+    });
+  } catch (error) {
+    process.exitCode = 1;
+  }
+}
+
+function validateSocialStudiesArtifactRegistries() {
+  const auditScript = path.join(__dirname, 'validate-social-studies-artifact-registries.js');
+  if (!fs.existsSync(auditScript)) {
+    fail('Missing scripts/validate-social-studies-artifact-registries.js');
+    return;
+  }
+
+  try {
+    childProcess.execFileSync(process.execPath, [auditScript], {
+      cwd: repoRoot,
+      stdio: 'inherit',
+    });
+  } catch (error) {
+    process.exitCode = 1;
+  }
+}
+
+function validateSocialStudiesExportConsistency() {
+  const auditScript = path.join(__dirname, 'validate-social-studies-export-consistency.js');
+  if (!fs.existsSync(auditScript)) {
+    fail('Missing scripts/validate-social-studies-export-consistency.js');
+    return;
+  }
+
+  try {
+    childProcess.execFileSync(process.execPath, [auditScript], {
+      cwd: repoRoot,
+      stdio: 'inherit',
+    });
+  } catch (error) {
+    process.exitCode = 1;
+  }
+}
+
+function validateSocialStudiesCrossDomainRuntime() {
+  const auditScript = path.join(__dirname, 'validate-social-studies-cross-domain-runtime.js');
+  if (!fs.existsSync(auditScript)) {
+    fail('Missing scripts/validate-social-studies-cross-domain-runtime.js');
+    return;
+  }
+
+  try {
+    childProcess.execFileSync(process.execPath, [auditScript], {
+      cwd: repoRoot,
+      stdio: 'inherit',
+    });
+  } catch (error) {
+    process.exitCode = 1;
+  }
+}
+
+function validateSocialStudiesCrossDomainRoutingExamples() {
+  const auditScript = path.join(__dirname, 'validate-social-studies-cross-domain-routing-examples.js');
+  if (!fs.existsSync(auditScript)) {
+    fail('Missing scripts/validate-social-studies-cross-domain-routing-examples.js');
+    return;
+  }
+
+  try {
+    childProcess.execFileSync(process.execPath, [auditScript], {
+      cwd: repoRoot,
+      stdio: 'inherit',
+    });
+  } catch (error) {
+    process.exitCode = 1;
+  }
+}
+
 for (const relativePath of maintainedDocs) {
   if (!fs.existsSync(path.join(repoRoot, relativePath))) {
     fail(`Missing maintained doc: ${relativePath}`);
@@ -219,3 +472,18 @@ for (const relativePath of [...maintainedDocs, ...maintainedSpecs]) {
 validateDependencyMap();
 validateCapabilityRegistry();
 validateMathematicsDomain();
+validateElaLiteracyDomain();
+validateLearningToLearnDomain();
+validateSocialStudiesDomain();
+validateLearningToLearnLinks();
+validateSocialStudiesStandardsCoverage();
+validateSocialStudiesAssessmentOverlays();
+validateSocialStudiesAssessmentFrameworkAssurance();
+validateSocialStudiesExternalFrameworkRegistry();
+validateSocialStudiesFocusedGraphCuts();
+validateSocialStudiesArtifactRegistries();
+validateSocialStudiesExportConsistency();
+validateMathematicsCrossDomainRuntime();
+validateMathematicsCrossDomainRoutingExamples();
+validateSocialStudiesCrossDomainRuntime();
+validateSocialStudiesCrossDomainRoutingExamples();

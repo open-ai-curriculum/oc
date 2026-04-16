@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://open-ai-curriculum.local/domains/ela_literacy/runtime/runtime-slice.schema.json",
+  "title": "ELA/Literacy Runtime Slice",
+  "type": "object",
+  "required": ["slice_id", "domain", "status", "version", "node_ids", "entry_node_ids", "learner_state_fields", "navigation_rules"],
+  "properties": {
+    "slice_id": { "type": "string" },
+    "domain": { "const": "ela_literacy" },
+    "status": { "type": "string", "enum": ["draft", "review", "approved"] },
+    "version": { "type": "string" },
+    "node_ids": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "entry_node_ids": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "learner_state_fields": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "navigation_rules": { "type": "array", "items": { "type": "object" }, "minItems": 1 },
+    "artifact_registry_reference": { "type": "string" },
+    "review_status": { "type": "string", "enum": ["draft", "review", "approved"] }
+  },
+  "additionalProperties": false
+}

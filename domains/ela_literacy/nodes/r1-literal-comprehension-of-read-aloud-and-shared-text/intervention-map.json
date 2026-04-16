@@ -1,0 +1,26 @@
+{
+  "node_id": "R1",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "R1-FM-01": [
+      "shorter text chunk before questioning",
+      "immediate literal question after the relevant segment",
+      "short oral retell frame"
+    ],
+    "R1-FM-02": [
+      "reduced extra cues",
+      "changed question wording with stable literal target",
+      "point to or retell the relevant text event"
+    ],
+    "R1-FM-03": [
+      "simpler response frame with same meaning target",
+      "modeled answer structure before independent response",
+      "separate expressive bottleneck from comprehension"
+    ],
+    "R1-FM-04": [
+      "stable comprehension frame with changed text type",
+      "alternating narrative and informational read-alouds",
+      "explicit but delayed genre contrast"
+    ]
+  }
+}

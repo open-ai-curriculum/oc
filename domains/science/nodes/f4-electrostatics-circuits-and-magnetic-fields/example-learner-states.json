@@ -1,0 +1,46 @@
+[
+  {
+    "learner_id": "example-f4-secure",
+    "node_id": "F4",
+    "status": "secure",
+    "dependency_status": {
+      "P5": "secure",
+      "M5": "secure",
+      "I4": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Explains electricity and magnetism through field and system reasoning rather than isolated rules."
+  },
+  {
+    "learner_id": "example-f4-emerging",
+    "node_id": "F4",
+    "status": "emerging",
+    "dependency_status": {
+      "P5": "secure",
+      "M5": "secure",
+      "I4": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [
+      "F4-FM-01",
+      "F4-FM-02"
+    ],
+    "recommended_interventions": [
+      "F4-INT-01",
+      "F4-INT-02"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Uses electric and magnetic vocabulary but treats circuits and fields as fragmented procedures."
+  }
+]

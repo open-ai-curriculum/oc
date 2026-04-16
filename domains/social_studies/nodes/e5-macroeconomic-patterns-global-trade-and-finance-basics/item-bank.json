@@ -1,0 +1,16 @@
+{
+  "node_id": "E5",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "E5-G1-01",
+      "node_id": "E5",
+      "gate": "G1",
+      "prompt": "Use the economic evidence to explain a macroeconomic or trade pattern and support a bounded judgment with at least one relevant finance consideration.",
+      "context_type": "macroeconomic_or_trade_scenario",
+      "response_mode": "oral_or_written_or_diagrammed",
+      "scoring_rule": "Interprets the pattern plausibly, explains trade relationships or constraints, and uses a finance detail to support the judgment.",
+      "failure_mode_targets": ["E5-FM-01", "E5-FM-02"]
+    }
+  ]
+}

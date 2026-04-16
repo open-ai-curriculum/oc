@@ -1,0 +1,40 @@
+id: C3
+name: specification_testing_and_program_quality_criteria
+domain: computer_science
+support_tier: Incubation
+maturity_state: Drafted
+supported_profiles:
+- computer-science-advanced-secondary-node-package
+evidence_class: Synthetic
+dependencies:
+- C2
+- P4
+mastery:
+  direct_accuracy_threshold: 0.9
+  explanation_required: true
+  transfer_required: true
+  retention_check_days: 35
+statuses:
+- blocked
+- emerging
+- provisional
+- secure
+- unstable
+verification_gates:
+- id: G1
+  type: direct_performance
+  pass_rule: '>= 0.90 accuracy across specification, testing, and program quality criteria tasks'
+- id: G2
+  type: meaning
+  pass_rule: correct explanation in at least 2 of 3 prompts using bounded software quality reasoning
+- id: G3
+  type: transfer
+  pass_rule: successful reasoning in at least one unfamiliar computing context
+- id: G4
+  type: retention
+  pass_rule: '>= 0.85 delayed recheck accuracy after ~35 days'
+failure_modes:
+- C3-FM-01
+- C3-FM-02
+- C3-FM-03
+- C3-FM-04

@@ -1,0 +1,42 @@
+[
+  {
+    "learner_id": "example-i1-secure",
+    "node_id": "I1",
+    "status": "secure",
+    "dependency_status": {
+      "D1": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Applies simple digital safety and respect norms with awareness that digital actions affect self and others."
+  },
+  {
+    "learner_id": "example-i1-emerging",
+    "node_id": "I1",
+    "status": "emerging",
+    "dependency_status": {
+      "D1": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [
+      "I1-FM-01",
+      "I1-FM-02"
+    ],
+    "recommended_interventions": [
+      "I1-INT-01",
+      "I1-INT-02"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Can repeat some rules but does not yet reason stably about privacy, consequences, or respect in digital spaces."
+  }
+]

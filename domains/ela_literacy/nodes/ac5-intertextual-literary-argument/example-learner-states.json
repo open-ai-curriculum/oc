@@ -1,0 +1,25 @@
+[
+  {
+    "learner_id": "example-ac5-emerging",
+    "node_id": "AC5",
+    "status": "emerging",
+    "dependency_status": {
+      "AC4": "secure"
+    },
+    "direct_accuracy": 0.77,
+    "explanation_status": "weak",
+    "transfer_status": "weak",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [
+      "AC5-FM-01",
+      "AC5-FM-02"
+    ],
+    "recommended_interventions": [
+      "tighten the task around intertextual-link fragility so the target is more visible",
+      "keep the response surface bounded enough to isolate the real bottleneck"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Learner shows emerging control on AC5 but still needs stronger transfer and explanation."
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "learner_id": "example-m4-secure",
+    "node_id": "M4",
+    "status": "secure",
+    "dependency_status": {
+      "M3": "secure",
+      "E2": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Preserves conservation and distinguishes cycles from one-way flows across contexts."
+  },
+  {
+    "learner_id": "example-m4-emerging",
+    "node_id": "M4",
+    "status": "emerging",
+    "dependency_status": {
+      "M3": "secure",
+      "E2": "secure"
+    },
+    "direct_accuracy": 0.69,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["M4-FM-02", "M4-FM-03"],
+    "recommended_interventions": ["M4-INT-02", "M4-INT-03"],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Treats cycles as one-way and merges matter with energy accounts."
+  }
+]

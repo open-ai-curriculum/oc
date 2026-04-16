@@ -1,0 +1,37 @@
+{
+  "node_id": "P1",
+  "interventions": [
+    {
+      "intervention_id": "P1-INT-01",
+      "name": "P1 Intervention 1",
+      "addresses_failure_modes": [
+        "P1-FM-01"
+      ],
+      "summary": "sequence enactment routines that compare correct and incorrect command orders"
+    },
+    {
+      "intervention_id": "P1-INT-02",
+      "name": "P1 Intervention 2",
+      "addresses_failure_modes": [
+        "P1-FM-02"
+      ],
+      "summary": "goal-versus-step prompts that force executable action language"
+    },
+    {
+      "intervention_id": "P1-INT-03",
+      "name": "P1 Intervention 3",
+      "addresses_failure_modes": [
+        "P1-FM-03"
+      ],
+      "summary": "step-tracing supports that highlight the current command and next command explicitly"
+    },
+    {
+      "intervention_id": "P1-INT-04",
+      "name": "P1 Intervention 4",
+      "addresses_failure_modes": [
+        "P1-FM-04"
+      ],
+      "summary": "bug-and-revision talk that requires naming the broken step before changing it"
+    }
+  ]
+}

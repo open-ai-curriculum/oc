@@ -1,0 +1,301 @@
+{
+  "node_id": "RC4",
+  "policy_version": "1.0",
+  "version": "0.3",
+  "items": [
+    {
+      "item_id": "RC4-D-001",
+      "family": "direct_execution",
+      "prompt": "Complete a bounded text-comprehension task that requires the learner to track meaning across more than one sentence in a short passage.",
+      "target_node": "RC4",
+      "secondary_dependency_targets": [
+        "RC3",
+        "FR6"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_response",
+        "written_response",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "RC4-FM-01",
+        "RC4-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "RC4-D-002",
+      "family": "direct_execution",
+      "prompt": "Show short passage integration and local coherence in a fresh but controlled text-comprehension task and make the learner identify locally coherent relations across adjacent sentences.",
+      "target_node": "RC4",
+      "secondary_dependency_targets": [
+        "RC3",
+        "FR6"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_response",
+        "written_response",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "RC4-FM-02",
+        "RC4-FM-03"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "RC4-D-003",
+      "family": "direct_execution",
+      "prompt": "Use a slightly less-routine text-comprehension task to determine whether the learner can still support the bridge from sentence-level meaning to passage-level evidence work.",
+      "target_node": "RC4",
+      "secondary_dependency_targets": [
+        "RC3",
+        "FR6"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "oral_response",
+        "written_response",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "RC4-FM-03",
+        "RC4-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "RC4-D-004",
+      "family": "direct_execution",
+      "prompt": "Perform short passage integration and local coherence under a changed format within the same boundary and verify the learner can still the learner integrates meaning across short connected text and maintains local coherence beyond isolated sentence understanding.",
+      "target_node": "RC4",
+      "secondary_dependency_targets": [
+        "RC3",
+        "FR6"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "oral_response",
+        "written_response",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "RC4-FM-04",
+        "RC4-FM-01"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "RC4-E-001",
+      "family": "explanation",
+      "prompt": "Explain or annotate how the learner shows that they can track meaning across more than one sentence in a short passage, and identify which evidence in the response demonstrates the intended meaning.",
+      "target_node": "RC4",
+      "secondary_dependency_targets": [
+        "RC3",
+        "FR6"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "RC4-FM-01"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "RC4-E-002",
+      "family": "explanation",
+      "prompt": "Ask for a brief justification, annotation, or teacher-scored explanation showing why the response used for short passage integration and local coherence is valid rather than routine only.",
+      "target_node": "RC4",
+      "secondary_dependency_targets": [
+        "RC3",
+        "FR6"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "RC4-FM-02"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "RC4-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A learner attempt shows sentence-island reading. Diagnose the earliest breakdown and state what evidence separates it from secure short passage integration and local coherence.",
+      "target_node": "RC4",
+      "secondary_dependency_targets": [
+        "RC3",
+        "FR6"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "RC4-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "RC4-C-002",
+      "family": "error_diagnosis",
+      "prompt": "Review a mismatched response that reflects local coherence drift. Identify the dominant failure mode and explain why this is not just a minor performance slip.",
+      "target_node": "RC4",
+      "secondary_dependency_targets": [
+        "RC3",
+        "FR6"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "RC4-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "RC4-T-001",
+      "family": "transfer",
+      "prompt": "Use short passage integration and local coherence in a changed short text, prompt format, or evidence demand and judge whether the learner preserves the same underlying capability.",
+      "target_node": "RC4",
+      "secondary_dependency_targets": [
+        "RC3",
+        "FR6"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "oral_response",
+        "written_response",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "RC4-FM-03"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "RC4-T-002",
+      "family": "transfer",
+      "prompt": "Shift the learner into a changed short text, prompt format, or evidence demand and require a response that still demonstrates short passage integration and local coherence without relying on the original routine.",
+      "target_node": "RC4",
+      "secondary_dependency_targets": [
+        "RC3",
+        "FR6"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "oral_response",
+        "written_response",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "RC4-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "RC4-R-001",
+      "family": "retention",
+      "prompt": "After approximately 14 days, run a fresh text-comprehension task to confirm the learner still demonstrates short passage integration and local coherence without re-teaching inside the check.",
+      "target_node": "RC4",
+      "secondary_dependency_targets": [
+        "RC3",
+        "FR6"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "oral_response",
+        "written_response",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "RC4-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability"
+    },
+    {
+      "item_id": "RC4-P-001",
+      "family": "prerequisite_probe",
+      "prompt": "Before assigning short passage integration and local coherence, probe whether sentence level meaning construction is secure enough to support the current task.",
+      "target_node": "RC4",
+      "secondary_dependency_targets": [
+        "RC3",
+        "FR6"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "RC4-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_disambiguation",
+      "dependency_target": "RC3",
+      "suspected_knowledge_gap_if_incorrect": "sentence level meaning construction"
+    },
+    {
+      "item_id": "RC4-P-002",
+      "family": "prerequisite_probe",
+      "prompt": "Use a quick dependency check on connected text fluency and tracking to decide whether weak performance on short passage integration and local coherence is upstream or node-specific.",
+      "target_node": "RC4",
+      "secondary_dependency_targets": [
+        "RC3",
+        "FR6"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "RC4-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_disambiguation",
+      "dependency_target": "FR6",
+      "suspected_knowledge_gap_if_incorrect": "connected text fluency and tracking"
+    }
+  ]
+}

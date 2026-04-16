@@ -1,0 +1,60 @@
+[
+  {
+    "item_id": "R2-IB-01",
+    "node_id": "R2",
+    "prompt": "Why is a lab method sounding advanced not enough to guarantee a forensic conclusion?",
+    "task_type": "forensic_method_critique",
+    "answer_key": "A strong answer considers sample quality, contamination risk, method limits, and what the evidence can actually support.",
+    "scorable_traits": [
+      "method awareness",
+      "claim boundary",
+      "precision"
+    ],
+    "target_failure_modes": [
+      "R2-FM-01",
+      "R2-FM-03"
+    ],
+    "context_tags": [
+      "forensics",
+      "lab methods"
+    ]
+  },
+  {
+    "item_id": "R2-IB-02",
+    "node_id": "R2",
+    "prompt": "What makes a forensic interpretation vulnerable to story bias?",
+    "task_type": "forensic_narrative_critique",
+    "answer_key": "It is vulnerable when the case narrative drives the conclusion more than the bounded evidence and its limitations.",
+    "scorable_traits": [
+      "evidence discipline",
+      "bias awareness",
+      "transfer"
+    ],
+    "target_failure_modes": [
+      "R2-FM-02"
+    ],
+    "context_tags": [
+      "forensics",
+      "bias"
+    ]
+  },
+  {
+    "item_id": "R2-IB-03",
+    "node_id": "R2",
+    "prompt": "How should identity or causation claims be bounded in a forensic case?",
+    "task_type": "forensic_claim_boundary",
+    "answer_key": "They should be limited to what the evidence and method quality support, without overstating certainty or scope.",
+    "scorable_traits": [
+      "claim boundary",
+      "discipline",
+      "scientific reasoning"
+    ],
+    "target_failure_modes": [
+      "R2-FM-04"
+    ],
+    "context_tags": [
+      "forensics",
+      "evidence"
+    ]
+  }
+]

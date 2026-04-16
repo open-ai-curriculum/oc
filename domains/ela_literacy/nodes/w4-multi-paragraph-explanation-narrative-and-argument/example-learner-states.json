@@ -1,0 +1,45 @@
+[
+  {
+    "learner_id": "ela-sample-w4-blocked",
+    "node_id": "W4",
+    "status": "blocked",
+    "dependency_status": {
+      "W3": "secure",
+      "R4": "provisional",
+      "R5": "provisional"
+    },
+    "direct_accuracy": 0.41,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["W4-FM-01", "W4-FM-03"],
+    "recommended_interventions": [
+      "multi-paragraph planning frame",
+      "one-idea-per-paragraph development check"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Writes multiple paragraphs, but development and coherence collapse across the whole response."
+  },
+  {
+    "learner_id": "ela-sample-w4-provisional",
+    "node_id": "W4",
+    "status": "provisional",
+    "dependency_status": {
+      "W3": "secure",
+      "R4": "secure",
+      "R5": "secure"
+    },
+    "direct_accuracy": 0.86,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [
+      "brief changed-genre sustained writing review"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Sustains coherent multi-paragraph explanation and argument across changed prompts."
+  }
+]

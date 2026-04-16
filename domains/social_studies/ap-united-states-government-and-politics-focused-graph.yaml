@@ -1,0 +1,62 @@
+domain: social_studies
+version: 0.1
+
+graph:
+  id: ap_united_states_government_and_politics_focused_graph
+  purpose: bounded civics-facing graph cut for the strongest current AP government and politics support surface
+  assessment_family: AP United States Government and Politics
+  assurance_posture: strong_graph_posture_without_blueprint_verification
+
+families:
+  - id: C
+    name: civics_and_collective_decision_making
+    nodes:
+      - id: C1
+        name: community_rules_roles_and_fairness
+        depends_on: [Q1]
+      - id: C2
+        name: institutions_rights_responsibilities_and_processes
+        depends_on: [C1, Q2]
+      - id: C3
+        name: civic_decision_making_and_deliberation
+        depends_on: [C2, Q3]
+      - id: C4
+        name: constitutional_principles_and_public_policy
+        depends_on: [C3, H3, Q4]
+      - id: C5
+        name: comparative_government_and_civic_action
+        depends_on: [C4, G4, Q5]
+      - id: C6
+        name: advanced_civic_argument_policy_design_and_participation
+        depends_on: [C5, E5, Q6]
+
+  - id: Q
+    name: inquiry_evidence_and_discourse
+    nodes:
+      - id: Q3
+        name: supported_explanation_from_evidence
+        depends_on: [Q2]
+      - id: Q4
+        name: investigation_design_representation_and_data_use
+        depends_on: [Q3]
+      - id: Q5
+        name: evaluation_of_sources_models_and_claims
+        depends_on: [Q4]
+      - id: Q6
+        name: synthesis_argument_and_public_communication
+        depends_on: [Q5]
+
+  - id: A
+    name: advanced_secondary_synthesis_and_public_argument
+    nodes:
+      - id: A1
+        name: interdisciplinary_research_and_evidence_synthesis
+        depends_on: [H5, C5, G5, E5, Q6]
+      - id: A2
+        name: capstone_argument_modeling_and_public_communication
+        depends_on: [A1, H6, C6, G6, E6]
+
+out_of_scope:
+  - branch_specific_us_institution_detail
+  - first_class_court_case_entities
+  - full_history_geography_and_economics_course_views

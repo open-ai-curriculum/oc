@@ -1,0 +1,68 @@
+domain: social_studies
+version: 0.1
+
+graph:
+  id: ap_human_geography_focused_graph
+  purpose: bounded geography-facing graph cut for the current AP Human Geography support surface
+  assessment_family: AP Human Geography
+  assurance_posture: strong_graph_posture_with_compressed_thematic_specificity
+
+families:
+  - id: G
+    name: geography_and_human_environment_systems
+    nodes:
+      - id: G1
+        name: place_maps_and_environmental_features
+        depends_on: [Q1]
+      - id: G2
+        name: human_environment_interaction_and_regions
+        depends_on: [G1, Q2]
+      - id: G3
+        name: spatial_patterns_movement_and_resources
+        depends_on: [G2, Q3]
+      - id: G4
+        name: geographic_reasoning_with_maps_data_and_scale
+        depends_on: [G3, Q4]
+      - id: G5
+        name: global_interdependence_migration_and_sustainability
+        depends_on: [G4, Q5]
+      - id: G6
+        name: geospatial_analysis_and_policy_application
+        depends_on: [G5, C4, Q6]
+
+  - id: Q
+    name: inquiry_evidence_and_discourse
+    nodes:
+      - id: Q4
+        name: investigation_design_representation_and_data_use
+        depends_on: [Q3]
+      - id: Q5
+        name: evaluation_of_sources_models_and_claims
+        depends_on: [Q4]
+      - id: Q6
+        name: synthesis_argument_and_public_communication
+        depends_on: [Q5]
+
+  - id: E
+    name: economics_and_exchange_systems
+    nodes:
+      - id: E3
+        name: incentives_trade_and_simple_systems
+        depends_on: [E2, Q3]
+      - id: E4
+        name: markets_labor_and_public_resource_decisions
+        depends_on: [E3, C2, Q4]
+      - id: E5
+        name: macroeconomic_patterns_global_trade_and_finance_basics
+        depends_on: [E4, G4, Q5]
+
+  - id: A
+    name: advanced_secondary_synthesis_and_public_argument
+    nodes:
+      - id: A2
+        name: capstone_argument_modeling_and_public_communication
+        depends_on: [A1, H6, C6, G6, E6]
+
+out_of_scope:
+  - thematic_subunit_specific_course_nodes
+  - detailed_cultural_urban_agricultural_subbranches

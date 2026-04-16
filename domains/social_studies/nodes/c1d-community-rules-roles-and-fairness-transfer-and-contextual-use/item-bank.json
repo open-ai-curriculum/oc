@@ -1,0 +1,18 @@
+{
+  "node_id": "C1D",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "C1D-G1-01",
+      "node_id": "C1D",
+      "gate": "G1",
+      "prompt": "Complete a bounded transfer and contextual use task for community rules roles and fairness and explain your reasoning.",
+      "response_mode": "oral_or_written_or_annotated",
+      "scoring_rule": "Completes the task accurately and gives a usable explanation of the structure or reasoning.",
+      "failure_mode_targets": [
+        "C1D-FM-01",
+        "C1D-FM-02"
+      ]
+    }
+  ]
+}

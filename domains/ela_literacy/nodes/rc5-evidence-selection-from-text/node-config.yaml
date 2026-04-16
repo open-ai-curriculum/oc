@@ -1,0 +1,40 @@
+id: RC5
+name: evidence_selection_from_text
+domain: ela_literacy
+support_tier: Core release
+maturity_state: Drafted
+supported_profiles:
+  - text-response-node-package
+evidence_class: Synthetic
+dependencies:
+  - RC4
+  - O3
+mastery:
+  direct_accuracy_threshold: 0.85
+  explanation_required: true
+  transfer_required: true
+  retention_check_days: 14
+statuses:
+  - blocked
+  - emerging
+  - provisional
+  - secure
+  - unstable
+verification_gates:
+  - id: G1
+    type: direct_performance
+    pass_rule: selects relevant evidence or details for a text-dependent prompt in at least 5 of 6 supported opportunities
+  - id: G2
+    type: meaning
+    pass_rule: shows that the chosen detail is text-relevant in at least 4 of 5 prompts
+  - id: G3
+    type: transfer
+    pass_rule: succeeds across at least one changed text, question type, or response format
+  - id: G4
+    type: retention
+    pass_rule: stable delayed recheck after approximately 14 days
+failure_modes:
+  - RC5-FM-01
+  - RC5-FM-02
+  - RC5-FM-03
+  - RC5-FM-04

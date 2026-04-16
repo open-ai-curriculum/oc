@@ -1,37 +1,128 @@
 {
   "node_id": "AP5",
+  "policy_version": "1.0",
   "items": [
     {
-      "item_id": "AP5-A1",
-      "item_family": "direct",
-      "prompt": "interprets sequences, series, partial sums, and local polynomial approximations in bounded BC-calculus contexts",
-      "expected_evidence": "interpret sequences, series, and partial sums consistently across tables, formulas, graphs, and verbal descriptions",
+      "item_id": "AP5-DIR-001",
+      "node_id": "AP5",
+      "item_family": "direct_execution",
+      "prompt": "Decide whether the table `(2, 6), (4, 12), (7, 21)` is proportional and justify the constant of proportionality.",
+      "expected_evidence": "analyze function behavior using first- and second-derivative evidence in bounded symbolic, graphical, and contextual settings",
       "dominant_failure_mode": "sequence_series_process_blur",
-      "scoring_guidance": "Meets when the learner treats BC-level series and approximation evidence as coherent limiting behavior rather than as disconnected procedures."
+      "scoring_guidance": "Meets when the learner demonstrates analyze function behavior using first- and second-derivative evidence in bounded symbolic, graphical, and contextual settings with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "AP5-B1",
-      "item_family": "explanation",
-      "prompt": "explains how convergence, divergence, and Taylor-style approximation arise from the structure of terms, partial sums, and local behavior",
-      "expected_evidence": "explain why convergence or divergence claims follow from the structure of terms and accumulated partial behavior",
+      "item_id": "AP5-DIR-002",
+      "node_id": "AP5",
+      "item_family": "direct_execution",
+      "prompt": "Find the unit rate for 18 miles in 3 hours and explain what it means.",
+      "expected_evidence": "solve bounded optimization, motion, or related-rates problems with correct derivative structure",
       "dominant_failure_mode": "convergence_reasoning_instability",
-      "scoring_guidance": "Meets when the learner explains BC-level convergence and approximation as coherent structure-driven reasoning."
+      "scoring_guidance": "Meets when the learner demonstrates solve bounded optimization, motion, or related-rates problems with correct derivative structure with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "AP5-C1",
-      "item_family": "error_diagnosis",
-      "prompt": "Diagnose a peer error aligned to taylor_local_model_breakdown.",
-      "expected_evidence": "connect Taylor polynomial approximations to local function behavior and error-sensitive reasoning",
+      "item_id": "AP5-DIR-003",
+      "node_id": "AP5",
+      "item_family": "direct_execution",
+      "prompt": "Find 15% of 80 and explain how the percent is acting as a rate per hundred.",
+      "expected_evidence": "explain why a claimed maximum, minimum, or behavior interval follows from derivative evidence",
       "dominant_failure_mode": "taylor_local_model_breakdown",
-      "scoring_guidance": "Meets when the learner identifies where a polynomial approximation stopped matching the intended local behavior or error expectation."
+      "scoring_guidance": "Meets when the learner demonstrates explain why a claimed maximum, minimum, or behavior interval follows from derivative evidence with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
     },
     {
-      "item_id": "AP5-D1",
+      "item_id": "AP5-EXP-001",
+      "node_id": "AP5",
+      "item_family": "explanation",
+      "prompt": "Explain why equal differences alone do not prove a relationship is proportional.",
+      "expected_evidence": "analyze function behavior using first- and second-derivative evidence in bounded symbolic, graphical, and contextual settings",
+      "dominant_failure_mode": "convergence_reasoning_instability",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to analyze function behavior using first- and second-derivative evidence in bounded symbolic, graphical, and contextual settings.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "AP5-EXP-002",
+      "node_id": "AP5",
+      "item_family": "explanation",
+      "prompt": "Explain how a unit rate and a constant of proportionality describe the same multiplicative structure.",
+      "expected_evidence": "solve bounded optimization, motion, or related-rates problems with correct derivative structure",
+      "dominant_failure_mode": "taylor_local_model_breakdown",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to solve bounded optimization, motion, or related-rates problems with correct derivative structure.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "AP5-ERR-001",
+      "node_id": "AP5",
+      "item_family": "error_diagnosis",
+      "prompt": "A student says a table is proportional because it increases by 3 each row. Diagnose the additive-pattern error. Focus on sequence series process blur.",
+      "expected_evidence": "analyze function behavior using first- and second-derivative evidence in bounded symbolic, graphical, and contextual settings",
+      "dominant_failure_mode": "sequence_series_process_blur",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward analyze function behavior using first- and second-derivative evidence in bounded symbolic, graphical, and contextual settings.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "AP5-ERR-002",
+      "node_id": "AP5",
+      "item_family": "error_diagnosis",
+      "prompt": "A student scales one quantity by 2 but the other by 3 and still claims proportionality. Identify the breakdown. Focus on convergence reasoning instability.",
+      "expected_evidence": "solve bounded optimization, motion, or related-rates problems with correct derivative structure",
+      "dominant_failure_mode": "convergence_reasoning_instability",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward solve bounded optimization, motion, or related-rates problems with correct derivative structure.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "AP5-TRA-001",
+      "node_id": "AP5",
       "item_family": "transfer",
-      "prompt": "interprets a less-familiar BC-calculus context and identifies which convergence, approximation, or advanced-change evidence governs the claim",
-      "expected_evidence": "justify BC-level calculus claims in bounded modeling or analysis tasks using the correct convergence, approximation, or advanced-change evidence",
+      "prompt": "A map uses 1 cm for every 5 km. How far does 7.2 cm represent, and why is the relationship proportional?",
+      "expected_evidence": "analyze function behavior using first- and second-derivative evidence in bounded symbolic, graphical, and contextual settings",
+      "dominant_failure_mode": "taylor_local_model_breakdown",
+      "scoring_guidance": "Meets when the learner preserves analyze function behavior using first- and second-derivative evidence in bounded symbolic, graphical, and contextual settings in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "AP5-TRA-002",
+      "node_id": "AP5",
+      "item_family": "transfer",
+      "prompt": "A recipe uses 3 cups of flour for 2 batches. Write an equation relating flour to batches and find the amount for 5 batches.",
+      "expected_evidence": "solve bounded optimization, motion, or related-rates problems with correct derivative structure",
       "dominant_failure_mode": "advanced_change_context_drift",
-      "scoring_guidance": "Meets when the learner preserves coherent BC-calculus reasoning in a varied context and names the evidence that actually controls the conclusion."
+      "scoring_guidance": "Meets when the learner preserves solve bounded optimization, motion, or related-rates problems with correct derivative structure in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "AP5-RET-001",
+      "node_id": "AP5",
+      "item_family": "retention",
+      "prompt": "On a delayed check, determine whether 4 notebooks for $6 and 10 notebooks for $15 are proportional and justify your reasoning.",
+      "expected_evidence": "analyze function behavior using first- and second-derivative evidence in bounded symbolic, graphical, and contextual settings",
+      "dominant_failure_mode": "advanced_change_context_drift",
+      "scoring_guidance": "Meets when the learner still demonstrates analyze function behavior using first- and second-derivative evidence in bounded symbolic, graphical, and contextual settings on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "AP5-PRE-001",
+      "node_id": "AP5",
+      "item_family": "prerequisite_probe",
+      "prompt": "Probe derivative rules and computation before diagnosing applications of derivatives, and state whether the learner is missing multiplicative structure or only the current proportional application.",
+      "expected_evidence": "shows whether derivative rules and computation is secure enough to support applications of derivatives",
+      "dominant_failure_mode": "convergence_reasoning_instability",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in derivative rules and computation from a current-node issue in applications of derivatives.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "AP4",
+      "suspected_knowledge_gap_if_incorrect": "derivative rules and computation"
     }
   ]
 }

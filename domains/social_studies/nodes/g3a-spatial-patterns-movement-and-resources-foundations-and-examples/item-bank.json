@@ -1,0 +1,18 @@
+{
+  "node_id": "G3A",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "G3A-G1-01",
+      "node_id": "G3A",
+      "gate": "G1",
+      "prompt": "Complete a bounded foundations and examples task for spatial patterns movement and resources and explain your reasoning.",
+      "response_mode": "oral_or_written_or_annotated",
+      "scoring_rule": "Completes the task accurately and gives a usable explanation of the structure or reasoning.",
+      "failure_mode_targets": [
+        "G3A-FM-01",
+        "G3A-FM-02"
+      ]
+    }
+  ]
+}

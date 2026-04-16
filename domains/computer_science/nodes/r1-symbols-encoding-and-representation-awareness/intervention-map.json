@@ -1,0 +1,37 @@
+{
+  "node_id": "R1",
+  "interventions": [
+    {
+      "intervention_id": "R1-INT-01",
+      "name": "R1 Intervention 1",
+      "addresses_failure_modes": [
+        "R1-FM-01"
+      ],
+      "summary": "match-representation-to-meaning tasks with explicit discussion of stand-in logic"
+    },
+    {
+      "intervention_id": "R1-INT-02",
+      "name": "R1 Intervention 2",
+      "addresses_failure_modes": [
+        "R1-FM-02"
+      ],
+      "summary": "simple encoding games that require stable code-to-meaning tracking"
+    },
+    {
+      "intervention_id": "R1-INT-03",
+      "name": "R1 Intervention 3",
+      "addresses_failure_modes": [
+        "R1-FM-03"
+      ],
+      "summary": "same-information-different-format comparisons across icons, words, and symbols"
+    },
+    {
+      "intervention_id": "R1-INT-04",
+      "name": "R1 Intervention 4",
+      "addresses_failure_modes": [
+        "R1-FM-04"
+      ],
+      "summary": "bounded transfer practice with a second simple symbol or code system"
+    }
+  ]
+}

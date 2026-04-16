@@ -1,0 +1,26 @@
+{
+  "node_id": "W1",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "W1-FM-01": [
+      "name the intended message before and after production",
+      "single clear target idea rather than open-ended prompt",
+      "contrast strong versus weak representations"
+    ],
+    "W1-FM-02": [
+      "oral plan followed immediately by drawing or labeling",
+      "same stable idea with changed representation act",
+      "one oral sentence captured immediately"
+    ],
+    "W1-FM-03": [
+      "prompt for one additional meaningful detail",
+      "minimal production frame such as who what or happened",
+      "model one representation with more than one idea element"
+    ],
+    "W1-FM-04": [
+      "stable idea target across drawing dictation and labeling",
+      "same message in two production modes",
+      "separate meaning failure from format friction"
+    ]
+  }
+}

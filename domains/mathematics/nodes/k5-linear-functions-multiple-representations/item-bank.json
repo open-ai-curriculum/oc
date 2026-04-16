@@ -1,37 +1,140 @@
 {
   "node_id": "K5",
+  "policy_version": "1.0",
   "items": [
     {
-      "item_id": "K5-A1",
-      "item_family": "direct",
-      "prompt": "matches and generates equivalent linear-function representations across equation, table, graph, and verbal rule",
+      "item_id": "K5-DIR-001",
+      "node_id": "K5",
+      "item_family": "direct_execution",
+      "prompt": "Solve `x + 7 = 19` and show how each step preserves equality.",
       "expected_evidence": "match or generate equivalent linear representations across equation, table, graph, verbal rule, and context",
       "dominant_failure_mode": "representation_translation_fragmentation",
-      "scoring_guidance": "Meets when the learner preserves the same linear relationship accurately while moving among representations."
+      "scoring_guidance": "Meets when the learner demonstrates match or generate equivalent linear representations across equation, table, graph, verbal rule, and context with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "K5-B1",
-      "item_family": "explanation",
-      "prompt": "explains how slope, starting value, and covariation appear across representations of one linear function",
+      "item_id": "K5-DIR-002",
+      "node_id": "K5",
+      "item_family": "direct_execution",
+      "prompt": "Solve `4x = 28`, then check the solution by substitution.",
       "expected_evidence": "explain how constant rate of change and starting value appear in each representation",
       "dominant_failure_mode": "parameter_meaning_collapse",
-      "scoring_guidance": "Meets when the learner explains the same function structure coherently across equation, table, graph, and verbal form."
+      "scoring_guidance": "Meets when the learner demonstrates explain how constant rate of change and starting value appear in each representation with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "K5-C1",
-      "item_family": "error_diagnosis",
-      "prompt": "Diagnose a peer error aligned to graph_equation_alignment_breakdown.",
+      "item_id": "K5-DIR-003",
+      "node_id": "K5",
+      "item_family": "direct_execution",
+      "prompt": "Match the equation `n - 5 = 12` to a balance or missing-value situation and solve it.",
       "expected_evidence": "determine whether a representation pair describes the same linear function",
       "dominant_failure_mode": "graph_equation_alignment_breakdown",
-      "scoring_guidance": "Meets when the learner identifies where the peer lost the shared linear relationship across graph and equation."
+      "scoring_guidance": "Meets when the learner demonstrates determine whether a representation pair describes the same linear function with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
     },
     {
-      "item_id": "K5-D1",
+      "item_id": "K5-EXP-001",
+      "node_id": "K5",
+      "item_family": "explanation",
+      "prompt": "Explain why subtracting the same value from both sides of an equation preserves the solution set.",
+      "expected_evidence": "match or generate equivalent linear representations across equation, table, graph, verbal rule, and context",
+      "dominant_failure_mode": "parameter_meaning_collapse",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to match or generate equivalent linear representations across equation, table, graph, verbal rule, and context.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "K5-EXP-002",
+      "node_id": "K5",
+      "item_family": "explanation",
+      "prompt": "Explain what the variable represents and why inverse operations help isolate it.",
+      "expected_evidence": "explain how constant rate of change and starting value appear in each representation",
+      "dominant_failure_mode": "graph_equation_alignment_breakdown",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to explain how constant rate of change and starting value appear in each representation.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "K5-ERR-001",
+      "node_id": "K5",
+      "item_family": "error_diagnosis",
+      "prompt": "A student solves `x + 5 = 13` by writing `x = 13 + 5`. Diagnose the first structural mistake. Focus on representation translation fragmentation.",
+      "expected_evidence": "match or generate equivalent linear representations across equation, table, graph, verbal rule, and context",
+      "dominant_failure_mode": "representation_translation_fragmentation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward match or generate equivalent linear representations across equation, table, graph, verbal rule, and context.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "K5-ERR-002",
+      "node_id": "K5",
+      "item_family": "error_diagnosis",
+      "prompt": "A student solves `3x = 18` by dividing only the `x`. Explain what went wrong. Focus on parameter meaning collapse.",
+      "expected_evidence": "explain how constant rate of change and starting value appear in each representation",
+      "dominant_failure_mode": "parameter_meaning_collapse",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward explain how constant rate of change and starting value appear in each representation.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "K5-TRA-001",
+      "node_id": "K5",
       "item_family": "transfer",
-      "prompt": "distinguishes linear functions from bounded non-linear or non-functional examples in less-familiar contexts",
-      "expected_evidence": "distinguish linear-function representations from bounded non-linear counterexamples",
+      "prompt": "A gym charges a $12 signup fee plus $5 per class. Write and solve an equation for the number of classes if the total was $32.",
+      "expected_evidence": "match or generate equivalent linear representations across equation, table, graph, verbal rule, and context",
+      "dominant_failure_mode": "graph_equation_alignment_breakdown",
+      "scoring_guidance": "Meets when the learner preserves match or generate equivalent linear representations across equation, table, graph, verbal rule, and context in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "K5-TRA-002",
+      "node_id": "K5",
+      "item_family": "transfer",
+      "prompt": "A balance model has three equal bags and 6 loose counters on one side and 24 counters on the other. Write and solve the equation.",
+      "expected_evidence": "explain how constant rate of change and starting value appear in each representation",
       "dominant_failure_mode": "linearity_overgeneralization",
-      "scoring_guidance": "Meets when the learner preserves linear-function meaning and rejects look-alike non-linear or non-functional cases."
+      "scoring_guidance": "Meets when the learner preserves explain how constant rate of change and starting value appear in each representation in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "K5-RET-001",
+      "node_id": "K5",
+      "item_family": "retention",
+      "prompt": "Two weeks later, solve `m/3 = 8` and explain how you know the result is reasonable.",
+      "expected_evidence": "match or generate equivalent linear representations across equation, table, graph, verbal rule, and context",
+      "dominant_failure_mode": "linearity_overgeneralization",
+      "scoring_guidance": "Meets when the learner still demonstrates match or generate equivalent linear representations across equation, table, graph, verbal rule, and context on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "K5-PRE-001",
+      "node_id": "K5",
+      "item_family": "prerequisite_probe",
+      "prompt": "Before solving linear functions multiple representations, complete a prerequisite check on slope rate of change and linear growth and explain how it supports the current equation work.",
+      "expected_evidence": "shows whether slope rate of change and linear growth is secure enough to support linear functions multiple representations",
+      "dominant_failure_mode": "parameter_meaning_collapse",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in slope rate of change and linear growth from a current-node issue in linear functions multiple representations.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "K3",
+      "suspected_knowledge_gap_if_incorrect": "slope rate of change and linear growth"
+    },
+    {
+      "item_id": "K5-PRE-002",
+      "node_id": "K5",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a quick linear equations in two variables check to explain whether the learner is blocked by prerequisite structure or by linear functions multiple representations itself.",
+      "expected_evidence": "shows whether linear equations in two variables is secure enough to support linear functions multiple representations",
+      "dominant_failure_mode": "graph_equation_alignment_breakdown",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in linear equations in two variables from a current-node issue in linear functions multiple representations.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "K4",
+      "suspected_knowledge_gap_if_incorrect": "linear equations in two variables"
     }
   ]
 }

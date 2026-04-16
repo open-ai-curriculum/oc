@@ -1,29 +1,294 @@
 {
   "node_id": "Y3",
+  "policy_version": "1.0",
+  "version": "0.3",
   "items": [
     {
-      "item_id": "y3-a1",
-      "item_family": "direct_execution",
-      "prompt": "Representative direct task for measurement estimation and reasonableness.",
-      "expected_evidence": [
-        "Learner uses the intended structure, not only an answer-getting shortcut."
+      "item_id": "Y3-D-001",
+      "family": "direct_execution",
+      "prompt": "Count the collection accurately and state how you know the final count represents the whole set.",
+      "target_node": "Y3",
+      "secondary_dependency_targets": [
+        "Y1",
+        "M8"
       ],
-      "dominant_failure_mode_targets": [
-        "unit_scale_mismatch"
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
       ],
-      "context": "objects"
-    },
-    {
-      "item_id": "y3-b1",
-      "item_family": "explanation",
-      "prompt": "Explain why the chosen structure fits the situation.",
-      "expected_evidence": [
-        "Learner names the structural relationship correctly."
-      ],
-      "dominant_failure_mode_targets": [
+      "dominant_failure_modes_if_incorrect": [
+        "unit_scale_mismatch",
         "measurement_plausibility_blindness"
       ],
-      "context": "reported measurements"
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "Y3-D-002",
+      "family": "direct_execution",
+      "prompt": "Compose and decompose the number 14 in two different ways.",
+      "target_node": "Y3",
+      "secondary_dependency_targets": [
+        "Y1",
+        "M8"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "measurement_plausibility_blindness",
+        "benchmark_object_gap"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "Y3-D-003",
+      "family": "direct_execution",
+      "prompt": "Compare 348 and 384 and justify the comparison by place value.",
+      "target_node": "Y3",
+      "secondary_dependency_targets": [
+        "Y1",
+        "M8"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "benchmark_object_gap",
+        "estimate_exact_role_blur"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "Y3-D-004",
+      "family": "direct_execution",
+      "prompt": "Count the collection accurately and state how you know the final count represents the whole set.",
+      "target_node": "Y3",
+      "secondary_dependency_targets": [
+        "Y1",
+        "M8"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "estimate_exact_role_blur",
+        "unit_scale_mismatch"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "Y3-E-001",
+      "family": "explanation",
+      "prompt": "Explain why the last counting word tells how many objects are in the set.",
+      "target_node": "Y3",
+      "secondary_dependency_targets": [
+        "Y1",
+        "M8"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "measurement_plausibility_blindness"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "Y3-E-002",
+      "family": "explanation",
+      "prompt": "Explain how the value of a digit depends on its place.",
+      "target_node": "Y3",
+      "secondary_dependency_targets": [
+        "Y1",
+        "M8"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "benchmark_object_gap"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "Y3-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student counts objects twice and reports the larger total. Diagnose the one-to-one correspondence error. Focus on unit scale mismatch.",
+      "target_node": "Y3",
+      "secondary_dependency_targets": [
+        "Y1",
+        "M8"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "unit_scale_mismatch"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "Y3-C-002",
+      "family": "error_diagnosis",
+      "prompt": "A student says 402 is greater than 39 because 2 is greater than 9. Identify the place-value mistake. Focus on measurement plausibility blindness.",
+      "target_node": "Y3",
+      "secondary_dependency_targets": [
+        "Y1",
+        "M8"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "measurement_plausibility_blindness"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "Y3-T-001",
+      "family": "transfer",
+      "prompt": "Use the same number idea with objects, numerals, and spoken language in a less-familiar representation.",
+      "target_node": "Y3",
+      "secondary_dependency_targets": [
+        "Y1",
+        "M8"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "benchmark_object_gap"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "Y3-T-002",
+      "family": "transfer",
+      "prompt": "Show the same quantity with a drawing, a numeral, and a decomposition statement.",
+      "target_node": "Y3",
+      "secondary_dependency_targets": [
+        "Y1",
+        "M8"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "estimate_exact_role_blur"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "Y3-R-001",
+      "family": "retention",
+      "prompt": "After a delay, compare or compose a new whole number and explain the reasoning used.",
+      "target_node": "Y3",
+      "secondary_dependency_targets": [
+        "Y1",
+        "M8"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "estimate_exact_role_blur"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability"
+    },
+    {
+      "item_id": "Y3-P-001",
+      "family": "prerequisite_probe",
+      "prompt": "Probe rounding and benchmark whole numbers before closing measurement estimation and reasonableness, and state whether the learner is blocked by an upstream knowledge gap.",
+      "target_node": "Y3",
+      "secondary_dependency_targets": [
+        "Y1",
+        "M8"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "measurement_plausibility_blindness"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "Y1",
+      "suspected_knowledge_gap_if_incorrect": "rounding and benchmark whole numbers",
+      "scoring_focus": "dependency_disambiguation"
+    },
+    {
+      "item_id": "Y3-P-002",
+      "family": "prerequisite_probe",
+      "prompt": "Probe standard length units and tool use before closing measurement estimation and reasonableness, and state whether the learner is blocked by an upstream knowledge gap.",
+      "target_node": "Y3",
+      "secondary_dependency_targets": [
+        "Y1",
+        "M8"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "benchmark_object_gap"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "M8",
+      "suspected_knowledge_gap_if_incorrect": "standard length units and tool use",
+      "scoring_focus": "dependency_disambiguation"
     }
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "node_id": "Q1",
+  "version": "0.1",
+  "interventions": {
+    "Q1-FM-01": [
+      "slow the observation task and direct attention to one feature at a time",
+      "contrast two items with one highly visible difference",
+      "use teacher think-alouds naming what is directly seen"
+    ],
+    "Q1-FM-02": [
+      "separate what we see from what we think in paired examples",
+      "ask whether the property is visible testable or only guessed",
+      "model sentence frames beginning with I notice"
+    ],
+    "Q1-FM-03": [
+      "rehearse same different changed and not changed with concrete examples",
+      "use side-by-side comparison cards",
+      "prompt the learner to name one same feature and one different feature"
+    ],
+    "Q1-FM-04": [
+      "repeat the same observation routine across objects photos and outdoor examples",
+      "preserve the question while changing the materials",
+      "move from familiar to slightly less familiar settings"
+    ]
+  }
+}

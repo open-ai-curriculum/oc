@@ -1,0 +1,251 @@
+{
+  "node_id": "N2",
+  "policy_version": "1.0",
+  "version": "0.4",
+  "items": [
+    {
+      "item_id": "N2-DIR-001",
+      "node_id": "N2",
+      "item_family": "direct_execution",
+      "prompt": "A student sends a file across a school network, and the teacher asks which devices or services are involved. Show how the learner would identify at least one route or pathway through which information moves.",
+      "expected_evidence": "identify at least one route or pathway through which information moves",
+      "dominant_failure_mode_targets": [
+        "N2-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates identify at least one route or pathway through which information moves with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "N2-DIR-002",
+      "node_id": "N2",
+      "item_family": "direct_execution",
+      "prompt": "A classroom app stops working because a login, connection, or system layer matters. Explain the setup and show how the learner would explain why a shared rule is needed for communication to work.",
+      "expected_evidence": "explain why a shared rule is needed for communication to work",
+      "dominant_failure_mode_targets": [
+        "N2-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates explain why a shared rule is needed for communication to work with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "N2-DIR-003",
+      "node_id": "N2",
+      "item_family": "direct_execution",
+      "prompt": "A security scenario is presented involving access control, privacy, or a likely attack. Show how the learner would distinguish a network path from one local device action.",
+      "expected_evidence": "distinguish a network path from one local device action",
+      "dominant_failure_mode_targets": [
+        "N2-FM-03"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates distinguish a network path from one local device action with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "N2-EXP-001",
+      "node_id": "N2",
+      "item_family": "explanation",
+      "prompt": "Why is it not enough to say devices are just connected?",
+      "expected_evidence": "because a strong explanation shows how information moves through system parts and not just that a connection exists.",
+      "dominant_failure_mode_targets": [
+        "N2-FM-01",
+        "N2-FM-03"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to because a strong explanation shows how information moves through system parts and not just that a connection exists."
+    },
+    {
+      "item_id": "N2-EXP-002",
+      "node_id": "N2",
+      "item_family": "explanation",
+      "prompt": "What is the purpose of a shared communication rule?",
+      "expected_evidence": "a shared rule helps system parts send, receive, and interpret information in a compatible way.",
+      "dominant_failure_mode_targets": [
+        "N2-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to a shared rule helps system parts send, receive, and interpret information in a compatible way."
+    },
+    {
+      "item_id": "N2-ERR-001",
+      "node_id": "N2",
+      "item_family": "error_diagnosis",
+      "prompt": "In a network or security scenario, a learner responds in a way that suggests this breakdown: learner treats network communication as unexplained appearance rather than movement through system parts. Diagnose the systems or cybersecurity mistake. Focus on network-as-magic belief.",
+      "expected_evidence": "identify at least one route or pathway through which information moves",
+      "dominant_failure_mode_targets": [
+        "N2-FM-01"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward identify at least one route or pathway through which information moves."
+    },
+    {
+      "item_id": "N2-ERR-002",
+      "node_id": "N2",
+      "item_family": "error_diagnosis",
+      "prompt": "In a network or security scenario, a learner responds in a way that suggests this breakdown: learner cannot explain why shared communication rules matter. Diagnose the systems or cybersecurity mistake. Focus on protocol-purpose weakness.",
+      "expected_evidence": "explain why a shared rule is needed for communication to work",
+      "dominant_failure_mode_targets": [
+        "N2-FM-02"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward explain why a shared rule is needed for communication to work."
+    },
+    {
+      "item_id": "N2-TRA-001",
+      "node_id": "N2",
+      "item_family": "transfer",
+      "prompt": "A network or security idea learned with one classroom example is now embedded in a different system such as streaming, cloud storage, or a shared document. Explain how the learner would distinguish a network path from one local device action.",
+      "expected_evidence": "distinguish a network path from one local device action",
+      "dominant_failure_mode_targets": [
+        "N2-FM-03"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves distinguish a network path from one local device action in a changed computing context or representation."
+    },
+    {
+      "item_id": "N2-TRA-002",
+      "node_id": "N2",
+      "item_family": "transfer",
+      "prompt": "A learner must move from a visible device-level description to a more abstract system or threat-model case and still preserve the same reasoning. Show how they would avoid treating communication as if information appears instantly without system structure.",
+      "expected_evidence": "avoid treating communication as if information appears instantly without system structure",
+      "dominant_failure_mode_targets": [
+        "N2-FM-04"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves avoid treating communication as if information appears instantly without system structure in a changed computing context or representation."
+    },
+    {
+      "item_id": "N2-RET-001",
+      "node_id": "N2",
+      "item_family": "retention",
+      "prompt": "After a delay, the learner is given a fresh connected-system or security case and must explain the pathway, layer, risk, or defense involved. Show how they would identify at least one route or pathway through which information moves.",
+      "expected_evidence": "identify at least one route or pathway through which information moves",
+      "dominant_failure_mode_targets": [
+        "N2-FM-04"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_explanation",
+        "constructed_response"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability",
+      "scoring_guidance": "Meets when the learner still demonstrates identify at least one route or pathway through which information moves on a delayed recheck without a blocking recurrence."
+    },
+    {
+      "item_id": "N2-PRE-001",
+      "node_id": "N2",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a short systems or access-control check on connected devices and basic network awareness before closing network pathways, protocol ideas, and system dependence, and decide whether the current problem is actually an upstream dependency gap.",
+      "expected_evidence": "shows whether connected devices and basic network awareness is secure enough to support network pathways, protocol ideas, and system dependence",
+      "dominant_failure_mode_targets": [
+        "N2-FM-01"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in connected devices and basic network awareness from a current-node issue in network pathways, protocol ideas, and system dependence.",
+      "dependency_target": "N1",
+      "suspected_knowledge_gap_if_incorrect": "connected devices and basic network awareness"
+    },
+    {
+      "item_id": "N2-PRE-002",
+      "node_id": "N2",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a short systems or access-control check on data collection, classification, and simple visualization before closing network pathways, protocol ideas, and system dependence, and decide whether the current problem is actually an upstream dependency gap.",
+      "expected_evidence": "shows whether data collection, classification, and simple visualization is secure enough to support network pathways, protocol ideas, and system dependence",
+      "dominant_failure_mode_targets": [
+        "N2-FM-02"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in data collection, classification, and simple visualization from a current-node issue in network pathways, protocol ideas, and system dependence.",
+      "dependency_target": "R2",
+      "suspected_knowledge_gap_if_incorrect": "data collection, classification, and simple visualization"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+[
+  {
+    "learner_id": "ela-sample-w2-blocked",
+    "node_id": "W2",
+    "status": "blocked",
+    "dependency_status": {
+      "FR4": "provisional",
+      "L1": "emerging",
+      "W1": "secure"
+    },
+    "direct_accuracy": 0.44,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["W2-FM-01", "W2-FM-02"],
+    "recommended_interventions": [
+      "oral rehearse then write one sentence",
+      "reduced transcription-load sentence frame"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Has ideas but written sentence collapses once spelling demand rises."
+  },
+  {
+    "learner_id": "ela-sample-w2-provisional",
+    "node_id": "W2",
+    "status": "provisional",
+    "dependency_status": {
+      "FR4": "secure",
+      "L1": "secure",
+      "W1": "secure"
+    },
+    "direct_accuracy": 0.89,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [
+      "brief mixed sentence-writing review"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Writes complete sentences across picture and experience prompts."
+  }
+]

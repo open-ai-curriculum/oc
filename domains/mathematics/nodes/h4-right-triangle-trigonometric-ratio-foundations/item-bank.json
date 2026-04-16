@@ -1,37 +1,140 @@
 {
   "node_id": "H4",
+  "policy_version": "1.0",
   "items": [
     {
-      "item_id": "H4-A1",
-      "item_family": "direct",
-      "prompt": "computes and uses sine, cosine, and tangent to solve bounded right-triangle problems",
-      "expected_evidence": "solve bounded right-triangle side and angle problems using trigonometric ratios",
+      "item_id": "H4-DIR-001",
+      "node_id": "H4",
+      "item_family": "direct_execution",
+      "prompt": "Decide whether the table `(2, 6), (4, 12), (7, 21)` is proportional and justify the constant of proportionality.",
+      "expected_evidence": "explain ratio stability using similar right triangles",
       "dominant_failure_mode": "ratio_selection_mismatch",
-      "scoring_guidance": "Meets when the learner selects and applies the correct ratio structure for the given side-angle information."
+      "scoring_guidance": "Meets when the learner demonstrates explain ratio stability using similar right triangles with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "H4-B1",
+      "item_id": "H4-DIR-002",
+      "node_id": "H4",
+      "item_family": "direct_execution",
+      "prompt": "Find the unit rate for 18 miles in 3 hours and explain what it means.",
+      "expected_evidence": "identify correct side-angle relationships for sine, cosine, and tangent",
+      "dominant_failure_mode": "similarity_ratio_opacity",
+      "scoring_guidance": "Meets when the learner demonstrates identify correct side-angle relationships for sine, cosine, and tangent with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
+    },
+    {
+      "item_id": "H4-DIR-003",
+      "node_id": "H4",
+      "item_family": "direct_execution",
+      "prompt": "Find 15% of 80 and explain how the percent is acting as a rate per hundred.",
+      "expected_evidence": "solve bounded right-triangle side and angle problems using trigonometric ratios",
+      "dominant_failure_mode": "side_reference_drift",
+      "scoring_guidance": "Meets when the learner demonstrates solve bounded right-triangle side and angle problems using trigonometric ratios with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
+    },
+    {
+      "item_id": "H4-EXP-001",
+      "node_id": "H4",
       "item_family": "explanation",
-      "prompt": "explains why trigonometric ratios remain stable across similar right triangles and how side names depend on the chosen angle",
+      "prompt": "Explain why equal differences alone do not prove a relationship is proportional.",
       "expected_evidence": "explain ratio stability using similar right triangles",
       "dominant_failure_mode": "similarity_ratio_opacity",
-      "scoring_guidance": "Meets when the learner explains trigonometric ratios as structural relationships, not just calculator inputs."
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to explain ratio stability using similar right triangles.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
     },
     {
-      "item_id": "H4-C1",
-      "item_family": "error_diagnosis",
-      "prompt": "Diagnose a peer error aligned to side_reference_drift.",
+      "item_id": "H4-EXP-002",
+      "node_id": "H4",
+      "item_family": "explanation",
+      "prompt": "Explain how a unit rate and a constant of proportionality describe the same multiplicative structure.",
       "expected_evidence": "identify correct side-angle relationships for sine, cosine, and tangent",
       "dominant_failure_mode": "side_reference_drift",
-      "scoring_guidance": "Meets when the learner identifies where the peer mislabeled opposite, adjacent, or hypotenuse relative to the chosen angle."
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to identify correct side-angle relationships for sine, cosine, and tangent.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
     },
     {
-      "item_id": "H4-D1",
+      "item_id": "H4-ERR-001",
+      "node_id": "H4",
+      "item_family": "error_diagnosis",
+      "prompt": "A student says a table is proportional because it increases by 3 each row. Diagnose the additive-pattern error. Focus on ratio selection mismatch.",
+      "expected_evidence": "explain ratio stability using similar right triangles",
+      "dominant_failure_mode": "ratio_selection_mismatch",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward explain ratio stability using similar right triangles.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "H4-ERR-002",
+      "node_id": "H4",
+      "item_family": "error_diagnosis",
+      "prompt": "A student scales one quantity by 2 but the other by 3 and still claims proportionality. Identify the breakdown. Focus on similarity ratio opacity.",
+      "expected_evidence": "identify correct side-angle relationships for sine, cosine, and tangent",
+      "dominant_failure_mode": "similarity_ratio_opacity",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward identify correct side-angle relationships for sine, cosine, and tangent.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "H4-TRA-001",
+      "node_id": "H4",
       "item_family": "transfer",
-      "prompt": "uses trigonometric ratios in a less-familiar geometric or contextual setting and checks reasonableness of the result",
-      "expected_evidence": "verify that chosen ratios and resulting measures are reasonable for the given diagram or context",
+      "prompt": "A map uses 1 cm for every 5 km. How far does 7.2 cm represent, and why is the relationship proportional?",
+      "expected_evidence": "explain ratio stability using similar right triangles",
+      "dominant_failure_mode": "side_reference_drift",
+      "scoring_guidance": "Meets when the learner preserves explain ratio stability using similar right triangles in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "H4-TRA-002",
+      "node_id": "H4",
+      "item_family": "transfer",
+      "prompt": "A recipe uses 3 cups of flour for 2 batches. Write an equation relating flour to batches and find the amount for 5 batches.",
+      "expected_evidence": "identify correct side-angle relationships for sine, cosine, and tangent",
       "dominant_failure_mode": "inverse_reasonableness_gap",
-      "scoring_guidance": "Meets when the learner preserves correct ratio structure and checks whether the computed side or angle makes sense."
+      "scoring_guidance": "Meets when the learner preserves identify correct side-angle relationships for sine, cosine, and tangent in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "H4-RET-001",
+      "node_id": "H4",
+      "item_family": "retention",
+      "prompt": "On a delayed check, determine whether 4 notebooks for $6 and 10 notebooks for $15 are proportional and justify your reasoning.",
+      "expected_evidence": "explain ratio stability using similar right triangles",
+      "dominant_failure_mode": "inverse_reasonableness_gap",
+      "scoring_guidance": "Meets when the learner still demonstrates explain ratio stability using similar right triangles on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "H4-PRE-001",
+      "node_id": "H4",
+      "item_family": "prerequisite_probe",
+      "prompt": "Probe congruence and similarity via transformations before diagnosing right triangle trigonometric ratio foundations, and state whether the learner is missing multiplicative structure or only the current proportional application.",
+      "expected_evidence": "shows whether congruence and similarity via transformations is secure enough to support right triangle trigonometric ratio foundations",
+      "dominant_failure_mode": "similarity_ratio_opacity",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in congruence and similarity via transformations from a current-node issue in right triangle trigonometric ratio foundations.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "H2",
+      "suspected_knowledge_gap_if_incorrect": "congruence and similarity via transformations"
+    },
+    {
+      "item_id": "H4-PRE-002",
+      "node_id": "H4",
+      "item_family": "prerequisite_probe",
+      "prompt": "Probe angle concept and turn measure before diagnosing right triangle trigonometric ratio foundations, and state whether the learner is missing multiplicative structure or only the current proportional application.",
+      "expected_evidence": "shows whether angle concept and turn measure is secure enough to support right triangle trigonometric ratio foundations",
+      "dominant_failure_mode": "side_reference_drift",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in angle concept and turn measure from a current-node issue in right triangle trigonometric ratio foundations.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "G7",
+      "suspected_knowledge_gap_if_incorrect": "angle concept and turn measure"
     }
   ]
 }

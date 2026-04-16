@@ -1,0 +1,26 @@
+{
+  "node_id": "WC5",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "WC5-FM-01": [
+      "tighten the task around paragraph-island writing so the target is more visible",
+      "keep the response surface bounded enough to isolate the real bottleneck",
+      "rerun a changed-surface check after one short intervention cycle"
+    ],
+    "WC5-FM-02": [
+      "tighten the task around development thinness so the target is more visible",
+      "keep the response surface bounded enough to isolate the real bottleneck",
+      "rerun a changed-surface check after one short intervention cycle"
+    ],
+    "WC5-FM-03": [
+      "tighten the task around structural drift so the target is more visible",
+      "keep the response surface bounded enough to isolate the real bottleneck",
+      "rerun a changed-surface check after one short intervention cycle"
+    ],
+    "WC5-FM-04": [
+      "tighten the task around revision fragility so the target is more visible",
+      "keep the response surface bounded enough to isolate the real bottleneck",
+      "rerun a changed-surface check after one short intervention cycle"
+    ]
+  }
+}

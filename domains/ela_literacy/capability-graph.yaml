@@ -1,0 +1,196 @@
+domain: ela_literacy
+version: 0.1
+note: initial downstream segment anchored to early literacy and composition readiness
+
+constitution:
+  - mastery_requires_demonstration
+  - dependency_integrity_required
+  - conceptual_and_procedural_dual_requirement
+  - failures_must_be_classified
+  - continuous_local_verification
+  - intervention_must_match_failure_mode
+  - retention_required
+  - transfer_required
+
+nodes:
+  - id: O3
+    name: oral_recount_explanation_and_sequence_language
+    depends_on: [O2]
+    mastery:
+      direct_accuracy: 0.90
+      explanation_required: true
+      transfer_required: true
+      retention_check_days: 14
+    failure_modes:
+      - sequence_language_omission
+      - event_order_drift
+      - pronoun_reference_ambiguity
+      - context_bound_recount
+
+  - id: P1
+    name: book_handling_print_awareness_and_directionality
+    depends_on: [O1]
+    mastery:
+      direct_accuracy: 0.90
+      explanation_required: false
+      transfer_required: true
+      retention_check_days: 14
+    failure_modes:
+      - random_page_or_orientation_handling
+      - tracking_direction_reversal
+      - print_picture_confusion
+      - routine_only_success
+
+  - id: P3
+    name: phonological_awareness
+    depends_on: [O2]
+    mastery:
+      direct_accuracy: 0.88
+      explanation_required: false
+      transfer_required: true
+      retention_check_days: 14
+    failure_modes:
+      - syllable_boundary_instability
+      - rhyme_detection_fragility
+      - onset_rime_confusion
+      - phoneme_isolation_breakdown
+
+  - id: P4
+    name: alphabet_knowledge_and_letter_formation
+    depends_on: [P1]
+    mastery:
+      direct_accuracy: 0.90
+      explanation_required: false
+      transfer_required: true
+      retention_check_days: 14
+    failure_modes:
+      - symbol_name_sound_disconnect
+      - visual_letter_confusion
+      - formation_sequence_instability
+      - uppercase_lowercase_disconnect
+
+  - id: FR1
+    name: phoneme_grapheme_mapping
+    depends_on: [P3, P4]
+    mastery:
+      direct_accuracy: 0.90
+      explanation_required: true
+      transfer_required: true
+      retention_check_days: 14
+    failure_modes:
+      - guessed_sound_assignment
+      - inconsistent_grapheme_mapping
+      - phoneme_blending_breakdown
+      - memorized_word_without_mapping
+
+  - id: FR2
+    name: print_encoding_principle_and_bidirectional_mapping
+    depends_on: [FR1]
+    mastery:
+      direct_accuracy: 0.90
+      explanation_required: true
+      transfer_required: true
+      retention_check_days: 14
+    failure_modes:
+      - left_to_right_blending_breakdown
+      - sound_substitution_or_omission
+      - encoding_without_segmenting
+      - high_frequency_word_overguessing
+
+  - id: FR3
+    name: simple_pattern_decoding_and_encoding
+    depends_on: [FR2]
+    mastery:
+      direct_accuracy: 0.90
+      explanation_required: true
+      transfer_required: true
+      retention_check_days: 14
+    failure_modes:
+      - guessing_over_application
+      - decoding_encoding_split
+      - memorized_list_dependence
+      - pattern_element_omission
+
+  - id: FR4
+    name: word_level_decoding_generalization
+    depends_on: [FR3]
+    mastery:
+      direct_accuracy: 0.90
+      explanation_required: true
+      transfer_required: true
+      retention_check_days: 14
+    failure_modes:
+      - practiced_set_dependence
+      - cue_dependent_word_reading
+      - encoding_lag
+      - surface_shift_collapse
+
+  - id: R2
+    name: sentence_level_comprehension_of_supported_text
+    depends_on: [FR4, R1]
+    mastery:
+      direct_accuracy: 0.88
+      explanation_required: true
+      transfer_required: true
+      retention_check_days: 14
+    failure_modes:
+      - decoding_without_meaning
+      - referent_tracking_loss
+      - vocabulary_barrier_misclassification
+      - sentence_boundary_confusion
+
+  - id: L1
+    name: sentence_formation_and_basic_conventions
+    depends_on: [O3, P4]
+    mastery:
+      direct_accuracy: 0.88
+      explanation_required: true
+      transfer_required: true
+      retention_check_days: 14
+    failure_modes:
+      - fragment_or_run_on_instability
+      - oral_to_written_transfer_gap
+      - capitalization_punctuation_omission
+      - word_order_distortion
+
+  - id: W2
+    name: sentence_generation_and_transcription
+    depends_on: [FR4, L1, W1]
+    mastery:
+      direct_accuracy: 0.88
+      explanation_required: true
+      transfer_required: true
+      retention_check_days: 14
+    failure_modes:
+      - idea_generation_without_sentence_control
+      - transcription_load_collapse
+      - copying_without_composition
+      - source_prompt_dependence
+
+  - id: R3
+    name: evidence_based_response_to_text
+    depends_on: [R2, O3]
+    mastery:
+      direct_accuracy: 0.85
+      explanation_required: true
+      transfer_required: true
+      retention_check_days: 21
+    failure_modes:
+      - answer_without_text_evidence
+      - quotation_or_paraphrase_misuse
+      - inference_without_anchor
+      - question_type_confusion
+
+  - id: W3
+    name: paragraph_organization_and_source_based_response
+    depends_on: [W2, R3]
+    mastery:
+      direct_accuracy: 0.85
+      explanation_required: true
+      transfer_required: true
+      retention_check_days: 21
+    failure_modes:
+      - sentence_list_without_unity
+      - evidence_integration_breakdown
+      - topic_focus_drift
+      - organizational_scaffold_dependence

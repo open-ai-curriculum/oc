@@ -1,0 +1,18 @@
+{
+  "node_id": "Q2",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "Q2-G1-01",
+      "node_id": "Q2",
+      "gate": "G1",
+      "prompt": "Group the items or ideas into two sets and explain your rule.",
+      "source_type": "mixed_sources",
+      "response_mode": "oral_or_sorting_or_written",
+      "scoring_rule": "Sorts consistently and states a usable grouping rule.",
+      "failure_mode_targets": ["Q2-FM-01", "Q2-FM-02"],
+      "accessibility_notes": "Allow physical sorting, highlighting, or oral explanation.",
+      "language_load": "moderate"
+    }
+  ]
+}

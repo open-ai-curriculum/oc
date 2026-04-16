@@ -1,0 +1,26 @@
+{
+  "node_id": "I3",
+  "version": "0.1",
+  "interventions": {
+    "I3-FM-01": [
+      "compare one-trial and repeated-trial examples side by side",
+      "ask what more trials help us see",
+      "use matched investigations with different numbers of repeats"
+    ],
+    "I3-FM-02": [
+      "sort consistent and inconsistent result sets",
+      "highlight the range of outcomes across trials",
+      "ask whether one unusual trial changes the whole pattern or needs checking"
+    ],
+    "I3-FM-03": [
+      "rewrite overly strong pattern claims into bounded summaries",
+      "compare what the data supports versus what it does not yet show",
+      "use sentence frames such as the trials suggest"
+    ],
+    "I3-FM-04": [
+      "repeat reliability routines across life physical and Earth-space investigations",
+      "preserve the data-summary structure while changing the phenomenon",
+      "fade scaffolds after one successful familiar example"
+    ]
+  }
+}

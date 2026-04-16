@@ -1,0 +1,32 @@
+[
+  {
+    "item_id": "T6-IB-01",
+    "node_id": "T6",
+    "prompt": "Why is it incomplete to explain a planetary feature using only one type of evidence when geological, atmospheric, and orbital evidence are all relevant?",
+    "task_type": "planetary_system_synthesis",
+    "answer_key": "A complete bounded explanation should integrate the relevant evidence streams because each constrains different parts of the planetary-system account.",
+    "scorable_traits": ["evidence integration", "planetary reasoning", "bounded synthesis"],
+    "target_failure_modes": ["T6-FM-01"],
+    "context_tags": ["planetary systems", "synthesis"]
+  },
+  {
+    "item_id": "T6-IB-02",
+    "node_id": "T6",
+    "prompt": "A learner explains global change with one simple trend line and no uncertainty or system interaction. What critique is needed?",
+    "task_type": "global_change_reasoning",
+    "answer_key": "The critique should require uncertainty handling and interacting-system reasoning rather than treating one trend line as the whole explanation.",
+    "scorable_traits": ["global-change reasoning", "uncertainty", "system complexity"],
+    "target_failure_modes": ["T6-FM-02"],
+    "context_tags": ["global change", "climate"]
+  },
+  {
+    "item_id": "T6-IB-03",
+    "node_id": "T6",
+    "prompt": "What makes a critique of an Earth-space claim stronger than saying the model seems unrealistic?",
+    "task_type": "earth_space_claim_critique",
+    "answer_key": "A stronger critique identifies the specific timescale, uncertainty, evidence, or model-role problem rather than making a vague realism complaint.",
+    "scorable_traits": ["critique precision", "model-role awareness", "evidence linkage"],
+    "target_failure_modes": ["T6-FM-03"],
+    "context_tags": ["Earth-space claims", "critique"]
+  }
+]

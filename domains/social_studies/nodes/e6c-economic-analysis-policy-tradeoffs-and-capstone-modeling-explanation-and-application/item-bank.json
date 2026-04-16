@@ -1,0 +1,18 @@
+{
+  "node_id": "E6C",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "E6C-G1-01",
+      "node_id": "E6C",
+      "gate": "G1",
+      "prompt": "Complete a bounded explanation and application task for economic analysis policy tradeoffs and capstone modeling and explain your reasoning.",
+      "response_mode": "oral_or_written_or_annotated",
+      "scoring_rule": "Completes the task accurately and gives a usable explanation of the structure or reasoning.",
+      "failure_mode_targets": [
+        "E6C-FM-01",
+        "E6C-FM-02"
+      ]
+    }
+  ]
+}

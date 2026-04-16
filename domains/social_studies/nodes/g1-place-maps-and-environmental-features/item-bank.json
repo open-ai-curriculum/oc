@@ -1,0 +1,16 @@
+{
+  "node_id": "G1",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "G1-G1-01",
+      "node_id": "G1",
+      "gate": "G1",
+      "prompt": "Use the simple map or scene to identify one place feature and tell what part it shows.",
+      "representation_type": "simple_map",
+      "response_mode": "oral_or_pointing_or_written",
+      "scoring_rule": "Identifies a valid feature and connects it to the represented place.",
+      "failure_mode_targets": ["G1-FM-01", "G1-FM-02"]
+    }
+  ]
+}

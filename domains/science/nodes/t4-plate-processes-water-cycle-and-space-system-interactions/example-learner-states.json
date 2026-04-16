@@ -1,0 +1,40 @@
+[
+  {
+    "learner_id": "example-t4-secure",
+    "node_id": "T4",
+    "status": "secure",
+    "dependency_status": {
+      "T3": "secure",
+      "M2": "secure",
+      "E3": "secure"
+    },
+    "direct_accuracy": 0.92,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Explains Earth-process and water-cycle movement with bounded system language."
+  },
+  {
+    "learner_id": "example-t4-emerging",
+    "node_id": "T4",
+    "status": "emerging",
+    "dependency_status": {
+      "T3": "secure",
+      "M2": "secure",
+      "E3": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["T4-FM-01", "T4-FM-02"],
+    "recommended_interventions": ["T4-INT-01", "T4-INT-02"],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Names features correctly but does not explain process or multi-reservoir movement."
+  }
+]

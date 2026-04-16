@@ -1,0 +1,21 @@
+[
+  {
+    "learner_id": "example-p1-emerging",
+    "node_id": "P1",
+    "status": "emerging",
+    "dependency_status": {
+      "O1": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "transfer_status": "weak",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["P1-FM-02", "P1-FM-03"],
+    "recommended_interventions": [
+      "explicit print-versus-picture contrasts",
+      "shared-reading routines with repeated left-to-right tracking prompts"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Handles books appropriately but loses print focus on unfamiliar layouts."
+  }
+]

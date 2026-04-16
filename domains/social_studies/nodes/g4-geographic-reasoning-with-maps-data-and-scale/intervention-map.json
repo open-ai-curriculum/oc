@@ -1,0 +1,26 @@
+{
+  "node_id": "G4",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "G4-FM-01": [
+      "connect one map feature to one data point explicitly",
+      "annotate the two displays together",
+      "compare separate reading with integrated reasoning"
+    ],
+    "G4-FM-02": [
+      "compare local and broader scale views of the same issue",
+      "ask what changes when the scale changes",
+      "require one scale-based caution in the explanation"
+    ],
+    "G4-FM-03": [
+      "require a map or data citation for each claim",
+      "sort supported and unsupported claims",
+      "narrow the conclusion to what the evidence can justify"
+    ],
+    "G4-FM-04": [
+      "reduce the number of displays first",
+      "preteach legend and axis features",
+      "verify whether simplified displays change performance materially"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "node_id": "RC1",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "RC1-FM-01": [
+      "tighten the task around detail so the target is more visible",
+      "keep the text or prompt surface small enough to isolate detail retrieval collapse",
+      "rerun a bounded recheck on a changed but comparable text or prompt"
+    ],
+    "RC1-FM-02": [
+      "tighten the task around routine-cue so the target is more visible",
+      "keep the text or prompt surface small enough to isolate routine-cue dependence",
+      "rerun a bounded recheck on a changed but comparable text or prompt"
+    ],
+    "RC1-FM-03": [
+      "tighten the task around recount so the target is more visible",
+      "keep the text or prompt surface small enough to isolate recount sequence drift",
+      "rerun a bounded recheck on a changed but comparable text or prompt"
+    ],
+    "RC1-FM-04": [
+      "tighten the task around prompt so the target is more visible",
+      "keep the text or prompt surface small enough to isolate prompt interpretation confound",
+      "rerun a bounded recheck on a changed but comparable text or prompt"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "node_id": "G2",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "G2-G1-01",
+      "node_id": "G2",
+      "gate": "G1",
+      "prompt": "Use the map or place description to explain one way people and the environment affect each other or one way places belong in the same region.",
+      "representation_type": "map_or_place_description",
+      "response_mode": "oral_or_written_or_sorting",
+      "scoring_rule": "Gives a plausible interaction or region grouping with usable evidence.",
+      "failure_mode_targets": ["G2-FM-01", "G2-FM-02"]
+    }
+  ]
+}

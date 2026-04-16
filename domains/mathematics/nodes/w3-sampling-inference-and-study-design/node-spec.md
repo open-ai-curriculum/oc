@@ -12,7 +12,7 @@
 
 ## Purpose
 
-The learner interprets samples, variability, and study design to make bounded inferences about populations, and distinguishes valid statistical conclusions from claims unsupported by the sampling or design structure.
+The learner interprets sampling methods, experimental design, and bias structure so later inferential work rests on valid study logic rather than on formulas detached from data collection conditions.
 
 ## Dependencies
 
@@ -24,10 +24,10 @@ The learner interprets samples, variability, and study design to make bounded in
 
 The learner is secure on this node only when all of the following are true:
 
-1. explains how random sampling, sample size, and representativeness affect inference about a population
-2. distinguishes observational studies, surveys, and experiments and explains the kinds of claims each design can support
-3. makes bounded informal inferences from sample data while accounting for variability and possible sampling bias
-4. critiques unsupported conclusions by identifying flaws in sample selection, measurement, or study design
+1. explains how random sampling, random assignment, sample size, and representativeness affect what later inference can justify
+2. distinguishes observational studies, surveys, and experiments and explains the claim limits of each design
+3. identifies sources of bias, confounding, nonresponse, and measurement weakness in bounded statistical scenarios
+4. evaluates whether a study design is strong enough to support a proposed population or causal claim before formal inference is attempted
 5. passes a delayed recheck after spacing
 
 
@@ -42,10 +42,10 @@ The learner is secure on this node only when all of the following are true:
 
 The learner can:
 
-- explain how sample structure affects what can be inferred about a larger population
-- classify bounded studies as survey, observational study, or experiment and state the claim limits
-- make and defend bounded population inferences from sample summaries while naming uncertainty
-- identify sources of sampling bias, confounding, or measurement weakness in bounded studies
+- explain how study structure constrains later inferential claims about populations or causes
+- classify bounded studies as survey, observational study, or experiment and state the resulting claim limits
+- identify bias, confounding, nonresponse, and measurement issues in bounded studies
+- justify whether a bounded study is inferentially trustworthy before any formal test or interval is used
 
 
 ## Claim Boundary

@@ -1,0 +1,46 @@
+[
+  {
+    "learner_id": "example-r4-secure",
+    "node_id": "R4",
+    "status": "secure",
+    "dependency_status": {
+      "A2": "secure",
+      "M5": "secure",
+      "I5": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Uses computational science tools with explicit assumptions, interpretation, and model-boundary reasoning."
+  },
+  {
+    "learner_id": "example-r4-emerging",
+    "node_id": "R4",
+    "status": "emerging",
+    "dependency_status": {
+      "A2": "secure",
+      "M5": "secure",
+      "I5": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [
+      "R4-FM-01",
+      "R4-FM-02"
+    ],
+    "recommended_interventions": [
+      "R4-INT-01",
+      "R4-INT-02"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Can run computational workflows but still overtrusts outputs and understates assumptions."
+  }
+]

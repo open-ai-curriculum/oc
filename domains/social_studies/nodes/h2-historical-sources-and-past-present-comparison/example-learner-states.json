@@ -1,0 +1,23 @@
+{
+  "node_id": "H2",
+  "examples": [
+    {
+      "learner_id": "sample-h2-blocked-01",
+      "node_id": "H2",
+      "status": "blocked",
+      "dependency_status": { "H1": "secure", "Q2": "secure" },
+      "direct_accuracy": 0.6,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["H2-FM-01"],
+      "recommended_interventions": [
+        "require pointing to or quoting one source detail before answering",
+        "annotate the source together for usable evidence"
+      ],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Talks about past and present but does not use the source as evidence."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+node_id: I1
+version: 0.1
+transitions:
+  - from: blocked
+    to: emerging
+    when:
+      - direct_accuracy_improves_meaningfully
+      - dependency_q2_is_not_blocked
+  - from: emerging
+    to: provisional
+    when:
+      - dependency_q2_is_secure
+      - direct_gate_passes
+      - meaning_gate_passes
+      - transfer_gate_passes
+      - retention_not_yet_due
+  - from: provisional
+    to: secure
+    when:
+      - retention_gate_passes
+  - from: secure
+    to: unstable
+    when:
+      - delayed_recheck_fails
+      - dependency_q2_becomes_unstable

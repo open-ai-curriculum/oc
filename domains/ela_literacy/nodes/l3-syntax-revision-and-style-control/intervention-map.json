@@ -1,0 +1,26 @@
+{
+  "node_id": "L3",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "L3-FM-01": [
+      "correction-versus-revision contrast",
+      "clarity-improvement requirement",
+      "before-and-after revision comparison"
+    ],
+    "L3-FM-02": [
+      "audience-and-purpose cueing",
+      "compare-two-rhetorical-choices",
+      "best-fit wording prompt"
+    ],
+    "L3-FM-03": [
+      "short multi-sentence revision set",
+      "stable revision-focus across trials",
+      "notice-plan-execute breakdown check"
+    ],
+    "L3-FM-04": [
+      "clarity-then-style sequence",
+      "awkward-versus-clear comparison",
+      "diction-and-syntax coordination task"
+    ]
+  }
+}

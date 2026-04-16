@@ -1,0 +1,16 @@
+node_id: E4
+version: 0.1
+transitions:
+  - from: blocked
+    to: emerging
+    when:
+      - e3_c2_q4_dependencies_not_blocking
+      - direct_accuracy_improves_meaningfully
+  - from: emerging
+    to: provisional
+    when:
+      - e3_c2_q4_dependencies_secure_or_provisional
+      - direct_gate_passes
+      - meaning_gate_passes
+      - transfer_gate_passes
+      - retention_not_yet_due

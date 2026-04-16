@@ -1,0 +1,67 @@
+slice_id: social_studies_capstone_public_argument_runtime
+domain: social_studies
+status: draft
+version: 0.1
+node_ids:
+  - Q6
+  - H5
+  - C5
+  - G5
+  - E5
+  - A1
+  - A2
+entry_node_ids:
+  - A1
+learner_state_fields:
+  - learner_id
+  - node_id
+  - status
+  - dependency_status
+  - direct_accuracy
+  - explanation_status
+  - transfer_status
+  - retention_status
+  - dominant_failure_modes
+  - recommended_interventions
+  - last_verified_at
+  - review_state
+artifact_registry_reference: domains/social_studies/artifact-attachments/capstone-public-argument-attachment-registry.yaml
+navigation_rules:
+  - rule_id: ss-capstone-teach-next
+    decision_type: teach_next
+    applies_when:
+      - current_node_status in [secure]
+      - next_node_dependencies_secure
+      - next_node_not_yet_secure
+    outcome: advance_to_next_available_capstone_node
+    artifact_selection: prefer LessonPattern, AssessmentBundle, or PerformanceTask on target node
+  - rule_id: ss-capstone-hold-current
+    decision_type: hold_current
+    applies_when:
+      - current_node_status in [blocked, emerging, provisional]
+      - current_node_is_instructionally_actionable
+    outcome: remain_on_current_capstone_node
+    artifact_selection: prefer studio or revision routine on current node
+  - rule_id: ss-capstone-route-upstream
+    decision_type: route_upstream
+    applies_when:
+      - current_node_status = blocked
+      - dependency_status_contains_unstable_or_blocked
+    outcome: route_to_most_relevant_disciplinary_dependency
+    artifact_selection: prefer targeted upstream source analysis or domain-specific support
+  - rule_id: ss-capstone-reverify
+    decision_type: reverify
+    applies_when:
+      - current_node_status = provisional
+      - retention_due_or_required_before_public_communication_release
+    outcome: schedule_reverification_before_capstone_closure
+    artifact_selection: prefer performance-task checkpoint or source-set recheck
+  - rule_id: ss-capstone-accelerate
+    decision_type: accelerate
+    applies_when:
+      - current_node_status = secure
+      - dependencies_secure_for_next_node
+      - no_review_blockers_present
+    outcome: allow_accelerated_transition_to_public_briefing_or_capstone_argument_work
+    artifact_selection: prefer compact synthesis studio plus verification checkpoint
+review_status: draft

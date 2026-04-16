@@ -1,0 +1,25 @@
+[
+  {
+    "learner_id": "example-wc5-emerging",
+    "node_id": "WC5",
+    "status": "emerging",
+    "dependency_status": {
+      "WC4": "secure"
+    },
+    "direct_accuracy": 0.77,
+    "explanation_status": "weak",
+    "transfer_status": "weak",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [
+      "WC5-FM-01",
+      "WC5-FM-02"
+    ],
+    "recommended_interventions": [
+      "tighten the task around paragraph-island writing so the target is more visible",
+      "keep the response surface bounded enough to isolate the real bottleneck"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Learner shows emerging control on WC5 but still needs stronger transfer and explanation."
+  }
+]

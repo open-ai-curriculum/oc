@@ -1,0 +1,72 @@
+{
+  "node_id": "I3",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "I3-A-001",
+      "family": "trials_reliability_and_patterns",
+      "prompt": "Three paper towel trials were run. Why is that stronger than using only one trial?",
+      "target_node": "I3",
+      "secondary_dependency_targets": ["I2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation", "selected_response"],
+      "dominant_failure_modes_if_incorrect": ["I3-FM-01", "I3-FM-02"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "I3-A-002",
+      "family": "trials_reliability_and_patterns",
+      "prompt": "Four trials show nearly the same result and one is very different. What should be checked before summarizing the pattern?",
+      "target_node": "I3",
+      "secondary_dependency_targets": ["I2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["selected_response", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["I3-FM-02", "I3-FM-03"],
+      "requires_human_scoring": false
+    },
+    {
+      "item_id": "I3-B-001",
+      "family": "explanation",
+      "prompt": "Explain what the repeated seed-growth trials suggest overall, and why that pattern is more trustworthy than one single result.",
+      "target_node": "I3",
+      "secondary_dependency_targets": ["I2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["I3-FM-01", "I3-FM-03"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "I3-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student says one unusual trial proves the whole pattern is false. What should be checked in that conclusion?",
+      "target_node": "I3",
+      "secondary_dependency_targets": ["I2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["multiple_choice", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["I3-FM-02", "I3-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "I3-D-001",
+      "family": "transfer",
+      "prompt": "Summarize one pattern from a ramp experiment and one from a weather record. Explain why repeated observations matter in both.",
+      "target_node": "I3",
+      "secondary_dependency_targets": ["I2"],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": ["oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["I3-FM-01", "I3-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "I3-R-001",
+      "family": "retention",
+      "prompt": "After time has passed, choose the better pattern summary from a repeated-trials table and explain your choice.",
+      "target_node": "I3",
+      "secondary_dependency_targets": ["I2"],
+      "difficulty_band": "retention",
+      "response_modes_allowed": ["selected_response", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["I3-FM-02", "I3-FM-03"],
+      "requires_human_scoring": true
+    }
+  ]
+}

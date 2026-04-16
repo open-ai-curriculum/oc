@@ -1,0 +1,46 @@
+[
+  {
+    "learner_id": "example-f3-secure",
+    "node_id": "F3",
+    "status": "secure",
+    "dependency_status": {
+      "F1": "secure",
+      "P6": "secure",
+      "M4": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Explains fluids and thermal systems with bounded pressure, transfer, and system-condition reasoning."
+  },
+  {
+    "learner_id": "example-f3-emerging",
+    "node_id": "F3",
+    "status": "emerging",
+    "dependency_status": {
+      "F1": "secure",
+      "P6": "secure",
+      "M4": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [
+      "F3-FM-01",
+      "F3-FM-02"
+    ],
+    "recommended_interventions": [
+      "F3-INT-01",
+      "F3-INT-02"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Uses thermal and fluid vocabulary but explanations remain one-variable and formula-driven."
+  }
+]

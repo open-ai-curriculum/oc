@@ -1,0 +1,37 @@
+{
+  "node_id": "G4",
+  "interventions": [
+    {
+      "intervention_id": "G4-INT-01",
+      "name": "G4 Intervention 1",
+      "addresses_failure_modes": [
+        "G4-FM-01"
+      ],
+      "summary": "observation-to-inference routines that make astronomical evidence chains explicit"
+    },
+    {
+      "intervention_id": "G4-INT-02",
+      "name": "G4 Intervention 2",
+      "addresses_failure_modes": [
+        "G4-FM-02"
+      ],
+      "summary": "scale checks that compare planetary, stellar, and cosmological model choices"
+    },
+    {
+      "intervention_id": "G4-INT-03",
+      "name": "G4 Intervention 3",
+      "addresses_failure_modes": [
+        "G4-FM-03"
+      ],
+      "summary": "phenomenon-matching tasks for astronomy and astrophysics models"
+    },
+    {
+      "intervention_id": "G4-INT-04",
+      "name": "G4 Intervention 4",
+      "addresses_failure_modes": [
+        "G4-FM-04"
+      ],
+      "summary": "claim-boundary reviews for indirect evidence in space science"
+    }
+  ]
+}

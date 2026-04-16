@@ -1,0 +1,21 @@
+{
+  "node_id": "R1",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "R1-FM-01": [
+      "clear stuck signal defined before the task begins",
+      "brief self-check pauses during work",
+      "difference taught between keep trying and ask for help points"
+    ],
+    "R1-FM-02": [
+      "sentence frames or gesture options for asking for help",
+      "prompt to name the step example or tool needed",
+      "help requests tied to one immediate next action"
+    ],
+    "R1-FM-03": [
+      "one bounded correction target at a time",
+      "brief revision attempt immediately after feedback",
+      "reinforcement of recovery and revision not only accuracy"
+    ]
+  }
+}

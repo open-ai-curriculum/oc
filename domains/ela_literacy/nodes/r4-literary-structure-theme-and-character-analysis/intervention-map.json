@@ -1,0 +1,26 @@
+{
+  "node_id": "R4",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "R4-FM-01": [
+      "summary-versus-analysis contrast",
+      "one-detail then one-interpretation routine",
+      "theme-or-character claim frame"
+    ],
+    "R4-FM-02": [
+      "claim-evidence-explanation frame",
+      "why-this-detail-matters prompt",
+      "single-idea literary analysis"
+    ],
+    "R4-FM-03": [
+      "theme-character-structure concept sort",
+      "one-text concept contrast",
+      "reduced literary-term load"
+    ],
+    "R4-FM-04": [
+      "changed literary text rotation",
+      "theme-to-character prompt variation",
+      "same evidence demand across new prompts"
+    ]
+  }
+}

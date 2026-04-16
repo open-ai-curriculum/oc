@@ -1,37 +1,140 @@
 {
   "node_id": "Q3",
+  "policy_version": "1.0",
   "items": [
     {
-      "item_id": "Q3-A1",
-      "item_family": "direct",
-      "prompt": "recognizes when two quantities are in a proportional relationship and when they are not",
+      "item_id": "Q3-DIR-001",
+      "node_id": "Q3",
+      "item_family": "direct_execution",
+      "prompt": "Solve `x + 7 = 19` and show how each step preserves equality.",
       "expected_evidence": "identify whether paired quantities scale proportionally in bounded cases",
       "dominant_failure_mode": "additive_pattern_misclassification",
-      "scoring_guidance": "Meets when the learner classifies proportional structure correctly."
+      "scoring_guidance": "Meets when the learner demonstrates identify whether paired quantities scale proportionally in bounded cases with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "Q3-B1",
-      "item_family": "explanation",
-      "prompt": "explains invariant multiplicative structure rather than relying on repeated additive change",
-      "expected_evidence": "justify why equal additive differences do not by themselves establish proportionality",
+      "item_id": "Q3-DIR-002",
+      "node_id": "Q3",
+      "item_family": "direct_execution",
+      "prompt": "Solve `4x = 28`, then check the solution by substitution.",
+      "expected_evidence": "complete missing values in proportional tables using multiplicative logic",
       "dominant_failure_mode": "scale_invariance_breakdown",
-      "scoring_guidance": "Meets when the learner explains the invariant multiplicative relationship."
+      "scoring_guidance": "Meets when the learner demonstrates complete missing values in proportional tables using multiplicative logic with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "Q3-C1",
-      "item_family": "error_diagnosis",
-      "prompt": "Diagnose a peer error aligned to additive_pattern_misclassification.",
+      "item_id": "Q3-DIR-003",
+      "node_id": "Q3",
+      "item_family": "direct_execution",
+      "prompt": "Match the equation `n - 5 = 12` to a balance or missing-value situation and solve it.",
       "expected_evidence": "justify why equal additive differences do not by themselves establish proportionality",
-      "dominant_failure_mode": "additive_pattern_misclassification",
-      "scoring_guidance": "Meets when the learner distinguishes additive patterning from proportional structure."
+      "dominant_failure_mode": "table_extension_without_structure",
+      "scoring_guidance": "Meets when the learner demonstrates justify why equal additive differences do not by themselves establish proportionality with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
     },
     {
-      "item_id": "Q3-D1",
+      "item_id": "Q3-EXP-001",
+      "node_id": "Q3",
+      "item_family": "explanation",
+      "prompt": "Explain why subtracting the same value from both sides of an equation preserves the solution set.",
+      "expected_evidence": "identify whether paired quantities scale proportionally in bounded cases",
+      "dominant_failure_mode": "scale_invariance_breakdown",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to identify whether paired quantities scale proportionally in bounded cases.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "Q3-EXP-002",
+      "node_id": "Q3",
+      "item_family": "explanation",
+      "prompt": "Explain what the variable represents and why inverse operations help isolate it.",
+      "expected_evidence": "complete missing values in proportional tables using multiplicative logic",
+      "dominant_failure_mode": "table_extension_without_structure",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to complete missing values in proportional tables using multiplicative logic.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "Q3-ERR-001",
+      "node_id": "Q3",
+      "item_family": "error_diagnosis",
+      "prompt": "A student solves `x + 5 = 13` by writing `x = 13 + 5`. Diagnose the first structural mistake. Focus on additive pattern misclassification.",
+      "expected_evidence": "identify whether paired quantities scale proportionally in bounded cases",
+      "dominant_failure_mode": "additive_pattern_misclassification",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward identify whether paired quantities scale proportionally in bounded cases.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "Q3-ERR-002",
+      "node_id": "Q3",
+      "item_family": "error_diagnosis",
+      "prompt": "A student solves `3x = 18` by dividing only the `x`. Explain what went wrong. Focus on scale invariance breakdown.",
+      "expected_evidence": "complete missing values in proportional tables using multiplicative logic",
+      "dominant_failure_mode": "scale_invariance_breakdown",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward complete missing values in proportional tables using multiplicative logic.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "Q3-TRA-001",
+      "node_id": "Q3",
       "item_family": "transfer",
-      "prompt": "succeeds across ratio tables, missing-value tasks, and simple constant-of-proportionality contexts",
-      "expected_evidence": "coordinate one-unit reasoning with equivalent-ratio growth across multiple representations",
+      "prompt": "A gym charges a $12 signup fee plus $5 per class. Write and solve an equation for the number of classes if the total was $32.",
+      "expected_evidence": "identify whether paired quantities scale proportionally in bounded cases",
+      "dominant_failure_mode": "table_extension_without_structure",
+      "scoring_guidance": "Meets when the learner preserves identify whether paired quantities scale proportionally in bounded cases in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "Q3-TRA-002",
+      "node_id": "Q3",
+      "item_family": "transfer",
+      "prompt": "A balance model has three equal bags and 6 loose counters on one side and 24 counters on the other. Write and solve the equation.",
+      "expected_evidence": "complete missing values in proportional tables using multiplicative logic",
       "dominant_failure_mode": "representation_split",
-      "scoring_guidance": "Meets when the learner preserves proportional reasoning across representation changes."
+      "scoring_guidance": "Meets when the learner preserves complete missing values in proportional tables using multiplicative logic in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "Q3-RET-001",
+      "node_id": "Q3",
+      "item_family": "retention",
+      "prompt": "Two weeks later, solve `m/3 = 8` and explain how you know the result is reasonable.",
+      "expected_evidence": "identify whether paired quantities scale proportionally in bounded cases",
+      "dominant_failure_mode": "representation_split",
+      "scoring_guidance": "Meets when the learner still demonstrates identify whether paired quantities scale proportionally in bounded cases on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "Q3-PRE-001",
+      "node_id": "Q3",
+      "item_family": "prerequisite_probe",
+      "prompt": "Before solving proportional relationships, complete a prerequisite check on unit rate reasoning and explain how it supports the current equation work.",
+      "expected_evidence": "shows whether unit rate reasoning is secure enough to support proportional relationships",
+      "dominant_failure_mode": "scale_invariance_breakdown",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in unit rate reasoning from a current-node issue in proportional relationships.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "Q2",
+      "suspected_knowledge_gap_if_incorrect": "unit rate reasoning"
+    },
+    {
+      "item_id": "Q3-PRE-002",
+      "node_id": "Q3",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a quick multiplicative comparison and scaling check to explain whether the learner is blocked by prerequisite structure or by proportional relationships itself.",
+      "expected_evidence": "shows whether multiplicative comparison and scaling is secure enough to support proportional relationships",
+      "dominant_failure_mode": "table_extension_without_structure",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in multiplicative comparison and scaling from a current-node issue in proportional relationships.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "T4",
+      "suspected_knowledge_gap_if_incorrect": "multiplicative comparison and scaling"
     }
   ]
 }

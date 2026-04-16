@@ -1,0 +1,29 @@
+{
+  "node_id": "M4",
+  "interventions": [
+    {
+      "failure_mode": "M4-FM-01",
+      "intervention_id": "M4-INT-01",
+      "name": "Boundary And Reservoir Check",
+      "delivery": "model audit"
+    },
+    {
+      "failure_mode": "M4-FM-02",
+      "intervention_id": "M4-INT-02",
+      "name": "Cycle Reconstruction Routine",
+      "delivery": "diagram rebuild"
+    },
+    {
+      "failure_mode": "M4-FM-03",
+      "intervention_id": "M4-INT-03",
+      "name": "Matter Versus Energy Paired Trace",
+      "delivery": "compare and explain"
+    },
+    {
+      "failure_mode": "M4-FM-04",
+      "intervention_id": "M4-INT-04",
+      "name": "Cross-Context Model Transfer",
+      "delivery": "analogy routine"
+    }
+  ]
+}

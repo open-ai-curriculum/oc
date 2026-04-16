@@ -1,0 +1,157 @@
+{
+  "id": "mathematics-assessment-overlay-coverage-summary",
+  "generated_on": "2026-04-15",
+  "overlay_count": 13,
+  "summary_classification_counts": {
+    "content_complete": 6,
+    "content_substantial_but_compressed": 1,
+    "content_partial": 6
+  },
+  "unit_classification_counts": {
+    "covered": 53,
+    "partially_covered": 15
+  },
+  "assessment_family_count": 13,
+  "level_variant_labels": [
+    "HL",
+    "SL"
+  ],
+  "assessment_families": [
+    {
+      "overlay_id": "sat-mathematics-overlay",
+      "assessment_family": "SAT",
+      "summary_classification": "content_complete",
+      "unit_count": 4,
+      "unit_classification_counts": {
+        "covered": 4
+      },
+      "unresolved_gap_count": 0
+    },
+    {
+      "overlay_id": "psat-nmsqt-mathematics-overlay",
+      "assessment_family": "PSAT/NMSQT",
+      "summary_classification": "content_complete",
+      "unit_count": 4,
+      "unit_classification_counts": {
+        "covered": 4
+      },
+      "unresolved_gap_count": 0
+    },
+    {
+      "overlay_id": "act-mathematics-overlay",
+      "assessment_family": "ACT",
+      "summary_classification": "content_substantial_but_compressed",
+      "unit_count": 7,
+      "unit_classification_counts": {
+        "covered": 5,
+        "partially_covered": 2
+      },
+      "unresolved_gap_count": 1
+    },
+    {
+      "overlay_id": "ap-statistics-overlay",
+      "assessment_family": "AP Statistics",
+      "summary_classification": "content_complete",
+      "unit_count": 9,
+      "unit_classification_counts": {
+        "covered": 9
+      },
+      "unresolved_gap_count": 0
+    },
+    {
+      "overlay_id": "ap-precalculus-overlay",
+      "assessment_family": "AP Precalculus",
+      "summary_classification": "content_complete",
+      "unit_count": 4,
+      "unit_classification_counts": {
+        "covered": 4
+      },
+      "unresolved_gap_count": 0
+    },
+    {
+      "overlay_id": "ap-calculus-ab-overlay",
+      "assessment_family": "AP Calculus AB",
+      "summary_classification": "content_complete",
+      "unit_count": 8,
+      "unit_classification_counts": {
+        "covered": 8
+      },
+      "unresolved_gap_count": 0
+    },
+    {
+      "overlay_id": "ap-calculus-bc-overlay",
+      "assessment_family": "AP Calculus BC",
+      "summary_classification": "content_complete",
+      "unit_count": 2,
+      "unit_classification_counts": {
+        "covered": 2
+      },
+      "unresolved_gap_count": 0
+    },
+    {
+      "overlay_id": "ib-mathematics-aa-overlay",
+      "assessment_family": "IB Mathematics AA",
+      "summary_classification": "content_partial",
+      "unit_count": 5,
+      "unit_classification_counts": {
+        "covered": 4,
+        "partially_covered": 1
+      },
+      "unresolved_gap_count": 1
+    },
+    {
+      "overlay_id": "ib-mathematics-ai-overlay",
+      "assessment_family": "IB Mathematics AI",
+      "summary_classification": "content_partial",
+      "unit_count": 5,
+      "unit_classification_counts": {
+        "covered": 4,
+        "partially_covered": 1
+      },
+      "unresolved_gap_count": 1
+    },
+    {
+      "overlay_id": "ib-mathematics-aa-sl-overlay",
+      "assessment_family": "IB Mathematics AA SL",
+      "summary_classification": "content_partial",
+      "unit_count": 5,
+      "unit_classification_counts": {
+        "covered": 4,
+        "partially_covered": 1
+      },
+      "unresolved_gap_count": 1
+    },
+    {
+      "overlay_id": "ib-mathematics-aa-hl-overlay",
+      "assessment_family": "IB Mathematics AA HL",
+      "summary_classification": "content_partial",
+      "unit_count": 5,
+      "unit_classification_counts": {
+        "partially_covered": 5
+      },
+      "unresolved_gap_count": 1
+    },
+    {
+      "overlay_id": "ib-mathematics-ai-sl-overlay",
+      "assessment_family": "IB Mathematics AI SL",
+      "summary_classification": "content_partial",
+      "unit_count": 5,
+      "unit_classification_counts": {
+        "covered": 4,
+        "partially_covered": 1
+      },
+      "unresolved_gap_count": 1
+    },
+    {
+      "overlay_id": "ib-mathematics-ai-hl-overlay",
+      "assessment_family": "IB Mathematics AI HL",
+      "summary_classification": "content_partial",
+      "unit_count": 5,
+      "unit_classification_counts": {
+        "partially_covered": 4,
+        "covered": 1
+      },
+      "unresolved_gap_count": 1
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "node_id": "G1",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "G1-FM-01": [
+      "connect the map or model directly to the real place",
+      "trace one feature from representation to reality and back",
+      "use simple labels and legend-like supports"
+    ],
+    "G1-FM-02": [
+      "highlight one feature category at a time",
+      "compare multiple place scenes with the same feature",
+      "sort features by land water built space or pathway"
+    ],
+    "G1-FM-03": [
+      "rotate or resize one representation at a time",
+      "use matching tasks between two views of the same place",
+      "verbalize same place different view"
+    ],
+    "G1-FM-04": [
+      "simplify the spatial field",
+      "use tactile or high-contrast maps where appropriate",
+      "check whether access adjustments materially change performance"
+    ]
+  }
+}

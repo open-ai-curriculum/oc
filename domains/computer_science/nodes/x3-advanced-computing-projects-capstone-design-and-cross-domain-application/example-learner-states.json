@@ -1,0 +1,48 @@
+[
+  {
+    "learner_id": "example-x3-secure",
+    "node_id": "X3",
+    "status": "secure",
+    "dependency_status": {
+      "X1": "secure",
+      "X2": "secure",
+      "N5": "secure",
+      "C4": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Integrates advanced computing project reasoning across requirements, architecture, quality, security, and cross-domain application."
+  },
+  {
+    "learner_id": "example-x3-emerging",
+    "node_id": "X3",
+    "status": "emerging",
+    "dependency_status": {
+      "X1": "secure",
+      "X2": "secure",
+      "N5": "secure",
+      "C4": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [
+      "X3-FM-01",
+      "X3-FM-02"
+    ],
+    "recommended_interventions": [
+      "X3-INT-01",
+      "X3-INT-02"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Can describe ambitious projects but still handles capstone reasoning too loosely or feature-first."
+  }
+]

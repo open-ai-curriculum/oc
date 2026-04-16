@@ -1,37 +1,140 @@
 {
   "node_id": "A3",
+  "policy_version": "1.0",
   "items": [
     {
-      "item_id": "A3-A1",
-      "item_family": "direct",
-      "prompt": "solves bounded one-step inequalities and represents the resulting solution set on a number line",
+      "item_id": "A3-DIR-001",
+      "node_id": "A3",
+      "item_family": "direct_execution",
+      "prompt": "Solve `x + 7 = 19` and show how each step preserves equality.",
       "expected_evidence": "solve bounded one-step inequalities and explain the comparison relationship that remains true",
       "dominant_failure_mode": "equation_inequality_collapse",
-      "scoring_guidance": "Meets when the learner preserves comparison meaning and represents the solution set correctly."
+      "scoring_guidance": "Meets when the learner demonstrates solve bounded one-step inequalities and explain the comparison relationship that remains true with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "A3-B1",
-      "item_family": "explanation",
-      "prompt": "explains why an inequality can have many solutions and how endpoint and direction meaning work on a number line",
-      "expected_evidence": "explain why many values can satisfy an inequality and test candidate values appropriately",
+      "item_id": "A3-DIR-002",
+      "node_id": "A3",
+      "item_family": "direct_execution",
+      "prompt": "Solve `4x = 28`, then check the solution by substitution.",
+      "expected_evidence": "represent solution sets with correct open or closed endpoint conventions in bounded cases",
       "dominant_failure_mode": "solution_set_as_single_value",
-      "scoring_guidance": "Meets when the learner explains inequality solutions as a set of values rather than one answer."
+      "scoring_guidance": "Meets when the learner demonstrates represent solution sets with correct open or closed endpoint conventions in bounded cases with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "A3-C1",
-      "item_family": "error_diagnosis",
-      "prompt": "Diagnose a peer error aligned to endpoint_direction_confusion.",
+      "item_id": "A3-DIR-003",
+      "node_id": "A3",
+      "item_family": "direct_execution",
+      "prompt": "Match the equation `n - 5 = 12` to a balance or missing-value situation and solve it.",
+      "expected_evidence": "explain why many values can satisfy an inequality and test candidate values appropriately",
+      "dominant_failure_mode": "endpoint_direction_confusion",
+      "scoring_guidance": "Meets when the learner demonstrates explain why many values can satisfy an inequality and test candidate values appropriately with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
+    },
+    {
+      "item_id": "A3-EXP-001",
+      "node_id": "A3",
+      "item_family": "explanation",
+      "prompt": "Explain why subtracting the same value from both sides of an equation preserves the solution set.",
+      "expected_evidence": "solve bounded one-step inequalities and explain the comparison relationship that remains true",
+      "dominant_failure_mode": "solution_set_as_single_value",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to solve bounded one-step inequalities and explain the comparison relationship that remains true.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "A3-EXP-002",
+      "node_id": "A3",
+      "item_family": "explanation",
+      "prompt": "Explain what the variable represents and why inverse operations help isolate it.",
       "expected_evidence": "represent solution sets with correct open or closed endpoint conventions in bounded cases",
       "dominant_failure_mode": "endpoint_direction_confusion",
-      "scoring_guidance": "Meets when the learner identifies how the peer misrepresented the solution set on the number line."
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to represent solution sets with correct open or closed endpoint conventions in bounded cases.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
     },
     {
-      "item_id": "A3-D1",
+      "item_id": "A3-ERR-001",
+      "node_id": "A3",
+      "item_family": "error_diagnosis",
+      "prompt": "A student solves `x + 5 = 13` by writing `x = 13 + 5`. Diagnose the first structural mistake. Focus on equation inequality collapse.",
+      "expected_evidence": "solve bounded one-step inequalities and explain the comparison relationship that remains true",
+      "dominant_failure_mode": "equation_inequality_collapse",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward solve bounded one-step inequalities and explain the comparison relationship that remains true.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "A3-ERR-002",
+      "node_id": "A3",
+      "item_family": "error_diagnosis",
+      "prompt": "A student solves `3x = 18` by dividing only the `x`. Explain what went wrong. Focus on solution set as single value.",
+      "expected_evidence": "represent solution sets with correct open or closed endpoint conventions in bounded cases",
+      "dominant_failure_mode": "solution_set_as_single_value",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward represent solution sets with correct open or closed endpoint conventions in bounded cases.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "A3-TRA-001",
+      "node_id": "A3",
       "item_family": "transfer",
-      "prompt": "succeeds across symbolic, number-line, verbal, and simple contextual inequality representations",
-      "expected_evidence": "connect symbolic inequalities to directional number-line and contextual threshold representations",
+      "prompt": "A gym charges a $12 signup fee plus $5 per class. Write and solve an equation for the number of classes if the total was $32.",
+      "expected_evidence": "solve bounded one-step inequalities and explain the comparison relationship that remains true",
+      "dominant_failure_mode": "endpoint_direction_confusion",
+      "scoring_guidance": "Meets when the learner preserves solve bounded one-step inequalities and explain the comparison relationship that remains true in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "A3-TRA-002",
+      "node_id": "A3",
+      "item_family": "transfer",
+      "prompt": "A balance model has three equal bags and 6 loose counters on one side and 24 counters on the other. Write and solve the equation.",
+      "expected_evidence": "represent solution sets with correct open or closed endpoint conventions in bounded cases",
       "dominant_failure_mode": "context_threshold_breakdown",
-      "scoring_guidance": "Meets when the learner preserves inequality meaning across multiple representations and contexts."
+      "scoring_guidance": "Meets when the learner preserves represent solution sets with correct open or closed endpoint conventions in bounded cases in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "A3-RET-001",
+      "node_id": "A3",
+      "item_family": "retention",
+      "prompt": "Two weeks later, solve `m/3 = 8` and explain how you know the result is reasonable.",
+      "expected_evidence": "solve bounded one-step inequalities and explain the comparison relationship that remains true",
+      "dominant_failure_mode": "context_threshold_breakdown",
+      "scoring_guidance": "Meets when the learner still demonstrates solve bounded one-step inequalities and explain the comparison relationship that remains true on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "A3-PRE-001",
+      "node_id": "A3",
+      "item_family": "prerequisite_probe",
+      "prompt": "Before solving inequalities and solution sets, complete a prerequisite check on one step equations and explain how it supports the current equation work.",
+      "expected_evidence": "shows whether one step equations is secure enough to support inequalities and solution sets",
+      "dominant_failure_mode": "solution_set_as_single_value",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in one step equations from a current-node issue in inequalities and solution sets.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "E1",
+      "suspected_knowledge_gap_if_incorrect": "one step equations"
+    },
+    {
+      "item_id": "A3-PRE-002",
+      "node_id": "A3",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a quick signed number meaning check to explain whether the learner is blocked by prerequisite structure or by inequalities and solution sets itself.",
+      "expected_evidence": "shows whether signed number meaning is secure enough to support inequalities and solution sets",
+      "dominant_failure_mode": "endpoint_direction_confusion",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in signed number meaning from a current-node issue in inequalities and solution sets.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "S1",
+      "suspected_knowledge_gap_if_incorrect": "signed number meaning"
     }
   ]
 }

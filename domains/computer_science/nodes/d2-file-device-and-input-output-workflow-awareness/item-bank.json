@@ -1,0 +1,228 @@
+{
+  "node_id": "D2",
+  "policy_version": "1.0",
+  "version": "0.4",
+  "items": [
+    {
+      "item_id": "D2-DIR-001",
+      "node_id": "D2",
+      "item_family": "direct_execution",
+      "prompt": "A learner opens a classroom drawing app and needs to select the text tool, type a short label, and move it to the correct place on the canvas. Show how they would identify where information comes in and where it goes out in a simple workflow.",
+      "expected_evidence": "identify where information comes in and where it goes out in a simple workflow",
+      "dominant_failure_mode_targets": [
+        "D2-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates identify where information comes in and where it goes out in a simple workflow with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "D2-DIR-002",
+      "node_id": "D2",
+      "item_family": "direct_execution",
+      "prompt": "On a tablet home screen, a learner taps an icon, types in a search field, and returns to the original screen. Describe what changed after each action and how the learner would describe a bounded file or device process as connected steps.",
+      "expected_evidence": "describe a bounded file or device process as connected steps",
+      "dominant_failure_mode_targets": [
+        "D2-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates describe a bounded file or device process as connected steps with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "D2-DIR-003",
+      "node_id": "D2",
+      "item_family": "direct_execution",
+      "prompt": "A student is trying to submit a photo to a classroom app but keeps tapping unrelated icons. Use the interface sequence to show how they should distinguish storing showing and sending as different workflow actions.",
+      "expected_evidence": "distinguish storing showing and sending as different workflow actions",
+      "dominant_failure_mode_targets": [
+        "D2-FM-03"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates distinguish storing showing and sending as different workflow actions with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "D2-EXP-001",
+      "node_id": "D2",
+      "item_family": "explanation",
+      "prompt": "Why is saving a file different from sending it?",
+      "expected_evidence": "saving stores information for later access, while sending moves it to another location or person through a communication step.",
+      "dominant_failure_mode_targets": [
+        "D2-FM-03"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to saving stores information for later access, while sending moves it to another location or person through a communication step."
+    },
+    {
+      "item_id": "D2-EXP-002",
+      "node_id": "D2",
+      "item_family": "explanation",
+      "prompt": "How can you explain a simple input-output workflow?",
+      "expected_evidence": "a strong answer describes where information starts, what tool or device changes or handles it, and what output results.",
+      "dominant_failure_mode_targets": [
+        "D2-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to a strong answer describes where information starts, what tool or device changes or handles it, and what output results."
+    },
+    {
+      "item_id": "D2-ERR-001",
+      "node_id": "D2",
+      "item_family": "error_diagnosis",
+      "prompt": "A learner response in file, device, and input-output workflow awareness suggests this breakdown: learner confuses what a file, app, device, or display is doing in the workflow. Diagnose the likely misconception or structural error. Focus on file-device-role confusion.",
+      "expected_evidence": "identify where information comes in and where it goes out in a simple workflow",
+      "dominant_failure_mode_targets": [
+        "D2-FM-01"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward identify where information comes in and where it goes out in a simple workflow."
+    },
+    {
+      "item_id": "D2-ERR-002",
+      "node_id": "D2",
+      "item_family": "error_diagnosis",
+      "prompt": "A learner response in file, device, and input-output workflow awareness suggests this breakdown: learner cannot explain how information moves from one step to the next. Diagnose the likely misconception or structural error. Focus on input-output chain break.",
+      "expected_evidence": "describe a bounded file or device process as connected steps",
+      "dominant_failure_mode_targets": [
+        "D2-FM-02"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward describe a bounded file or device process as connected steps."
+    },
+    {
+      "item_id": "D2-TRA-001",
+      "node_id": "D2",
+      "item_family": "transfer",
+      "prompt": "A learner who usually works on a tablet now has to find, open, and use the same kind of tool on a laptop. Explain how they would distinguish storing showing and sending as different workflow actions in the new interface.",
+      "expected_evidence": "distinguish storing showing and sending as different workflow actions",
+      "dominant_failure_mode_targets": [
+        "D2-FM-03"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves distinguish storing showing and sending as different workflow actions in a changed computing context or representation."
+    },
+    {
+      "item_id": "D2-TRA-002",
+      "node_id": "D2",
+      "item_family": "transfer",
+      "prompt": "A classroom switches from one app to another with different icons but the same basic actions. Explain how a learner would avoid random navigation when moving through a simple digital task without relying on random clicking.",
+      "expected_evidence": "avoid random navigation when moving through a simple digital task",
+      "dominant_failure_mode_targets": [
+        "D2-FM-04"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves avoid random navigation when moving through a simple digital task in a changed computing context or representation."
+    },
+    {
+      "item_id": "D2-RET-001",
+      "node_id": "D2",
+      "item_family": "retention",
+      "prompt": "After a delay, the learner returns to a shared classroom device and must reopen the right app, make one bounded change, and explain how they knew the interface action worked. Show how they would identify where information comes in and where it goes out in a simple workflow.",
+      "expected_evidence": "identify where information comes in and where it goes out in a simple workflow",
+      "dominant_failure_mode_targets": [
+        "D2-FM-04"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_explanation",
+        "constructed_response"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability",
+      "scoring_guidance": "Meets when the learner still demonstrates identify where information comes in and where it goes out in a simple workflow on a delayed recheck without a blocking recurrence."
+    },
+    {
+      "item_id": "D2-PRE-001",
+      "node_id": "D2",
+      "item_family": "prerequisite_probe",
+      "prompt": null,
+      "expected_evidence": "shows whether digital tool navigation and interface cause-effect is secure enough to support file, device, and input-output workflow awareness",
+      "dominant_failure_mode_targets": [
+        "D2-FM-01"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in digital tool navigation and interface cause-effect from a current-node issue in file, device, and input-output workflow awareness.",
+      "dependency_target": "D1",
+      "suspected_knowledge_gap_if_incorrect": "digital tool navigation and interface cause-effect"
+    }
+  ]
+}

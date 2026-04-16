@@ -1,0 +1,37 @@
+{
+  "node_id": "A1",
+  "interventions": [
+    {
+      "intervention_id": "A1-INT-01",
+      "name": "A1 Intervention 1",
+      "addresses_failure_modes": [
+        "A1-FM-01"
+      ],
+      "summary": "break-it-down routines that force one large task into named smaller actions"
+    },
+    {
+      "intervention_id": "A1-INT-02",
+      "name": "A1 Intervention 2",
+      "addresses_failure_modes": [
+        "A1-FM-02"
+      ],
+      "summary": "same-and-different comparisons across two similar computing tasks"
+    },
+    {
+      "intervention_id": "A1-INT-03",
+      "name": "A1 Intervention 3",
+      "addresses_failure_modes": [
+        "A1-FM-03"
+      ],
+      "summary": "step-card sorting activities that stabilize order and step boundaries"
+    },
+    {
+      "intervention_id": "A1-INT-04",
+      "name": "A1 Intervention 4",
+      "addresses_failure_modes": [
+        "A1-FM-04"
+      ],
+      "summary": "near-transfer prompts that ask what stays the same when the task changes slightly"
+    }
+  ]
+}

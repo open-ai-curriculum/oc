@@ -1,0 +1,140 @@
+{
+  "node_id": "W7",
+  "policy_version": "1.0",
+  "items": [
+    {
+      "item_id": "W7-DIR-001",
+      "node_id": "W7",
+      "item_family": "direct_execution",
+      "prompt": "Solve `x + 7 = 19` and show how each step preserves equality.",
+      "expected_evidence": "build and interpret bounded confidence intervals for means with correct population meaning",
+      "dominant_failure_mode": "inference_design_fragmentation",
+      "scoring_guidance": "Meets when the learner demonstrates build and interpret bounded confidence intervals for means with correct population meaning with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
+    },
+    {
+      "item_id": "W7-DIR-002",
+      "node_id": "W7",
+      "item_family": "direct_execution",
+      "prompt": "Solve `4x = 28`, then check the solution by substitution.",
+      "expected_evidence": "conduct bounded one- or two-sample mean inference and explain the resulting evidence claim",
+      "dominant_failure_mode": "representativeness_opacity",
+      "scoring_guidance": "Meets when the learner demonstrates conduct bounded one- or two-sample mean inference and explain the resulting evidence claim with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
+    },
+    {
+      "item_id": "W7-DIR-003",
+      "node_id": "W7",
+      "item_family": "direct_execution",
+      "prompt": "Match the equation `n - 5 = 12` to a balance or missing-value situation and solve it.",
+      "expected_evidence": "explain how sample size and distribution conditions influence mean-based inference credibility",
+      "dominant_failure_mode": "causal_claim_leap",
+      "scoring_guidance": "Meets when the learner demonstrates explain how sample size and distribution conditions influence mean-based inference credibility with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
+    },
+    {
+      "item_id": "W7-EXP-001",
+      "node_id": "W7",
+      "item_family": "explanation",
+      "prompt": "Explain why subtracting the same value from both sides of an equation preserves the solution set.",
+      "expected_evidence": "build and interpret bounded confidence intervals for means with correct population meaning",
+      "dominant_failure_mode": "representativeness_opacity",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to build and interpret bounded confidence intervals for means with correct population meaning.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "W7-EXP-002",
+      "node_id": "W7",
+      "item_family": "explanation",
+      "prompt": "Explain what the variable represents and why inverse operations help isolate it.",
+      "expected_evidence": "conduct bounded one- or two-sample mean inference and explain the resulting evidence claim",
+      "dominant_failure_mode": "causal_claim_leap",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to conduct bounded one- or two-sample mean inference and explain the resulting evidence claim.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "W7-ERR-001",
+      "node_id": "W7",
+      "item_family": "error_diagnosis",
+      "prompt": "A student solves `x + 5 = 13` by writing `x = 13 + 5`. Diagnose the first structural mistake. Focus on inference design fragmentation.",
+      "expected_evidence": "build and interpret bounded confidence intervals for means with correct population meaning",
+      "dominant_failure_mode": "inference_design_fragmentation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward build and interpret bounded confidence intervals for means with correct population meaning.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "W7-ERR-002",
+      "node_id": "W7",
+      "item_family": "error_diagnosis",
+      "prompt": "A student solves `3x = 18` by dividing only the `x`. Explain what went wrong. Focus on representativeness opacity.",
+      "expected_evidence": "conduct bounded one- or two-sample mean inference and explain the resulting evidence claim",
+      "dominant_failure_mode": "representativeness_opacity",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward conduct bounded one- or two-sample mean inference and explain the resulting evidence claim.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "W7-TRA-001",
+      "node_id": "W7",
+      "item_family": "transfer",
+      "prompt": "A gym charges a $12 signup fee plus $5 per class. Write and solve an equation for the number of classes if the total was $32.",
+      "expected_evidence": "build and interpret bounded confidence intervals for means with correct population meaning",
+      "dominant_failure_mode": "causal_claim_leap",
+      "scoring_guidance": "Meets when the learner preserves build and interpret bounded confidence intervals for means with correct population meaning in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "W7-TRA-002",
+      "node_id": "W7",
+      "item_family": "transfer",
+      "prompt": "A balance model has three equal bags and 6 loose counters on one side and 24 counters on the other. Write and solve the equation.",
+      "expected_evidence": "conduct bounded one- or two-sample mean inference and explain the resulting evidence claim",
+      "dominant_failure_mode": "bias_source_blindness",
+      "scoring_guidance": "Meets when the learner preserves conduct bounded one- or two-sample mean inference and explain the resulting evidence claim in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "W7-RET-001",
+      "node_id": "W7",
+      "item_family": "retention",
+      "prompt": "Two weeks later, solve `m/3 = 8` and explain how you know the result is reasonable.",
+      "expected_evidence": "build and interpret bounded confidence intervals for means with correct population meaning",
+      "dominant_failure_mode": "bias_source_blindness",
+      "scoring_guidance": "Meets when the learner still demonstrates build and interpret bounded confidence intervals for means with correct population meaning on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "W7-PRE-001",
+      "node_id": "W7",
+      "item_family": "prerequisite_probe",
+      "prompt": "Before solving inference for means, complete a prerequisite check on sampling distributions and explain how it supports the current equation work.",
+      "expected_evidence": "shows whether sampling distributions is secure enough to support inference for means",
+      "dominant_failure_mode": "representativeness_opacity",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in sampling distributions from a current-node issue in inference for means.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "W5",
+      "suspected_knowledge_gap_if_incorrect": "sampling distributions"
+    },
+    {
+      "item_id": "W7-PRE-002",
+      "node_id": "W7",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a quick sampling inference and study design check to explain whether the learner is blocked by prerequisite structure or by inference for means itself.",
+      "expected_evidence": "shows whether sampling inference and study design is secure enough to support inference for means",
+      "dominant_failure_mode": "causal_claim_leap",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in sampling inference and study design from a current-node issue in inference for means.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "W3",
+      "suspected_knowledge_gap_if_incorrect": "sampling inference and study design"
+    }
+  ]
+}

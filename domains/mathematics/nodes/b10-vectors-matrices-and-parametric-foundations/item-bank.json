@@ -1,0 +1,140 @@
+{
+  "node_id": "B10",
+  "policy_version": "1.0",
+  "items": [
+    {
+      "item_id": "B10-DIR-001",
+      "node_id": "B10",
+      "item_family": "direct_execution",
+      "prompt": "Plot the point `(3, -2)` and explain what each coordinate controls.",
+      "expected_evidence": "compute and interpret bounded vector quantities including component form, magnitude, and direction relationships",
+      "dominant_failure_mode": "representation_selection_misalignment",
+      "scoring_guidance": "Meets when the learner demonstrates compute and interpret bounded vector quantities including component form, magnitude, and direction relationships with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
+    },
+    {
+      "item_id": "B10-DIR-002",
+      "node_id": "B10",
+      "item_family": "direct_execution",
+      "prompt": "Find the slope between `(1, 4)` and `(5, 12)` and interpret it as a rate of change.",
+      "expected_evidence": "use introductory matrices in bounded transformation or system-organization contexts and explain the role of the matrix representation",
+      "dominant_failure_mode": "parametric_polar_disconnect",
+      "scoring_guidance": "Meets when the learner demonstrates use introductory matrices in bounded transformation or system-organization contexts and explain the role of the matrix representation with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
+    },
+    {
+      "item_id": "B10-DIR-003",
+      "node_id": "B10",
+      "item_family": "direct_execution",
+      "prompt": "Determine whether the table represents a function and justify your decision.",
+      "expected_evidence": "translate between parametric and coordinate descriptions in bounded motion or curve settings",
+      "dominant_failure_mode": "trigonometric_modeling_fragmentation",
+      "scoring_guidance": "Meets when the learner demonstrates translate between parametric and coordinate descriptions in bounded motion or curve settings with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
+    },
+    {
+      "item_id": "B10-EXP-001",
+      "node_id": "B10",
+      "item_family": "explanation",
+      "prompt": "Explain how a table, graph, and equation can represent the same linear relationship.",
+      "expected_evidence": "compute and interpret bounded vector quantities including component form, magnitude, and direction relationships",
+      "dominant_failure_mode": "parametric_polar_disconnect",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to compute and interpret bounded vector quantities including component form, magnitude, and direction relationships.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "B10-EXP-002",
+      "node_id": "B10",
+      "item_family": "explanation",
+      "prompt": "Explain what slope means in both graphical and contextual terms.",
+      "expected_evidence": "use introductory matrices in bounded transformation or system-organization contexts and explain the role of the matrix representation",
+      "dominant_failure_mode": "trigonometric_modeling_fragmentation",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to use introductory matrices in bounded transformation or system-organization contexts and explain the role of the matrix representation.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "B10-ERR-001",
+      "node_id": "B10",
+      "item_family": "error_diagnosis",
+      "prompt": "A student reverses the coordinates and plots `(3, -2)` as `(-2, 3)`. Diagnose the mapping error. Focus on representation selection misalignment.",
+      "expected_evidence": "compute and interpret bounded vector quantities including component form, magnitude, and direction relationships",
+      "dominant_failure_mode": "representation_selection_misalignment",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward compute and interpret bounded vector quantities including component form, magnitude, and direction relationships.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "B10-ERR-002",
+      "node_id": "B10",
+      "item_family": "error_diagnosis",
+      "prompt": "A student says every straight-looking graph is proportional. Identify the misclassification. Focus on parametric polar disconnect.",
+      "expected_evidence": "use introductory matrices in bounded transformation or system-organization contexts and explain the role of the matrix representation",
+      "dominant_failure_mode": "parametric_polar_disconnect",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward use introductory matrices in bounded transformation or system-organization contexts and explain the role of the matrix representation.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "B10-TRA-001",
+      "node_id": "B10",
+      "item_family": "transfer",
+      "prompt": "A ride-share charges a fixed fee plus a cost per mile. Write a rule, make a table, and interpret the slope and intercept.",
+      "expected_evidence": "compute and interpret bounded vector quantities including component form, magnitude, and direction relationships",
+      "dominant_failure_mode": "trigonometric_modeling_fragmentation",
+      "scoring_guidance": "Meets when the learner preserves compute and interpret bounded vector quantities including component form, magnitude, and direction relationships in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "B10-TRA-002",
+      "node_id": "B10",
+      "item_family": "transfer",
+      "prompt": "Given a graph and a verbal description, decide whether they could represent the same relationship and justify the match.",
+      "expected_evidence": "use introductory matrices in bounded transformation or system-organization contexts and explain the role of the matrix representation",
+      "dominant_failure_mode": "local_global_behavior_confusion",
+      "scoring_guidance": "Meets when the learner preserves use introductory matrices in bounded transformation or system-organization contexts and explain the role of the matrix representation in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "B10-RET-001",
+      "node_id": "B10",
+      "item_family": "retention",
+      "prompt": "On a delayed check, move between a rule, a table, and a graph for a linear relationship and explain the connection.",
+      "expected_evidence": "compute and interpret bounded vector quantities including component form, magnitude, and direction relationships",
+      "dominant_failure_mode": "local_global_behavior_confusion",
+      "scoring_guidance": "Meets when the learner still demonstrates compute and interpret bounded vector quantities including component form, magnitude, and direction relationships on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "B10-PRE-001",
+      "node_id": "B10",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a prerequisite probe on coordinate plane and ordered pairs to see whether the learner is blocked by graph/coordinate foundations or by vectors matrices and parametric foundations itself.",
+      "expected_evidence": "shows whether coordinate plane and ordered pairs is secure enough to support vectors matrices and parametric foundations",
+      "dominant_failure_mode": "parametric_polar_disconnect",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in coordinate plane and ordered pairs from a current-node issue in vectors matrices and parametric foundations.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "A4",
+      "suspected_knowledge_gap_if_incorrect": "coordinate plane and ordered pairs"
+    },
+    {
+      "item_id": "B10-PRE-002",
+      "node_id": "B10",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a prerequisite probe on variable relationships and independent dependent quantities to see whether the learner is blocked by graph/coordinate foundations or by vectors matrices and parametric foundations itself.",
+      "expected_evidence": "shows whether variable relationships and independent dependent quantities is secure enough to support vectors matrices and parametric foundations",
+      "dominant_failure_mode": "trigonometric_modeling_fragmentation",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in variable relationships and independent dependent quantities from a current-node issue in vectors matrices and parametric foundations.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "K1",
+      "suspected_knowledge_gap_if_incorrect": "variable relationships and independent dependent quantities"
+    }
+  ]
+}

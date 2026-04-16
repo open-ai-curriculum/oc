@@ -3,7 +3,7 @@
 ## Node Identity
 
 - id: `AP4`
-- name: `integral_accumulation_and_fundamental_theorem`
+- name: `derivative_rules_and_computation`
 - domain: `mathematics`
 - support tier: `Core release`
 - current maturity state: `Drafted`
@@ -12,22 +12,21 @@
 
 ## Purpose
 
-The learner synthesizes accumulation, net change, area interpretation, antiderivative reasoning, and the Fundamental Theorem of Calculus into a coherent integral-calculus system rather than treating integrals as separate geometric and symbolic procedures.
+The learner develops derivative computation as a coherent rule-based system grounded in limit meaning, so derivative procedures remain connected to function structure rather than becoming isolated symbol manipulation.
 
 ## Dependencies
 
 - `AP3`
-- `Q2`
 
 
 ## Exit Conditions
 
 The learner is secure on this node only when all of the following are true:
 
-1. interprets definite integrals as accumulation and net change rather than only shaded area or antiderivative output
-2. connects rate functions, accumulation functions, and antiderivatives through the Fundamental Theorem of Calculus
-3. reasons about signed area, total versus net change, and bounded accumulation in graphical, tabular, verbal, and symbolic contexts
-4. selects and justifies integral-based reasoning in bounded motion, growth, and accumulation tasks
+1. computes derivatives of bounded algebraic, exponential, logarithmic, and trigonometric forms using core derivative rules coherently
+2. explains why derivative rules such as product, quotient, and chain behavior match underlying function structure
+3. connects derivative expressions to tangent-line slope and instantaneous rate meaning without losing the conceptual basis
+4. moves flexibly between symbolic differentiation and representation-based checking in bounded settings
 5. passes a delayed recheck after spacing
 
 
@@ -42,10 +41,10 @@ The learner is secure on this node only when all of the following are true:
 
 The learner can:
 
-- interpret definite integrals consistently as accumulation or net change across tables, graphs, formulas, and verbal descriptions
-- explain why accumulation functions and antiderivatives are connected through changing rate
-- distinguish signed area, total amount, and accumulated change when the context requires different interpretations
-- justify integral-calculus claims in bounded modeling or analysis tasks using the correct accumulation evidence
+- compute derivatives of bounded functions using appropriate rules and notation
+- explain why a derivative rule applies in a given bounded structural situation
+- connect a computed derivative to slope or instantaneous rate meaning
+- check derivative work against graphs, tables, or contextual behavior for reasonableness
 
 
 ## Claim Boundary

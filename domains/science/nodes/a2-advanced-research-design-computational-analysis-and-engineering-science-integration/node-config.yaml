@@ -1,0 +1,40 @@
+id: A2
+name: advanced_research_design_computational_analysis_and_engineering_science_integration
+domain: science
+support_tier: Incubation
+maturity_state: Drafted
+supported_profiles:
+- science-secondary-node-package
+evidence_class: Synthetic
+dependencies:
+- A1
+- D4
+mastery:
+  direct_accuracy_threshold: 0.9
+  explanation_required: true
+  transfer_required: true
+  retention_check_days: 49
+statuses:
+- blocked
+- emerging
+- provisional
+- secure
+- unstable
+verification_gates:
+- id: G1
+  type: direct_performance
+  pass_rule: '>= 0.90 accuracy across advanced research-design, computational-analysis, and engineering-science integration tasks'
+- id: G2
+  type: meaning
+  pass_rule: correct explanation or critique of an advanced integrated investigation or design in at least 2 of 3 prompts
+- id: G3
+  type: transfer
+  pass_rule: successful reasoning in at least one unfamiliar capstone science-engineering context
+- id: G4
+  type: retention
+  pass_rule: '>= 0.85 delayed recheck accuracy after ~49 days'
+failure_modes:
+- A2-FM-01
+- A2-FM-02
+- A2-FM-03
+- A2-FM-04

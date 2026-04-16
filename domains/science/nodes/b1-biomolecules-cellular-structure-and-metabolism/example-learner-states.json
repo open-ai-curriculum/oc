@@ -1,0 +1,48 @@
+[
+  {
+    "learner_id": "example-b1-secure",
+    "node_id": "B1",
+    "status": "secure",
+    "dependency_status": {
+      "L3": "secure",
+      "L5": "secure",
+      "P5": "secure",
+      "M4": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Explains biomolecule structure, membrane processes, and metabolism with coherent cellular models."
+  },
+  {
+    "learner_id": "example-b1-emerging",
+    "node_id": "B1",
+    "status": "emerging",
+    "dependency_status": {
+      "L3": "secure",
+      "L5": "secure",
+      "P5": "secure",
+      "M4": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [
+      "B1-FM-01",
+      "B1-FM-02"
+    ],
+    "recommended_interventions": [
+      "B1-INT-01",
+      "B1-INT-02"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Recognizes cell parts but explains transport and metabolism with fragmented or purpose-driven language."
+  }
+]

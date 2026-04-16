@@ -1,0 +1,46 @@
+[
+  {
+    "learner_id": "example-g3-secure",
+    "node_id": "G3",
+    "status": "secure",
+    "dependency_status": {
+      "G1": "secure",
+      "G2": "secure",
+      "T6": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Explains hydrology and oceanography as integrated Earth-system processes with bounded evidence."
+  },
+  {
+    "learner_id": "example-g3-emerging",
+    "node_id": "G3",
+    "status": "emerging",
+    "dependency_status": {
+      "G1": "secure",
+      "G2": "secure",
+      "T6": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [
+      "G3-FM-01",
+      "G3-FM-02"
+    ],
+    "recommended_interventions": [
+      "G3-INT-01",
+      "G3-INT-02"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Recognizes water and marine patterns but explanations remain simplified and weakly integrated."
+  }
+]

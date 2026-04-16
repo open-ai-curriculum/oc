@@ -1,0 +1,60 @@
+[
+  {
+    "item_id": "C3-IB-01",
+    "node_id": "C3",
+    "prompt": "Why is balancing an equation not just a symbolic formatting step?",
+    "task_type": "stoichiometry_meaning",
+    "answer_key": "Balancing represents conserved relationships among reactants and products, so it supports quantitative reasoning about matter changes.",
+    "scorable_traits": [
+      "conservation meaning",
+      "representation linkage",
+      "chemistry reasoning"
+    ],
+    "target_failure_modes": [
+      "C3-FM-01"
+    ],
+    "context_tags": [
+      "stoichiometry",
+      "conservation"
+    ]
+  },
+  {
+    "item_id": "C3-IB-02",
+    "node_id": "C3",
+    "prompt": "What is being compared in a mole ratio?",
+    "task_type": "ratio_reasoning",
+    "answer_key": "A mole ratio compares proportional amounts of substances in the balanced reaction, not arbitrary numbers detached from the process.",
+    "scorable_traits": [
+      "ratio meaning",
+      "unit awareness",
+      "precision"
+    ],
+    "target_failure_modes": [
+      "C3-FM-02"
+    ],
+    "context_tags": [
+      "quantification",
+      "moles"
+    ]
+  },
+  {
+    "item_id": "C3-IB-03",
+    "node_id": "C3",
+    "prompt": "How can a concentration claim go wrong even with correct arithmetic?",
+    "task_type": "solution_critique",
+    "answer_key": "It can go wrong if amount, volume, units, or measurement quality are misunderstood or mismatched to the claim.",
+    "scorable_traits": [
+      "unit discipline",
+      "measurement awareness",
+      "critique quality"
+    ],
+    "target_failure_modes": [
+      "C3-FM-03",
+      "C3-FM-04"
+    ],
+    "context_tags": [
+      "solutions",
+      "measurement"
+    ]
+  }
+]

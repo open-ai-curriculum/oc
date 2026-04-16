@@ -1,0 +1,18 @@
+{
+  "node_id": "C3D",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "C3D-G1-01",
+      "node_id": "C3D",
+      "gate": "G1",
+      "prompt": "Complete a bounded transfer and contextual use task for civic decision making and deliberation and explain your reasoning.",
+      "response_mode": "oral_or_written_or_annotated",
+      "scoring_rule": "Completes the task accurately and gives a usable explanation of the structure or reasoning.",
+      "failure_mode_targets": [
+        "C3D-FM-01",
+        "C3D-FM-02"
+      ]
+    }
+  ]
+}

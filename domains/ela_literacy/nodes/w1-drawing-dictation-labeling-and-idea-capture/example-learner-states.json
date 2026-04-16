@@ -1,0 +1,23 @@
+[
+  {
+    "learner_id": "example-w1-emerging",
+    "node_id": "W1",
+    "status": "emerging",
+    "dependency_status": {
+      "O3": "secure",
+      "P4": "emerging"
+    },
+    "direct_accuracy": 0.69,
+    "explanation_status": "weak",
+    "transfer_status": "weak",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["W1-FM-02", "W1-FM-04"],
+    "recommended_interventions": [
+      "oral plan then immediate drawing or labeling task",
+      "same idea captured across two representation formats"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Learner explains ideas orally but captures very little independently on the page."
+  }
+]

@@ -1,37 +1,140 @@
 {
   "node_id": "K2",
+  "policy_version": "1.0",
   "items": [
     {
-      "item_id": "K2-A1",
-      "item_family": "direct",
-      "prompt": "identifies bounded input-output relationships as functions or non-functions across tables, mappings, and graphs",
+      "item_id": "K2-DIR-001",
+      "node_id": "K2",
+      "item_family": "direct_execution",
+      "prompt": "Plot the point `(3, -2)` and explain what each coordinate controls.",
       "expected_evidence": "identify inputs and outputs in bounded function situations",
       "dominant_failure_mode": "input_output_role_blur",
-      "scoring_guidance": "Meets when the learner identifies function structure and variable roles correctly."
+      "scoring_guidance": "Meets when the learner demonstrates identify inputs and outputs in bounded function situations with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "K2-B1",
-      "item_family": "explanation",
-      "prompt": "explains why a relation is or is not a function using the one-input-to-one-output condition",
-      "expected_evidence": "explain the one-input-to-one-output condition in age-appropriate language",
+      "item_id": "K2-DIR-002",
+      "node_id": "K2",
+      "item_family": "direct_execution",
+      "prompt": "Find the slope between `(1, 4)` and `(5, 12)` and interpret it as a rate of change.",
+      "expected_evidence": "determine whether a table, mapping, or graph does or does not represent a function",
       "dominant_failure_mode": "single_output_condition_miss",
-      "scoring_guidance": "Meets when the learner explains function status through coherent input-output reasoning."
+      "scoring_guidance": "Meets when the learner demonstrates determine whether a table, mapping, or graph does or does not represent a function with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "K2-C1",
-      "item_family": "error_diagnosis",
-      "prompt": "Diagnose a peer error aligned to representation_function_disconnect.",
-      "expected_evidence": "connect verbal rules, tables, points, and simple symbolic forms as representations of the same function",
+      "item_id": "K2-DIR-003",
+      "node_id": "K2",
+      "item_family": "direct_execution",
+      "prompt": "Determine whether the table represents a function and justify your decision.",
+      "expected_evidence": "explain the one-input-to-one-output condition in age-appropriate language",
       "dominant_failure_mode": "representation_function_disconnect",
-      "scoring_guidance": "Meets when the learner identifies how the peer lost the function relationship across representations."
+      "scoring_guidance": "Meets when the learner demonstrates explain the one-input-to-one-output condition in age-appropriate language with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
     },
     {
-      "item_id": "K2-D1",
+      "item_id": "K2-EXP-001",
+      "node_id": "K2",
+      "item_family": "explanation",
+      "prompt": "Explain how a table, graph, and equation can represent the same linear relationship.",
+      "expected_evidence": "identify inputs and outputs in bounded function situations",
+      "dominant_failure_mode": "single_output_condition_miss",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to identify inputs and outputs in bounded function situations.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "K2-EXP-002",
+      "node_id": "K2",
+      "item_family": "explanation",
+      "prompt": "Explain what slope means in both graphical and contextual terms.",
+      "expected_evidence": "determine whether a table, mapping, or graph does or does not represent a function",
+      "dominant_failure_mode": "representation_function_disconnect",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to determine whether a table, mapping, or graph does or does not represent a function.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "K2-ERR-001",
+      "node_id": "K2",
+      "item_family": "error_diagnosis",
+      "prompt": "A student reverses the coordinates and plots `(3, -2)` as `(-2, 3)`. Diagnose the mapping error. Focus on input output role blur.",
+      "expected_evidence": "identify inputs and outputs in bounded function situations",
+      "dominant_failure_mode": "input_output_role_blur",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward identify inputs and outputs in bounded function situations.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "K2-ERR-002",
+      "node_id": "K2",
+      "item_family": "error_diagnosis",
+      "prompt": "A student says every straight-looking graph is proportional. Identify the misclassification. Focus on single output condition miss.",
+      "expected_evidence": "determine whether a table, mapping, or graph does or does not represent a function",
+      "dominant_failure_mode": "single_output_condition_miss",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward determine whether a table, mapping, or graph does or does not represent a function.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "K2-TRA-001",
+      "node_id": "K2",
       "item_family": "transfer",
-      "prompt": "succeeds across symbolic, table, verbal, graph, and simple contextual function representations",
+      "prompt": "A ride-share charges a fixed fee plus a cost per mile. Write a rule, make a table, and interpret the slope and intercept.",
+      "expected_evidence": "identify inputs and outputs in bounded function situations",
+      "dominant_failure_mode": "representation_function_disconnect",
+      "scoring_guidance": "Meets when the learner preserves identify inputs and outputs in bounded function situations in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "K2-TRA-002",
+      "node_id": "K2",
+      "item_family": "transfer",
+      "prompt": "Given a graph and a verbal description, decide whether they could represent the same relationship and justify the match.",
       "expected_evidence": "determine whether a table, mapping, or graph does or does not represent a function",
       "dominant_failure_mode": "context_rule_transfer_breakdown",
-      "scoring_guidance": "Meets when the learner preserves function meaning across varied representations and contexts."
+      "scoring_guidance": "Meets when the learner preserves determine whether a table, mapping, or graph does or does not represent a function in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "K2-RET-001",
+      "node_id": "K2",
+      "item_family": "retention",
+      "prompt": "On a delayed check, move between a rule, a table, and a graph for a linear relationship and explain the connection.",
+      "expected_evidence": "identify inputs and outputs in bounded function situations",
+      "dominant_failure_mode": "context_rule_transfer_breakdown",
+      "scoring_guidance": "Meets when the learner still demonstrates identify inputs and outputs in bounded function situations on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "K2-PRE-001",
+      "node_id": "K2",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a prerequisite probe on variable relationships and independent dependent quantities to see whether the learner is blocked by graph/coordinate foundations or by function as input output rule itself.",
+      "expected_evidence": "shows whether variable relationships and independent dependent quantities is secure enough to support function as input output rule",
+      "dominant_failure_mode": "single_output_condition_miss",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in variable relationships and independent dependent quantities from a current-node issue in function as input output rule.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "K1",
+      "suspected_knowledge_gap_if_incorrect": "variable relationships and independent dependent quantities"
+    },
+    {
+      "item_id": "K2-PRE-002",
+      "node_id": "K2",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a prerequisite probe on linear relationship tables and graphs to see whether the learner is blocked by graph/coordinate foundations or by function as input output rule itself.",
+      "expected_evidence": "shows whether linear relationship tables and graphs is secure enough to support function as input output rule",
+      "dominant_failure_mode": "representation_function_disconnect",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in linear relationship tables and graphs from a current-node issue in function as input output rule.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "A5",
+      "suspected_knowledge_gap_if_incorrect": "linear relationship tables and graphs"
     }
   ]
 }

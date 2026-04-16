@@ -1,0 +1,26 @@
+{
+  "node_id": "T1",
+  "version": "0.1",
+  "interventions": {
+    "T1-FM-01": [
+      "use daily weather routines with one observation at a time",
+      "separate what is seen from what is predicted",
+      "compare two sky images and name one direct observation for each"
+    ],
+    "T1-FM-02": [
+      "highlight repeated observations on a class chart",
+      "ask what happened again across several days",
+      "use simple icons to mark sunny cloudy rainy or windy conditions"
+    ],
+    "T1-FM-03": [
+      "compare two local materials side by side",
+      "use touch and observation routines to name one property at a time",
+      "sort materials by a single observable property"
+    ],
+    "T1-FM-04": [
+      "separate observed evidence from imagined weather causes",
+      "ask what the chart image or sky actually shows",
+      "compare a science explanation with a pretend explanation"
+    ]
+  }
+}

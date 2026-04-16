@@ -1,0 +1,16 @@
+{
+  "node_id": "G4",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "G4-G1-01",
+      "node_id": "G4",
+      "gate": "G1",
+      "prompt": "Use the map and data display to explain a geographic conclusion and how scale matters for that conclusion.",
+      "representation_type": "map_plus_data_display",
+      "response_mode": "oral_or_written_or_annotated",
+      "scoring_rule": "Uses the representation and scale meaningfully to support a plausible geographic claim.",
+      "failure_mode_targets": ["G4-FM-01", "G4-FM-02"]
+    }
+  ]
+}

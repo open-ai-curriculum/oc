@@ -1,0 +1,26 @@
+{
+  "node_id": "WC8",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "WC8-FM-01": [
+      "tighten the task around attribution omission so the target is more visible",
+      "keep the response surface bounded enough to isolate the real bottleneck",
+      "rerun a changed-surface check after one short intervention cycle"
+    ],
+    "WC8-FM-02": [
+      "tighten the task around citation-format instability so the target is more visible",
+      "keep the response surface bounded enough to isolate the real bottleneck",
+      "rerun a changed-surface check after one short intervention cycle"
+    ],
+    "WC8-FM-03": [
+      "tighten the task around overformatted-but-unclear attribution so the target is more visible",
+      "keep the response surface bounded enough to isolate the real bottleneck",
+      "rerun a changed-surface check after one short intervention cycle"
+    ],
+    "WC8-FM-04": [
+      "tighten the task around mechanics-overload interference so the target is more visible",
+      "keep the response surface bounded enough to isolate the real bottleneck",
+      "rerun a changed-surface check after one short intervention cycle"
+    ]
+  }
+}

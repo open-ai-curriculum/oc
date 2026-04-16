@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://open-ai-curriculum.local/domains/science/q1/learner-state.schema.json",
+  "title": "Q1 Learner State",
+  "type": "object",
+  "required": [
+    "learner_id",
+    "node_id",
+    "status",
+    "dependency_status",
+    "direct_accuracy",
+    "explanation_status",
+    "transfer_status",
+    "retention_status",
+    "dominant_failure_modes",
+    "recommended_interventions",
+    "last_verified_at",
+    "review_state"
+  ],
+  "properties": {
+    "learner_id": { "type": "string", "minLength": 1 },
+    "node_id": { "const": "Q1" },
+    "status": { "enum": ["blocked", "emerging", "provisional", "secure", "unstable"] },
+    "dependency_status": {
+      "type": "object",
+      "maxProperties": 0,
+      "additionalProperties": false
+    },
+    "direct_accuracy": { "type": "number", "minimum": 0, "maximum": 1 },
+    "explanation_status": { "enum": ["not_met", "weak", "met"] },
+    "transfer_status": { "enum": ["not_met", "weak", "met"] },
+    "retention_status": { "enum": ["not_due", "not_met", "met"] },
+    "dominant_failure_modes": {
+      "type": "array",
+      "items": { "enum": ["Q1-FM-01", "Q1-FM-02", "Q1-FM-03", "Q1-FM-04"] },
+      "uniqueItems": true
+    },
+    "recommended_interventions": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "last_verified_at": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+    "review_state": { "enum": ["draft", "human-reviewed"] },
+    "notes": { "type": "string" }
+  },
+  "additionalProperties": false
+}

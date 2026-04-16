@@ -1,0 +1,26 @@
+{
+  "node_id": "O3",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "O3-FM-01": [
+      "first-next-last oral frames",
+      "short-event retell before longer sequence",
+      "visible event cards with gradual fade"
+    ],
+    "O3-FM-02": [
+      "restate who or what each sentence refers to",
+      "explicit noun replacement before pronoun use",
+      "single-referent short recounts"
+    ],
+    "O3-FM-03": [
+      "because, so, and how prompts on familiar events",
+      "modeled bounded explanation before independent response",
+      "contrast recount-only with recount-plus-explanation"
+    ],
+    "O3-FM-04": [
+      "stable recount frame with changed topic",
+      "gradual move from familiar to less familiar experiences",
+      "same explanation structure across two topics"
+    ]
+  }
+}

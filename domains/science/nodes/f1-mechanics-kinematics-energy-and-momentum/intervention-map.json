@@ -1,0 +1,37 @@
+{
+  "node_id": "F1",
+  "interventions": [
+    {
+      "intervention_id": "F1-INT-01",
+      "name": "F1 Intervention 1",
+      "addresses_failure_modes": [
+        "F1-FM-01"
+      ],
+      "summary": "representation-matching routines that require one mechanics situation to be explained across words, graphs, and equations"
+    },
+    {
+      "intervention_id": "F1-INT-02",
+      "name": "F1 Intervention 2",
+      "addresses_failure_modes": [
+        "F1-FM-02"
+      ],
+      "summary": "model-selection tasks comparing force, energy, and momentum explanations for the same event"
+    },
+    {
+      "intervention_id": "F1-INT-03",
+      "name": "F1 Intervention 3",
+      "addresses_failure_modes": [
+        "F1-FM-03"
+      ],
+      "summary": "collision and motion analyses that bound when momentum reasoning is justified"
+    },
+    {
+      "intervention_id": "F1-INT-04",
+      "name": "F1 Intervention 4",
+      "addresses_failure_modes": [
+        "F1-FM-04"
+      ],
+      "summary": "graph-to-measurement checks tying symbolic work back to observed motion"
+    }
+  ]
+}

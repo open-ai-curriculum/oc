@@ -8,6 +8,8 @@ const repoRoot = path.resolve(__dirname, '..');
 const nodesRoot = path.join(repoRoot, 'domains', 'mathematics', 'nodes');
 const graphPath = path.join(repoRoot, 'domains', 'mathematics', 'master-knowledge-graph.yaml');
 const registryPath = path.join(repoRoot, 'docs', 'capability-registry.json');
+const standardsInventoryPath = path.join(repoRoot, 'docs', 'standards', 'mathematics-standards-inventory.json');
+const standardsCoverageReportPath = path.join(repoRoot, 'docs', 'standards', 'mathematics-standards-coverage-report.json');
 
 const requiredNodeFiles = [
   'README.md',
@@ -240,6 +242,148 @@ function validateGraphCoverage(graphNodes, nodeDirectories) {
   }
 }
 
+function validateItemBanks() {
+  const validatorScript = path.join(__dirname, 'validate-mathematics-item-banks.js');
+  if (!fs.existsSync(validatorScript)) {
+    fail('Missing scripts/validate-mathematics-item-banks.js');
+    return;
+  }
+
+  try {
+    childProcess.execFileSync(process.execPath, [validatorScript], {
+      cwd: repoRoot,
+      stdio: 'inherit',
+    });
+  } catch (error) {
+    hasFailure = true;
+  }
+}
+
+function validateStandardsCoverage() {
+  const validatorScript = path.join(__dirname, 'validate-mathematics-standards-coverage.js');
+  if (!fs.existsSync(validatorScript)) {
+    fail('Missing scripts/validate-mathematics-standards-coverage.js');
+    return;
+  }
+
+  for (const absolute of [standardsInventoryPath, standardsCoverageReportPath]) {
+    if (!fs.existsSync(absolute)) {
+      fail(`Missing mathematics standards artifact: ${path.relative(repoRoot, absolute)}`);
+    }
+  }
+
+  try {
+    childProcess.execFileSync(process.execPath, [validatorScript], {
+      cwd: repoRoot,
+      stdio: 'inherit',
+    });
+  } catch (error) {
+    hasFailure = true;
+  }
+}
+
+function validateAssessmentOverlays() {
+  const validatorScript = path.join(__dirname, 'validate-mathematics-assessment-overlays.js');
+  if (!fs.existsSync(validatorScript)) {
+    fail('Missing scripts/validate-mathematics-assessment-overlays.js');
+    return;
+  }
+
+  try {
+    childProcess.execFileSync(process.execPath, [validatorScript], {
+      cwd: repoRoot,
+      stdio: 'inherit',
+    });
+  } catch (error) {
+    process.exitCode = 1;
+  }
+}
+
+function validateArchitectureState() {
+  const validatorScript = path.join(__dirname, 'validate-mathematics-architecture-state.js');
+  if (!fs.existsSync(validatorScript)) {
+    fail('Missing scripts/validate-mathematics-architecture-state.js');
+    return;
+  }
+
+  try {
+    childProcess.execFileSync(process.execPath, [validatorScript], {
+      cwd: repoRoot,
+      stdio: 'inherit',
+    });
+  } catch (error) {
+    hasFailure = true;
+  }
+}
+
+function validateAssessmentAnalysisState() {
+  const validatorScript = path.join(__dirname, 'validate-mathematics-assessment-analysis-state.js');
+  if (!fs.existsSync(validatorScript)) {
+    fail('Missing scripts/validate-mathematics-assessment-analysis-state.js');
+    return;
+  }
+
+  try {
+    childProcess.execFileSync(process.execPath, [validatorScript], {
+      cwd: repoRoot,
+      stdio: 'inherit',
+    });
+  } catch (error) {
+    hasFailure = true;
+  }
+}
+
+function validateExportConsistency() {
+  const validatorScript = path.join(__dirname, 'validate-mathematics-export-consistency.js');
+  if (!fs.existsSync(validatorScript)) {
+    fail('Missing scripts/validate-mathematics-export-consistency.js');
+    return;
+  }
+
+  try {
+    childProcess.execFileSync(process.execPath, [validatorScript], {
+      cwd: repoRoot,
+      stdio: 'inherit',
+    });
+  } catch (error) {
+    hasFailure = true;
+  }
+}
+
+function validateArtifactRegistries() {
+  const validatorScript = path.join(__dirname, 'validate-mathematics-artifact-registries.js');
+  if (!fs.existsSync(validatorScript)) {
+    fail('Missing scripts/validate-mathematics-artifact-registries.js');
+    return;
+  }
+
+  try {
+    childProcess.execFileSync(process.execPath, [validatorScript], {
+      cwd: repoRoot,
+      stdio: 'inherit',
+    });
+  } catch (error) {
+    hasFailure = true;
+  }
+}
+
+function validateAssessmentFrameworkAssurance() {
+  const validatorScript = path.join(__dirname, 'validate-mathematics-assessment-framework-assurance.js');
+  if (!fs.existsSync(validatorScript)) {
+    fail('Missing scripts/validate-mathematics-assessment-framework-assurance.js');
+    return;
+  }
+
+  try {
+    childProcess.execFileSync(process.execPath, [validatorScript], {
+      cwd: repoRoot,
+      stdio: 'inherit',
+    });
+  } catch (error) {
+    hasFailure = true;
+  }
+}
+
 const graphNodes = loadGraphNodes();
 const nodeDirectories = parseNodeDirectories();
 
@@ -247,6 +391,14 @@ validateNodeArtifacts(nodeDirectories);
 validateNodeConfigShapes(nodeDirectories);
 validateRegistry(nodeDirectories);
 validateGraphCoverage(graphNodes, nodeDirectories);
+validateItemBanks();
+validateStandardsCoverage();
+validateAssessmentOverlays();
+validateArchitectureState();
+validateAssessmentAnalysisState();
+validateArtifactRegistries();
+validateAssessmentFrameworkAssurance();
+validateExportConsistency();
 
 if (!hasFailure) {
   console.log(

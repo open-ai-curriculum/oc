@@ -1,0 +1,18 @@
+{
+  "node_id": "C6D",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "C6D-G1-01",
+      "node_id": "C6D",
+      "gate": "G1",
+      "prompt": "Complete a bounded transfer and contextual use task for advanced civic argument policy design and participation and explain your reasoning.",
+      "response_mode": "oral_or_written_or_annotated",
+      "scoring_rule": "Completes the task accurately and gives a usable explanation of the structure or reasoning.",
+      "failure_mode_targets": [
+        "C6D-FM-01",
+        "C6D-FM-02"
+      ]
+    }
+  ]
+}

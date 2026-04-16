@@ -1,0 +1,32 @@
+[
+  {
+    "item_id": "P4-IB-01",
+    "node_id": "P4",
+    "prompt": "A learner says rusting is only a color change. What evidence-based revision is needed?",
+    "task_type": "reaction_evidence_explanation",
+    "answer_key": "The explanation should note that observable evidence can indicate a new substance forms, so the change is not explained by color alone.",
+    "scorable_traits": ["reaction evidence", "revision quality", "bounded claim"],
+    "target_failure_modes": ["P4-FM-01"],
+    "context_tags": ["chemical reactions", "evidence"]
+  },
+  {
+    "item_id": "P4-IB-02",
+    "node_id": "P4",
+    "prompt": "Why is it incomplete to claim matter disappeared when a solid seems to dissolve in a closed system?",
+    "task_type": "conservation_reasoning",
+    "answer_key": "The claim is incomplete because matter should still be accounted for within the closed system even if it is no longer visible in the same form.",
+    "scorable_traits": ["conservation reasoning", "system boundary", "precision"],
+    "target_failure_modes": ["P4-FM-02"],
+    "context_tags": ["matter", "conservation"]
+  },
+  {
+    "item_id": "P4-IB-03",
+    "node_id": "P4",
+    "prompt": "A beam of light hits a surface and changes direction. Explain the behavior without saying the light simply bounced because it wanted to.",
+    "task_type": "wave_behavior_explanation",
+    "answer_key": "The explanation should use a wave model and describe the observed interaction with the surface rather than an animistic or unsupported account.",
+    "scorable_traits": ["wave behavior", "model use", "non-teleological explanation"],
+    "target_failure_modes": ["P4-FM-03"],
+    "context_tags": ["waves", "light"]
+  }
+]

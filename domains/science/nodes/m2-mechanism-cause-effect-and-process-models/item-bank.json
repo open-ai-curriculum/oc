@@ -1,0 +1,72 @@
+{
+  "node_id": "M2",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "M2-A-001",
+      "family": "mechanisms_processes_and_cause_effect",
+      "prompt": "Put these process steps in order to show how water moved from the ground into the plant.",
+      "target_node": "M2",
+      "secondary_dependency_targets": ["M1", "E1"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["selected_response", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["M2-FM-01", "M2-FM-02"],
+      "requires_human_scoring": false
+    },
+    {
+      "item_id": "M2-A-002",
+      "family": "mechanisms_processes_and_cause_effect",
+      "prompt": "A warmer surface caused water to evaporate faster. What is the cause and what is the effect?",
+      "target_node": "M2",
+      "secondary_dependency_targets": ["E1"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["selected_response", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["M2-FM-02", "M2-FM-03"],
+      "requires_human_scoring": false
+    },
+    {
+      "item_id": "M2-B-001",
+      "family": "explanation",
+      "prompt": "Explain how one part of the digestive or water-cycle process leads to the next step.",
+      "target_node": "M2",
+      "secondary_dependency_targets": ["M1", "E1"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["M2-FM-01", "M2-FM-03"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "M2-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student says the puddle disappeared because now it is gone. What is missing from that explanation?",
+      "target_node": "M2",
+      "secondary_dependency_targets": ["E1"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["multiple_choice", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["M2-FM-01", "M2-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "M2-D-001",
+      "family": "transfer",
+      "prompt": "Explain one process for a plant system and one for a physical system. Show how each has a cause leading to an effect.",
+      "target_node": "M2",
+      "secondary_dependency_targets": ["M1", "E1"],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": ["oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["M2-FM-02", "M2-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "M2-R-001",
+      "family": "retention",
+      "prompt": "After time has passed, choose the better step-by-step mechanism explanation for a familiar science process and explain why.",
+      "target_node": "M2",
+      "secondary_dependency_targets": ["M1", "E1"],
+      "difficulty_band": "retention",
+      "response_modes_allowed": ["selected_response", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["M2-FM-01", "M2-FM-03"],
+      "requires_human_scoring": true
+    }
+  ]
+}

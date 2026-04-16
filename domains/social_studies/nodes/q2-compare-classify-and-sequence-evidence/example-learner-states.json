@@ -1,0 +1,38 @@
+{
+  "node_id": "Q2",
+  "examples": [
+    {
+      "learner_id": "sample-q2-blocked-01",
+      "node_id": "Q2",
+      "status": "blocked",
+      "dependency_status": { "Q1": "secure" },
+      "direct_accuracy": 0.57,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["Q2-FM-02"],
+      "recommended_interventions": [
+        "provide candidate rules and ask the learner to test them",
+        "sort with visible labels and then fade supports"
+      ],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Can notice details but classification rule is inconsistent."
+    },
+    {
+      "learner_id": "sample-q2-secure-01",
+      "node_id": "Q2",
+      "status": "secure",
+      "dependency_status": { "Q1": "secure" },
+      "direct_accuracy": 0.91,
+      "explanation_status": "met",
+      "transfer_status": "met",
+      "retention_status": "met",
+      "dominant_failure_modes": [],
+      "recommended_interventions": [],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Compares, classifies, and sequences evidence across multiple source types."
+    }
+  ]
+}

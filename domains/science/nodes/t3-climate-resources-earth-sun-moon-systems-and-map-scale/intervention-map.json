@@ -1,0 +1,29 @@
+{
+  "node_id": "T3",
+  "interventions": [
+    {
+      "failure_mode": "T3-FM-01",
+      "intervention_id": "T3-INT-01",
+      "name": "Weather Versus Climate Sort",
+      "delivery": "classification routine"
+    },
+    {
+      "failure_mode": "T3-FM-02",
+      "intervention_id": "T3-INT-02",
+      "name": "Earth-Sun-Moon Pattern Rebuild",
+      "delivery": "model and explain"
+    },
+    {
+      "failure_mode": "T3-FM-03",
+      "intervention_id": "T3-INT-03",
+      "name": "Map Scale Inference Routine",
+      "delivery": "representation task"
+    },
+    {
+      "failure_mode": "T3-FM-04",
+      "intervention_id": "T3-INT-04",
+      "name": "Resource Claim Boundary Check",
+      "delivery": "evidence reflection"
+    }
+  ]
+}

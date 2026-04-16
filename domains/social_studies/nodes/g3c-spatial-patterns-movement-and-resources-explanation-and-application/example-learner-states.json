@@ -1,0 +1,18 @@
+{
+  "node_id": "G3C",
+  "examples": [
+    {
+      "learner_id": "example-learner-1",
+      "node_id": "G3C",
+      "status": "emerging",
+      "direct_accuracy": 0.62,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": [
+        "G3C-FM-02"
+      ],
+      "notes": "Needs support in explanation and application."
+    }
+  ]
+}

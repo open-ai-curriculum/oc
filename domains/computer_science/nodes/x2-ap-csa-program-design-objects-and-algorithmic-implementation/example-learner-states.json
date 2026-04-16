@@ -1,0 +1,46 @@
+[
+  {
+    "learner_id": "example-x2-secure",
+    "node_id": "X2",
+    "status": "secure",
+    "dependency_status": {
+      "P6": "secure",
+      "A3": "secure",
+      "C4": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Synthesizes AP CSA style object design, algorithms, and quality reasoning in coherent bounded program analysis."
+  },
+  {
+    "learner_id": "example-x2-emerging",
+    "node_id": "X2",
+    "status": "emerging",
+    "dependency_status": {
+      "P6": "secure",
+      "A3": "secure",
+      "C4": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [
+      "X2-FM-01",
+      "X2-FM-02"
+    ],
+    "recommended_interventions": [
+      "X2-INT-01",
+      "X2-INT-02"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Can write class-based code but still treats AP CSA too much as syntax rather than integrated design and implementation."
+  }
+]

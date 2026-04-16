@@ -1,37 +1,140 @@
 {
   "node_id": "D5",
+  "policy_version": "1.0",
   "items": [
     {
-      "item_id": "D5-A1",
-      "item_family": "direct",
-      "prompt": "reads category values from a scaled bar graph using the stated scale correctly",
+      "item_id": "D5-DIR-001",
+      "node_id": "D5",
+      "item_family": "direct_execution",
+      "prompt": "Decide whether the table `(2, 6), (4, 12), (7, 21)` is proportional and justify the constant of proportionality.",
       "expected_evidence": "match bar lengths to numerical values using the graph scale",
       "dominant_failure_mode": "scale_ignorance",
-      "scoring_guidance": "Meets when the learner completes the representation task accurately."
+      "scoring_guidance": "Meets when the learner demonstrates match bar lengths to numerical values using the graph scale with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "D5-B1",
-      "item_family": "explanation",
-      "prompt": "represents a small numerical data set in a scaled bar graph with labels and consistent scale",
+      "item_id": "D5-DIR-002",
+      "node_id": "D5",
+      "item_family": "direct_execution",
+      "prompt": "Find the unit rate for 18 miles in 3 hours and explain what it means.",
       "expected_evidence": "construct a scaled bar graph from a provided table or tally set",
       "dominant_failure_mode": "label_axis_confusion",
-      "scoring_guidance": "Meets when the learner explains what the display shows and how to read it."
+      "scoring_guidance": "Meets when the learner demonstrates construct a scaled bar graph from a provided table or tally set with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "D5-C1",
-      "item_family": "error_diagnosis",
-      "prompt": "Diagnose a peer error aligned to comparison_computation_error.",
+      "item_id": "D5-DIR-003",
+      "node_id": "D5",
+      "item_family": "direct_execution",
+      "prompt": "Find 15% of 80 and explain how the percent is acting as a rate per hundred.",
       "expected_evidence": "solve additive comparison questions based on displayed data",
       "dominant_failure_mode": "comparison_computation_error",
-      "scoring_guidance": "Meets when the learner identifies the error source and states the correct interpretation."
+      "scoring_guidance": "Meets when the learner demonstrates solve additive comparison questions based on displayed data with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
     },
     {
-      "item_id": "D5-D1",
+      "item_id": "D5-EXP-001",
+      "node_id": "D5",
+      "item_family": "explanation",
+      "prompt": "Explain why equal differences alone do not prove a relationship is proportional.",
+      "expected_evidence": "match bar lengths to numerical values using the graph scale",
+      "dominant_failure_mode": "label_axis_confusion",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to match bar lengths to numerical values using the graph scale.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "D5-EXP-002",
+      "node_id": "D5",
+      "item_family": "explanation",
+      "prompt": "Explain how a unit rate and a constant of proportionality describe the same multiplicative structure.",
+      "expected_evidence": "construct a scaled bar graph from a provided table or tally set",
+      "dominant_failure_mode": "comparison_computation_error",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to construct a scaled bar graph from a provided table or tally set.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "D5-ERR-001",
+      "node_id": "D5",
+      "item_family": "error_diagnosis",
+      "prompt": "A student says a table is proportional because it increases by 3 each row. Diagnose the additive-pattern error. Focus on scale ignorance.",
+      "expected_evidence": "match bar lengths to numerical values using the graph scale",
+      "dominant_failure_mode": "scale_ignorance",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward match bar lengths to numerical values using the graph scale.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "D5-ERR-002",
+      "node_id": "D5",
+      "item_family": "error_diagnosis",
+      "prompt": "A student scales one quantity by 2 but the other by 3 and still claims proportionality. Identify the breakdown. Focus on label axis confusion.",
+      "expected_evidence": "construct a scaled bar graph from a provided table or tally set",
+      "dominant_failure_mode": "label_axis_confusion",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward construct a scaled bar graph from a provided table or tally set.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "D5-TRA-001",
+      "node_id": "D5",
       "item_family": "transfer",
-      "prompt": "succeeds across read, build, and interpret tasks with different scales",
-      "expected_evidence": "explain why an inaccurate scale or label choice distorts the graph",
+      "prompt": "A map uses 1 cm for every 5 km. How far does 7.2 cm represent, and why is the relationship proportional?",
+      "expected_evidence": "match bar lengths to numerical values using the graph scale",
+      "dominant_failure_mode": "comparison_computation_error",
+      "scoring_guidance": "Meets when the learner preserves match bar lengths to numerical values using the graph scale in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "D5-TRA-002",
+      "node_id": "D5",
+      "item_family": "transfer",
+      "prompt": "A recipe uses 3 cups of flour for 2 batches. Write an equation relating flour to batches and find the amount for 5 batches.",
+      "expected_evidence": "construct a scaled bar graph from a provided table or tally set",
       "dominant_failure_mode": "representation_distortion",
-      "scoring_guidance": "Meets when the learner succeeds in the less-familiar data context."
+      "scoring_guidance": "Meets when the learner preserves construct a scaled bar graph from a provided table or tally set in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "D5-RET-001",
+      "node_id": "D5",
+      "item_family": "retention",
+      "prompt": "On a delayed check, determine whether 4 notebooks for $6 and 10 notebooks for $15 are proportional and justify your reasoning.",
+      "expected_evidence": "match bar lengths to numerical values using the graph scale",
+      "dominant_failure_mode": "representation_distortion",
+      "scoring_guidance": "Meets when the learner still demonstrates match bar lengths to numerical values using the graph scale on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "D5-PRE-001",
+      "node_id": "D5",
+      "item_family": "prerequisite_probe",
+      "prompt": "Probe represent simple data sets before diagnosing scaled bar graphs and numerical data, and state whether the learner is missing multiplicative structure or only the current proportional application.",
+      "expected_evidence": "shows whether represent simple data sets is secure enough to support scaled bar graphs and numerical data",
+      "dominant_failure_mode": "label_axis_confusion",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in represent simple data sets from a current-node issue in scaled bar graphs and numerical data.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "D4",
+      "suspected_knowledge_gap_if_incorrect": "represent simple data sets"
+    },
+    {
+      "item_id": "D5-PRE-002",
+      "node_id": "D5",
+      "item_family": "prerequisite_probe",
+      "prompt": "Probe compare and order multidigit numbers before diagnosing scaled bar graphs and numerical data, and state whether the learner is missing multiplicative structure or only the current proportional application.",
+      "expected_evidence": "shows whether compare and order multidigit numbers is secure enough to support scaled bar graphs and numerical data",
+      "dominant_failure_mode": "comparison_computation_error",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in compare and order multidigit numbers from a current-node issue in scaled bar graphs and numerical data.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "V2",
+      "suspected_knowledge_gap_if_incorrect": "compare and order multidigit numbers"
     }
   ]
 }

@@ -1,0 +1,250 @@
+{
+  "node_id": "A2",
+  "policy_version": "1.0",
+  "version": "0.4",
+  "items": [
+    {
+      "item_id": "A2-DIR-001",
+      "node_id": "A2",
+      "item_family": "direct_execution",
+      "prompt": "A class is designing steps for a character to collect objects in a maze. Break the task into a workable strategy and show how the learner would break a problem into stable subproblems before writing the full procedure.",
+      "expected_evidence": "break a problem into stable subproblems before writing the full procedure",
+      "dominant_failure_mode_targets": [
+        "A2-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates break a problem into stable subproblems before writing the full procedure with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "A2-DIR-002",
+      "node_id": "A2",
+      "item_family": "direct_execution",
+      "prompt": "Two different solution plans are proposed for the same computing problem. Compare them and show how the learner would compare two procedures using at least one concrete quality criterion.",
+      "expected_evidence": "compare two procedures using at least one concrete quality criterion",
+      "dominant_failure_mode_targets": [
+        "A2-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates compare two procedures using at least one concrete quality criterion with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "A2-DIR-003",
+      "node_id": "A2",
+      "item_family": "direct_execution",
+      "prompt": "A learner must formalize a small problem before choosing an algorithmic approach. Use the given conditions and show how they would distinguish correctness from efficiency or clarity in a bounded case.",
+      "expected_evidence": "distinguish correctness from efficiency or clarity in a bounded case",
+      "dominant_failure_mode_targets": [
+        "A2-FM-03"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates distinguish correctness from efficiency or clarity in a bounded case with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "A2-EXP-001",
+      "node_id": "A2",
+      "item_family": "explanation",
+      "prompt": "Why can two correct algorithms still differ in quality?",
+      "expected_evidence": "they can differ in efficiency, clarity, or how well they manage the task, even if both eventually work.",
+      "dominant_failure_mode_targets": [
+        "A2-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to they can differ in efficiency, clarity, or how well they manage the task, even if both eventually work."
+    },
+    {
+      "item_id": "A2-EXP-002",
+      "node_id": "A2",
+      "item_family": "explanation",
+      "prompt": "What makes a decomposition useful rather than random?",
+      "expected_evidence": "a useful decomposition creates subproblems that fit together coherently and support the larger solution.",
+      "dominant_failure_mode_targets": [
+        "A2-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to a useful decomposition creates subproblems that fit together coherently and support the larger solution."
+    },
+    {
+      "item_id": "A2-ERR-001",
+      "node_id": "A2",
+      "item_family": "error_diagnosis",
+      "prompt": "A learner response in algorithm design, efficiency awareness, and decomposition discipline suggests this breakdown: learner confuses a correct algorithm with the most effective one without comparison criteria. Diagnose the likely misconception or structural error. Focus on correctness-efficiency collapse.",
+      "expected_evidence": "break a problem into stable subproblems before writing the full procedure",
+      "dominant_failure_mode_targets": [
+        "A2-FM-01"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward break a problem into stable subproblems before writing the full procedure."
+    },
+    {
+      "item_id": "A2-ERR-002",
+      "node_id": "A2",
+      "item_family": "error_diagnosis",
+      "prompt": "A learner response in algorithm design, efficiency awareness, and decomposition discipline suggests this breakdown: learner breaks a problem into parts that do not fit together coherently. Diagnose the likely misconception or structural error. Focus on decomposition-drift.",
+      "expected_evidence": "compare two procedures using at least one concrete quality criterion",
+      "dominant_failure_mode_targets": [
+        "A2-FM-02"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward compare two procedures using at least one concrete quality criterion."
+    },
+    {
+      "item_id": "A2-TRA-001",
+      "node_id": "A2",
+      "item_family": "transfer",
+      "prompt": "A sorting or search idea learned in one classroom task is now presented in a different surface context. Explain how the learner would distinguish correctness from efficiency or clarity in a bounded case without losing the underlying structure.",
+      "expected_evidence": "distinguish correctness from efficiency or clarity in a bounded case",
+      "dominant_failure_mode_targets": [
+        "A2-FM-03"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves distinguish correctness from efficiency or clarity in a bounded case in a changed computing context or representation."
+    },
+    {
+      "item_id": "A2-TRA-002",
+      "node_id": "A2",
+      "item_family": "transfer",
+      "prompt": "A learner must compare two unfamiliar algorithm sketches in a new context and still preserve the same analytic discipline. Show how they would avoid treating a longer or shorter procedure as automatically better.",
+      "expected_evidence": "avoid treating a longer or shorter procedure as automatically better",
+      "dominant_failure_mode_targets": [
+        "A2-FM-04"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves avoid treating a longer or shorter procedure as automatically better in a changed computing context or representation."
+    },
+    {
+      "item_id": "A2-RET-001",
+      "node_id": "A2",
+      "item_family": "retention",
+      "prompt": "After a delay, the learner is given a fresh bounded problem and must choose or compare a strategy rather than just repeat a memorized one. Show how they would break a problem into stable subproblems before writing the full procedure.",
+      "expected_evidence": "break a problem into stable subproblems before writing the full procedure",
+      "dominant_failure_mode_targets": [
+        "A2-FM-04"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_explanation",
+        "constructed_response"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability",
+      "scoring_guidance": "Meets when the learner still demonstrates break a problem into stable subproblems before writing the full procedure on a delayed recheck without a blocking recurrence."
+    },
+    {
+      "item_id": "A2-PRE-001",
+      "node_id": "A2",
+      "item_family": "prerequisite_probe",
+      "prompt": "Probe pattern generalization and stepwise problem breakdown with a short decomposition or programming task before closing algorithm design, efficiency awareness, and decomposition discipline, and decide whether the current weakness is upstream or truly algorithmic.",
+      "expected_evidence": "shows whether pattern generalization and stepwise problem breakdown is secure enough to support algorithm design, efficiency awareness, and decomposition discipline",
+      "dominant_failure_mode_targets": [
+        "A2-FM-01"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in pattern generalization and stepwise problem breakdown from a current-node issue in algorithm design, efficiency awareness, and decomposition discipline.",
+      "dependency_target": "A1",
+      "suspected_knowledge_gap_if_incorrect": "pattern generalization and stepwise problem breakdown"
+    },
+    {
+      "item_id": "A2-PRE-002",
+      "node_id": "A2",
+      "item_family": "prerequisite_probe",
+      "prompt": "Probe loops, events, and reusable program patterns with a short decomposition or programming task before closing algorithm design, efficiency awareness, and decomposition discipline, and decide whether the current weakness is upstream or truly algorithmic.",
+      "expected_evidence": "shows whether loops, events, and reusable program patterns is secure enough to support algorithm design, efficiency awareness, and decomposition discipline",
+      "dominant_failure_mode_targets": [
+        "A2-FM-02"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in loops, events, and reusable program patterns from a current-node issue in algorithm design, efficiency awareness, and decomposition discipline.",
+      "dependency_target": "P2",
+      "suspected_knowledge_gap_if_incorrect": "loops, events, and reusable program patterns"
+    }
+  ]
+}

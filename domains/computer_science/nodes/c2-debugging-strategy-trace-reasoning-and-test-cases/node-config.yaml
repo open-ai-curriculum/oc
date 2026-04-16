@@ -1,0 +1,40 @@
+id: C2
+name: debugging_strategy_trace_reasoning_and_test_cases
+domain: computer_science
+support_tier: Incubation
+maturity_state: Drafted
+supported_profiles:
+- computer-science-middle-grade-node-package
+evidence_class: Synthetic
+dependencies:
+- C1
+- P3
+mastery:
+  direct_accuracy_threshold: 0.9
+  explanation_required: true
+  transfer_required: true
+  retention_check_days: 28
+statuses:
+- blocked
+- emerging
+- provisional
+- secure
+- unstable
+verification_gates:
+- id: G1
+  type: direct_performance
+  pass_rule: '>= 0.90 accuracy across debugging strategy, trace reasoning, and test cases tasks'
+- id: G2
+  type: meaning
+  pass_rule: correct explanation in at least 2 of 3 prompts using bounded debugging and test reasoning
+- id: G3
+  type: transfer
+  pass_rule: successful reasoning in at least one unfamiliar computing context
+- id: G4
+  type: retention
+  pass_rule: '>= 0.85 delayed recheck accuracy after ~28 days'
+failure_modes:
+- C2-FM-01
+- C2-FM-02
+- C2-FM-03
+- C2-FM-04

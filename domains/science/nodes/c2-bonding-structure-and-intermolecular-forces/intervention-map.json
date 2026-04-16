@@ -1,0 +1,37 @@
+{
+  "node_id": "C2",
+  "interventions": [
+    {
+      "intervention_id": "C2-INT-01",
+      "name": "C2 Intervention 1",
+      "addresses_failure_modes": [
+        "C2-FM-01"
+      ],
+      "summary": "interaction sorting tasks that separate bond categories and force types"
+    },
+    {
+      "intervention_id": "C2-INT-02",
+      "name": "C2 Intervention 2",
+      "addresses_failure_modes": [
+        "C2-FM-02"
+      ],
+      "summary": "shape-and-polarity modeling routines tied to property prediction"
+    },
+    {
+      "intervention_id": "C2-INT-03",
+      "name": "C2 Intervention 3",
+      "addresses_failure_modes": [
+        "C2-FM-03"
+      ],
+      "summary": "property-explanation prompts that require explicit interaction evidence"
+    },
+    {
+      "intervention_id": "C2-INT-04",
+      "name": "C2 Intervention 4",
+      "addresses_failure_modes": [
+        "C2-FM-04"
+      ],
+      "summary": "comparison tables that bound claims about relative force strength and effect"
+    }
+  ]
+}

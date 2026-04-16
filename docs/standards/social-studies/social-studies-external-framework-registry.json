@@ -1,0 +1,79 @@
+{
+  "id": "social-studies-external-framework-registry",
+  "generated_on": "2026-04-15",
+  "framework_count": 9,
+  "frameworks": [
+    {
+      "framework_id": "ap-united-states-history",
+      "framework_family": "AP United States History",
+      "public_set_in_scope": true,
+      "current_repository_posture": "ready_for_mapping_review",
+      "current_graph_posture": "substantial_but_compressed",
+      "notes": "Focused graph cut, framework profile, and public framework audit all exist; chronology compression still limits stronger claims."
+    },
+    {
+      "framework_id": "ap-world-history-modern",
+      "framework_family": "AP World History: Modern",
+      "public_set_in_scope": true,
+      "current_repository_posture": "structurally_codified",
+      "current_graph_posture": "substantial_but_compressed",
+      "notes": "Focused graph cut and framework profile both exist; regional and period compression still limits stronger claims."
+    },
+    {
+      "framework_id": "ap-united-states-government-and-politics",
+      "framework_family": "AP United States Government and Politics",
+      "public_set_in_scope": true,
+      "current_repository_posture": "ready_for_mapping_review",
+      "current_graph_posture": "strong",
+      "notes": "Focused graph cut, framework profile, and public framework audit all exist; blueprint verification still not codified."
+    },
+    {
+      "framework_id": "ap-comparative-government-and-politics",
+      "framework_family": "AP Comparative Government and Politics",
+      "public_set_in_scope": true,
+      "current_repository_posture": "structurally_codified",
+      "current_graph_posture": "partial",
+      "notes": "Focused graph cut and framework profile both exist; country-case structures still limit stronger claims."
+    },
+    {
+      "framework_id": "ap-human-geography",
+      "framework_family": "AP Human Geography",
+      "public_set_in_scope": true,
+      "current_repository_posture": "ready_for_mapping_review",
+      "current_graph_posture": "strong",
+      "notes": "Focused graph cut, framework profile, and public framework audit all exist; blueprint verification still not codified."
+    },
+    {
+      "framework_id": "ap-macroeconomics",
+      "framework_family": "AP Macroeconomics",
+      "public_set_in_scope": true,
+      "current_repository_posture": "ready_for_mapping_review",
+      "current_graph_posture": "partial",
+      "notes": "Focused graph cut, framework profile, and public framework audit all exist; formal macro-model detail still limits stronger claims."
+    },
+    {
+      "framework_id": "ap-microeconomics",
+      "framework_family": "AP Microeconomics",
+      "public_set_in_scope": true,
+      "current_repository_posture": "structurally_codified",
+      "current_graph_posture": "provisional",
+      "notes": "Focused graph cut and framework profile both exist; exploratory course-specificity still limits stronger claims."
+    },
+    {
+      "framework_id": "naep-social-studies-related-frameworks",
+      "framework_family": "NAEP social studies-related frameworks",
+      "public_set_in_scope": true,
+      "current_repository_posture": "planned",
+      "current_graph_posture": "provisional",
+      "notes": "No maintained social-studies-specific NAEP codification artifact yet."
+    },
+    {
+      "framework_id": "c3-framework-social-studies-state-standards",
+      "framework_family": "C3 Framework for Social Studies State Standards",
+      "public_set_in_scope": true,
+      "current_repository_posture": "planned",
+      "current_graph_posture": "repository_relevant_methodology_surface",
+      "notes": "Methodologically relevant inquiry surface; not yet codified as a maintained repository profile."
+    }
+  ]
+}

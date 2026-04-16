@@ -1,0 +1,442 @@
+domain: social_studies
+version: 0.1
+generated_from: family_level_social_studies_nodes
+subnode_waves:
+  - parent: C1
+    base_slug: community-rules-roles-and-fairness
+    generated_nodes:
+      - id: C1A
+        path: domains/social_studies/nodes/c1a-community-rules-roles-and-fairness-foundations-and-examples
+        stage: foundations and examples
+      - id: C1B
+        path: domains/social_studies/nodes/c1b-community-rules-roles-and-fairness-classification-and-organization
+        stage: classification and organization
+      - id: C1C
+        path: domains/social_studies/nodes/c1c-community-rules-roles-and-fairness-explanation-and-application
+        stage: explanation and application
+      - id: C1D
+        path: domains/social_studies/nodes/c1d-community-rules-roles-and-fairness-transfer-and-contextual-use
+        stage: transfer and contextual use
+  - parent: C2
+    base_slug: institutions-rights-responsibilities-and-processes
+    generated_nodes:
+      - id: C2A
+        path: domains/social_studies/nodes/c2a-institutions-rights-responsibilities-and-processes-foundations-and-examples
+        stage: foundations and examples
+      - id: C2B
+        path: domains/social_studies/nodes/c2b-institutions-rights-responsibilities-and-processes-classification-and-organization
+        stage: classification and organization
+      - id: C2C
+        path: domains/social_studies/nodes/c2c-institutions-rights-responsibilities-and-processes-explanation-and-application
+        stage: explanation and application
+      - id: C2D
+        path: domains/social_studies/nodes/c2d-institutions-rights-responsibilities-and-processes-transfer-and-contextual-use
+        stage: transfer and contextual use
+  - parent: C3
+    base_slug: civic-decision-making-and-deliberation
+    generated_nodes:
+      - id: C3A
+        path: domains/social_studies/nodes/c3a-civic-decision-making-and-deliberation-foundations-and-examples
+        stage: foundations and examples
+      - id: C3B
+        path: domains/social_studies/nodes/c3b-civic-decision-making-and-deliberation-classification-and-organization
+        stage: classification and organization
+      - id: C3C
+        path: domains/social_studies/nodes/c3c-civic-decision-making-and-deliberation-explanation-and-application
+        stage: explanation and application
+      - id: C3D
+        path: domains/social_studies/nodes/c3d-civic-decision-making-and-deliberation-transfer-and-contextual-use
+        stage: transfer and contextual use
+  - parent: C4
+    base_slug: constitutional-principles-and-public-policy
+    generated_nodes:
+      - id: C4A
+        path: domains/social_studies/nodes/c4a-constitutional-principles-and-public-policy-foundations-and-examples
+        stage: foundations and examples
+      - id: C4B
+        path: domains/social_studies/nodes/c4b-constitutional-principles-and-public-policy-classification-and-organization
+        stage: classification and organization
+      - id: C4C
+        path: domains/social_studies/nodes/c4c-constitutional-principles-and-public-policy-explanation-and-application
+        stage: explanation and application
+      - id: C4D
+        path: domains/social_studies/nodes/c4d-constitutional-principles-and-public-policy-transfer-and-contextual-use
+        stage: transfer and contextual use
+  - parent: C5
+    base_slug: comparative-government-and-civic-action
+    generated_nodes:
+      - id: C5A
+        path: domains/social_studies/nodes/c5a-comparative-government-and-civic-action-foundations-and-examples
+        stage: foundations and examples
+      - id: C5B
+        path: domains/social_studies/nodes/c5b-comparative-government-and-civic-action-classification-and-organization
+        stage: classification and organization
+      - id: C5C
+        path: domains/social_studies/nodes/c5c-comparative-government-and-civic-action-explanation-and-application
+        stage: explanation and application
+      - id: C5D
+        path: domains/social_studies/nodes/c5d-comparative-government-and-civic-action-transfer-and-contextual-use
+        stage: transfer and contextual use
+  - parent: C6
+    base_slug: advanced-civic-argument-policy-design-and-participation
+    generated_nodes:
+      - id: C6A
+        path: domains/social_studies/nodes/c6a-advanced-civic-argument-policy-design-and-participation-foundations-and-examples
+        stage: foundations and examples
+      - id: C6B
+        path: domains/social_studies/nodes/c6b-advanced-civic-argument-policy-design-and-participation-classification-and-organization
+        stage: classification and organization
+      - id: C6C
+        path: domains/social_studies/nodes/c6c-advanced-civic-argument-policy-design-and-participation-explanation-and-application
+        stage: explanation and application
+      - id: C6D
+        path: domains/social_studies/nodes/c6d-advanced-civic-argument-policy-design-and-participation-transfer-and-contextual-use
+        stage: transfer and contextual use
+  - parent: H1
+    base_slug: chronology-identity-and-community-memory
+    generated_nodes:
+      - id: H1A
+        path: domains/social_studies/nodes/h1a-chronology-identity-and-community-memory-foundations-and-examples
+        stage: foundations and examples
+      - id: H1B
+        path: domains/social_studies/nodes/h1b-chronology-identity-and-community-memory-classification-and-organization
+        stage: classification and organization
+      - id: H1C
+        path: domains/social_studies/nodes/h1c-chronology-identity-and-community-memory-explanation-and-application
+        stage: explanation and application
+      - id: H1D
+        path: domains/social_studies/nodes/h1d-chronology-identity-and-community-memory-transfer-and-contextual-use
+        stage: transfer and contextual use
+  - parent: H2
+    base_slug: historical-sources-and-past-present-comparison
+    generated_nodes:
+      - id: H2A
+        path: domains/social_studies/nodes/h2a-historical-sources-and-past-present-comparison-foundations-and-examples
+        stage: foundations and examples
+      - id: H2B
+        path: domains/social_studies/nodes/h2b-historical-sources-and-past-present-comparison-classification-and-organization
+        stage: classification and organization
+      - id: H2C
+        path: domains/social_studies/nodes/h2c-historical-sources-and-past-present-comparison-explanation-and-application
+        stage: explanation and application
+      - id: H2D
+        path: domains/social_studies/nodes/h2d-historical-sources-and-past-present-comparison-transfer-and-contextual-use
+        stage: transfer and contextual use
+  - parent: H3
+    base_slug: causation-context-and-change-over-time
+    generated_nodes:
+      - id: H3A
+        path: domains/social_studies/nodes/h3a-causation-context-and-change-over-time-foundations-and-examples
+        stage: foundations and examples
+      - id: H3B
+        path: domains/social_studies/nodes/h3b-causation-context-and-change-over-time-classification-and-organization
+        stage: classification and organization
+      - id: H3C
+        path: domains/social_studies/nodes/h3c-causation-context-and-change-over-time-explanation-and-application
+        stage: explanation and application
+      - id: H3D
+        path: domains/social_studies/nodes/h3d-causation-context-and-change-over-time-transfer-and-contextual-use
+        stage: transfer and contextual use
+  - parent: H4
+    base_slug: sourcing-corroboration-and-historical-argument
+    generated_nodes:
+      - id: H4A
+        path: domains/social_studies/nodes/h4a-sourcing-corroboration-and-historical-argument-foundations-and-examples
+        stage: foundations and examples
+      - id: H4B
+        path: domains/social_studies/nodes/h4b-sourcing-corroboration-and-historical-argument-classification-and-organization
+        stage: classification and organization
+      - id: H4C
+        path: domains/social_studies/nodes/h4c-sourcing-corroboration-and-historical-argument-explanation-and-application
+        stage: explanation and application
+      - id: H4D
+        path: domains/social_studies/nodes/h4d-sourcing-corroboration-and-historical-argument-transfer-and-contextual-use
+        stage: transfer and contextual use
+  - parent: H5
+    base_slug: thematic-historical-analysis-and-periodization
+    generated_nodes:
+      - id: H5A
+        path: domains/social_studies/nodes/h5a-thematic-historical-analysis-and-periodization-foundations-and-examples
+        stage: foundations and examples
+      - id: H5B
+        path: domains/social_studies/nodes/h5b-thematic-historical-analysis-and-periodization-classification-and-organization
+        stage: classification and organization
+      - id: H5C
+        path: domains/social_studies/nodes/h5c-thematic-historical-analysis-and-periodization-explanation-and-application
+        stage: explanation and application
+      - id: H5D
+        path: domains/social_studies/nodes/h5d-thematic-historical-analysis-and-periodization-transfer-and-contextual-use
+        stage: transfer and contextual use
+  - parent: H6
+    base_slug: historiography-public-history-and-capstone-argument
+    generated_nodes:
+      - id: H6A
+        path: domains/social_studies/nodes/h6a-historiography-public-history-and-capstone-argument-foundations-and-examples
+        stage: foundations and examples
+      - id: H6B
+        path: domains/social_studies/nodes/h6b-historiography-public-history-and-capstone-argument-classification-and-organization
+        stage: classification and organization
+      - id: H6C
+        path: domains/social_studies/nodes/h6c-historiography-public-history-and-capstone-argument-explanation-and-application
+        stage: explanation and application
+      - id: H6D
+        path: domains/social_studies/nodes/h6d-historiography-public-history-and-capstone-argument-transfer-and-contextual-use
+        stage: transfer and contextual use
+  - parent: Q1
+    base_slug: observe-describe-and-question
+    generated_nodes:
+      - id: Q1A
+        path: domains/social_studies/nodes/q1a-observe-describe-and-question-foundations-and-examples
+        stage: foundations and examples
+      - id: Q1B
+        path: domains/social_studies/nodes/q1b-observe-describe-and-question-classification-and-organization
+        stage: classification and organization
+      - id: Q1C
+        path: domains/social_studies/nodes/q1c-observe-describe-and-question-explanation-and-application
+        stage: explanation and application
+      - id: Q1D
+        path: domains/social_studies/nodes/q1d-observe-describe-and-question-transfer-and-contextual-use
+        stage: transfer and contextual use
+  - parent: Q2
+    base_slug: compare-classify-and-sequence-evidence
+    generated_nodes:
+      - id: Q2A
+        path: domains/social_studies/nodes/q2a-compare-classify-and-sequence-evidence-foundations-and-examples
+        stage: foundations and examples
+      - id: Q2B
+        path: domains/social_studies/nodes/q2b-compare-classify-and-sequence-evidence-classification-and-organization
+        stage: classification and organization
+      - id: Q2C
+        path: domains/social_studies/nodes/q2c-compare-classify-and-sequence-evidence-explanation-and-application
+        stage: explanation and application
+      - id: Q2D
+        path: domains/social_studies/nodes/q2d-compare-classify-and-sequence-evidence-transfer-and-contextual-use
+        stage: transfer and contextual use
+  - parent: Q3
+    base_slug: supported-explanation-from-evidence
+    generated_nodes:
+      - id: Q3A
+        path: domains/social_studies/nodes/q3a-supported-explanation-from-evidence-foundations-and-examples
+        stage: foundations and examples
+      - id: Q3B
+        path: domains/social_studies/nodes/q3b-supported-explanation-from-evidence-classification-and-organization
+        stage: classification and organization
+      - id: Q3C
+        path: domains/social_studies/nodes/q3c-supported-explanation-from-evidence-explanation-and-application
+        stage: explanation and application
+      - id: Q3D
+        path: domains/social_studies/nodes/q3d-supported-explanation-from-evidence-transfer-and-contextual-use
+        stage: transfer and contextual use
+  - parent: Q4
+    base_slug: investigation-design-representation-and-data-use
+    generated_nodes:
+      - id: Q4A
+        path: domains/social_studies/nodes/q4a-investigation-design-representation-and-data-use-foundations-and-examples
+        stage: foundations and examples
+      - id: Q4B
+        path: domains/social_studies/nodes/q4b-investigation-design-representation-and-data-use-classification-and-organization
+        stage: classification and organization
+      - id: Q4C
+        path: domains/social_studies/nodes/q4c-investigation-design-representation-and-data-use-explanation-and-application
+        stage: explanation and application
+      - id: Q4D
+        path: domains/social_studies/nodes/q4d-investigation-design-representation-and-data-use-transfer-and-contextual-use
+        stage: transfer and contextual use
+  - parent: Q5
+    base_slug: evaluation-of-sources-models-and-claims
+    generated_nodes:
+      - id: Q5A
+        path: domains/social_studies/nodes/q5a-evaluation-of-sources-models-and-claims-foundations-and-examples
+        stage: foundations and examples
+      - id: Q5B
+        path: domains/social_studies/nodes/q5b-evaluation-of-sources-models-and-claims-classification-and-organization
+        stage: classification and organization
+      - id: Q5C
+        path: domains/social_studies/nodes/q5c-evaluation-of-sources-models-and-claims-explanation-and-application
+        stage: explanation and application
+      - id: Q5D
+        path: domains/social_studies/nodes/q5d-evaluation-of-sources-models-and-claims-transfer-and-contextual-use
+        stage: transfer and contextual use
+  - parent: Q6
+    base_slug: synthesis-argument-and-public-communication
+    generated_nodes:
+      - id: Q6A
+        path: domains/social_studies/nodes/q6a-synthesis-argument-and-public-communication-foundations-and-examples
+        stage: foundations and examples
+      - id: Q6B
+        path: domains/social_studies/nodes/q6b-synthesis-argument-and-public-communication-classification-and-organization
+        stage: classification and organization
+      - id: Q6C
+        path: domains/social_studies/nodes/q6c-synthesis-argument-and-public-communication-explanation-and-application
+        stage: explanation and application
+      - id: Q6D
+        path: domains/social_studies/nodes/q6d-synthesis-argument-and-public-communication-transfer-and-contextual-use
+        stage: transfer and contextual use
+  - parent: A1
+    base_slug: interdisciplinary-research-and-evidence-synthesis
+    generated_nodes:
+      - id: A1A
+        path: domains/social_studies/nodes/a1a-interdisciplinary-research-and-evidence-synthesis-foundations-and-examples
+        stage: foundations and examples
+      - id: A1B
+        path: domains/social_studies/nodes/a1b-interdisciplinary-research-and-evidence-synthesis-classification-and-organization
+        stage: classification and organization
+      - id: A1C
+        path: domains/social_studies/nodes/a1c-interdisciplinary-research-and-evidence-synthesis-explanation-and-application
+        stage: explanation and application
+  - parent: A2
+    base_slug: capstone-argument-modeling-and-public-communication
+    generated_nodes:
+      - id: A2A
+        path: domains/social_studies/nodes/a2a-capstone-argument-modeling-and-public-communication-foundations-and-examples
+        stage: foundations and examples
+      - id: A2B
+        path: domains/social_studies/nodes/a2b-capstone-argument-modeling-and-public-communication-classification-and-organization
+        stage: classification and organization
+      - id: A2C
+        path: domains/social_studies/nodes/a2c-capstone-argument-modeling-and-public-communication-explanation-and-application
+        stage: explanation and application
+  - parent: E1
+    base_slug: needs-wants-choice-and-exchange
+    generated_nodes:
+      - id: E1A
+        path: domains/social_studies/nodes/e1a-needs-wants-choice-and-exchange-foundations-and-examples
+        stage: foundations and examples
+      - id: E1B
+        path: domains/social_studies/nodes/e1b-needs-wants-choice-and-exchange-classification-and-organization
+        stage: classification and organization
+      - id: E1C
+        path: domains/social_studies/nodes/e1c-needs-wants-choice-and-exchange-explanation-and-application
+        stage: explanation and application
+  - parent: E2
+    base_slug: production-consumption-and-local-markets
+    generated_nodes:
+      - id: E2A
+        path: domains/social_studies/nodes/e2a-production-consumption-and-local-markets-foundations-and-examples
+        stage: foundations and examples
+      - id: E2B
+        path: domains/social_studies/nodes/e2b-production-consumption-and-local-markets-classification-and-organization
+        stage: classification and organization
+      - id: E2C
+        path: domains/social_studies/nodes/e2c-production-consumption-and-local-markets-explanation-and-application
+        stage: explanation and application
+  - parent: E3
+    base_slug: incentives-trade-and-simple-systems
+    generated_nodes:
+      - id: E3A
+        path: domains/social_studies/nodes/e3a-incentives-trade-and-simple-systems-foundations-and-examples
+        stage: foundations and examples
+      - id: E3B
+        path: domains/social_studies/nodes/e3b-incentives-trade-and-simple-systems-classification-and-organization
+        stage: classification and organization
+      - id: E3C
+        path: domains/social_studies/nodes/e3c-incentives-trade-and-simple-systems-explanation-and-application
+        stage: explanation and application
+  - parent: E4
+    base_slug: markets-labor-and-public-resource-decisions
+    generated_nodes:
+      - id: E4A
+        path: domains/social_studies/nodes/e4a-markets-labor-and-public-resource-decisions-foundations-and-examples
+        stage: foundations and examples
+      - id: E4B
+        path: domains/social_studies/nodes/e4b-markets-labor-and-public-resource-decisions-classification-and-organization
+        stage: classification and organization
+      - id: E4C
+        path: domains/social_studies/nodes/e4c-markets-labor-and-public-resource-decisions-explanation-and-application
+        stage: explanation and application
+  - parent: E5
+    base_slug: macroeconomic-patterns-global-trade-and-finance-basics
+    generated_nodes:
+      - id: E5A
+        path: domains/social_studies/nodes/e5a-macroeconomic-patterns-global-trade-and-finance-basics-foundations-and-examples
+        stage: foundations and examples
+      - id: E5B
+        path: domains/social_studies/nodes/e5b-macroeconomic-patterns-global-trade-and-finance-basics-classification-and-organization
+        stage: classification and organization
+      - id: E5C
+        path: domains/social_studies/nodes/e5c-macroeconomic-patterns-global-trade-and-finance-basics-explanation-and-application
+        stage: explanation and application
+  - parent: E6
+    base_slug: economic-analysis-policy-tradeoffs-and-capstone-modeling
+    generated_nodes:
+      - id: E6A
+        path: domains/social_studies/nodes/e6a-economic-analysis-policy-tradeoffs-and-capstone-modeling-foundations-and-examples
+        stage: foundations and examples
+      - id: E6B
+        path: domains/social_studies/nodes/e6b-economic-analysis-policy-tradeoffs-and-capstone-modeling-classification-and-organization
+        stage: classification and organization
+      - id: E6C
+        path: domains/social_studies/nodes/e6c-economic-analysis-policy-tradeoffs-and-capstone-modeling-explanation-and-application
+        stage: explanation and application
+  - parent: G1
+    base_slug: place-maps-and-environmental-features
+    generated_nodes:
+      - id: G1A
+        path: domains/social_studies/nodes/g1a-place-maps-and-environmental-features-foundations-and-examples
+        stage: foundations and examples
+      - id: G1B
+        path: domains/social_studies/nodes/g1b-place-maps-and-environmental-features-classification-and-organization
+        stage: classification and organization
+      - id: G1C
+        path: domains/social_studies/nodes/g1c-place-maps-and-environmental-features-explanation-and-application
+        stage: explanation and application
+  - parent: G2
+    base_slug: human-environment-interaction-and-regions
+    generated_nodes:
+      - id: G2A
+        path: domains/social_studies/nodes/g2a-human-environment-interaction-and-regions-foundations-and-examples
+        stage: foundations and examples
+      - id: G2B
+        path: domains/social_studies/nodes/g2b-human-environment-interaction-and-regions-classification-and-organization
+        stage: classification and organization
+      - id: G2C
+        path: domains/social_studies/nodes/g2c-human-environment-interaction-and-regions-explanation-and-application
+        stage: explanation and application
+  - parent: G3
+    base_slug: spatial-patterns-movement-and-resources
+    generated_nodes:
+      - id: G3A
+        path: domains/social_studies/nodes/g3a-spatial-patterns-movement-and-resources-foundations-and-examples
+        stage: foundations and examples
+      - id: G3B
+        path: domains/social_studies/nodes/g3b-spatial-patterns-movement-and-resources-classification-and-organization
+        stage: classification and organization
+      - id: G3C
+        path: domains/social_studies/nodes/g3c-spatial-patterns-movement-and-resources-explanation-and-application
+        stage: explanation and application
+  - parent: G4
+    base_slug: geographic-reasoning-with-maps-data-and-scale
+    generated_nodes:
+      - id: G4A
+        path: domains/social_studies/nodes/g4a-geographic-reasoning-with-maps-data-and-scale-foundations-and-examples
+        stage: foundations and examples
+      - id: G4B
+        path: domains/social_studies/nodes/g4b-geographic-reasoning-with-maps-data-and-scale-classification-and-organization
+        stage: classification and organization
+      - id: G4C
+        path: domains/social_studies/nodes/g4c-geographic-reasoning-with-maps-data-and-scale-explanation-and-application
+        stage: explanation and application
+  - parent: G5
+    base_slug: global-interdependence-migration-and-sustainability
+    generated_nodes:
+      - id: G5A
+        path: domains/social_studies/nodes/g5a-global-interdependence-migration-and-sustainability-foundations-and-examples
+        stage: foundations and examples
+      - id: G5B
+        path: domains/social_studies/nodes/g5b-global-interdependence-migration-and-sustainability-classification-and-organization
+        stage: classification and organization
+      - id: G5C
+        path: domains/social_studies/nodes/g5c-global-interdependence-migration-and-sustainability-explanation-and-application
+        stage: explanation and application
+  - parent: G6
+    base_slug: geospatial-analysis-and-policy-application
+    generated_nodes:
+      - id: G6A
+        path: domains/social_studies/nodes/g6a-geospatial-analysis-and-policy-application-foundations-and-examples
+        stage: foundations and examples
+      - id: G6B
+        path: domains/social_studies/nodes/g6b-geospatial-analysis-and-policy-application-classification-and-organization
+        stage: classification and organization
+      - id: G6C
+        path: domains/social_studies/nodes/g6c-geospatial-analysis-and-policy-application-explanation-and-application
+        stage: explanation and application

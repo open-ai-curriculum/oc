@@ -1,0 +1,23 @@
+[
+  {
+    "learner_id": "example-fr6-emerging",
+    "node_id": "FR6",
+    "status": "emerging",
+    "dependency_status": {
+      "FR5": "secure",
+      "P2": "secure"
+    },
+    "direct_accuracy": 0.87,
+    "fluency_status": "weak",
+    "transfer_status": "weak",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["FR6-FM-01", "FR6-FM-03"],
+    "recommended_interventions": [
+      "shorten passage length while preserving connected text",
+      "accuracy-first bounded passage rehearsal"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Learner knows many words but loses place and becomes labored in short connected passages."
+  }
+]

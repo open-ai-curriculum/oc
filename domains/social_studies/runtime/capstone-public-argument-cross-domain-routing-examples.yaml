@@ -1,0 +1,42 @@
+examples:
+  - learner_case_id: ss-capstone-cross-01
+    current_node_id: A1
+    current_node_status: blocked
+    dominant_failure_modes:
+      - A1-FM-01
+    observed_pattern:
+      - learner can locate relevant sources
+      - learner cannot retain source-role distinctions across note synthesis
+      - argument draft collapses multiple sources into one undifferentiated claim set
+    expected_decision: route_upstream
+    expected_rule_id: ss-capstone-cross-route-a1-to-m1
+  - learner_case_id: ss-capstone-cross-02
+    current_node_id: A1
+    current_node_status: emerging
+    dominant_failure_modes:
+      - A1-FM-02
+    observed_pattern:
+      - learner repeats the same note-taking routine despite evidence mismatch
+      - no self-check occurs before the next synthesis attempt
+    expected_decision: route_upstream
+    expected_rule_id: ss-capstone-cross-route-a1-to-s1
+  - learner_case_id: ss-capstone-cross-03
+    current_node_id: A2
+    current_node_status: provisional
+    dominant_failure_modes:
+      - A2-FM-04
+    observed_pattern:
+      - learner receives critique on evidence mismatch and audience clarity
+      - next draft repeats the same structure with no meaningful revision
+    expected_decision: hold_current
+    expected_rule_id: ss-capstone-cross-route-a2-to-r1
+  - learner_case_id: ss-capstone-cross-04
+    current_node_id: A2
+    current_node_status: provisional
+    dominant_failure_modes:
+      - A2-FM-03
+    observed_pattern:
+      - prior improvement depended on attached learning-process support
+      - retention check is now due before public release or closure
+    expected_decision: reverify
+    expected_rule_id: ss-capstone-cross-domain-reverify-dual-stability

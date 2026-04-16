@@ -1,0 +1,207 @@
+[
+  {
+    "id": "D1",
+    "slug": "d1-digital-tool-navigation-and-interface-cause-effect",
+    "title": "D1 Digital Tool Navigation and Interface Cause-Effect",
+    "short": "computer science entry node for digital tool navigation and interface cause-effect",
+    "domainArea": "digital-environment reasoning",
+    "deps": [],
+    "purpose": "The learner uses basic digital tools and recognizes that specific interface actions produce specific outcomes rather than treating screens and controls as unpredictable magic.",
+    "exit": [
+      "uses simple digital interface actions intentionally in bounded tasks",
+      "predicts what a basic click, tap, drag, or typed input will do in familiar contexts",
+      "describes simple input-output cause-effect in a digital environment",
+      "succeeds across more than one device or application context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "use taps, clicks, selections, and typed input with clear intent",
+      "name what changed on screen after an action",
+      "distinguish successful navigation from random trial only",
+      "connect a control or icon to its likely function in bounded cases"
+    ],
+    "failure": [
+      ["01", "random-interface-search", "learner explores screens by random clicking without stable action-outcome reasoning."],
+      ["02", "control-function confusion", "learner confuses what a button, icon, or input action is for."],
+      ["03", "input-output disconnect", "learner does not connect their action to the resulting change on screen."],
+      ["04", "device-context fragility", "learner succeeds in one interface only and cannot transfer to another bounded context."]
+    ],
+    "interventions": [
+      "guided action-and-outcome routines that name one interface action and one resulting change explicitly",
+      "icon and control matching tasks that connect common interface elements to functions",
+      "before-and-after screen comparisons that force explicit input-output talk",
+      "paired practice across two simple device or app contexts with the same action logic"
+    ],
+    "items": [
+      ["Why is clicking several places quickly not the same as intentional navigation?", "interface_cause_effect_explanation", "Intentional navigation predicts what an action should do and checks the resulting change instead of clicking randomly until something happens.", ["cause-effect reasoning", "digital fluency", "precision"], ["01"], ["interfaces", "navigation"]],
+      ["How can you tell what a basic interface control is for?", "control_function_reasoning", "A strong answer uses the icon, label, or observed effect of the control to infer its bounded function.", ["control interpretation", "evidence use", "transfer"], ["02"], ["controls", "icons"]],
+      ["What should you describe after typing into a simple input box?", "input_output_reasoning", "You should describe what was entered and what changed in the interface as a result of that input.", ["input-output linkage", "observation", "discipline"], ["03", "04"], ["input", "screens"]]
+    ],
+    "noteSecure": "Uses basic interfaces intentionally and explains simple action-outcome relations across bounded digital contexts.",
+    "noteEmerging": "Can sometimes operate a tool but still relies on random search and weak input-output explanations."
+  },
+  {
+    "id": "P1",
+    "slug": "p1-sequencing-commands-and-programmable-action",
+    "title": "P1 Sequencing Commands and Programmable Action",
+    "short": "computer science entry node for sequencing commands and programmable action",
+    "domainArea": "programming-sequence reasoning",
+    "deps": ["D1"],
+    "purpose": "The learner follows and creates simple ordered command sequences for a programmable agent or environment without treating instructions as an unordered list.",
+    "exit": [
+      "follows a bounded sequence of computing commands correctly",
+      "creates or revises a simple ordered sequence to achieve a target outcome",
+      "explains why order matters in a programmable task",
+      "succeeds across more than one unplugged or digital programming context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "execute simple command sequences in order",
+      "identify when a target fails because the order is wrong",
+      "describe a program as a set of steps rather than a wish or goal",
+      "revise one step in a sequence to improve the outcome"
+    ],
+    "failure": [
+      ["01", "order-does-not-matter belief", "learner treats commands as if their order can be changed freely without changing the outcome."],
+      ["02", "goal-step collapse", "learner states the intended result but not the executable steps needed to get there."],
+      ["03", "sequence-tracking instability", "learner loses track of where they are in a simple program or command list."],
+      ["04", "revision-without-cause", "learner changes steps but cannot explain what problem the revision addresses."]
+    ],
+    "interventions": [
+      "sequence enactment routines that compare correct and incorrect command orders",
+      "goal-versus-step prompts that force executable action language",
+      "step-tracing supports that highlight the current command and next command explicitly",
+      "bug-and-revision talk that requires naming the broken step before changing it"
+    ],
+    "items": [
+      ["Why can two correct commands still fail if they are in the wrong order?", "sequence_order_reasoning", "Because programmable actions depend on the order of execution, so changing the order can change or break the outcome.", ["sequencing", "causal reasoning", "programming meaning"], ["01"], ["programming", "sequence"]],
+      ["How is a goal different from a program step?", "goal_vs_step", "A goal describes what you want to happen, while a program step describes one executable action that helps produce that result.", ["distinction making", "execution language", "transfer"], ["02"], ["algorithms", "steps"]],
+      ["What should you explain before revising a broken program step?", "revision_reasoning", "You should explain what part of the sequence is failing and why that specific step needs to change.", ["debugging readiness", "cause-effect", "discipline"], ["03", "04"], ["revision", "debugging"]]
+    ],
+    "noteSecure": "Builds and explains simple command sequences with stable order reasoning and bounded revision.",
+    "noteEmerging": "Can follow some steps but still treats programs as unordered or goal-only instructions."
+  },
+  {
+    "id": "R1",
+    "slug": "r1-symbols-encoding-and-representation-awareness",
+    "title": "R1 Symbols, Encoding, and Representation Awareness",
+    "short": "computer science entry node for symbols, encoding, and representation awareness",
+    "domainArea": "representation reasoning",
+    "deps": ["D1"],
+    "purpose": "The learner recognizes that symbols, icons, and simple encodings can stand for information or actions without confusing the representation with the thing represented.",
+    "exit": [
+      "interprets simple symbols, icons, and bounded encodings correctly",
+      "creates or uses a simple code or representation to communicate information",
+      "explains that the same information can be represented in more than one way",
+      "succeeds across more than one simple representation context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "interpret icons, symbols, or simple codes with bounded meaning",
+      "use one representation to stand for information or action intentionally",
+      "compare two simple representations of the same information",
+      "avoid confusing the picture, symbol, or code with the underlying content"
+    ],
+    "failure": [
+      ["01", "symbol-object collapse", "learner treats a representation as the thing itself rather than as a stand-in."],
+      ["02", "code-meaning drift", "learner loses track of what a simple code or symbol means."],
+      ["03", "single-representation lock", "learner cannot recognize that the same information can appear in another form."],
+      ["04", "representation-context fragility", "learner succeeds with one icon or code set only and cannot transfer to another bounded case."]
+    ],
+    "interventions": [
+      "match-representation-to-meaning tasks with explicit discussion of stand-in logic",
+      "simple encoding games that require stable code-to-meaning tracking",
+      "same-information-different-format comparisons across icons, words, and symbols",
+      "bounded transfer practice with a second simple symbol or code system"
+    ],
+    "items": [
+      ["Why is an icon not the same thing as the action or object it stands for?", "representation_explanation", "Because the icon is a symbol that represents the action or object rather than being the thing itself.", ["representation awareness", "symbol meaning", "precision"], ["01"], ["symbols", "icons"]],
+      ["How can the same message be shown in two different ways?", "multiple_representation_reasoning", "The same information can be encoded with different symbols, words, pictures, or simple codes while keeping the meaning stable.", ["representation flexibility", "meaning stability", "transfer"], ["03"], ["encoding", "information"]],
+      ["What must stay stable in a simple code system?", "encoding_discipline", "The meaning of each code element must stay consistent so the message can be interpreted correctly.", ["code tracking", "discipline", "context use"], ["02", "04"], ["codes", "representation"]]
+    ],
+    "noteSecure": "Uses symbols and simple encodings intentionally and distinguishes representations from what they stand for.",
+    "noteEmerging": "Recognizes some icons and codes but still confuses symbols, meanings, and transfer across contexts."
+  },
+  {
+    "id": "I1",
+    "slug": "i1-responsible-participation-in-digital-spaces",
+    "title": "I1 Responsible Participation in Digital Spaces",
+    "short": "computer science entry node for responsible participation in digital spaces",
+    "domainArea": "digital participation and impact reasoning",
+    "deps": ["D1"],
+    "purpose": "The learner follows bounded norms for safe, respectful, and responsible technology use without treating digital participation as consequence-free.",
+    "exit": [
+      "follows simple safety and respect norms in digital activities",
+      "recognizes that digital actions can affect self and others",
+      "makes a bounded responsible choice in a familiar digital-space scenario",
+      "succeeds across more than one classroom technology context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "identify a safe or respectful action in a simple digital scenario",
+      "describe one reason a digital action has consequences",
+      "distinguish private, shared, and public digital behavior in bounded cases",
+      "follow classroom technology routines without avoidable harm or disruption"
+    ],
+    "failure": [
+      ["01", "digital-actions-have-no-consequence belief", "learner treats digital actions as if they do not affect other people or the system."],
+      ["02", "private-shared-public confusion", "learner cannot distinguish what should stay private from what may be shared."],
+      ["03", "respect-norm instability", "learner does not apply basic respect routines in digital participation."],
+      ["04", "rule-repeat-without-reason", "learner can repeat a norm but cannot explain why it matters in the bounded case."]
+    ],
+    "interventions": [
+      "scenario comparisons that make digital consequences visible and discuss who is affected",
+      "private-shared-public sorting tasks with simple classroom technology examples",
+      "guided digital participation routines that model respectful action and repair",
+      "why-this-rule matters prompts tied to one concrete technology-use norm"
+    ],
+    "items": [
+      ["Why can a digital action still matter even if it happens on a screen?", "digital_consequence_reasoning", "Because digital actions can affect other people, information, devices, or shared spaces even if the action is not physical in the same way.", ["impact awareness", "causal reasoning", "digital citizenship"], ["01"], ["digital spaces", "impact"]],
+      ["How is something private different from something shared online?", "privacy_boundary_reasoning", "Private information should stay limited to the right people, while shared information is intentionally available to others in a bounded group or context.", ["boundary reasoning", "safety awareness", "transfer"], ["02"], ["privacy", "sharing"]],
+      ["Why is respectful digital participation more than just following a rule?", "respect_explanation", "A strong answer explains how respectful behavior protects people, communication, or the shared digital environment, not just that a rule exists.", ["ethics readiness", "explanation", "discipline"], ["03", "04"], ["digital citizenship", "respect"]]
+    ],
+    "noteSecure": "Applies simple digital safety and respect norms with awareness that digital actions affect self and others.",
+    "noteEmerging": "Can repeat some rules but does not yet reason stably about privacy, consequences, or respect in digital spaces."
+  },
+  {
+    "id": "C1",
+    "slug": "c1-noticing-errors-revising-steps-and-persistence-in-computing-tasks",
+    "title": "C1 Noticing Errors, Revising Steps, and Persistence in Computing Tasks",
+    "short": "computer science entry node for noticing errors, revising steps, and persistence in computing tasks",
+    "domainArea": "debugging and quality readiness",
+    "deps": ["P1"],
+    "purpose": "The learner notices when a sequence or digital action does not work as intended and attempts a bounded revision rather than abandoning the task or randomizing changes.",
+    "exit": [
+      "notices when a computing task does not match the intended outcome",
+      "identifies at least one likely source of the error in a bounded case",
+      "revises a step intentionally and checks whether the change improved the outcome",
+      "persists through more than one simple error-revision cycle",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "compare intended and actual outcomes in a simple computing task",
+      "name one step or action that may have caused the error",
+      "revise one part of a sequence instead of changing everything at once",
+      "check whether a revision improved the result"
+    ],
+    "failure": [
+      ["01", "all-or-nothing revision", "learner changes many steps at once and cannot track what fixed the issue."],
+      ["02", "error-without-location", "learner notices something is wrong but cannot identify a likely source."],
+      ["03", "abandonment-after-failure", "learner stops after an error rather than attempting a bounded revision."],
+      ["04", "revision-without-check", "learner changes a step but does not compare the new result against the target."]
+    ],
+    "interventions": [
+      "one-change-at-a-time routines that restrict revision to one step per attempt",
+      "error-location prompts that compare intended and actual outcomes side by side",
+      "short persistence cycles with visible progress markers after each attempt",
+      "before-and-after checks that force explicit comparison after a revision"
+    ],
+    "items": [
+      ["Why is changing every step at once a weak way to fix a broken program?", "debugging_revision_reasoning", "Because it becomes hard to tell which change mattered, so the learner loses evidence about the cause of the problem.", ["debugging discipline", "cause-effect", "quality awareness"], ["01"], ["debugging", "revision"]],
+      ["What should you compare when you think a sequence is wrong?", "error_location_reasoning", "You should compare the intended outcome with the actual outcome and identify which step may have caused the mismatch.", ["comparison", "error detection", "transfer"], ["02"], ["program behavior", "errors"]],
+      ["Why should you check the result after revising one step?", "revision_check_reasoning", "Because you need evidence that the change improved the program and to decide what to do next.", ["verification", "persistence", "discipline"], ["03", "04"], ["debugging", "checking"]]
+    ],
+    "noteSecure": "Notices computing errors, revises one step intentionally, and checks results with stable persistence.",
+    "noteEmerging": "Can tell something failed but revisions remain random, untracked, or short-lived."
+  }
+]

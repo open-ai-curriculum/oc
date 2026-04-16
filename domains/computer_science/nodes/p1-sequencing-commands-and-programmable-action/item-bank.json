@@ -1,0 +1,228 @@
+{
+  "node_id": "P1",
+  "policy_version": "1.0",
+  "version": "0.4",
+  "items": [
+    {
+      "item_id": "P1-DIR-001",
+      "node_id": "P1",
+      "item_family": "direct_execution",
+      "prompt": "A robot on a grid must reach a target square without hitting an obstacle. Write or describe the bounded program steps needed to execute simple command sequences in order.",
+      "expected_evidence": "execute simple command sequences in order",
+      "dominant_failure_mode_targets": [
+        "P1-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates execute simple command sequences in order with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "P1-DIR-002",
+      "node_id": "P1",
+      "item_family": "direct_execution",
+      "prompt": "A small interactive game needs a button press to trigger an action, or a repeated movement to continue until a goal is reached. Show how the learner would identify when a target fails because the order is wrong.",
+      "expected_evidence": "identify when a target fails because the order is wrong",
+      "dominant_failure_mode_targets": [
+        "P1-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates identify when a target fails because the order is wrong with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "P1-DIR-003",
+      "node_id": "P1",
+      "item_family": "direct_execution",
+      "prompt": "A short program is split into parts that pass values, repeat work, or update state. Trace the program and show how the learner would describe a program as a set of steps rather than a wish or goal.",
+      "expected_evidence": "describe a program as a set of steps rather than a wish or goal",
+      "dominant_failure_mode_targets": [
+        "P1-FM-03"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates describe a program as a set of steps rather than a wish or goal with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "P1-EXP-001",
+      "node_id": "P1",
+      "item_family": "explanation",
+      "prompt": "Why can two correct commands still fail if they are in the wrong order?",
+      "expected_evidence": "because programmable actions depend on the order of execution, so changing the order can change or break the outcome.",
+      "dominant_failure_mode_targets": [
+        "P1-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to because programmable actions depend on the order of execution, so changing the order can change or break the outcome."
+    },
+    {
+      "item_id": "P1-EXP-002",
+      "node_id": "P1",
+      "item_family": "explanation",
+      "prompt": "How is a goal different from a program step?",
+      "expected_evidence": "a goal describes what you want to happen, while a program step describes one executable action that helps produce that result.",
+      "dominant_failure_mode_targets": [
+        "P1-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to a goal describes what you want to happen, while a program step describes one executable action that helps produce that result."
+    },
+    {
+      "item_id": "P1-ERR-001",
+      "node_id": "P1",
+      "item_family": "error_diagnosis",
+      "prompt": "A learner response in sequencing commands and programmable action suggests this breakdown: learner treats commands as if their order can be changed freely without changing the outcome. Diagnose the likely misconception or structural error. Focus on order-does-not-matter belief.",
+      "expected_evidence": "execute simple command sequences in order",
+      "dominant_failure_mode_targets": [
+        "P1-FM-01"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward execute simple command sequences in order."
+    },
+    {
+      "item_id": "P1-ERR-002",
+      "node_id": "P1",
+      "item_family": "error_diagnosis",
+      "prompt": "A learner response in sequencing commands and programmable action suggests this breakdown: learner states the intended result but not the executable steps needed to get there. Diagnose the likely misconception or structural error. Focus on goal-step collapse.",
+      "expected_evidence": "identify when a target fails because the order is wrong",
+      "dominant_failure_mode_targets": [
+        "P1-FM-02"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward identify when a target fails because the order is wrong."
+    },
+    {
+      "item_id": "P1-TRA-001",
+      "node_id": "P1",
+      "item_family": "transfer",
+      "prompt": "A learner who used blocks now has to reason through the same programming idea in a text-based example. Explain how they would describe a program as a set of steps rather than a wish or goal in the changed representation.",
+      "expected_evidence": "describe a program as a set of steps rather than a wish or goal",
+      "dominant_failure_mode_targets": [
+        "P1-FM-03"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves describe a program as a set of steps rather than a wish or goal in a changed computing context or representation."
+    },
+    {
+      "item_id": "P1-TRA-002",
+      "node_id": "P1",
+      "item_family": "transfer",
+      "prompt": "A classroom app changes from a game context to a data-processing context, but the same underlying programming structure still matters. Show how the learner would revise one step in a sequence to improve the outcome.",
+      "expected_evidence": "revise one step in a sequence to improve the outcome",
+      "dominant_failure_mode_targets": [
+        "P1-FM-04"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves revise one step in a sequence to improve the outcome in a changed computing context or representation."
+    },
+    {
+      "item_id": "P1-RET-001",
+      "node_id": "P1",
+      "item_family": "retention",
+      "prompt": "After a delay, the learner revisits a bounded program and must explain the result of one function call, loop, event, or state change. Show how they would execute simple command sequences in order.",
+      "expected_evidence": "execute simple command sequences in order",
+      "dominant_failure_mode_targets": [
+        "P1-FM-04"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_explanation",
+        "constructed_response"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability",
+      "scoring_guidance": "Meets when the learner still demonstrates execute simple command sequences in order on a delayed recheck without a blocking recurrence."
+    },
+    {
+      "item_id": "P1-PRE-001",
+      "node_id": "P1",
+      "item_family": "prerequisite_probe",
+      "prompt": "Before closing sequencing commands and programmable action, run a short check on digital tool navigation and interface cause-effect using a bounded programming task and determine whether the current error is really an upstream dependency issue.",
+      "expected_evidence": "shows whether digital tool navigation and interface cause-effect is secure enough to support sequencing commands and programmable action",
+      "dominant_failure_mode_targets": [
+        "P1-FM-01"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in digital tool navigation and interface cause-effect from a current-node issue in sequencing commands and programmable action.",
+      "dependency_target": "D1",
+      "suspected_knowledge_gap_if_incorrect": "digital tool navigation and interface cause-effect"
+    }
+  ]
+}

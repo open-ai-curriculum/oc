@@ -1,0 +1,32 @@
+[
+  {
+    "item_id": "D4-IB-01",
+    "node_id": "D4",
+    "prompt": "A team says its design is best because it scored highest on speed, even though it failed the cost constraint. What critique is needed?",
+    "task_type": "design_claim_critique",
+    "answer_key": "The critique should note that a design cannot be considered best under the stated problem if it violates an active constraint, even if it excels on one metric.",
+    "scorable_traits": ["constraint reasoning", "critique quality", "criteria control"],
+    "target_failure_modes": ["D4-FM-01"],
+    "context_tags": ["engineering", "optimization"]
+  },
+  {
+    "item_id": "D4-IB-02",
+    "node_id": "D4",
+    "prompt": "Two designs perform similarly, but one result has much higher uncertainty. How should that affect optimization reasoning?",
+    "task_type": "optimization_justification",
+    "answer_key": "Optimization reasoning should account for the uncertainty before claiming superiority, because apparent performance differences may not be as strong as they first appear.",
+    "scorable_traits": ["uncertainty in design", "claim calibration", "evidence use"],
+    "target_failure_modes": ["D4-FM-02"],
+    "context_tags": ["design testing", "uncertainty"]
+  },
+  {
+    "item_id": "D4-IB-03",
+    "node_id": "D4",
+    "prompt": "Explain why reducing mass in a design might help one criterion while harming another.",
+    "task_type": "tradeoff_analysis",
+    "answer_key": "The explanation should identify at least one benefit and one possible cost, showing that optimization involves tradeoffs across criteria rather than single-metric improvement only.",
+    "scorable_traits": ["tradeoff reasoning", "multi-criteria thinking", "design explanation"],
+    "target_failure_modes": ["D4-FM-03"],
+    "context_tags": ["tradeoffs", "engineering design"]
+  }
+]

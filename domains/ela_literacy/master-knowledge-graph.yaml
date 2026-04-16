@@ -1,0 +1,248 @@
+domain: ela_literacy
+version: 0.1
+graph:
+  id: master_knowledge_graph
+  purpose: single authoritative reading and writing knowledge graph from pre-k foundations
+    through grade 12 literacy and advanced secondary analysis
+  no_orphaned_nodes: true
+families:
+- id: O
+  name: oral_language_and_listening
+  nodes:
+  - id: O1
+    name: joint_attention_turn_taking_and_response_readiness
+    depends_on: []
+    implementation_state: seeded
+  - id: O2
+    name: oral_language_comprehension_for_instructions_and_routines
+    depends_on:
+    - O1
+    implementation_state: seeded
+  - id: O3
+    name: oral_recount_explanation_and_sequence_language
+    depends_on:
+    - O2
+    implementation_state: seeded
+- id: P
+  name: print_concepts_and_symbol_control
+  nodes:
+  - id: P1
+    name: book_handling_print_awareness_and_directionality
+    depends_on:
+    - O1
+    implementation_state: seeded
+  - id: P2
+    name: concept_of_word_spacing_and_text_tracking
+    depends_on:
+    - P1
+    - O2
+    implementation_state: seeded
+  - id: P3
+    name: phonological_awareness
+    depends_on:
+    - O2
+    implementation_state: seeded
+  - id: P4
+    name: alphabet_knowledge_and_letter_formation
+    depends_on:
+    - P1
+    - P3
+    implementation_state: seeded
+- id: F
+  name: foundational_decoding_and_encoding
+  nodes:
+  - id: FR1
+    name: phoneme_grapheme_mapping
+    depends_on:
+    - P3
+    - P4
+    implementation_state: seeded
+  - id: FR2
+    name: print_encoding_principle_and_bidirectional_mapping
+    depends_on:
+    - FR1
+    implementation_state: seeded
+  - id: FR3
+    name: simple_pattern_decoding_and_encoding
+    depends_on:
+    - FR2
+    implementation_state: seeded
+  - id: FR4
+    name: word_level_decoding_generalization
+    depends_on:
+    - FR3
+    implementation_state: seeded
+  - id: FR5
+    name: orthographic_consolidation_and_automatic_word_recognition
+    depends_on:
+    - FR4
+    implementation_state: seeded
+  - id: FR6
+    name: connected_text_fluency_and_tracking
+    depends_on:
+    - FR5
+    - P2
+    implementation_state: seeded
+- id: R
+  name: reading_comprehension_and_analysis
+  nodes:
+  - id: RC1
+    name: literal_comprehension_of_shared_text
+    depends_on:
+    - O3
+    - P1
+    implementation_state: seeded
+  - id: RC2
+    name: inferential_and_integrative_comprehension_of_shared_text
+    depends_on:
+    - RC1
+    implementation_state: seeded
+  - id: RC3
+    name: sentence_level_meaning_construction
+    depends_on:
+    - FR4
+    - RC1
+    implementation_state: seeded
+  - id: RC4
+    name: short_passage_integration_and_local_coherence
+    depends_on:
+    - RC3
+    - FR6
+    implementation_state: seeded
+  - id: RC5
+    name: evidence_selection_from_text
+    depends_on:
+    - RC4
+    - O3
+    implementation_state: seeded
+  - id: RC6
+    name: evidence_explanation_and_text_grounded_response
+    depends_on:
+    - RC5
+    implementation_state: seeded
+  - id: R4
+    name: literary_structure_theme_and_character_analysis
+    depends_on:
+    - RC6
+    implementation_state: seeded
+  - id: R5
+    name: informational_structure_author_claim_and_source_use
+    depends_on:
+    - RC6
+    implementation_state: seeded
+  - id: R6
+    name: disciplinary_literacy_rhetorical_analysis_and_cross_text_synthesis
+    depends_on:
+    - R4
+    - R5
+    implementation_state: seeded
+- id: L
+  name: language_conventions_and_vocabulary
+  nodes:
+  - id: L1
+    name: sentence_formation_and_basic_conventions
+    depends_on:
+    - O3
+    - P4
+    implementation_state: seeded
+  - id: L2
+    name: morphology_word_meaning_and_academic_vocabulary
+    depends_on:
+    - FR4
+    - RC3
+    implementation_state: seeded
+  - id: L3
+    name: syntax_revision_and_style_control
+    depends_on:
+    - L1
+    - L2
+    implementation_state: seeded
+- id: W
+  name: writing_and_composition
+  nodes:
+  - id: W1
+    name: drawing_dictation_labeling_and_idea_capture
+    depends_on:
+    - O3
+    - P4
+    implementation_state: seeded
+  - id: WC1
+    name: sentence_planning_and_generation
+    depends_on:
+    - L1
+    - W1
+    implementation_state: seeded
+  - id: WC2
+    name: sentence_transcription_and_execution
+    depends_on:
+    - WC1
+    - FR4
+    implementation_state: seeded
+  - id: WC3
+    name: paragraph_structure_and_coherence
+    depends_on:
+    - WC2
+    implementation_state: seeded
+  - id: WC4
+    name: source_integration_in_structured_response
+    depends_on:
+    - WC3
+    - RC6
+    implementation_state: seeded
+  - id: WC5
+    name: multi_paragraph_development_and_coherence
+    depends_on:
+    - WC4
+    implementation_state: seeded
+  - id: WC6
+    name: genre_controlled_explanation_narrative_and_argument
+    depends_on:
+    - WC5
+    - R4
+    - R5
+    implementation_state: seeded
+  - id: WC7
+    name: research_synthesis
+    depends_on:
+    - WC6
+    - R6
+    implementation_state: seeded
+  - id: WC8
+    name: attribution_and_citation_control
+    depends_on:
+    - WC7
+    - L3
+    implementation_state: seeded
+- id: A
+  name: advanced_secondary_and_ap_adjacent_literacy
+  nodes:
+  - id: AC1
+    name: cross_text_synthesis_and_source_coordination
+    depends_on:
+    - R4
+    - R5
+    implementation_state: seeded
+  - id: AC2
+    name: disciplinary_and_rhetorical_reading
+    depends_on:
+    - AC1
+    implementation_state: seeded
+  - id: AC3
+    name: advanced_rhetorical_analysis_and_argument_synthesis
+    depends_on:
+    - AC2
+    - WC8
+    - L3
+    implementation_state: seeded
+  - id: AC4
+    name: literary_interpretation_and_comparative_analysis
+    depends_on:
+    - R4
+    - WC6
+    - L3
+    implementation_state: seeded
+  - id: AC5
+    name: intertextual_literary_argument
+    depends_on:
+    - AC4
+    implementation_state: seeded

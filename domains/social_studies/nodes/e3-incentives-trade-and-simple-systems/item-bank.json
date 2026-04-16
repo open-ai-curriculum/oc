@@ -1,0 +1,16 @@
+{
+  "node_id": "E3",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "E3-G1-01",
+      "node_id": "E3",
+      "gate": "G1",
+      "prompt": "Explain how an incentive or trade opportunity changes what people in the scenario decide to do.",
+      "context_type": "economic_scenario",
+      "response_mode": "oral_or_written_or_diagrammed",
+      "scoring_rule": "States a plausible effect of the incentive or trade relationship on choices.",
+      "failure_mode_targets": ["E3-FM-01", "E3-FM-02"]
+    }
+  ]
+}

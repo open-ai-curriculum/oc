@@ -1,0 +1,265 @@
+{
+  "node_id": "FR5",
+  "policy_version": "1.0",
+  "version": "0.3",
+  "items": [
+    {
+      "item_id": "FR5-D-001",
+      "family": "direct_execution",
+      "prompt": "Complete a bounded foundational reading task that requires the learner to identify familiar words and patterns with growing automaticity.",
+      "target_node": "FR5",
+      "secondary_dependency_targets": [
+        "FR4"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_response",
+        "written_marking",
+        "pointing_or_tracking"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "FR5-FM-01",
+        "FR5-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "FR5-D-002",
+      "family": "direct_execution",
+      "prompt": "Show orthographic consolidation and automatic word recognition in a fresh but controlled foundational reading task and make the learner reserve effortful decoding for less consolidated items.",
+      "target_node": "FR5",
+      "secondary_dependency_targets": [
+        "FR4"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_response",
+        "written_marking",
+        "pointing_or_tracking"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "FR5-FM-02",
+        "FR5-FM-03"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "FR5-D-003",
+      "family": "direct_execution",
+      "prompt": "Use a slightly less-routine foundational reading task to determine whether the learner can still support the move into connected-text fluency without conflating the two demands.",
+      "target_node": "FR5",
+      "secondary_dependency_targets": [
+        "FR4"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "oral_response",
+        "written_marking",
+        "pointing_or_tracking"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "FR5-FM-03",
+        "FR5-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "FR5-D-004",
+      "family": "direct_execution",
+      "prompt": "Perform orthographic consolidation and automatic word recognition under a changed format within the same boundary and verify the learner can still the learner recognizes known words and patterns with growing automaticity and orthographic consolidation, reducing the need for full effortful decoding on every encounter.",
+      "target_node": "FR5",
+      "secondary_dependency_targets": [
+        "FR4"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "oral_response",
+        "written_marking",
+        "pointing_or_tracking"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "FR5-FM-04",
+        "FR5-FM-01"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "FR5-E-001",
+      "family": "explanation",
+      "prompt": "Explain or annotate how the learner shows that they can identify familiar words and patterns with growing automaticity, and identify which evidence in the response demonstrates the intended meaning.",
+      "target_node": "FR5",
+      "secondary_dependency_targets": [
+        "FR4"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_response",
+        "teacher_annotation",
+        "written_marking"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "FR5-FM-01"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "FR5-E-002",
+      "family": "explanation",
+      "prompt": "Ask for a brief justification, annotation, or teacher-scored explanation showing why the response used for orthographic consolidation and automatic word recognition is valid rather than routine only.",
+      "target_node": "FR5",
+      "secondary_dependency_targets": [
+        "FR4"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_response",
+        "teacher_annotation",
+        "written_marking"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "FR5-FM-02"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "FR5-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A learner attempt shows slow accurate decoding without consolidation. Diagnose the earliest breakdown and state what evidence separates it from secure orthographic consolidation and automatic word recognition.",
+      "target_node": "FR5",
+      "secondary_dependency_targets": [
+        "FR4"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "FR5-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "FR5-C-002",
+      "family": "error_diagnosis",
+      "prompt": "Review a mismatched response that reflects mixed-list recognition collapse. Identify the dominant failure mode and explain why this is not just a minor performance slip.",
+      "target_node": "FR5",
+      "secondary_dependency_targets": [
+        "FR4"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "FR5-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "FR5-T-001",
+      "family": "transfer",
+      "prompt": "Use orthographic consolidation and automatic word recognition in a changed word pattern, text surface, or encoding demand and judge whether the learner preserves the same underlying capability.",
+      "target_node": "FR5",
+      "secondary_dependency_targets": [
+        "FR4"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "oral_response",
+        "written_marking",
+        "pointing_or_tracking"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "FR5-FM-03"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "FR5-T-002",
+      "family": "transfer",
+      "prompt": "Shift the learner into a changed word pattern, text surface, or encoding demand and require a response that still demonstrates orthographic consolidation and automatic word recognition without relying on the original routine.",
+      "target_node": "FR5",
+      "secondary_dependency_targets": [
+        "FR4"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "oral_response",
+        "written_marking",
+        "pointing_or_tracking"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "FR5-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "FR5-R-001",
+      "family": "retention",
+      "prompt": "After approximately 21 days, run a fresh foundational reading task to confirm the learner still demonstrates orthographic consolidation and automatic word recognition without re-teaching inside the check.",
+      "target_node": "FR5",
+      "secondary_dependency_targets": [
+        "FR4"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "oral_response",
+        "written_marking",
+        "pointing_or_tracking"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "FR5-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability"
+    },
+    {
+      "item_id": "FR5-P-001",
+      "family": "prerequisite_probe",
+      "prompt": "Before assigning orthographic consolidation and automatic word recognition, probe whether word level decoding generalization is secure enough to support the current task.",
+      "target_node": "FR5",
+      "secondary_dependency_targets": [
+        "FR4"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_response",
+        "teacher_annotation",
+        "written_marking"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "FR5-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_disambiguation",
+      "dependency_target": "FR4",
+      "suspected_knowledge_gap_if_incorrect": "word level decoding generalization"
+    }
+  ]
+}

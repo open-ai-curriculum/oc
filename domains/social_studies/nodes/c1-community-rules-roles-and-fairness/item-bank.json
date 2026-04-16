@@ -1,0 +1,16 @@
+{
+  "node_id": "C1",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "C1-G1-01",
+      "node_id": "C1",
+      "gate": "G1",
+      "prompt": "Identify the rule or role in the community situation and explain what would be fair.",
+      "context_type": "community_scenario",
+      "response_mode": "oral_or_drawn_or_written",
+      "scoring_rule": "Identifies a plausible rule or role and gives a connected fairness explanation.",
+      "failure_mode_targets": ["C1-FM-01", "C1-FM-03"]
+    }
+  ]
+}

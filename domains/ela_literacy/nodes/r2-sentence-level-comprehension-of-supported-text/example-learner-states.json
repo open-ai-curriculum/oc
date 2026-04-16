@@ -1,0 +1,43 @@
+[
+  {
+    "learner_id": "ela-sample-r2-blocked",
+    "node_id": "R2",
+    "status": "blocked",
+    "dependency_status": {
+      "FR4": "provisional",
+      "R1": "secure"
+    },
+    "direct_accuracy": 0.48,
+    "explanation_status": "not_met",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["R2-FM-01", "R2-FM-04"],
+    "recommended_interventions": [
+      "read-stop-think sentence routine",
+      "sentence meaning check with reduced decoding load"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Can call many words but cannot explain sentence meaning."
+  },
+  {
+    "learner_id": "ela-sample-r2-provisional",
+    "node_id": "R2",
+    "status": "provisional",
+    "dependency_status": {
+      "FR4": "secure",
+      "R1": "secure"
+    },
+    "direct_accuracy": 0.88,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [
+      "short mixed sentence-comprehension review"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Maintains meaning across changed simple sentence frames."
+  }
+]

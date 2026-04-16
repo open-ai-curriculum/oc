@@ -1,0 +1,32 @@
+[
+  {
+    "item_id": "A1-IB-01",
+    "node_id": "A1",
+    "prompt": "Why is a wildfire-smoke-climate-health explanation incomplete if it uses only atmospheric ideas and ignores biological and physical-system effects?",
+    "task_type": "integrated_phenomenon_explanation",
+    "answer_key": "A bounded interdisciplinary explanation should coordinate atmospheric, physical, and biological reasoning when the phenomenon spans all three.",
+    "scorable_traits": ["domain coordination", "phenomenon modeling", "bounded integration"],
+    "target_failure_modes": ["A1-FM-01"],
+    "context_tags": ["integrated phenomena", "systems"]
+  },
+  {
+    "item_id": "A1-IB-02",
+    "node_id": "A1",
+    "prompt": "What makes an interdisciplinary model disciplined rather than just broad?",
+    "task_type": "domain_model_coordination",
+    "answer_key": "A disciplined interdisciplinary model specifies what each domain contributes, where each model stops, and how the evidence streams connect.",
+    "scorable_traits": ["model roles", "integration quality", "limit awareness"],
+    "target_failure_modes": ["A1-FM-02"],
+    "context_tags": ["models", "interdisciplinary"]
+  },
+  {
+    "item_id": "A1-IB-03",
+    "node_id": "A1",
+    "prompt": "Critique an explanation that mentions biology, chemistry, and climate but supports only one strand with evidence.",
+    "task_type": "interdisciplinary_critique",
+    "answer_key": "The critique should identify the unsupported strands and explain that interdisciplinary scope requires coordinated evidence, not just domain labels.",
+    "scorable_traits": ["evidence coordination", "critique quality", "pseudo-integration detection"],
+    "target_failure_modes": ["A1-FM-03"],
+    "context_tags": ["critique", "evidence streams"]
+  }
+]

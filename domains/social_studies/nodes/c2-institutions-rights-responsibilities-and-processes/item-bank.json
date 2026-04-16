@@ -1,0 +1,16 @@
+{
+  "node_id": "C2",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "C2-G1-01",
+      "node_id": "C2",
+      "gate": "G1",
+      "prompt": "Identify the institution in the scenario and explain one right or responsibility connected to it.",
+      "context_type": "civic_scenario",
+      "response_mode": "oral_or_written_or_sorting",
+      "scoring_rule": "Identifies a plausible institution and gives a connected right or responsibility.",
+      "failure_mode_targets": ["C2-FM-01", "C2-FM-02"]
+    }
+  ]
+}

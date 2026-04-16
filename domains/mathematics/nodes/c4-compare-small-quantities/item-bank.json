@@ -1,72 +1,258 @@
 {
   "node_id": "C4",
-  "version": "0.1",
+  "policy_version": "1.0",
+  "version": "0.3",
   "items": [
     {
-      "item_id": "C4-A-001",
-      "family": "direct_quantity_comparison",
-      "prompt": "Which set has more counters?",
+      "item_id": "C4-D-001",
+      "family": "direct_execution",
+      "prompt": "Count the collection accurately and state how you know the final count represents the whole set.",
       "target_node": "C4",
-      "secondary_dependency_targets": ["C3"],
+      "secondary_dependency_targets": [
+        "C3"
+      ],
       "difficulty_band": "core",
-      "response_modes_allowed": ["selected_response", "oral_explanation"],
-      "dominant_failure_modes_if_incorrect": ["C4-FM-01", "C4-FM-02"],
-      "requires_human_scoring": false
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "C4-FM-01",
+        "C4-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
     },
     {
-      "item_id": "C4-A-002",
-      "family": "direct_quantity_comparison",
-      "prompt": "Do the two sets show the same number, or does one have more?",
+      "item_id": "C4-D-002",
+      "family": "direct_execution",
+      "prompt": "Compose and decompose the number 14 in two different ways.",
       "target_node": "C4",
-      "secondary_dependency_targets": ["C3"],
+      "secondary_dependency_targets": [
+        "C3"
+      ],
       "difficulty_band": "core",
-      "response_modes_allowed": ["selected_response", "oral_explanation"],
-      "dominant_failure_modes_if_incorrect": ["C4-FM-02", "C4-FM-03"],
-      "requires_human_scoring": false
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "C4-FM-02",
+        "C4-FM-03"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
     },
     {
-      "item_id": "C4-B-001",
+      "item_id": "C4-D-003",
+      "family": "direct_execution",
+      "prompt": "Compare 348 and 384 and justify the comparison by place value.",
+      "target_node": "C4",
+      "secondary_dependency_targets": [
+        "C3"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "C4-FM-03",
+        "C4-FM-04"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "C4-D-004",
+      "family": "direct_execution",
+      "prompt": "Count the collection accurately and state how you know the final count represents the whole set.",
+      "target_node": "C4",
+      "secondary_dependency_targets": [
+        "C3"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "C4-FM-04",
+        "C4-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "C4-E-001",
       "family": "explanation",
-      "prompt": "Explain how you know which set has more.",
+      "prompt": "Explain why the last counting word tells how many objects are in the set.",
       "target_node": "C4",
-      "secondary_dependency_targets": ["C3"],
+      "secondary_dependency_targets": [
+        "C3"
+      ],
       "difficulty_band": "core",
-      "response_modes_allowed": ["oral_explanation", "written_explanation"],
-      "dominant_failure_modes_if_incorrect": ["C4-FM-01", "C4-FM-04"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "C4-FM-02"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "C4-E-002",
+      "family": "explanation",
+      "prompt": "Explain how the value of a digit depends on its place.",
+      "target_node": "C4",
+      "secondary_dependency_targets": [
+        "C3"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "C4-FM-03"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
     },
     {
       "item_id": "C4-C-001",
       "family": "error_diagnosis",
-      "prompt": "A student says the spread-out set has more because it looks bigger, even though both sets have 5. What should be checked?",
+      "prompt": "A student counts objects twice and reports the larger total. Diagnose the one-to-one correspondence error. Focus on comparison without stable count basis.",
       "target_node": "C4",
-      "secondary_dependency_targets": ["C3"],
-      "difficulty_band": "core",
-      "response_modes_allowed": ["multiple_choice", "oral_explanation", "written_explanation"],
-      "dominant_failure_modes_if_incorrect": ["C4-FM-03"],
-      "requires_human_scoring": true
+      "secondary_dependency_targets": [
+        "C3"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "C4-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
     },
     {
-      "item_id": "C4-D-001",
-      "family": "transfer",
-      "prompt": "One child has 4 crayons and another has 6. Who has less, and how do you know?",
+      "item_id": "C4-C-002",
+      "family": "error_diagnosis",
+      "prompt": "A student says 402 is greater than 39 because 2 is greater than 9. Identify the place-value mistake. Focus on more less reversal.",
       "target_node": "C4",
-      "secondary_dependency_targets": ["C3"],
+      "secondary_dependency_targets": [
+        "C3"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "C4-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "C4-T-001",
+      "family": "transfer",
+      "prompt": "Use the same number idea with objects, numerals, and spoken language in a less-familiar representation.",
+      "target_node": "C4",
+      "secondary_dependency_targets": [
+        "C3"
+      ],
       "difficulty_band": "transfer",
-      "response_modes_allowed": ["oral_explanation", "written_explanation"],
-      "dominant_failure_modes_if_incorrect": ["C4-FM-01", "C4-FM-02", "C4-FM-04"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "C4-FM-03"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "C4-T-002",
+      "family": "transfer",
+      "prompt": "Show the same quantity with a drawing, a numeral, and a decomposition statement.",
+      "target_node": "C4",
+      "secondary_dependency_targets": [
+        "C3"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "C4-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
     },
     {
       "item_id": "C4-R-001",
       "family": "retention",
-      "prompt": "Look at two sets of dots and tell which has more, less, or the same.",
+      "prompt": "After a delay, compare or compose a new whole number and explain the reasoning used.",
       "target_node": "C4",
-      "secondary_dependency_targets": ["C3"],
+      "secondary_dependency_targets": [
+        "C3"
+      ],
       "difficulty_band": "retention",
-      "response_modes_allowed": ["selected_response", "oral_explanation"],
-      "dominant_failure_modes_if_incorrect": ["C4-FM-01", "C4-FM-02"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "C4-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability"
+    },
+    {
+      "item_id": "C4-P-001",
+      "family": "prerequisite_probe",
+      "prompt": "Probe cardinality before closing compare small quantities, and state whether the learner is blocked by an upstream knowledge gap.",
+      "target_node": "C4",
+      "secondary_dependency_targets": [
+        "C3"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "C4-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "C3",
+      "suspected_knowledge_gap_if_incorrect": "cardinality",
+      "scoring_focus": "dependency_disambiguation"
     }
   ]
 }

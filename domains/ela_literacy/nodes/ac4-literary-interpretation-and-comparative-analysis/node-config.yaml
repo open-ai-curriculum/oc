@@ -1,0 +1,44 @@
+id: AC4
+name: literary_interpretation_and_comparative_analysis
+domain: ela_literacy
+support_tier: Core release
+maturity_state: Drafted
+supported_profiles:
+- advanced-literary-analysis-node-package
+evidence_class: Synthetic
+dependencies:
+- R4
+- WC6
+- L3
+mastery:
+  direct_accuracy_threshold: 0.85
+  explanation_required: true
+  transfer_required: true
+  retention_check_days: 21
+statuses:
+- blocked
+- emerging
+- provisional
+- secure
+- unstable
+verification_gates:
+- id: G1
+  type: direct_performance
+  pass_rule: develops sustained literary interpretation and comparative analysis in
+    at least 5 of 6 supported opportunities
+- id: G2
+  type: meaning
+  pass_rule: interpretation remains coherent, comparative, and text-grounded in at
+    least 4 of 5 prompts
+- id: G3
+  type: transfer
+  pass_rule: succeeds across at least one changed literary text set or comparative
+    task
+- id: G4
+  type: retention
+  pass_rule: stable delayed recheck after approximately 21 days
+failure_modes:
+- AC4-FM-01
+- AC4-FM-02
+- AC4-FM-03
+- AC4-FM-04

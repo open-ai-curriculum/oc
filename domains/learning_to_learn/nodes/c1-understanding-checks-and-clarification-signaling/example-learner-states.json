@@ -1,0 +1,37 @@
+[
+  {
+    "learner_id": "example-c1-blocked",
+    "node_id": "C1",
+    "status": "blocked",
+    "dependency_status": {
+      "A1": "met"
+    },
+    "direct_accuracy": 0.38,
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["C1-FM-01"],
+    "recommended_interventions": [
+      "modeled confusion signals such as repeat please or show me",
+      "pause for explicit understanding check before error escalation"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Continues guessing after misunderstanding instead of signaling confusion."
+  },
+  {
+    "learner_id": "example-c1-secure",
+    "node_id": "C1",
+    "status": "secure",
+    "dependency_status": {
+      "A1": "met"
+    },
+    "direct_accuracy": 0.88,
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Requests repetition or an example when needed and uses it to restart the task."
+  }
+]

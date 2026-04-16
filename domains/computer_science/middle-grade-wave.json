@@ -1,0 +1,303 @@
+[
+  {
+    "id": "P3",
+    "slug": "p3-variables-conditionals-and-stateful-program-behavior",
+    "title": "P3 Variables, Conditionals, and Stateful Program Behavior",
+    "short": "computer science middle-grade node for variables, conditionals, and stateful program behavior",
+    "domainArea": "stateful programming reasoning",
+    "supportedProfile": "computer-science-middle-grade-node-package",
+    "retentionDays": 28,
+    "deps": ["P2", "R2"],
+    "purpose": "The learner explains how stored values, branching logic, and changing state affect program behavior without treating variables as labels only or conditionals as random forks.",
+    "exit": [
+      "uses variables and conditionals meaningfully in a bounded program",
+      "explains how a change in stored state changes later program behavior",
+      "predicts which branch a conditional will follow in a bounded case",
+      "succeeds across more than one stateful programming context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "describe what a variable stands for and how it changes",
+      "trace a simple conditional outcome from the stated condition",
+      "connect program state to later outputs or actions",
+      "avoid treating stored values and displayed labels as interchangeable"
+    ],
+    "failure": [
+      ["01", "variable-as-name only", "learner treats a variable as a label only and not as a changing stored value."],
+      ["02", "conditional-branch confusion", "learner cannot determine which path a bounded conditional should follow."],
+      ["03", "state-change opacity", "learner does not connect updated state to later behavior in the program."],
+      ["04", "trace-fragility", "learner can reason through one familiar stateful example only and cannot transfer to another bounded case."]
+    ],
+    "interventions": [
+      "state-tracing routines that record variable values step by step",
+      "if-then branch walkthroughs with explicit true and false pathway comparisons",
+      "before-and-after state tables connecting updates to later outputs",
+      "paired transfer tasks using the same state-and-branch structure in a second program context"
+    ],
+    "items": [
+      ["Why is a variable more than just a word in a program?", "variable_state_reasoning", "A variable stores a value that can be used and changed, so it affects how the program behaves over time.", ["state reasoning", "program meaning", "precision"], ["01"], ["variables", "state"]],
+      ["How can you tell which branch an if statement will follow?", "conditional_reasoning", "You compare the current program state or value with the condition and determine whether the condition is true or false.", ["branch logic", "trace reasoning", "transfer"], ["02"], ["conditionals", "logic"]],
+      ["Why should you track a value after it changes?", "state_change_reasoning", "Because later parts of the program may use the updated value, which can change outputs, choices, or actions.", ["state tracking", "causal reasoning", "discipline"], ["03", "04"], ["state", "program behavior"]]
+    ],
+    "noteSecure": "Explains variables, conditionals, and state changes with stable trace and branch reasoning.",
+    "noteEmerging": "Can copy stateful code patterns but still loses track of variable meaning and branch outcomes."
+  },
+  {
+    "id": "A2",
+    "slug": "a2-algorithm-design-efficiency-awareness-and-decomposition-discipline",
+    "title": "A2 Algorithm Design, Efficiency Awareness, and Decomposition Discipline",
+    "short": "computer science middle-grade node for algorithm design, efficiency awareness, and decomposition discipline",
+    "domainArea": "algorithm design reasoning",
+    "supportedProfile": "computer-science-middle-grade-node-package",
+    "retentionDays": 28,
+    "deps": ["A1", "P2"],
+    "purpose": "The learner designs algorithms with explicit decomposition and begins comparing solution quality without treating all correct-looking procedures as equally effective.",
+    "exit": [
+      "designs a bounded algorithm with explicit ordered subproblems",
+      "compares two bounded solutions using correctness and simple efficiency awareness",
+      "explains why a decomposition helps manage complexity",
+      "succeeds across more than one algorithmic problem context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "break a problem into stable subproblems before writing the full procedure",
+      "compare two procedures using at least one concrete quality criterion",
+      "distinguish correctness from efficiency or clarity in a bounded case",
+      "avoid treating a longer or shorter procedure as automatically better"
+    ],
+    "failure": [
+      ["01", "correctness-efficiency collapse", "learner confuses a correct algorithm with the most effective one without comparison criteria."],
+      ["02", "decomposition-drift", "learner breaks a problem into parts that do not fit together coherently."],
+      ["03", "criterion-free comparison", "learner judges one solution as better without naming a bounded reason."],
+      ["04", "near-transfer breakdown", "learner can design for one exact case only and cannot adapt the structure to a nearby problem."]
+    ],
+    "interventions": [
+      "algorithm comparison tasks with explicit correctness, step-count, and clarity criteria",
+      "subproblem-mapping routines that require each part to connect to the whole solution",
+      "why-this-solution-is-better prompts tied to one named criterion",
+      "near-transfer redesign tasks that preserve structure while changing a bounded task detail"
+    ],
+    "items": [
+      ["Why can two correct algorithms still differ in quality?", "algorithm_quality_reasoning", "They can differ in efficiency, clarity, or how well they manage the task, even if both eventually work.", ["quality comparison", "algorithm design", "precision"], ["01"], ["algorithms", "efficiency"]],
+      ["What makes a decomposition useful rather than random?", "decomposition_discipline_reasoning", "A useful decomposition creates subproblems that fit together coherently and support the larger solution.", ["decomposition", "structure", "transfer"], ["02"], ["problem solving", "subproblems"]],
+      ["Why should you name a criterion when comparing two solutions?", "comparison_criterion_reasoning", "A criterion makes the comparison disciplined by showing what feature of the algorithm you are actually judging.", ["comparison discipline", "reasoning quality", "clarity"], ["03", "04"], ["algorithms", "comparison"]]
+    ],
+    "noteSecure": "Designs and compares bounded algorithms with explicit decomposition and basic efficiency awareness.",
+    "noteEmerging": "Can produce solutions but still compares them loosely and decomposes problems inconsistently."
+  },
+  {
+    "id": "C2",
+    "slug": "c2-debugging-strategy-trace-reasoning-and-test-cases",
+    "title": "C2 Debugging Strategy, Trace Reasoning, and Test Cases",
+    "short": "computer science middle-grade node for debugging strategy, trace reasoning, and test cases",
+    "domainArea": "debugging and test reasoning",
+    "supportedProfile": "computer-science-middle-grade-node-package",
+    "retentionDays": 28,
+    "deps": ["C1", "P3"],
+    "purpose": "The learner traces program behavior, isolates errors, and uses simple test cases intentionally without treating debugging as repeated guessing.",
+    "exit": [
+      "traces a bounded program to identify likely error locations",
+      "uses a simple test case intentionally to check program behavior",
+      "revises code or logic with a stated debugging reason",
+      "succeeds across more than one bounded debugging context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "trace values and control flow through a simple program",
+      "choose or explain a test case that checks a specific behavior",
+      "separate bug location from bug repair in a bounded case",
+      "avoid random code changes without a stated hypothesis"
+    ],
+    "failure": [
+      ["01", "guess-and-change debugging", "learner changes code repeatedly without tracing or a bounded hypothesis."],
+      ["02", "test-case-without-purpose", "learner uses examples without explaining what behavior they are checking."],
+      ["03", "trace-breakdown", "learner loses track of values or control flow while following the program."],
+      ["04", "fix-without-verification", "learner revises code but does not check whether the target bug was actually resolved."]
+    ],
+    "interventions": [
+      "trace tables that record values and branch choices line by line",
+      "test-purpose prompts that require naming what a chosen input is supposed to check",
+      "bug-location-before-fix routines that separate diagnosis from repair",
+      "after-the-fix checks comparing expected and actual behavior explicitly"
+    ],
+    "items": [
+      ["Why is changing code randomly a weak debugging strategy?", "debugging_strategy_reasoning", "It removes evidence about the cause of the bug and makes it hard to tell which change mattered.", ["debugging discipline", "cause-effect", "quality"], ["01"], ["debugging", "revision"]],
+      ["What makes a test case useful?", "test_case_reasoning", "A useful test case is chosen to check a specific behavior or boundary in the program, not just to try any input.", ["testing", "purpose awareness", "transfer"], ["02"], ["tests", "program behavior"]],
+      ["Why should you verify a fix after changing the code?", "verification_reasoning", "Because the change may not resolve the original problem or may introduce a new one, so the result must be checked against the target behavior.", ["verification", "trace reasoning", "discipline"], ["03", "04"], ["debugging", "testing"]]
+    ],
+    "noteSecure": "Uses tracing and test cases intentionally to debug bounded programs with stated reasons for revisions.",
+    "noteEmerging": "Can notice bugs and make changes but still debugs by guesswork and weak verification."
+  },
+  {
+    "id": "R3",
+    "slug": "r3-data-transformation-tables-and-computational-models",
+    "title": "R3 Data Transformation, Tables, and Computational Models",
+    "short": "computer science middle-grade node for data transformation, tables, and computational models",
+    "domainArea": "computational data reasoning",
+    "supportedProfile": "computer-science-middle-grade-node-package",
+    "retentionDays": 28,
+    "deps": ["R2", "A2"],
+    "purpose": "The learner transforms and analyzes data using structured tables, rules, or beginner computational models without treating transformed output as meaningful unless the rule and representation are understood.",
+    "exit": [
+      "applies a bounded transformation rule to organized data",
+      "uses a table or simple model to explain how data changed",
+      "interprets the resulting representation with reference to the transformation process",
+      "succeeds across more than one bounded data-transformation context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "track what rule or operation was applied to the data",
+      "explain how a transformed table differs from the original data organization",
+      "connect the output representation back to the transformation process",
+      "avoid treating automated output as self-explanatory"
+    ],
+    "failure": [
+      ["01", "output-without-rule meaning", "learner reads transformed output without understanding the rule that produced it."],
+      ["02", "table-column drift", "learner loses track of what each column or transformed field represents."],
+      ["03", "model-as-fact", "learner treats a simple computational model as raw reality instead of a rule-based representation."],
+      ["04", "transformation-transfer fragility", "learner understands one familiar transformation only and cannot adapt to a nearby case."]
+    ],
+    "interventions": [
+      "before-and-after table comparisons that label the transformation rule explicitly",
+      "column-meaning checks requiring each data field to be interpreted in context",
+      "model-versus-original-data routines that distinguish representation from source information",
+      "near-transfer transformation tasks that preserve the same rule in a second bounded dataset"
+    ],
+    "items": [
+      ["Why is a transformed data table not self-explanatory?", "data_transformation_reasoning", "Because you need to know what rule or process created the new values before the output can be interpreted correctly.", ["data reasoning", "process awareness", "precision"], ["01"], ["data", "transformations"]],
+      ["How can a column in a table become confusing after a transformation?", "table_meaning_reasoning", "A column can become confusing if its meaning changes and the learner does not track what the new values represent.", ["representation tracking", "table reasoning", "transfer"], ["02"], ["tables", "data"]],
+      ["Why should a computational model be treated as a representation?", "model_representation_reasoning", "Because it applies a bounded rule or structure to data and should be interpreted with its assumptions and limits in mind.", ["model awareness", "claim boundary", "discipline"], ["03", "04"], ["models", "data"]]
+    ],
+    "noteSecure": "Explains data transformations and simple computational models with stable rule and representation tracking.",
+    "noteEmerging": "Can produce transformed outputs but still overtrusts tables or models without understanding how they were formed."
+  },
+  {
+    "id": "N2",
+    "slug": "n2-network-pathways-protocol-ideas-and-system-dependence",
+    "title": "N2 Network Pathways, Protocol Ideas, and System Dependence",
+    "short": "computer science middle-grade node for network pathways, protocol ideas, and system dependence",
+    "domainArea": "network pathway reasoning",
+    "supportedProfile": "computer-science-middle-grade-node-package",
+    "retentionDays": 28,
+    "deps": ["N1", "R2"],
+    "purpose": "The learner explains how information moves through networks and why shared rules matter without reducing networking to a vague idea that devices simply \"connect somehow.\"",
+    "exit": [
+      "describes a bounded pathway for information movement through a networked system",
+      "explains why shared communication rules or protocol ideas matter",
+      "recognizes that networked tasks depend on multiple system parts and agreed behaviors",
+      "succeeds across more than one bounded networking context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "identify at least one route or pathway through which information moves",
+      "explain why a shared rule is needed for communication to work",
+      "distinguish a network path from one local device action",
+      "avoid treating communication as if information appears instantly without system structure"
+    ],
+    "failure": [
+      ["01", "network-as-magic belief", "learner treats network communication as unexplained appearance rather than movement through system parts."],
+      ["02", "protocol-purpose weakness", "learner cannot explain why shared communication rules matter."],
+      ["03", "pathway-fragmentation", "learner knows pieces of a networked task but not how the parts relate."],
+      ["04", "context-bound networking", "learner understands one familiar example only and cannot transfer to another bounded connected-system case."]
+    ],
+    "interventions": [
+      "send-and-receive pathway diagrams that name system parts and movement steps",
+      "shared-rule comparison tasks showing what happens when system parts do and do not follow the same rule",
+      "local-versus-networked scenario sorts with explicit reasoning prompts",
+      "paired transfer practice across two simple communication-system examples"
+    ],
+    "items": [
+      ["Why is it not enough to say devices are just connected?", "network_pathway_reasoning", "Because a strong explanation shows how information moves through system parts and not just that a connection exists.", ["systems reasoning", "network pathway", "precision"], ["01", "03"], ["networks", "communication"]],
+      ["What is the purpose of a shared communication rule?", "protocol_reasoning", "A shared rule helps system parts send, receive, and interpret information in a compatible way.", ["protocol awareness", "cause-effect", "transfer"], ["02"], ["protocols", "networks"]],
+      ["How is a networked task different from a local task?", "network_dependence_reasoning", "A networked task depends on multiple connected parts and agreed behaviors, not just one device acting alone.", ["system dependence", "distinction making", "discipline"], ["04"], ["systems", "networking"]]
+    ],
+    "noteSecure": "Explains network pathways and shared communication rules with stable system-dependence reasoning.",
+    "noteEmerging": "Knows devices connect but still treats network communication as opaque or underspecified."
+  },
+  {
+    "id": "N3",
+    "slug": "n3-security-risk-access-control-and-privacy-foundations",
+    "title": "N3 Security Risk, Access Control, and Privacy Foundations",
+    "short": "computer science middle-grade node for security risk, access control, and privacy foundations",
+    "domainArea": "security and privacy reasoning",
+    "supportedProfile": "computer-science-middle-grade-node-package",
+    "retentionDays": 28,
+    "deps": ["N2", "I2"],
+    "purpose": "The learner reasons about basic security risks, privacy, and protective computing practices without reducing security to rule recitation only.",
+    "exit": [
+      "identifies a bounded security or privacy risk in a simple digital scenario",
+      "explains how an access-control or protective practice addresses that risk",
+      "distinguishes sharing, access, and privacy decisions in bounded cases",
+      "succeeds across more than one bounded security or privacy context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "identify who should and should not have access in a simple scenario",
+      "connect a protective practice to the risk it is meant to reduce",
+      "use privacy reasoning that goes beyond rule repetition alone",
+      "avoid assuming that being online automatically means information should be public"
+    ],
+    "failure": [
+      ["01", "security-rule parroting", "learner repeats a rule without explaining what risk it addresses."],
+      ["02", "access-boundary confusion", "learner cannot distinguish authorized from unauthorized access in a bounded case."],
+      ["03", "privacy-public collapse", "learner treats shared digital spaces as if all information should be openly accessible."],
+      ["04", "risk-practice disconnect", "learner names a protective action but cannot connect it to a specific risk reduction." ]
+    ],
+    "interventions": [
+      "risk-and-protection matching tasks that pair threats with bounded protective practices",
+      "authorized-versus-unauthorized access scenario sorts with explicit reasoning",
+      "privacy-boundary prompts that compare public, shared, and private cases",
+      "why-this-protection helps explanations tied to one concrete digital risk"
+    ],
+    "items": [
+      ["Why is a security rule weak if you cannot explain what risk it addresses?", "security_risk_reasoning", "Because strong security reasoning connects the rule or practice to the specific kind of problem it is meant to reduce.", ["risk reasoning", "security awareness", "precision"], ["01", "04"], ["security", "risk"]],
+      ["How can access control help protect information?", "access_control_reasoning", "It helps by limiting who can reach or change information so unauthorized use becomes harder.", ["access reasoning", "cause-effect", "transfer"], ["02"], ["privacy", "access"]],
+      ["Why is shared information not always public information?", "privacy_boundary_reasoning", "Because some information is meant for a bounded group and should not be treated as open to everyone.", ["privacy reasoning", "boundary awareness", "discipline"], ["03"], ["privacy", "sharing"]]
+    ],
+    "noteSecure": "Explains simple security and privacy practices through explicit risk and access-control reasoning.",
+    "noteEmerging": "Knows some safety rules but still reasons weakly about risk, access, and privacy boundaries."
+  },
+  {
+    "id": "I3",
+    "slug": "i3-computing-impacts-bias-and-human-centered-evaluation",
+    "title": "I3 Computing Impacts, Bias, and Human-Centered Evaluation",
+    "short": "computer science middle-grade node for computing impacts, bias, and human-centered evaluation",
+    "domainArea": "computing impacts reasoning",
+    "supportedProfile": "computer-science-middle-grade-node-package",
+    "retentionDays": 28,
+    "deps": ["I2", "R3"],
+    "purpose": "The learner critiques computing systems in terms of fairness, impact, and human use contexts without treating technology as automatically neutral or automatically harmful.",
+    "exit": [
+      "identifies a bounded impact of a computing system on people or groups",
+      "recognizes that data, design, or context choices can affect fairness",
+      "uses a simple human-centered criterion to evaluate a computing decision or tool",
+      "succeeds across more than one bounded computing-impact context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "describe at least one way a computing system can affect different people differently",
+      "connect a design or data choice to a potential fairness issue",
+      "evaluate a tool or decision using a named human-centered criterion",
+      "avoid reducing computing impacts to praise or blame without bounded analysis"
+    ],
+    "failure": [
+      ["01", "technology-neutrality assumption", "learner assumes computing systems have no built-in impact from data or design choices."],
+      ["02", "fairness-without-cause", "learner names fairness as a concern but cannot connect it to a system feature or data choice."],
+      ["03", "one-sided impact reasoning", "learner evaluates a system only as good or bad without bounded tradeoff analysis."],
+      ["04", "human-context omission", "learner discusses a tool without considering who uses it and under what conditions."]
+    ],
+    "interventions": [
+      "people-and-system comparison tasks that identify who is helped or harmed in bounded cases",
+      "data-choice and design-choice prompts tied to fairness outcomes",
+      "tradeoff evaluation routines that require one benefit and one risk to be named",
+      "human-centered design checks that ask who the user is and what conditions matter"
+    ],
+    "items": [
+      ["Why can a computing system affect people differently?", "impact_reasoning", "Because design choices, data, and usage contexts can create different outcomes for different users or groups.", ["impact awareness", "human-centered reasoning", "precision"], ["01", "04"], ["computing impacts", "users"]],
+      ["How can a data choice create a fairness issue?", "bias_reasoning", "A data choice can create fairness issues if it leaves out important people, reflects bias, or leads the system to treat groups unevenly.", ["fairness reasoning", "data awareness", "transfer"], ["02"], ["bias", "data"]],
+      ["Why is calling a system simply good or bad not enough?", "tradeoff_reasoning", "Because strong evaluation should consider bounded benefits, risks, and who is affected rather than giving a one-word judgment.", ["tradeoff reasoning", "evaluation quality", "discipline"], ["03"], ["ethics", "evaluation"]]
+    ],
+    "noteSecure": "Evaluates computing impacts with explicit fairness, user-context, and tradeoff reasoning.",
+    "noteEmerging": "Can discuss digital impacts but still treats fairness and harm in broad unsupported terms."
+  }
+]

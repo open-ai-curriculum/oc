@@ -1,0 +1,38 @@
+{
+  "node_id": "Q1",
+  "examples": [
+    {
+      "learner_id": "sample-q1-blocked-01",
+      "node_id": "Q1",
+      "status": "blocked",
+      "dependency_status": {},
+      "direct_accuracy": 0.5,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["Q1-FM-02", "Q1-FM-04"],
+      "recommended_interventions": [
+        "separate what we can see from what we think in a simple T-chart",
+        "reduce language load and increase response-mode options"
+      ],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Needs support separating observation from guess and may be constrained by language load."
+    },
+    {
+      "learner_id": "sample-q1-secure-01",
+      "node_id": "Q1",
+      "status": "secure",
+      "dependency_status": {},
+      "direct_accuracy": 0.93,
+      "explanation_status": "met",
+      "transfer_status": "met",
+      "retention_status": "met",
+      "dominant_failure_modes": [],
+      "recommended_interventions": [],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Observes, describes, and asks connected questions across multiple source types."
+    }
+  ]
+}

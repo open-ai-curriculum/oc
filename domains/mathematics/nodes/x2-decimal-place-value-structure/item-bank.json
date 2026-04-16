@@ -1,29 +1,294 @@
 {
   "node_id": "X2",
+  "policy_version": "1.0",
+  "version": "0.3",
   "items": [
     {
-      "item_id": "x2-a1",
-      "item_family": "direct_execution",
-      "prompt": "Representative direct task for decimal place-value structure.",
-      "expected_evidence": [
-        "Learner uses the intended structure, not only an answer-getting shortcut."
+      "item_id": "X2-D-001",
+      "family": "direct_execution",
+      "prompt": "Write `0.47` in expanded form and identify the value of each digit.",
+      "target_node": "X2",
+      "secondary_dependency_targets": [
+        "X1",
+        "V2"
       ],
-      "dominant_failure_mode_targets": [
-        "whole_number_place_transfer_error"
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
       ],
-      "context": "place-value charts"
-    },
-    {
-      "item_id": "x2-b1",
-      "item_family": "explanation",
-      "prompt": "Explain why the chosen structure fits the situation.",
-      "expected_evidence": [
-        "Learner names the structural relationship correctly."
-      ],
-      "dominant_failure_mode_targets": [
+      "dominant_failure_modes_if_incorrect": [
+        "whole_number_place_transfer_error",
         "tenths_hundredths_blur"
       ],
-      "context": "expanded forms"
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "X2-D-002",
+      "family": "direct_execution",
+      "prompt": "Compare `0.6` and `0.57` and justify the comparison with place-value language.",
+      "target_node": "X2",
+      "secondary_dependency_targets": [
+        "X1",
+        "V2"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "tenths_hundredths_blur",
+        "expanded_form_instability"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "X2-D-003",
+      "family": "direct_execution",
+      "prompt": "Plot `0.35` on a number line between `0.3` and `0.4`.",
+      "target_node": "X2",
+      "secondary_dependency_targets": [
+        "X1",
+        "V2"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "expanded_form_instability",
+        "cross_point_unit_break"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "X2-D-004",
+      "family": "direct_execution",
+      "prompt": "Write `0.47` in expanded form and identify the value of each digit.",
+      "target_node": "X2",
+      "secondary_dependency_targets": [
+        "X1",
+        "V2"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "cross_point_unit_break",
+        "whole_number_place_transfer_error"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "X2-E-001",
+      "family": "explanation",
+      "prompt": "Explain why the `5` in `0.5` represents a larger value than the `5` in `0.05`.",
+      "target_node": "X2",
+      "secondary_dependency_targets": [
+        "X1",
+        "V2"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "tenths_hundredths_blur"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "X2-E-002",
+      "family": "explanation",
+      "prompt": "Explain how moving one place to the right changes the unit value in decimal notation.",
+      "target_node": "X2",
+      "secondary_dependency_targets": [
+        "X1",
+        "V2"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "expanded_form_instability"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "X2-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student says `0.8 < 0.35` because 8 is less than 35. Diagnose the place-value mistake. Focus on whole number place transfer error.",
+      "target_node": "X2",
+      "secondary_dependency_targets": [
+        "X1",
+        "V2"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "whole_number_place_transfer_error"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "X2-C-002",
+      "family": "error_diagnosis",
+      "prompt": "A student writes `0.4 = 4/100`. Identify the unit mismatch. Focus on tenths hundredths blur.",
+      "target_node": "X2",
+      "secondary_dependency_targets": [
+        "X1",
+        "V2"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "tenths_hundredths_blur"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "X2-T-001",
+      "family": "transfer",
+      "prompt": "A runner completes `0.75` km of a 1 km lap. Represent the distance with a decimal, fraction, and place-value description.",
+      "target_node": "X2",
+      "secondary_dependency_targets": [
+        "X1",
+        "V2"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "expanded_form_instability"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "X2-T-002",
+      "family": "transfer",
+      "prompt": "A price tag shows `$0.65`. Explain the same amount using ones, tenths, and hundredths language.",
+      "target_node": "X2",
+      "secondary_dependency_targets": [
+        "X1",
+        "V2"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "cross_point_unit_break"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "X2-R-001",
+      "family": "retention",
+      "prompt": "On a delayed check, decompose `1.08` into place-value units and explain how you know each part.",
+      "target_node": "X2",
+      "secondary_dependency_targets": [
+        "X1",
+        "V2"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "cross_point_unit_break"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability"
+    },
+    {
+      "item_id": "X2-P-001",
+      "family": "prerequisite_probe",
+      "prompt": "Complete a prerequisite probe on tenths as decimal units to determine whether the decimal error is really a place-value dependency gap.",
+      "target_node": "X2",
+      "secondary_dependency_targets": [
+        "X1",
+        "V2"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "tenths_hundredths_blur"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "X1",
+      "suspected_knowledge_gap_if_incorrect": "tenths as decimal units",
+      "scoring_focus": "dependency_disambiguation"
+    },
+    {
+      "item_id": "X2-P-002",
+      "family": "prerequisite_probe",
+      "prompt": "Complete a prerequisite probe on compare and order multidigit numbers to determine whether the decimal error is really a place-value dependency gap.",
+      "target_node": "X2",
+      "secondary_dependency_targets": [
+        "X1",
+        "V2"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "expanded_form_instability"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "V2",
+      "suspected_knowledge_gap_if_incorrect": "compare and order multidigit numbers",
+      "scoring_focus": "dependency_disambiguation"
     }
   ]
 }

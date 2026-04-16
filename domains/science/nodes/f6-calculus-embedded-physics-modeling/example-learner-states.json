@@ -1,0 +1,48 @@
+[
+  {
+    "learner_id": "example-f6-secure",
+    "node_id": "F6",
+    "status": "secure",
+    "dependency_status": {
+      "F2": "secure",
+      "F4": "secure",
+      "I5": "secure",
+      "E5": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Uses calculus-supported physics modeling with explicit quantity meaning, assumptions, and bounded interpretation."
+  },
+  {
+    "learner_id": "example-f6-emerging",
+    "node_id": "F6",
+    "status": "emerging",
+    "dependency_status": {
+      "F2": "secure",
+      "F4": "secure",
+      "I5": "secure",
+      "E5": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [
+      "F6-FM-01",
+      "F6-FM-02"
+    ],
+    "recommended_interventions": [
+      "F6-INT-01",
+      "F6-INT-02"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Can perform some advanced mathematics but does not reliably connect it back to physics meaning."
+  }
+]

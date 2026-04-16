@@ -1,37 +1,140 @@
 {
   "node_id": "J1",
+  "policy_version": "1.0",
   "items": [
     {
-      "item_id": "J1-A1",
-      "item_family": "direct",
-      "prompt": "adds and subtracts bounded rational numbers across fraction, decimal, and signed representations",
+      "item_id": "J1-DIR-001",
+      "node_id": "J1",
+      "item_family": "direct_execution",
+      "prompt": "Compute `3/4 + 1/8` by rewriting to common units and show the equivalent fractions you used.",
       "expected_evidence": "add and subtract fractions, decimals, and signed rational quantities using defensible structure",
       "dominant_failure_mode": "representation_alignment_breakdown",
-      "scoring_guidance": "Meets when the learner computes the result accurately while preserving quantity meaning."
+      "scoring_guidance": "Meets when the learner demonstrates add and subtract fractions, decimals, and signed rational quantities using defensible structure with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "J1-B1",
-      "item_family": "explanation",
-      "prompt": "explains how common units, equivalent forms, or signed magnitude justify a rational-number addition or subtraction result",
-      "expected_evidence": "explain why the computed result is reasonable using magnitude, benchmark, or direction language",
-      "dominant_failure_mode": "signed_magnitude_confusion",
-      "scoring_guidance": "Meets when the learner explains the operation using coherent magnitude and sign structure."
-    },
-    {
-      "item_id": "J1-C1",
-      "item_family": "error_diagnosis",
-      "prompt": "Diagnose a peer error aligned to representation_alignment_breakdown.",
+      "item_id": "J1-DIR-002",
+      "node_id": "J1",
+      "item_family": "direct_execution",
+      "prompt": "Compute `5/6 - 1/4` and justify the common denominator choice.",
       "expected_evidence": "convert or align representations when needed without losing quantity meaning",
-      "dominant_failure_mode": "representation_alignment_breakdown",
-      "scoring_guidance": "Meets when the learner identifies how the peer broke common-unit or equivalent-form structure."
+      "dominant_failure_mode": "signed_magnitude_confusion",
+      "scoring_guidance": "Meets when the learner demonstrates convert or align representations when needed without losing quantity meaning with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "J1-D1",
+      "item_id": "J1-DIR-003",
+      "node_id": "J1",
+      "item_family": "direct_execution",
+      "prompt": "Place `2/3` and `5/8` on the same number line and determine which is greater.",
+      "expected_evidence": "explain why the computed result is reasonable using magnitude, benchmark, or direction language",
+      "dominant_failure_mode": "whole_number_procedure_intrusion",
+      "scoring_guidance": "Meets when the learner demonstrates explain why the computed result is reasonable using magnitude, benchmark, or direction language with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
+    },
+    {
+      "item_id": "J1-EXP-001",
+      "node_id": "J1",
+      "item_family": "explanation",
+      "prompt": "Explain why `3/4` can be rewritten as `6/8` without changing its value.",
+      "expected_evidence": "add and subtract fractions, decimals, and signed rational quantities using defensible structure",
+      "dominant_failure_mode": "signed_magnitude_confusion",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to add and subtract fractions, decimals, and signed rational quantities using defensible structure.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "J1-EXP-002",
+      "node_id": "J1",
+      "item_family": "explanation",
+      "prompt": "Explain why fractions can only be combined directly when they refer to equal-sized parts.",
+      "expected_evidence": "convert or align representations when needed without losing quantity meaning",
+      "dominant_failure_mode": "whole_number_procedure_intrusion",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to convert or align representations when needed without losing quantity meaning.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "J1-ERR-001",
+      "node_id": "J1",
+      "item_family": "error_diagnosis",
+      "prompt": "A student says `3/4 + 1/8 = 4/12`. Diagnose the first structural mistake. Focus on representation alignment breakdown.",
+      "expected_evidence": "add and subtract fractions, decimals, and signed rational quantities using defensible structure",
+      "dominant_failure_mode": "representation_alignment_breakdown",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward add and subtract fractions, decimals, and signed rational quantities using defensible structure.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "J1-ERR-002",
+      "node_id": "J1",
+      "item_family": "error_diagnosis",
+      "prompt": "A student rewrites `2/3` as `3/4` before adding. Identify the equivalence error. Focus on signed magnitude confusion.",
+      "expected_evidence": "convert or align representations when needed without losing quantity meaning",
+      "dominant_failure_mode": "signed_magnitude_confusion",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward convert or align representations when needed without losing quantity meaning.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "J1-TRA-001",
+      "node_id": "J1",
       "item_family": "transfer",
-      "prompt": "succeeds across symbolic, number-line, verbal, and simple contextual rational-number addition and subtraction cases",
-      "expected_evidence": "connect symbolic work to number-line movement and bounded contextual situations",
+      "prompt": "A recipe uses `3/4` cup of oats and `1/8` cup of seeds. How much is used altogether?",
+      "expected_evidence": "add and subtract fractions, decimals, and signed rational quantities using defensible structure",
+      "dominant_failure_mode": "whole_number_procedure_intrusion",
+      "scoring_guidance": "Meets when the learner preserves add and subtract fractions, decimals, and signed rational quantities using defensible structure in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "J1-TRA-002",
+      "node_id": "J1",
+      "item_family": "transfer",
+      "prompt": "A hiker walks `5/6` mile in the morning and `1/4` mile less in the afternoon. How much farther was the morning walk?",
+      "expected_evidence": "convert or align representations when needed without losing quantity meaning",
       "dominant_failure_mode": "context_sign_transfer_breakdown",
-      "scoring_guidance": "Meets when the learner preserves rational-operation meaning across multiple representations and contexts."
+      "scoring_guidance": "Meets when the learner preserves convert or align representations when needed without losing quantity meaning in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "J1-RET-001",
+      "node_id": "J1",
+      "item_family": "retention",
+      "prompt": "After a delay, solve `2/3 + 1/6` and explain why the rewrite keeps the quantity unchanged.",
+      "expected_evidence": "add and subtract fractions, decimals, and signed rational quantities using defensible structure",
+      "dominant_failure_mode": "context_sign_transfer_breakdown",
+      "scoring_guidance": "Meets when the learner still demonstrates add and subtract fractions, decimals, and signed rational quantities using defensible structure on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "J1-PRE-001",
+      "node_id": "J1",
+      "item_family": "prerequisite_probe",
+      "prompt": "Before closing rational number addition and subtraction, complete a prerequisite check on add subtract unlike denominator fractions and explain how that prior understanding supports the fraction reasoning.",
+      "expected_evidence": "shows whether add subtract unlike denominator fractions is secure enough to support rational number addition and subtraction",
+      "dominant_failure_mode": "signed_magnitude_confusion",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in add subtract unlike denominator fractions from a current-node issue in rational number addition and subtraction.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "F5",
+      "suspected_knowledge_gap_if_incorrect": "add subtract unlike denominator fractions"
+    },
+    {
+      "item_id": "J1-PRE-002",
+      "node_id": "J1",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a quick fraction decimal benchmark connections probe to determine whether the error belongs to the prerequisite or to rational number addition and subtraction.",
+      "expected_evidence": "shows whether fraction decimal benchmark connections is secure enough to support rational number addition and subtraction",
+      "dominant_failure_mode": "whole_number_procedure_intrusion",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in fraction decimal benchmark connections from a current-node issue in rational number addition and subtraction.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "X4",
+      "suspected_knowledge_gap_if_incorrect": "fraction decimal benchmark connections"
     }
   ]
 }

@@ -1,0 +1,348 @@
+{
+  "meta": {
+    "id": "social-studies-assessment-overlays",
+    "generated_on": "2026-04-15",
+    "source_graph": "domains/social_studies/master-knowledge-graph.yaml",
+    "overlay_count": 7
+  },
+  "overlays": [
+    {
+      "overlay_id": "ap-united-states-history-overlay",
+      "title": "AP United States History Overlay",
+      "assessment_family": "AP United States History",
+      "assessment_version_or_cycle": "current-public-framework",
+      "status": "draft",
+      "overlay_summary_classification": "content_substantial_but_compressed",
+      "coverage_units": [
+        {
+          "unit_id": "apush-historical-thinking-and-sourcing",
+          "title": "Historical thinking, sourcing, and argument",
+          "coverage_classification": "covered",
+          "mapped_capability_nodes": ["Q4", "Q5", "Q6", "H4", "H5", "H6", "A1", "A2"],
+          "unresolved_gaps": []
+        },
+        {
+          "unit_id": "apush-periodization-and-change-over-time",
+          "title": "Periodization, causation, and change over time",
+          "coverage_classification": "covered",
+          "mapped_capability_nodes": ["H1", "H2", "H3", "H5", "H6"],
+          "unresolved_gaps": []
+        },
+        {
+          "unit_id": "apush-government-society-and-public-life",
+          "title": "Government, society, and public life",
+          "coverage_classification": "partially_covered",
+          "mapped_capability_nodes": ["C2", "C3", "C4", "C5", "H3", "H4"],
+          "unresolved_gaps": ["United States-specific institutional detail remains compressed inside broader civics and history nodes."]
+        },
+        {
+          "unit_id": "apush-economy-geography-and-reform",
+          "title": "Economy, geography, migration, and reform",
+          "coverage_classification": "partially_covered",
+          "mapped_capability_nodes": ["G3", "G4", "G5", "E3", "E4", "H3", "H5"],
+          "unresolved_gaps": ["AP United States History topical specificity is broader than the current repository economic and regional-history resolution."]
+        }
+      ],
+      "unresolved_gaps": [
+        "Course-specific United States history chronology is modeled at a broader disciplinary level than the AP course framework."
+      ],
+      "source_documents": [
+        "domains/social_studies/standards-augmented-graph.md",
+        "docs/standards/states/california-social-studies-standards.md",
+        "docs/standards/states/new-york-social-studies-standards.md"
+      ],
+      "claim_boundary": "AP United States History coverage is modeled as an assessment overlay over the canonical social studies graph; it does not claim exam-score guarantees or reviewed identifier-level course equivalence.",
+      "generated_on": "2026-04-15"
+    },
+    {
+      "overlay_id": "ap-world-history-modern-overlay",
+      "title": "AP World History: Modern Overlay",
+      "assessment_family": "AP World History: Modern",
+      "assessment_version_or_cycle": "current-public-framework",
+      "status": "draft",
+      "overlay_summary_classification": "content_substantial_but_compressed",
+      "coverage_units": [
+        {
+          "unit_id": "apwh-historical-thinking-and-comparison",
+          "title": "Historical thinking, comparison, and argument",
+          "coverage_classification": "covered",
+          "mapped_capability_nodes": ["Q4", "Q5", "Q6", "H4", "H5", "H6", "A1", "A2"],
+          "unresolved_gaps": []
+        },
+        {
+          "unit_id": "apwh-global-processes-and-periodization",
+          "title": "Global processes, periodization, and change over time",
+          "coverage_classification": "covered",
+          "mapped_capability_nodes": ["H2", "H3", "H5", "G5", "G6"],
+          "unresolved_gaps": []
+        },
+        {
+          "unit_id": "apwh-state-building-economy-and-exchange",
+          "title": "State building, economy, and exchange",
+          "coverage_classification": "partially_covered",
+          "mapped_capability_nodes": ["C4", "C5", "E3", "E4", "E5", "H3", "H5"],
+          "unresolved_gaps": ["World-history course detail is compressed into broad civics and economics nodes rather than era-specific units."]
+        },
+        {
+          "unit_id": "apwh-geography-migration-and-human-systems",
+          "title": "Geography, migration, and human systems",
+          "coverage_classification": "covered",
+          "mapped_capability_nodes": ["G2", "G3", "G4", "G5", "G6", "H3"],
+          "unresolved_gaps": []
+        }
+      ],
+      "unresolved_gaps": [
+        "AP World History chronological and regional granularity exceeds the current repository history topology."
+      ],
+      "source_documents": [
+        "domains/social_studies/standards-augmented-graph.md",
+        "docs/standards/states/new-york-social-studies-standards.md"
+      ],
+      "claim_boundary": "AP World History: Modern coverage is represented as a derived overlay, not as a dedicated world-history graph or a reviewed course-equivalence claim.",
+      "generated_on": "2026-04-15"
+    },
+    {
+      "overlay_id": "ap-united-states-government-and-politics-overlay",
+      "title": "AP United States Government and Politics Overlay",
+      "assessment_family": "AP United States Government and Politics",
+      "assessment_version_or_cycle": "current-public-framework",
+      "status": "draft",
+      "overlay_summary_classification": "content_substantial_but_compressed",
+      "coverage_units": [
+        {
+          "unit_id": "apusgov-foundations-and-constitutional-principles",
+          "title": "Foundations and constitutional principles",
+          "coverage_classification": "covered",
+          "mapped_capability_nodes": ["C2", "C3", "C4", "C5", "C6"],
+          "unresolved_gaps": []
+        },
+        {
+          "unit_id": "apusgov-interactions-among-branches-and-institutions",
+          "title": "Interactions among branches and institutions",
+          "coverage_classification": "partially_covered",
+          "mapped_capability_nodes": ["C2", "C4", "C5", "C6"],
+          "unresolved_gaps": ["United States institutional detail is more compressed than the AP course frame."]
+        },
+        {
+          "unit_id": "apusgov-civil-liberties-rights-and-public-policy",
+          "title": "Civil liberties, rights, and public policy",
+          "coverage_classification": "covered",
+          "mapped_capability_nodes": ["C2", "C4", "C5", "C6", "Q5", "Q6"],
+          "unresolved_gaps": []
+        },
+        {
+          "unit_id": "apusgov-political-participation-and-deliberation",
+          "title": "Political participation and deliberation",
+          "coverage_classification": "covered",
+          "mapped_capability_nodes": ["C1", "C3", "C5", "C6", "Q3", "Q6", "A2"],
+          "unresolved_gaps": []
+        },
+        {
+          "unit_id": "apusgov-evidence-analysis-and-argument",
+          "title": "Evidence analysis and argument",
+          "coverage_classification": "covered",
+          "mapped_capability_nodes": ["Q4", "Q5", "Q6", "A1", "A2", "C6"],
+          "unresolved_gaps": []
+        }
+      ],
+      "unresolved_gaps": [
+        "Some branch-level and court-specific detail remains compressed inside higher-order civics nodes."
+      ],
+      "source_documents": [
+        "domains/social_studies/standards-augmented-graph.md",
+        "docs/standards/states/texas-social-studies-standards.md",
+        "docs/standards/states/california-social-studies-standards.md"
+      ],
+      "claim_boundary": "AP United States Government and Politics coverage is modeled as an overlay over the canonical social studies graph and does not claim course-score guarantees.",
+      "generated_on": "2026-04-15"
+    },
+    {
+      "overlay_id": "ap-comparative-government-and-politics-overlay",
+      "title": "AP Comparative Government and Politics Overlay",
+      "assessment_family": "AP Comparative Government and Politics",
+      "assessment_version_or_cycle": "current-public-framework",
+      "status": "draft",
+      "overlay_summary_classification": "content_partial",
+      "coverage_units": [
+        {
+          "unit_id": "apcompgov-political-systems-and-regimes",
+          "title": "Political systems and regime comparison",
+          "coverage_classification": "partially_covered",
+          "mapped_capability_nodes": ["C4", "C5", "C6", "Q5"],
+          "unresolved_gaps": ["Country-case and comparative-system resolution is broader than the current repository civics topology."]
+        },
+        {
+          "unit_id": "apcompgov-participation-rights-and-public-life",
+          "title": "Participation, rights, and public life",
+          "coverage_classification": "covered",
+          "mapped_capability_nodes": ["C2", "C3", "C5", "C6", "Q6"],
+          "unresolved_gaps": []
+        },
+        {
+          "unit_id": "apcompgov-policy-economy-and-development",
+          "title": "Policy, economy, and development",
+          "coverage_classification": "partially_covered",
+          "mapped_capability_nodes": ["C4", "E4", "E5", "G5", "G6"],
+          "unresolved_gaps": ["Comparative political economy remains compressed across civics, geography, and economics branches."]
+        },
+        {
+          "unit_id": "apcompgov-argument-and-source-analysis",
+          "title": "Argument and source analysis",
+          "coverage_classification": "covered",
+          "mapped_capability_nodes": ["Q4", "Q5", "Q6", "A1", "A2"],
+          "unresolved_gaps": []
+        }
+      ],
+      "unresolved_gaps": [
+        "Comparative-country case structures are not yet modeled as first-class social studies graph entities."
+      ],
+      "source_documents": [
+        "domains/social_studies/standards-augmented-graph.md",
+        "docs/standards/states/new-york-social-studies-standards.md"
+      ],
+      "claim_boundary": "AP Comparative Government and Politics coverage is represented as an exploratory overlay over existing social studies nodes; it does not claim reviewed course equivalence.",
+      "generated_on": "2026-04-15"
+    },
+    {
+      "overlay_id": "ap-human-geography-overlay",
+      "title": "AP Human Geography Overlay",
+      "assessment_family": "AP Human Geography",
+      "assessment_version_or_cycle": "current-public-framework",
+      "status": "draft",
+      "overlay_summary_classification": "content_substantial_but_compressed",
+      "coverage_units": [
+        {
+          "unit_id": "aphg-spatial-concepts-and-geographic-tools",
+          "title": "Spatial concepts and geographic tools",
+          "coverage_classification": "covered",
+          "mapped_capability_nodes": ["G1", "G2", "G3", "G4", "Q4"],
+          "unresolved_gaps": []
+        },
+        {
+          "unit_id": "aphg-population-migration-and-human-systems",
+          "title": "Population, migration, and human systems",
+          "coverage_classification": "covered",
+          "mapped_capability_nodes": ["G2", "G3", "G5", "G6"],
+          "unresolved_gaps": []
+        },
+        {
+          "unit_id": "aphg-economic-and-cultural-patterns",
+          "title": "Economic and cultural patterns",
+          "coverage_classification": "partially_covered",
+          "mapped_capability_nodes": ["G3", "G5", "E3", "E4", "E5"],
+          "unresolved_gaps": ["Some AP Human Geography thematic specificity remains compressed into broad geography and economics nodes."]
+        },
+        {
+          "unit_id": "aphg-sustainability-policy-and-argument",
+          "title": "Sustainability, policy, and argument",
+          "coverage_classification": "covered",
+          "mapped_capability_nodes": ["G5", "G6", "Q5", "Q6", "A2"],
+          "unresolved_gaps": []
+        }
+      ],
+      "unresolved_gaps": [
+        "The current graph does not yet separate AP Human Geography unit themes into more granular secondary subnodes."
+      ],
+      "source_documents": [
+        "domains/social_studies/standards-augmented-graph.md",
+        "docs/standards/states/california-social-studies-standards.md"
+      ],
+      "claim_boundary": "AP Human Geography coverage is modeled as a derived overlay over the canonical social studies graph and does not claim exam-score guarantees.",
+      "generated_on": "2026-04-15"
+    },
+    {
+      "overlay_id": "ap-macroeconomics-overlay",
+      "title": "AP Macroeconomics Overlay",
+      "assessment_family": "AP Macroeconomics",
+      "assessment_version_or_cycle": "current-public-framework",
+      "status": "draft",
+      "overlay_summary_classification": "content_partial",
+      "coverage_units": [
+        {
+          "unit_id": "apmacro-foundations-and-measures",
+          "title": "Foundations and aggregate measures",
+          "coverage_classification": "partially_covered",
+          "mapped_capability_nodes": ["E3", "E4", "E5", "Q4"],
+          "unresolved_gaps": ["Macroeconomic measures and formal model detail are broader than the current repository economics branch."]
+        },
+        {
+          "unit_id": "apmacro-growth-fluctuation-and-policy",
+          "title": "Growth, fluctuation, and stabilization policy",
+          "coverage_classification": "partially_covered",
+          "mapped_capability_nodes": ["E4", "E5", "E6", "C4", "C6"],
+          "unresolved_gaps": ["The graph models policy tradeoffs broadly but not as a dedicated macroeconomics sequence."]
+        },
+        {
+          "unit_id": "apmacro-finance-trade-and-global-context",
+          "title": "Finance, trade, and global context",
+          "coverage_classification": "covered",
+          "mapped_capability_nodes": ["E5", "E6", "G5", "G6"],
+          "unresolved_gaps": []
+        },
+        {
+          "unit_id": "apmacro-argument-and-application",
+          "title": "Argument and application",
+          "coverage_classification": "covered",
+          "mapped_capability_nodes": ["Q5", "Q6", "A1", "A2", "E6"],
+          "unresolved_gaps": []
+        }
+      ],
+      "unresolved_gaps": [
+        "A dedicated macroeconomics subgraph would be needed for stronger course-level claims."
+      ],
+      "source_documents": [
+        "domains/social_studies/standards-augmented-graph.md",
+        "docs/standards/states/texas-social-studies-standards.md"
+      ],
+      "claim_boundary": "AP Macroeconomics coverage is represented as a draft overlay over the canonical social studies graph and does not claim reviewed course equivalence or score guarantees.",
+      "generated_on": "2026-04-15"
+    },
+    {
+      "overlay_id": "ap-microeconomics-overlay",
+      "title": "AP Microeconomics Overlay",
+      "assessment_family": "AP Microeconomics",
+      "assessment_version_or_cycle": "current-public-framework",
+      "status": "draft",
+      "overlay_summary_classification": "exploratory",
+      "coverage_units": [
+        {
+          "unit_id": "apmicro-choice-incentives-and-models",
+          "title": "Choice, incentives, and microeconomic models",
+          "coverage_classification": "covered",
+          "mapped_capability_nodes": ["E1", "E2", "E3", "Q3", "Q4"],
+          "unresolved_gaps": []
+        },
+        {
+          "unit_id": "apmicro-markets-firms-and-decision-making",
+          "title": "Markets, firms, and decision-making",
+          "coverage_classification": "covered",
+          "mapped_capability_nodes": ["E2", "E3", "E4", "E5"],
+          "unresolved_gaps": []
+        },
+        {
+          "unit_id": "apmicro-government-intervention-and-welfare",
+          "title": "Government intervention and welfare",
+          "coverage_classification": "partially_covered",
+          "mapped_capability_nodes": ["E4", "E5", "E6", "C4", "C6"],
+          "unresolved_gaps": ["Formal welfare-analysis detail remains compressed into broad economics and policy nodes."]
+        },
+        {
+          "unit_id": "apmicro-argument-data-and-application",
+          "title": "Argument, data, and application",
+          "coverage_classification": "covered",
+          "mapped_capability_nodes": ["Q4", "Q5", "Q6", "A1", "E6"],
+          "unresolved_gaps": []
+        }
+      ],
+      "unresolved_gaps": [
+        "A more detailed firm- and market-structure branch would be needed for stronger AP Microeconomics equivalence claims."
+      ],
+      "source_documents": [
+        "domains/social_studies/standards-augmented-graph.md",
+        "docs/standards/states/texas-social-studies-standards.md"
+      ],
+      "claim_boundary": "AP Microeconomics coverage is modeled as an overlay over existing economics, inquiry, and policy nodes; it does not claim exam-score guarantees.",
+      "generated_on": "2026-04-15"
+    }
+  ]
+}

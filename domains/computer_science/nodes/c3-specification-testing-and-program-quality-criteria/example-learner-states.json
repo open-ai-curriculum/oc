@@ -1,0 +1,44 @@
+[
+  {
+    "learner_id": "example-c3-secure",
+    "node_id": "C3",
+    "status": "secure",
+    "dependency_status": {
+      "C2": "secure",
+      "P4": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Evaluates programs against specifications, purposeful tests, and explicit quality criteria."
+  },
+  {
+    "learner_id": "example-c3-emerging",
+    "node_id": "C3",
+    "status": "emerging",
+    "dependency_status": {
+      "C2": "secure",
+      "P4": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [
+      "C3-FM-01",
+      "C3-FM-02"
+    ],
+    "recommended_interventions": [
+      "C3-INT-01",
+      "C3-INT-02"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Can run and debug programs but still treats quality and correctness too loosely."
+  }
+]

@@ -1,37 +1,140 @@
 {
   "node_id": "J6",
+  "policy_version": "1.0",
   "items": [
     {
-      "item_id": "J6-A1",
-      "item_family": "direct",
-      "prompt": "solves bounded proportional application and scale-model situations accurately",
+      "item_id": "J6-DIR-001",
+      "node_id": "J6",
+      "item_family": "direct_execution",
+      "prompt": "Decide whether the table `(2, 6), (4, 12), (7, 21)` is proportional and justify the constant of proportionality.",
       "expected_evidence": "solve for unknowns in scale drawings, map scales, recipes, similar-shape, and conversion-style proportional contexts",
       "dominant_failure_mode": "correspondence_mapping_breakdown",
-      "scoring_guidance": "Meets when the learner identifies corresponding quantities and preserves the proportional relationship accurately."
+      "scoring_guidance": "Meets when the learner demonstrates solve for unknowns in scale drawings, map scales, recipes, similar-shape, and conversion-style proportional contexts with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "J6-B1",
-      "item_family": "explanation",
-      "prompt": "explains how invariant ratio or scale factor determines unknown values in an applied proportional situation",
-      "expected_evidence": "explain why the same multiplicative relationship must hold across corresponding quantities",
+      "item_id": "J6-DIR-002",
+      "node_id": "J6",
+      "item_family": "direct_execution",
+      "prompt": "Find the unit rate for 18 miles in 3 hours and explain what it means.",
+      "expected_evidence": "represent proportional applications using tables, unit-rate reasoning, or scale-factor structure",
       "dominant_failure_mode": "additive_application_drift",
-      "scoring_guidance": "Meets when the learner explains the applied proportional structure coherently."
+      "scoring_guidance": "Meets when the learner demonstrates represent proportional applications using tables, unit-rate reasoning, or scale-factor structure with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "J6-C1",
-      "item_family": "error_diagnosis",
-      "prompt": "Diagnose a peer error aligned to scale_factor_instability.",
+      "item_id": "J6-DIR-003",
+      "node_id": "J6",
+      "item_family": "direct_execution",
+      "prompt": "Find 15% of 80 and explain how the percent is acting as a rate per hundred.",
+      "expected_evidence": "explain why the same multiplicative relationship must hold across corresponding quantities",
+      "dominant_failure_mode": "scale_factor_instability",
+      "scoring_guidance": "Meets when the learner demonstrates explain why the same multiplicative relationship must hold across corresponding quantities with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
+    },
+    {
+      "item_id": "J6-EXP-001",
+      "node_id": "J6",
+      "item_family": "explanation",
+      "prompt": "Explain why equal differences alone do not prove a relationship is proportional.",
+      "expected_evidence": "solve for unknowns in scale drawings, map scales, recipes, similar-shape, and conversion-style proportional contexts",
+      "dominant_failure_mode": "additive_application_drift",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to solve for unknowns in scale drawings, map scales, recipes, similar-shape, and conversion-style proportional contexts.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "J6-EXP-002",
+      "node_id": "J6",
+      "item_family": "explanation",
+      "prompt": "Explain how a unit rate and a constant of proportionality describe the same multiplicative structure.",
       "expected_evidence": "represent proportional applications using tables, unit-rate reasoning, or scale-factor structure",
       "dominant_failure_mode": "scale_factor_instability",
-      "scoring_guidance": "Meets when the learner identifies how the peer broke the invariant ratio or scale-factor relationship."
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to represent proportional applications using tables, unit-rate reasoning, or scale-factor structure.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
     },
     {
-      "item_id": "J6-D1",
+      "item_id": "J6-ERR-001",
+      "node_id": "J6",
+      "item_family": "error_diagnosis",
+      "prompt": "A student says a table is proportional because it increases by 3 each row. Diagnose the additive-pattern error. Focus on correspondence mapping breakdown.",
+      "expected_evidence": "solve for unknowns in scale drawings, map scales, recipes, similar-shape, and conversion-style proportional contexts",
+      "dominant_failure_mode": "correspondence_mapping_breakdown",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward solve for unknowns in scale drawings, map scales, recipes, similar-shape, and conversion-style proportional contexts.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "J6-ERR-002",
+      "node_id": "J6",
+      "item_family": "error_diagnosis",
+      "prompt": "A student scales one quantity by 2 but the other by 3 and still claims proportionality. Identify the breakdown. Focus on additive application drift.",
+      "expected_evidence": "represent proportional applications using tables, unit-rate reasoning, or scale-factor structure",
+      "dominant_failure_mode": "additive_application_drift",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward represent proportional applications using tables, unit-rate reasoning, or scale-factor structure.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "J6-TRA-001",
+      "node_id": "J6",
       "item_family": "transfer",
-      "prompt": "succeeds across table, diagram, verbal, measurement, and simple contextual proportional-application representations",
-      "expected_evidence": "judge whether a proportional result is reasonable relative to the original quantities and scale",
+      "prompt": "A map uses 1 cm for every 5 km. How far does 7.2 cm represent, and why is the relationship proportional?",
+      "expected_evidence": "solve for unknowns in scale drawings, map scales, recipes, similar-shape, and conversion-style proportional contexts",
+      "dominant_failure_mode": "scale_factor_instability",
+      "scoring_guidance": "Meets when the learner preserves solve for unknowns in scale drawings, map scales, recipes, similar-shape, and conversion-style proportional contexts in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "J6-TRA-002",
+      "node_id": "J6",
+      "item_family": "transfer",
+      "prompt": "A recipe uses 3 cups of flour for 2 batches. Write an equation relating flour to batches and find the amount for 5 batches.",
+      "expected_evidence": "represent proportional applications using tables, unit-rate reasoning, or scale-factor structure",
       "dominant_failure_mode": "contextual_scale_reasonableness_breakdown",
-      "scoring_guidance": "Meets when the learner preserves proportional-application meaning across multiple representations and contexts."
+      "scoring_guidance": "Meets when the learner preserves represent proportional applications using tables, unit-rate reasoning, or scale-factor structure in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "J6-RET-001",
+      "node_id": "J6",
+      "item_family": "retention",
+      "prompt": "On a delayed check, determine whether 4 notebooks for $6 and 10 notebooks for $15 are proportional and justify your reasoning.",
+      "expected_evidence": "solve for unknowns in scale drawings, map scales, recipes, similar-shape, and conversion-style proportional contexts",
+      "dominant_failure_mode": "contextual_scale_reasonableness_breakdown",
+      "scoring_guidance": "Meets when the learner still demonstrates solve for unknowns in scale drawings, map scales, recipes, similar-shape, and conversion-style proportional contexts on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "J6-PRE-001",
+      "node_id": "J6",
+      "item_family": "prerequisite_probe",
+      "prompt": "Probe proportional relationships before diagnosing proportional application and scale modeling, and state whether the learner is missing multiplicative structure or only the current proportional application.",
+      "expected_evidence": "shows whether proportional relationships is secure enough to support proportional application and scale modeling",
+      "dominant_failure_mode": "additive_application_drift",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in proportional relationships from a current-node issue in proportional application and scale modeling.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "Q3",
+      "suspected_knowledge_gap_if_incorrect": "proportional relationships"
+    },
+    {
+      "item_id": "J6-PRE-002",
+      "node_id": "J6",
+      "item_family": "prerequisite_probe",
+      "prompt": "Probe percent change discount tax and markup before diagnosing proportional application and scale modeling, and state whether the learner is missing multiplicative structure or only the current proportional application.",
+      "expected_evidence": "shows whether percent change discount tax and markup is secure enough to support proportional application and scale modeling",
+      "dominant_failure_mode": "scale_factor_instability",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in percent change discount tax and markup from a current-node issue in proportional application and scale modeling.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "J5",
+      "suspected_knowledge_gap_if_incorrect": "percent change discount tax and markup"
     }
   ]
 }

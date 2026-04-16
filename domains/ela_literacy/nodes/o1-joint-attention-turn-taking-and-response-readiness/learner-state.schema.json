@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "O1 Learner State",
+  "type": "object",
+  "required": [
+    "learner_id",
+    "node_id",
+    "status",
+    "dependency_status",
+    "direct_accuracy",
+    "transfer_status",
+    "retention_status",
+    "dominant_failure_modes",
+    "recommended_interventions",
+    "last_verified_at",
+    "review_state",
+    "notes"
+  ],
+  "properties": {
+    "learner_id": { "type": "string" },
+    "node_id": { "const": "O1" },
+    "status": {
+      "type": "string",
+      "enum": ["blocked", "emerging", "provisional", "secure", "unstable"]
+    },
+    "dependency_status": { "type": "object" },
+    "direct_accuracy": { "type": "number" },
+    "transfer_status": {
+      "type": "string",
+      "enum": ["not_met", "weak", "met"]
+    },
+    "retention_status": {
+      "type": "string",
+      "enum": ["not_due", "not_met", "met"]
+    },
+    "dominant_failure_modes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["O1-FM-01", "O1-FM-02", "O1-FM-03"]
+      }
+    },
+    "recommended_interventions": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "last_verified_at": { "type": "string" },
+    "review_state": {
+      "type": "string",
+      "enum": ["draft", "human-reviewed"]
+    },
+    "notes": { "type": "string" }
+  }
+}

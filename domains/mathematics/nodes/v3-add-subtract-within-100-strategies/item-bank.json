@@ -1,11 +1,12 @@
 {
   "node_id": "V3",
-  "version": "0.1",
+  "policy_version": "1.0",
+  "version": "0.3",
   "items": [
     {
-      "item_id": "V3-A-001",
-      "family": "direct_strategy",
-      "prompt": "Solve 46 + 23 using a tens-and-ones strategy.",
+      "item_id": "V3-D-001",
+      "family": "direct_execution",
+      "prompt": "Solve `x + 7 = 19` and show how each step preserves equality.",
       "target_node": "V3",
       "secondary_dependency_targets": [
         "V1",
@@ -13,19 +14,21 @@
       ],
       "difficulty_band": "core",
       "response_modes_allowed": [
-        "oral_explanation",
-        "written_explanation"
+        "written_symbolic",
+        "oral_explanation"
       ],
       "dominant_failure_modes_if_incorrect": [
         "V3-FM-01",
         "V3-FM-02"
       ],
-      "requires_human_scoring": true
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
     },
     {
-      "item_id": "V3-A-002",
-      "family": "direct_strategy",
-      "prompt": "Solve 72 - 18 and explain how you handled the tens and ones.",
+      "item_id": "V3-D-002",
+      "family": "direct_execution",
+      "prompt": "Solve `4x = 28`, then check the solution by substitution.",
       "target_node": "V3",
       "secondary_dependency_targets": [
         "V1",
@@ -33,19 +36,65 @@
       ],
       "difficulty_band": "core",
       "response_modes_allowed": [
-        "oral_explanation",
-        "written_explanation"
+        "written_symbolic",
+        "oral_explanation"
       ],
       "dominant_failure_modes_if_incorrect": [
-        "V3-FM-01",
-        "V3-FM-02"
+        "V3-FM-02",
+        "V3-FM-03"
       ],
-      "requires_human_scoring": true
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
     },
     {
-      "item_id": "V3-B-001",
+      "item_id": "V3-D-003",
+      "family": "direct_execution",
+      "prompt": "Match the equation `n - 5 = 12` to a balance or missing-value situation and solve it.",
+      "target_node": "V3",
+      "secondary_dependency_targets": [
+        "V1",
+        "N4"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "V3-FM-03",
+        "V3-FM-04"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "V3-D-004",
+      "family": "direct_execution",
+      "prompt": "Solve `x + 7 = 19` and show how each step preserves equality.",
+      "target_node": "V3",
+      "secondary_dependency_targets": [
+        "V1",
+        "N4"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "V3-FM-04",
+        "V3-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "V3-E-001",
       "family": "explanation",
-      "prompt": "Explain how breaking 34 into 30 and 4 can help solve 34 + 20.",
+      "prompt": "Explain why subtracting the same value from both sides of an equation preserves the solution set.",
       "target_node": "V3",
       "secondary_dependency_targets": [
         "V1",
@@ -54,38 +103,86 @@
       "difficulty_band": "core",
       "response_modes_allowed": [
         "oral_explanation",
-        "written_explanation"
+        "written_explanation",
+        "diagram_annotation"
       ],
       "dominant_failure_modes_if_incorrect": [
-        "V3-FM-01",
         "V3-FM-02"
       ],
-      "requires_human_scoring": true
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "V3-E-002",
+      "family": "explanation",
+      "prompt": "Explain what the variable represents and why inverse operations help isolate it.",
+      "target_node": "V3",
+      "secondary_dependency_targets": [
+        "V1",
+        "N4"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "V3-FM-03"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
     },
     {
       "item_id": "V3-C-001",
       "family": "error_diagnosis",
-      "prompt": "A student adds the tens but forgets the ones in 46 + 23. What should be checked?",
+      "prompt": "A student solves `x + 5 = 13` by writing `x = 13 + 5`. Diagnose the first structural mistake. Focus on strategy selection weakness.",
       "target_node": "V3",
       "secondary_dependency_targets": [
         "V1",
         "N4"
       ],
-      "difficulty_band": "core",
+      "difficulty_band": "diagnostic",
       "response_modes_allowed": [
+        "multiple_choice",
         "oral_explanation",
         "written_explanation"
       ],
       "dominant_failure_modes_if_incorrect": [
-        "V3-FM-01",
-        "V3-FM-02"
+        "V3-FM-01"
       ],
-      "requires_human_scoring": true
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
     },
     {
-      "item_id": "V3-D-001",
+      "item_id": "V3-C-002",
+      "family": "error_diagnosis",
+      "prompt": "A student solves `3x = 18` by dividing only the `x`. Explain what went wrong. Focus on tens ones decomposition error.",
+      "target_node": "V3",
+      "secondary_dependency_targets": [
+        "V1",
+        "N4"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "V3-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "V3-T-001",
       "family": "transfer",
-      "prompt": "Use a story problem within 100 and solve it with a place-value drawing or strategy.",
+      "prompt": "A gym charges a $12 signup fee plus $5 per class. Write and solve an equation for the number of classes if the total was $32.",
       "target_node": "V3",
       "secondary_dependency_targets": [
         "V1",
@@ -93,19 +190,41 @@
       ],
       "difficulty_band": "transfer",
       "response_modes_allowed": [
-        "oral_explanation",
-        "written_explanation"
+        "written_symbolic",
+        "oral_explanation"
       ],
       "dominant_failure_modes_if_incorrect": [
-        "V3-FM-01",
-        "V3-FM-02"
+        "V3-FM-03"
       ],
-      "requires_human_scoring": true
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "V3-T-002",
+      "family": "transfer",
+      "prompt": "A balance model has three equal bags and 6 loose counters on one side and 24 counters on the other. Write and solve the equation.",
+      "target_node": "V3",
+      "secondary_dependency_targets": [
+        "V1",
+        "N4"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "V3-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
     },
     {
       "item_id": "V3-R-001",
       "family": "retention",
-      "prompt": "After a delay, solve a new within-100 addition and subtraction set and explain one strategy.",
+      "prompt": "Two weeks later, solve `m/3 = 8` and explain how you know the result is reasonable.",
       "target_node": "V3",
       "secondary_dependency_targets": [
         "V1",
@@ -113,14 +232,63 @@
       ],
       "difficulty_band": "retention",
       "response_modes_allowed": [
-        "oral_explanation",
-        "written_explanation"
+        "written_symbolic",
+        "oral_explanation"
       ],
       "dominant_failure_modes_if_incorrect": [
-        "V3-FM-01",
+        "V3-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability"
+    },
+    {
+      "item_id": "V3-P-001",
+      "family": "prerequisite_probe",
+      "prompt": "Before solving add subtract within 100 strategies, complete a prerequisite check on two digit number structure and explain how it supports the current equation work.",
+      "target_node": "V3",
+      "secondary_dependency_targets": [
+        "V1",
+        "N4"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
         "V3-FM-02"
       ],
-      "requires_human_scoring": true
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "V1",
+      "suspected_knowledge_gap_if_incorrect": "two digit number structure",
+      "scoring_focus": "dependency_disambiguation"
+    },
+    {
+      "item_id": "V3-P-002",
+      "family": "prerequisite_probe",
+      "prompt": "Use a quick fluency foundations check to explain whether the learner is blocked by prerequisite structure or by add subtract within 100 strategies itself.",
+      "target_node": "V3",
+      "secondary_dependency_targets": [
+        "V1",
+        "N4"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "V3-FM-03"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "N4",
+      "suspected_knowledge_gap_if_incorrect": "fluency foundations",
+      "scoring_focus": "dependency_disambiguation"
     }
   ]
 }

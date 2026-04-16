@@ -1,0 +1,26 @@
+{
+  "node_id": "P1",
+  "version": "0.1",
+  "interventions": {
+    "P1-FM-01": [
+      "contrast two materials with one clear property difference",
+      "use touch and observation routines with property word banks",
+      "sort objects by one property at a time"
+    ],
+    "P1-FM-02": [
+      "replay the event slowly and name what changed",
+      "compare before-and-after positions or speeds",
+      "use movement arrows or simple diagrams"
+    ],
+    "P1-FM-03": [
+      "pair a visible push or pull with the resulting motion change",
+      "ask what touched what just before the motion changed",
+      "contrast contact and no-contact examples"
+    ],
+    "P1-FM-04": [
+      "separate observed physical evidence from intention-based explanations",
+      "ask what was actually seen happen",
+      "compare a science explanation with a pretend explanation"
+    ]
+  }
+}

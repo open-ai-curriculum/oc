@@ -1,0 +1,60 @@
+[
+  {
+    "item_id": "G3-IB-01",
+    "node_id": "G3",
+    "prompt": "Why is a simple water-cycle diagram not enough in an advanced hydrology explanation?",
+    "task_type": "hydrology_systems_reasoning",
+    "answer_key": "A strong explanation includes storage, drivers, pathways, and conditions rather than a circular sequence only.",
+    "scorable_traits": [
+      "systems reasoning",
+      "process detail",
+      "precision"
+    ],
+    "target_failure_modes": [
+      "G3-FM-01"
+    ],
+    "context_tags": [
+      "hydrology",
+      "water systems"
+    ]
+  },
+  {
+    "item_id": "G3-IB-02",
+    "node_id": "G3",
+    "prompt": "What makes oceanography an Earth-systems question rather than a water-only question?",
+    "task_type": "oceanography_integration",
+    "answer_key": "Ocean systems depend on atmosphere, geology, coasts, and circulation, so the explanation must integrate those interacting drivers.",
+    "scorable_traits": [
+      "cross-system integration",
+      "Earth reasoning",
+      "transfer"
+    ],
+    "target_failure_modes": [
+      "G3-FM-02",
+      "G3-FM-04"
+    ],
+    "context_tags": [
+      "oceanography",
+      "earth systems"
+    ]
+  },
+  {
+    "item_id": "G3-IB-03",
+    "node_id": "G3",
+    "prompt": "How should a coastal observation be bounded before supporting a wider claim?",
+    "task_type": "marine_evidence_critique",
+    "answer_key": "It should be tied to its location, timescale, and supporting datasets before being extended to larger marine-system conclusions.",
+    "scorable_traits": [
+      "claim boundary",
+      "evidence use",
+      "discipline"
+    ],
+    "target_failure_modes": [
+      "G3-FM-03"
+    ],
+    "context_tags": [
+      "marine science",
+      "evidence"
+    ]
+  }
+]

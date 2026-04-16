@@ -1,0 +1,26 @@
+{
+  "node_id": "H2A",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "H2A-FM-01": [
+      "model one correct example before independent work",
+      "reduce the task to one structural move at a time",
+      "require explicit attention to what counts in the node"
+    ],
+    "H2A-FM-02": [
+      "use an organizer that makes the node structure visible",
+      "compare organized and disorganized responses",
+      "prompt the learner to explain the sorting or sequencing rule"
+    ],
+    "H2A-FM-03": [
+      "rehearse transfer with one minimally changed context",
+      "require a short why this still fits explanation",
+      "compare original and changed task conditions"
+    ],
+    "H2A-FM-04": [
+      "preteach key terms and simplify directions",
+      "reduce representation density before increasing complexity",
+      "verify whether language or format supports materially change performance"
+    ]
+  }
+}

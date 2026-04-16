@@ -1,0 +1,26 @@
+{
+  "node_id": "L1",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "L1-FM-01": [
+      "who-does-what sentence frame",
+      "fragment-to-sentence recast",
+      "oral completion before writing"
+    ],
+    "L1-FM-02": [
+      "oral sentence then immediate transcription",
+      "shared writing bridge",
+      "one-sentence carryover rehearsal"
+    ],
+    "L1-FM-03": [
+      "focused convention check after drafting",
+      "spacing and end-mark mini routine",
+      "meaning-first sentence review"
+    ],
+    "L1-FM-04": [
+      "changed-prompt same-structure practice",
+      "picture to oral to experience rotation",
+      "frame fade across prompts"
+    ]
+  }
+}

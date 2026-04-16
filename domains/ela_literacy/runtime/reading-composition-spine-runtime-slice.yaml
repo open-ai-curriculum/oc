@@ -1,0 +1,72 @@
+slice_id: ela-literacy-reading-composition-spine-runtime
+domain: ela_literacy
+status: draft
+version: '0.1'
+node_ids:
+- FR4
+- FR5
+- FR6
+- RC3
+- RC4
+- RC5
+- RC6
+- L2
+- WC1
+- WC2
+- WC3
+- WC4
+- WC5
+- WC6
+- R4
+- R5
+entry_node_ids:
+- FR4
+- RC3
+- WC1
+learner_state_fields:
+- learner_id
+- node_id
+- status
+- dependency_status
+- direct_accuracy
+- explanation_status
+- transfer_status
+- retention_status
+- dominant_failure_modes
+- recommended_interventions
+- last_verified_at
+- review_state
+artifact_registry_reference: domains/ela_literacy/artifact-attachments/reading-composition-spine-attachment-registry.yaml
+navigation_rules:
+- rule_id: reading-composition-teach-next
+  decision_type: teach_next
+  applies_when:
+  - current_node_status in [secure]
+  - next_node_dependencies_secure
+  - next_node_not_yet_secure
+  outcome: advance_to_next_available_reading_or_composition_node
+  artifact_selection: prefer LessonPattern, WorkedExample, or GuidedPracticeSet on
+    target node
+- rule_id: reading-composition-hold-current
+  decision_type: hold_current
+  applies_when:
+  - current_node_status in [blocked, emerging, provisional]
+  - current_node_is_instructionally_actionable
+  outcome: remain_on_current_node
+  artifact_selection: prefer GuidedPracticeSet or VerificationTask on current node
+- rule_id: reading-composition-route-upstream
+  decision_type: route_upstream
+  applies_when:
+  - current_node_status = blocked
+  - dependency_status_contains_unstable_or_blocked
+  outcome: route_to_most_relevant_upstream_dependency
+  artifact_selection: prefer InterventionAsset or ReteachRoutine on unstable dependency
+    node
+- rule_id: reading-composition-reverify
+  decision_type: reverify
+  applies_when:
+  - current_node_status = provisional
+  - retention_due_or_required_before_advancement
+  outcome: schedule_retention_or_transfer_recheck
+  artifact_selection: prefer RetentionCheck or VerificationTask on current node
+review_status: draft

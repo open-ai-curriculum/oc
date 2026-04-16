@@ -1,0 +1,44 @@
+[
+  {
+    "learner_id": "example-i2-secure",
+    "node_id": "I2",
+    "status": "secure",
+    "dependency_status": {
+      "I1": "secure",
+      "D2": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Communicates digitally with attention to audience, attribution, and respectful sharing choices."
+  },
+  {
+    "learner_id": "example-i2-emerging",
+    "node_id": "I2",
+    "status": "emerging",
+    "dependency_status": {
+      "I1": "secure",
+      "D2": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [
+      "I2-FM-01",
+      "I2-FM-02"
+    ],
+    "recommended_interventions": [
+      "I2-INT-01",
+      "I2-INT-02"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Can send or share content but still underweights audience, tone, and source ownership."
+  }
+]

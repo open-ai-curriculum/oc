@@ -1,37 +1,140 @@
 {
   "node_id": "A5",
+  "policy_version": "1.0",
   "items": [
     {
-      "item_id": "A5-A1",
-      "item_family": "direct",
-      "prompt": "generates bounded tables and ordered pairs from a simple linear or proportional rule and plots them accurately",
-      "expected_evidence": "generate ordered pairs from simple rules and plot them accurately",
-      "dominant_failure_mode": "table_graph_disconnect",
-      "scoring_guidance": "Meets when the learner correctly coordinates rule, table, and plotted points."
-    },
-    {
-      "item_id": "A5-B1",
-      "item_family": "explanation",
-      "prompt": "explains how a table, graph, and verbal rule can represent the same linear relationship and what the constant change means",
-      "expected_evidence": "explain how a table, a set of points, and a verbal rule can represent the same relationship",
-      "dominant_failure_mode": "rate_structure_shallow_reading",
-      "scoring_guidance": "Meets when the learner explains the common relationship structure across representations."
-    },
-    {
-      "item_id": "A5-C1",
-      "item_family": "error_diagnosis",
-      "prompt": "Diagnose a peer error aligned to table_graph_disconnect.",
+      "item_id": "A5-DIR-001",
+      "node_id": "A5",
+      "item_family": "direct_execution",
+      "prompt": "Decide whether the table `(2, 6), (4, 12), (7, 21)` is proportional and justify the constant of proportionality.",
       "expected_evidence": "identify constant change or constant multiplicative rate in bounded linear or proportional tables",
       "dominant_failure_mode": "table_graph_disconnect",
-      "scoring_guidance": "Meets when the learner identifies how the peer broke the mapping between table values and plotted points."
+      "scoring_guidance": "Meets when the learner demonstrates identify constant change or constant multiplicative rate in bounded linear or proportional tables with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "A5-D1",
-      "item_family": "transfer",
-      "prompt": "succeeds across tables, verbal rules, graphs, and simple contextual representations of linear relationships",
-      "expected_evidence": "interpret what slope-like change means in bounded contexts without collapsing all patterns into additive sameness",
+      "item_id": "A5-DIR-002",
+      "node_id": "A5",
+      "item_family": "direct_execution",
+      "prompt": "Find the unit rate for 18 miles in 3 hours and explain what it means.",
+      "expected_evidence": "generate ordered pairs from simple rules and plot them accurately",
+      "dominant_failure_mode": "rate_structure_shallow_reading",
+      "scoring_guidance": "Meets when the learner demonstrates generate ordered pairs from simple rules and plot them accurately with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
+    },
+    {
+      "item_id": "A5-DIR-003",
+      "node_id": "A5",
+      "item_family": "direct_execution",
+      "prompt": "Find 15% of 80 and explain how the percent is acting as a rate per hundred.",
+      "expected_evidence": "explain how a table, a set of points, and a verbal rule can represent the same relationship",
       "dominant_failure_mode": "proportional_linear_misclassification",
-      "scoring_guidance": "Meets when the learner preserves linear-relationship meaning across varied representations and contexts."
+      "scoring_guidance": "Meets when the learner demonstrates explain how a table, a set of points, and a verbal rule can represent the same relationship with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
+    },
+    {
+      "item_id": "A5-EXP-001",
+      "node_id": "A5",
+      "item_family": "explanation",
+      "prompt": "Explain why equal differences alone do not prove a relationship is proportional.",
+      "expected_evidence": "identify constant change or constant multiplicative rate in bounded linear or proportional tables",
+      "dominant_failure_mode": "rate_structure_shallow_reading",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to identify constant change or constant multiplicative rate in bounded linear or proportional tables.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "A5-EXP-002",
+      "node_id": "A5",
+      "item_family": "explanation",
+      "prompt": "Explain how a unit rate and a constant of proportionality describe the same multiplicative structure.",
+      "expected_evidence": "generate ordered pairs from simple rules and plot them accurately",
+      "dominant_failure_mode": "proportional_linear_misclassification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to generate ordered pairs from simple rules and plot them accurately.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "A5-ERR-001",
+      "node_id": "A5",
+      "item_family": "error_diagnosis",
+      "prompt": "A student says a table is proportional because it increases by 3 each row. Diagnose the additive-pattern error. Focus on table graph disconnect.",
+      "expected_evidence": "identify constant change or constant multiplicative rate in bounded linear or proportional tables",
+      "dominant_failure_mode": "table_graph_disconnect",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward identify constant change or constant multiplicative rate in bounded linear or proportional tables.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "A5-ERR-002",
+      "node_id": "A5",
+      "item_family": "error_diagnosis",
+      "prompt": "A student scales one quantity by 2 but the other by 3 and still claims proportionality. Identify the breakdown. Focus on rate structure shallow reading.",
+      "expected_evidence": "generate ordered pairs from simple rules and plot them accurately",
+      "dominant_failure_mode": "rate_structure_shallow_reading",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward generate ordered pairs from simple rules and plot them accurately.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "A5-TRA-001",
+      "node_id": "A5",
+      "item_family": "transfer",
+      "prompt": "A map uses 1 cm for every 5 km. How far does 7.2 cm represent, and why is the relationship proportional?",
+      "expected_evidence": "identify constant change or constant multiplicative rate in bounded linear or proportional tables",
+      "dominant_failure_mode": "proportional_linear_misclassification",
+      "scoring_guidance": "Meets when the learner preserves identify constant change or constant multiplicative rate in bounded linear or proportional tables in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "A5-TRA-002",
+      "node_id": "A5",
+      "item_family": "transfer",
+      "prompt": "A recipe uses 3 cups of flour for 2 batches. Write an equation relating flour to batches and find the amount for 5 batches.",
+      "expected_evidence": "generate ordered pairs from simple rules and plot them accurately",
+      "dominant_failure_mode": "axis_variable_role_confusion",
+      "scoring_guidance": "Meets when the learner preserves generate ordered pairs from simple rules and plot them accurately in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "A5-RET-001",
+      "node_id": "A5",
+      "item_family": "retention",
+      "prompt": "On a delayed check, determine whether 4 notebooks for $6 and 10 notebooks for $15 are proportional and justify your reasoning.",
+      "expected_evidence": "identify constant change or constant multiplicative rate in bounded linear or proportional tables",
+      "dominant_failure_mode": "axis_variable_role_confusion",
+      "scoring_guidance": "Meets when the learner still demonstrates identify constant change or constant multiplicative rate in bounded linear or proportional tables on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "A5-PRE-001",
+      "node_id": "A5",
+      "item_family": "prerequisite_probe",
+      "prompt": "Probe variable expressions and substitution before diagnosing linear relationship tables and graphs, and state whether the learner is missing multiplicative structure or only the current proportional application.",
+      "expected_evidence": "shows whether variable expressions and substitution is secure enough to support linear relationship tables and graphs",
+      "dominant_failure_mode": "rate_structure_shallow_reading",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in variable expressions and substitution from a current-node issue in linear relationship tables and graphs.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "A1",
+      "suspected_knowledge_gap_if_incorrect": "variable expressions and substitution"
+    },
+    {
+      "item_id": "A5-PRE-002",
+      "node_id": "A5",
+      "item_family": "prerequisite_probe",
+      "prompt": "Probe coordinate plane and ordered pairs before diagnosing linear relationship tables and graphs, and state whether the learner is missing multiplicative structure or only the current proportional application.",
+      "expected_evidence": "shows whether coordinate plane and ordered pairs is secure enough to support linear relationship tables and graphs",
+      "dominant_failure_mode": "proportional_linear_misclassification",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in coordinate plane and ordered pairs from a current-node issue in linear relationship tables and graphs.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "A4",
+      "suspected_knowledge_gap_if_incorrect": "coordinate plane and ordered pairs"
     }
   ]
 }

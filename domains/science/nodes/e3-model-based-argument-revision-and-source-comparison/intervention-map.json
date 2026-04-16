@@ -1,0 +1,26 @@
+{
+  "node_id": "E3",
+  "version": "0.1",
+  "interventions": {
+    "E3-FM-01": [
+      "compare an original claim with new evidence that changes the best explanation",
+      "ask what must change in the argument and why",
+      "model short revision statements such as I used to think now I think"
+    ],
+    "E3-FM-02": [
+      "pair each claim with both a model and a data source",
+      "ask what each source contributes to the argument",
+      "compare arguments that use one source versus coordinated sources"
+    ],
+    "E3-FM-03": [
+      "sort stronger and weaker sources for the same question",
+      "highlight relevance directness and explanatory fit",
+      "compare evidence-based and unsupported source choices"
+    ],
+    "E3-FM-04": [
+      "repeat revision routines across life physical and Earth-space argument tasks",
+      "preserve the revision structure while changing the science domain",
+      "fade scaffolds after one successful familiar example"
+    ]
+  }
+}

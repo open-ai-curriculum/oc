@@ -1,0 +1,23 @@
+{
+  "node_id": "H6",
+  "examples": [
+    {
+      "learner_id": "sample-h4-blocked-01",
+      "node_id": "H6",
+      "status": "blocked",
+      "dependency_status": { "H3": "secure", "Q4": "secure" },
+      "direct_accuracy": 0.56,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["H6-FM-02"],
+      "recommended_interventions": [
+        "pair sources explicitly and ask what they agree or disagree on",
+        "mark corroborating details in matching colors"
+      ],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Reads sources separately and does not yet compare them for corroboration."
+    }
+  ]
+}

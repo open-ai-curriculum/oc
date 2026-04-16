@@ -1,0 +1,18 @@
+{
+  "node_id": "G4A",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "G4A-G1-01",
+      "node_id": "G4A",
+      "gate": "G1",
+      "prompt": "Complete a bounded foundations and examples task for geographic reasoning with maps data and scale and explain your reasoning.",
+      "response_mode": "oral_or_written_or_annotated",
+      "scoring_rule": "Completes the task accurately and gives a usable explanation of the structure or reasoning.",
+      "failure_mode_targets": [
+        "G4A-FM-01",
+        "G4A-FM-02"
+      ]
+    }
+  ]
+}

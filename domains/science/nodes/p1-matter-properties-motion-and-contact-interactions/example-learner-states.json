@@ -1,0 +1,44 @@
+{
+  "node_id": "P1",
+  "examples": [
+    {
+      "learner_id": "sample-p1-blocked-01",
+      "node_id": "P1",
+      "status": "blocked",
+      "dependency_status": {
+        "Q1": "secure",
+        "E1": "secure"
+      },
+      "direct_accuracy": 0.5,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["P1-FM-02", "P1-FM-03"],
+      "recommended_interventions": [
+        "replay the event slowly and name what changed",
+        "pair a visible push or pull with the resulting motion change"
+      ],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Sees motion but does not yet connect the push to the observed outcome consistently."
+    },
+    {
+      "learner_id": "sample-p1-secure-01",
+      "node_id": "P1",
+      "status": "secure",
+      "dependency_status": {
+        "Q1": "secure",
+        "E1": "secure"
+      },
+      "direct_accuracy": 0.94,
+      "explanation_status": "met",
+      "transfer_status": "met",
+      "retention_status": "met",
+      "dominant_failure_modes": [],
+      "recommended_interventions": [],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Describes material properties and contact-driven motion outcomes across multiple familiar contexts."
+    }
+  ]
+}

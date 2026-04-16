@@ -1,0 +1,40 @@
+id: L3
+name: syntax_revision_and_style_control
+domain: ela_literacy
+support_tier: Core release
+maturity_state: Drafted
+supported_profiles:
+  - language-revision-node-package
+evidence_class: Synthetic
+dependencies:
+  - L1
+  - L2
+mastery:
+  direct_accuracy_threshold: 0.85
+  explanation_required: true
+  transfer_required: true
+  retention_check_days: 21
+statuses:
+  - blocked
+  - emerging
+  - provisional
+  - secure
+  - unstable
+verification_gates:
+  - id: G1
+    type: direct_performance
+    pass_rule: revises syntax and style for clarity or effect in at least 5 of 6 supported opportunities
+  - id: G2
+    type: meaning
+    pass_rule: revision choices improve meaning, coherence, or rhetorical control in at least 4 of 5 prompts
+  - id: G3
+    type: transfer
+    pass_rule: succeeds across at least one changed genre, audience, or revision context
+  - id: G4
+    type: retention
+    pass_rule: stable delayed recheck after approximately 21 days
+failure_modes:
+  - L3-FM-01
+  - L3-FM-02
+  - L3-FM-03
+  - L3-FM-04

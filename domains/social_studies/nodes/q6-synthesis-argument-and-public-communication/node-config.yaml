@@ -1,0 +1,39 @@
+id: Q6
+name: synthesis_argument_and_public_communication
+domain: social_studies
+support_tier: Incubation
+maturity_state: Drafted
+supported_profiles:
+- social-studies-synthesis-and-argument-node-package
+evidence_class: Synthetic
+dependencies:
+- Q5
+mastery:
+  direct_accuracy_threshold: 0.85
+  explanation_required: true
+  transfer_required: true
+  retention_check_days: 14
+statuses:
+- blocked
+- emerging
+- provisional
+- secure
+- unstable
+verification_gates:
+- id: G1
+  type: direct_performance
+  pass_rule: '>= 0.85 accuracy across synthesis, argument, and public-communication tasks'
+- id: G2
+  type: meaning
+  pass_rule: explains how the selected evidence supports a claim and why the communication approach fits the audience in at least 2 of 3 prompts
+- id: G3
+  type: transfer
+  pass_rule: successful performance with at least one changed audience or communication context
+- id: G4
+  type: retention
+  pass_rule: '>= 0.80 delayed recheck accuracy after ~14 days'
+failure_modes:
+- Q6-FM-01
+- Q6-FM-02
+- Q6-FM-03
+- Q6-FM-04

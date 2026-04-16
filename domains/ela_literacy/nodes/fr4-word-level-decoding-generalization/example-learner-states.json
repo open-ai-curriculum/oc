@@ -1,0 +1,22 @@
+[
+  {
+    "learner_id": "example-fr4-emerging",
+    "node_id": "FR4",
+    "status": "emerging",
+    "dependency_status": {
+      "FR3": "secure"
+    },
+    "direct_accuracy": 0.79,
+    "explanation_status": "weak",
+    "transfer_status": "weak",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["FR4-FM-01", "FR4-FM-02"],
+    "recommended_interventions": [
+      "rotate multiple small changed sets",
+      "reduce contextual cues that allow guessing"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Learner succeeds on one practiced word set but relies on cues when the set changes."
+  }
+]

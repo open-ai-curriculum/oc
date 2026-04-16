@@ -1,0 +1,16 @@
+{
+  "node_id": "Q5",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "Q5-G1-01",
+      "node_id": "Q5",
+      "gate": "G1",
+      "prompt": "Decide which source, model, or claim is stronger for the question and explain why.",
+      "source_type": "paired_sources_or_models",
+      "response_mode": "oral_or_written_or_annotated",
+      "scoring_rule": "Selects a plausible stronger option and explains the reasoning with relevant features.",
+      "failure_mode_targets": ["Q5-FM-01", "Q5-FM-02"]
+    }
+  ]
+}

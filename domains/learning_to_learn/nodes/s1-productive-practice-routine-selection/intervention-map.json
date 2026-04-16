@@ -1,0 +1,21 @@
+{
+  "node_id": "S1",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "S1-FM-01": [
+      "visible check step after each attempt",
+      "model answer cue or success criterion for comparison",
+      "slower pace so checking happens before the next attempt"
+    ],
+    "S1-FM-02": [
+      "one correction attempt as the expected next move after an error",
+      "brief error recovery routines with immediate restart",
+      "reinforcement of revised attempts not only first-try success"
+    ],
+    "S1-FM-03": [
+      "one or two task-matched routine choices",
+      "modeling of why one routine fits the task better",
+      "routine name paired with task type repeatedly"
+    ]
+  }
+}

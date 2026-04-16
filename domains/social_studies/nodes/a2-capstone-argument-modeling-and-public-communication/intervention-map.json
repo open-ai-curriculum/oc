@@ -1,0 +1,26 @@
+{
+  "node_id": "A2",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "A2-FM-01": [
+      "require the final product to show explicit strand contributions",
+      "use a cross-strand storyboard before final production",
+      "compare integrated and pseudo-integrated public products"
+    ],
+    "A2-FM-02": [
+      "compare the same argument in two media and justify one choice",
+      "require a short rationale for audience medium and evidence fit",
+      "contrast effective and overloaded communication formats"
+    ],
+    "A2-FM-03": [
+      "use a coherence checklist linking model claim and communication choices",
+      "compare aligned and misaligned capstone exemplars",
+      "require revision notes that explain how the final format supports the argument"
+    ],
+    "A2-FM-04": [
+      "reduce production load and preteach medium-specific communication terms",
+      "stage the final product in outline storyboard and full form",
+      "verify whether medium or language scaffolds materially change performance"
+    ]
+  }
+}

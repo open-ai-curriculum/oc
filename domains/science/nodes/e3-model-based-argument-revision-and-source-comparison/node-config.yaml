@@ -1,0 +1,40 @@
+id: E3
+name: model_based_argument_revision_and_source_comparison
+domain: science
+support_tier: Incubation
+maturity_state: Drafted
+supported_profiles:
+- science-middle-grade-node-package
+evidence_class: Synthetic
+dependencies:
+- E2
+- M2
+mastery:
+  direct_accuracy_threshold: 0.9
+  explanation_required: true
+  transfer_required: true
+  retention_check_days: 28
+statuses:
+- blocked
+- emerging
+- provisional
+- secure
+- unstable
+verification_gates:
+- id: G1
+  type: direct_performance
+  pass_rule: '>= 0.90 accuracy across model-based argument, revision, and source-comparison tasks'
+- id: G2
+  type: meaning
+  pass_rule: correct explanation of why a revision or source choice is better supported in at least 2 of 3 prompts
+- id: G3
+  type: transfer
+  pass_rule: successful argument revision in at least one changed science context
+- id: G4
+  type: retention
+  pass_rule: '>= 0.85 delayed recheck accuracy after ~28 days'
+failure_modes:
+- E3-FM-01
+- E3-FM-02
+- E3-FM-03
+- E3-FM-04

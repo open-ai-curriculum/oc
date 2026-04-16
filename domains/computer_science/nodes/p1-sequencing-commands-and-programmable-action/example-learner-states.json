@@ -1,0 +1,42 @@
+[
+  {
+    "learner_id": "example-p1-secure",
+    "node_id": "P1",
+    "status": "secure",
+    "dependency_status": {
+      "D1": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Builds and explains simple command sequences with stable order reasoning and bounded revision."
+  },
+  {
+    "learner_id": "example-p1-emerging",
+    "node_id": "P1",
+    "status": "emerging",
+    "dependency_status": {
+      "D1": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [
+      "P1-FM-01",
+      "P1-FM-02"
+    ],
+    "recommended_interventions": [
+      "P1-INT-01",
+      "P1-INT-02"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Can follow some steps but still treats programs as unordered or goal-only instructions."
+  }
+]

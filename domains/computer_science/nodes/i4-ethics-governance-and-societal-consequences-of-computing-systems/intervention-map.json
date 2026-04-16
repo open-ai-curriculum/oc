@@ -1,0 +1,37 @@
+{
+  "node_id": "I4",
+  "interventions": [
+    {
+      "intervention_id": "I4-INT-01",
+      "name": "I4 Intervention 1",
+      "addresses_failure_modes": [
+        "I4-FM-01"
+      ],
+      "summary": "stakeholder-impact mapping routines that require harms, benefits, and affected groups to be named explicitly"
+    },
+    {
+      "intervention_id": "I4-INT-02",
+      "name": "I4 Intervention 2",
+      "addresses_failure_modes": [
+        "I4-FM-02"
+      ],
+      "summary": "technical-choice-to-social-consequence prompts tying one bounded design decision to one downstream effect"
+    },
+    {
+      "intervention_id": "I4-INT-03",
+      "name": "I4 Intervention 3",
+      "addresses_failure_modes": [
+        "I4-FM-03"
+      ],
+      "summary": "governance scenario analyses comparing policy, review, and accountability mechanisms"
+    },
+    {
+      "intervention_id": "I4-INT-04",
+      "name": "I4 Intervention 4",
+      "addresses_failure_modes": [
+        "I4-FM-04"
+      ],
+      "summary": "paired ethics cases using the same stakeholder-and-governance structure in a second computing context"
+    }
+  ]
+}

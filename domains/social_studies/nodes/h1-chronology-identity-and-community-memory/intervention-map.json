@@ -1,0 +1,26 @@
+{
+  "node_id": "H1",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "H1-FM-01": [
+      "use concrete before-now-after sequences",
+      "anchor events with visual timeline strips",
+      "retell the same sequence with one order change to detect the error"
+    ],
+    "H1-FM-02": [
+      "pair sources with named people places or groups",
+      "ask who might keep or use this source and why",
+      "connect the source to a familiar community memory example"
+    ],
+    "H1-FM-03": [
+      "contrast personal memory with shared community record",
+      "sort examples into mine our community and imagined story",
+      "use simple language for source type and purpose"
+    ],
+    "H1-FM-04": [
+      "preteach essential vocabulary",
+      "use familiar community examples before transferring to less familiar ones",
+      "reduce expressive demand while preserving chronology reasoning"
+    ]
+  }
+}

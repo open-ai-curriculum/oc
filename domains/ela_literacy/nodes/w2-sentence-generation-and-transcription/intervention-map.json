@@ -1,0 +1,26 @@
+{
+  "node_id": "W2",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "W2-FM-01": [
+      "oral rehearse then write",
+      "brief complete-sentence frame",
+      "single-idea sentence launch"
+    ],
+    "W2-FM-02": [
+      "reduced transcription-load write",
+      "chunked sentence copying-support",
+      "composition-versus-motor split check"
+    ],
+    "W2-FM-03": [
+      "short repeated sentence set",
+      "planning point check after each sentence",
+      "multi-opportunity consistency probe"
+    ],
+    "W2-FM-04": [
+      "picture to question to experience prompt rotation",
+      "same sentence demand across changed contexts",
+      "frame fade across prompts"
+    ]
+  }
+}

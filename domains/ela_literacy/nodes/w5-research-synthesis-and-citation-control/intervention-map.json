@@ -1,0 +1,26 @@
+{
+  "node_id": "W5",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "W5-FM-01": [
+      "one-claim-multiple-sources frame",
+      "idea-based note organization",
+      "explicit synthesis move routine"
+    ],
+    "W5-FM-02": [
+      "draft-with-attribution visible",
+      "single-source boundary stabilization",
+      "reader-can-tell-source check"
+    ],
+    "W5-FM-03": [
+      "copy-versus-paraphrase-versus-synthesis contrast",
+      "source-free restatement before drafting",
+      "one-claim bounded synthesis task"
+    ],
+    "W5-FM-04": [
+      "changed research question rotation",
+      "new source set with same synthesis frame",
+      "controlled question and source variation"
+    ]
+  }
+}

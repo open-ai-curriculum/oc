@@ -1,0 +1,37 @@
+{
+  "node_id": "X1",
+  "interventions": [
+    {
+      "intervention_id": "X1-INT-01",
+      "name": "X1 Intervention 1",
+      "addresses_failure_modes": [
+        "X1-FM-01"
+      ],
+      "summary": "integrated case analyses that require code, data, system, and impact elements to be linked explicitly"
+    },
+    {
+      "intervention_id": "X1-INT-02",
+      "name": "X1 Intervention 2",
+      "addresses_failure_modes": [
+        "X1-FM-02"
+      ],
+      "summary": "technical-mechanism-to-impact prompts pairing one bounded implementation detail with one downstream consequence"
+    },
+    {
+      "intervention_id": "X1-INT-03",
+      "name": "X1 Intervention 3",
+      "addresses_failure_modes": [
+        "X1-FM-03"
+      ],
+      "summary": "artifact explanation routines that require abstraction, data, and system references together"
+    },
+    {
+      "intervention_id": "X1-INT-04",
+      "name": "X1 Intervention 4",
+      "addresses_failure_modes": [
+        "X1-FM-04"
+      ],
+      "summary": "paired AP CSP synthesis tasks using the same integration structure in a second scenario"
+    }
+  ]
+}

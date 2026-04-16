@@ -1,0 +1,40 @@
+[
+  {
+    "learner_id": "example-t6-secure",
+    "node_id": "T6",
+    "status": "secure",
+    "dependency_status": {
+      "T5": "secure",
+      "E4": "secure",
+      "I5": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Coordinates Earth-space evidence, global change reasoning, and critique with bounded synthesis."
+  },
+  {
+    "learner_id": "example-t6-emerging",
+    "node_id": "T6",
+    "status": "emerging",
+    "dependency_status": {
+      "T5": "secure",
+      "E4": "secure",
+      "I5": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["T6-FM-01", "T6-FM-03"],
+    "recommended_interventions": ["T6-INT-01", "T6-INT-03"],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Uses single-stream Earth-space explanations and critiques imprecisely."
+  }
+]

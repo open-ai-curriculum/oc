@@ -1,0 +1,250 @@
+{
+  "node_id": "P5",
+  "policy_version": "1.0",
+  "version": "0.4",
+  "items": [
+    {
+      "item_id": "P5-DIR-001",
+      "node_id": "P5",
+      "item_family": "direct_execution",
+      "prompt": "A robot on a grid must reach a target square without hitting an obstacle. Write or describe the bounded program steps needed to store related values in a bounded structured collection rather than separate ad hoc variables.",
+      "expected_evidence": "store related values in a bounded structured collection rather than separate ad hoc variables",
+      "dominant_failure_mode_targets": [
+        "P5-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates store related values in a bounded structured collection rather than separate ad hoc variables with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "P5-DIR-002",
+      "node_id": "P5",
+      "item_family": "direct_execution",
+      "prompt": "A small interactive game needs a button press to trigger an action, or a repeated movement to continue until a goal is reached. Show how the learner would trace how iteration or data operations affect each element or record.",
+      "expected_evidence": "trace how iteration or data operations affect each element or record",
+      "dominant_failure_mode_targets": [
+        "P5-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates trace how iteration or data operations affect each element or record with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "P5-DIR-003",
+      "node_id": "P5",
+      "item_family": "direct_execution",
+      "prompt": "A short program is split into parts that pass values, repeat work, or update state. Trace the program and show how the learner would connect a data structure choice to the shape of the task.",
+      "expected_evidence": "connect a data structure choice to the shape of the task",
+      "dominant_failure_mode_targets": [
+        "P5-FM-03"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates connect a data structure choice to the shape of the task with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "P5-EXP-001",
+      "node_id": "P5",
+      "item_family": "explanation",
+      "prompt": "Why is a list or array stronger than a pile of unrelated variables for some tasks?",
+      "expected_evidence": "a collection organizes related values under one bounded structure, making iteration and coordinated operations possible.",
+      "dominant_failure_mode_targets": [
+        "P5-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to a collection organizes related values under one bounded structure, making iteration and coordinated operations possible."
+    },
+    {
+      "item_id": "P5-EXP-002",
+      "node_id": "P5",
+      "item_family": "explanation",
+      "prompt": "What should you pay attention to while iterating through a collection?",
+      "expected_evidence": "you should track what each element represents, how the operation uses it, and how the collection or output changes after each step.",
+      "dominant_failure_mode_targets": [
+        "P5-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to you should track what each element represents, how the operation uses it, and how the collection or output changes after each step."
+    },
+    {
+      "item_id": "P5-ERR-001",
+      "node_id": "P5",
+      "item_family": "error_diagnosis",
+      "prompt": "A learner response in structured data, collections, and programmed data operations suggests this breakdown: learner treats a collection as undifferentiated storage and does not track element meaning or structure. Diagnose the likely misconception or structural error. Focus on collection-as-bag thinking.",
+      "expected_evidence": "store related values in a bounded structured collection rather than separate ad hoc variables",
+      "dominant_failure_mode_targets": [
+        "P5-FM-01"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward store related values in a bounded structured collection rather than separate ad hoc variables."
+    },
+    {
+      "item_id": "P5-ERR-002",
+      "node_id": "P5",
+      "item_family": "error_diagnosis",
+      "prompt": "A learner response in structured data, collections, and programmed data operations suggests this breakdown: learner loses track of how a loop or data operation changes the collection over time. Diagnose the likely misconception or structural error. Focus on iteration-state drift.",
+      "expected_evidence": "trace how iteration or data operations affect each element or record",
+      "dominant_failure_mode_targets": [
+        "P5-FM-02"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward trace how iteration or data operations affect each element or record."
+    },
+    {
+      "item_id": "P5-TRA-001",
+      "node_id": "P5",
+      "item_family": "transfer",
+      "prompt": "A learner who used blocks now has to reason through the same programming idea in a text-based example. Explain how they would connect a data structure choice to the shape of the task in the changed representation.",
+      "expected_evidence": "connect a data structure choice to the shape of the task",
+      "dominant_failure_mode_targets": [
+        "P5-FM-03"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves connect a data structure choice to the shape of the task in a changed computing context or representation."
+    },
+    {
+      "item_id": "P5-TRA-002",
+      "node_id": "P5",
+      "item_family": "transfer",
+      "prompt": "A classroom app changes from a game context to a data-processing context, but the same underlying programming structure still matters. Show how the learner would avoid losing meaning about what stored fields or collection positions represent.",
+      "expected_evidence": "avoid losing meaning about what stored fields or collection positions represent",
+      "dominant_failure_mode_targets": [
+        "P5-FM-04"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves avoid losing meaning about what stored fields or collection positions represent in a changed computing context or representation."
+    },
+    {
+      "item_id": "P5-RET-001",
+      "node_id": "P5",
+      "item_family": "retention",
+      "prompt": "After a delay, the learner revisits a bounded program and must explain the result of one function call, loop, event, or state change. Show how they would store related values in a bounded structured collection rather than separate ad hoc variables.",
+      "expected_evidence": "store related values in a bounded structured collection rather than separate ad hoc variables",
+      "dominant_failure_mode_targets": [
+        "P5-FM-04"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_explanation",
+        "constructed_response"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability",
+      "scoring_guidance": "Meets when the learner still demonstrates store related values in a bounded structured collection rather than separate ad hoc variables on a delayed recheck without a blocking recurrence."
+    },
+    {
+      "item_id": "P5-PRE-001",
+      "node_id": "P5",
+      "item_family": "prerequisite_probe",
+      "prompt": "Before closing structured data, collections, and programmed data operations, run a short check on functions, modular program design, and abstraction boundaries using a bounded programming task and determine whether the current error is really an upstream dependency issue.",
+      "expected_evidence": "shows whether functions, modular program design, and abstraction boundaries is secure enough to support structured data, collections, and programmed data operations",
+      "dominant_failure_mode_targets": [
+        "P5-FM-01"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in functions, modular program design, and abstraction boundaries from a current-node issue in structured data, collections, and programmed data operations.",
+      "dependency_target": "P4",
+      "suspected_knowledge_gap_if_incorrect": "functions, modular program design, and abstraction boundaries"
+    },
+    {
+      "item_id": "P5-PRE-002",
+      "node_id": "P5",
+      "item_family": "prerequisite_probe",
+      "prompt": "Before closing structured data, collections, and programmed data operations, run a short check on data transformation, tables, and computational models using a bounded programming task and determine whether the current error is really an upstream dependency issue.",
+      "expected_evidence": "shows whether data transformation, tables, and computational models is secure enough to support structured data, collections, and programmed data operations",
+      "dominant_failure_mode_targets": [
+        "P5-FM-02"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in data transformation, tables, and computational models from a current-node issue in structured data, collections, and programmed data operations.",
+      "dependency_target": "R3",
+      "suspected_knowledge_gap_if_incorrect": "data transformation, tables, and computational models"
+    }
+  ]
+}

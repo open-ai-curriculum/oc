@@ -1,0 +1,26 @@
+{
+  "node_id": "R5",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "R5-FM-01": [
+      "summary-versus-analysis informational contrast",
+      "fact-then-analysis routine",
+      "author-claim or structure frame"
+    ],
+    "R5-FM-02": [
+      "claim-evidence-source linkage frame",
+      "how-does-this-support-the-claim prompt",
+      "single-claim informational analysis"
+    ],
+    "R5-FM-03": [
+      "structure-claim-source concept sort",
+      "single-text feature isolation",
+      "reduced informational-term load"
+    ],
+    "R5-FM-04": [
+      "changed informational text rotation",
+      "new source set with same analysis frame",
+      "stable evidence demand across prompt shifts"
+    ]
+  }
+}

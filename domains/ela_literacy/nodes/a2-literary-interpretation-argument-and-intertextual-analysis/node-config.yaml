@@ -1,0 +1,44 @@
+id: A2
+name: literary_interpretation_argument_and_intertextual_analysis
+domain: ela_literacy
+support_tier: Core release
+maturity_state: Superseded
+supported_profiles:
+- legacy-writing-or-analysis-node-package
+evidence_class: Synthetic
+dependencies:
+- W4
+- R4
+- L3
+mastery:
+  direct_accuracy_threshold: 0.85
+  explanation_required: true
+  transfer_required: true
+  retention_check_days: 21
+statuses:
+- blocked
+- emerging
+- provisional
+- secure
+- unstable
+verification_gates:
+- id: G1
+  type: direct_performance
+  pass_rule: develops a sustained literary interpretation or intertextual argument
+    in at least 5 of 6 supported opportunities
+- id: G2
+  type: meaning
+  pass_rule: literary explanation remains coherent, interpretive, and text-grounded
+    in at least 4 of 5 prompts
+- id: G3
+  type: transfer
+  pass_rule: succeeds across at least one changed literary text set, comparative task,
+    or interpretive prompt
+- id: G4
+  type: retention
+  pass_rule: stable delayed recheck after approximately 21 days
+failure_modes:
+- A2-FM-01
+- A2-FM-02
+- A2-FM-03
+- A2-FM-04

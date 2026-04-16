@@ -1,29 +1,294 @@
 {
   "node_id": "T4",
+  "policy_version": "1.0",
+  "version": "0.3",
   "items": [
     {
-      "item_id": "t4-a1",
-      "item_family": "direct_execution",
-      "prompt": "Representative direct task for multiplicative comparison and scaling.",
-      "expected_evidence": [
-        "Learner uses the intended structure, not only an answer-getting shortcut."
+      "item_id": "T4-D-001",
+      "family": "direct_execution",
+      "prompt": "Decide whether the table `(2, 6), (4, 12), (7, 21)` is proportional and justify the constant of proportionality.",
+      "target_node": "T4",
+      "secondary_dependency_targets": [
+        "T2",
+        "T3"
       ],
-      "dominant_failure_mode_targets": [
-        "additive_substitution"
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
       ],
-      "context": "comparison stories"
-    },
-    {
-      "item_id": "t4-b1",
-      "item_family": "explanation",
-      "prompt": "Explain why the chosen structure fits the situation.",
-      "expected_evidence": [
-        "Learner names the structural relationship correctly."
-      ],
-      "dominant_failure_mode_targets": [
+      "dominant_failure_modes_if_incorrect": [
+        "additive_substitution",
         "scale_factor_loss"
       ],
-      "context": "strip diagrams"
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "T4-D-002",
+      "family": "direct_execution",
+      "prompt": "Find the unit rate for 18 miles in 3 hours and explain what it means.",
+      "target_node": "T4",
+      "secondary_dependency_targets": [
+        "T2",
+        "T3"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "scale_factor_loss",
+        "comparison_reference_confusion"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "T4-D-003",
+      "family": "direct_execution",
+      "prompt": "Find 15% of 80 and explain how the percent is acting as a rate per hundred.",
+      "target_node": "T4",
+      "secondary_dependency_targets": [
+        "T2",
+        "T3"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "comparison_reference_confusion",
+        "inverse_scale_breakdown"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "T4-D-004",
+      "family": "direct_execution",
+      "prompt": "Decide whether the table `(2, 6), (4, 12), (7, 21)` is proportional and justify the constant of proportionality.",
+      "target_node": "T4",
+      "secondary_dependency_targets": [
+        "T2",
+        "T3"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "inverse_scale_breakdown",
+        "additive_substitution"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "T4-E-001",
+      "family": "explanation",
+      "prompt": "Explain why equal differences alone do not prove a relationship is proportional.",
+      "target_node": "T4",
+      "secondary_dependency_targets": [
+        "T2",
+        "T3"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "scale_factor_loss"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "T4-E-002",
+      "family": "explanation",
+      "prompt": "Explain how a unit rate and a constant of proportionality describe the same multiplicative structure.",
+      "target_node": "T4",
+      "secondary_dependency_targets": [
+        "T2",
+        "T3"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "comparison_reference_confusion"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "T4-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student says a table is proportional because it increases by 3 each row. Diagnose the additive-pattern error. Focus on additive substitution.",
+      "target_node": "T4",
+      "secondary_dependency_targets": [
+        "T2",
+        "T3"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "additive_substitution"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "T4-C-002",
+      "family": "error_diagnosis",
+      "prompt": "A student scales one quantity by 2 but the other by 3 and still claims proportionality. Identify the breakdown. Focus on scale factor loss.",
+      "target_node": "T4",
+      "secondary_dependency_targets": [
+        "T2",
+        "T3"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "scale_factor_loss"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "T4-T-001",
+      "family": "transfer",
+      "prompt": "A map uses 1 cm for every 5 km. How far does 7.2 cm represent, and why is the relationship proportional?",
+      "target_node": "T4",
+      "secondary_dependency_targets": [
+        "T2",
+        "T3"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "comparison_reference_confusion"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "T4-T-002",
+      "family": "transfer",
+      "prompt": "A recipe uses 3 cups of flour for 2 batches. Write an equation relating flour to batches and find the amount for 5 batches.",
+      "target_node": "T4",
+      "secondary_dependency_targets": [
+        "T2",
+        "T3"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "inverse_scale_breakdown"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "T4-R-001",
+      "family": "retention",
+      "prompt": "On a delayed check, determine whether 4 notebooks for $6 and 10 notebooks for $15 are proportional and justify your reasoning.",
+      "target_node": "T4",
+      "secondary_dependency_targets": [
+        "T2",
+        "T3"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "inverse_scale_breakdown"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability"
+    },
+    {
+      "item_id": "T4-P-001",
+      "family": "prerequisite_probe",
+      "prompt": "Probe multiplication fact structure before diagnosing multiplicative comparison and scaling, and state whether the learner is missing multiplicative structure or only the current proportional application.",
+      "target_node": "T4",
+      "secondary_dependency_targets": [
+        "T2",
+        "T3"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "scale_factor_loss"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "T2",
+      "suspected_knowledge_gap_if_incorrect": "multiplication fact structure",
+      "scoring_focus": "dependency_disambiguation"
+    },
+    {
+      "item_id": "T4-P-002",
+      "family": "prerequisite_probe",
+      "prompt": "Probe division as unknown group or share before diagnosing multiplicative comparison and scaling, and state whether the learner is missing multiplicative structure or only the current proportional application.",
+      "target_node": "T4",
+      "secondary_dependency_targets": [
+        "T2",
+        "T3"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "comparison_reference_confusion"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "T3",
+      "suspected_knowledge_gap_if_incorrect": "division as unknown group or share",
+      "scoring_focus": "dependency_disambiguation"
     }
   ]
 }

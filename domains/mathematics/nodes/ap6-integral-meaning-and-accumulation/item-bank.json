@@ -1,0 +1,140 @@
+{
+  "node_id": "AP6",
+  "policy_version": "1.0",
+  "items": [
+    {
+      "item_id": "AP6-DIR-001",
+      "node_id": "AP6",
+      "item_family": "direct_execution",
+      "prompt": "Compute `-7 + 12` and explain the sign of the result.",
+      "expected_evidence": "interpret definite integrals consistently as accumulation or net change across tables, graphs, formulas, and verbal descriptions",
+      "dominant_failure_mode": "accumulation_without_rate_link",
+      "scoring_guidance": "Meets when the learner demonstrates interpret definite integrals consistently as accumulation or net change across tables, graphs, formulas, and verbal descriptions with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
+    },
+    {
+      "item_id": "AP6-DIR-002",
+      "node_id": "AP6",
+      "item_family": "direct_execution",
+      "prompt": "Compute `-4(3)` and compare the result to `4(-3)`.",
+      "expected_evidence": "explain why accumulation functions and antiderivatives are connected through changing rate",
+      "dominant_failure_mode": "fundamental_theorem_connection_breakdown",
+      "scoring_guidance": "Meets when the learner demonstrates explain why accumulation functions and antiderivatives are connected through changing rate with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
+    },
+    {
+      "item_id": "AP6-DIR-003",
+      "node_id": "AP6",
+      "item_family": "direct_execution",
+      "prompt": "Evaluate `6 - 9` on a number line and with a signed-distance interpretation.",
+      "expected_evidence": "distinguish signed area, total amount, and accumulated change when the context requires different interpretations",
+      "dominant_failure_mode": "signed_area_orientation_confusion",
+      "scoring_guidance": "Meets when the learner demonstrates distinguish signed area, total amount, and accumulated change when the context requires different interpretations with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
+    },
+    {
+      "item_id": "AP6-EXP-001",
+      "node_id": "AP6",
+      "item_family": "explanation",
+      "prompt": "Explain why subtracting a negative can increase a quantity.",
+      "expected_evidence": "interpret definite integrals consistently as accumulation or net change across tables, graphs, formulas, and verbal descriptions",
+      "dominant_failure_mode": "fundamental_theorem_connection_breakdown",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to interpret definite integrals consistently as accumulation or net change across tables, graphs, formulas, and verbal descriptions.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "AP6-EXP-002",
+      "node_id": "AP6",
+      "item_family": "explanation",
+      "prompt": "Explain how sign and magnitude work together in signed-number operations.",
+      "expected_evidence": "explain why accumulation functions and antiderivatives are connected through changing rate",
+      "dominant_failure_mode": "signed_area_orientation_confusion",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to explain why accumulation functions and antiderivatives are connected through changing rate.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "AP6-ERR-001",
+      "node_id": "AP6",
+      "item_family": "error_diagnosis",
+      "prompt": "A student says `-3 + -5 = 2`. Diagnose the sign reasoning error. Focus on accumulation without rate link.",
+      "expected_evidence": "interpret definite integrals consistently as accumulation or net change across tables, graphs, formulas, and verbal descriptions",
+      "dominant_failure_mode": "accumulation_without_rate_link",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward interpret definite integrals consistently as accumulation or net change across tables, graphs, formulas, and verbal descriptions.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "AP6-ERR-002",
+      "node_id": "AP6",
+      "item_family": "error_diagnosis",
+      "prompt": "A student computes `6 - (-2)` as `4`. Explain the inverse-structure mistake. Focus on fundamental theorem connection breakdown.",
+      "expected_evidence": "explain why accumulation functions and antiderivatives are connected through changing rate",
+      "dominant_failure_mode": "fundamental_theorem_connection_breakdown",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward explain why accumulation functions and antiderivatives are connected through changing rate.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "AP6-TRA-001",
+      "node_id": "AP6",
+      "item_family": "transfer",
+      "prompt": "A submarine is at `-120` meters and rises `35` meters. Write and solve the signed-number expression.",
+      "expected_evidence": "interpret definite integrals consistently as accumulation or net change across tables, graphs, formulas, and verbal descriptions",
+      "dominant_failure_mode": "signed_area_orientation_confusion",
+      "scoring_guidance": "Meets when the learner preserves interpret definite integrals consistently as accumulation or net change across tables, graphs, formulas, and verbal descriptions in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "AP6-TRA-002",
+      "node_id": "AP6",
+      "item_family": "transfer",
+      "prompt": "A team loses 4 yards on one play and gains 11 on the next. Model the net change with signed numbers.",
+      "expected_evidence": "explain why accumulation functions and antiderivatives are connected through changing rate",
+      "dominant_failure_mode": "antiderivative_procedure_without_context",
+      "scoring_guidance": "Meets when the learner preserves explain why accumulation functions and antiderivatives are connected through changing rate in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "AP6-RET-001",
+      "node_id": "AP6",
+      "item_family": "retention",
+      "prompt": "After a delay, compute `-8 - 5` and justify both the sign and the magnitude.",
+      "expected_evidence": "interpret definite integrals consistently as accumulation or net change across tables, graphs, formulas, and verbal descriptions",
+      "dominant_failure_mode": "antiderivative_procedure_without_context",
+      "scoring_guidance": "Meets when the learner still demonstrates interpret definite integrals consistently as accumulation or net change across tables, graphs, formulas, and verbal descriptions on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "AP6-PRE-001",
+      "node_id": "AP6",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a prerequisite check on derivative rules and computation to decide whether the learner’s signed-number error comes from upstream whole-number structure or from current-node reasoning.",
+      "expected_evidence": "shows whether derivative rules and computation is secure enough to support integral meaning and accumulation",
+      "dominant_failure_mode": "fundamental_theorem_connection_breakdown",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in derivative rules and computation from a current-node issue in integral meaning and accumulation.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "AP4",
+      "suspected_knowledge_gap_if_incorrect": "derivative rules and computation"
+    },
+    {
+      "item_id": "AP6-PRE-002",
+      "node_id": "AP6",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a prerequisite check on unit rate reasoning to decide whether the learner’s signed-number error comes from upstream whole-number structure or from current-node reasoning.",
+      "expected_evidence": "shows whether unit rate reasoning is secure enough to support integral meaning and accumulation",
+      "dominant_failure_mode": "signed_area_orientation_confusion",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in unit rate reasoning from a current-node issue in integral meaning and accumulation.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "Q2",
+      "suspected_knowledge_gap_if_incorrect": "unit rate reasoning"
+    }
+  ]
+}

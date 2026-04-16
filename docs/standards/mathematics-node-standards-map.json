@@ -1,7 +1,7 @@
 {
   "meta": {
     "generated_on": "2026-04-14",
-    "node_count": 132,
+    "node_count": 146,
     "state_profile_count": 15,
     "content_baseline_document": "docs/standards/mathematics-content-standards-baseline.md",
     "performance_baseline_document": "docs/standards/mathematics-performance-standards-baseline.md",
@@ -15829,6 +15829,652 @@
       }
     },
     {
+      "node_id": "W5",
+      "node_name": "sampling_distributions",
+      "family_id": "W",
+      "family_name": "secondary_statistics_and_probability",
+      "graph_dependencies": [
+        "W1",
+        "W4"
+      ],
+      "content_baseline": {
+        "mapping_status": "mapped",
+        "primary_grade_band": "Grades 6-12",
+        "primary_content_domain": "statistics and probability",
+        "cluster_or_grouping": "distributions, association, inference, design, and probability",
+        "anchor_statement": "analyze data, reason about variability, and make probabilistic or inferential claims",
+        "coverage_note": "Crosses from middle-grades statistics and probability into high-school statistics.",
+        "official_identifier": null,
+        "review_status": "draft"
+      },
+      "performance_baseline": {
+        "mapping_status": "mapped",
+        "minimum_expected_performance_level": "Proficient",
+        "stretch_performance_level": "Advanced",
+        "evidence_rule": "A stable proficiency claim must respect the node's direct performance, meaning, transfer, and retention requirements, and must not hide dependency instability or dominant failure modes.",
+        "review_status": "draft"
+      },
+      "ccss_mathematics": {
+        "mapping_status": "mapped",
+        "grade_band_or_category": "Grades 6-12",
+        "domain": "statistics and probability",
+        "cluster_or_grouping": "distributions, association, inference, design, and probability",
+        "anchor_statement": "analyze data, reason about variability, and make probabilistic or inferential claims",
+        "official_identifier": null,
+        "coverage_note": "Crosses from middle-grades statistics and probability into high-school statistics.",
+        "review_status": "draft"
+      },
+      "state_profiles": {
+        "california-mathematics-standards": {
+          "mapping_status": "inherits_canonical_baseline_with_state_metadata",
+          "relationship_type": "baseline-aligned",
+          "alignment_note": "State profile is baseline-aligned. Use the canonical mathematics-content baseline mapping, but preserve explicit state distinctions during later identifier-level crosswalk work.",
+          "state_distinction_note": "California additions and state implementation materials should be preserved as explicit metadata rather than collapsed into generic CCSS labels"
+        },
+        "colorado-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "Prepared Graduate Competencies and Extended Evidence Outcomes are prominent structural elements that should not be flattened away"
+        },
+        "florida-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "Mathematical Thinking and Reasoning standards operate alongside content benchmarks and should be preserved in the repository model"
+        },
+        "georgia-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "Georgia exposes CASE-linked standards publication and state-wide supporting frameworks that may become useful secondary mapping metadata"
+        },
+        "illinois-mathematics-standards": {
+          "mapping_status": "inherits_canonical_baseline_with_state_metadata",
+          "relationship_type": "baseline-aligned",
+          "alignment_note": "State profile is baseline-aligned. Use the canonical mathematics-content baseline mapping, but preserve explicit state distinctions during later identifier-level crosswalk work.",
+          "state_distinction_note": "Illinois preserves a clear state identity around the Illinois Learning Standards even where the content structure remains closely aligned to Common Core"
+        },
+        "massachusetts-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "the framework presentation and state guidance context should be preserved rather than flattening Massachusetts to generic CCSS naming only"
+        },
+        "new-jersey-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "New Jersey uses its own NJSLS mathematics family identity and explicitly presents a 2023 standards edition"
+        },
+        "new-york-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "New York-specific revisions, transitions, and guidance materials should be preserved as state metadata rather than assumed to be identical to baseline CCSS labels"
+        },
+        "north-carolina-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "NC Math 1, NC Math 2, and NC Math 3 form a prominent secondary sequence that should be represented directly"
+        },
+        "ohio-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "Ohio publicly links content standards, model curricula, and standards-for-mathematical-practice progressions in a more integrated way than some states"
+        },
+        "pennsylvania-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "the Pennsylvania Core naming and adjacent early-learning standards materials should be preserved rather than collapsed into generic CCSS-only language"
+        },
+        "tennessee-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "the literacy standards for mathematical proficiency create an additional cross-cutting alignment surface not commonly foregrounded in other state profiles"
+        },
+        "texas-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "student expectations and process-oriented expectations are integral to the TEKS surface and should not be flattened into generic CCSS-style domain labels"
+        },
+        "virginia-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "Virginia publishes supporting materials such as Understanding the Standards and instructional guides alongside the standards surface"
+        },
+        "washington-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "data science is explicitly named in the current Washington mathematics standards review and adoption surface"
+        }
+      }
+    },
+    {
+      "node_id": "W6",
+      "node_name": "inference_for_proportions",
+      "family_id": "W",
+      "family_name": "secondary_statistics_and_probability",
+      "graph_dependencies": [
+        "W5",
+        "W3"
+      ],
+      "content_baseline": {
+        "mapping_status": "mapped",
+        "primary_grade_band": "Grades 6-12",
+        "primary_content_domain": "statistics and probability",
+        "cluster_or_grouping": "distributions, association, inference, design, and probability",
+        "anchor_statement": "analyze data, reason about variability, and make probabilistic or inferential claims",
+        "coverage_note": "Crosses from middle-grades statistics and probability into high-school statistics.",
+        "official_identifier": null,
+        "review_status": "draft"
+      },
+      "performance_baseline": {
+        "mapping_status": "mapped",
+        "minimum_expected_performance_level": "Proficient",
+        "stretch_performance_level": "Advanced",
+        "evidence_rule": "A stable proficiency claim must respect the node's direct performance, meaning, transfer, and retention requirements, and must not hide dependency instability or dominant failure modes.",
+        "review_status": "draft"
+      },
+      "ccss_mathematics": {
+        "mapping_status": "mapped",
+        "grade_band_or_category": "Grades 6-12",
+        "domain": "statistics and probability",
+        "cluster_or_grouping": "distributions, association, inference, design, and probability",
+        "anchor_statement": "analyze data, reason about variability, and make probabilistic or inferential claims",
+        "official_identifier": null,
+        "coverage_note": "Crosses from middle-grades statistics and probability into high-school statistics.",
+        "review_status": "draft"
+      },
+      "state_profiles": {
+        "california-mathematics-standards": {
+          "mapping_status": "inherits_canonical_baseline_with_state_metadata",
+          "relationship_type": "baseline-aligned",
+          "alignment_note": "State profile is baseline-aligned. Use the canonical mathematics-content baseline mapping, but preserve explicit state distinctions during later identifier-level crosswalk work.",
+          "state_distinction_note": "California additions and state implementation materials should be preserved as explicit metadata rather than collapsed into generic CCSS labels"
+        },
+        "colorado-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "Prepared Graduate Competencies and Extended Evidence Outcomes are prominent structural elements that should not be flattened away"
+        },
+        "florida-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "Mathematical Thinking and Reasoning standards operate alongside content benchmarks and should be preserved in the repository model"
+        },
+        "georgia-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "Georgia exposes CASE-linked standards publication and state-wide supporting frameworks that may become useful secondary mapping metadata"
+        },
+        "illinois-mathematics-standards": {
+          "mapping_status": "inherits_canonical_baseline_with_state_metadata",
+          "relationship_type": "baseline-aligned",
+          "alignment_note": "State profile is baseline-aligned. Use the canonical mathematics-content baseline mapping, but preserve explicit state distinctions during later identifier-level crosswalk work.",
+          "state_distinction_note": "Illinois preserves a clear state identity around the Illinois Learning Standards even where the content structure remains closely aligned to Common Core"
+        },
+        "massachusetts-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "the framework presentation and state guidance context should be preserved rather than flattening Massachusetts to generic CCSS naming only"
+        },
+        "new-jersey-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "New Jersey uses its own NJSLS mathematics family identity and explicitly presents a 2023 standards edition"
+        },
+        "new-york-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "New York-specific revisions, transitions, and guidance materials should be preserved as state metadata rather than assumed to be identical to baseline CCSS labels"
+        },
+        "north-carolina-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "NC Math 1, NC Math 2, and NC Math 3 form a prominent secondary sequence that should be represented directly"
+        },
+        "ohio-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "Ohio publicly links content standards, model curricula, and standards-for-mathematical-practice progressions in a more integrated way than some states"
+        },
+        "pennsylvania-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "the Pennsylvania Core naming and adjacent early-learning standards materials should be preserved rather than collapsed into generic CCSS-only language"
+        },
+        "tennessee-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "the literacy standards for mathematical proficiency create an additional cross-cutting alignment surface not commonly foregrounded in other state profiles"
+        },
+        "texas-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "student expectations and process-oriented expectations are integral to the TEKS surface and should not be flattened into generic CCSS-style domain labels"
+        },
+        "virginia-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "Virginia publishes supporting materials such as Understanding the Standards and instructional guides alongside the standards surface"
+        },
+        "washington-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "data science is explicitly named in the current Washington mathematics standards review and adoption surface"
+        }
+      }
+    },
+    {
+      "node_id": "W7",
+      "node_name": "inference_for_means",
+      "family_id": "W",
+      "family_name": "secondary_statistics_and_probability",
+      "graph_dependencies": [
+        "W5",
+        "W3"
+      ],
+      "content_baseline": {
+        "mapping_status": "mapped",
+        "primary_grade_band": "Grades 6-12",
+        "primary_content_domain": "statistics and probability",
+        "cluster_or_grouping": "distributions, association, inference, design, and probability",
+        "anchor_statement": "analyze data, reason about variability, and make probabilistic or inferential claims",
+        "coverage_note": "Crosses from middle-grades statistics and probability into high-school statistics.",
+        "official_identifier": null,
+        "review_status": "draft"
+      },
+      "performance_baseline": {
+        "mapping_status": "mapped",
+        "minimum_expected_performance_level": "Proficient",
+        "stretch_performance_level": "Advanced",
+        "evidence_rule": "A stable proficiency claim must respect the node's direct performance, meaning, transfer, and retention requirements, and must not hide dependency instability or dominant failure modes.",
+        "review_status": "draft"
+      },
+      "ccss_mathematics": {
+        "mapping_status": "mapped",
+        "grade_band_or_category": "Grades 6-12",
+        "domain": "statistics and probability",
+        "cluster_or_grouping": "distributions, association, inference, design, and probability",
+        "anchor_statement": "analyze data, reason about variability, and make probabilistic or inferential claims",
+        "official_identifier": null,
+        "coverage_note": "Crosses from middle-grades statistics and probability into high-school statistics.",
+        "review_status": "draft"
+      },
+      "state_profiles": {
+        "california-mathematics-standards": {
+          "mapping_status": "inherits_canonical_baseline_with_state_metadata",
+          "relationship_type": "baseline-aligned",
+          "alignment_note": "State profile is baseline-aligned. Use the canonical mathematics-content baseline mapping, but preserve explicit state distinctions during later identifier-level crosswalk work.",
+          "state_distinction_note": "California additions and state implementation materials should be preserved as explicit metadata rather than collapsed into generic CCSS labels"
+        },
+        "colorado-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "Prepared Graduate Competencies and Extended Evidence Outcomes are prominent structural elements that should not be flattened away"
+        },
+        "florida-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "Mathematical Thinking and Reasoning standards operate alongside content benchmarks and should be preserved in the repository model"
+        },
+        "georgia-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "Georgia exposes CASE-linked standards publication and state-wide supporting frameworks that may become useful secondary mapping metadata"
+        },
+        "illinois-mathematics-standards": {
+          "mapping_status": "inherits_canonical_baseline_with_state_metadata",
+          "relationship_type": "baseline-aligned",
+          "alignment_note": "State profile is baseline-aligned. Use the canonical mathematics-content baseline mapping, but preserve explicit state distinctions during later identifier-level crosswalk work.",
+          "state_distinction_note": "Illinois preserves a clear state identity around the Illinois Learning Standards even where the content structure remains closely aligned to Common Core"
+        },
+        "massachusetts-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "the framework presentation and state guidance context should be preserved rather than flattening Massachusetts to generic CCSS naming only"
+        },
+        "new-jersey-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "New Jersey uses its own NJSLS mathematics family identity and explicitly presents a 2023 standards edition"
+        },
+        "new-york-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "New York-specific revisions, transitions, and guidance materials should be preserved as state metadata rather than assumed to be identical to baseline CCSS labels"
+        },
+        "north-carolina-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "NC Math 1, NC Math 2, and NC Math 3 form a prominent secondary sequence that should be represented directly"
+        },
+        "ohio-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "Ohio publicly links content standards, model curricula, and standards-for-mathematical-practice progressions in a more integrated way than some states"
+        },
+        "pennsylvania-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "the Pennsylvania Core naming and adjacent early-learning standards materials should be preserved rather than collapsed into generic CCSS-only language"
+        },
+        "tennessee-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "the literacy standards for mathematical proficiency create an additional cross-cutting alignment surface not commonly foregrounded in other state profiles"
+        },
+        "texas-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "student expectations and process-oriented expectations are integral to the TEKS surface and should not be flattened into generic CCSS-style domain labels"
+        },
+        "virginia-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "Virginia publishes supporting materials such as Understanding the Standards and instructional guides alongside the standards surface"
+        },
+        "washington-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "data science is explicitly named in the current Washington mathematics standards review and adoption surface"
+        }
+      }
+    },
+    {
+      "node_id": "W8",
+      "node_name": "chi_square_reasoning",
+      "family_id": "W",
+      "family_name": "secondary_statistics_and_probability",
+      "graph_dependencies": [
+        "W4",
+        "W3"
+      ],
+      "content_baseline": {
+        "mapping_status": "mapped",
+        "primary_grade_band": "Grades 6-12",
+        "primary_content_domain": "statistics and probability",
+        "cluster_or_grouping": "distributions, association, inference, design, and probability",
+        "anchor_statement": "analyze data, reason about variability, and make probabilistic or inferential claims",
+        "coverage_note": "Crosses from middle-grades statistics and probability into high-school statistics.",
+        "official_identifier": null,
+        "review_status": "draft"
+      },
+      "performance_baseline": {
+        "mapping_status": "mapped",
+        "minimum_expected_performance_level": "Proficient",
+        "stretch_performance_level": "Advanced",
+        "evidence_rule": "A stable proficiency claim must respect the node's direct performance, meaning, transfer, and retention requirements, and must not hide dependency instability or dominant failure modes.",
+        "review_status": "draft"
+      },
+      "ccss_mathematics": {
+        "mapping_status": "mapped",
+        "grade_band_or_category": "Grades 6-12",
+        "domain": "statistics and probability",
+        "cluster_or_grouping": "distributions, association, inference, design, and probability",
+        "anchor_statement": "analyze data, reason about variability, and make probabilistic or inferential claims",
+        "official_identifier": null,
+        "coverage_note": "Crosses from middle-grades statistics and probability into high-school statistics.",
+        "review_status": "draft"
+      },
+      "state_profiles": {
+        "california-mathematics-standards": {
+          "mapping_status": "inherits_canonical_baseline_with_state_metadata",
+          "relationship_type": "baseline-aligned",
+          "alignment_note": "State profile is baseline-aligned. Use the canonical mathematics-content baseline mapping, but preserve explicit state distinctions during later identifier-level crosswalk work.",
+          "state_distinction_note": "California additions and state implementation materials should be preserved as explicit metadata rather than collapsed into generic CCSS labels"
+        },
+        "colorado-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "Prepared Graduate Competencies and Extended Evidence Outcomes are prominent structural elements that should not be flattened away"
+        },
+        "florida-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "Mathematical Thinking and Reasoning standards operate alongside content benchmarks and should be preserved in the repository model"
+        },
+        "georgia-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "Georgia exposes CASE-linked standards publication and state-wide supporting frameworks that may become useful secondary mapping metadata"
+        },
+        "illinois-mathematics-standards": {
+          "mapping_status": "inherits_canonical_baseline_with_state_metadata",
+          "relationship_type": "baseline-aligned",
+          "alignment_note": "State profile is baseline-aligned. Use the canonical mathematics-content baseline mapping, but preserve explicit state distinctions during later identifier-level crosswalk work.",
+          "state_distinction_note": "Illinois preserves a clear state identity around the Illinois Learning Standards even where the content structure remains closely aligned to Common Core"
+        },
+        "massachusetts-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "the framework presentation and state guidance context should be preserved rather than flattening Massachusetts to generic CCSS naming only"
+        },
+        "new-jersey-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "New Jersey uses its own NJSLS mathematics family identity and explicitly presents a 2023 standards edition"
+        },
+        "new-york-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "New York-specific revisions, transitions, and guidance materials should be preserved as state metadata rather than assumed to be identical to baseline CCSS labels"
+        },
+        "north-carolina-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "NC Math 1, NC Math 2, and NC Math 3 form a prominent secondary sequence that should be represented directly"
+        },
+        "ohio-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "Ohio publicly links content standards, model curricula, and standards-for-mathematical-practice progressions in a more integrated way than some states"
+        },
+        "pennsylvania-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "the Pennsylvania Core naming and adjacent early-learning standards materials should be preserved rather than collapsed into generic CCSS-only language"
+        },
+        "tennessee-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "the literacy standards for mathematical proficiency create an additional cross-cutting alignment surface not commonly foregrounded in other state profiles"
+        },
+        "texas-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "student expectations and process-oriented expectations are integral to the TEKS surface and should not be flattened into generic CCSS-style domain labels"
+        },
+        "virginia-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "Virginia publishes supporting materials such as Understanding the Standards and instructional guides alongside the standards surface"
+        },
+        "washington-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "data science is explicitly named in the current Washington mathematics standards review and adoption surface"
+        }
+      }
+    },
+    {
+      "node_id": "W9",
+      "node_name": "inference_for_regression_slope",
+      "family_id": "W",
+      "family_name": "secondary_statistics_and_probability",
+      "graph_dependencies": [
+        "W2",
+        "W5",
+        "W3"
+      ],
+      "content_baseline": {
+        "mapping_status": "mapped",
+        "primary_grade_band": "Grades 6-12",
+        "primary_content_domain": "statistics and probability",
+        "cluster_or_grouping": "distributions, association, inference, design, and probability",
+        "anchor_statement": "analyze data, reason about variability, and make probabilistic or inferential claims",
+        "coverage_note": "Crosses from middle-grades statistics and probability into high-school statistics.",
+        "official_identifier": null,
+        "review_status": "draft"
+      },
+      "performance_baseline": {
+        "mapping_status": "mapped",
+        "minimum_expected_performance_level": "Proficient",
+        "stretch_performance_level": "Advanced",
+        "evidence_rule": "A stable proficiency claim must respect the node's direct performance, meaning, transfer, and retention requirements, and must not hide dependency instability or dominant failure modes.",
+        "review_status": "draft"
+      },
+      "ccss_mathematics": {
+        "mapping_status": "mapped",
+        "grade_band_or_category": "Grades 6-12",
+        "domain": "statistics and probability",
+        "cluster_or_grouping": "distributions, association, inference, design, and probability",
+        "anchor_statement": "analyze data, reason about variability, and make probabilistic or inferential claims",
+        "official_identifier": null,
+        "coverage_note": "Crosses from middle-grades statistics and probability into high-school statistics.",
+        "review_status": "draft"
+      },
+      "state_profiles": {
+        "california-mathematics-standards": {
+          "mapping_status": "inherits_canonical_baseline_with_state_metadata",
+          "relationship_type": "baseline-aligned",
+          "alignment_note": "State profile is baseline-aligned. Use the canonical mathematics-content baseline mapping, but preserve explicit state distinctions during later identifier-level crosswalk work.",
+          "state_distinction_note": "California additions and state implementation materials should be preserved as explicit metadata rather than collapsed into generic CCSS labels"
+        },
+        "colorado-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "Prepared Graduate Competencies and Extended Evidence Outcomes are prominent structural elements that should not be flattened away"
+        },
+        "florida-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "Mathematical Thinking and Reasoning standards operate alongside content benchmarks and should be preserved in the repository model"
+        },
+        "georgia-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "Georgia exposes CASE-linked standards publication and state-wide supporting frameworks that may become useful secondary mapping metadata"
+        },
+        "illinois-mathematics-standards": {
+          "mapping_status": "inherits_canonical_baseline_with_state_metadata",
+          "relationship_type": "baseline-aligned",
+          "alignment_note": "State profile is baseline-aligned. Use the canonical mathematics-content baseline mapping, but preserve explicit state distinctions during later identifier-level crosswalk work.",
+          "state_distinction_note": "Illinois preserves a clear state identity around the Illinois Learning Standards even where the content structure remains closely aligned to Common Core"
+        },
+        "massachusetts-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "the framework presentation and state guidance context should be preserved rather than flattening Massachusetts to generic CCSS naming only"
+        },
+        "new-jersey-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "New Jersey uses its own NJSLS mathematics family identity and explicitly presents a 2023 standards edition"
+        },
+        "new-york-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "New York-specific revisions, transitions, and guidance materials should be preserved as state metadata rather than assumed to be identical to baseline CCSS labels"
+        },
+        "north-carolina-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "NC Math 1, NC Math 2, and NC Math 3 form a prominent secondary sequence that should be represented directly"
+        },
+        "ohio-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "Ohio publicly links content standards, model curricula, and standards-for-mathematical-practice progressions in a more integrated way than some states"
+        },
+        "pennsylvania-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "the Pennsylvania Core naming and adjacent early-learning standards materials should be preserved rather than collapsed into generic CCSS-only language"
+        },
+        "tennessee-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "the literacy standards for mathematical proficiency create an additional cross-cutting alignment surface not commonly foregrounded in other state profiles"
+        },
+        "texas-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "student expectations and process-oriented expectations are integral to the TEKS surface and should not be flattened into generic CCSS-style domain labels"
+        },
+        "virginia-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "Virginia publishes supporting materials such as Understanding the Standards and instructional guides alongside the standards surface"
+        },
+        "washington-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "data science is explicitly named in the current Washington mathematics standards review and adoption surface"
+        }
+      }
+    },
+    {
       "node_id": "B1",
       "node_name": "polynomial_structure_and_operations",
       "family_id": "B",
@@ -16478,14 +17124,666 @@
       }
     },
     {
+      "node_id": "B6",
+      "node_name": "trigonometric_identities_equations_and_analytic_trig",
+      "family_id": "B",
+      "family_name": "advanced_algebra_trigonometry_and_precalculus",
+      "graph_dependencies": [
+        "B4",
+        "A2",
+        "K2"
+      ],
+      "content_baseline": {
+        "mapping_status": "mapped",
+        "primary_grade_band": "High School",
+        "primary_content_domain": "algebra / functions / number and quantity",
+        "cluster_or_grouping": "advanced algebraic and precalculus structure",
+        "anchor_statement": "reason about advanced algebraic structure, function families, and precalculus behavior",
+        "coverage_note": "High-school advanced algebra and function-family surface.",
+        "official_identifier": null,
+        "review_status": "draft"
+      },
+      "performance_baseline": {
+        "mapping_status": "mapped",
+        "minimum_expected_performance_level": "Proficient",
+        "stretch_performance_level": "Advanced",
+        "evidence_rule": "A stable proficiency claim must respect the node's direct performance, meaning, transfer, and retention requirements, and must not hide dependency instability or dominant failure modes.",
+        "review_status": "draft"
+      },
+      "ccss_mathematics": {
+        "mapping_status": "mapped",
+        "grade_band_or_category": "High School",
+        "domain": "algebra / functions / number and quantity",
+        "cluster_or_grouping": "advanced algebraic and precalculus structure",
+        "anchor_statement": "reason about advanced algebraic structure, function families, and precalculus behavior",
+        "official_identifier": null,
+        "coverage_note": "High-school advanced algebra and function-family surface.",
+        "review_status": "draft"
+      },
+      "state_profiles": {
+        "california-mathematics-standards": {
+          "mapping_status": "inherits_canonical_baseline_with_state_metadata",
+          "relationship_type": "baseline-aligned",
+          "alignment_note": "State profile is baseline-aligned. Use the canonical mathematics-content baseline mapping, but preserve explicit state distinctions during later identifier-level crosswalk work.",
+          "state_distinction_note": "California additions and state implementation materials should be preserved as explicit metadata rather than collapsed into generic CCSS labels"
+        },
+        "colorado-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "Prepared Graduate Competencies and Extended Evidence Outcomes are prominent structural elements that should not be flattened away"
+        },
+        "florida-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "Mathematical Thinking and Reasoning standards operate alongside content benchmarks and should be preserved in the repository model"
+        },
+        "georgia-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "Georgia exposes CASE-linked standards publication and state-wide supporting frameworks that may become useful secondary mapping metadata"
+        },
+        "illinois-mathematics-standards": {
+          "mapping_status": "inherits_canonical_baseline_with_state_metadata",
+          "relationship_type": "baseline-aligned",
+          "alignment_note": "State profile is baseline-aligned. Use the canonical mathematics-content baseline mapping, but preserve explicit state distinctions during later identifier-level crosswalk work.",
+          "state_distinction_note": "Illinois preserves a clear state identity around the Illinois Learning Standards even where the content structure remains closely aligned to Common Core"
+        },
+        "massachusetts-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "the framework presentation and state guidance context should be preserved rather than flattening Massachusetts to generic CCSS naming only"
+        },
+        "new-jersey-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "New Jersey uses its own NJSLS mathematics family identity and explicitly presents a 2023 standards edition"
+        },
+        "new-york-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "New York-specific revisions, transitions, and guidance materials should be preserved as state metadata rather than assumed to be identical to baseline CCSS labels"
+        },
+        "north-carolina-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "NC Math 1, NC Math 2, and NC Math 3 form a prominent secondary sequence that should be represented directly"
+        },
+        "ohio-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "Ohio publicly links content standards, model curricula, and standards-for-mathematical-practice progressions in a more integrated way than some states"
+        },
+        "pennsylvania-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "the Pennsylvania Core naming and adjacent early-learning standards materials should be preserved rather than collapsed into generic CCSS-only language"
+        },
+        "tennessee-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "the literacy standards for mathematical proficiency create an additional cross-cutting alignment surface not commonly foregrounded in other state profiles"
+        },
+        "texas-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "student expectations and process-oriented expectations are integral to the TEKS surface and should not be flattened into generic CCSS-style domain labels"
+        },
+        "virginia-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "Virginia publishes supporting materials such as Understanding the Standards and instructional guides alongside the standards surface"
+        },
+        "washington-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "data science is explicitly named in the current Washington mathematics standards review and adoption surface"
+        }
+      }
+    },
+    {
+      "node_id": "B7",
+      "node_name": "sequences_series_and_recursive_structure",
+      "family_id": "B",
+      "family_name": "advanced_algebra_trigonometry_and_precalculus",
+      "graph_dependencies": [
+        "B1",
+        "B5"
+      ],
+      "content_baseline": {
+        "mapping_status": "mapped",
+        "primary_grade_band": "High School",
+        "primary_content_domain": "algebra / functions / number and quantity",
+        "cluster_or_grouping": "advanced algebraic and precalculus structure",
+        "anchor_statement": "reason about advanced algebraic structure, function families, and precalculus behavior",
+        "coverage_note": "High-school advanced algebra and function-family surface.",
+        "official_identifier": null,
+        "review_status": "draft"
+      },
+      "performance_baseline": {
+        "mapping_status": "mapped",
+        "minimum_expected_performance_level": "Proficient",
+        "stretch_performance_level": "Advanced",
+        "evidence_rule": "A stable proficiency claim must respect the node's direct performance, meaning, transfer, and retention requirements, and must not hide dependency instability or dominant failure modes.",
+        "review_status": "draft"
+      },
+      "ccss_mathematics": {
+        "mapping_status": "mapped",
+        "grade_band_or_category": "High School",
+        "domain": "algebra / functions / number and quantity",
+        "cluster_or_grouping": "advanced algebraic and precalculus structure",
+        "anchor_statement": "reason about advanced algebraic structure, function families, and precalculus behavior",
+        "official_identifier": null,
+        "coverage_note": "High-school advanced algebra and function-family surface.",
+        "review_status": "draft"
+      },
+      "state_profiles": {
+        "california-mathematics-standards": {
+          "mapping_status": "inherits_canonical_baseline_with_state_metadata",
+          "relationship_type": "baseline-aligned",
+          "alignment_note": "State profile is baseline-aligned. Use the canonical mathematics-content baseline mapping, but preserve explicit state distinctions during later identifier-level crosswalk work.",
+          "state_distinction_note": "California additions and state implementation materials should be preserved as explicit metadata rather than collapsed into generic CCSS labels"
+        },
+        "colorado-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "Prepared Graduate Competencies and Extended Evidence Outcomes are prominent structural elements that should not be flattened away"
+        },
+        "florida-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "Mathematical Thinking and Reasoning standards operate alongside content benchmarks and should be preserved in the repository model"
+        },
+        "georgia-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "Georgia exposes CASE-linked standards publication and state-wide supporting frameworks that may become useful secondary mapping metadata"
+        },
+        "illinois-mathematics-standards": {
+          "mapping_status": "inherits_canonical_baseline_with_state_metadata",
+          "relationship_type": "baseline-aligned",
+          "alignment_note": "State profile is baseline-aligned. Use the canonical mathematics-content baseline mapping, but preserve explicit state distinctions during later identifier-level crosswalk work.",
+          "state_distinction_note": "Illinois preserves a clear state identity around the Illinois Learning Standards even where the content structure remains closely aligned to Common Core"
+        },
+        "massachusetts-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "the framework presentation and state guidance context should be preserved rather than flattening Massachusetts to generic CCSS naming only"
+        },
+        "new-jersey-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "New Jersey uses its own NJSLS mathematics family identity and explicitly presents a 2023 standards edition"
+        },
+        "new-york-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "New York-specific revisions, transitions, and guidance materials should be preserved as state metadata rather than assumed to be identical to baseline CCSS labels"
+        },
+        "north-carolina-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "NC Math 1, NC Math 2, and NC Math 3 form a prominent secondary sequence that should be represented directly"
+        },
+        "ohio-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "Ohio publicly links content standards, model curricula, and standards-for-mathematical-practice progressions in a more integrated way than some states"
+        },
+        "pennsylvania-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "the Pennsylvania Core naming and adjacent early-learning standards materials should be preserved rather than collapsed into generic CCSS-only language"
+        },
+        "tennessee-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "the literacy standards for mathematical proficiency create an additional cross-cutting alignment surface not commonly foregrounded in other state profiles"
+        },
+        "texas-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "student expectations and process-oriented expectations are integral to the TEKS surface and should not be flattened into generic CCSS-style domain labels"
+        },
+        "virginia-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "Virginia publishes supporting materials such as Understanding the Standards and instructional guides alongside the standards surface"
+        },
+        "washington-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "data science is explicitly named in the current Washington mathematics standards review and adoption surface"
+        }
+      }
+    },
+    {
+      "node_id": "B8",
+      "node_name": "complex_numbers_and_quadratic_extensions",
+      "family_id": "B",
+      "family_name": "advanced_algebra_trigonometry_and_precalculus",
+      "graph_dependencies": [
+        "K7",
+        "B1"
+      ],
+      "content_baseline": {
+        "mapping_status": "mapped",
+        "primary_grade_band": "High School",
+        "primary_content_domain": "algebra / functions / number and quantity",
+        "cluster_or_grouping": "advanced algebraic and precalculus structure",
+        "anchor_statement": "reason about advanced algebraic structure, function families, and precalculus behavior",
+        "coverage_note": "High-school advanced algebra and function-family surface.",
+        "official_identifier": null,
+        "review_status": "draft"
+      },
+      "performance_baseline": {
+        "mapping_status": "mapped",
+        "minimum_expected_performance_level": "Proficient",
+        "stretch_performance_level": "Advanced",
+        "evidence_rule": "A stable proficiency claim must respect the node's direct performance, meaning, transfer, and retention requirements, and must not hide dependency instability or dominant failure modes.",
+        "review_status": "draft"
+      },
+      "ccss_mathematics": {
+        "mapping_status": "mapped",
+        "grade_band_or_category": "High School",
+        "domain": "algebra / functions / number and quantity",
+        "cluster_or_grouping": "advanced algebraic and precalculus structure",
+        "anchor_statement": "reason about advanced algebraic structure, function families, and precalculus behavior",
+        "official_identifier": null,
+        "coverage_note": "High-school advanced algebra and function-family surface.",
+        "review_status": "draft"
+      },
+      "state_profiles": {
+        "california-mathematics-standards": {
+          "mapping_status": "inherits_canonical_baseline_with_state_metadata",
+          "relationship_type": "baseline-aligned",
+          "alignment_note": "State profile is baseline-aligned. Use the canonical mathematics-content baseline mapping, but preserve explicit state distinctions during later identifier-level crosswalk work.",
+          "state_distinction_note": "California additions and state implementation materials should be preserved as explicit metadata rather than collapsed into generic CCSS labels"
+        },
+        "colorado-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "Prepared Graduate Competencies and Extended Evidence Outcomes are prominent structural elements that should not be flattened away"
+        },
+        "florida-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "Mathematical Thinking and Reasoning standards operate alongside content benchmarks and should be preserved in the repository model"
+        },
+        "georgia-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "Georgia exposes CASE-linked standards publication and state-wide supporting frameworks that may become useful secondary mapping metadata"
+        },
+        "illinois-mathematics-standards": {
+          "mapping_status": "inherits_canonical_baseline_with_state_metadata",
+          "relationship_type": "baseline-aligned",
+          "alignment_note": "State profile is baseline-aligned. Use the canonical mathematics-content baseline mapping, but preserve explicit state distinctions during later identifier-level crosswalk work.",
+          "state_distinction_note": "Illinois preserves a clear state identity around the Illinois Learning Standards even where the content structure remains closely aligned to Common Core"
+        },
+        "massachusetts-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "the framework presentation and state guidance context should be preserved rather than flattening Massachusetts to generic CCSS naming only"
+        },
+        "new-jersey-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "New Jersey uses its own NJSLS mathematics family identity and explicitly presents a 2023 standards edition"
+        },
+        "new-york-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "New York-specific revisions, transitions, and guidance materials should be preserved as state metadata rather than assumed to be identical to baseline CCSS labels"
+        },
+        "north-carolina-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "NC Math 1, NC Math 2, and NC Math 3 form a prominent secondary sequence that should be represented directly"
+        },
+        "ohio-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "Ohio publicly links content standards, model curricula, and standards-for-mathematical-practice progressions in a more integrated way than some states"
+        },
+        "pennsylvania-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "the Pennsylvania Core naming and adjacent early-learning standards materials should be preserved rather than collapsed into generic CCSS-only language"
+        },
+        "tennessee-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "the literacy standards for mathematical proficiency create an additional cross-cutting alignment surface not commonly foregrounded in other state profiles"
+        },
+        "texas-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "student expectations and process-oriented expectations are integral to the TEKS surface and should not be flattened into generic CCSS-style domain labels"
+        },
+        "virginia-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "Virginia publishes supporting materials such as Understanding the Standards and instructional guides alongside the standards surface"
+        },
+        "washington-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "data science is explicitly named in the current Washington mathematics standards review and adoption surface"
+        }
+      }
+    },
+    {
+      "node_id": "B9",
+      "node_name": "conic_sections_and_coordinate_models",
+      "family_id": "B",
+      "family_name": "advanced_algebra_trigonometry_and_precalculus",
+      "graph_dependencies": [
+        "A4",
+        "H5",
+        "B1"
+      ],
+      "content_baseline": {
+        "mapping_status": "mapped",
+        "primary_grade_band": "High School",
+        "primary_content_domain": "algebra / functions / number and quantity",
+        "cluster_or_grouping": "advanced algebraic and precalculus structure",
+        "anchor_statement": "reason about advanced algebraic structure, function families, and precalculus behavior",
+        "coverage_note": "High-school advanced algebra and function-family surface.",
+        "official_identifier": null,
+        "review_status": "draft"
+      },
+      "performance_baseline": {
+        "mapping_status": "mapped",
+        "minimum_expected_performance_level": "Proficient",
+        "stretch_performance_level": "Advanced",
+        "evidence_rule": "A stable proficiency claim must respect the node's direct performance, meaning, transfer, and retention requirements, and must not hide dependency instability or dominant failure modes.",
+        "review_status": "draft"
+      },
+      "ccss_mathematics": {
+        "mapping_status": "mapped",
+        "grade_band_or_category": "High School",
+        "domain": "algebra / functions / number and quantity",
+        "cluster_or_grouping": "advanced algebraic and precalculus structure",
+        "anchor_statement": "reason about advanced algebraic structure, function families, and precalculus behavior",
+        "official_identifier": null,
+        "coverage_note": "High-school advanced algebra and function-family surface.",
+        "review_status": "draft"
+      },
+      "state_profiles": {
+        "california-mathematics-standards": {
+          "mapping_status": "inherits_canonical_baseline_with_state_metadata",
+          "relationship_type": "baseline-aligned",
+          "alignment_note": "State profile is baseline-aligned. Use the canonical mathematics-content baseline mapping, but preserve explicit state distinctions during later identifier-level crosswalk work.",
+          "state_distinction_note": "California additions and state implementation materials should be preserved as explicit metadata rather than collapsed into generic CCSS labels"
+        },
+        "colorado-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "Prepared Graduate Competencies and Extended Evidence Outcomes are prominent structural elements that should not be flattened away"
+        },
+        "florida-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "Mathematical Thinking and Reasoning standards operate alongside content benchmarks and should be preserved in the repository model"
+        },
+        "georgia-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "Georgia exposes CASE-linked standards publication and state-wide supporting frameworks that may become useful secondary mapping metadata"
+        },
+        "illinois-mathematics-standards": {
+          "mapping_status": "inherits_canonical_baseline_with_state_metadata",
+          "relationship_type": "baseline-aligned",
+          "alignment_note": "State profile is baseline-aligned. Use the canonical mathematics-content baseline mapping, but preserve explicit state distinctions during later identifier-level crosswalk work.",
+          "state_distinction_note": "Illinois preserves a clear state identity around the Illinois Learning Standards even where the content structure remains closely aligned to Common Core"
+        },
+        "massachusetts-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "the framework presentation and state guidance context should be preserved rather than flattening Massachusetts to generic CCSS naming only"
+        },
+        "new-jersey-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "New Jersey uses its own NJSLS mathematics family identity and explicitly presents a 2023 standards edition"
+        },
+        "new-york-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "New York-specific revisions, transitions, and guidance materials should be preserved as state metadata rather than assumed to be identical to baseline CCSS labels"
+        },
+        "north-carolina-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "NC Math 1, NC Math 2, and NC Math 3 form a prominent secondary sequence that should be represented directly"
+        },
+        "ohio-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "Ohio publicly links content standards, model curricula, and standards-for-mathematical-practice progressions in a more integrated way than some states"
+        },
+        "pennsylvania-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "the Pennsylvania Core naming and adjacent early-learning standards materials should be preserved rather than collapsed into generic CCSS-only language"
+        },
+        "tennessee-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "the literacy standards for mathematical proficiency create an additional cross-cutting alignment surface not commonly foregrounded in other state profiles"
+        },
+        "texas-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "student expectations and process-oriented expectations are integral to the TEKS surface and should not be flattened into generic CCSS-style domain labels"
+        },
+        "virginia-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "Virginia publishes supporting materials such as Understanding the Standards and instructional guides alongside the standards surface"
+        },
+        "washington-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "data science is explicitly named in the current Washington mathematics standards review and adoption surface"
+        }
+      }
+    },
+    {
+      "node_id": "B10",
+      "node_name": "vectors_matrices_and_parametric_foundations",
+      "family_id": "B",
+      "family_name": "advanced_algebra_trigonometry_and_precalculus",
+      "graph_dependencies": [
+        "A4",
+        "K1",
+        "B6"
+      ],
+      "content_baseline": {
+        "mapping_status": "mapped",
+        "primary_grade_band": "High School",
+        "primary_content_domain": "algebra / functions / number and quantity",
+        "cluster_or_grouping": "advanced algebraic and precalculus structure",
+        "anchor_statement": "reason about advanced algebraic structure, function families, and precalculus behavior",
+        "coverage_note": "High-school advanced algebra and function-family surface.",
+        "official_identifier": null,
+        "review_status": "draft"
+      },
+      "performance_baseline": {
+        "mapping_status": "mapped",
+        "minimum_expected_performance_level": "Proficient",
+        "stretch_performance_level": "Advanced",
+        "evidence_rule": "A stable proficiency claim must respect the node's direct performance, meaning, transfer, and retention requirements, and must not hide dependency instability or dominant failure modes.",
+        "review_status": "draft"
+      },
+      "ccss_mathematics": {
+        "mapping_status": "mapped",
+        "grade_band_or_category": "High School",
+        "domain": "algebra / functions / number and quantity",
+        "cluster_or_grouping": "advanced algebraic and precalculus structure",
+        "anchor_statement": "reason about advanced algebraic structure, function families, and precalculus behavior",
+        "official_identifier": null,
+        "coverage_note": "High-school advanced algebra and function-family surface.",
+        "review_status": "draft"
+      },
+      "state_profiles": {
+        "california-mathematics-standards": {
+          "mapping_status": "inherits_canonical_baseline_with_state_metadata",
+          "relationship_type": "baseline-aligned",
+          "alignment_note": "State profile is baseline-aligned. Use the canonical mathematics-content baseline mapping, but preserve explicit state distinctions during later identifier-level crosswalk work.",
+          "state_distinction_note": "California additions and state implementation materials should be preserved as explicit metadata rather than collapsed into generic CCSS labels"
+        },
+        "colorado-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "Prepared Graduate Competencies and Extended Evidence Outcomes are prominent structural elements that should not be flattened away"
+        },
+        "florida-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "Mathematical Thinking and Reasoning standards operate alongside content benchmarks and should be preserved in the repository model"
+        },
+        "georgia-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "Georgia exposes CASE-linked standards publication and state-wide supporting frameworks that may become useful secondary mapping metadata"
+        },
+        "illinois-mathematics-standards": {
+          "mapping_status": "inherits_canonical_baseline_with_state_metadata",
+          "relationship_type": "baseline-aligned",
+          "alignment_note": "State profile is baseline-aligned. Use the canonical mathematics-content baseline mapping, but preserve explicit state distinctions during later identifier-level crosswalk work.",
+          "state_distinction_note": "Illinois preserves a clear state identity around the Illinois Learning Standards even where the content structure remains closely aligned to Common Core"
+        },
+        "massachusetts-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "the framework presentation and state guidance context should be preserved rather than flattening Massachusetts to generic CCSS naming only"
+        },
+        "new-jersey-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "New Jersey uses its own NJSLS mathematics family identity and explicitly presents a 2023 standards edition"
+        },
+        "new-york-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "New York-specific revisions, transitions, and guidance materials should be preserved as state metadata rather than assumed to be identical to baseline CCSS labels"
+        },
+        "north-carolina-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "NC Math 1, NC Math 2, and NC Math 3 form a prominent secondary sequence that should be represented directly"
+        },
+        "ohio-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "Ohio publicly links content standards, model curricula, and standards-for-mathematical-practice progressions in a more integrated way than some states"
+        },
+        "pennsylvania-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "the Pennsylvania Core naming and adjacent early-learning standards materials should be preserved rather than collapsed into generic CCSS-only language"
+        },
+        "tennessee-mathematics-standards": {
+          "mapping_status": "requires_state_identifier_crosswalk_from_canonical_baseline",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "State profile remains close enough to inherit the canonical content anchor, but identifier-level mapping and sequencing notes must be state-specific.",
+          "state_distinction_note": "the literacy standards for mathematical proficiency create an additional cross-cutting alignment surface not commonly foregrounded in other state profiles"
+        },
+        "texas-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "student expectations and process-oriented expectations are integral to the TEKS surface and should not be flattened into generic CCSS-style domain labels"
+        },
+        "virginia-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "Virginia publishes supporting materials such as Understanding the Standards and instructional guides alongside the standards surface"
+        },
+        "washington-mathematics-standards": {
+          "mapping_status": "conceptual_alignment_only_until_state_crosswalk_exists",
+          "relationship_type": "state-distinct",
+          "alignment_note": "The state profile is structurally distinct enough that this node currently maps only at the conceptual anchor level. A state-specific crosswalk is still required.",
+          "state_distinction_note": "data science is explicitly named in the current Washington mathematics standards review and adoption surface"
+        }
+      }
+    },
+    {
       "node_id": "AP1",
       "node_name": "ap_statistics_extension",
       "family_id": "AP",
       "family_name": "advanced_placement_mathematics_pathways",
       "graph_dependencies": [
         "W2",
-        "W3",
-        "W4"
+        "W4",
+        "W5",
+        "W6",
+        "W7",
+        "W8",
+        "W9"
       ],
       "content_baseline": {
         "mapping_status": "repository_only_or_beyond_current_content_baseline",
@@ -16613,8 +17911,10 @@
       "family_id": "AP",
       "family_name": "advanced_placement_mathematics_pathways",
       "graph_dependencies": [
-        "B4",
-        "B5"
+        "B5",
+        "B6",
+        "B9",
+        "B10"
       ],
       "content_baseline": {
         "mapping_status": "repository_only_or_beyond_current_content_baseline",
@@ -16738,7 +18038,7 @@
     },
     {
       "node_id": "AP3",
-      "node_name": "calculus_limits_and_derivatives",
+      "node_name": "limits_and_continuity",
       "family_id": "AP",
       "family_name": "advanced_placement_mathematics_pathways",
       "graph_dependencies": [
@@ -16867,12 +18167,11 @@
     },
     {
       "node_id": "AP4",
-      "node_name": "integral_accumulation_and_fundamental_theorem",
+      "node_name": "derivative_rules_and_computation",
       "family_id": "AP",
       "family_name": "advanced_placement_mathematics_pathways",
       "graph_dependencies": [
-        "AP3",
-        "Q2"
+        "AP3"
       ],
       "content_baseline": {
         "mapping_status": "repository_only_or_beyond_current_content_baseline",
@@ -16996,12 +18295,527 @@
     },
     {
       "node_id": "AP5",
-      "node_name": "bc_series_and_advanced_calculus_extensions",
+      "node_name": "applications_of_derivatives",
+      "family_id": "AP",
+      "family_name": "advanced_placement_mathematics_pathways",
+      "graph_dependencies": [
+        "AP4"
+      ],
+      "content_baseline": {
+        "mapping_status": "repository_only_or_beyond_current_content_baseline",
+        "primary_grade_band": "Advanced Placement / Post-CCSS extension",
+        "primary_content_domain": "advanced coursework beyond the current codified K-12 standards corpus",
+        "cluster_or_grouping": "advanced placement statistics, precalculus, and calculus extensions",
+        "anchor_statement": "advanced coursework nodes extend beyond the currently codified CCSS/state standards baseline",
+        "coverage_note": "Current repository standards corpus does not yet codify College Board AP standards, so these nodes remain explicitly out of scope for direct content-standard alignment.",
+        "official_identifier": null,
+        "review_status": "draft"
+      },
+      "performance_baseline": {
+        "mapping_status": "mapped",
+        "minimum_expected_performance_level": "Proficient",
+        "stretch_performance_level": "Advanced",
+        "evidence_rule": "A stable proficiency claim must respect the node's direct performance, meaning, transfer, and retention requirements, and must not hide dependency instability or dominant failure modes.",
+        "review_status": "draft"
+      },
+      "ccss_mathematics": {
+        "mapping_status": "out_of_scope_current_ccss_baseline",
+        "grade_band_or_category": "Advanced Placement / Post-CCSS extension",
+        "domain": "advanced coursework beyond the current codified K-12 standards corpus",
+        "cluster_or_grouping": "advanced placement statistics, precalculus, and calculus extensions",
+        "anchor_statement": "advanced coursework nodes extend beyond the currently codified CCSS/state standards baseline",
+        "official_identifier": null,
+        "coverage_note": "Current repository standards corpus does not yet codify College Board AP standards, so these nodes remain explicitly out of scope for direct content-standard alignment.",
+        "review_status": "draft"
+      },
+      "state_profiles": {
+        "california-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "baseline-aligned",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "California additions and state implementation materials should be preserved as explicit metadata rather than collapsed into generic CCSS labels"
+        },
+        "colorado-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "state-distinct",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "Prepared Graduate Competencies and Extended Evidence Outcomes are prominent structural elements that should not be flattened away"
+        },
+        "florida-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "Mathematical Thinking and Reasoning standards operate alongside content benchmarks and should be preserved in the repository model"
+        },
+        "georgia-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "Georgia exposes CASE-linked standards publication and state-wide supporting frameworks that may become useful secondary mapping metadata"
+        },
+        "illinois-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "baseline-aligned",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "Illinois preserves a clear state identity around the Illinois Learning Standards even where the content structure remains closely aligned to Common Core"
+        },
+        "massachusetts-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "the framework presentation and state guidance context should be preserved rather than flattening Massachusetts to generic CCSS naming only"
+        },
+        "new-jersey-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "New Jersey uses its own NJSLS mathematics family identity and explicitly presents a 2023 standards edition"
+        },
+        "new-york-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "New York-specific revisions, transitions, and guidance materials should be preserved as state metadata rather than assumed to be identical to baseline CCSS labels"
+        },
+        "north-carolina-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "state-distinct",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "NC Math 1, NC Math 2, and NC Math 3 form a prominent secondary sequence that should be represented directly"
+        },
+        "ohio-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "Ohio publicly links content standards, model curricula, and standards-for-mathematical-practice progressions in a more integrated way than some states"
+        },
+        "pennsylvania-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "the Pennsylvania Core naming and adjacent early-learning standards materials should be preserved rather than collapsed into generic CCSS-only language"
+        },
+        "tennessee-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "the literacy standards for mathematical proficiency create an additional cross-cutting alignment surface not commonly foregrounded in other state profiles"
+        },
+        "texas-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "state-distinct",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "student expectations and process-oriented expectations are integral to the TEKS surface and should not be flattened into generic CCSS-style domain labels"
+        },
+        "virginia-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "state-distinct",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "Virginia publishes supporting materials such as Understanding the Standards and instructional guides alongside the standards surface"
+        },
+        "washington-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "state-distinct",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "data science is explicitly named in the current Washington mathematics standards review and adoption surface"
+        }
+      }
+    },
+    {
+      "node_id": "AP6",
+      "node_name": "integral_meaning_and_accumulation",
       "family_id": "AP",
       "family_name": "advanced_placement_mathematics_pathways",
       "graph_dependencies": [
         "AP4",
-        "B1"
+        "Q2"
+      ],
+      "content_baseline": {
+        "mapping_status": "repository_only_or_beyond_current_content_baseline",
+        "primary_grade_band": "Advanced Placement / Post-CCSS extension",
+        "primary_content_domain": "advanced coursework beyond the current codified K-12 standards corpus",
+        "cluster_or_grouping": "advanced placement statistics, precalculus, and calculus extensions",
+        "anchor_statement": "advanced coursework nodes extend beyond the currently codified CCSS/state standards baseline",
+        "coverage_note": "Current repository standards corpus does not yet codify College Board AP standards, so these nodes remain explicitly out of scope for direct content-standard alignment.",
+        "official_identifier": null,
+        "review_status": "draft"
+      },
+      "performance_baseline": {
+        "mapping_status": "mapped",
+        "minimum_expected_performance_level": "Proficient",
+        "stretch_performance_level": "Advanced",
+        "evidence_rule": "A stable proficiency claim must respect the node's direct performance, meaning, transfer, and retention requirements, and must not hide dependency instability or dominant failure modes.",
+        "review_status": "draft"
+      },
+      "ccss_mathematics": {
+        "mapping_status": "out_of_scope_current_ccss_baseline",
+        "grade_band_or_category": "Advanced Placement / Post-CCSS extension",
+        "domain": "advanced coursework beyond the current codified K-12 standards corpus",
+        "cluster_or_grouping": "advanced placement statistics, precalculus, and calculus extensions",
+        "anchor_statement": "advanced coursework nodes extend beyond the currently codified CCSS/state standards baseline",
+        "official_identifier": null,
+        "coverage_note": "Current repository standards corpus does not yet codify College Board AP standards, so these nodes remain explicitly out of scope for direct content-standard alignment.",
+        "review_status": "draft"
+      },
+      "state_profiles": {
+        "california-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "baseline-aligned",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "California additions and state implementation materials should be preserved as explicit metadata rather than collapsed into generic CCSS labels"
+        },
+        "colorado-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "state-distinct",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "Prepared Graduate Competencies and Extended Evidence Outcomes are prominent structural elements that should not be flattened away"
+        },
+        "florida-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "Mathematical Thinking and Reasoning standards operate alongside content benchmarks and should be preserved in the repository model"
+        },
+        "georgia-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "Georgia exposes CASE-linked standards publication and state-wide supporting frameworks that may become useful secondary mapping metadata"
+        },
+        "illinois-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "baseline-aligned",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "Illinois preserves a clear state identity around the Illinois Learning Standards even where the content structure remains closely aligned to Common Core"
+        },
+        "massachusetts-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "the framework presentation and state guidance context should be preserved rather than flattening Massachusetts to generic CCSS naming only"
+        },
+        "new-jersey-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "New Jersey uses its own NJSLS mathematics family identity and explicitly presents a 2023 standards edition"
+        },
+        "new-york-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "New York-specific revisions, transitions, and guidance materials should be preserved as state metadata rather than assumed to be identical to baseline CCSS labels"
+        },
+        "north-carolina-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "state-distinct",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "NC Math 1, NC Math 2, and NC Math 3 form a prominent secondary sequence that should be represented directly"
+        },
+        "ohio-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "Ohio publicly links content standards, model curricula, and standards-for-mathematical-practice progressions in a more integrated way than some states"
+        },
+        "pennsylvania-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "the Pennsylvania Core naming and adjacent early-learning standards materials should be preserved rather than collapsed into generic CCSS-only language"
+        },
+        "tennessee-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "the literacy standards for mathematical proficiency create an additional cross-cutting alignment surface not commonly foregrounded in other state profiles"
+        },
+        "texas-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "state-distinct",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "student expectations and process-oriented expectations are integral to the TEKS surface and should not be flattened into generic CCSS-style domain labels"
+        },
+        "virginia-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "state-distinct",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "Virginia publishes supporting materials such as Understanding the Standards and instructional guides alongside the standards surface"
+        },
+        "washington-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "state-distinct",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "data science is explicitly named in the current Washington mathematics standards review and adoption surface"
+        }
+      }
+    },
+    {
+      "node_id": "AP7",
+      "node_name": "applications_of_integration",
+      "family_id": "AP",
+      "family_name": "advanced_placement_mathematics_pathways",
+      "graph_dependencies": [
+        "AP6",
+        "AP5"
+      ],
+      "content_baseline": {
+        "mapping_status": "repository_only_or_beyond_current_content_baseline",
+        "primary_grade_band": "Advanced Placement / Post-CCSS extension",
+        "primary_content_domain": "advanced coursework beyond the current codified K-12 standards corpus",
+        "cluster_or_grouping": "advanced placement statistics, precalculus, and calculus extensions",
+        "anchor_statement": "advanced coursework nodes extend beyond the currently codified CCSS/state standards baseline",
+        "coverage_note": "Current repository standards corpus does not yet codify College Board AP standards, so these nodes remain explicitly out of scope for direct content-standard alignment.",
+        "official_identifier": null,
+        "review_status": "draft"
+      },
+      "performance_baseline": {
+        "mapping_status": "mapped",
+        "minimum_expected_performance_level": "Proficient",
+        "stretch_performance_level": "Advanced",
+        "evidence_rule": "A stable proficiency claim must respect the node's direct performance, meaning, transfer, and retention requirements, and must not hide dependency instability or dominant failure modes.",
+        "review_status": "draft"
+      },
+      "ccss_mathematics": {
+        "mapping_status": "out_of_scope_current_ccss_baseline",
+        "grade_band_or_category": "Advanced Placement / Post-CCSS extension",
+        "domain": "advanced coursework beyond the current codified K-12 standards corpus",
+        "cluster_or_grouping": "advanced placement statistics, precalculus, and calculus extensions",
+        "anchor_statement": "advanced coursework nodes extend beyond the currently codified CCSS/state standards baseline",
+        "official_identifier": null,
+        "coverage_note": "Current repository standards corpus does not yet codify College Board AP standards, so these nodes remain explicitly out of scope for direct content-standard alignment.",
+        "review_status": "draft"
+      },
+      "state_profiles": {
+        "california-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "baseline-aligned",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "California additions and state implementation materials should be preserved as explicit metadata rather than collapsed into generic CCSS labels"
+        },
+        "colorado-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "state-distinct",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "Prepared Graduate Competencies and Extended Evidence Outcomes are prominent structural elements that should not be flattened away"
+        },
+        "florida-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "Mathematical Thinking and Reasoning standards operate alongside content benchmarks and should be preserved in the repository model"
+        },
+        "georgia-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "Georgia exposes CASE-linked standards publication and state-wide supporting frameworks that may become useful secondary mapping metadata"
+        },
+        "illinois-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "baseline-aligned",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "Illinois preserves a clear state identity around the Illinois Learning Standards even where the content structure remains closely aligned to Common Core"
+        },
+        "massachusetts-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "the framework presentation and state guidance context should be preserved rather than flattening Massachusetts to generic CCSS naming only"
+        },
+        "new-jersey-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "New Jersey uses its own NJSLS mathematics family identity and explicitly presents a 2023 standards edition"
+        },
+        "new-york-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "New York-specific revisions, transitions, and guidance materials should be preserved as state metadata rather than assumed to be identical to baseline CCSS labels"
+        },
+        "north-carolina-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "state-distinct",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "NC Math 1, NC Math 2, and NC Math 3 form a prominent secondary sequence that should be represented directly"
+        },
+        "ohio-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "Ohio publicly links content standards, model curricula, and standards-for-mathematical-practice progressions in a more integrated way than some states"
+        },
+        "pennsylvania-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "the Pennsylvania Core naming and adjacent early-learning standards materials should be preserved rather than collapsed into generic CCSS-only language"
+        },
+        "tennessee-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "the literacy standards for mathematical proficiency create an additional cross-cutting alignment surface not commonly foregrounded in other state profiles"
+        },
+        "texas-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "state-distinct",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "student expectations and process-oriented expectations are integral to the TEKS surface and should not be flattened into generic CCSS-style domain labels"
+        },
+        "virginia-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "state-distinct",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "Virginia publishes supporting materials such as Understanding the Standards and instructional guides alongside the standards surface"
+        },
+        "washington-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "state-distinct",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "data science is explicitly named in the current Washington mathematics standards review and adoption surface"
+        }
+      }
+    },
+    {
+      "node_id": "AP8",
+      "node_name": "differential_equations_foundations",
+      "family_id": "AP",
+      "family_name": "advanced_placement_mathematics_pathways",
+      "graph_dependencies": [
+        "AP4",
+        "AP6"
+      ],
+      "content_baseline": {
+        "mapping_status": "repository_only_or_beyond_current_content_baseline",
+        "primary_grade_band": "Advanced Placement / Post-CCSS extension",
+        "primary_content_domain": "advanced coursework beyond the current codified K-12 standards corpus",
+        "cluster_or_grouping": "advanced placement statistics, precalculus, and calculus extensions",
+        "anchor_statement": "advanced coursework nodes extend beyond the currently codified CCSS/state standards baseline",
+        "coverage_note": "Current repository standards corpus does not yet codify College Board AP standards, so these nodes remain explicitly out of scope for direct content-standard alignment.",
+        "official_identifier": null,
+        "review_status": "draft"
+      },
+      "performance_baseline": {
+        "mapping_status": "mapped",
+        "minimum_expected_performance_level": "Proficient",
+        "stretch_performance_level": "Advanced",
+        "evidence_rule": "A stable proficiency claim must respect the node's direct performance, meaning, transfer, and retention requirements, and must not hide dependency instability or dominant failure modes.",
+        "review_status": "draft"
+      },
+      "ccss_mathematics": {
+        "mapping_status": "out_of_scope_current_ccss_baseline",
+        "grade_band_or_category": "Advanced Placement / Post-CCSS extension",
+        "domain": "advanced coursework beyond the current codified K-12 standards corpus",
+        "cluster_or_grouping": "advanced placement statistics, precalculus, and calculus extensions",
+        "anchor_statement": "advanced coursework nodes extend beyond the currently codified CCSS/state standards baseline",
+        "official_identifier": null,
+        "coverage_note": "Current repository standards corpus does not yet codify College Board AP standards, so these nodes remain explicitly out of scope for direct content-standard alignment.",
+        "review_status": "draft"
+      },
+      "state_profiles": {
+        "california-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "baseline-aligned",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "California additions and state implementation materials should be preserved as explicit metadata rather than collapsed into generic CCSS labels"
+        },
+        "colorado-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "state-distinct",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "Prepared Graduate Competencies and Extended Evidence Outcomes are prominent structural elements that should not be flattened away"
+        },
+        "florida-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "Mathematical Thinking and Reasoning standards operate alongside content benchmarks and should be preserved in the repository model"
+        },
+        "georgia-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "Georgia exposes CASE-linked standards publication and state-wide supporting frameworks that may become useful secondary mapping metadata"
+        },
+        "illinois-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "baseline-aligned",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "Illinois preserves a clear state identity around the Illinois Learning Standards even where the content structure remains closely aligned to Common Core"
+        },
+        "massachusetts-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "the framework presentation and state guidance context should be preserved rather than flattening Massachusetts to generic CCSS naming only"
+        },
+        "new-jersey-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "New Jersey uses its own NJSLS mathematics family identity and explicitly presents a 2023 standards edition"
+        },
+        "new-york-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "New York-specific revisions, transitions, and guidance materials should be preserved as state metadata rather than assumed to be identical to baseline CCSS labels"
+        },
+        "north-carolina-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "state-distinct",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "NC Math 1, NC Math 2, and NC Math 3 form a prominent secondary sequence that should be represented directly"
+        },
+        "ohio-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "Ohio publicly links content standards, model curricula, and standards-for-mathematical-practice progressions in a more integrated way than some states"
+        },
+        "pennsylvania-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "the Pennsylvania Core naming and adjacent early-learning standards materials should be preserved rather than collapsed into generic CCSS-only language"
+        },
+        "tennessee-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "baseline-derived",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "the literacy standards for mathematical proficiency create an additional cross-cutting alignment surface not commonly foregrounded in other state profiles"
+        },
+        "texas-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "state-distinct",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "student expectations and process-oriented expectations are integral to the TEKS surface and should not be flattened into generic CCSS-style domain labels"
+        },
+        "virginia-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "state-distinct",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "Virginia publishes supporting materials such as Understanding the Standards and instructional guides alongside the standards surface"
+        },
+        "washington-mathematics-standards": {
+          "mapping_status": "out_of_scope_current_profile",
+          "relationship_type": "state-distinct",
+          "alignment_note": "This node sits outside the currently codified K-12 mathematics standards surface, so no direct state-profile alignment is claimed.",
+          "state_distinction_note": "data science is explicitly named in the current Washington mathematics standards review and adoption surface"
+        }
+      }
+    },
+    {
+      "node_id": "AP9",
+      "node_name": "bc_series_and_advanced_calculus_extensions",
+      "family_id": "AP",
+      "family_name": "advanced_placement_mathematics_pathways",
+      "graph_dependencies": [
+        "AP6",
+        "B7"
       ],
       "content_baseline": {
         "mapping_status": "repository_only_or_beyond_current_content_baseline",

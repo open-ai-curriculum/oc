@@ -1,0 +1,39 @@
+id: C4D
+name: constitutional_principles_and_public_policy_transfer_and_contextual_use
+domain: social_studies
+support_tier: Incubation
+maturity_state: Drafted
+supported_profiles:
+- civics-decomposition-node-package
+evidence_class: Synthetic
+dependencies:
+- C4C
+mastery:
+  direct_accuracy_threshold: 0.85
+  explanation_required: true
+  transfer_required: true
+  retention_check_days: 14
+statuses:
+- blocked
+- emerging
+- provisional
+- secure
+- unstable
+verification_gates:
+- id: G1
+  type: direct_performance
+  pass_rule: '>= 0.85 accuracy across constitutional principles and public policy transfer and contextual use tasks'
+- id: G2
+  type: meaning
+  pass_rule: explains the structure or reasoning of the node in at least 2 of 3 prompts
+- id: G3
+  type: transfer
+  pass_rule: successful performance in at least one changed task context
+- id: G4
+  type: retention
+  pass_rule: '>= 0.80 delayed recheck accuracy after ~14 days'
+failure_modes:
+- C4D-FM-01
+- C4D-FM-02
+- C4D-FM-03
+- C4D-FM-04

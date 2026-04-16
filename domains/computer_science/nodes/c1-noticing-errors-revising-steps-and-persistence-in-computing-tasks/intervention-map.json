@@ -1,0 +1,37 @@
+{
+  "node_id": "C1",
+  "interventions": [
+    {
+      "intervention_id": "C1-INT-01",
+      "name": "C1 Intervention 1",
+      "addresses_failure_modes": [
+        "C1-FM-01"
+      ],
+      "summary": "one-change-at-a-time routines that restrict revision to one step per attempt"
+    },
+    {
+      "intervention_id": "C1-INT-02",
+      "name": "C1 Intervention 2",
+      "addresses_failure_modes": [
+        "C1-FM-02"
+      ],
+      "summary": "error-location prompts that compare intended and actual outcomes side by side"
+    },
+    {
+      "intervention_id": "C1-INT-03",
+      "name": "C1 Intervention 3",
+      "addresses_failure_modes": [
+        "C1-FM-03"
+      ],
+      "summary": "short persistence cycles with visible progress markers after each attempt"
+    },
+    {
+      "intervention_id": "C1-INT-04",
+      "name": "C1 Intervention 4",
+      "addresses_failure_modes": [
+        "C1-FM-04"
+      ],
+      "summary": "before-and-after checks that force explicit comparison after a revision"
+    }
+  ]
+}

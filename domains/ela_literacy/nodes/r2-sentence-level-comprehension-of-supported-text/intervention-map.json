@@ -1,0 +1,26 @@
+{
+  "node_id": "R2",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "R2-FM-01": [
+      "read-stop-think sentence routine",
+      "simple paraphrase after each sentence",
+      "match sentence to meaning check"
+    ],
+    "R2-FM-02": [
+      "low-language-load prompt variation",
+      "point-or-choose response mode",
+      "question simplification with stable sentence target"
+    ],
+    "R2-FM-03": [
+      "same meaning across changed sentence frames",
+      "two-frame syntax contrast task",
+      "structure-aware sentence retell"
+    ],
+    "R2-FM-04": [
+      "reduced decoding-load sentence set",
+      "preteach one blocking word",
+      "dependency check against FR4"
+    ]
+  }
+}

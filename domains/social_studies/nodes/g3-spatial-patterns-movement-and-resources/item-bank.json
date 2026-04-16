@@ -1,0 +1,16 @@
+{
+  "node_id": "G3",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "G3-G1-01",
+      "node_id": "G3",
+      "gate": "G1",
+      "prompt": "Use the map or data display to explain one spatial pattern, one movement path, or one resource-distribution idea.",
+      "representation_type": "map_or_data_display",
+      "response_mode": "oral_or_written_or_annotated",
+      "scoring_rule": "States a plausible spatial claim and supports it with relevant evidence.",
+      "failure_mode_targets": ["G3-FM-01", "G3-FM-02"]
+    }
+  ]
+}

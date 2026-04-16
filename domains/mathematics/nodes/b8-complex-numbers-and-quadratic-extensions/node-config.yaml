@@ -1,0 +1,23 @@
+id: B8
+slug: b8-complex-numbers-and-quadratic-extensions
+domain: mathematics
+name: complex_numbers_and_quadratic_extensions
+support_tier: Core release
+maturity_state: Drafted
+supported_profiles:
+  - upstream-readiness-node-package
+dependencies: [K7, B1]
+artifact_files:
+  - node-spec.md
+  - verification-model.md
+  - item-bank-schema.md
+  - item-bank.json
+  - failure-taxonomy.md
+  - intervention-playbook.md
+  - intervention-map.json
+  - learner-state-model.md
+  - learner-state.schema.json
+  - example-learner-states.json
+  - transition-rules.yaml
+  - teacher-observability.md
+  - agent-behavior.md

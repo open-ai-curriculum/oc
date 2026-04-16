@@ -1,0 +1,218 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://open-ai-curriculum.local/domains/social_studies/artifact-attachments/registry.schema.json",
+  "title": "Social Studies Graph Artifact Attachment Registry",
+  "type": "object",
+  "required": [
+    "registry_id",
+    "domain",
+    "status",
+    "version",
+    "target_scope",
+    "artifacts"
+  ],
+  "properties": {
+    "registry_id": {
+      "type": "string"
+    },
+    "domain": {
+      "const": "social_studies"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "review",
+        "approved"
+      ]
+    },
+    "version": {
+      "type": "string"
+    },
+    "target_scope": {
+      "type": "object",
+      "required": [
+        "primary_node_ids"
+      ],
+      "properties": {
+        "primary_node_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "artifacts": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "artifact_id",
+          "artifact_type",
+          "title",
+          "status",
+          "support_tier",
+          "maturity_state",
+          "target_entity_type",
+          "target_entity_id",
+          "primary_node_id",
+          "purpose",
+          "delivery_format",
+          "source_path",
+          "review_status"
+        ],
+        "properties": {
+          "artifact_id": {
+            "type": "string"
+          },
+          "artifact_type": {
+            "type": "string",
+            "enum": [
+              "InquiryTask",
+              "DocumentAnalysisTask",
+              "MapInterpretationTask",
+              "CivicDeliberationProtocol",
+              "AssessmentItem",
+              "AssessmentBundle",
+              "VerificationTask",
+              "RetentionCheck",
+              "InterventionAsset",
+              "ErrorAnalysisTask",
+              "ReteachRoutine",
+              "TeacherDecisionSupport",
+              "AccessibilitySupport",
+              "LanguageSupport",
+              "Exemplar"
+            ]
+          },
+          "title": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "draft",
+              "review",
+              "approved"
+            ]
+          },
+          "support_tier": {
+            "type": "string"
+          },
+          "maturity_state": {
+            "type": "string"
+          },
+          "target_entity_type": {
+            "type": "string",
+            "enum": [
+              "CapabilityNode",
+              "GradeBand",
+              "ContentDomain",
+              "StandardsAnchor",
+              "PerformanceLevel"
+            ]
+          },
+          "target_entity_id": {
+            "type": "string"
+          },
+          "primary_node_id": {
+            "type": "string"
+          },
+          "secondary_node_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "purpose": {
+            "type": "string"
+          },
+          "delivery_format": {
+            "type": "string"
+          },
+          "source_path": {
+            "type": "string"
+          },
+          "grade_band": {
+            "type": "string"
+          },
+          "content_domain": {
+            "type": "string"
+          },
+          "standards_anchor_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "verification_gate_targets": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "failure_mode_targets": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "intervention_targets": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "response_modes_supported": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "accessibility_tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "language_support_tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "estimated_duration_minutes": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "prerequisite_artifact_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "review_status": {
+            "type": "string",
+            "enum": [
+              "draft",
+              "review",
+              "approved"
+            ]
+          },
+          "notes": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

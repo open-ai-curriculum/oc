@@ -1,0 +1,26 @@
+{
+  "node_id": "FR1",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "FR1-FM-01": [
+      "alternating sound-to-symbol and symbol-to-sound trials",
+      "very small target set",
+      "immediate reversal of direction on the same correspondence"
+    ],
+    "FR1-FM-02": [
+      "contrast letter naming with actual sound-symbol matching",
+      "remove recital-only tasks",
+      "structured matching routine with mixed directions"
+    ],
+    "FR1-FM-03": [
+      "stable micro-set before one new target is introduced",
+      "explicit contrast between known and new correspondences",
+      "revisit prior targets after each addition"
+    ],
+    "FR1-FM-04": [
+      "shorter routines with distributed retrieval",
+      "reduced visual clutter",
+      "dependency check for P3 and P4"
+    ]
+  }
+}

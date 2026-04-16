@@ -1,0 +1,358 @@
+domain: science
+version: 0.2
+
+graph:
+  id: science_capability_graph
+  purpose: governed K-12 science capability graph scaffold with explicit upper-secondary specialization pathways
+  graph_role: canonical_domain_scaffold
+  standards_baseline: ngss-current-profile-2026-04-14
+  grade_bands: [K-2, 3-5, 6-8, 9-12]
+
+design_constraints:
+  - do_not_separate_practice_from_content_claims
+  - preserve_crosscutting_reasoning_dependencies
+  - require_explanation_and_evidence_for_node_closure
+  - keep_engineering_inside_the_same_governed_graph
+  - maintain_explicit_claim_boundaries_until_human_review
+
+families:
+  - id: Q
+    name: observation_question_formation_and_early_sensemaking
+    nodes:
+      - id: Q1
+        name: observation_noticing_and_descriptive_comparison
+        depends_on: []
+        primary_grade_band: K-2
+      - id: Q2
+        name: question_formation_prediction_language_and_pattern_noticing
+        depends_on: [Q1]
+        primary_grade_band: K-2
+      - id: Q3
+        name: phenomenon_framing_and_shared_sensemaking_routines
+        depends_on: [Q2]
+        primary_grade_band: 3-5
+
+  - id: I
+    name: investigation_measurement_and_data_quality
+    nodes:
+      - id: I1
+        name: fair_tests_tool_use_and_measurement_routines
+        depends_on: [Q2]
+        primary_grade_band: K-2
+      - id: I2
+        name: variable_awareness_data_recording_and_basic_comparison
+        depends_on: [I1, Q3]
+        primary_grade_band: 3-5
+      - id: I3
+        name: repeated_trials_data_reliability_and_pattern_summary
+        depends_on: [I2]
+        primary_grade_band: 6-8
+      - id: I4
+        name: multivariable_investigation_sampling_and_error_awareness
+        depends_on: [I3]
+        primary_grade_band: 9-12
+      - id: I5
+        name: quantitative_investigation_design_uncertainty_and_method_critique
+        depends_on: [I4]
+        primary_grade_band: 9-12
+
+  - id: M
+    name: modeling_mechanism_and_systems_reasoning
+    nodes:
+      - id: M1
+        name: part_whole_structure_function_and_simple_system_models
+        depends_on: [Q3]
+        primary_grade_band: 3-5
+      - id: M2
+        name: mechanism_cause_effect_and_process_models
+        depends_on: [M1, E1]
+        primary_grade_band: 6-8
+      - id: M3
+        name: scale_proportion_and_system_interaction_models
+        depends_on: [M2, I2]
+        primary_grade_band: 6-8
+      - id: M4
+        name: conservation_cycle_and_energy_flow_models
+        depends_on: [M3, E2]
+        primary_grade_band: 9-12
+      - id: M5
+        name: field_force_and_invisible_mechanism_models
+        depends_on: [M4, I4]
+        primary_grade_band: 9-12
+
+  - id: E
+    name: explanation_evidence_and_argument
+    nodes:
+      - id: E1
+        name: observation_based_explanation_and_evidence_talk
+        depends_on: [Q2]
+        primary_grade_band: K-2
+      - id: E2
+        name: claim_evidence_reasoning_and_competing_explanations
+        depends_on: [E1, I2]
+        primary_grade_band: 3-5
+      - id: E3
+        name: model_based_argument_revision_and_source_comparison
+        depends_on: [E2, M2]
+        primary_grade_band: 6-8
+      - id: E4
+        name: quantitative_explanation_data_critique_and_uncertainty_reasoning
+        depends_on: [E3, I4]
+        primary_grade_band: 9-12
+      - id: E5
+        name: cross_domain_synthesis_using_multiple_models_and_evidence_streams
+        depends_on: [E4, M5]
+        primary_grade_band: 9-12
+
+  - id: D
+    name: engineering_design_and_optimization
+    nodes:
+      - id: D1
+        name: problem_definition_criteria_constraints_and_solution_sketching
+        depends_on: [Q2, E1]
+        primary_grade_band: 3-5
+      - id: D2
+        name: prototype_testing_redesign_and_tradeoff_recording
+        depends_on: [D1, I2]
+        primary_grade_band: 3-5
+      - id: D3
+        name: systems_design_tradeoffs_optimization_and_failure_analysis
+        depends_on: [D2, E3, M3]
+        primary_grade_band: 6-8
+      - id: D4
+        name: evidence_driven_optimization_under_constraints
+        depends_on: [D3, E4, I5]
+        primary_grade_band: 9-12
+
+  - id: L
+    name: life_science_progressions
+    nodes:
+      - id: L1
+        name: organisms_needs_traits_and_habitats
+        depends_on: [Q1, E1]
+        primary_grade_band: K-2
+      - id: L2
+        name: life_cycles_inheritance_and_ecosystem_relationships
+        depends_on: [L1, M1]
+        primary_grade_band: 3-5
+      - id: L3
+        name: cells_body_systems_and_interdependent_organism_functions
+        depends_on: [L2, M2]
+        primary_grade_band: 6-8
+      - id: L4
+        name: populations_ecosystems_and_matter_energy_in_living_systems
+        depends_on: [L3, M3, I3]
+        primary_grade_band: 6-8
+      - id: L5
+        name: genetics_evolution_and_homeostasis_models
+        depends_on: [L4, M4, E3]
+        primary_grade_band: 9-12
+      - id: L6
+        name: molecular_biology_complex_ecology_and_biological_systems_integration
+        depends_on: [L5, E4, I5]
+        primary_grade_band: 9-12
+
+  - id: P
+    name: physical_science_progressions
+    nodes:
+      - id: P1
+        name: matter_properties_motion_and_contact_interactions
+        depends_on: [Q1, E1]
+        primary_grade_band: K-2
+      - id: P2
+        name: matter_change_energy_transfer_and_observable_forces
+        depends_on: [P1, I1]
+        primary_grade_band: 3-5
+      - id: P3
+        name: particle_models_waves_and_force_interactions
+        depends_on: [P2, M2]
+        primary_grade_band: 6-8
+      - id: P4
+        name: chemical_reactions_energy_conservation_and_wave_behavior
+        depends_on: [P3, M3, I3]
+        primary_grade_band: 6-8
+      - id: P5
+        name: fields_atomic_interactions_and_quantitative_conservation_models
+        depends_on: [P4, M5, E4]
+        primary_grade_band: 9-12
+      - id: P6
+        name: advanced_chemistry_physics_and_multiscale_physical_systems
+        depends_on: [P5, I5, E5]
+        primary_grade_band: 9-12
+
+  - id: T
+    name: earth_and_space_science_progressions
+    nodes:
+      - id: T1
+        name: weather_sky_patterns_and_local_earth_materials
+        depends_on: [Q1, E1]
+        primary_grade_band: K-2
+      - id: T2
+        name: earth_surface_change_solar_lunar_patterns_and_water_movement
+        depends_on: [T1, I1]
+        primary_grade_band: 3-5
+      - id: T3
+        name: climate_resources_earth_sun_moon_systems_and_map_scale
+        depends_on: [T2, M2]
+        primary_grade_band: 6-8
+      - id: T4
+        name: plate_processes_water_cycle_and_space_system_interactions
+        depends_on: [T3, M3, I3]
+        primary_grade_band: 6-8
+      - id: T5
+        name: geologic_time_climate_systems_and_human_impact_models
+        depends_on: [T4, M4, E3]
+        primary_grade_band: 9-12
+      - id: T6
+        name: earth_space_evolution_planetary_systems_and_global_change_synthesis
+        depends_on: [T5, E4, I5]
+        primary_grade_band: 9-12
+
+  - id: A
+    name: advanced_secondary_science_integration
+    nodes:
+      - id: A1
+        name: interdisciplinary_phenomenon_modeling_and_scientific_synthesis
+        depends_on: [L6, P6, T6, E5]
+        primary_grade_band: 9-12
+      - id: A2
+        name: advanced_research_design_computational_analysis_and_engineering_science_integration
+        depends_on: [A1, D4]
+        primary_grade_band: 9-12
+
+  - id: B
+    name: advanced_biological_specializations
+    nodes:
+      - id: B1
+        name: biomolecules_cellular_structure_and_metabolism
+        depends_on: [L3, L5, P5, M4]
+        primary_grade_band: 9-12
+      - id: B2
+        name: gene_expression_inheritance_and_biotechnology
+        depends_on: [B1, L5, I4]
+        primary_grade_band: 9-12
+      - id: B3
+        name: evolution_population_genetics_and_biodiversity
+        depends_on: [B2, L5, E4]
+        primary_grade_band: 9-12
+      - id: B4
+        name: anatomy_physiology_and_system_regulation
+        depends_on: [B1, L5, M4]
+        primary_grade_band: 9-12
+      - id: B5
+        name: ecology_field_systems_and_environmental_biology
+        depends_on: [L4, L6, T5, I4]
+        primary_grade_band: 9-12
+      - id: B6
+        name: organismal_specializations_botany_zoology_and_marine_biology
+        depends_on: [B4, B5, T6]
+        primary_grade_band: 9-12
+
+  - id: C
+    name: chemistry_specializations
+    nodes:
+      - id: C1
+        name: atomic_structure_periodicity_and_quantum_models
+        depends_on: [P5, M5]
+        primary_grade_band: 9-12
+      - id: C2
+        name: bonding_structure_and_intermolecular_forces
+        depends_on: [C1, P5]
+        primary_grade_band: 9-12
+      - id: C3
+        name: stoichiometry_reaction_quantification_and_solution_chemistry
+        depends_on: [C2, I4, E4]
+        primary_grade_band: 9-12
+      - id: C4
+        name: kinetics_equilibrium_and_acid_base_systems
+        depends_on: [C3, M4]
+        primary_grade_band: 9-12
+      - id: C5
+        name: thermodynamics_electrochemistry_and_chemical_change_systems
+        depends_on: [C4, P6, M4]
+        primary_grade_band: 9-12
+
+  - id: F
+    name: physics_specializations
+    nodes:
+      - id: F1
+        name: mechanics_kinematics_energy_and_momentum
+        depends_on: [P4, M4, I4]
+        primary_grade_band: 9-12
+      - id: F2
+        name: rotation_oscillation_gravitation_and_mechanical_systems
+        depends_on: [F1, P5]
+        primary_grade_band: 9-12
+      - id: F3
+        name: fluids_thermodynamics_and_thermal_systems
+        depends_on: [F1, P6, M4]
+        primary_grade_band: 9-12
+      - id: F4
+        name: electrostatics_circuits_and_magnetic_fields
+        depends_on: [P5, M5, I4]
+        primary_grade_band: 9-12
+      - id: F5
+        name: waves_optics_quantum_and_modern_physics
+        depends_on: [F4, P6, M5]
+        primary_grade_band: 9-12
+      - id: F6
+        name: calculus_embedded_physics_modeling
+        depends_on: [F2, F4, I5, E5]
+        primary_grade_band: 9-12
+
+  - id: G
+    name: earth_environment_and_space_specializations
+    nodes:
+      - id: G1
+        name: geology_geophysics_and_surface_process_systems
+        depends_on: [T4, M3, I3]
+        primary_grade_band: 9-12
+      - id: G2
+        name: atmospheric_weather_and_climate_dynamics
+        depends_on: [T5, M4, I4]
+        primary_grade_band: 9-12
+      - id: G3
+        name: hydrology_oceanography_and_marine_earth_systems
+        depends_on: [G1, G2, T6]
+        primary_grade_band: 9-12
+      - id: G4
+        name: astronomy_astrophysics_and_cosmic_evolution
+        depends_on: [T6, M5, E4]
+        primary_grade_band: 9-12
+      - id: G5
+        name: environmental_systems_human_impact_and_sustainability
+        depends_on: [T5, L4, E4, D4]
+        primary_grade_band: 9-12
+      - id: G6
+        name: land_water_use_agriculture_and_resource_management
+        depends_on: [G5, B5, D4]
+        primary_grade_band: 9-12
+
+  - id: R
+    name: applied_and_cross_domain_science_specializations
+    nodes:
+      - id: R1
+        name: independent_research_design_and_scientific_inquiry
+        depends_on: [A2, I5, E5]
+        primary_grade_band: 9-12
+      - id: R2
+        name: forensic_science_and_evidence_based_lab_analysis
+        depends_on: [R1, B1, C3]
+        primary_grade_band: 9-12
+      - id: R3
+        name: electronics_instrumentation_and_embedded_measurement
+        depends_on: [R1, F4, D4]
+        primary_grade_band: 9-12
+      - id: R4
+        name: computational_science_data_modeling_and_simulation
+        depends_on: [A2, M5, I5]
+        primary_grade_band: 9-12
+
+implementation_priority:
+  - Q1
+  - Q2
+  - I1
+  - E1
+  - L1
+  - P1
+  - T1

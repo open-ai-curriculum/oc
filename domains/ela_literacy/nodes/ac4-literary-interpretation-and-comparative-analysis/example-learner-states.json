@@ -1,0 +1,27 @@
+[
+  {
+    "learner_id": "example-ac4-emerging",
+    "node_id": "AC4",
+    "status": "emerging",
+    "dependency_status": {
+      "R4": "secure",
+      "WC6": "secure",
+      "L3": "secure"
+    },
+    "direct_accuracy": 0.77,
+    "explanation_status": "weak",
+    "transfer_status": "weak",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [
+      "AC4-FM-01",
+      "AC4-FM-02"
+    ],
+    "recommended_interventions": [
+      "tighten the task around interpretation-without-comparison so the target is more visible",
+      "keep the response surface bounded enough to isolate the real bottleneck"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Learner shows emerging control on AC4 but still needs stronger transfer and explanation."
+  }
+]

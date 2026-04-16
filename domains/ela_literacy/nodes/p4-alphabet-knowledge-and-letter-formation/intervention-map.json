@@ -1,0 +1,26 @@
+{
+  "node_id": "P4",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "P4-FM-01": [
+      "smaller stable letter set",
+      "direct contrasts between visually similar letters",
+      "same target letters across identification and formation"
+    ],
+    "P4-FM-02": [
+      "explicit letter versus nonletter sorting",
+      "which marks are letters prompts",
+      "limited stable nonletter distractors"
+    ],
+    "P4-FM-03": [
+      "modeled formation with guided repetition",
+      "reduced target-letter count",
+      "gradual shift from guided to independent production"
+    ],
+    "P4-FM-04": [
+      "stable letters with one changed presentation format",
+      "same letters across cards print and writing surface",
+      "recognition and production separated before recombination"
+    ]
+  }
+}

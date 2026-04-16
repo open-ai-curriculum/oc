@@ -1,0 +1,26 @@
+{
+  "node_id": "G2",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "G2-FM-01": [
+      "compare two places and identify the shared regional feature",
+      "sort places by one geographic criterion at a time",
+      "use labeled region examples before fading supports"
+    ],
+    "G2-FM-02": [
+      "ask how the environment affects people and how people affect the environment",
+      "use paired cause-and-response examples",
+      "map one interaction in both directions"
+    ],
+    "G2-FM-03": [
+      "point from a map feature to a region statement explicitly",
+      "annotate the evidence needed for the claim",
+      "compare justified and unjustified region groupings"
+    ],
+    "G2-FM-04": [
+      "simplify the map field and preteach key spatial terms",
+      "use oral explanation plus pointing",
+      "verify whether access adjustments change performance materially"
+    ]
+  }
+}

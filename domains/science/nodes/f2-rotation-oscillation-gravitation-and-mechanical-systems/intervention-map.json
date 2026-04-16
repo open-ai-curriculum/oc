@@ -1,0 +1,37 @@
+{
+  "node_id": "F2",
+  "interventions": [
+    {
+      "intervention_id": "F2-INT-01",
+      "name": "F2 Intervention 1",
+      "addresses_failure_modes": [
+        "F2-FM-01"
+      ],
+      "summary": "linear-versus-rotational comparison routines tied to physical interpretation"
+    },
+    {
+      "intervention_id": "F2-INT-02",
+      "name": "F2 Intervention 2",
+      "addresses_failure_modes": [
+        "F2-FM-02"
+      ],
+      "summary": "oscillation explanations that force restoring-effect and energy reasoning"
+    },
+    {
+      "intervention_id": "F2-INT-03",
+      "name": "F2 Intervention 3",
+      "addresses_failure_modes": [
+        "F2-FM-03"
+      ],
+      "summary": "orbit-model prompts connecting gravitation, motion, and system boundary conditions"
+    },
+    {
+      "intervention_id": "F2-INT-04",
+      "name": "F2 Intervention 4",
+      "addresses_failure_modes": [
+        "F2-FM-04"
+      ],
+      "summary": "case sorting that separates when rotational, oscillatory, or orbital models fit"
+    }
+  ]
+}

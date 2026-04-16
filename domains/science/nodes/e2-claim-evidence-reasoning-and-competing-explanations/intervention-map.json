@@ -1,0 +1,26 @@
+{
+  "node_id": "E2",
+  "version": "0.1",
+  "interventions": {
+    "E2-FM-01": [
+      "match claims to the most relevant evidence from a small set",
+      "highlight which row or observation belongs to the focal question",
+      "compare supporting and non-supporting evidence for the same claim"
+    ],
+    "E2-FM-02": [
+      "use sentence frames such as This evidence supports the claim because",
+      "model short because-statements from a visible table",
+      "ask what the evidence shows before stating the reason"
+    ],
+    "E2-FM-03": [
+      "compare two explanations and ask which one uses the actual data",
+      "sort stronger and weaker explanations",
+      "highlight what each explanation does or does not account for"
+    ],
+    "E2-FM-04": [
+      "repeat the CER routine across plant motion and weather examples",
+      "preserve the CER structure while changing the domain",
+      "fade scaffolds after a successful familiar example"
+    ]
+  }
+}

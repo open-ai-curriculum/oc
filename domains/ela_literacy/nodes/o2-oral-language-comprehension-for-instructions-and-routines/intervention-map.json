@@ -1,0 +1,26 @@
+{
+  "node_id": "O2",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "O2-FM-01": [
+      "changed-wording routines with the same intended action",
+      "action-selection checks that reduce imitation-only success",
+      "separate routine cue from oral-language cue"
+    ],
+    "O2-FM-02": [
+      "single-action directions before rebuilding multi-part sequence",
+      "visually segmented first-then oral directions",
+      "small sequence routines with explicit order language"
+    ],
+    "O2-FM-03": [
+      "preteaching of key classroom vocabulary",
+      "spoken language paired with concrete referents",
+      "closely related rewording after the first attempt"
+    ],
+    "O2-FM-04": [
+      "same meaning target with changed speaker or setting",
+      "varied routine surface with stable comprehension target",
+      "deliberate movement from familiar to less familiar contexts"
+    ]
+  }
+}

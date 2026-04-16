@@ -1,0 +1,40 @@
+[
+  {
+    "learner_id": "example-p4-secure",
+    "node_id": "P4",
+    "status": "secure",
+    "dependency_status": {
+      "P3": "secure",
+      "I3": "secure",
+      "M3": "secure"
+    },
+    "direct_accuracy": 0.94,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Uses bounded reaction and conservation reasoning and interprets wave behavior with model control."
+  },
+  {
+    "learner_id": "example-p4-emerging",
+    "node_id": "P4",
+    "status": "emerging",
+    "dependency_status": {
+      "P3": "secure",
+      "I3": "secure",
+      "M3": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["P4-FM-01", "P4-FM-02"],
+    "recommended_interventions": ["P4-INT-01", "P4-INT-02"],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Misreads reaction evidence and loses matter accounting in bounded systems."
+  }
+]

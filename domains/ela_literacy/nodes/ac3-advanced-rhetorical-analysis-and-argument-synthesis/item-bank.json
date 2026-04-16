@@ -1,0 +1,314 @@
+{
+  "node_id": "AC3",
+  "policy_version": "1.0",
+  "version": "0.3",
+  "items": [
+    {
+      "item_id": "AC3-D-001",
+      "family": "direct_execution",
+      "prompt": "Complete a bounded advanced analysis task that requires the learner to build advanced rhetorical analysis from coordinated reading and mature sourced writing.",
+      "target_node": "AC3",
+      "secondary_dependency_targets": [
+        "AC2",
+        "WC8",
+        "L3"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_response",
+        "annotation",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "AC3-FM-01",
+        "AC3-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "AC3-D-002",
+      "family": "direct_execution",
+      "prompt": "Show advanced rhetorical analysis and argument synthesis in a fresh but controlled advanced analysis task and make the learner separate high-level rhetorical argument synthesis from earlier source integration.",
+      "target_node": "AC3",
+      "secondary_dependency_targets": [
+        "AC2",
+        "WC8",
+        "L3"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_response",
+        "annotation",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "AC3-FM-02",
+        "AC3-FM-03"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "AC3-D-003",
+      "family": "direct_execution",
+      "prompt": "Use a slightly less-routine advanced analysis task to determine whether the learner can still support capstone rhetorical literacy.",
+      "target_node": "AC3",
+      "secondary_dependency_targets": [
+        "AC2",
+        "WC8",
+        "L3"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_response",
+        "annotation",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "AC3-FM-03",
+        "AC3-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "AC3-D-004",
+      "family": "direct_execution",
+      "prompt": "Perform advanced rhetorical analysis and argument synthesis under a changed format within the same boundary and verify the learner can still the learner constructs advanced rhetorical analysis and synthesized argument after disciplinary and rhetorical reading plus mature sourced writing are available.",
+      "target_node": "AC3",
+      "secondary_dependency_targets": [
+        "AC2",
+        "WC8",
+        "L3"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_response",
+        "annotation",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "AC3-FM-04",
+        "AC3-FM-01"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "AC3-E-001",
+      "family": "explanation",
+      "prompt": "Explain or annotate how the learner shows that they can build advanced rhetorical analysis from coordinated reading and mature sourced writing, and identify which evidence in the response demonstrates the intended meaning.",
+      "target_node": "AC3",
+      "secondary_dependency_targets": [
+        "AC2",
+        "WC8",
+        "L3"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_explanation",
+        "oral_explanation",
+        "annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "AC3-FM-01"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "AC3-E-002",
+      "family": "explanation",
+      "prompt": "Ask for a brief justification, annotation, or teacher-scored explanation showing why the response used for advanced rhetorical analysis and argument synthesis is valid rather than routine only.",
+      "target_node": "AC3",
+      "secondary_dependency_targets": [
+        "AC2",
+        "WC8",
+        "L3"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_explanation",
+        "oral_explanation",
+        "annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "AC3-FM-02"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "AC3-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A learner attempt shows move-effect interpretation fragility. Diagnose the earliest breakdown and state what evidence separates it from secure advanced rhetorical analysis and argument synthesis.",
+      "target_node": "AC3",
+      "secondary_dependency_targets": [
+        "AC2",
+        "WC8",
+        "L3"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "AC3-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "AC3-C-002",
+      "family": "error_diagnosis",
+      "prompt": "Review a mismatched response that reflects argument-synthesis collapse. Identify the dominant failure mode and explain why this is not just a minor performance slip.",
+      "target_node": "AC3",
+      "secondary_dependency_targets": [
+        "AC2",
+        "WC8",
+        "L3"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "AC3-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "AC3-T-001",
+      "family": "transfer",
+      "prompt": "Use advanced rhetorical analysis and argument synthesis in a changed source set, discipline, or rhetorical frame and judge whether the learner preserves the same underlying capability.",
+      "target_node": "AC3",
+      "secondary_dependency_targets": [
+        "AC2",
+        "WC8",
+        "L3"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_response",
+        "annotation",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "AC3-FM-03"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "AC3-T-002",
+      "family": "transfer",
+      "prompt": "Shift the learner into a changed source set, discipline, or rhetorical frame and require a response that still demonstrates advanced rhetorical analysis and argument synthesis without relying on the original routine.",
+      "target_node": "AC3",
+      "secondary_dependency_targets": [
+        "AC2",
+        "WC8",
+        "L3"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_response",
+        "annotation",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "AC3-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "AC3-R-001",
+      "family": "retention",
+      "prompt": "After approximately 21 days, run a fresh advanced analysis task to confirm the learner still demonstrates advanced rhetorical analysis and argument synthesis without re-teaching inside the check.",
+      "target_node": "AC3",
+      "secondary_dependency_targets": [
+        "AC2",
+        "WC8",
+        "L3"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_response",
+        "annotation",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "AC3-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability"
+    },
+    {
+      "item_id": "AC3-P-001",
+      "family": "prerequisite_probe",
+      "prompt": "Before assigning advanced rhetorical analysis and argument synthesis, probe whether disciplinary and rhetorical reading is secure enough to support the current task.",
+      "target_node": "AC3",
+      "secondary_dependency_targets": [
+        "AC2",
+        "WC8",
+        "L3"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "written_explanation",
+        "oral_explanation",
+        "annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "AC3-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_disambiguation",
+      "dependency_target": "AC2",
+      "suspected_knowledge_gap_if_incorrect": "disciplinary and rhetorical reading"
+    },
+    {
+      "item_id": "AC3-P-002",
+      "family": "prerequisite_probe",
+      "prompt": "Use a quick dependency check on attribution and citation control to decide whether weak performance on advanced rhetorical analysis and argument synthesis is upstream or node-specific.",
+      "target_node": "AC3",
+      "secondary_dependency_targets": [
+        "AC2",
+        "WC8",
+        "L3"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "written_explanation",
+        "oral_explanation",
+        "annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "AC3-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_disambiguation",
+      "dependency_target": "WC8",
+      "suspected_knowledge_gap_if_incorrect": "attribution and citation control"
+    }
+  ]
+}

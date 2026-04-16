@@ -1,0 +1,21 @@
+{
+  "node_id": "A1",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "A1-FM-01": [
+      "short predictable entry routine with one clear start signal",
+      "reduced nonessential choices at task start",
+      "brief high-success first action"
+    ],
+    "A1-FM-02": [
+      "explicit target highlighting or pointing",
+      "one focal stimulus at a time",
+      "task-target restatement before the first action"
+    ],
+    "A1-FM-03": [
+      "shortened first work segment",
+      "visible first-then frame",
+      "reinforcement tied to initial routine completion"
+    ]
+  }
+}

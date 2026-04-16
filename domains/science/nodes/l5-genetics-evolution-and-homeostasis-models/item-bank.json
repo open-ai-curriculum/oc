@@ -1,0 +1,32 @@
+[
+  {
+    "item_id": "L5-IB-01",
+    "node_id": "L5",
+    "prompt": "A learner says offspring get a useful trait because the parent needed it. What needs revision?",
+    "task_type": "inheritance_model_explanation",
+    "answer_key": "The explanation should shift from need-based inheritance to bounded genetic inheritance models rather than purposeful acquisition.",
+    "scorable_traits": ["inheritance reasoning", "non-teleological framing", "precision"],
+    "target_failure_modes": ["L5-FM-01"],
+    "context_tags": ["genetics", "inheritance"]
+  },
+  {
+    "item_id": "L5-IB-02",
+    "node_id": "L5",
+    "prompt": "Why is it incomplete to say a population evolved because the organisms tried harder to survive?",
+    "task_type": "evolution_reasoning",
+    "answer_key": "Evolution should be explained as population-level change shaped by variation and selection, not as effort or intention by individual organisms.",
+    "scorable_traits": ["population reasoning", "selection model", "anti-teleology"],
+    "target_failure_modes": ["L5-FM-02"],
+    "context_tags": ["evolution", "populations"]
+  },
+  {
+    "item_id": "L5-IB-03",
+    "node_id": "L5",
+    "prompt": "A student says homeostasis means body conditions never change. What correction is needed?",
+    "task_type": "homeostasis_reasoning",
+    "answer_key": "Homeostasis should be explained as dynamic regulation around ranges, not as perfect unchanging conditions.",
+    "scorable_traits": ["regulation", "dynamic stability", "model correction"],
+    "target_failure_modes": ["L5-FM-03"],
+    "context_tags": ["homeostasis", "regulation"]
+  }
+]

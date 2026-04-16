@@ -1,0 +1,32 @@
+[
+  {
+    "item_id": "L6-IB-01",
+    "node_id": "L6",
+    "prompt": "Why is it incomplete to explain a disease outcome only at the organ level when molecular evidence is available too?",
+    "task_type": "multiscale_biology_explanation",
+    "answer_key": "The explanation should integrate molecular and organ-level mechanisms when the evidence supports both, rather than stopping at one scale.",
+    "scorable_traits": ["scale coordination", "evidence use", "biological integration"],
+    "target_failure_modes": ["L6-FM-01"],
+    "context_tags": ["molecular biology", "systems"]
+  },
+  {
+    "item_id": "L6-IB-02",
+    "node_id": "L6",
+    "prompt": "A learner explains ecosystem collapse using only one predator-prey relation. What critique is needed?",
+    "task_type": "complex_ecology_reasoning",
+    "answer_key": "The critique should note that complex ecological outcomes often depend on multiple interacting populations, resources, and conditions rather than one link alone.",
+    "scorable_traits": ["interaction complexity", "system reasoning", "critique quality"],
+    "target_failure_modes": ["L6-FM-02"],
+    "context_tags": ["ecology", "systems"]
+  },
+  {
+    "item_id": "L6-IB-03",
+    "node_id": "L6",
+    "prompt": "Several biological datasets point in different directions. What makes a synthesis disciplined rather than selective?",
+    "task_type": "evidence_integration_critique",
+    "answer_key": "A disciplined synthesis weighs the strength and limits of each dataset, explains tensions among them, and avoids picking only the most convenient result.",
+    "scorable_traits": ["evidence weighting", "uncertainty handling", "synthesis discipline"],
+    "target_failure_modes": ["L6-FM-03"],
+    "context_tags": ["data synthesis", "biology"]
+  }
+]

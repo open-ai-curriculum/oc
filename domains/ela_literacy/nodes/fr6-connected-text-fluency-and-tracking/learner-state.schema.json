@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FR6 Learner State",
+  "type": "object",
+  "required": [
+    "learner_id",
+    "node_id",
+    "status",
+    "dependency_status",
+    "direct_accuracy",
+    "fluency_status",
+    "transfer_status",
+    "retention_status",
+    "dominant_failure_modes",
+    "recommended_interventions",
+    "last_verified_at",
+    "review_state",
+    "notes"
+  ],
+  "properties": {
+    "learner_id": { "type": "string" },
+    "node_id": { "const": "FR6" },
+    "status": {
+      "type": "string",
+      "enum": ["blocked", "emerging", "provisional", "secure", "unstable"]
+    },
+    "dependency_status": {
+      "type": "object",
+      "properties": {
+        "FR5": {
+          "type": "string",
+          "enum": ["blocked", "emerging", "provisional", "secure", "unstable"]
+        },
+        "P2": {
+          "type": "string",
+          "enum": ["blocked", "emerging", "provisional", "secure", "unstable"]
+        }
+      },
+      "required": ["FR5", "P2"]
+    },
+    "direct_accuracy": { "type": "number" },
+    "fluency_status": {
+      "type": "string",
+      "enum": ["not_met", "weak", "met"]
+    },
+    "transfer_status": {
+      "type": "string",
+      "enum": ["not_met", "weak", "met"]
+    },
+    "retention_status": {
+      "type": "string",
+      "enum": ["not_due", "not_met", "met"]
+    },
+    "dominant_failure_modes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["FR6-FM-01", "FR6-FM-02", "FR6-FM-03", "FR6-FM-04"]
+      }
+    },
+    "recommended_interventions": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "last_verified_at": { "type": "string" },
+    "review_state": {
+      "type": "string",
+      "enum": ["draft", "human-reviewed"]
+    },
+    "notes": { "type": "string" }
+  }
+}

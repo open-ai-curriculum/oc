@@ -1,0 +1,16 @@
+{
+  "node_id": "E4",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "E4-G1-01",
+      "node_id": "E4",
+      "gate": "G1",
+      "prompt": "Use the scenario to explain a labor or public-resource decision and what tradeoff it creates.",
+      "context_type": "economic_or_public_resource_scenario",
+      "response_mode": "oral_or_written_or_diagrammed",
+      "scoring_rule": "States a plausible decision relationship and identifies a meaningful tradeoff.",
+      "failure_mode_targets": ["E4-FM-01", "E4-FM-02"]
+    }
+  ]
+}

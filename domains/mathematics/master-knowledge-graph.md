@@ -206,6 +206,11 @@ The following documents are derived views of this master graph:
 - `W2` Bivariate data and linear association
 - `W3` Sampling, inference, and study design
 - `W4` Probability models and compound events
+- `W5` Sampling distributions
+- `W6` Inference for proportions
+- `W7` Inference for means
+- `W8` Chi-square reasoning
+- `W9` Inference for regression slope
 
 ### B. Advanced Algebra, Trigonometry, And Precalculus
 
@@ -214,14 +219,23 @@ The following documents are derived views of this master graph:
 - `B3` Logarithmic and inverse-function reasoning
 - `B4` Trigonometric functions and unit circle
 - `B5` Precalculus function synthesis and limits foundations
+- `B6` Trigonometric identities, equations, and analytic trig
+- `B7` Sequences, series, and recursive structure
+- `B8` Complex numbers and quadratic extensions
+- `B9` Conic sections and coordinate models
+- `B10` Vectors, matrices, and parametric foundations
 
 ### AP. Advanced Placement Mathematics Pathways
 
 - `AP1` AP Statistics extension
 - `AP2` AP Precalculus extension
-- `AP3` Calculus limits and derivatives
-- `AP4` Integral accumulation and the fundamental theorem
-- `AP5` BC series and advanced calculus extensions
+- `AP3` Limits and continuity
+- `AP4` Derivative rules and computation
+- `AP5` Applications of derivatives
+- `AP6` Integral meaning and accumulation
+- `AP7` Applications of integration
+- `AP8` Differential equations foundations
+- `AP9` BC series and advanced calculus extensions
 
 ## Master Dependency Logic
 
@@ -417,6 +431,16 @@ The following documents are derived views of this master graph:
 
 `D6 + F2 + Q1 -> W4`
 
+`W1 + W4 -> W5`
+
+`W5 + W3 -> W6`
+
+`W5 + W3 -> W7`
+
+`W4 + W3 -> W8`
+
+`W2 + W5 + W3 -> W9`
+
 ### Advanced Algebra, Trigonometry, And Precalculus
 
 `A2 + K1 + T6 -> B1 -> B2 -> B3`
@@ -427,17 +451,31 @@ The following documents are derived views of this master graph:
 
 `B3 + B4 + K2 -> B5`
 
+`B4 + A2 + K2 -> B6`
+
+`B1 + B5 -> B7`
+
+`K7 + B1 -> B8`
+
+`A4 + H5 + B1 -> B9`
+
+`A4 + K1 + B6 -> B10`
+
 ### Advanced Placement Mathematics Pathways
 
-`W2 + W3 + W4 -> AP1`
+`W2 + W4 + W5 + W6 + W7 + W8 + W9 -> AP1`
 
-`B4 + B5 -> AP2`
+`B5 + B6 + B9 + B10 -> AP2`
 
 `B5 + K2 -> AP3 -> AP4 -> AP5`
 
-`Q2 + AP3 -> AP4`
+`Q2 + AP4 -> AP6`
 
-`B1 + AP4 -> AP5`
+`AP6 + AP5 -> AP7`
+
+`AP4 + AP6 -> AP8`
+
+`AP6 + B7 -> AP9`
 
 ## Current Closure Boundary
 

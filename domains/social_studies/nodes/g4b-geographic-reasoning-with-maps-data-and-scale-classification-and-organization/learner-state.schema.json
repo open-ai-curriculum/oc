@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "G4B Learner State",
+  "type": "object",
+  "properties": {
+    "learner_id": {
+      "type": "string"
+    },
+    "node_id": {
+      "const": "G4B"
+    },
+    "status": {
+      "enum": [
+        "blocked",
+        "emerging",
+        "provisional",
+        "secure",
+        "unstable"
+      ]
+    },
+    "direct_accuracy": {
+      "type": "number"
+    },
+    "explanation_status": {
+      "enum": [
+        "not_met",
+        "weak",
+        "met"
+      ]
+    },
+    "transfer_status": {
+      "enum": [
+        "not_met",
+        "weak",
+        "met"
+      ]
+    },
+    "retention_status": {
+      "enum": [
+        "not_due",
+        "not_met",
+        "met"
+      ]
+    },
+    "dominant_failure_modes": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "G4B-FM-01",
+          "G4B-FM-02",
+          "G4B-FM-03",
+          "G4B-FM-04"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "learner_id",
+    "node_id",
+    "status"
+  ]
+}

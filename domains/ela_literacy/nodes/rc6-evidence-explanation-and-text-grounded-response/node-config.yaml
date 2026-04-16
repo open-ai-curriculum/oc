@@ -1,0 +1,39 @@
+id: RC6
+name: evidence_explanation_and_text_grounded_response
+domain: ela_literacy
+support_tier: Core release
+maturity_state: Drafted
+supported_profiles:
+  - text-response-node-package
+evidence_class: Synthetic
+dependencies:
+  - RC5
+mastery:
+  direct_accuracy_threshold: 0.85
+  explanation_required: true
+  transfer_required: true
+  retention_check_days: 14
+statuses:
+  - blocked
+  - emerging
+  - provisional
+  - secure
+  - unstable
+verification_gates:
+  - id: G1
+    type: direct_performance
+    pass_rule: answers text-dependent prompts with relevant evidence and explanation in at least 5 of 6 supported opportunities
+  - id: G2
+    type: meaning
+    pass_rule: explains how the cited detail supports the response in at least 4 of 5 prompts
+  - id: G3
+    type: transfer
+    pass_rule: succeeds across at least one changed text, question type, or response format
+  - id: G4
+    type: retention
+    pass_rule: stable delayed recheck after approximately 14 days
+failure_modes:
+  - RC6-FM-01
+  - RC6-FM-02
+  - RC6-FM-03
+  - RC6-FM-04

@@ -1,0 +1,26 @@
+{
+  "node_id": "RC2",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "RC2-FM-01": [
+      "tighten the task around inference so the target is more visible",
+      "keep the text or prompt surface small enough to isolate inference without anchor",
+      "rerun a bounded recheck on a changed but comparable text or prompt"
+    ],
+    "RC2-FM-02": [
+      "tighten the task around single-detail so the target is more visible",
+      "keep the text or prompt surface small enough to isolate single-detail fixation",
+      "rerun a bounded recheck on a changed but comparable text or prompt"
+    ],
+    "RC2-FM-03": [
+      "tighten the task around overgeneralized so the target is more visible",
+      "keep the text or prompt surface small enough to isolate overgeneralized background knowledge",
+      "rerun a bounded recheck on a changed but comparable text or prompt"
+    ],
+    "RC2-FM-04": [
+      "tighten the task around question-language so the target is more visible",
+      "keep the text or prompt surface small enough to isolate question-language confound",
+      "rerun a bounded recheck on a changed but comparable text or prompt"
+    ]
+  }
+}

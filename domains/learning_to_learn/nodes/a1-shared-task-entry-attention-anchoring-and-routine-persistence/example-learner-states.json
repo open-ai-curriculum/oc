@@ -1,0 +1,33 @@
+[
+  {
+    "learner_id": "example-a1-blocked",
+    "node_id": "A1",
+    "status": "blocked",
+    "dependency_status": {},
+    "direct_accuracy": 0.46,
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["A1-FM-01", "A1-FM-03"],
+    "recommended_interventions": [
+      "short predictable entry routine with one clear start signal",
+      "visible first-then frame"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Begins only after repeated prompting and leaves before the first work cycle is complete."
+  },
+  {
+    "learner_id": "example-a1-secure",
+    "node_id": "A1",
+    "status": "secure",
+    "dependency_status": {},
+    "direct_accuracy": 0.92,
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Starts and persists through the initial routine across table work and partner work."
+  }
+]

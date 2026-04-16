@@ -1,0 +1,18 @@
+{
+  "node_id": "Q6B",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "Q6B-G1-01",
+      "node_id": "Q6B",
+      "gate": "G1",
+      "prompt": "Complete a bounded classification and organization task for synthesis argument and public communication and explain your reasoning.",
+      "response_mode": "oral_or_written_or_annotated",
+      "scoring_rule": "Completes the task accurately and gives a usable explanation of the structure or reasoning.",
+      "failure_mode_targets": [
+        "Q6B-FM-01",
+        "Q6B-FM-02"
+      ]
+    }
+  ]
+}

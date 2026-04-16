@@ -1,0 +1,37 @@
+{
+  "node_id": "I3",
+  "interventions": [
+    {
+      "intervention_id": "I3-INT-01",
+      "name": "I3 Intervention 1",
+      "addresses_failure_modes": [
+        "I3-FM-01"
+      ],
+      "summary": "people-and-system comparison tasks that identify who is helped or harmed in bounded cases"
+    },
+    {
+      "intervention_id": "I3-INT-02",
+      "name": "I3 Intervention 2",
+      "addresses_failure_modes": [
+        "I3-FM-02"
+      ],
+      "summary": "data-choice and design-choice prompts tied to fairness outcomes"
+    },
+    {
+      "intervention_id": "I3-INT-03",
+      "name": "I3 Intervention 3",
+      "addresses_failure_modes": [
+        "I3-FM-03"
+      ],
+      "summary": "tradeoff evaluation routines that require one benefit and one risk to be named"
+    },
+    {
+      "intervention_id": "I3-INT-04",
+      "name": "I3 Intervention 4",
+      "addresses_failure_modes": [
+        "I3-FM-04"
+      ],
+      "summary": "human-centered design checks that ask who the user is and what conditions matter"
+    }
+  ]
+}

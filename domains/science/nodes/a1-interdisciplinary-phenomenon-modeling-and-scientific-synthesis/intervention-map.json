@@ -1,0 +1,29 @@
+{
+  "node_id": "A1",
+  "interventions": [
+    {
+      "failure_mode": "A1-FM-01",
+      "intervention_id": "A1-INT-01",
+      "name": "Phenomenon To Domain Map",
+      "delivery": "planning scaffold"
+    },
+    {
+      "failure_mode": "A1-FM-02",
+      "intervention_id": "A1-INT-02",
+      "name": "Model Role Matrix",
+      "delivery": "comparison routine"
+    },
+    {
+      "failure_mode": "A1-FM-03",
+      "intervention_id": "A1-INT-03",
+      "name": "Evidence Coverage Audit",
+      "delivery": "review protocol"
+    },
+    {
+      "failure_mode": "A1-FM-04",
+      "intervention_id": "A1-INT-04",
+      "name": "Interdisciplinary Scope Check",
+      "delivery": "claim audit"
+    }
+  ]
+}

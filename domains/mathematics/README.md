@@ -13,6 +13,7 @@ The currently implemented graph covers:
 - ratios, proportional reasoning, percent
 - signed numbers, equations, expressions, inequalities
 - coordinate reasoning and linear-relationship representation
+- a first unified operational export that physically joins capability, standards, artifact, and runtime graph layers
 
 The intended target scope for this domain is:
 
@@ -24,12 +25,24 @@ The authoritative machine-readable graph now includes modeled secondary and AP-f
 
 ## Current Status
 
-Draft domain package. The currently modeled graph is fully implemented through the present lower-to-middle-grade frontier, and the next required repository move is to expand the domain architecture into a full K-12/AP mathematics graph.
+Draft domain package. The currently modeled graph is fully implemented through the present lower-to-middle-grade frontier, and the domain now also includes:
+
+- a standards-augmented graph layer for graph-native standards traversal
+- a maintained assessment-overlay package for SAT, ACT, AP, and IB graph views
+- a master-graph architecture document defining the target operational role of the mathematics graph in an adaptive curriculum system
 
 ## Included Artifacts
 
 - `master-knowledge-graph.md`
 - `master-knowledge-graph.yaml`
+- `master-mathematics-graph-architecture.md`
+- `graph-artifact-attachment-contract.md`
+- `graph-learner-state-and-navigation-contract.md`
+- `standards-augmented-graph.md`
+- `standards-augmented-graph.yaml`
+- `standards-augmented-graph.json`
+- `assessment-overlays/`
+- `exports/operational-graph/`
 - `capability-graph.md`
 - `capability-graph.yaml`
 - `first-node-target.md`
@@ -40,10 +53,20 @@ Draft domain package. The currently modeled graph is fully implemented through t
 - `pre-fraction-frontier-structural-audit.md`
 - `pre-fraction-frontier-completeness-review.md`
 - `cross-branch-integration-audit.md`
+- `external-assessment-coverage-scan.md`
+- `mathematics-graph-refactor-plan.md`
+- `mathematics-graph-refactor-progress.md`
+- `mathematics-b-ap2-decomposition-proposal.md`
+- `assessment-overlay-model.md`
+- `assessment-framework-assurance-register.md`
+- `naep-grade-12-compression-decision.md`
+- `advanced-node-decomposition-contract.md`
 - `downstream-expansion-plan.md`
 - `k12-expansion-architecture.md`
 - `k12-expansion-plan.md`
 - `upstream-build-plan.md`
+- `artifact-attachments/`
+- `runtime/`
 - `nodes/`
 
 ## Graph Authority
@@ -52,7 +75,35 @@ The authoritative graph for this domain is:
 
 - [master-knowledge-graph.md](/Volumes/data/development/oc/domains/mathematics/master-knowledge-graph.md)
 
-The other graph documents are maintained as scoped views of that same graph, not as separate competing graphs.
+The mathematics operational graph architecture is defined in:
+
+- [master-mathematics-graph-architecture.md](/Volumes/data/development/oc/domains/mathematics/master-mathematics-graph-architecture.md)
+- [graph-artifact-attachment-contract.md](/Volumes/data/development/oc/domains/mathematics/graph-artifact-attachment-contract.md)
+- [graph-learner-state-and-navigation-contract.md](/Volumes/data/development/oc/domains/mathematics/graph-learner-state-and-navigation-contract.md)
+
+The generated standards-native operational overlay is:
+
+- [standards-augmented-graph.md](/Volumes/data/development/oc/domains/mathematics/standards-augmented-graph.md)
+
+The maintained assessment-overlay package is:
+
+- [assessment-overlays/index.md](/Volumes/data/development/oc/domains/mathematics/assessment-overlays/index.md)
+
+The maintained assessment-framework assurance boundary is:
+
+- [assessment-framework-assurance-register.md](/Volumes/data/development/oc/domains/mathematics/assessment-framework-assurance-register.md)
+- [naep-grade-12-compression-decision.md](/Volumes/data/development/oc/domains/mathematics/naep-grade-12-compression-decision.md)
+
+The initial machine-readable operational attachment and runtime layers are:
+
+- [artifact-attachments/README.md](/Volumes/data/development/oc/domains/mathematics/artifact-attachments/README.md)
+- [runtime/README.md](/Volumes/data/development/oc/domains/mathematics/runtime/README.md)
+
+The first physically unified operational graph export is:
+
+- [exports/operational-graph/README.md](/Volumes/data/development/oc/domains/mathematics/exports/operational-graph/README.md)
+
+The other graph documents are maintained as scoped views or generated overlays of that same canonical capability graph, not as separate competing graphs.
 
 ## Current Implemented Node Package
 
@@ -173,16 +224,30 @@ The other graph documents are maintained as scoped views of that same graph, not
 - [W2 bivariate data and linear association](/Volumes/data/development/oc/domains/mathematics/nodes/w2-bivariate-data-and-linear-association/README.md)
 - [W3 sampling, inference, and study design](/Volumes/data/development/oc/domains/mathematics/nodes/w3-sampling-inference-and-study-design/README.md)
 - [W4 probability models and compound events](/Volumes/data/development/oc/domains/mathematics/nodes/w4-probability-models-and-compound-events/README.md)
+- [W5 sampling distributions](/Volumes/data/development/oc/domains/mathematics/nodes/w5-sampling-distributions/README.md)
+- [W6 inference for proportions](/Volumes/data/development/oc/domains/mathematics/nodes/w6-inference-for-proportions/README.md)
+- [W7 inference for means](/Volumes/data/development/oc/domains/mathematics/nodes/w7-inference-for-means/README.md)
+- [W8 chi-square reasoning](/Volumes/data/development/oc/domains/mathematics/nodes/w8-chi-square-reasoning/README.md)
+- [W9 inference for regression slope](/Volumes/data/development/oc/domains/mathematics/nodes/w9-inference-for-regression-slope/README.md)
 - [B1 polynomial structure and operations](/Volumes/data/development/oc/domains/mathematics/nodes/b1-polynomial-structure-and-operations/README.md)
 - [B2 rational, radical, and exponential functions](/Volumes/data/development/oc/domains/mathematics/nodes/b2-rational-radical-and-exponential-functions/README.md)
 - [B3 logarithmic and inverse-function reasoning](/Volumes/data/development/oc/domains/mathematics/nodes/b3-logarithmic-and-inverse-function-reasoning/README.md)
 - [B4 trigonometric functions and unit circle](/Volumes/data/development/oc/domains/mathematics/nodes/b4-trigonometric-functions-and-unit-circle/README.md)
 - [B5 precalculus function synthesis and limits foundations](/Volumes/data/development/oc/domains/mathematics/nodes/b5-precalculus-function-synthesis-and-limits-foundations/README.md)
+- [B6 trigonometric identities, equations, and analytic trig](/Volumes/data/development/oc/domains/mathematics/nodes/b6-trigonometric-identities-equations-and-analytic-trig/README.md)
+- [B7 sequences, series, and recursive structure](/Volumes/data/development/oc/domains/mathematics/nodes/b7-sequences-series-and-recursive-structure/README.md)
+- [B8 complex numbers and quadratic extensions](/Volumes/data/development/oc/domains/mathematics/nodes/b8-complex-numbers-and-quadratic-extensions/README.md)
+- [B9 conic sections and coordinate models](/Volumes/data/development/oc/domains/mathematics/nodes/b9-conic-sections-and-coordinate-models/README.md)
+- [B10 vectors, matrices, and parametric foundations](/Volumes/data/development/oc/domains/mathematics/nodes/b10-vectors-matrices-and-parametric-foundations/README.md)
 - [AP1 AP Statistics extension](/Volumes/data/development/oc/domains/mathematics/nodes/ap1-ap-statistics-extension/README.md)
 - [AP2 AP Precalculus extension](/Volumes/data/development/oc/domains/mathematics/nodes/ap2-ap-precalculus-extension/README.md)
-- [AP3 calculus limits and derivatives](/Volumes/data/development/oc/domains/mathematics/nodes/ap3-calculus-limits-and-derivatives/README.md)
-- [AP4 integral accumulation and Fundamental Theorem](/Volumes/data/development/oc/domains/mathematics/nodes/ap4-integral-accumulation-and-fundamental-theorem/README.md)
-- [AP5 BC series and advanced calculus extensions](/Volumes/data/development/oc/domains/mathematics/nodes/ap5-bc-series-and-advanced-calculus-extensions/README.md)
+- [AP3 limits and continuity](/Volumes/data/development/oc/domains/mathematics/nodes/ap3-calculus-limits-and-derivatives/README.md)
+- [AP4 derivative rules and computation](/Volumes/data/development/oc/domains/mathematics/nodes/ap4-integral-accumulation-and-fundamental-theorem/README.md)
+- [AP5 applications of derivatives](/Volumes/data/development/oc/domains/mathematics/nodes/ap5-bc-series-and-advanced-calculus-extensions/README.md)
+- [AP6 integral meaning and accumulation](/Volumes/data/development/oc/domains/mathematics/nodes/ap6-integral-meaning-and-accumulation/README.md)
+- [AP7 applications of integration](/Volumes/data/development/oc/domains/mathematics/nodes/ap7-applications-of-integration/README.md)
+- [AP8 differential equations foundations](/Volumes/data/development/oc/domains/mathematics/nodes/ap8-differential-equations-foundations/README.md)
+- [AP9 BC series and advanced calculus extensions](/Volumes/data/development/oc/domains/mathematics/nodes/ap9-bc-series-and-advanced-calculus-extensions/README.md)
 - [S1 signed number meaning](/Volumes/data/development/oc/domains/mathematics/nodes/s1-signed-number-meaning/README.md)
 - [S2 signed number operations](/Volumes/data/development/oc/domains/mathematics/nodes/s2-signed-number-operations/README.md)
 - [E1 one-step equations](/Volumes/data/development/oc/domains/mathematics/nodes/e1-one-step-equations/README.md)

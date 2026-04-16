@@ -1,0 +1,26 @@
+{
+  "node_id": "E6",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "E6-FM-01": [
+      "require the model to list assumptions before recommendation writing",
+      "compare explicit-assumption and hidden-assumption analyses",
+      "use prompts that ask what must be true for this model to hold"
+    ],
+    "E6-FM-02": [
+      "require at least two competing metrics or stakeholder effects",
+      "compare single-metric and multi-tradeoff recommendations",
+      "use visible tradeoff matrices before final modeling"
+    ],
+    "E6-FM-03": [
+      "require one public-policy or institutional condition in the explanation",
+      "compare market-only and policy-conditioned analyses",
+      "ask what rule subsidy tax or constraint changes the economic recommendation"
+    ],
+    "E6-FM-04": [
+      "preteach modeling and tradeoff vocabulary",
+      "simplify representations before full quantitative or qualitative comparison",
+      "verify whether representation scaffolds materially change performance"
+    ]
+  }
+}

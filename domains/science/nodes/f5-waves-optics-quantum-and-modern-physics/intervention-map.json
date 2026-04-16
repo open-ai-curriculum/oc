@@ -1,0 +1,37 @@
+{
+  "node_id": "F5",
+  "interventions": [
+    {
+      "intervention_id": "F5-INT-01",
+      "name": "F5 Intervention 1",
+      "addresses_failure_modes": [
+        "F5-FM-01"
+      ],
+      "summary": "wave propagation tasks that require model-based explanation rather than feature recall"
+    },
+    {
+      "intervention_id": "F5-INT-02",
+      "name": "F5 Intervention 2",
+      "addresses_failure_modes": [
+        "F5-FM-02"
+      ],
+      "summary": "representation selection routines comparing ray, wave, and other optics models"
+    },
+    {
+      "intervention_id": "F5-INT-03",
+      "name": "F5 Intervention 3",
+      "addresses_failure_modes": [
+        "F5-FM-03"
+      ],
+      "summary": "model-limit discussions for quantum and modern-physics explanations"
+    },
+    {
+      "intervention_id": "F5-INT-04",
+      "name": "F5 Intervention 4",
+      "addresses_failure_modes": [
+        "F5-FM-04"
+      ],
+      "summary": "boundary checks that ask why one model fits a case better than another"
+    }
+  ]
+}

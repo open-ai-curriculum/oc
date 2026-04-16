@@ -1,0 +1,103 @@
+registry_id: ela-literacy-early-literacy-spine-attachments
+domain: ela_literacy
+status: draft
+version: '0.1'
+target_scope:
+  primary_node_ids:
+  - O1
+  - O2
+  - O3
+  - P1
+  - P3
+  - P4
+  - FR1
+  - FR2
+  - FR3
+  - RC1
+  - RC2
+  - L1
+  - W1
+  notes: Initial machine-readable artifact attachment registry for the first oral-language,
+    print, and literacy-entry slice.
+artifacts:
+- artifact_id: ela-o1-lesson-pattern-01
+  artifact_type: LessonPattern
+  title: Joint Attention And Turn-Taking Lesson Pattern
+  status: draft
+  support_tier: Core release
+  maturity_state: Modeled
+  target_entity_type: CapabilityNode
+  target_entity_id: O1
+  primary_node_id: O1
+  purpose: instruction
+  delivery_format: printable_and_digital
+  source_path: curriculum/ela_literacy/oral_language/o1/lesson-pattern-01.md
+  grade_band: Pre-K
+  content_domain: oral language readiness
+  verification_gate_targets:
+  - G1
+  - G3
+  response_modes_supported:
+  - oral
+  - gesture
+  - shared-attention
+  accessibility_tags:
+  - multimodal-response
+  language_support_tags:
+  - teacher-language-routine
+  estimated_duration_minutes: 10
+  review_status: draft
+- artifact_id: ela-o1-verification-task-01
+  artifact_type: VerificationTask
+  title: Joint Attention And Turn-Taking Verification Task
+  status: draft
+  support_tier: Core release
+  maturity_state: Modeled
+  target_entity_type: CapabilityNode
+  target_entity_id: O1
+  primary_node_id: O1
+  purpose: verification
+  delivery_format: printable_and_digital
+  source_path: curriculum/ela_literacy/oral_language/o1/verification-task-01.md
+  grade_band: Pre-K
+  content_domain: oral language readiness
+  verification_gate_targets:
+  - G1
+  - G4
+  review_status: draft
+- artifact_id: ela-p3-intervention-01
+  artifact_type: InterventionAsset
+  title: Phonological Awareness Segmentation Intervention
+  status: draft
+  support_tier: Core release
+  maturity_state: Modeled
+  target_entity_type: CapabilityNode
+  target_entity_id: P3
+  primary_node_id: P3
+  purpose: intervention
+  delivery_format: printable_and_digital
+  source_path: curriculum/ela_literacy/foundations/p3/intervention-01.md
+  grade_band: Pre-K-Kindergarten
+  content_domain: phonological awareness
+  failure_mode_targets:
+  - P3-FM-01
+  - P3-FM-03
+  intervention_targets:
+  - oral-segmentation-routine
+  - sound-attention-rebuild
+  review_status: draft
+- artifact_id: ela-fr2-teacher-support-01
+  artifact_type: TeacherDecisionSupport
+  title: Print Encoding Principle Teacher Decision Guide
+  status: draft
+  support_tier: Core release
+  maturity_state: Modeled
+  target_entity_type: CapabilityNode
+  target_entity_id: FR2
+  primary_node_id: FR2
+  purpose: teacher_support
+  delivery_format: printable_and_digital
+  source_path: curriculum/ela_literacy/foundational/fr2/teacher-decision-guide-01.md
+  grade_band: Kindergarten-Grade 1
+  content_domain: reading foundational skills
+  review_status: draft

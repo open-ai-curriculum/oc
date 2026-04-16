@@ -1,0 +1,23 @@
+[
+  {
+    "learner_id": "example-r1-emerging",
+    "node_id": "R1",
+    "status": "emerging",
+    "dependency_status": {
+      "O3": "secure",
+      "P1": "secure"
+    },
+    "direct_accuracy": 0.71,
+    "explanation_status": "weak",
+    "transfer_status": "weak",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["R1-FM-01", "R1-FM-04"],
+    "recommended_interventions": [
+      "short read-aloud with one literal question type at a time",
+      "same comprehension frame across narrative and informational text"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Literal detail recall is stable in familiar stories but weaker in informational text."
+  }
+]

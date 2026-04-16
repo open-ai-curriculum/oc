@@ -1,0 +1,23 @@
+{
+  "node_id": "G5",
+  "examples": [
+    {
+      "learner_id": "sample-g4-blocked-01",
+      "node_id": "G5",
+      "status": "blocked",
+      "dependency_status": { "G3": "secure", "Q4": "secure" },
+      "direct_accuracy": 0.55,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["G5-FM-02"],
+      "recommended_interventions": [
+        "compare local and broader scale views of the same issue",
+        "ask what changes when the scale changes"
+      ],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Makes a geographic claim but ignores scale constraints."
+    }
+  ]
+}

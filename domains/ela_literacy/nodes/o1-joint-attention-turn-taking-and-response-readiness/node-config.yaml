@@ -1,0 +1,34 @@
+id: O1
+name: joint_attention_turn_taking_and_response_readiness
+domain: ela_literacy
+support_tier: Core release
+maturity_state: Drafted
+supported_profiles:
+  - upstream-readiness-node-package
+evidence_class: Synthetic
+dependencies: []
+mastery:
+  direct_accuracy_threshold: 0.85
+  explanation_required: false
+  transfer_required: true
+  retention_check_days: 14
+statuses:
+  - blocked
+  - emerging
+  - provisional
+  - secure
+  - unstable
+verification_gates:
+  - id: G1
+    type: direct_performance
+    pass_rule: sustained shared attention and turn-taking response in at least 5 of 6 structured interaction opportunities
+  - id: G2
+    type: transfer
+    pass_rule: successful participation in at least one changed routine, partner, or interaction format
+  - id: G3
+    type: retention
+    pass_rule: stable recheck performance after approximately 14 days
+failure_modes:
+  - O1-FM-01
+  - O1-FM-02
+  - O1-FM-03

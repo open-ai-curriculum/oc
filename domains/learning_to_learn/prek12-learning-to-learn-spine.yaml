@@ -1,0 +1,100 @@
+domain: learning_to_learn
+version: 0.1
+
+spine:
+  id: prek12_learning_to_learn_spine
+  purpose: governed pre-k through grade 12 learning-to-learn spine for cross-domain learning process development
+  standards_baseline: none-reviewed-yet
+  grade_bands: [Pre-K-2, 3-5, 6-8, 9-12]
+
+families:
+  - id: A
+    name: task_entry_attention_and_engagement_routines
+    nodes:
+      - id: A1
+        name: shared_task_entry_attention_anchoring_and_routine_persistence
+        depends_on: []
+      - id: A2
+        name: attention_planning_distraction_recovery_and_task_completion
+        depends_on: [A1, R1]
+      - id: A3
+        name: independent_task_structuring_and_attention_management
+        depends_on: [A2, R3]
+
+  - id: C
+    name: comprehension_monitoring_and_sensemaking_routines
+    nodes:
+      - id: C1
+        name: understanding_checks_and_clarification_signaling
+        depends_on: [A1]
+      - id: C2
+        name: explanation_monitoring_and_question_generation
+        depends_on: [C1, A2]
+      - id: C3
+        name: misunderstanding_diagnosis_and_precision_questioning
+        depends_on: [C2, R2]
+
+  - id: M
+    name: memory_encoding_retrieval_and_retention
+    nodes:
+      - id: M1
+        name: encoding_through_chunking_representation_and_rehearsal
+        depends_on: [A1, C1]
+      - id: M2
+        name: retrieval_practice_spacing_awareness_and_cue_use
+        depends_on: [M1, S1]
+      - id: M3
+        name: durable_retention_planning_and_mixed_retrieval
+        depends_on: [M2, R2]
+      - id: M4
+        name: knowledge_consolidation_synthesis_and_long_horizon_retention
+        depends_on: [M3, S3, T1]
+
+  - id: S
+    name: strategy_selection_practice_quality_and_revision
+    nodes:
+      - id: S1
+        name: productive_practice_routine_selection
+        depends_on: [A1, C1]
+      - id: S2
+        name: strategy_matching_worked_example_use_and_note_capture
+        depends_on: [S1, C2]
+      - id: S3
+        name: error_analysis_strategy_revision_and_resource_selection
+        depends_on: [S2, R2, C3]
+      - id: S4
+        name: multi_strategy_planning_source_evaluation_and_self_directed_revision
+        depends_on: [S3, R4]
+
+  - id: R
+    name: self_regulation_feedback_use_and_help_seeking
+    nodes:
+      - id: R1
+        name: self_monitoring_help_seeking_and_feedback_acceptance
+        depends_on: [A1]
+      - id: R2
+        name: goal_setting_progress_tracking_and_simple_reflection
+        depends_on: [R1, S1]
+      - id: R3
+        name: feedback_integration_frustration_regulation_and_persistence_decisions
+        depends_on: [R2, S2]
+      - id: R4
+        name: metacognitive_evaluation_and_adaptive_learning_decisions
+        depends_on: [R3, S3, M3]
+
+  - id: T
+    name: transfer_abstraction_and_independent_learning
+    nodes:
+      - id: T1
+        name: near_transfer_across_tasks_contexts_and_representations
+        depends_on: [C2, M2, S2, R2]
+      - id: T2
+        name: far_transfer_abstraction_and_independent_learning_orchestration
+        depends_on: [T1, A3, M4, S4, R4]
+
+initial_implementation_priority:
+  - A1
+  - C1
+  - M1
+  - S1
+  - R1

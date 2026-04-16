@@ -22,7 +22,7 @@ supersedes_standards_version: []
 
 This directory is the target location for codified state-specific standards profiles.
 
-Each future profile should represent one jurisdiction's publicly distributed mathematics standards set using the repository's codification model before any node mappings are attached.
+Each future profile should represent one jurisdiction's publicly distributed standards set using the applicable repository codification model before any node mappings are attached.
 
 ## Expected File Pattern
 
@@ -31,8 +31,10 @@ The intended pattern is one profile per jurisdiction, for example:
 - `alabama-mathematics-standards.md`
 - `california-mathematics-standards.md`
 - `new-york-mathematics-standards.md`
+- `california-social-studies-standards.md`
+- `new-york-social-studies-standards.md`
 
-Use [state-standards-profile-template.md](state-standards-profile-template.md) as the authoring baseline for new profiles.
+Use [state-standards-profile-template.md](state-standards-profile-template.md) as the authoring baseline for mathematics profiles and the domain-specific standards package templates or codification models for additional subjects.
 
 ## Required Minimum Content
 
@@ -40,13 +42,13 @@ Each state profile should include:
 
 - jurisdiction identity
 - content structure across grades or grade bands
-- relationship to the canonical mathematics content baseline
+- relationship to the relevant repository content baseline
 - notable divergences in organization or emphasis
 - claim boundary and review posture
 
 ## Current Status
 
-This directory is scaffolded but not yet populated with state-by-state codifications.
+This directory is scaffolded and now includes selected state-by-state codifications across more than one subject.
 
 It now also includes:
 

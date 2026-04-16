@@ -1,0 +1,26 @@
+{
+  "node_id": "M2",
+  "version": "0.1",
+  "interventions": {
+    "M2-FM-01": [
+      "sequence process cards from first to later steps",
+      "narrate one step at a time with arrows or frames",
+      "compare a complete process with one missing a step"
+    ],
+    "M2-FM-02": [
+      "label cause and effect explicitly in short examples",
+      "ask what happened first and what followed",
+      "compare a correct and reversed cause-effect pair"
+    ],
+    "M2-FM-03": [
+      "ask what happened in the middle not just at the end",
+      "require a because or then statement between steps",
+      "use simple mechanism diagrams with arrows"
+    ],
+    "M2-FM-04": [
+      "repeat mechanism routines across life physical and Earth-space processes",
+      "preserve the step-cause-effect structure while changing the phenomenon",
+      "fade scaffolds after one successful familiar example"
+    ]
+  }
+}

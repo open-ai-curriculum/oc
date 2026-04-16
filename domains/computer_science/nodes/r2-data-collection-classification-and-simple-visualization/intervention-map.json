@@ -1,0 +1,37 @@
+{
+  "node_id": "R2",
+  "interventions": [
+    {
+      "intervention_id": "R2-INT-01",
+      "name": "R2 Intervention 1",
+      "addresses_failure_modes": [
+        "R2-FM-01"
+      ],
+      "summary": "sorting-rule prompts that require naming the classification basis before organizing data"
+    },
+    {
+      "intervention_id": "R2-INT-02",
+      "name": "R2 Intervention 2",
+      "addresses_failure_modes": [
+        "R2-FM-02"
+      ],
+      "summary": "data-to-chart matching tasks that link representations back to recorded entries"
+    },
+    {
+      "intervention_id": "R2-INT-03",
+      "name": "R2 Intervention 3",
+      "addresses_failure_modes": [
+        "R2-FM-03"
+      ],
+      "summary": "same-data-different-display comparisons across tables and simple charts"
+    },
+    {
+      "intervention_id": "R2-INT-04",
+      "name": "R2 Intervention 4",
+      "addresses_failure_modes": [
+        "R2-FM-04"
+      ],
+      "summary": "category-check routines that test whether each data item still fits the chosen rule"
+    }
+  ]
+}

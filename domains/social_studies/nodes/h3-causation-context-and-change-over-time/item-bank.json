@@ -1,0 +1,16 @@
+{
+  "node_id": "H3",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "H3-G1-01",
+      "node_id": "H3",
+      "gate": "G1",
+      "prompt": "Explain one cause, effect, or change over time shown by the source set and identify the context that matters.",
+      "source_type": "short_source_set",
+      "response_mode": "oral_or_written_or_annotated",
+      "scoring_rule": "States a plausible causal or change-over-time relationship and uses relevant context.",
+      "failure_mode_targets": ["H3-FM-01", "H3-FM-02"]
+    }
+  ]
+}

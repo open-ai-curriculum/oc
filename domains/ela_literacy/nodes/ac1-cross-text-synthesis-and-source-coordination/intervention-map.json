@@ -1,0 +1,26 @@
+{
+  "node_id": "AC1",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "AC1-FM-01": [
+      "tighten the task around parallel-summary without synthesis so the target is more visible",
+      "keep the response surface bounded enough to isolate the real bottleneck",
+      "rerun a changed-surface check after one short intervention cycle"
+    ],
+    "AC1-FM-02": [
+      "tighten the task around source-relationship drift so the target is more visible",
+      "keep the response surface bounded enough to isolate the real bottleneck",
+      "rerun a changed-surface check after one short intervention cycle"
+    ],
+    "AC1-FM-03": [
+      "tighten the task around claim-source mismatch so the target is more visible",
+      "keep the response surface bounded enough to isolate the real bottleneck",
+      "rerun a changed-surface check after one short intervention cycle"
+    ],
+    "AC1-FM-04": [
+      "tighten the task around source-set transfer fragility so the target is more visible",
+      "keep the response surface bounded enough to isolate the real bottleneck",
+      "rerun a changed-surface check after one short intervention cycle"
+    ]
+  }
+}

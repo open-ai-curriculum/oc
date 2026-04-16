@@ -1,0 +1,26 @@
+{
+  "node_id": "D3",
+  "version": "0.1",
+  "interventions": {
+    "D3-FM-01": [
+      "map the system into interacting parts before analyzing failure",
+      "ask what else changed when the failure appeared",
+      "compare part-only and system-level failure explanations"
+    ],
+    "D3-FM-02": [
+      "use tradeoff tables with helps and hurts columns",
+      "compare two competing design improvements explicitly",
+      "ask what got better and what got worse"
+    ],
+    "D3-FM-03": [
+      "check each optimization against the whole system goals and evidence",
+      "compare evidence-based and evidence-ignoring optimization moves",
+      "require a because-statement tied to system data"
+    ],
+    "D3-FM-04": [
+      "repeat systems-design routines across transport shelter and filtration contexts",
+      "preserve the systems-optimization structure while changing the problem",
+      "fade scaffolds after one successful familiar example"
+    ]
+  }
+}

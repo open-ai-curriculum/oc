@@ -1,0 +1,46 @@
+[
+  {
+    "learner_id": "example-b4-secure",
+    "node_id": "B4",
+    "status": "secure",
+    "dependency_status": {
+      "B1": "secure",
+      "L5": "secure",
+      "M4": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Explains anatomy and physiology through coordinated system regulation and feedback."
+  },
+  {
+    "learner_id": "example-b4-emerging",
+    "node_id": "B4",
+    "status": "emerging",
+    "dependency_status": {
+      "B1": "secure",
+      "L5": "secure",
+      "M4": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [
+      "B4-FM-01",
+      "B4-FM-02"
+    ],
+    "recommended_interventions": [
+      "B4-INT-01",
+      "B4-INT-02"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Knows body-part vocabulary but explains system behavior in isolated fragments."
+  }
+]

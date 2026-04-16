@@ -1,0 +1,2669 @@
+meta:
+  id: ela-literacy-standards-augmented-graph
+  domain: ela_literacy
+  generated_on: '2026-04-15'
+  source_graph: domains/ela_literacy/master-knowledge-graph.yaml
+  source_standards_map: docs/standards/ela-literacy-node-standards-map.json
+  capability_node_count: 39
+  grade_band_count: 17
+  content_domain_count: 26
+  performance_level_count: 1
+  ccss_anchor_count: 39
+  state_profile_count: 5
+  edge_count: 413
+entities:
+  capability_nodes:
+  - id: O1
+    label: joint_attention_turn_taking_and_response_readiness
+    type: capability_node
+    family_id: O
+    family_name: oral_language_and_listening
+    implementation_state: seeded
+    dependencies: []
+  - id: O2
+    label: oral_language_comprehension_for_instructions_and_routines
+    type: capability_node
+    family_id: O
+    family_name: oral_language_and_listening
+    implementation_state: seeded
+    dependencies:
+    - O1
+  - id: O3
+    label: oral_recount_explanation_and_sequence_language
+    type: capability_node
+    family_id: O
+    family_name: oral_language_and_listening
+    implementation_state: seeded
+    dependencies:
+    - O2
+  - id: P1
+    label: book_handling_print_awareness_and_directionality
+    type: capability_node
+    family_id: P
+    family_name: print_concepts_and_symbol_control
+    implementation_state: seeded
+    dependencies:
+    - O1
+  - id: P2
+    label: concept_of_word_spacing_and_text_tracking
+    type: capability_node
+    family_id: P
+    family_name: print_concepts_and_symbol_control
+    implementation_state: seeded
+    dependencies:
+    - P1
+    - O2
+  - id: P3
+    label: phonological_awareness
+    type: capability_node
+    family_id: P
+    family_name: print_concepts_and_symbol_control
+    implementation_state: seeded
+    dependencies:
+    - O2
+  - id: P4
+    label: alphabet_knowledge_and_letter_formation
+    type: capability_node
+    family_id: P
+    family_name: print_concepts_and_symbol_control
+    implementation_state: seeded
+    dependencies:
+    - P1
+  - id: FR1
+    label: phoneme_grapheme_mapping
+    type: capability_node
+    family_id: F
+    family_name: foundational_decoding_and_encoding
+    implementation_state: seeded
+    dependencies:
+    - P3
+    - P4
+  - id: FR2
+    label: print_encoding_principle_and_bidirectional_mapping
+    type: capability_node
+    family_id: F
+    family_name: foundational_decoding_and_encoding
+    implementation_state: seeded
+    dependencies:
+    - FR1
+  - id: FR3
+    label: simple_pattern_decoding_and_encoding
+    type: capability_node
+    family_id: F
+    family_name: foundational_decoding_and_encoding
+    implementation_state: seeded
+    dependencies:
+    - FR2
+  - id: FR4
+    label: word_level_decoding_generalization
+    type: capability_node
+    family_id: F
+    family_name: foundational_decoding_and_encoding
+    implementation_state: seeded
+    dependencies:
+    - FR3
+  - id: FR5
+    label: orthographic_consolidation_and_automatic_word_recognition
+    type: capability_node
+    family_id: F
+    family_name: foundational_decoding_and_encoding
+    implementation_state: seeded
+    dependencies:
+    - FR4
+  - id: FR6
+    label: connected_text_fluency_and_tracking
+    type: capability_node
+    family_id: F
+    family_name: foundational_decoding_and_encoding
+    implementation_state: seeded
+    dependencies:
+    - FR5
+    - P2
+  - id: RC1
+    label: literal_comprehension_of_shared_text
+    type: capability_node
+    family_id: R
+    family_name: reading_comprehension_and_analysis
+    implementation_state: seeded
+    dependencies:
+    - O3
+    - P1
+  - id: RC2
+    label: inferential_and_integrative_comprehension_of_shared_text
+    type: capability_node
+    family_id: R
+    family_name: reading_comprehension_and_analysis
+    implementation_state: seeded
+    dependencies:
+    - RC1
+  - id: RC3
+    label: sentence_level_meaning_construction
+    type: capability_node
+    family_id: R
+    family_name: reading_comprehension_and_analysis
+    implementation_state: seeded
+    dependencies:
+    - FR4
+    - RC1
+  - id: RC4
+    label: short_passage_integration_and_local_coherence
+    type: capability_node
+    family_id: R
+    family_name: reading_comprehension_and_analysis
+    implementation_state: seeded
+    dependencies:
+    - RC3
+    - FR6
+  - id: RC5
+    label: evidence_selection_from_text
+    type: capability_node
+    family_id: R
+    family_name: reading_comprehension_and_analysis
+    implementation_state: seeded
+    dependencies:
+    - RC4
+    - O3
+  - id: RC6
+    label: evidence_explanation_and_text_grounded_response
+    type: capability_node
+    family_id: R
+    family_name: reading_comprehension_and_analysis
+    implementation_state: seeded
+    dependencies:
+    - RC5
+  - id: R4
+    label: literary_structure_theme_and_character_analysis
+    type: capability_node
+    family_id: R
+    family_name: reading_comprehension_and_analysis
+    implementation_state: seeded
+    dependencies:
+    - RC6
+  - id: R5
+    label: informational_structure_author_claim_and_source_use
+    type: capability_node
+    family_id: R
+    family_name: reading_comprehension_and_analysis
+    implementation_state: seeded
+    dependencies:
+    - RC6
+  - id: R6
+    label: disciplinary_literacy_rhetorical_analysis_and_cross_text_synthesis
+    type: capability_node
+    family_id: R
+    family_name: reading_comprehension_and_analysis
+    implementation_state: seeded
+    dependencies:
+    - R4
+    - R5
+  - id: AC1
+    label: cross_text_synthesis_and_source_coordination
+    type: capability_node
+    family_id: A
+    family_name: advanced_secondary_and_ap_adjacent_literacy
+    implementation_state: seeded
+    dependencies:
+    - R4
+    - R5
+  - id: AC2
+    label: disciplinary_and_rhetorical_reading
+    type: capability_node
+    family_id: A
+    family_name: advanced_secondary_and_ap_adjacent_literacy
+    implementation_state: seeded
+    dependencies:
+    - AC1
+  - id: L1
+    label: sentence_formation_and_basic_conventions
+    type: capability_node
+    family_id: L
+    family_name: language_conventions_and_vocabulary
+    implementation_state: seeded
+    dependencies:
+    - O3
+    - P4
+  - id: L2
+    label: morphology_word_meaning_and_academic_vocabulary
+    type: capability_node
+    family_id: L
+    family_name: language_conventions_and_vocabulary
+    implementation_state: seeded
+    dependencies:
+    - FR4
+    - RC3
+  - id: L3
+    label: syntax_revision_and_style_control
+    type: capability_node
+    family_id: L
+    family_name: language_conventions_and_vocabulary
+    implementation_state: seeded
+    dependencies:
+    - L1
+    - L2
+  - id: W1
+    label: drawing_dictation_labeling_and_idea_capture
+    type: capability_node
+    family_id: W
+    family_name: writing_and_composition
+    implementation_state: seeded
+    dependencies:
+    - O3
+    - P4
+  - id: WC1
+    label: sentence_planning_and_generation
+    type: capability_node
+    family_id: W
+    family_name: writing_and_composition
+    implementation_state: seeded
+    dependencies:
+    - L1
+    - W1
+  - id: WC2
+    label: sentence_transcription_and_execution
+    type: capability_node
+    family_id: W
+    family_name: writing_and_composition
+    implementation_state: seeded
+    dependencies:
+    - WC1
+    - FR4
+  - id: WC3
+    label: paragraph_structure_and_coherence
+    type: capability_node
+    family_id: W
+    family_name: writing_and_composition
+    implementation_state: seeded
+    dependencies:
+    - WC2
+  - id: WC4
+    label: source_integration_in_structured_response
+    type: capability_node
+    family_id: W
+    family_name: writing_and_composition
+    implementation_state: seeded
+    dependencies:
+    - WC3
+    - RC6
+  - id: WC5
+    label: multi_paragraph_development_and_coherence
+    type: capability_node
+    family_id: W
+    family_name: writing_and_composition
+    implementation_state: seeded
+    dependencies:
+    - WC4
+  - id: WC6
+    label: genre_controlled_explanation_narrative_and_argument
+    type: capability_node
+    family_id: W
+    family_name: writing_and_composition
+    implementation_state: seeded
+    dependencies:
+    - WC5
+    - R4
+    - R5
+  - id: WC7
+    label: research_synthesis
+    type: capability_node
+    family_id: W
+    family_name: writing_and_composition
+    implementation_state: seeded
+    dependencies:
+    - WC6
+    - R6
+  - id: WC8
+    label: attribution_and_citation_control
+    type: capability_node
+    family_id: W
+    family_name: writing_and_composition
+    implementation_state: seeded
+    dependencies:
+    - WC7
+    - L3
+  - id: AC3
+    label: advanced_rhetorical_analysis_and_argument_synthesis
+    type: capability_node
+    family_id: A
+    family_name: advanced_secondary_and_ap_adjacent_literacy
+    implementation_state: seeded
+    dependencies:
+    - AC2
+    - WC8
+    - L3
+  - id: AC4
+    label: literary_interpretation_and_comparative_analysis
+    type: capability_node
+    family_id: A
+    family_name: advanced_secondary_and_ap_adjacent_literacy
+    implementation_state: seeded
+    dependencies:
+    - R4
+    - WC6
+    - L3
+  - id: AC5
+    label: intertextual_literary_argument
+    type: capability_node
+    family_id: A
+    family_name: advanced_secondary_and_ap_adjacent_literacy
+    implementation_state: seeded
+    dependencies:
+    - AC4
+  grade_bands:
+  - id: grade-band:pre-k
+    label: Pre-K
+    type: grade_band
+  - id: grade-band:pre-k-to-kindergarten
+    label: Pre-K to Kindergarten
+    type: grade_band
+  - id: grade-band:kindergarten-to-grade-1
+    label: Kindergarten to Grade 1
+    type: grade_band
+  - id: grade-band:kindergarten-to-grade-2
+    label: Kindergarten to Grade 2
+    type: grade_band
+  - id: grade-band:grade-1-to-grade-3
+    label: Grade 1 to Grade 3
+    type: grade_band
+  - id: grade-band:grade-1-to-grade-4
+    label: Grade 1 to Grade 4
+    type: grade_band
+  - id: grade-band:grade-2-to-grade-5
+    label: Grade 2 to Grade 5
+    type: grade_band
+  - id: grade-band:grades-4-8
+    label: Grades 4-8
+    type: grade_band
+  - id: grade-band:grade-6-to-grade-12
+    label: Grade 6 to Grade 12
+    type: grade_band
+  - id: grade-band:grade-8-to-grade-12
+    label: Grade 8 to Grade 12
+    type: grade_band
+  - id: grade-band:grade-1-to-grade-2
+    label: Grade 1 to Grade 2
+    type: grade_band
+  - id: grade-band:grades-2-6
+    label: Grades 2-6
+    type: grade_band
+  - id: grade-band:grades-4-12
+    label: Grades 4-12
+    type: grade_band
+  - id: grade-band:grade-4-to-grade-8
+    label: Grade 4 to Grade 8
+    type: grade_band
+  - id: grade-band:grade-4-to-grade-10
+    label: Grade 4 to Grade 10
+    type: grade_band
+  - id: grade-band:grade-10-to-grade-12
+    label: Grade 10 to Grade 12
+    type: grade_band
+  - id: grade-band:grade-9-to-grade-12
+    label: Grade 9 to Grade 12
+    type: grade_band
+  content_domains:
+  - id: content-domain:oral-language-readiness-before-the-current-ccss-baseline
+    label: oral language readiness before the current CCSS baseline
+    type: content_domain
+  - id: content-domain:speaking-and-listening-readiness-language-comprehension
+    label: speaking and listening readiness / language comprehension
+    type: content_domain
+  - id: content-domain:speaking-and-listening
+    label: speaking and listening
+    type: content_domain
+  - id: content-domain:print-concepts-and-foundational-reading-skills
+    label: print concepts and foundational reading skills
+    type: content_domain
+  - id: content-domain:phonological-awareness-and-foundational-reading-skills
+    label: phonological awareness and foundational reading skills
+    type: content_domain
+  - id: content-domain:phonics-and-word-recognition-print-production-readiness
+    label: phonics and word recognition / print production readiness
+    type: content_domain
+  - id: content-domain:foundational-reading-skills
+    label: foundational reading skills
+    type: content_domain
+  - id: content-domain:foundational-reading-skills-early-writing-production
+    label: foundational reading skills / early writing production
+    type: content_domain
+  - id: content-domain:reading-comprehension-foundations
+    label: reading comprehension foundations
+    type: content_domain
+  - id: content-domain:reading-response-and-evidence-use
+    label: reading response and evidence use
+    type: content_domain
+  - id: content-domain:reading-literature
+    label: reading literature
+    type: content_domain
+  - id: content-domain:reading-informational-text
+    label: reading informational text
+    type: content_domain
+  - id: content-domain:disciplinary-literacy-and-synthesis
+    label: disciplinary literacy and synthesis
+    type: content_domain
+  - id: content-domain:disciplinary-literacy-and-rhetorical-reading
+    label: disciplinary literacy and rhetorical reading
+    type: content_domain
+  - id: content-domain:language-writing-speaking-and-listening
+    label: language / writing / speaking and listening
+    type: content_domain
+  - id: content-domain:language
+    label: language
+    type: content_domain
+  - id: content-domain:language-writing
+    label: language / writing
+    type: content_domain
+  - id: content-domain:writing
+    label: writing
+    type: content_domain
+  - id: content-domain:writing-production
+    label: writing production
+    type: content_domain
+  - id: content-domain:writing-production-foundational-literacy-transfer
+    label: writing production / foundational literacy transfer
+    type: content_domain
+  - id: content-domain:composition
+    label: composition
+    type: content_domain
+  - id: content-domain:composition-source-based-response
+    label: composition / source-based response
+    type: content_domain
+  - id: content-domain:extended-composition
+    label: extended composition
+    type: content_domain
+  - id: content-domain:research-writing
+    label: research writing
+    type: content_domain
+  - id: content-domain:advanced-rhetorical-analysis
+    label: advanced rhetorical analysis
+    type: content_domain
+  - id: content-domain:advanced-literary-analysis
+    label: advanced literary analysis
+    type: content_domain
+  performance_levels:
+  - id: performance-level:proficient
+    label: Proficient
+    type: performance_level
+  ccss_anchors:
+  - id: ccss-anchor:pre-k:joint-attention-response-readiness-and-turn-taking-before-formal-k-12-speaking-and-listening-standards
+    label: joint attention, response readiness, and turn-taking before formal K-12
+      speaking and listening standards
+    type: ccss_anchor
+    grade_or_band: Pre-K
+    strand: pre-standard oral language readiness
+    official_identifier: null
+  - id: ccss-anchor:pre-k-to-kindergarten-readiness-surface:comprehend-oral-directions-routines-and-teacher-language-as-readiness-for-formal-speaking-and-listening-standards
+    label: comprehend oral directions, routines, and teacher language as readiness
+      for formal speaking and listening standards
+    type: ccss_anchor
+    grade_or_band: Pre-K to Kindergarten readiness surface
+    strand: speaking and listening
+    official_identifier: null
+  - id: ccss-anchor:kindergarten-to-grade-1:recount-explain-sequence-events-and-speak-with-enough-clarity-to-support-later-reading-and-writing-work
+    label: recount, explain, sequence events, and speak with enough clarity to support
+      later reading and writing work
+    type: ccss_anchor
+    grade_or_band: Kindergarten to Grade 1
+    strand: speaking and listening
+    official_identifier: null
+  - id: ccss-anchor:pre-k-to-kindergarten-readiness-surface:handle-books-track-print-direction-and-distinguish-print-from-pictures-as-readiness-for-foundational-reading-standards
+    label: handle books, track print direction, and distinguish print from pictures
+      as readiness for foundational reading standards
+    type: ccss_anchor
+    grade_or_band: Pre-K to Kindergarten readiness surface
+    strand: foundational skills / print concepts
+    official_identifier: null
+  - id: ccss-anchor:kindergarten-to-grade-1:track-words-and-spaces-in-connected-text-and-coordinate-one-to-one-movement-through-print
+    label: track words and spaces in connected text and coordinate one-to-one movement
+      through print
+    type: ccss_anchor
+    grade_or_band: Kindergarten to Grade 1
+    strand: foundational skills / print concepts
+    official_identifier: null
+  - id: ccss-anchor:pre-k-to-kindergarten-readiness-surface:build-phonological-awareness-prior-to-or-alongside-formal-kindergarten-foundational-skills-expectations
+    label: build phonological awareness prior to or alongside formal kindergarten
+      foundational skills expectations
+    type: ccss_anchor
+    grade_or_band: Pre-K to Kindergarten readiness surface
+    strand: foundational skills / phonological awareness
+    official_identifier: null
+  - id: ccss-anchor:kindergarten-to-grade-1:develop-alphabet-knowledge-letter-naming-and-letter-formation-as-readiness-for-foundational-reading-and-early-writing-standards
+    label: develop alphabet knowledge, letter naming, and letter formation as readiness
+      for foundational reading and early writing standards
+    type: ccss_anchor
+    grade_or_band: Kindergarten to Grade 1
+    strand: foundational skills / early writing readiness
+    official_identifier: null
+  - id: ccss-anchor:kindergarten-to-grade-1:retrieve-and-use-supported-phoneme-grapheme-correspondences-in-both-directions
+    label: retrieve and use supported phoneme-grapheme correspondences in both directions
+    type: ccss_anchor
+    grade_or_band: Kindergarten to Grade 1
+    strand: foundational skills
+    official_identifier: null
+  - id: ccss-anchor:kindergarten-to-grade-1:demonstrate-that-print-encodes-spoken-language-and-apply-mapping-in-decoding-like-and-encoding-like-directions
+    label: demonstrate that print encodes spoken language and apply mapping in decoding-like
+      and encoding-like directions
+    type: ccss_anchor
+    grade_or_band: Kindergarten to Grade 1
+    strand: foundational skills / writing readiness
+    official_identifier: null
+  - id: ccss-anchor:kindergarten-to-grade-2:decode-and-encode-controlled-simple-words-with-explicit-sound-symbol-reasoning
+    label: decode and encode controlled simple words with explicit sound-symbol reasoning
+    type: ccss_anchor
+    grade_or_band: Kindergarten to Grade 2
+    strand: foundational skills / writing readiness
+    official_identifier: null
+  - id: ccss-anchor:kindergarten-to-grade-2:generalize-decoding-and-encoding-across-changed-simple-word-sets-with-explicit-word-level-control
+    label: generalize decoding and encoding across changed simple-word sets with explicit
+      word-level control
+    type: ccss_anchor
+    grade_or_band: Kindergarten to Grade 2
+    strand: foundational skills / writing readiness
+    official_identifier: null
+  - id: ccss-anchor:grade-1-to-grade-3:recognize-known-words-and-patterns-with-increasing-automaticity-and-orthographic-consolidation
+    label: recognize known words and patterns with increasing automaticity and orthographic
+      consolidation
+    type: ccss_anchor
+    grade_or_band: Grade 1 to Grade 3
+    strand: foundational skills
+    official_identifier: null
+  - id: ccss-anchor:grade-1-to-grade-3:read-short-connected-text-with-increasing-accuracy-tracking-control-and-usable-fluency
+    label: read short connected text with increasing accuracy, tracking control, and
+      usable fluency
+    type: ccss_anchor
+    grade_or_band: Grade 1 to Grade 3
+    strand: foundational skills
+    official_identifier: null
+  - id: ccss-anchor:kindergarten-to-grade-1:demonstrate-literal-comprehension-from-shared-or-read-aloud-text
+    label: demonstrate literal comprehension from shared or read-aloud text
+    type: ccss_anchor
+    grade_or_band: Kindergarten to Grade 1
+    strand: reading literature / reading informational text
+    official_identifier: null
+  - id: ccss-anchor:kindergarten-to-grade-2:make-bounded-inferences-and-integrate-relevant-details-from-shared-text
+    label: make bounded inferences and integrate relevant details from shared text
+    type: ccss_anchor
+    grade_or_band: Kindergarten to Grade 2
+    strand: reading literature / reading informational text
+    official_identifier: null
+  - id: ccss-anchor:grade-1-to-grade-3:derive-meaning-from-supported-independently-read-sentences
+    label: derive meaning from supported independently read sentences
+    type: ccss_anchor
+    grade_or_band: Grade 1 to Grade 3
+    strand: reading literature / reading informational text
+    official_identifier: null
+  - id: ccss-anchor:grade-1-to-grade-4:integrate-meaning-across-short-connected-passages-with-local-coherence
+    label: integrate meaning across short connected passages with local coherence
+    type: ccss_anchor
+    grade_or_band: Grade 1 to Grade 4
+    strand: reading literature / reading informational text
+    official_identifier: null
+  - id: ccss-anchor:grade-2-to-grade-5:select-relevant-textual-evidence-for-a-response
+    label: select relevant textual evidence for a response
+    type: ccss_anchor
+    grade_or_band: Grade 2 to Grade 5
+    strand: reading literature / reading informational text / writing
+    official_identifier: null
+  - id: ccss-anchor:grade-2-to-grade-5:explain-how-selected-textual-evidence-supports-a-text-grounded-response
+    label: explain how selected textual evidence supports a text-grounded response
+    type: ccss_anchor
+    grade_or_band: Grade 2 to Grade 5
+    strand: reading literature / reading informational text / writing
+    official_identifier: null
+  - id: ccss-anchor:grades-4-8:analyze-literary-structure-theme-character-and-interpretation-across-increasingly-complex-texts
+    label: analyze literary structure, theme, character, and interpretation across
+      increasingly complex texts
+    type: ccss_anchor
+    grade_or_band: Grades 4-8
+    strand: reading literature
+    official_identifier: null
+  - id: ccss-anchor:grades-4-8:analyze-informational-structure-author-claims-source-use-and-support-in-nonfiction-texts
+    label: analyze informational structure, author claims, source use, and support
+      in nonfiction texts
+    type: ccss_anchor
+    grade_or_band: Grades 4-8
+    strand: reading informational text
+    official_identifier: null
+  - id: ccss-anchor:grade-6-to-grade-12:synthesize-across-texts-and-perform-disciplinary-and-rhetorical-reading-with-evidence-and-structure
+    label: synthesize across texts and perform disciplinary and rhetorical reading
+      with evidence and structure
+    type: ccss_anchor
+    grade_or_band: Grade 6 to Grade 12
+    strand: reading literature / reading informational text / literacy in history
+      social studies science and technical subjects
+    official_identifier: null
+  - id: ccss-anchor:grade-8-to-grade-12:coordinate-relevant-relationships-across-multiple-texts
+    label: coordinate relevant relationships across multiple texts
+    type: ccss_anchor
+    grade_or_band: Grade 8 to Grade 12
+    strand: reading / literacy in disciplines
+    official_identifier: null
+  - id: ccss-anchor:grade-8-to-grade-12:analyze-disciplinary-and-rhetorical-features-of-complex-texts
+    label: analyze disciplinary and rhetorical features of complex texts
+    type: ccss_anchor
+    grade_or_band: Grade 8 to Grade 12
+    strand: reading / literacy in disciplines
+    official_identifier: null
+  - id: ccss-anchor:grade-1-to-grade-2:form-complete-sentences-with-basic-conventions-and-controlled-oral-to-written-transfer
+    label: form complete sentences with basic conventions and controlled oral-to-written
+      transfer
+    type: ccss_anchor
+    grade_or_band: Grade 1 to Grade 2
+    strand: language / writing / speaking and listening
+    official_identifier: null
+  - id: ccss-anchor:grades-2-6:use-morphology-vocabulary-knowledge-and-academic-language-to-support-comprehension-and-production
+    label: use morphology, vocabulary knowledge, and academic language to support
+      comprehension and production
+    type: ccss_anchor
+    grade_or_band: Grades 2-6
+    strand: language
+    official_identifier: null
+  - id: ccss-anchor:grades-4-12:revise-syntax-style-and-language-control-for-clarity-coherence-and-rhetorical-effect
+    label: revise syntax, style, and language control for clarity, coherence, and
+      rhetorical effect
+    type: ccss_anchor
+    grade_or_band: Grades 4-12
+    strand: language / writing
+    official_identifier: null
+  - id: ccss-anchor:kindergarten-to-grade-1:capture-ideas-through-drawing-dictation-labeling-and-early-written-representation
+    label: capture ideas through drawing, dictation, labeling, and early written representation
+    type: ccss_anchor
+    grade_or_band: Kindergarten to Grade 1
+    strand: writing
+    official_identifier: null
+  - id: ccss-anchor:grade-1-to-grade-3:generate-complete-sentences-aligned-to-a-prompt-before-transcription-is-the-main-burden
+    label: generate complete sentences aligned to a prompt before transcription is
+      the main burden
+    type: ccss_anchor
+    grade_or_band: Grade 1 to Grade 3
+    strand: writing
+    official_identifier: null
+  - id: ccss-anchor:grade-1-to-grade-3:transcribe-complete-sentences-with-manageable-execution-load
+    label: transcribe complete sentences with manageable execution load
+    type: ccss_anchor
+    grade_or_band: Grade 1 to Grade 3
+    strand: writing / foundational skills
+    official_identifier: null
+  - id: ccss-anchor:grade-2-to-grade-5:produce-coherent-paragraphs-organized-around-a-controlling-idea
+    label: produce coherent paragraphs organized around a controlling idea
+    type: ccss_anchor
+    grade_or_band: Grade 2 to Grade 5
+    strand: writing
+    official_identifier: null
+  - id: ccss-anchor:grade-2-to-grade-5:integrate-relevant-textual-support-into-a-structured-written-response
+    label: integrate relevant textual support into a structured written response
+    type: ccss_anchor
+    grade_or_band: Grade 2 to Grade 5
+    strand: writing / reading response
+    official_identifier: null
+  - id: ccss-anchor:grade-4-to-grade-8:develop-coherent-multi-paragraph-writing-with-sustained-structure
+    label: develop coherent multi-paragraph writing with sustained structure
+    type: ccss_anchor
+    grade_or_band: Grade 4 to Grade 8
+    strand: writing
+    official_identifier: null
+  - id: ccss-anchor:grade-4-to-grade-10:adapt-multi-paragraph-writing-to-explanation-narrative-and-argument-demands
+    label: adapt multi-paragraph writing to explanation, narrative, and argument demands
+    type: ccss_anchor
+    grade_or_band: Grade 4 to Grade 10
+    strand: writing
+    official_identifier: null
+  - id: ccss-anchor:grade-8-to-grade-12:synthesize-multiple-sources-into-coherent-research-based-writing
+    label: synthesize multiple sources into coherent research-based writing
+    type: ccss_anchor
+    grade_or_band: Grade 8 to Grade 12
+    strand: writing / research
+    official_identifier: null
+  - id: ccss-anchor:grade-8-to-grade-12:maintain-usable-attribution-and-citation-control-in-sourced-writing
+    label: maintain usable attribution and citation control in sourced writing
+    type: ccss_anchor
+    grade_or_band: Grade 8 to Grade 12
+    strand: writing / research
+    official_identifier: null
+  - id: ccss-anchor:grade-10-to-grade-12:analyze-rhetoric-and-synthesize-argument-across-complex-sources
+    label: analyze rhetoric and synthesize argument across complex sources
+    type: ccss_anchor
+    grade_or_band: Grade 10 to Grade 12
+    strand: reading / writing
+    official_identifier: null
+  - id: ccss-anchor:grade-9-to-grade-12:develop-comparative-literary-interpretations-grounded-in-textual-analysis
+    label: develop comparative literary interpretations grounded in textual analysis
+    type: ccss_anchor
+    grade_or_band: Grade 9 to Grade 12
+    strand: reading / writing
+    official_identifier: null
+  - id: ccss-anchor:grade-10-to-grade-12:construct-intertextual-literary-arguments-across-texts
+    label: construct intertextual literary arguments across texts
+    type: ccss_anchor
+    grade_or_band: Grade 10 to Grade 12
+    strand: reading / writing
+    official_identifier: null
+  state_profiles:
+  - id: california-ela-literacy-standards
+    label: California ELA/Literacy Standards
+    type: state_profile
+    relationship_type: baseline-aligned
+    document_path: docs/standards/states/california-ela-literacy-standards.md
+  - id: new-york-ela-literacy-standards
+    label: New York ELA/Literacy Standards
+    type: state_profile
+    relationship_type: baseline-derived
+    document_path: docs/standards/states/new-york-ela-literacy-standards.md
+  - id: tennessee-ela-literacy-standards
+    label: Tennessee ELA/Literacy Standards
+    type: state_profile
+    relationship_type: baseline-derived
+    document_path: docs/standards/states/tennessee-ela-literacy-standards.md
+  - id: texas-ela-literacy-standards
+    label: Texas ELA/Literacy Standards
+    type: state_profile
+    relationship_type: state-distinct
+    document_path: docs/standards/states/texas-ela-literacy-standards.md
+  - id: virginia-ela-literacy-standards
+    label: Virginia ELA/Literacy Standards
+    type: state_profile
+    relationship_type: state-distinct
+    document_path: docs/standards/states/virginia-ela-literacy-standards.md
+edges:
+- source: O1
+  target: grade-band:pre-k
+  type: ALIGNS_TO_GRADE_BAND
+  mapping_status: repository_only_or_beyond_current_content_baseline
+- source: O1
+  target: content-domain:oral-language-readiness-before-the-current-ccss-baseline
+  type: ALIGNS_TO_CONTENT_DOMAIN
+  mapping_status: repository_only_or_beyond_current_content_baseline
+  cluster_or_grouping: pre-standard oral interaction and response readiness
+- source: O1
+  target: performance-level:proficient
+  type: ALIGNS_TO_PERFORMANCE_LEVEL
+  mapping_status: mapped
+  stretch_level: Advanced
+- source: O1
+  target: ccss-anchor:pre-k:joint-attention-response-readiness-and-turn-taking-before-formal-k-12-speaking-and-listening-standards
+  type: ALIGNS_TO_CCSS_ANCHOR
+  mapping_status: out_of_scope_current_ccss_baseline
+  review_status: draft
+- source: O1
+  target: california-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: out_of_scope_current_profile
+  relationship_type: baseline-aligned
+- source: O1
+  target: new-york-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: out_of_scope_current_profile
+  relationship_type: baseline-derived
+- source: O1
+  target: tennessee-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: out_of_scope_current_profile
+  relationship_type: baseline-derived
+- source: O1
+  target: texas-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: out_of_scope_current_profile
+  relationship_type: state-distinct
+- source: O1
+  target: virginia-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: out_of_scope_current_profile
+  relationship_type: state-distinct
+- source: O2
+  target: O1
+  type: DEPENDS_ON
+- source: O2
+  target: grade-band:pre-k-to-kindergarten
+  type: ALIGNS_TO_GRADE_BAND
+  mapping_status: mapped
+- source: O2
+  target: content-domain:speaking-and-listening-readiness-language-comprehension
+  type: ALIGNS_TO_CONTENT_DOMAIN
+  mapping_status: mapped
+  cluster_or_grouping: oral-language comprehension as literacy access readiness
+- source: O2
+  target: performance-level:proficient
+  type: ALIGNS_TO_PERFORMANCE_LEVEL
+  mapping_status: mapped
+  stretch_level: Advanced
+- source: O2
+  target: ccss-anchor:pre-k-to-kindergarten-readiness-surface:comprehend-oral-directions-routines-and-teacher-language-as-readiness-for-formal-speaking-and-listening-standards
+  type: ALIGNS_TO_CCSS_ANCHOR
+  mapping_status: partial_readiness_alignment
+  review_status: draft
+- source: O2
+  target: california-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: conceptual_alignment_only_until_state_crosswalk_exists
+  relationship_type: baseline-aligned
+- source: O2
+  target: new-york-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: conceptual_alignment_only_until_state_crosswalk_exists
+  relationship_type: baseline-derived
+- source: O2
+  target: tennessee-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: conceptual_alignment_only_until_state_crosswalk_exists
+  relationship_type: baseline-derived
+- source: O2
+  target: texas-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: conceptual_alignment_only_until_state_crosswalk_exists
+  relationship_type: state-distinct
+- source: O2
+  target: virginia-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: conceptual_alignment_only_until_state_crosswalk_exists
+  relationship_type: state-distinct
+- source: O3
+  target: O2
+  type: DEPENDS_ON
+- source: O3
+  target: grade-band:kindergarten-to-grade-1
+  type: ALIGNS_TO_GRADE_BAND
+  mapping_status: mapped
+- source: O3
+  target: content-domain:speaking-and-listening
+  type: ALIGNS_TO_CONTENT_DOMAIN
+  mapping_status: mapped
+  cluster_or_grouping: recount, explanation, and oral sequencing
+- source: O3
+  target: performance-level:proficient
+  type: ALIGNS_TO_PERFORMANCE_LEVEL
+  mapping_status: mapped
+  stretch_level: Advanced
+- source: O3
+  target: ccss-anchor:kindergarten-to-grade-1:recount-explain-sequence-events-and-speak-with-enough-clarity-to-support-later-reading-and-writing-work
+  type: ALIGNS_TO_CCSS_ANCHOR
+  mapping_status: mapped
+  review_status: draft
+- source: O3
+  target: california-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: inherits_canonical_literacy_baseline_with_state_metadata
+  relationship_type: baseline-aligned
+- source: O3
+  target: new-york-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: O3
+  target: tennessee-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: O3
+  target: texas-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: O3
+  target: virginia-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: P1
+  target: O1
+  type: DEPENDS_ON
+- source: P1
+  target: grade-band:pre-k-to-kindergarten
+  type: ALIGNS_TO_GRADE_BAND
+  mapping_status: mapped
+- source: P1
+  target: content-domain:print-concepts-and-foundational-reading-skills
+  type: ALIGNS_TO_CONTENT_DOMAIN
+  mapping_status: mapped
+  cluster_or_grouping: book handling and print directionality
+- source: P1
+  target: performance-level:proficient
+  type: ALIGNS_TO_PERFORMANCE_LEVEL
+  mapping_status: mapped
+  stretch_level: Advanced
+- source: P1
+  target: ccss-anchor:pre-k-to-kindergarten-readiness-surface:handle-books-track-print-direction-and-distinguish-print-from-pictures-as-readiness-for-foundational-reading-standards
+  type: ALIGNS_TO_CCSS_ANCHOR
+  mapping_status: partial_readiness_alignment
+  review_status: draft
+- source: P1
+  target: california-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: conceptual_alignment_only_until_state_crosswalk_exists
+  relationship_type: baseline-aligned
+- source: P1
+  target: new-york-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: conceptual_alignment_only_until_state_crosswalk_exists
+  relationship_type: baseline-derived
+- source: P1
+  target: tennessee-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: conceptual_alignment_only_until_state_crosswalk_exists
+  relationship_type: baseline-derived
+- source: P1
+  target: texas-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: conceptual_alignment_only_until_state_crosswalk_exists
+  relationship_type: state-distinct
+- source: P1
+  target: virginia-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: conceptual_alignment_only_until_state_crosswalk_exists
+  relationship_type: state-distinct
+- source: P2
+  target: P1
+  type: DEPENDS_ON
+- source: P2
+  target: O2
+  type: DEPENDS_ON
+- source: P2
+  target: grade-band:kindergarten-to-grade-1
+  type: ALIGNS_TO_GRADE_BAND
+  mapping_status: mapped
+- source: P2
+  target: content-domain:print-concepts-and-foundational-reading-skills
+  type: ALIGNS_TO_CONTENT_DOMAIN
+  mapping_status: mapped
+  cluster_or_grouping: word tracking and spacing awareness
+- source: P2
+  target: performance-level:proficient
+  type: ALIGNS_TO_PERFORMANCE_LEVEL
+  mapping_status: mapped
+  stretch_level: Advanced
+- source: P2
+  target: ccss-anchor:kindergarten-to-grade-1:track-words-and-spaces-in-connected-text-and-coordinate-one-to-one-movement-through-print
+  type: ALIGNS_TO_CCSS_ANCHOR
+  mapping_status: mapped
+  review_status: draft
+- source: P2
+  target: california-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: inherits_canonical_literacy_baseline_with_state_metadata
+  relationship_type: baseline-aligned
+- source: P2
+  target: new-york-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: P2
+  target: tennessee-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: P2
+  target: texas-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: P2
+  target: virginia-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: P3
+  target: O2
+  type: DEPENDS_ON
+- source: P3
+  target: grade-band:pre-k-to-kindergarten
+  type: ALIGNS_TO_GRADE_BAND
+  mapping_status: mapped
+- source: P3
+  target: content-domain:phonological-awareness-and-foundational-reading-skills
+  type: ALIGNS_TO_CONTENT_DOMAIN
+  mapping_status: mapped
+  cluster_or_grouping: phonological and phonemic awareness readiness
+- source: P3
+  target: performance-level:proficient
+  type: ALIGNS_TO_PERFORMANCE_LEVEL
+  mapping_status: mapped
+  stretch_level: Advanced
+- source: P3
+  target: ccss-anchor:pre-k-to-kindergarten-readiness-surface:build-phonological-awareness-prior-to-or-alongside-formal-kindergarten-foundational-skills-expectations
+  type: ALIGNS_TO_CCSS_ANCHOR
+  mapping_status: partial_readiness_alignment
+  review_status: draft
+- source: P3
+  target: california-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: conceptual_alignment_only_until_state_crosswalk_exists
+  relationship_type: baseline-aligned
+- source: P3
+  target: new-york-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: conceptual_alignment_only_until_state_crosswalk_exists
+  relationship_type: baseline-derived
+- source: P3
+  target: tennessee-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: conceptual_alignment_only_until_state_crosswalk_exists
+  relationship_type: baseline-derived
+- source: P3
+  target: texas-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: conceptual_alignment_only_until_state_crosswalk_exists
+  relationship_type: state-distinct
+- source: P3
+  target: virginia-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: conceptual_alignment_only_until_state_crosswalk_exists
+  relationship_type: state-distinct
+- source: P4
+  target: P1
+  type: DEPENDS_ON
+- source: P4
+  target: grade-band:kindergarten-to-grade-1
+  type: ALIGNS_TO_GRADE_BAND
+  mapping_status: mapped
+- source: P4
+  target: content-domain:phonics-and-word-recognition-print-production-readiness
+  type: ALIGNS_TO_CONTENT_DOMAIN
+  mapping_status: mapped
+  cluster_or_grouping: alphabet knowledge and letter production
+- source: P4
+  target: performance-level:proficient
+  type: ALIGNS_TO_PERFORMANCE_LEVEL
+  mapping_status: mapped
+  stretch_level: Advanced
+- source: P4
+  target: ccss-anchor:kindergarten-to-grade-1:develop-alphabet-knowledge-letter-naming-and-letter-formation-as-readiness-for-foundational-reading-and-early-writing-standards
+  type: ALIGNS_TO_CCSS_ANCHOR
+  mapping_status: mapped
+  review_status: draft
+- source: P4
+  target: california-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: inherits_canonical_literacy_baseline_with_state_metadata
+  relationship_type: baseline-aligned
+- source: P4
+  target: new-york-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: P4
+  target: tennessee-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: P4
+  target: texas-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: P4
+  target: virginia-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: FR1
+  target: P3
+  type: DEPENDS_ON
+- source: FR1
+  target: P4
+  type: DEPENDS_ON
+- source: FR1
+  target: grade-band:kindergarten-to-grade-1
+  type: ALIGNS_TO_GRADE_BAND
+  mapping_status: mapped
+- source: FR1
+  target: content-domain:foundational-reading-skills
+  type: ALIGNS_TO_CONTENT_DOMAIN
+  mapping_status: mapped
+  cluster_or_grouping: phoneme-grapheme correspondence control
+- source: FR1
+  target: performance-level:proficient
+  type: ALIGNS_TO_PERFORMANCE_LEVEL
+  mapping_status: mapped
+  stretch_level: Advanced
+- source: FR1
+  target: ccss-anchor:kindergarten-to-grade-1:retrieve-and-use-supported-phoneme-grapheme-correspondences-in-both-directions
+  type: ALIGNS_TO_CCSS_ANCHOR
+  mapping_status: mapped
+  review_status: draft
+- source: FR1
+  target: california-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: inherits_canonical_literacy_baseline_with_state_metadata
+  relationship_type: baseline-aligned
+- source: FR1
+  target: new-york-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: FR1
+  target: tennessee-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: FR1
+  target: texas-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: FR1
+  target: virginia-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: FR2
+  target: FR1
+  type: DEPENDS_ON
+- source: FR2
+  target: grade-band:kindergarten-to-grade-1
+  type: ALIGNS_TO_GRADE_BAND
+  mapping_status: mapped
+- source: FR2
+  target: content-domain:foundational-reading-skills-early-writing-production
+  type: ALIGNS_TO_CONTENT_DOMAIN
+  mapping_status: mapped
+  cluster_or_grouping: print encoding principle and bidirectional mapping
+- source: FR2
+  target: performance-level:proficient
+  type: ALIGNS_TO_PERFORMANCE_LEVEL
+  mapping_status: mapped
+  stretch_level: Advanced
+- source: FR2
+  target: ccss-anchor:kindergarten-to-grade-1:demonstrate-that-print-encodes-spoken-language-and-apply-mapping-in-decoding-like-and-encoding-like-directions
+  type: ALIGNS_TO_CCSS_ANCHOR
+  mapping_status: mapped
+  review_status: draft
+- source: FR2
+  target: california-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: inherits_canonical_literacy_baseline_with_state_metadata
+  relationship_type: baseline-aligned
+- source: FR2
+  target: new-york-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: FR2
+  target: tennessee-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: FR2
+  target: texas-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: FR2
+  target: virginia-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: FR3
+  target: FR2
+  type: DEPENDS_ON
+- source: FR3
+  target: grade-band:kindergarten-to-grade-2
+  type: ALIGNS_TO_GRADE_BAND
+  mapping_status: mapped
+- source: FR3
+  target: content-domain:foundational-reading-skills-early-writing-production
+  type: ALIGNS_TO_CONTENT_DOMAIN
+  mapping_status: mapped
+  cluster_or_grouping: controlled decoding and encoding of simple patterns
+- source: FR3
+  target: performance-level:proficient
+  type: ALIGNS_TO_PERFORMANCE_LEVEL
+  mapping_status: mapped
+  stretch_level: Advanced
+- source: FR3
+  target: ccss-anchor:kindergarten-to-grade-2:decode-and-encode-controlled-simple-words-with-explicit-sound-symbol-reasoning
+  type: ALIGNS_TO_CCSS_ANCHOR
+  mapping_status: mapped
+  review_status: draft
+- source: FR3
+  target: california-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: inherits_canonical_literacy_baseline_with_state_metadata
+  relationship_type: baseline-aligned
+- source: FR3
+  target: new-york-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: FR3
+  target: tennessee-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: FR3
+  target: texas-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: FR3
+  target: virginia-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: FR4
+  target: FR3
+  type: DEPENDS_ON
+- source: FR4
+  target: grade-band:kindergarten-to-grade-2
+  type: ALIGNS_TO_GRADE_BAND
+  mapping_status: mapped
+- source: FR4
+  target: content-domain:foundational-reading-skills-early-writing-production
+  type: ALIGNS_TO_CONTENT_DOMAIN
+  mapping_status: mapped
+  cluster_or_grouping: generalized decoding and encoding across changed word sets
+- source: FR4
+  target: performance-level:proficient
+  type: ALIGNS_TO_PERFORMANCE_LEVEL
+  mapping_status: mapped
+  stretch_level: Advanced
+- source: FR4
+  target: ccss-anchor:kindergarten-to-grade-2:generalize-decoding-and-encoding-across-changed-simple-word-sets-with-explicit-word-level-control
+  type: ALIGNS_TO_CCSS_ANCHOR
+  mapping_status: mapped
+  review_status: draft
+- source: FR4
+  target: california-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: inherits_canonical_literacy_baseline_with_state_metadata
+  relationship_type: baseline-aligned
+- source: FR4
+  target: new-york-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: FR4
+  target: tennessee-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: FR4
+  target: texas-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: FR4
+  target: virginia-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: FR5
+  target: FR4
+  type: DEPENDS_ON
+- source: FR5
+  target: grade-band:grade-1-to-grade-3
+  type: ALIGNS_TO_GRADE_BAND
+  mapping_status: mapped
+- source: FR5
+  target: content-domain:foundational-reading-skills
+  type: ALIGNS_TO_CONTENT_DOMAIN
+  mapping_status: mapped
+  cluster_or_grouping: orthographic consolidation and automatic recognition
+- source: FR5
+  target: performance-level:proficient
+  type: ALIGNS_TO_PERFORMANCE_LEVEL
+  mapping_status: mapped
+  stretch_level: Advanced
+- source: FR5
+  target: ccss-anchor:grade-1-to-grade-3:recognize-known-words-and-patterns-with-increasing-automaticity-and-orthographic-consolidation
+  type: ALIGNS_TO_CCSS_ANCHOR
+  mapping_status: mapped
+  review_status: draft
+- source: FR5
+  target: california-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: inherits_canonical_literacy_baseline_with_state_metadata
+  relationship_type: baseline-aligned
+- source: FR5
+  target: new-york-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: FR5
+  target: tennessee-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: FR5
+  target: texas-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: FR5
+  target: virginia-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: FR6
+  target: FR5
+  type: DEPENDS_ON
+- source: FR6
+  target: P2
+  type: DEPENDS_ON
+- source: FR6
+  target: grade-band:grade-1-to-grade-3
+  type: ALIGNS_TO_GRADE_BAND
+  mapping_status: mapped
+- source: FR6
+  target: content-domain:foundational-reading-skills
+  type: ALIGNS_TO_CONTENT_DOMAIN
+  mapping_status: mapped
+  cluster_or_grouping: connected-text fluency and tracking
+- source: FR6
+  target: performance-level:proficient
+  type: ALIGNS_TO_PERFORMANCE_LEVEL
+  mapping_status: mapped
+  stretch_level: Advanced
+- source: FR6
+  target: ccss-anchor:grade-1-to-grade-3:read-short-connected-text-with-increasing-accuracy-tracking-control-and-usable-fluency
+  type: ALIGNS_TO_CCSS_ANCHOR
+  mapping_status: mapped
+  review_status: draft
+- source: FR6
+  target: california-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: inherits_canonical_literacy_baseline_with_state_metadata
+  relationship_type: baseline-aligned
+- source: FR6
+  target: new-york-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: FR6
+  target: tennessee-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: FR6
+  target: texas-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: FR6
+  target: virginia-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: RC1
+  target: O3
+  type: DEPENDS_ON
+- source: RC1
+  target: P1
+  type: DEPENDS_ON
+- source: RC1
+  target: grade-band:kindergarten-to-grade-1
+  type: ALIGNS_TO_GRADE_BAND
+  mapping_status: mapped
+- source: RC1
+  target: content-domain:reading-comprehension-foundations
+  type: ALIGNS_TO_CONTENT_DOMAIN
+  mapping_status: mapped
+  cluster_or_grouping: literal comprehension of shared text
+- source: RC1
+  target: performance-level:proficient
+  type: ALIGNS_TO_PERFORMANCE_LEVEL
+  mapping_status: mapped
+  stretch_level: Advanced
+- source: RC1
+  target: ccss-anchor:kindergarten-to-grade-1:demonstrate-literal-comprehension-from-shared-or-read-aloud-text
+  type: ALIGNS_TO_CCSS_ANCHOR
+  mapping_status: mapped
+  review_status: draft
+- source: RC1
+  target: california-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: inherits_canonical_literacy_baseline_with_state_metadata
+  relationship_type: baseline-aligned
+- source: RC1
+  target: new-york-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: RC1
+  target: tennessee-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: RC1
+  target: texas-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: RC1
+  target: virginia-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: RC2
+  target: RC1
+  type: DEPENDS_ON
+- source: RC2
+  target: grade-band:kindergarten-to-grade-2
+  type: ALIGNS_TO_GRADE_BAND
+  mapping_status: mapped
+- source: RC2
+  target: content-domain:reading-comprehension-foundations
+  type: ALIGNS_TO_CONTENT_DOMAIN
+  mapping_status: mapped
+  cluster_or_grouping: inferential and integrative comprehension of shared text
+- source: RC2
+  target: performance-level:proficient
+  type: ALIGNS_TO_PERFORMANCE_LEVEL
+  mapping_status: mapped
+  stretch_level: Advanced
+- source: RC2
+  target: ccss-anchor:kindergarten-to-grade-2:make-bounded-inferences-and-integrate-relevant-details-from-shared-text
+  type: ALIGNS_TO_CCSS_ANCHOR
+  mapping_status: mapped
+  review_status: draft
+- source: RC2
+  target: california-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: inherits_canonical_literacy_baseline_with_state_metadata
+  relationship_type: baseline-aligned
+- source: RC2
+  target: new-york-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: RC2
+  target: tennessee-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: RC2
+  target: texas-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: RC2
+  target: virginia-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: RC3
+  target: FR4
+  type: DEPENDS_ON
+- source: RC3
+  target: RC1
+  type: DEPENDS_ON
+- source: RC3
+  target: grade-band:grade-1-to-grade-3
+  type: ALIGNS_TO_GRADE_BAND
+  mapping_status: mapped
+- source: RC3
+  target: content-domain:reading-comprehension-foundations
+  type: ALIGNS_TO_CONTENT_DOMAIN
+  mapping_status: mapped
+  cluster_or_grouping: sentence-level meaning construction
+- source: RC3
+  target: performance-level:proficient
+  type: ALIGNS_TO_PERFORMANCE_LEVEL
+  mapping_status: mapped
+  stretch_level: Advanced
+- source: RC3
+  target: ccss-anchor:grade-1-to-grade-3:derive-meaning-from-supported-independently-read-sentences
+  type: ALIGNS_TO_CCSS_ANCHOR
+  mapping_status: mapped
+  review_status: draft
+- source: RC3
+  target: california-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: inherits_canonical_literacy_baseline_with_state_metadata
+  relationship_type: baseline-aligned
+- source: RC3
+  target: new-york-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: RC3
+  target: tennessee-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: RC3
+  target: texas-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: RC3
+  target: virginia-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: RC4
+  target: RC3
+  type: DEPENDS_ON
+- source: RC4
+  target: FR6
+  type: DEPENDS_ON
+- source: RC4
+  target: grade-band:grade-1-to-grade-4
+  type: ALIGNS_TO_GRADE_BAND
+  mapping_status: mapped
+- source: RC4
+  target: content-domain:reading-comprehension-foundations
+  type: ALIGNS_TO_CONTENT_DOMAIN
+  mapping_status: mapped
+  cluster_or_grouping: short-passage integration and local coherence
+- source: RC4
+  target: performance-level:proficient
+  type: ALIGNS_TO_PERFORMANCE_LEVEL
+  mapping_status: mapped
+  stretch_level: Advanced
+- source: RC4
+  target: ccss-anchor:grade-1-to-grade-4:integrate-meaning-across-short-connected-passages-with-local-coherence
+  type: ALIGNS_TO_CCSS_ANCHOR
+  mapping_status: mapped
+  review_status: draft
+- source: RC4
+  target: california-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: inherits_canonical_literacy_baseline_with_state_metadata
+  relationship_type: baseline-aligned
+- source: RC4
+  target: new-york-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: RC4
+  target: tennessee-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: RC4
+  target: texas-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: RC4
+  target: virginia-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: RC5
+  target: RC4
+  type: DEPENDS_ON
+- source: RC5
+  target: O3
+  type: DEPENDS_ON
+- source: RC5
+  target: grade-band:grade-2-to-grade-5
+  type: ALIGNS_TO_GRADE_BAND
+  mapping_status: mapped
+- source: RC5
+  target: content-domain:reading-response-and-evidence-use
+  type: ALIGNS_TO_CONTENT_DOMAIN
+  mapping_status: mapped
+  cluster_or_grouping: evidence selection from text
+- source: RC5
+  target: performance-level:proficient
+  type: ALIGNS_TO_PERFORMANCE_LEVEL
+  mapping_status: mapped
+  stretch_level: Advanced
+- source: RC5
+  target: ccss-anchor:grade-2-to-grade-5:select-relevant-textual-evidence-for-a-response
+  type: ALIGNS_TO_CCSS_ANCHOR
+  mapping_status: mapped
+  review_status: draft
+- source: RC5
+  target: california-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: inherits_canonical_literacy_baseline_with_state_metadata
+  relationship_type: baseline-aligned
+- source: RC5
+  target: new-york-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: RC5
+  target: tennessee-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: RC5
+  target: texas-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: RC5
+  target: virginia-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: RC6
+  target: RC5
+  type: DEPENDS_ON
+- source: RC6
+  target: grade-band:grade-2-to-grade-5
+  type: ALIGNS_TO_GRADE_BAND
+  mapping_status: mapped
+- source: RC6
+  target: content-domain:reading-response-and-evidence-use
+  type: ALIGNS_TO_CONTENT_DOMAIN
+  mapping_status: mapped
+  cluster_or_grouping: evidence explanation and text-grounded response
+- source: RC6
+  target: performance-level:proficient
+  type: ALIGNS_TO_PERFORMANCE_LEVEL
+  mapping_status: mapped
+  stretch_level: Advanced
+- source: RC6
+  target: ccss-anchor:grade-2-to-grade-5:explain-how-selected-textual-evidence-supports-a-text-grounded-response
+  type: ALIGNS_TO_CCSS_ANCHOR
+  mapping_status: mapped
+  review_status: draft
+- source: RC6
+  target: california-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: inherits_canonical_literacy_baseline_with_state_metadata
+  relationship_type: baseline-aligned
+- source: RC6
+  target: new-york-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: RC6
+  target: tennessee-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: RC6
+  target: texas-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: RC6
+  target: virginia-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: R4
+  target: RC6
+  type: DEPENDS_ON
+- source: R4
+  target: grade-band:grades-4-8
+  type: ALIGNS_TO_GRADE_BAND
+  mapping_status: mapped
+- source: R4
+  target: content-domain:reading-literature
+  type: ALIGNS_TO_CONTENT_DOMAIN
+  mapping_status: mapped
+  cluster_or_grouping: literary analysis
+- source: R4
+  target: performance-level:proficient
+  type: ALIGNS_TO_PERFORMANCE_LEVEL
+  mapping_status: mapped
+  stretch_level: Advanced
+- source: R4
+  target: ccss-anchor:grades-4-8:analyze-literary-structure-theme-character-and-interpretation-across-increasingly-complex-texts
+  type: ALIGNS_TO_CCSS_ANCHOR
+  mapping_status: mapped
+  review_status: draft
+- source: R4
+  target: california-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: inherits_canonical_literacy_baseline_with_state_metadata
+  relationship_type: baseline-aligned
+- source: R4
+  target: new-york-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: R4
+  target: tennessee-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: R4
+  target: texas-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: R4
+  target: virginia-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: R5
+  target: RC6
+  type: DEPENDS_ON
+- source: R5
+  target: grade-band:grades-4-8
+  type: ALIGNS_TO_GRADE_BAND
+  mapping_status: mapped
+- source: R5
+  target: content-domain:reading-informational-text
+  type: ALIGNS_TO_CONTENT_DOMAIN
+  mapping_status: mapped
+  cluster_or_grouping: informational analysis and author claims
+- source: R5
+  target: performance-level:proficient
+  type: ALIGNS_TO_PERFORMANCE_LEVEL
+  mapping_status: mapped
+  stretch_level: Advanced
+- source: R5
+  target: ccss-anchor:grades-4-8:analyze-informational-structure-author-claims-source-use-and-support-in-nonfiction-texts
+  type: ALIGNS_TO_CCSS_ANCHOR
+  mapping_status: mapped
+  review_status: draft
+- source: R5
+  target: california-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: inherits_canonical_literacy_baseline_with_state_metadata
+  relationship_type: baseline-aligned
+- source: R5
+  target: new-york-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: R5
+  target: tennessee-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: R5
+  target: texas-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: R5
+  target: virginia-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: R6
+  target: R4
+  type: DEPENDS_ON
+- source: R6
+  target: R5
+  type: DEPENDS_ON
+- source: R6
+  target: grade-band:grade-6-to-grade-12
+  type: ALIGNS_TO_GRADE_BAND
+  mapping_status: mapped
+- source: R6
+  target: content-domain:disciplinary-literacy-and-synthesis
+  type: ALIGNS_TO_CONTENT_DOMAIN
+  mapping_status: mapped
+  cluster_or_grouping: disciplinary literacy, rhetorical analysis, and cross-text
+    synthesis
+- source: R6
+  target: performance-level:proficient
+  type: ALIGNS_TO_PERFORMANCE_LEVEL
+  mapping_status: mapped
+  stretch_level: Advanced
+- source: R6
+  target: ccss-anchor:grade-6-to-grade-12:synthesize-across-texts-and-perform-disciplinary-and-rhetorical-reading-with-evidence-and-structure
+  type: ALIGNS_TO_CCSS_ANCHOR
+  mapping_status: mapped
+  review_status: draft
+- source: R6
+  target: california-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: inherits_canonical_literacy_baseline_with_state_metadata
+  relationship_type: baseline-aligned
+- source: R6
+  target: new-york-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: R6
+  target: tennessee-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: R6
+  target: texas-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: R6
+  target: virginia-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: AC1
+  target: R4
+  type: DEPENDS_ON
+- source: AC1
+  target: R5
+  type: DEPENDS_ON
+- source: AC1
+  target: grade-band:grade-8-to-grade-12
+  type: ALIGNS_TO_GRADE_BAND
+  mapping_status: mapped
+- source: AC1
+  target: content-domain:disciplinary-literacy-and-synthesis
+  type: ALIGNS_TO_CONTENT_DOMAIN
+  mapping_status: mapped
+  cluster_or_grouping: cross-text synthesis and source coordination
+- source: AC1
+  target: performance-level:proficient
+  type: ALIGNS_TO_PERFORMANCE_LEVEL
+  mapping_status: mapped
+  stretch_level: Advanced
+- source: AC1
+  target: ccss-anchor:grade-8-to-grade-12:coordinate-relevant-relationships-across-multiple-texts
+  type: ALIGNS_TO_CCSS_ANCHOR
+  mapping_status: mapped
+  review_status: draft
+- source: AC1
+  target: california-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: inherits_canonical_literacy_baseline_with_state_metadata
+  relationship_type: baseline-aligned
+- source: AC1
+  target: new-york-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: AC1
+  target: tennessee-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: AC1
+  target: texas-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: AC1
+  target: virginia-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: AC2
+  target: AC1
+  type: DEPENDS_ON
+- source: AC2
+  target: grade-band:grade-8-to-grade-12
+  type: ALIGNS_TO_GRADE_BAND
+  mapping_status: mapped
+- source: AC2
+  target: content-domain:disciplinary-literacy-and-rhetorical-reading
+  type: ALIGNS_TO_CONTENT_DOMAIN
+  mapping_status: mapped
+  cluster_or_grouping: disciplinary and rhetorical reading
+- source: AC2
+  target: performance-level:proficient
+  type: ALIGNS_TO_PERFORMANCE_LEVEL
+  mapping_status: mapped
+  stretch_level: Advanced
+- source: AC2
+  target: ccss-anchor:grade-8-to-grade-12:analyze-disciplinary-and-rhetorical-features-of-complex-texts
+  type: ALIGNS_TO_CCSS_ANCHOR
+  mapping_status: mapped
+  review_status: draft
+- source: AC2
+  target: california-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: inherits_canonical_literacy_baseline_with_state_metadata
+  relationship_type: baseline-aligned
+- source: AC2
+  target: new-york-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: AC2
+  target: tennessee-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: AC2
+  target: texas-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: AC2
+  target: virginia-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: L1
+  target: O3
+  type: DEPENDS_ON
+- source: L1
+  target: P4
+  type: DEPENDS_ON
+- source: L1
+  target: grade-band:grade-1-to-grade-2
+  type: ALIGNS_TO_GRADE_BAND
+  mapping_status: mapped
+- source: L1
+  target: content-domain:language-writing-speaking-and-listening
+  type: ALIGNS_TO_CONTENT_DOMAIN
+  mapping_status: mapped
+  cluster_or_grouping: sentence control and basic conventions
+- source: L1
+  target: performance-level:proficient
+  type: ALIGNS_TO_PERFORMANCE_LEVEL
+  mapping_status: mapped
+  stretch_level: Advanced
+- source: L1
+  target: ccss-anchor:grade-1-to-grade-2:form-complete-sentences-with-basic-conventions-and-controlled-oral-to-written-transfer
+  type: ALIGNS_TO_CCSS_ANCHOR
+  mapping_status: mapped
+  review_status: draft
+- source: L1
+  target: california-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: inherits_canonical_literacy_baseline_with_state_metadata
+  relationship_type: baseline-aligned
+- source: L1
+  target: new-york-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: L1
+  target: tennessee-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: L1
+  target: texas-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: L1
+  target: virginia-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: L2
+  target: FR4
+  type: DEPENDS_ON
+- source: L2
+  target: RC3
+  type: DEPENDS_ON
+- source: L2
+  target: grade-band:grades-2-6
+  type: ALIGNS_TO_GRADE_BAND
+  mapping_status: mapped
+- source: L2
+  target: content-domain:language
+  type: ALIGNS_TO_CONTENT_DOMAIN
+  mapping_status: mapped
+  cluster_or_grouping: vocabulary and morphology
+- source: L2
+  target: performance-level:proficient
+  type: ALIGNS_TO_PERFORMANCE_LEVEL
+  mapping_status: mapped
+  stretch_level: Advanced
+- source: L2
+  target: ccss-anchor:grades-2-6:use-morphology-vocabulary-knowledge-and-academic-language-to-support-comprehension-and-production
+  type: ALIGNS_TO_CCSS_ANCHOR
+  mapping_status: mapped
+  review_status: draft
+- source: L2
+  target: california-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: inherits_canonical_literacy_baseline_with_state_metadata
+  relationship_type: baseline-aligned
+- source: L2
+  target: new-york-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: L2
+  target: tennessee-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: L2
+  target: texas-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: L2
+  target: virginia-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: L3
+  target: L1
+  type: DEPENDS_ON
+- source: L3
+  target: L2
+  type: DEPENDS_ON
+- source: L3
+  target: grade-band:grades-4-12
+  type: ALIGNS_TO_GRADE_BAND
+  mapping_status: mapped
+- source: L3
+  target: content-domain:language-writing
+  type: ALIGNS_TO_CONTENT_DOMAIN
+  mapping_status: mapped
+  cluster_or_grouping: syntax, revision, and style
+- source: L3
+  target: performance-level:proficient
+  type: ALIGNS_TO_PERFORMANCE_LEVEL
+  mapping_status: mapped
+  stretch_level: Advanced
+- source: L3
+  target: ccss-anchor:grades-4-12:revise-syntax-style-and-language-control-for-clarity-coherence-and-rhetorical-effect
+  type: ALIGNS_TO_CCSS_ANCHOR
+  mapping_status: mapped
+  review_status: draft
+- source: L3
+  target: california-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: inherits_canonical_literacy_baseline_with_state_metadata
+  relationship_type: baseline-aligned
+- source: L3
+  target: new-york-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: L3
+  target: tennessee-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: L3
+  target: texas-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: L3
+  target: virginia-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: W1
+  target: O3
+  type: DEPENDS_ON
+- source: W1
+  target: P4
+  type: DEPENDS_ON
+- source: W1
+  target: grade-band:kindergarten-to-grade-1
+  type: ALIGNS_TO_GRADE_BAND
+  mapping_status: mapped
+- source: W1
+  target: content-domain:writing
+  type: ALIGNS_TO_CONTENT_DOMAIN
+  mapping_status: mapped
+  cluster_or_grouping: idea capture and early composition
+- source: W1
+  target: performance-level:proficient
+  type: ALIGNS_TO_PERFORMANCE_LEVEL
+  mapping_status: mapped
+  stretch_level: Advanced
+- source: W1
+  target: ccss-anchor:kindergarten-to-grade-1:capture-ideas-through-drawing-dictation-labeling-and-early-written-representation
+  type: ALIGNS_TO_CCSS_ANCHOR
+  mapping_status: mapped
+  review_status: draft
+- source: W1
+  target: california-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: inherits_canonical_literacy_baseline_with_state_metadata
+  relationship_type: baseline-aligned
+- source: W1
+  target: new-york-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: W1
+  target: tennessee-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: W1
+  target: texas-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: W1
+  target: virginia-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: WC1
+  target: L1
+  type: DEPENDS_ON
+- source: WC1
+  target: W1
+  type: DEPENDS_ON
+- source: WC1
+  target: grade-band:grade-1-to-grade-3
+  type: ALIGNS_TO_GRADE_BAND
+  mapping_status: mapped
+- source: WC1
+  target: content-domain:writing-production
+  type: ALIGNS_TO_CONTENT_DOMAIN
+  mapping_status: mapped
+  cluster_or_grouping: sentence planning and generation
+- source: WC1
+  target: performance-level:proficient
+  type: ALIGNS_TO_PERFORMANCE_LEVEL
+  mapping_status: mapped
+  stretch_level: Advanced
+- source: WC1
+  target: ccss-anchor:grade-1-to-grade-3:generate-complete-sentences-aligned-to-a-prompt-before-transcription-is-the-main-burden
+  type: ALIGNS_TO_CCSS_ANCHOR
+  mapping_status: mapped
+  review_status: draft
+- source: WC1
+  target: california-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: inherits_canonical_literacy_baseline_with_state_metadata
+  relationship_type: baseline-aligned
+- source: WC1
+  target: new-york-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: WC1
+  target: tennessee-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: WC1
+  target: texas-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: WC1
+  target: virginia-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: WC2
+  target: WC1
+  type: DEPENDS_ON
+- source: WC2
+  target: FR4
+  type: DEPENDS_ON
+- source: WC2
+  target: grade-band:grade-1-to-grade-3
+  type: ALIGNS_TO_GRADE_BAND
+  mapping_status: mapped
+- source: WC2
+  target: content-domain:writing-production-foundational-literacy-transfer
+  type: ALIGNS_TO_CONTENT_DOMAIN
+  mapping_status: mapped
+  cluster_or_grouping: sentence transcription and execution
+- source: WC2
+  target: performance-level:proficient
+  type: ALIGNS_TO_PERFORMANCE_LEVEL
+  mapping_status: mapped
+  stretch_level: Advanced
+- source: WC2
+  target: ccss-anchor:grade-1-to-grade-3:transcribe-complete-sentences-with-manageable-execution-load
+  type: ALIGNS_TO_CCSS_ANCHOR
+  mapping_status: mapped
+  review_status: draft
+- source: WC2
+  target: california-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: inherits_canonical_literacy_baseline_with_state_metadata
+  relationship_type: baseline-aligned
+- source: WC2
+  target: new-york-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: WC2
+  target: tennessee-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: WC2
+  target: texas-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: WC2
+  target: virginia-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: WC3
+  target: WC2
+  type: DEPENDS_ON
+- source: WC3
+  target: grade-band:grade-2-to-grade-5
+  type: ALIGNS_TO_GRADE_BAND
+  mapping_status: mapped
+- source: WC3
+  target: content-domain:composition
+  type: ALIGNS_TO_CONTENT_DOMAIN
+  mapping_status: mapped
+  cluster_or_grouping: paragraph structure and coherence
+- source: WC3
+  target: performance-level:proficient
+  type: ALIGNS_TO_PERFORMANCE_LEVEL
+  mapping_status: mapped
+  stretch_level: Advanced
+- source: WC3
+  target: ccss-anchor:grade-2-to-grade-5:produce-coherent-paragraphs-organized-around-a-controlling-idea
+  type: ALIGNS_TO_CCSS_ANCHOR
+  mapping_status: mapped
+  review_status: draft
+- source: WC3
+  target: california-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: inherits_canonical_literacy_baseline_with_state_metadata
+  relationship_type: baseline-aligned
+- source: WC3
+  target: new-york-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: WC3
+  target: tennessee-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: WC3
+  target: texas-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: WC3
+  target: virginia-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: WC4
+  target: WC3
+  type: DEPENDS_ON
+- source: WC4
+  target: RC6
+  type: DEPENDS_ON
+- source: WC4
+  target: grade-band:grade-2-to-grade-5
+  type: ALIGNS_TO_GRADE_BAND
+  mapping_status: mapped
+- source: WC4
+  target: content-domain:composition-source-based-response
+  type: ALIGNS_TO_CONTENT_DOMAIN
+  mapping_status: mapped
+  cluster_or_grouping: source integration in structured response
+- source: WC4
+  target: performance-level:proficient
+  type: ALIGNS_TO_PERFORMANCE_LEVEL
+  mapping_status: mapped
+  stretch_level: Advanced
+- source: WC4
+  target: ccss-anchor:grade-2-to-grade-5:integrate-relevant-textual-support-into-a-structured-written-response
+  type: ALIGNS_TO_CCSS_ANCHOR
+  mapping_status: mapped
+  review_status: draft
+- source: WC4
+  target: california-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: inherits_canonical_literacy_baseline_with_state_metadata
+  relationship_type: baseline-aligned
+- source: WC4
+  target: new-york-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: WC4
+  target: tennessee-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: WC4
+  target: texas-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: WC4
+  target: virginia-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: WC5
+  target: WC4
+  type: DEPENDS_ON
+- source: WC5
+  target: grade-band:grade-4-to-grade-8
+  type: ALIGNS_TO_GRADE_BAND
+  mapping_status: mapped
+- source: WC5
+  target: content-domain:extended-composition
+  type: ALIGNS_TO_CONTENT_DOMAIN
+  mapping_status: mapped
+  cluster_or_grouping: multi-paragraph development and coherence
+- source: WC5
+  target: performance-level:proficient
+  type: ALIGNS_TO_PERFORMANCE_LEVEL
+  mapping_status: mapped
+  stretch_level: Advanced
+- source: WC5
+  target: ccss-anchor:grade-4-to-grade-8:develop-coherent-multi-paragraph-writing-with-sustained-structure
+  type: ALIGNS_TO_CCSS_ANCHOR
+  mapping_status: mapped
+  review_status: draft
+- source: WC5
+  target: california-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: inherits_canonical_literacy_baseline_with_state_metadata
+  relationship_type: baseline-aligned
+- source: WC5
+  target: new-york-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: WC5
+  target: tennessee-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: WC5
+  target: texas-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: WC5
+  target: virginia-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: WC6
+  target: WC5
+  type: DEPENDS_ON
+- source: WC6
+  target: R4
+  type: DEPENDS_ON
+- source: WC6
+  target: R5
+  type: DEPENDS_ON
+- source: WC6
+  target: grade-band:grade-4-to-grade-10
+  type: ALIGNS_TO_GRADE_BAND
+  mapping_status: mapped
+- source: WC6
+  target: content-domain:extended-composition
+  type: ALIGNS_TO_CONTENT_DOMAIN
+  mapping_status: mapped
+  cluster_or_grouping: genre-controlled explanation, narrative, and argument
+- source: WC6
+  target: performance-level:proficient
+  type: ALIGNS_TO_PERFORMANCE_LEVEL
+  mapping_status: mapped
+  stretch_level: Advanced
+- source: WC6
+  target: ccss-anchor:grade-4-to-grade-10:adapt-multi-paragraph-writing-to-explanation-narrative-and-argument-demands
+  type: ALIGNS_TO_CCSS_ANCHOR
+  mapping_status: mapped
+  review_status: draft
+- source: WC6
+  target: california-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: inherits_canonical_literacy_baseline_with_state_metadata
+  relationship_type: baseline-aligned
+- source: WC6
+  target: new-york-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: WC6
+  target: tennessee-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: WC6
+  target: texas-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: WC6
+  target: virginia-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: WC7
+  target: WC6
+  type: DEPENDS_ON
+- source: WC7
+  target: R6
+  type: DEPENDS_ON
+- source: WC7
+  target: grade-band:grade-8-to-grade-12
+  type: ALIGNS_TO_GRADE_BAND
+  mapping_status: mapped
+- source: WC7
+  target: content-domain:research-writing
+  type: ALIGNS_TO_CONTENT_DOMAIN
+  mapping_status: mapped
+  cluster_or_grouping: research synthesis
+- source: WC7
+  target: performance-level:proficient
+  type: ALIGNS_TO_PERFORMANCE_LEVEL
+  mapping_status: mapped
+  stretch_level: Advanced
+- source: WC7
+  target: ccss-anchor:grade-8-to-grade-12:synthesize-multiple-sources-into-coherent-research-based-writing
+  type: ALIGNS_TO_CCSS_ANCHOR
+  mapping_status: mapped
+  review_status: draft
+- source: WC7
+  target: california-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: inherits_canonical_literacy_baseline_with_state_metadata
+  relationship_type: baseline-aligned
+- source: WC7
+  target: new-york-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: WC7
+  target: tennessee-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: WC7
+  target: texas-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: WC7
+  target: virginia-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: WC8
+  target: WC7
+  type: DEPENDS_ON
+- source: WC8
+  target: L3
+  type: DEPENDS_ON
+- source: WC8
+  target: grade-band:grade-8-to-grade-12
+  type: ALIGNS_TO_GRADE_BAND
+  mapping_status: mapped
+- source: WC8
+  target: content-domain:research-writing
+  type: ALIGNS_TO_CONTENT_DOMAIN
+  mapping_status: mapped
+  cluster_or_grouping: attribution and citation control
+- source: WC8
+  target: performance-level:proficient
+  type: ALIGNS_TO_PERFORMANCE_LEVEL
+  mapping_status: mapped
+  stretch_level: Advanced
+- source: WC8
+  target: ccss-anchor:grade-8-to-grade-12:maintain-usable-attribution-and-citation-control-in-sourced-writing
+  type: ALIGNS_TO_CCSS_ANCHOR
+  mapping_status: mapped
+  review_status: draft
+- source: WC8
+  target: california-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: inherits_canonical_literacy_baseline_with_state_metadata
+  relationship_type: baseline-aligned
+- source: WC8
+  target: new-york-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: WC8
+  target: tennessee-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: WC8
+  target: texas-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: WC8
+  target: virginia-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: AC3
+  target: AC2
+  type: DEPENDS_ON
+- source: AC3
+  target: WC8
+  type: DEPENDS_ON
+- source: AC3
+  target: L3
+  type: DEPENDS_ON
+- source: AC3
+  target: grade-band:grade-10-to-grade-12
+  type: ALIGNS_TO_GRADE_BAND
+  mapping_status: mapped
+- source: AC3
+  target: content-domain:advanced-rhetorical-analysis
+  type: ALIGNS_TO_CONTENT_DOMAIN
+  mapping_status: mapped
+  cluster_or_grouping: advanced rhetorical analysis and argument synthesis
+- source: AC3
+  target: performance-level:proficient
+  type: ALIGNS_TO_PERFORMANCE_LEVEL
+  mapping_status: mapped
+  stretch_level: Advanced
+- source: AC3
+  target: ccss-anchor:grade-10-to-grade-12:analyze-rhetoric-and-synthesize-argument-across-complex-sources
+  type: ALIGNS_TO_CCSS_ANCHOR
+  mapping_status: mapped
+  review_status: draft
+- source: AC3
+  target: california-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: inherits_canonical_literacy_baseline_with_state_metadata
+  relationship_type: baseline-aligned
+- source: AC3
+  target: new-york-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: AC3
+  target: tennessee-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: AC3
+  target: texas-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: AC3
+  target: virginia-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: AC4
+  target: R4
+  type: DEPENDS_ON
+- source: AC4
+  target: WC6
+  type: DEPENDS_ON
+- source: AC4
+  target: L3
+  type: DEPENDS_ON
+- source: AC4
+  target: grade-band:grade-9-to-grade-12
+  type: ALIGNS_TO_GRADE_BAND
+  mapping_status: mapped
+- source: AC4
+  target: content-domain:advanced-literary-analysis
+  type: ALIGNS_TO_CONTENT_DOMAIN
+  mapping_status: mapped
+  cluster_or_grouping: literary interpretation and comparative analysis
+- source: AC4
+  target: performance-level:proficient
+  type: ALIGNS_TO_PERFORMANCE_LEVEL
+  mapping_status: mapped
+  stretch_level: Advanced
+- source: AC4
+  target: ccss-anchor:grade-9-to-grade-12:develop-comparative-literary-interpretations-grounded-in-textual-analysis
+  type: ALIGNS_TO_CCSS_ANCHOR
+  mapping_status: mapped
+  review_status: draft
+- source: AC4
+  target: california-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: inherits_canonical_literacy_baseline_with_state_metadata
+  relationship_type: baseline-aligned
+- source: AC4
+  target: new-york-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: AC4
+  target: tennessee-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: AC4
+  target: texas-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: AC4
+  target: virginia-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: AC5
+  target: AC4
+  type: DEPENDS_ON
+- source: AC5
+  target: grade-band:grade-10-to-grade-12
+  type: ALIGNS_TO_GRADE_BAND
+  mapping_status: mapped
+- source: AC5
+  target: content-domain:advanced-literary-analysis
+  type: ALIGNS_TO_CONTENT_DOMAIN
+  mapping_status: mapped
+  cluster_or_grouping: intertextual literary argument
+- source: AC5
+  target: performance-level:proficient
+  type: ALIGNS_TO_PERFORMANCE_LEVEL
+  mapping_status: mapped
+  stretch_level: Advanced
+- source: AC5
+  target: ccss-anchor:grade-10-to-grade-12:construct-intertextual-literary-arguments-across-texts
+  type: ALIGNS_TO_CCSS_ANCHOR
+  mapping_status: mapped
+  review_status: draft
+- source: AC5
+  target: california-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: inherits_canonical_literacy_baseline_with_state_metadata
+  relationship_type: baseline-aligned
+- source: AC5
+  target: new-york-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: AC5
+  target: tennessee-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: baseline-derived
+- source: AC5
+  target: texas-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct
+- source: AC5
+  target: virginia-ela-literacy-standards
+  type: ALIGNS_TO_STATE_PROFILE
+  mapping_status: requires_state_identifier_crosswalk_from_canonical_literacy_baseline
+  relationship_type: state-distinct

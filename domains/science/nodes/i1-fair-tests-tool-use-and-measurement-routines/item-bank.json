@@ -1,0 +1,72 @@
+{
+  "node_id": "I1",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "I1-A-001",
+      "family": "fair_test_and_tool_use",
+      "prompt": "Two toy cars will roll down a ramp. What should stay the same if you want to compare only the cars?",
+      "target_node": "I1",
+      "secondary_dependency_targets": ["Q2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation", "multiple_choice"],
+      "dominant_failure_modes_if_incorrect": ["I1-FM-01", "I1-FM-03"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "I1-A-002",
+      "family": "fair_test_and_tool_use",
+      "prompt": "Which tool should you use to measure how long a bean plant is growing taller?",
+      "target_node": "I1",
+      "secondary_dependency_targets": ["Q2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["selected_response", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["I1-FM-02", "I1-FM-04"],
+      "requires_human_scoring": false
+    },
+    {
+      "item_id": "I1-B-001",
+      "family": "explanation",
+      "prompt": "Explain why using the same cup each time helps make a water test fair.",
+      "target_node": "I1",
+      "secondary_dependency_targets": ["Q2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["I1-FM-01", "I1-FM-03"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "I1-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student changed the ramp height and the car at the same time. What is the problem with the test?",
+      "target_node": "I1",
+      "secondary_dependency_targets": ["Q2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["multiple_choice", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["I1-FM-01", "I1-FM-03"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "I1-D-001",
+      "family": "transfer",
+      "prompt": "In one task you measure a plant and in another you measure rainfall. Tell what stays the same about the routine even though the context changed.",
+      "target_node": "I1",
+      "secondary_dependency_targets": ["Q2"],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": ["oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["I1-FM-02", "I1-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "I1-R-001",
+      "family": "retention",
+      "prompt": "After time has passed, choose a fair way to test which paper towel absorbs more water.",
+      "target_node": "I1",
+      "secondary_dependency_targets": ["Q2"],
+      "difficulty_band": "retention",
+      "response_modes_allowed": ["multiple_choice", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["I1-FM-01", "I1-FM-02"],
+      "requires_human_scoring": true
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "node_id": "I3",
+  "examples": [
+    {
+      "learner_id": "sample-i3-blocked-01",
+      "node_id": "I3",
+      "status": "blocked",
+      "dependency_status": {
+        "I2": "secure"
+      },
+      "direct_accuracy": 0.48,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["I3-FM-02", "I3-FM-03"],
+      "recommended_interventions": [
+        "sort consistent and inconsistent result sets",
+        "rewrite overly strong pattern claims into bounded summaries"
+      ],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Can read repeated data but does not yet judge reliability or summarize patterns appropriately."
+    },
+    {
+      "learner_id": "sample-i3-secure-01",
+      "node_id": "I3",
+      "status": "secure",
+      "dependency_status": {
+        "I2": "secure"
+      },
+      "direct_accuracy": 0.93,
+      "explanation_status": "met",
+      "transfer_status": "met",
+      "retention_status": "met",
+      "dominant_failure_modes": [],
+      "recommended_interventions": [],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Uses repeated trials to judge reliability and summarize patterns across multiple investigations."
+    }
+  ]
+}

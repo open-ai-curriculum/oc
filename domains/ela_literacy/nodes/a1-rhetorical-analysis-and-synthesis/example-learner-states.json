@@ -1,0 +1,45 @@
+[
+  {
+    "learner_id": "ela-sample-a1-blocked",
+    "node_id": "A1",
+    "status": "blocked",
+    "dependency_status": {
+      "W5": "secure",
+      "R6": "secure",
+      "L3": "secure"
+    },
+    "direct_accuracy": 0.44,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["A1-FM-01", "A1-FM-03"],
+    "recommended_interventions": [
+      "rhetorical choice plus effect frame",
+      "complex-source synthesis distinction grid"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Can summarize and argue, but struggles to analyze rhetorical choices across complex sources."
+  },
+  {
+    "learner_id": "ela-sample-a1-provisional",
+    "node_id": "A1",
+    "status": "provisional",
+    "dependency_status": {
+      "W5": "secure",
+      "R6": "secure",
+      "L3": "secure"
+    },
+    "direct_accuracy": 0.86,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [
+      "brief changed-rhetorical-situation review"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Analyzes rhetorical choices and synthesizes arguments across complex sources coherently."
+  }
+]

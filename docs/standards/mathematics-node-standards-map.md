@@ -33,23 +33,23 @@ The map does not yet claim official identifier-level equivalence for every node.
 
 ## Current Coverage
 
-- total mapped mathematics nodes: `132`
-- CCSS direct or partial mapping nodes: `124`
-- CCSS out-of-scope nodes: `8`
+- total mapped mathematics nodes: `146`
+- CCSS direct or partial mapping nodes: `134`
+- CCSS out-of-scope nodes: `12`
 - state profiles included per node: `15`
 
 ### CCSS Mapping Status Counts
 
-- `mapped`: `116`
-- `out_of_scope_current_ccss_baseline`: `8`
+- `mapped`: `126`
+- `out_of_scope_current_ccss_baseline`: `12`
 - `partial_readiness_alignment`: `8`
 
 ### State Profile Mapping Status Counts
 
-- `conceptual_alignment_only_until_state_crosswalk_exists`: `620`
-- `inherits_canonical_baseline_with_state_metadata`: `248`
-- `out_of_scope_current_profile`: `120`
-- `requires_state_identifier_crosswalk_from_canonical_baseline`: `992`
+- `conceptual_alignment_only_until_state_crosswalk_exists`: `670`
+- `inherits_canonical_baseline_with_state_metadata`: `268`
+- `out_of_scope_current_profile`: `180`
+- `requires_state_identifier_crosswalk_from_canonical_baseline`: `1072`
 
 ## Mapping Method
 
@@ -196,16 +196,30 @@ The current map is intentionally conservative:
 | `W2` | Grades 6-12 | statistics and probability | `mapped` | analyze data, reason about variability, and make probabilistic or inferential claims |
 | `W3` | Grades 6-12 | statistics and probability | `mapped` | analyze data, reason about variability, and make probabilistic or inferential claims |
 | `W4` | Grades 6-12 | statistics and probability | `mapped` | analyze data, reason about variability, and make probabilistic or inferential claims |
+| `W5` | Grades 6-12 | statistics and probability | `mapped` | analyze data, reason about variability, and make probabilistic or inferential claims |
+| `W6` | Grades 6-12 | statistics and probability | `mapped` | analyze data, reason about variability, and make probabilistic or inferential claims |
+| `W7` | Grades 6-12 | statistics and probability | `mapped` | analyze data, reason about variability, and make probabilistic or inferential claims |
+| `W8` | Grades 6-12 | statistics and probability | `mapped` | analyze data, reason about variability, and make probabilistic or inferential claims |
+| `W9` | Grades 6-12 | statistics and probability | `mapped` | analyze data, reason about variability, and make probabilistic or inferential claims |
 | `B1` | High School | algebra / functions / number and quantity | `mapped` | reason about advanced algebraic structure, function families, and precalculus behavior |
 | `B2` | High School | algebra / functions / number and quantity | `mapped` | reason about advanced algebraic structure, function families, and precalculus behavior |
 | `B3` | High School | algebra / functions / number and quantity | `mapped` | reason about advanced algebraic structure, function families, and precalculus behavior |
 | `B4` | High School | algebra / functions / number and quantity | `mapped` | reason about advanced algebraic structure, function families, and precalculus behavior |
 | `B5` | High School | algebra / functions / number and quantity | `mapped` | reason about advanced algebraic structure, function families, and precalculus behavior |
+| `B6` | High School | algebra / functions / number and quantity | `mapped` | reason about advanced algebraic structure, function families, and precalculus behavior |
+| `B7` | High School | algebra / functions / number and quantity | `mapped` | reason about advanced algebraic structure, function families, and precalculus behavior |
+| `B8` | High School | algebra / functions / number and quantity | `mapped` | reason about advanced algebraic structure, function families, and precalculus behavior |
+| `B9` | High School | algebra / functions / number and quantity | `mapped` | reason about advanced algebraic structure, function families, and precalculus behavior |
+| `B10` | High School | algebra / functions / number and quantity | `mapped` | reason about advanced algebraic structure, function families, and precalculus behavior |
 | `AP1` | Advanced Placement / Post-CCSS extension | advanced coursework beyond the current codified K-12 standards corpus | `out_of_scope_current_ccss_baseline` | advanced coursework nodes extend beyond the currently codified CCSS/state standards baseline |
 | `AP2` | Advanced Placement / Post-CCSS extension | advanced coursework beyond the current codified K-12 standards corpus | `out_of_scope_current_ccss_baseline` | advanced coursework nodes extend beyond the currently codified CCSS/state standards baseline |
 | `AP3` | Advanced Placement / Post-CCSS extension | advanced coursework beyond the current codified K-12 standards corpus | `out_of_scope_current_ccss_baseline` | advanced coursework nodes extend beyond the currently codified CCSS/state standards baseline |
 | `AP4` | Advanced Placement / Post-CCSS extension | advanced coursework beyond the current codified K-12 standards corpus | `out_of_scope_current_ccss_baseline` | advanced coursework nodes extend beyond the currently codified CCSS/state standards baseline |
 | `AP5` | Advanced Placement / Post-CCSS extension | advanced coursework beyond the current codified K-12 standards corpus | `out_of_scope_current_ccss_baseline` | advanced coursework nodes extend beyond the currently codified CCSS/state standards baseline |
+| `AP6` | Advanced Placement / Post-CCSS extension | advanced coursework beyond the current codified K-12 standards corpus | `out_of_scope_current_ccss_baseline` | advanced coursework nodes extend beyond the currently codified CCSS/state standards baseline |
+| `AP7` | Advanced Placement / Post-CCSS extension | advanced coursework beyond the current codified K-12 standards corpus | `out_of_scope_current_ccss_baseline` | advanced coursework nodes extend beyond the currently codified CCSS/state standards baseline |
+| `AP8` | Advanced Placement / Post-CCSS extension | advanced coursework beyond the current codified K-12 standards corpus | `out_of_scope_current_ccss_baseline` | advanced coursework nodes extend beyond the currently codified CCSS/state standards baseline |
+| `AP9` | Advanced Placement / Post-CCSS extension | advanced coursework beyond the current codified K-12 standards corpus | `out_of_scope_current_ccss_baseline` | advanced coursework nodes extend beyond the currently codified CCSS/state standards baseline |
 
 ## Claim Boundary
 

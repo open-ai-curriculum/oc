@@ -1,37 +1,140 @@
 {
   "node_id": "J5",
+  "policy_version": "1.0",
   "items": [
     {
-      "item_id": "J5-A1",
-      "item_family": "direct",
-      "prompt": "solves bounded percent change, discount, tax, and markup situations accurately",
+      "item_id": "J5-DIR-001",
+      "node_id": "J5",
+      "item_family": "direct_execution",
+      "prompt": "Decide whether the table `(2, 6), (4, 12), (7, 21)` is proportional and justify the constant of proportionality.",
       "expected_evidence": "compute a percent amount and combine it correctly with an original quantity when the context requires increase or decrease",
       "dominant_failure_mode": "base_value_tracking_breakdown",
-      "scoring_guidance": "Meets when the learner identifies the original value, computes the percent amount, and forms the correct resulting value."
+      "scoring_guidance": "Meets when the learner demonstrates compute a percent amount and combine it correctly with an original quantity when the context requires increase or decrease with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "J5-B1",
-      "item_family": "explanation",
-      "prompt": "explains how original amount, percent rate, and resulting amount are multiplicatively related in tax, discount, markup, or percent-change situations",
-      "expected_evidence": "explain why discount and tax are structurally similar but directionally different applications of percent",
+      "item_id": "J5-DIR-002",
+      "node_id": "J5",
+      "item_family": "direct_execution",
+      "prompt": "Find the unit rate for 18 miles in 3 hours and explain what it means.",
+      "expected_evidence": "distinguish original amount, percent amount, and resulting amount in bounded change problems",
       "dominant_failure_mode": "additive_percent_misread",
-      "scoring_guidance": "Meets when the learner explains the multiplicative structure of the percent application coherently."
+      "scoring_guidance": "Meets when the learner demonstrates distinguish original amount, percent amount, and resulting amount in bounded change problems with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "J5-C1",
-      "item_family": "error_diagnosis",
-      "prompt": "Diagnose a peer error aligned to result_direction_confusion.",
+      "item_id": "J5-DIR-003",
+      "node_id": "J5",
+      "item_family": "direct_execution",
+      "prompt": "Find 15% of 80 and explain how the percent is acting as a rate per hundred.",
+      "expected_evidence": "explain why discount and tax are structurally similar but directionally different applications of percent",
+      "dominant_failure_mode": "result_direction_confusion",
+      "scoring_guidance": "Meets when the learner demonstrates explain why discount and tax are structurally similar but directionally different applications of percent with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
+    },
+    {
+      "item_id": "J5-EXP-001",
+      "node_id": "J5",
+      "item_family": "explanation",
+      "prompt": "Explain why equal differences alone do not prove a relationship is proportional.",
+      "expected_evidence": "compute a percent amount and combine it correctly with an original quantity when the context requires increase or decrease",
+      "dominant_failure_mode": "additive_percent_misread",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to compute a percent amount and combine it correctly with an original quantity when the context requires increase or decrease.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "J5-EXP-002",
+      "node_id": "J5",
+      "item_family": "explanation",
+      "prompt": "Explain how a unit rate and a constant of proportionality describe the same multiplicative structure.",
       "expected_evidence": "distinguish original amount, percent amount, and resulting amount in bounded change problems",
       "dominant_failure_mode": "result_direction_confusion",
-      "scoring_guidance": "Meets when the learner identifies how the peer applied the percent amount in the wrong direction or to the wrong quantity."
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to distinguish original amount, percent amount, and resulting amount in bounded change problems.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
     },
     {
-      "item_id": "J5-D1",
+      "item_id": "J5-ERR-001",
+      "node_id": "J5",
+      "item_family": "error_diagnosis",
+      "prompt": "A student says a table is proportional because it increases by 3 each row. Diagnose the additive-pattern error. Focus on base value tracking breakdown.",
+      "expected_evidence": "compute a percent amount and combine it correctly with an original quantity when the context requires increase or decrease",
+      "dominant_failure_mode": "base_value_tracking_breakdown",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward compute a percent amount and combine it correctly with an original quantity when the context requires increase or decrease.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "J5-ERR-002",
+      "node_id": "J5",
+      "item_family": "error_diagnosis",
+      "prompt": "A student scales one quantity by 2 but the other by 3 and still claims proportionality. Identify the breakdown. Focus on additive percent misread.",
+      "expected_evidence": "distinguish original amount, percent amount, and resulting amount in bounded change problems",
+      "dominant_failure_mode": "additive_percent_misread",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward distinguish original amount, percent amount, and resulting amount in bounded change problems.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "J5-TRA-001",
+      "node_id": "J5",
       "item_family": "transfer",
-      "prompt": "succeeds across symbolic, table, verbal, and simple contextual applied-percent representations",
-      "expected_evidence": "judge whether a resulting price, quantity, or measurement is reasonable relative to the original amount",
+      "prompt": "A map uses 1 cm for every 5 km. How far does 7.2 cm represent, and why is the relationship proportional?",
+      "expected_evidence": "compute a percent amount and combine it correctly with an original quantity when the context requires increase or decrease",
+      "dominant_failure_mode": "result_direction_confusion",
+      "scoring_guidance": "Meets when the learner preserves compute a percent amount and combine it correctly with an original quantity when the context requires increase or decrease in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "J5-TRA-002",
+      "node_id": "J5",
+      "item_family": "transfer",
+      "prompt": "A recipe uses 3 cups of flour for 2 batches. Write an equation relating flour to batches and find the amount for 5 batches.",
+      "expected_evidence": "distinguish original amount, percent amount, and resulting amount in bounded change problems",
       "dominant_failure_mode": "context_reasonableness_breakdown",
-      "scoring_guidance": "Meets when the learner preserves applied-percent meaning across multiple representations and contexts."
+      "scoring_guidance": "Meets when the learner preserves distinguish original amount, percent amount, and resulting amount in bounded change problems in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "J5-RET-001",
+      "node_id": "J5",
+      "item_family": "retention",
+      "prompt": "On a delayed check, determine whether 4 notebooks for $6 and 10 notebooks for $15 are proportional and justify your reasoning.",
+      "expected_evidence": "compute a percent amount and combine it correctly with an original quantity when the context requires increase or decrease",
+      "dominant_failure_mode": "context_reasonableness_breakdown",
+      "scoring_guidance": "Meets when the learner still demonstrates compute a percent amount and combine it correctly with an original quantity when the context requires increase or decrease on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "J5-PRE-001",
+      "node_id": "J5",
+      "item_family": "prerequisite_probe",
+      "prompt": "Probe percent as rate per hundred before diagnosing percent change discount tax and markup, and state whether the learner is missing multiplicative structure or only the current proportional application.",
+      "expected_evidence": "shows whether percent as rate per hundred is secure enough to support percent change discount tax and markup",
+      "dominant_failure_mode": "additive_percent_misread",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in percent as rate per hundred from a current-node issue in percent change discount tax and markup.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "Q4",
+      "suspected_knowledge_gap_if_incorrect": "percent as rate per hundred"
+    },
+    {
+      "item_id": "J5-PRE-002",
+      "node_id": "J5",
+      "item_family": "prerequisite_probe",
+      "prompt": "Probe rational number multiplication and division before diagnosing percent change discount tax and markup, and state whether the learner is missing multiplicative structure or only the current proportional application.",
+      "expected_evidence": "shows whether rational number multiplication and division is secure enough to support percent change discount tax and markup",
+      "dominant_failure_mode": "result_direction_confusion",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in rational number multiplication and division from a current-node issue in percent change discount tax and markup.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "J2",
+      "suspected_knowledge_gap_if_incorrect": "rational number multiplication and division"
     }
   ]
 }

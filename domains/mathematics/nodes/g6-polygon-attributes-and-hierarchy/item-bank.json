@@ -1,37 +1,140 @@
 {
   "node_id": "G6",
+  "policy_version": "1.0",
   "items": [
     {
-      "item_id": "G6-A1",
-      "item_family": "direct",
-      "prompt": "identifies defining attributes of common polygons including side count, equal sides, and right angles where appropriate",
+      "item_id": "G6-DIR-001",
+      "node_id": "G6",
+      "item_family": "direct_execution",
+      "prompt": "Describe the rigid transformation that maps one figure onto the other on a coordinate grid.",
       "expected_evidence": "name and sort triangles, quadrilaterals, pentagons, hexagons, and other familiar polygons by visible attributes",
       "dominant_failure_mode": "nondefining_attribute_bias",
-      "scoring_guidance": "Meets when the learner completes the task accurately and justifies the choice."
+      "scoring_guidance": "Meets when the learner demonstrates name and sort triangles, quadrilaterals, pentagons, hexagons, and other familiar polygons by visible attributes with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "G6-B1",
-      "item_family": "explanation",
-      "prompt": "sorts and classifies polygons into named categories using stated attribute rules",
+      "item_id": "G6-DIR-002",
+      "node_id": "G6",
+      "item_family": "direct_execution",
+      "prompt": "Classify the triangle and justify the classification using its defining attributes.",
       "expected_evidence": "distinguish defining attributes from non-defining features such as orientation or size",
       "dominant_failure_mode": "attribute_omission",
-      "scoring_guidance": "Meets when the learner explains the reasoning using correct geometric language or supported demonstration."
+      "scoring_guidance": "Meets when the learner demonstrates distinguish defining attributes from non-defining features such as orientation or size with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "G6-C1",
-      "item_family": "error_diagnosis",
-      "prompt": "Diagnose a peer error aligned to hierarchy_reversal.",
+      "item_id": "G6-DIR-003",
+      "node_id": "G6",
+      "item_family": "direct_execution",
+      "prompt": "Find a missing angle or side measure using the structure of the diagram.",
       "expected_evidence": "justify category membership using explicit geometric language",
       "dominant_failure_mode": "hierarchy_reversal",
-      "scoring_guidance": "Meets when the learner identifies the mistaken rule and states the correct reasoning."
+      "scoring_guidance": "Meets when the learner demonstrates justify category membership using explicit geometric language with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
     },
     {
-      "item_id": "G6-D1",
+      "item_id": "G6-EXP-001",
+      "node_id": "G6",
+      "item_family": "explanation",
+      "prompt": "Explain which properties remain unchanged under a rigid transformation and why that supports congruence.",
+      "expected_evidence": "name and sort triangles, quadrilaterals, pentagons, hexagons, and other familiar polygons by visible attributes",
+      "dominant_failure_mode": "attribute_omission",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to name and sort triangles, quadrilaterals, pentagons, hexagons, and other familiar polygons by visible attributes.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "G6-EXP-002",
+      "node_id": "G6",
+      "item_family": "explanation",
+      "prompt": "Explain why the figure belongs to a category in the shape hierarchy.",
+      "expected_evidence": "distinguish defining attributes from non-defining features such as orientation or size",
+      "dominant_failure_mode": "hierarchy_reversal",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to distinguish defining attributes from non-defining features such as orientation or size.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "G6-ERR-001",
+      "node_id": "G6",
+      "item_family": "error_diagnosis",
+      "prompt": "A student claims two figures are congruent because they look the same size by eye. Diagnose the justification gap. Focus on nondefining attribute bias.",
+      "expected_evidence": "name and sort triangles, quadrilaterals, pentagons, hexagons, and other familiar polygons by visible attributes",
+      "dominant_failure_mode": "nondefining_attribute_bias",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward name and sort triangles, quadrilaterals, pentagons, hexagons, and other familiar polygons by visible attributes.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "G6-ERR-002",
+      "node_id": "G6",
+      "item_family": "error_diagnosis",
+      "prompt": "A student reflects a point across the x-axis but changes both coordinates. Identify the transformation error. Focus on attribute omission.",
+      "expected_evidence": "distinguish defining attributes from non-defining features such as orientation or size",
+      "dominant_failure_mode": "attribute_omission",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward distinguish defining attributes from non-defining features such as orientation or size.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "G6-TRA-001",
+      "node_id": "G6",
       "item_family": "transfer",
-      "prompt": "succeeds across drawings, sort tasks, and compare/classify prompts",
-      "expected_evidence": "reason about subclass relationships inside polygon families",
+      "prompt": "Use a transformation or coordinate argument to justify whether two figures are congruent in a less-familiar diagram.",
+      "expected_evidence": "name and sort triangles, quadrilaterals, pentagons, hexagons, and other familiar polygons by visible attributes",
+      "dominant_failure_mode": "hierarchy_reversal",
+      "scoring_guidance": "Meets when the learner preserves name and sort triangles, quadrilaterals, pentagons, hexagons, and other familiar polygons by visible attributes in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "G6-TRA-002",
+      "node_id": "G6",
+      "item_family": "transfer",
+      "prompt": "Apply angle or triangle reasoning in a contextual or composite-figure setting.",
+      "expected_evidence": "distinguish defining attributes from non-defining features such as orientation or size",
       "dominant_failure_mode": "vocabulary_label_confusion",
-      "scoring_guidance": "Meets when the learner succeeds in a less-familiar context without loss of concept integrity."
+      "scoring_guidance": "Meets when the learner preserves distinguish defining attributes from non-defining features such as orientation or size in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "G6-RET-001",
+      "node_id": "G6",
+      "item_family": "retention",
+      "prompt": "After a delay, describe a rigid motion on a grid and explain which measurements are preserved.",
+      "expected_evidence": "name and sort triangles, quadrilaterals, pentagons, hexagons, and other familiar polygons by visible attributes",
+      "dominant_failure_mode": "vocabulary_label_confusion",
+      "scoring_guidance": "Meets when the learner still demonstrates name and sort triangles, quadrilaterals, pentagons, hexagons, and other familiar polygons by visible attributes on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "G6-PRE-001",
+      "node_id": "G6",
+      "item_family": "prerequisite_probe",
+      "prompt": "Check compose and decompose shapes first so the system can distinguish an upstream spatial-structure gap from a true polygon attributes and hierarchy misunderstanding.",
+      "expected_evidence": "shows whether compose and decompose shapes is secure enough to support polygon attributes and hierarchy",
+      "dominant_failure_mode": "attribute_omission",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in compose and decompose shapes from a current-node issue in polygon attributes and hierarchy.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "G3",
+      "suspected_knowledge_gap_if_incorrect": "compose and decompose shapes"
+    },
+    {
+      "item_id": "G6-PRE-002",
+      "node_id": "G6",
+      "item_family": "prerequisite_probe",
+      "prompt": "Check compare and order multidigit numbers first so the system can distinguish an upstream spatial-structure gap from a true polygon attributes and hierarchy misunderstanding.",
+      "expected_evidence": "shows whether compare and order multidigit numbers is secure enough to support polygon attributes and hierarchy",
+      "dominant_failure_mode": "hierarchy_reversal",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in compare and order multidigit numbers from a current-node issue in polygon attributes and hierarchy.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "V2",
+      "suspected_knowledge_gap_if_incorrect": "compare and order multidigit numbers"
     }
   ]
 }

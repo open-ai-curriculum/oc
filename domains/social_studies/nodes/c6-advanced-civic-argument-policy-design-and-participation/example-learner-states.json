@@ -1,0 +1,23 @@
+{
+  "node_id": "C6",
+  "examples": [
+    {
+      "learner_id": "sample-c4-blocked-01",
+      "node_id": "C6",
+      "status": "blocked",
+      "dependency_status": { "C3": "secure", "H3": "secure", "Q4": "secure" },
+      "direct_accuracy": 0.57,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["C6-FM-02"],
+      "recommended_interventions": [
+        "chart one benefit and one cost for each option",
+        "require explanation of what is gained and what is constrained"
+      ],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Chooses a policy preference but misses the civic tradeoff."
+    }
+  ]
+}

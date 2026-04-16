@@ -1,0 +1,26 @@
+{
+  "node_id": "E3",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "E3-FM-01": [
+      "compare behavior before and after an incentive change",
+      "ask what choice becomes more likely and why",
+      "use one actor and one incentive at a time"
+    ],
+    "E3-FM-02": [
+      "identify what each side gains and gives",
+      "compare one-sided taking with reciprocal trade",
+      "use simple two-party trade diagrams"
+    ],
+    "E3-FM-03": [
+      "map the participants and flows in a short system",
+      "trace one decision through to an outcome",
+      "compare disconnected and connected system diagrams"
+    ],
+    "E3-FM-04": [
+      "preteach key terms with concrete examples",
+      "use oral explanation plus arrows or diagrams",
+      "simplify the scenario before increasing abstraction"
+    ]
+  }
+}

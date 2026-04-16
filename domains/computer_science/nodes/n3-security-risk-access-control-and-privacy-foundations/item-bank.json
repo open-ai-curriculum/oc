@@ -1,0 +1,251 @@
+{
+  "node_id": "N3",
+  "policy_version": "1.0",
+  "version": "0.4",
+  "items": [
+    {
+      "item_id": "N3-DIR-001",
+      "node_id": "N3",
+      "item_family": "direct_execution",
+      "prompt": "A student sends a file across a school network, and the teacher asks which devices or services are involved. Show how the learner would identify who should and should not have access in a simple scenario.",
+      "expected_evidence": "identify who should and should not have access in a simple scenario",
+      "dominant_failure_mode_targets": [
+        "N3-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates identify who should and should not have access in a simple scenario with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "N3-DIR-002",
+      "node_id": "N3",
+      "item_family": "direct_execution",
+      "prompt": "A classroom app stops working because a login, connection, or system layer matters. Explain the setup and show how the learner would connect a protective practice to the risk it is meant to reduce.",
+      "expected_evidence": "connect a protective practice to the risk it is meant to reduce",
+      "dominant_failure_mode_targets": [
+        "N3-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates connect a protective practice to the risk it is meant to reduce with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "N3-DIR-003",
+      "node_id": "N3",
+      "item_family": "direct_execution",
+      "prompt": "A security scenario is presented involving access control, privacy, or a likely attack. Show how the learner would use privacy reasoning that goes beyond rule repetition alone.",
+      "expected_evidence": "use privacy reasoning that goes beyond rule repetition alone",
+      "dominant_failure_mode_targets": [
+        "N3-FM-03"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates use privacy reasoning that goes beyond rule repetition alone with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "N3-EXP-001",
+      "node_id": "N3",
+      "item_family": "explanation",
+      "prompt": "Why is a security rule weak if you cannot explain what risk it addresses?",
+      "expected_evidence": "because strong security reasoning connects the rule or practice to the specific kind of problem it is meant to reduce.",
+      "dominant_failure_mode_targets": [
+        "N3-FM-01",
+        "N3-FM-04"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to because strong security reasoning connects the rule or practice to the specific kind of problem it is meant to reduce."
+    },
+    {
+      "item_id": "N3-EXP-002",
+      "node_id": "N3",
+      "item_family": "explanation",
+      "prompt": "How can access control help protect information?",
+      "expected_evidence": "it helps by limiting who can reach or change information so unauthorized use becomes harder.",
+      "dominant_failure_mode_targets": [
+        "N3-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to it helps by limiting who can reach or change information so unauthorized use becomes harder."
+    },
+    {
+      "item_id": "N3-ERR-001",
+      "node_id": "N3",
+      "item_family": "error_diagnosis",
+      "prompt": "In a network or security scenario, a learner responds in a way that suggests this breakdown: learner repeats a rule without explaining what risk it addresses. Diagnose the systems or cybersecurity mistake. Focus on security-rule parroting.",
+      "expected_evidence": "identify who should and should not have access in a simple scenario",
+      "dominant_failure_mode_targets": [
+        "N3-FM-01"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward identify who should and should not have access in a simple scenario."
+    },
+    {
+      "item_id": "N3-ERR-002",
+      "node_id": "N3",
+      "item_family": "error_diagnosis",
+      "prompt": "In a network or security scenario, a learner responds in a way that suggests this breakdown: learner cannot distinguish authorized from unauthorized access in a bounded case. Diagnose the systems or cybersecurity mistake. Focus on access-boundary confusion.",
+      "expected_evidence": "connect a protective practice to the risk it is meant to reduce",
+      "dominant_failure_mode_targets": [
+        "N3-FM-02"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward connect a protective practice to the risk it is meant to reduce."
+    },
+    {
+      "item_id": "N3-TRA-001",
+      "node_id": "N3",
+      "item_family": "transfer",
+      "prompt": "A network or security idea learned with one classroom example is now embedded in a different system such as streaming, cloud storage, or a shared document. Explain how the learner would use privacy reasoning that goes beyond rule repetition alone.",
+      "expected_evidence": "use privacy reasoning that goes beyond rule repetition alone",
+      "dominant_failure_mode_targets": [
+        "N3-FM-03"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves use privacy reasoning that goes beyond rule repetition alone in a changed computing context or representation."
+    },
+    {
+      "item_id": "N3-TRA-002",
+      "node_id": "N3",
+      "item_family": "transfer",
+      "prompt": "A learner must move from a visible device-level description to a more abstract system or threat-model case and still preserve the same reasoning. Show how they would avoid assuming that being online automatically means information should be public.",
+      "expected_evidence": "avoid assuming that being online automatically means information should be public",
+      "dominant_failure_mode_targets": [
+        "N3-FM-04"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves avoid assuming that being online automatically means information should be public in a changed computing context or representation."
+    },
+    {
+      "item_id": "N3-RET-001",
+      "node_id": "N3",
+      "item_family": "retention",
+      "prompt": "After a delay, the learner is given a fresh connected-system or security case and must explain the pathway, layer, risk, or defense involved. Show how they would identify who should and should not have access in a simple scenario.",
+      "expected_evidence": "identify who should and should not have access in a simple scenario",
+      "dominant_failure_mode_targets": [
+        "N3-FM-04"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_explanation",
+        "constructed_response"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability",
+      "scoring_guidance": "Meets when the learner still demonstrates identify who should and should not have access in a simple scenario on a delayed recheck without a blocking recurrence."
+    },
+    {
+      "item_id": "N3-PRE-001",
+      "node_id": "N3",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a short systems or access-control check on network pathways, protocol ideas, and system dependence before closing security risk, access control, and privacy foundations, and decide whether the current problem is actually an upstream dependency gap.",
+      "expected_evidence": "shows whether network pathways, protocol ideas, and system dependence is secure enough to support security risk, access control, and privacy foundations",
+      "dominant_failure_mode_targets": [
+        "N3-FM-01"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in network pathways, protocol ideas, and system dependence from a current-node issue in security risk, access control, and privacy foundations.",
+      "dependency_target": "N2",
+      "suspected_knowledge_gap_if_incorrect": "network pathways, protocol ideas, and system dependence"
+    },
+    {
+      "item_id": "N3-PRE-002",
+      "node_id": "N3",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a short systems or access-control check on digital communication, attribution, and audience awareness before closing security risk, access control, and privacy foundations, and decide whether the current problem is actually an upstream dependency gap.",
+      "expected_evidence": "shows whether digital communication, attribution, and audience awareness is secure enough to support security risk, access control, and privacy foundations",
+      "dominant_failure_mode_targets": [
+        "N3-FM-02"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in digital communication, attribution, and audience awareness from a current-node issue in security risk, access control, and privacy foundations.",
+      "dependency_target": "I2",
+      "suspected_knowledge_gap_if_incorrect": "digital communication, attribution, and audience awareness"
+    }
+  ]
+}

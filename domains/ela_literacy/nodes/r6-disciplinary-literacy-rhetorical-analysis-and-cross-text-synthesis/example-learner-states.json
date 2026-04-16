@@ -1,0 +1,43 @@
+[
+  {
+    "learner_id": "ela-sample-r6-blocked",
+    "node_id": "R6",
+    "status": "blocked",
+    "dependency_status": {
+      "R4": "secure",
+      "R5": "secure"
+    },
+    "direct_accuracy": 0.43,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["R6-FM-01", "R6-FM-02"],
+    "recommended_interventions": [
+      "two-text compare-and-synthesize frame",
+      "cross-text claim plus evidence grid"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Can analyze one text at a time but does not synthesize across sources coherently."
+  },
+  {
+    "learner_id": "ela-sample-r6-provisional",
+    "node_id": "R6",
+    "status": "provisional",
+    "dependency_status": {
+      "R4": "secure",
+      "R5": "secure"
+    },
+    "direct_accuracy": 0.87,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [
+      "brief changed-source synthesis review"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Synthesizes across literary and informational sources with clear rhetorical grounding."
+  }
+]

@@ -1,0 +1,63 @@
+slice_id: social_studies_geography_economics_systems_cross_domain_runtime
+domain: social_studies
+status: draft
+version: 0.1
+node_ids:
+  - G3
+  - G4
+  - E3
+  - E4
+entry_node_ids:
+  - G3
+learner_state_fields:
+  - learner_id
+  - node_id
+  - status
+  - dependency_status
+  - direct_accuracy
+  - explanation_status
+  - transfer_status
+  - retention_status
+  - dominant_failure_modes
+  - recommended_interventions
+  - last_verified_at
+  - review_state
+artifact_registry_reference: domains/social_studies/artifact-attachments/geography-economics-systems-attachment-registry.yaml
+navigation_rules:
+  - rule_id: ss-geoecon-cross-route-g3-to-m1
+    decision_type: route_upstream
+    applies_when:
+      - current_node_id = G3
+      - dominant_failure_modes_contains G3-FM-01_or_G3-FM-03
+      - learner_cannot_hold_spatial_pattern_information_across_representation_changes
+    outcome: route_to_learning_to_learn_M1_while_holding_G3_as_primary_social_studies_node
+    artifact_selection: prefer G3 map lab plus represent-and-rehearse support
+    notes: use when map pattern reasoning breaks because the learner cannot maintain critical features across sources
+  - rule_id: ss-geoecon-cross-route-g4-to-s1
+    decision_type: route_upstream
+    applies_when:
+      - current_node_id = G4
+      - dominant_failure_modes_contains G4-FM-02_or_G4-FM-03
+      - learner_repeats_scale_or_data_misreadings_without_check_step
+    outcome: route_to_learning_to_learn_S1_before_next_geographic_data_cycle
+    artifact_selection: prefer G4 comparison routine plus productive practice support
+    notes: used when the learner keeps applying an unfit map-data routine without self-checking
+  - rule_id: ss-geoecon-cross-route-e3-to-c1
+    decision_type: hold_current
+    applies_when:
+      - current_node_id = E3
+      - dominant_failure_modes_contains E3-FM-01_or_E3-FM-02
+      - learner_does_not_signal_that_initial_incentive_model_is_not_working
+    outcome: remain_on_E3_and_add_clarification_support_before_next_tradeoff_simulation
+    artifact_selection: prefer E3 simulation plus clarification routine
+    notes: keeps economics reasoning primary while adding better strategy-monitoring support
+  - rule_id: ss-geoecon-cross-route-e4-to-r1
+    decision_type: hold_current
+    applies_when:
+      - current_node_id = E4
+      - dominant_failure_modes_contains E4-FM-03_or_E4-FM-04
+      - learner_does_not_use_feedback_for_revision
+    outcome: remain_on_E4_and_add_feedback-use_support_before_next_public-resource_decision_task
+    artifact_selection: prefer E4 decision brief plus feedback-and-revision routine
+    notes: used when policy tradeoff reasoning stalls because feedback is not converted into a revised model
+review_status: draft

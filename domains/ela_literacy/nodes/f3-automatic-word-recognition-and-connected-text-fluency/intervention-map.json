@@ -1,0 +1,26 @@
+{
+  "node_id": "F3",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "F3-FM-01": [
+      "brief repeated controlled passage reads",
+      "pre-correct likely blocking words",
+      "short-passage automaticity build"
+    ],
+    "F3-FM-02": [
+      "line focus support",
+      "reduced layout complexity",
+      "tracking-versus-decoding split check"
+    ],
+    "F3-FM-03": [
+      "paced read with meaning checkpoints",
+      "accuracy-over-speed cueing",
+      "compare-fast-read to accurate-read"
+    ],
+    "F3-FM-04": [
+      "changed-passage rotation",
+      "layout variation within same text band",
+      "novel short-passage probes"
+    ]
+  }
+}

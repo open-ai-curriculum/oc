@@ -1,0 +1,45 @@
+[
+  {
+    "learner_id": "ela-sample-w5-blocked",
+    "node_id": "W5",
+    "status": "blocked",
+    "dependency_status": {
+      "W4": "secure",
+      "R6": "provisional",
+      "L3": "secure"
+    },
+    "direct_accuracy": 0.42,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["W5-FM-01", "W5-FM-02"],
+    "recommended_interventions": [
+      "source synthesis outline with attribution slots",
+      "claim-source-evidence writing grid"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Uses multiple sources, but the response reads like disconnected notes with weak attribution."
+  },
+  {
+    "learner_id": "ela-sample-w5-provisional",
+    "node_id": "W5",
+    "status": "provisional",
+    "dependency_status": {
+      "W4": "secure",
+      "R6": "secure",
+      "L3": "secure"
+    },
+    "direct_accuracy": 0.86,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [
+      "brief changed-source-set research writing review"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Synthesizes multiple sources coherently and maintains usable citation control."
+  }
+]

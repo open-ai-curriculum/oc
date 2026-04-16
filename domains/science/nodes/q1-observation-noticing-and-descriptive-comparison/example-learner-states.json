@@ -1,0 +1,38 @@
+{
+  "node_id": "Q1",
+  "examples": [
+    {
+      "learner_id": "sample-q1-blocked-01",
+      "node_id": "Q1",
+      "status": "blocked",
+      "dependency_status": {},
+      "direct_accuracy": 0.52,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["Q1-FM-02", "Q1-FM-03"],
+      "recommended_interventions": [
+        "separate what we see from what we think in paired examples",
+        "rehearse same different changed and not changed with concrete examples"
+      ],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Makes guesses that go beyond observation and cannot yet compare changes reliably."
+    },
+    {
+      "learner_id": "sample-q1-secure-01",
+      "node_id": "Q1",
+      "status": "secure",
+      "dependency_status": {},
+      "direct_accuracy": 0.95,
+      "explanation_status": "met",
+      "transfer_status": "met",
+      "retention_status": "met",
+      "dominant_failure_modes": [],
+      "recommended_interventions": [],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Accurately observes and compares visible features across classroom and outdoor contexts."
+    }
+  ]
+}

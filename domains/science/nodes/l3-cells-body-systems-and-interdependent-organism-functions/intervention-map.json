@@ -1,0 +1,29 @@
+{
+  "node_id": "L3",
+  "interventions": [
+    {
+      "failure_mode": "L3-FM-01",
+      "intervention_id": "L3-INT-01",
+      "name": "Cell As Basic Unit Rebuild",
+      "delivery": "guided comparison"
+    },
+    {
+      "failure_mode": "L3-FM-02",
+      "intervention_id": "L3-INT-02",
+      "name": "Structure-Function Explanation Frames",
+      "delivery": "teacher-led discussion"
+    },
+    {
+      "failure_mode": "L3-FM-03",
+      "intervention_id": "L3-INT-03",
+      "name": "Connected System Flow Mapping",
+      "delivery": "diagram and explanation routine"
+    },
+    {
+      "failure_mode": "L3-FM-04",
+      "intervention_id": "L3-INT-04",
+      "name": "Scale Sorting and Re-Description",
+      "delivery": "sort then explain"
+    }
+  ]
+}

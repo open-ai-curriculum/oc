@@ -1,0 +1,31 @@
+spine_id: oral_language_to_f1_literacy_spine
+domain: ela_literacy
+version: "0.1"
+target_node: FR1
+purpose: minimum governed upstream dependency spine before formal alphabetic-principle claims
+node_ids:
+  - O1
+  - O2
+  - O3
+  - P1
+  - P2
+  - P3
+  - P4
+  - FR1
+entry_node_ids:
+  - O1
+dependencies:
+  O1: []
+  O2: [O1]
+  O3: [O2]
+  P1: [O1]
+  P2: [P1, O2]
+  P3: [O2]
+  P4: [P1, P3]
+  FR1: [P3, P4]
+direct_predecessors:
+  FR1: [P3, P4]
+boundary_notes:
+  - oral-language readiness remains a governed dependency rather than a hidden assumption
+  - print access and phonological access must both be stable before FR1 can be treated as valid
+review_status: draft

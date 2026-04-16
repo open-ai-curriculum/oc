@@ -1,0 +1,60 @@
+[
+  {
+    "item_id": "C5-IB-01",
+    "node_id": "C5",
+    "prompt": "Why is calling a process “energy releasing” not enough to explain feasibility?",
+    "task_type": "thermodynamics_critique",
+    "answer_key": "A strong answer distinguishes energy change from the broader system conditions that determine whether the process is favored in the bounded case.",
+    "scorable_traits": [
+      "claim boundary",
+      "systems reasoning",
+      "precision"
+    ],
+    "target_failure_modes": [
+      "C5-FM-01"
+    ],
+    "context_tags": [
+      "thermodynamics",
+      "feasibility"
+    ]
+  },
+  {
+    "item_id": "C5-IB-02",
+    "node_id": "C5",
+    "prompt": "What makes a redox explanation more than oxidation and reduction labels?",
+    "task_type": "redox_reasoning",
+    "answer_key": "It must track electron transfer and identify how the interacting species change within the system.",
+    "scorable_traits": [
+      "electron-transfer reasoning",
+      "concept accuracy",
+      "chemistry precision"
+    ],
+    "target_failure_modes": [
+      "C5-FM-02"
+    ],
+    "context_tags": [
+      "redox",
+      "electrochemistry"
+    ]
+  },
+  {
+    "item_id": "C5-IB-03",
+    "node_id": "C5",
+    "prompt": "How should a voltage measurement connect back to a chemical explanation?",
+    "task_type": "electrochemistry_explanation",
+    "answer_key": "It should be tied to the direction and strength of the electrochemical process and the system setup rather than treated as an isolated number.",
+    "scorable_traits": [
+      "measurement linkage",
+      "system explanation",
+      "transfer"
+    ],
+    "target_failure_modes": [
+      "C5-FM-03",
+      "C5-FM-04"
+    ],
+    "context_tags": [
+      "electrochemistry",
+      "measurement"
+    ]
+  }
+]

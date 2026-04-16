@@ -6,7 +6,7 @@ status: stable
 version: "1.0"
 dependencies: [learning-system-constitution, learning-system-requirements, platform-manifest, maturity-model]
 tags: [quality, validation, governance, ci]
-last_updated: "2026-04-14"
+last_updated: "2026-04-15"
 related: [platform-manifest, specs-index, maturity-model]
 ---
 
@@ -58,6 +58,7 @@ This gate verifies:
 - governing specification references resolve
 - current-state artifact references resolve
 - mathematics node packages are represented in the registry
+- learning-to-learn implemented node packages are represented in the registry
 
 Primary source:
 
@@ -93,6 +94,62 @@ This gate verifies:
 
 This is the guard against silent graph drift.
 
+### 5. Learning-To-Learn Domain Structural Gate
+
+The learning-to-learn domain must preserve complete package coverage, graph consistency, and operational artifact integrity across the current canonical graph.
+
+This gate verifies:
+
+- required learning-to-learn domain scaffold files exist
+- every learning-to-learn graph node has an implemented node package
+- every implemented learning-to-learn node package includes the required artifact set
+- learning-to-learn node-config files preserve the expected contract sections
+- package IDs and dependencies reconcile to the authoritative learning-to-learn graph
+- learning-to-learn implemented node packages are represented in the capability registry
+- the learning-to-learn runtime slice targets the expected upper-band parity nodes
+- the learning-to-learn artifact registry targets the expected upper-band parity nodes
+- the learning-to-learn operational export summary reconciles to the authoritative graph node count
+
+Primary entrypoint:
+
+```bash
+node /Volumes/data/development/oc/scripts/validate-learning-to-learn-domain.js
+```
+
+### 6. Mathematics Cross-Domain Runtime Gate
+
+The bounded mathematics fraction slice that routes into `learning_to_learn` must remain structurally consistent with both the mathematics runtime package and the learning-to-learn attachment registry.
+
+This gate verifies:
+
+- the cross-domain runtime slice exists and matches its schema
+- all referenced mathematics nodes exist in the authoritative graph
+- the runtime slice points to the governed learning-to-learn attachment registry
+- the runtime slice covers the relevant mathematics-to-learning-to-learn attachment routes for the fraction slice
+
+Primary entrypoint:
+
+```bash
+node /Volumes/data/development/oc/scripts/validate-mathematics-cross-domain-runtime.js
+```
+
+### 7. Mathematics Cross-Domain Routing Example Gate
+
+The bounded mathematics fraction slice must include worked learner-state examples whose expected routing decisions remain consistent with the declared runtime rules and attachment registry.
+
+This gate verifies:
+
+- the worked routing example file exists
+- each worked case references a real runtime rule
+- expected decision types match the runtime rule
+- routed learning-to-learn nodes are justified by the attachment registry for the relevant fraction failure modes
+
+Primary entrypoint:
+
+```bash
+node /Volumes/data/development/oc/scripts/validate-mathematics-cross-domain-routing-examples.js
+```
+
 ## Current Enforced Commands
 
 Repository-wide maintained-doc validation:
@@ -105,6 +162,24 @@ Mathematics-domain-specific audit:
 
 ```bash
 node /Volumes/data/development/oc/scripts/audit-mathematics-domain.js
+```
+
+Learning-to-learn-domain-specific audit:
+
+```bash
+node /Volumes/data/development/oc/scripts/validate-learning-to-learn-domain.js
+```
+
+Mathematics cross-domain runtime audit:
+
+```bash
+node /Volumes/data/development/oc/scripts/validate-mathematics-cross-domain-runtime.js
+```
+
+Mathematics cross-domain routing example audit:
+
+```bash
+node /Volumes/data/development/oc/scripts/validate-mathematics-cross-domain-routing-examples.js
 ```
 
 ## CI Operationalization
@@ -150,6 +225,9 @@ At the current repository stage, the minimum acceptable condition is:
 
 - `validate-docs.js` passes
 - `audit-mathematics-domain.js` passes
+- `validate-learning-to-learn-domain.js` passes
+- `validate-mathematics-cross-domain-runtime.js` passes
+- `validate-mathematics-cross-domain-routing-examples.js` passes
 - the maintained governance documents describe the same active system model as the graph and registry
 
 Anything weaker leaves the repo vulnerable to silent structural drift.

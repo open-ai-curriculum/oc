@@ -1,37 +1,140 @@
 {
   "node_id": "W2",
+  "policy_version": "1.0",
   "items": [
     {
-      "item_id": "W2-A1",
-      "item_family": "direct",
-      "prompt": "interprets scatter plots and uses informal linear-fit reasoning to describe bounded bivariate data",
-      "expected_evidence": "draw or evaluate an informal line of best fit for roughly linear data",
+      "item_id": "W2-DIR-001",
+      "node_id": "W2",
+      "item_family": "direct_execution",
+      "prompt": "Classify the study as survey, observational study, or experiment and state what claim is supported.",
+      "expected_evidence": "describe direction, form, strength, and unusual features of bounded scatter plots",
       "dominant_failure_mode": "association_fit_fragmentation",
-      "scoring_guidance": "Meets when the learner interprets the scatter structure and uses a reasonable informal fit aligned to the data pattern."
+      "scoring_guidance": "Meets when the learner demonstrates describe direction, form, strength, and unusual features of bounded scatter plots with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "W2-B1",
-      "item_family": "explanation",
-      "prompt": "explains what direction, strength, and form mean in a scatter plot and why association alone does not prove causation",
-      "expected_evidence": "justify what association claims are supported and what causal claims are not supported by the data alone",
+      "item_id": "W2-DIR-002",
+      "node_id": "W2",
+      "item_family": "direct_execution",
+      "prompt": "Use a two-way table or probability model to find the probability of a compound event.",
+      "expected_evidence": "draw or evaluate an informal line of best fit for roughly linear data",
       "dominant_failure_mode": "causation_overreach",
-      "scoring_guidance": "Meets when the learner explains association and fit meaning without overclaiming causal interpretation."
+      "scoring_guidance": "Meets when the learner demonstrates draw or evaluate an informal line of best fit for roughly linear data with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "W2-C1",
+      "item_id": "W2-DIR-003",
+      "node_id": "W2",
+      "item_family": "direct_execution",
+      "prompt": "Describe the center and spread of a distribution using the given plot.",
+      "expected_evidence": "estimate or compare predicted versus observed values in bounded contexts",
+      "dominant_failure_mode": "outlier_trend_erasure",
+      "scoring_guidance": "Meets when the learner demonstrates estimate or compare predicted versus observed values in bounded contexts with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
+    },
+    {
+      "item_id": "W2-EXP-001",
+      "node_id": "W2",
+      "item_family": "explanation",
+      "prompt": "Explain how sample design affects what can be inferred about a population.",
+      "expected_evidence": "describe direction, form, strength, and unusual features of bounded scatter plots",
+      "dominant_failure_mode": "causation_overreach",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to describe direction, form, strength, and unusual features of bounded scatter plots.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "W2-EXP-002",
+      "node_id": "W2",
+      "item_family": "explanation",
+      "prompt": "Explain why theoretical probability and short-run experimental results can differ.",
+      "expected_evidence": "draw or evaluate an informal line of best fit for roughly linear data",
+      "dominant_failure_mode": "outlier_trend_erasure",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to draw or evaluate an informal line of best fit for roughly linear data.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "W2-ERR-001",
+      "node_id": "W2",
       "item_family": "error_diagnosis",
-      "prompt": "Diagnose a peer error aligned to outlier_trend_erasure.",
+      "prompt": "A student uses an observational study to claim causation. Diagnose the study-design error. Focus on association fit fragmentation.",
+      "expected_evidence": "describe direction, form, strength, and unusual features of bounded scatter plots",
+      "dominant_failure_mode": "association_fit_fragmentation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward describe direction, form, strength, and unusual features of bounded scatter plots.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "W2-ERR-002",
+      "node_id": "W2",
+      "item_family": "error_diagnosis",
+      "prompt": "A student adds overlapping events as if they were disjoint. Identify the double-counting mistake. Focus on causation overreach.",
+      "expected_evidence": "draw or evaluate an informal line of best fit for roughly linear data",
+      "dominant_failure_mode": "causation_overreach",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward draw or evaluate an informal line of best fit for roughly linear data.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "W2-TRA-001",
+      "node_id": "W2",
+      "item_family": "transfer",
+      "prompt": "Read a less-familiar graph or study summary and decide whether the reported conclusion is supported.",
       "expected_evidence": "describe direction, form, strength, and unusual features of bounded scatter plots",
       "dominant_failure_mode": "outlier_trend_erasure",
-      "scoring_guidance": "Meets when the learner identifies how an outlier or cluster changed the association claim or fit judgment."
+      "scoring_guidance": "Meets when the learner preserves describe direction, form, strength, and unusual features of bounded scatter plots in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
     },
     {
-      "item_id": "W2-D1",
+      "item_id": "W2-TRA-002",
+      "node_id": "W2",
       "item_family": "transfer",
-      "prompt": "interprets bivariate data in a less-familiar context and checks whether a linear trend claim or prediction is actually supported",
-      "expected_evidence": "estimate or compare predicted versus observed values in bounded contexts",
+      "prompt": "Given a probability simulation result, explain whether the difference from theory is surprising or expected.",
+      "expected_evidence": "draw or evaluate an informal line of best fit for roughly linear data",
       "dominant_failure_mode": "prediction_context_disconnect",
-      "scoring_guidance": "Meets when the learner preserves fit meaning and limits of prediction in a varied context."
+      "scoring_guidance": "Meets when the learner preserves draw or evaluate an informal line of best fit for roughly linear data in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "W2-RET-001",
+      "node_id": "W2",
+      "item_family": "retention",
+      "prompt": "After a delay, interpret a new sample summary and state one supported inference and one unsupported claim.",
+      "expected_evidence": "describe direction, form, strength, and unusual features of bounded scatter plots",
+      "dominant_failure_mode": "prediction_context_disconnect",
+      "scoring_guidance": "Meets when the learner still demonstrates describe direction, form, strength, and unusual features of bounded scatter plots on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "W2-PRE-001",
+      "node_id": "W2",
+      "item_family": "prerequisite_probe",
+      "prompt": "Run a prerequisite check on statistical distributions and variability to determine whether the reported error reflects upstream representation limits or current bivariate data and linear association reasoning.",
+      "expected_evidence": "shows whether statistical distributions and variability is secure enough to support bivariate data and linear association",
+      "dominant_failure_mode": "causation_overreach",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in statistical distributions and variability from a current-node issue in bivariate data and linear association.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "W1",
+      "suspected_knowledge_gap_if_incorrect": "statistical distributions and variability"
+    },
+    {
+      "item_id": "W2-PRE-002",
+      "node_id": "W2",
+      "item_family": "prerequisite_probe",
+      "prompt": "Run a prerequisite check on linear relationship tables and graphs to determine whether the reported error reflects upstream representation limits or current bivariate data and linear association reasoning.",
+      "expected_evidence": "shows whether linear relationship tables and graphs is secure enough to support bivariate data and linear association",
+      "dominant_failure_mode": "outlier_trend_erasure",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in linear relationship tables and graphs from a current-node issue in bivariate data and linear association.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "A5",
+      "suspected_knowledge_gap_if_incorrect": "linear relationship tables and graphs"
     }
   ]
 }

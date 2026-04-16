@@ -1,0 +1,23 @@
+{
+  "node_id": "Q3",
+  "examples": [
+    {
+      "learner_id": "sample-q3-blocked-01",
+      "node_id": "Q3",
+      "status": "blocked",
+      "dependency_status": { "Q2": "secure" },
+      "direct_accuracy": 0.58,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["Q3-FM-02"],
+      "recommended_interventions": [
+        "ask how do you know after evidence selection",
+        "model the bridge between evidence and explanation"
+      ],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Can choose evidence but cannot yet connect it clearly to the explanation."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "node_id": "H1B",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "H1B-G1-01",
+      "node_id": "H1B",
+      "gate": "G1",
+      "prompt": "Complete a bounded classification and organization task for chronology identity and community memory and explain your reasoning.",
+      "response_mode": "oral_or_written_or_annotated",
+      "scoring_rule": "Completes the task accurately and gives a usable explanation of the structure or reasoning.",
+      "failure_mode_targets": [
+        "H1B-FM-01",
+        "H1B-FM-02"
+      ]
+    }
+  ]
+}

@@ -1,72 +1,368 @@
 {
   "node_id": "F5",
-  "version": "0.1",
+  "policy_version": "1.0",
+  "version": "0.3",
   "items": [
     {
-      "item_id": "F5-A-001",
+      "item_id": "F5-D-001",
       "family": "direct_execution",
-      "prompt": "Compute 3/4 + 1/8.",
+      "prompt": "Compute `3/4 + 1/8` by rewriting to common units and show the equivalent fractions you used.",
       "target_node": "F5",
-      "secondary_dependency_targets": ["F2", "F4"],
+      "secondary_dependency_targets": [
+        "F2",
+        "F3",
+        "F4",
+        "F6"
+      ],
       "difficulty_band": "core",
-      "response_modes_allowed": ["written_symbolic", "oral_explanation"],
-      "dominant_failure_modes_if_incorrect": ["F5-FM-01", "F5-FM-02", "F5-FM-03"],
-      "requires_human_scoring": false
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "F5-FM-01",
+        "F5-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
     },
     {
-      "item_id": "F5-A-002",
+      "item_id": "F5-D-002",
       "family": "direct_execution",
-      "prompt": "Compute 5/6 - 1/4.",
+      "prompt": "Compute `5/6 - 1/4` and justify the common denominator choice.",
       "target_node": "F5",
-      "secondary_dependency_targets": ["F2", "F4"],
+      "secondary_dependency_targets": [
+        "F2",
+        "F3",
+        "F4",
+        "F6"
+      ],
       "difficulty_band": "core",
-      "response_modes_allowed": ["written_symbolic"],
-      "dominant_failure_modes_if_incorrect": ["F5-FM-01", "F5-FM-03"],
-      "requires_human_scoring": false
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "F5-FM-02",
+        "F5-FM-03"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
     },
     {
-      "item_id": "F5-B-001",
+      "item_id": "F5-D-003",
+      "family": "direct_execution",
+      "prompt": "Compute `1 1/2 + 2/3` and show how you preserve the whole-number and fraction structure.",
+      "target_node": "F5",
+      "secondary_dependency_targets": [
+        "F2",
+        "F3",
+        "F4",
+        "F6"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "F5-FM-03",
+        "F5-FM-04"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "F5-D-004",
+      "family": "direct_execution",
+      "prompt": "Compute `7/8 - 1/3` and explain how you know the difference is less than 1.",
+      "target_node": "F5",
+      "secondary_dependency_targets": [
+        "F2",
+        "F3",
+        "F4",
+        "F6"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "F5-FM-04",
+        "F5-FM-05"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "F5-D-005",
+      "family": "direct_execution",
+      "prompt": "Compute `5/4 + 1/6` and rewrite the result in a mathematically valid form.",
+      "target_node": "F5",
+      "secondary_dependency_targets": [
+        "F2",
+        "F3",
+        "F4",
+        "F6"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "F5-FM-05",
+        "F5-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "F5-D-006",
+      "family": "direct_execution",
+      "prompt": "Compute `2 1/5 - 3/10` and explain the equivalent-fraction step before subtracting.",
+      "target_node": "F5",
+      "secondary_dependency_targets": [
+        "F2",
+        "F3",
+        "F4",
+        "F6"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "F5-FM-01",
+        "F5-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "F5-E-001",
       "family": "explanation",
-      "prompt": "Explain why 3/4 can be rewritten as 6/8 before adding 1/8.",
+      "prompt": "Explain why `3/4` can be rewritten as `6/8` without changing its value.",
       "target_node": "F5",
-      "secondary_dependency_targets": ["F2"],
+      "secondary_dependency_targets": [
+        "F2",
+        "F3",
+        "F4",
+        "F6"
+      ],
       "difficulty_band": "core",
-      "response_modes_allowed": ["oral_explanation", "written_explanation", "diagram_annotation"],
-      "dominant_failure_modes_if_incorrect": ["F5-FM-03", "F5-FM-05"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "F5-FM-02"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "F5-E-002",
+      "family": "explanation",
+      "prompt": "Explain why fractions can only be combined directly when they refer to equal-sized parts.",
+      "target_node": "F5",
+      "secondary_dependency_targets": [
+        "F2",
+        "F3",
+        "F4",
+        "F6"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "F5-FM-03"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
     },
     {
       "item_id": "F5-C-001",
       "family": "error_diagnosis",
-      "prompt": "A student says 3/4 + 1/8 = 4/12. What went wrong?",
+      "prompt": "A student says `3/4 + 1/8 = 4/12`. Diagnose the first structural mistake. Focus on incorrect common denominator.",
       "target_node": "F5",
-      "secondary_dependency_targets": ["F2", "F4"],
-      "difficulty_band": "core",
-      "response_modes_allowed": ["multiple_choice", "oral_explanation", "written_explanation"],
-      "dominant_failure_modes_if_incorrect": ["F5-FM-02"],
-      "requires_human_scoring": false
+      "secondary_dependency_targets": [
+        "F2",
+        "F3",
+        "F4",
+        "F6"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "F5-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
     },
     {
-      "item_id": "F5-D-001",
-      "family": "transfer",
-      "prompt": "A recipe uses 3/4 cup of flour and 1/8 cup of cocoa. How much dry ingredient is that altogether?",
+      "item_id": "F5-C-002",
+      "family": "error_diagnosis",
+      "prompt": "A student rewrites `2/3` as `3/4` before adding. Identify the equivalence error. Focus on direct addition error.",
       "target_node": "F5",
-      "secondary_dependency_targets": ["F2", "F3", "F4"],
+      "secondary_dependency_targets": [
+        "F2",
+        "F3",
+        "F4",
+        "F6"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "F5-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "F5-T-001",
+      "family": "transfer",
+      "prompt": "A recipe uses `3/4` cup of oats and `1/8` cup of seeds. How much is used altogether?",
+      "target_node": "F5",
+      "secondary_dependency_targets": [
+        "F2",
+        "F3",
+        "F4",
+        "F6"
+      ],
       "difficulty_band": "transfer",
-      "response_modes_allowed": ["written_symbolic", "oral_explanation"],
-      "dominant_failure_modes_if_incorrect": ["F5-FM-01", "F5-FM-03", "F5-FM-05"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "F5-FM-03"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "F5-T-002",
+      "family": "transfer",
+      "prompt": "A hiker walks `5/6` mile in the morning and `1/4` mile less in the afternoon. How much farther was the morning walk?",
+      "target_node": "F5",
+      "secondary_dependency_targets": [
+        "F2",
+        "F3",
+        "F4",
+        "F6"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "F5-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
     },
     {
       "item_id": "F5-R-001",
       "family": "retention",
-      "prompt": "Compute 2/3 + 1/6 and explain briefly why your first rewrite is valid.",
+      "prompt": "After a delay, solve `2/3 + 1/6` and explain why the rewrite keeps the quantity unchanged.",
       "target_node": "F5",
-      "secondary_dependency_targets": ["F2", "F4"],
+      "secondary_dependency_targets": [
+        "F2",
+        "F3",
+        "F4",
+        "F6"
+      ],
       "difficulty_band": "retention",
-      "response_modes_allowed": ["written_symbolic", "written_explanation", "oral_explanation"],
-      "dominant_failure_modes_if_incorrect": ["F5-FM-01", "F5-FM-03", "F5-FM-05"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "F5-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability"
+    },
+    {
+      "item_id": "F5-P-001",
+      "family": "prerequisite_probe",
+      "prompt": "Before closing add subtract unlike denominator fractions, complete a prerequisite check on equivalent fractions and explain how that prior understanding supports the fraction reasoning.",
+      "target_node": "F5",
+      "secondary_dependency_targets": [
+        "F2",
+        "F3",
+        "F4",
+        "F6"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "F5-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "F2",
+      "suspected_knowledge_gap_if_incorrect": "equivalent fractions",
+      "scoring_focus": "dependency_disambiguation"
+    },
+    {
+      "item_id": "F5-P-002",
+      "family": "prerequisite_probe",
+      "prompt": "Use a quick compare fractions probe to determine whether the error belongs to the prerequisite or to add subtract unlike denominator fractions.",
+      "target_node": "F5",
+      "secondary_dependency_targets": [
+        "F2",
+        "F3",
+        "F4",
+        "F6"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "F5-FM-03"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "F3",
+      "suspected_knowledge_gap_if_incorrect": "compare fractions",
+      "scoring_focus": "dependency_disambiguation"
     }
   ]
 }

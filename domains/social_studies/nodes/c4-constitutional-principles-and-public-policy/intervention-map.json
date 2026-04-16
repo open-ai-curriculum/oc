@@ -1,0 +1,26 @@
+{
+  "node_id": "C4",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "C4-FM-01": [
+      "pair one principle with one concrete policy implication",
+      "compare correct and incorrect principle applications",
+      "ask what this principle would require limit or protect here"
+    ],
+    "C4-FM-02": [
+      "chart one benefit and one cost for each option",
+      "require explanation of what is gained and what is constrained",
+      "compare a one-sided and tradeoff-aware policy response"
+    ],
+    "C4-FM-03": [
+      "identify one historical example that clarifies the current issue",
+      "anchor the policy question in the relevant historical context first",
+      "compare decontextualized and historically grounded reasoning"
+    ],
+    "C4-FM-04": [
+      "preteach core principle and policy terms",
+      "allow oral explanation with guided prompts",
+      "simplify the scenario before increasing abstraction"
+    ]
+  }
+}

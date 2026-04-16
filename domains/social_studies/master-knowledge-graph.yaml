@@ -1,0 +1,160 @@
+domain: social_studies
+version: 0.1
+
+graph:
+  id: master_knowledge_graph
+  purpose: single authoritative social studies knowledge graph from kindergarten foundations through grade 12 interdisciplinary synthesis
+  no_orphaned_nodes: true
+
+families:
+  - id: Q
+    name: inquiry_evidence_and_discourse
+    nodes:
+      - id: Q1
+        name: observe_describe_and_question
+        depends_on: []
+        implementation_state: seeded
+      - id: Q2
+        name: compare_classify_and_sequence_evidence
+        depends_on: [Q1]
+        implementation_state: seeded
+      - id: Q3
+        name: supported_explanation_from_evidence
+        depends_on: [Q2]
+        implementation_state: seeded
+      - id: Q4
+        name: investigation_design_representation_and_data_use
+        depends_on: [Q3]
+        implementation_state: seeded
+      - id: Q5
+        name: evaluation_of_sources_models_and_claims
+        depends_on: [Q4]
+        implementation_state: seeded
+      - id: Q6
+        name: synthesis_argument_and_public_communication
+        depends_on: [Q5]
+        implementation_state: seeded
+
+  - id: H
+    name: history_and_source_reasoning
+    nodes:
+      - id: H1
+        name: chronology_identity_and_community_memory
+        depends_on: [Q1]
+        implementation_state: seeded
+      - id: H2
+        name: historical_sources_and_past_present_comparison
+        depends_on: [H1, Q2]
+        implementation_state: seeded
+      - id: H3
+        name: causation_context_and_change_over_time
+        depends_on: [H2, Q3]
+        implementation_state: seeded
+      - id: H4
+        name: sourcing_corroboration_and_historical_argument
+        depends_on: [H3, Q4]
+        implementation_state: seeded
+      - id: H5
+        name: thematic_historical_analysis_and_periodization
+        depends_on: [H4, Q5]
+        implementation_state: seeded
+      - id: H6
+        name: historiography_public_history_and_capstone_argument
+        depends_on: [H5, Q6]
+        implementation_state: seeded
+
+  - id: C
+    name: civics_and_collective_decision_making
+    nodes:
+      - id: C1
+        name: community_rules_roles_and_fairness
+        depends_on: [Q1]
+        implementation_state: seeded
+      - id: C2
+        name: institutions_rights_responsibilities_and_processes
+        depends_on: [C1, Q2]
+        implementation_state: seeded
+      - id: C3
+        name: civic_decision_making_and_deliberation
+        depends_on: [C2, Q3]
+        implementation_state: seeded
+      - id: C4
+        name: constitutional_principles_and_public_policy
+        depends_on: [C3, H3, Q4]
+        implementation_state: seeded
+      - id: C5
+        name: comparative_government_and_civic_action
+        depends_on: [C4, G4, Q5]
+        implementation_state: seeded
+      - id: C6
+        name: advanced_civic_argument_policy_design_and_participation
+        depends_on: [C5, E5, Q6]
+        implementation_state: seeded
+
+  - id: G
+    name: geography_and_human_environment_systems
+    nodes:
+      - id: G1
+        name: place_maps_and_environmental_features
+        depends_on: [Q1]
+        implementation_state: seeded
+      - id: G2
+        name: human_environment_interaction_and_regions
+        depends_on: [G1, Q2]
+        implementation_state: seeded
+      - id: G3
+        name: spatial_patterns_movement_and_resources
+        depends_on: [G2, Q3]
+        implementation_state: seeded
+      - id: G4
+        name: geographic_reasoning_with_maps_data_and_scale
+        depends_on: [G3, Q4]
+        implementation_state: seeded
+      - id: G5
+        name: global_interdependence_migration_and_sustainability
+        depends_on: [G4, Q5]
+        implementation_state: seeded
+      - id: G6
+        name: geospatial_analysis_and_policy_application
+        depends_on: [G5, C4, Q6]
+        implementation_state: seeded
+
+  - id: E
+    name: economics_and_exchange_systems
+    nodes:
+      - id: E1
+        name: needs_wants_choice_and_exchange
+        depends_on: [Q1]
+        implementation_state: seeded
+      - id: E2
+        name: production_consumption_and_local_markets
+        depends_on: [E1, Q2]
+        implementation_state: seeded
+      - id: E3
+        name: incentives_trade_and_simple_systems
+        depends_on: [E2, Q3]
+        implementation_state: seeded
+      - id: E4
+        name: markets_labor_and_public_resource_decisions
+        depends_on: [E3, C2, Q4]
+        implementation_state: seeded
+      - id: E5
+        name: macroeconomic_patterns_global_trade_and_finance_basics
+        depends_on: [E4, G4, Q5]
+        implementation_state: seeded
+      - id: E6
+        name: economic_analysis_policy_tradeoffs_and_capstone_modeling
+        depends_on: [E5, C4, Q6]
+        implementation_state: seeded
+
+  - id: A
+    name: advanced_secondary_synthesis_and_public_argument
+    nodes:
+      - id: A1
+        name: interdisciplinary_research_and_evidence_synthesis
+        depends_on: [H5, C5, G5, E5, Q6]
+        implementation_state: seeded
+      - id: A2
+        name: capstone_argument_modeling_and_public_communication
+        depends_on: [A1, H6, C6, G6, E6]
+        implementation_state: seeded

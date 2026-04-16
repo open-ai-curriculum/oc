@@ -1,37 +1,140 @@
 {
   "node_id": "H3",
+  "policy_version": "1.0",
   "items": [
     {
-      "item_id": "H3-A1",
-      "item_family": "direct",
-      "prompt": "constructs or completes bounded geometric arguments using givens, definitions, prior results, and valid reasons",
-      "expected_evidence": "complete or critique short geometric arguments with coherent claim-evidence flow",
+      "item_id": "H3-DIR-001",
+      "node_id": "H3",
+      "item_family": "direct_execution",
+      "prompt": "Complete a bounded task for this node and show the governing mathematical structure clearly.",
+      "expected_evidence": "identify the structure of a bounded proof situation and the intermediate claims needed",
       "dominant_failure_mode": "reason_claim_mismatch",
-      "scoring_guidance": "Meets when the learner produces a structurally coherent bounded proof or proof completion with valid supporting reasons."
+      "scoring_guidance": "Meets when the learner demonstrates identify the structure of a bounded proof situation and the intermediate claims needed with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "H3-B1",
-      "item_family": "explanation",
-      "prompt": "explains why a bounded geometric argument is valid, including how givens, definitions, and theorem use connect to the conclusion",
+      "item_id": "H3-DIR-002",
+      "node_id": "H3",
+      "item_family": "direct_execution",
+      "prompt": "Solve a second task for the same node using a different representation or entry point.",
       "expected_evidence": "supply valid reasons for bounded geometric statements and theorem uses",
       "dominant_failure_mode": "proof_structure_opacity",
-      "scoring_guidance": "Meets when the learner explains proof as a chain of justified claims rather than a template to copy."
+      "scoring_guidance": "Meets when the learner demonstrates supply valid reasons for bounded geometric statements and theorem uses with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "H3-C1",
-      "item_family": "error_diagnosis",
-      "prompt": "Diagnose a peer error aligned to visual_assertion_substitution.",
-      "expected_evidence": "critiques incomplete or invalid arguments and repairs bounded proof gaps",
+      "item_id": "H3-DIR-003",
+      "node_id": "H3",
+      "item_family": "direct_execution",
+      "prompt": "Complete a bounded task for this node and show the governing mathematical structure clearly.",
+      "expected_evidence": "complete or critique short geometric arguments with coherent claim-evidence flow",
       "dominant_failure_mode": "visual_assertion_substitution",
-      "scoring_guidance": "Meets when the learner identifies where a visual claim replaced a justified step or where a reason does not support the statement."
+      "scoring_guidance": "Meets when the learner demonstrates complete or critique short geometric arguments with coherent claim-evidence flow with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
     },
     {
-      "item_id": "H3-D1",
+      "item_id": "H3-EXP-001",
+      "node_id": "H3",
+      "item_family": "explanation",
+      "prompt": "Explain why the structure used in this node is mathematically valid.",
+      "expected_evidence": "identify the structure of a bounded proof situation and the intermediate claims needed",
+      "dominant_failure_mode": "proof_structure_opacity",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to identify the structure of a bounded proof situation and the intermediate claims needed.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "H3-EXP-002",
+      "node_id": "H3",
+      "item_family": "explanation",
+      "prompt": "Explain why the structure used in this node is mathematically valid.",
+      "expected_evidence": "supply valid reasons for bounded geometric statements and theorem uses",
+      "dominant_failure_mode": "visual_assertion_substitution",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to supply valid reasons for bounded geometric statements and theorem uses.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "H3-ERR-001",
+      "node_id": "H3",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer response and identify the earliest structural mistake. Focus on reason claim mismatch.",
+      "expected_evidence": "identify the structure of a bounded proof situation and the intermediate claims needed",
+      "dominant_failure_mode": "reason_claim_mismatch",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward identify the structure of a bounded proof situation and the intermediate claims needed.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "H3-ERR-002",
+      "node_id": "H3",
+      "item_family": "error_diagnosis",
+      "prompt": "Diagnose a peer response and identify the earliest structural mistake. Focus on proof structure opacity.",
+      "expected_evidence": "supply valid reasons for bounded geometric statements and theorem uses",
+      "dominant_failure_mode": "proof_structure_opacity",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward supply valid reasons for bounded geometric statements and theorem uses.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "H3-TRA-001",
+      "node_id": "H3",
       "item_family": "transfer",
-      "prompt": "builds or critiques a bounded geometric argument in a less-familiar diagram or mixed algebra-geometry setting",
-      "expected_evidence": "connect algebraic manipulation and geometric properties inside a single bounded proof",
+      "prompt": "Apply the same capability in a changed surface form or representation.",
+      "expected_evidence": "identify the structure of a bounded proof situation and the intermediate claims needed",
+      "dominant_failure_mode": "visual_assertion_substitution",
+      "scoring_guidance": "Meets when the learner preserves identify the structure of a bounded proof situation and the intermediate claims needed in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "H3-TRA-002",
+      "node_id": "H3",
+      "item_family": "transfer",
+      "prompt": "Apply the same capability in a changed surface form or representation.",
+      "expected_evidence": "supply valid reasons for bounded geometric statements and theorem uses",
       "dominant_failure_mode": "algebra_geometry_link_breakdown",
-      "scoring_guidance": "Meets when the learner preserves coherent justification across geometry and algebra in a varied proof situation."
+      "scoring_guidance": "Meets when the learner preserves supply valid reasons for bounded geometric statements and theorem uses in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "H3-RET-001",
+      "node_id": "H3",
+      "item_family": "retention",
+      "prompt": "On a delayed recheck, complete a fresh task for this node and justify why the result is reasonable.",
+      "expected_evidence": "identify the structure of a bounded proof situation and the intermediate claims needed",
+      "dominant_failure_mode": "algebra_geometry_link_breakdown",
+      "scoring_guidance": "Meets when the learner still demonstrates identify the structure of a bounded proof situation and the intermediate claims needed on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "H3-PRE-001",
+      "node_id": "H3",
+      "item_family": "prerequisite_probe",
+      "prompt": "Complete a prerequisite probe on congruence and similarity via transformations and determine whether the learner’s error is upstream or belongs to proof structure and geometric argument.",
+      "expected_evidence": "shows whether congruence and similarity via transformations is secure enough to support proof structure and geometric argument",
+      "dominant_failure_mode": "proof_structure_opacity",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in congruence and similarity via transformations from a current-node issue in proof structure and geometric argument.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "H2",
+      "suspected_knowledge_gap_if_incorrect": "congruence and similarity via transformations"
+    },
+    {
+      "item_id": "H3-PRE-002",
+      "node_id": "H3",
+      "item_family": "prerequisite_probe",
+      "prompt": "Complete a prerequisite probe on distributive reasoning and combining like terms and determine whether the learner’s error is upstream or belongs to proof structure and geometric argument.",
+      "expected_evidence": "shows whether distributive reasoning and combining like terms is secure enough to support proof structure and geometric argument",
+      "dominant_failure_mode": "visual_assertion_substitution",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in distributive reasoning and combining like terms from a current-node issue in proof structure and geometric argument.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "A2",
+      "suspected_knowledge_gap_if_incorrect": "distributive reasoning and combining like terms"
     }
   ]
 }

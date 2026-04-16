@@ -1,0 +1,42 @@
+{
+  "node_id": "I1",
+  "examples": [
+    {
+      "learner_id": "sample-i1-blocked-01",
+      "node_id": "I1",
+      "status": "blocked",
+      "dependency_status": {
+        "Q2": "secure"
+      },
+      "direct_accuracy": 0.46,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["I1-FM-01", "I1-FM-03"],
+      "recommended_interventions": [
+        "use side-by-side examples of one-change versus many-change tests",
+        "use a simple table with one row per trial"
+      ],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Changes too many parts of the setup and does not yet record outcomes consistently."
+    },
+    {
+      "learner_id": "sample-i1-secure-01",
+      "node_id": "I1",
+      "status": "secure",
+      "dependency_status": {
+        "Q2": "secure"
+      },
+      "direct_accuracy": 0.93,
+      "explanation_status": "met",
+      "transfer_status": "met",
+      "retention_status": "met",
+      "dominant_failure_modes": [],
+      "recommended_interventions": [],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Runs simple fair tests and uses basic measurement tools appropriately across more than one context."
+    }
+  ]
+}

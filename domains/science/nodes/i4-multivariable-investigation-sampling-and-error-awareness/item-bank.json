@@ -1,0 +1,32 @@
+[
+  {
+    "item_id": "I4-IB-01",
+    "node_id": "I4",
+    "prompt": "A team changes temperature, sample type, and container size at the same time. Why does that weaken the investigation?",
+    "task_type": "multivariable_design_critique",
+    "answer_key": "Changing several important variables at once makes it difficult to determine which factor contributed to the result or whether an interaction mattered.",
+    "scorable_traits": ["variable control", "causal caution", "design critique"],
+    "target_failure_modes": ["I4-FM-01"],
+    "context_tags": ["design", "variables"]
+  },
+  {
+    "item_id": "I4-IB-02",
+    "node_id": "I4",
+    "prompt": "Two sampling plans study water quality. One uses one easy-to-reach location; the other samples several locations and times. Which supports stronger inference and why?",
+    "task_type": "sampling_reasoning",
+    "answer_key": "The broader plan supports stronger inference because it samples across relevant variation rather than relying on one convenient location only.",
+    "scorable_traits": ["sampling logic", "representativeness", "bounded inference"],
+    "target_failure_modes": ["I4-FM-02"],
+    "context_tags": ["sampling", "environmental science"]
+  },
+  {
+    "item_id": "I4-IB-03",
+    "node_id": "I4",
+    "prompt": "A learner blames every unexpected result on human error. What critique is needed?",
+    "task_type": "error_source_analysis",
+    "answer_key": "The critique should distinguish among measurement error, uncontrolled variables, sampling limits, and natural variation rather than using human error as a blanket explanation.",
+    "scorable_traits": ["error classification", "precision", "method reasoning"],
+    "target_failure_modes": ["I4-FM-03"],
+    "context_tags": ["uncertainty", "error"]
+  }
+]

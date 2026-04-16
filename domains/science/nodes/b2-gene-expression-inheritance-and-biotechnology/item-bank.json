@@ -1,0 +1,60 @@
+[
+  {
+    "item_id": "B2-IB-01",
+    "node_id": "B2",
+    "prompt": "Why is it incomplete to say a trait appears only because the gene for it is present?",
+    "task_type": "gene_expression_reasoning",
+    "answer_key": "A strong answer explains that gene presence is not enough by itself because expression, regulation, and environment can affect the trait outcome.",
+    "scorable_traits": [
+      "causal precision",
+      "regulation awareness",
+      "biological reasoning"
+    ],
+    "target_failure_modes": [
+      "B2-FM-01",
+      "B2-FM-02"
+    ],
+    "context_tags": [
+      "genetics",
+      "expression"
+    ]
+  },
+  {
+    "item_id": "B2-IB-02",
+    "node_id": "B2",
+    "prompt": "A biotech report claims a method guarantees a desired trait. What should be checked first?",
+    "task_type": "biotechnology_claim_critique",
+    "answer_key": "The first check is whether the method, evidence, and limits support the claim rather than assuming certainty from the technology label alone.",
+    "scorable_traits": [
+      "evidence critique",
+      "method awareness",
+      "claim boundary"
+    ],
+    "target_failure_modes": [
+      "B2-FM-04"
+    ],
+    "context_tags": [
+      "biotechnology",
+      "evidence"
+    ]
+  },
+  {
+    "item_id": "B2-IB-03",
+    "node_id": "B2",
+    "prompt": "How is an inheritance pattern different from a gene-expression explanation?",
+    "task_type": "inheritance_vs_expression",
+    "answer_key": "An inheritance pattern describes how traits are passed across generations, while gene-expression reasoning explains how information is used to produce traits within organisms.",
+    "scorable_traits": [
+      "distinction making",
+      "concept accuracy",
+      "transfer"
+    ],
+    "target_failure_modes": [
+      "B2-FM-03"
+    ],
+    "context_tags": [
+      "inheritance",
+      "gene expression"
+    ]
+  }
+]

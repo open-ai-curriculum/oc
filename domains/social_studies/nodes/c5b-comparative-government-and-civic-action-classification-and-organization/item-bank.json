@@ -1,0 +1,18 @@
+{
+  "node_id": "C5B",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "C5B-G1-01",
+      "node_id": "C5B",
+      "gate": "G1",
+      "prompt": "Complete a bounded classification and organization task for comparative government and civic action and explain your reasoning.",
+      "response_mode": "oral_or_written_or_annotated",
+      "scoring_rule": "Completes the task accurately and gives a usable explanation of the structure or reasoning.",
+      "failure_mode_targets": [
+        "C5B-FM-01",
+        "C5B-FM-02"
+      ]
+    }
+  ]
+}

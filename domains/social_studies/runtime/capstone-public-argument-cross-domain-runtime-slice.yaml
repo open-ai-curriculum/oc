@@ -1,0 +1,66 @@
+slice_id: social_studies_capstone_public_argument_cross_domain_runtime
+domain: social_studies
+status: draft
+version: 0.1
+node_ids:
+  - Q6
+  - H5
+  - C5
+  - G5
+  - E5
+  - A1
+  - A2
+entry_node_ids:
+  - A1
+learner_state_fields:
+  - learner_id
+  - node_id
+  - status
+  - dependency_status
+  - direct_accuracy
+  - explanation_status
+  - transfer_status
+  - retention_status
+  - dominant_failure_modes
+  - recommended_interventions
+  - last_verified_at
+  - review_state
+artifact_registry_reference: domains/social_studies/artifact-attachments/capstone-public-argument-attachment-registry.yaml
+navigation_rules:
+  - rule_id: ss-capstone-cross-route-a1-to-m1
+    decision_type: route_upstream
+    applies_when:
+      - current_node_id = A1
+      - dominant_failure_modes_contains A1-FM-01_or_A1-FM-03
+      - learner_cannot_hold_multi-source_evidence_structure_across_notes_and_drafts
+    outcome: route_to_learning_to_learn_M1_while_holding_A1_as_primary_social_studies_node
+    artifact_selection: prefer A1 synthesis studio plus represent-and-rehearse support
+    notes: used when synthesis breaks because evidence structure cannot be maintained across steps
+  - rule_id: ss-capstone-cross-route-a1-to-s1
+    decision_type: route_upstream
+    applies_when:
+      - current_node_id = A1
+      - dominant_failure_modes_contains A1-FM-02_or_A1-FM-04
+      - learner_repeats_unfit_research_or_note_sorting_routine_without_checking_fit
+    outcome: route_to_learning_to_learn_S1_before_next_research_cycle
+    artifact_selection: prefer A1 studio checkpoint plus productive practice support
+    notes: use when research routines are repeated without adaptation despite clear mismatch
+  - rule_id: ss-capstone-cross-route-a2-to-r1
+    decision_type: hold_current
+    applies_when:
+      - current_node_id = A2
+      - dominant_failure_modes_contains A2-FM-03_or_A2-FM-04
+      - learner_does_not_use_feedback_or_audience_response_for_revision
+    outcome: remain_on_A2_and_add_feedback_use_support_before_next_public_briefing_attempt
+    artifact_selection: prefer public briefing task plus feedback-and-revision routine
+    notes: keeps public argument work primary while adding revision-process support
+  - rule_id: ss-capstone-cross-domain-reverify-dual-stability
+    decision_type: reverify
+    applies_when:
+      - current_node_status = provisional
+      - prior_progress_depended_on_learning_process_support_route
+      - retention_due_or_transfer_due
+    outcome: require_dual_reverification_of_capstone_node_and_attached_learning_process_support_before_secure_status
+    artifact_selection: prefer capstone checkpoint plus the most relevant learning-to-learn reverification routine
+    notes: prevents capstone closure when support-driven gains do not persist
+review_status: draft

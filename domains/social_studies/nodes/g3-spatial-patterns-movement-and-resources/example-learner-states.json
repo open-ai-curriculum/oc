@@ -1,0 +1,23 @@
+{
+  "node_id": "G3",
+  "examples": [
+    {
+      "learner_id": "sample-g3-blocked-01",
+      "node_id": "G3",
+      "status": "blocked",
+      "dependency_status": { "G2": "secure", "Q3": "secure" },
+      "direct_accuracy": 0.58,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["G3-FM-01"],
+      "recommended_interventions": [
+        "ask what the pattern suggests after each observation",
+        "connect one map feature to one claim at a time"
+      ],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Notices a spatial pattern but cannot yet explain its significance."
+    }
+  ]
+}

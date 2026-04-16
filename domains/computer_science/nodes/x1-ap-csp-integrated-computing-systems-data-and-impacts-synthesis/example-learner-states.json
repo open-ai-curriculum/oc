@@ -1,0 +1,48 @@
+[
+  {
+    "learner_id": "example-x1-secure",
+    "node_id": "X1",
+    "status": "secure",
+    "dependency_status": {
+      "P4": "secure",
+      "A3": "secure",
+      "R4": "secure",
+      "I4": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Synthesizes AP CSP style programming, data, systems, and impact reasoning into coherent integrated explanations."
+  },
+  {
+    "learner_id": "example-x1-emerging",
+    "node_id": "X1",
+    "status": "emerging",
+    "dependency_status": {
+      "P4": "secure",
+      "A3": "secure",
+      "R4": "secure",
+      "I4": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [
+      "X1-FM-01",
+      "X1-FM-02"
+    ],
+    "recommended_interventions": [
+      "X1-INT-01",
+      "X1-INT-02"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Knows the topic areas but still handles AP CSP content as disconnected coverage."
+  }
+]

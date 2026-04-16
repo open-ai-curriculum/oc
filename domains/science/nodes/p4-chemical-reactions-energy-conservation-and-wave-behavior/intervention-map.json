@@ -1,0 +1,29 @@
+{
+  "node_id": "P4",
+  "interventions": [
+    {
+      "failure_mode": "P4-FM-01",
+      "intervention_id": "P4-INT-01",
+      "name": "Reaction Evidence Sort",
+      "delivery": "classification routine"
+    },
+    {
+      "failure_mode": "P4-FM-02",
+      "intervention_id": "P4-INT-02",
+      "name": "Closed-System Accounting Rebuild",
+      "delivery": "table and explanation"
+    },
+    {
+      "failure_mode": "P4-FM-03",
+      "intervention_id": "P4-INT-03",
+      "name": "Wave Behavior Explanation Frames",
+      "delivery": "guided writing"
+    },
+    {
+      "failure_mode": "P4-FM-04",
+      "intervention_id": "P4-INT-04",
+      "name": "System Boundary Marking",
+      "delivery": "pre-explanation protocol"
+    }
+  ]
+}

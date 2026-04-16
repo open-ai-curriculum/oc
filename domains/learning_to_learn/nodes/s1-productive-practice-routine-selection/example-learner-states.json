@@ -1,0 +1,39 @@
+[
+  {
+    "learner_id": "example-s1-blocked",
+    "node_id": "S1",
+    "status": "blocked",
+    "dependency_status": {
+      "A1": "met",
+      "C1": "met"
+    },
+    "direct_accuracy": 0.44,
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["S1-FM-01", "S1-FM-02"],
+    "recommended_interventions": [
+      "visible check step after each attempt",
+      "one correction attempt as the expected next move after an error"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Produces repeated guesses and stops after the first incorrect attempt."
+  },
+  {
+    "learner_id": "example-s1-secure",
+    "node_id": "S1",
+    "status": "secure",
+    "dependency_status": {
+      "A1": "met",
+      "C1": "met"
+    },
+    "direct_accuracy": 0.86,
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Uses example-then-try and check-correct routines across written and oral tasks."
+  }
+]

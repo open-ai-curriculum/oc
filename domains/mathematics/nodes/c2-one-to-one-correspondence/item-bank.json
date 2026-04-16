@@ -1,72 +1,258 @@
 {
   "node_id": "C2",
-  "version": "0.1",
+  "policy_version": "1.0",
+  "version": "0.3",
   "items": [
     {
-      "item_id": "C2-A-001",
-      "family": "direct_counting_control",
-      "prompt": "Count the counters by touching each one once.",
+      "item_id": "C2-D-001",
+      "family": "direct_execution",
+      "prompt": "Plot the point `(3, -2)` and explain what each coordinate controls.",
       "target_node": "C2",
-      "secondary_dependency_targets": ["C1"],
+      "secondary_dependency_targets": [
+        "C1"
+      ],
       "difficulty_band": "core",
-      "response_modes_allowed": ["oral_explanation", "manipulative_model"],
-      "dominant_failure_modes_if_incorrect": ["C2-FM-01", "C2-FM-02"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "C2-FM-01",
+        "C2-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
     },
     {
-      "item_id": "C2-A-002",
-      "family": "direct_counting_control",
-      "prompt": "A set of 5 dots is scattered. Count them so each dot gets one count word.",
+      "item_id": "C2-D-002",
+      "family": "direct_execution",
+      "prompt": "Find the slope between `(1, 4)` and `(5, 12)` and interpret it as a rate of change.",
       "target_node": "C2",
-      "secondary_dependency_targets": ["C1"],
+      "secondary_dependency_targets": [
+        "C1"
+      ],
       "difficulty_band": "core",
-      "response_modes_allowed": ["oral_explanation"],
-      "dominant_failure_modes_if_incorrect": ["C2-FM-01", "C2-FM-03"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "C2-FM-02",
+        "C2-FM-03"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
     },
     {
-      "item_id": "C2-B-001",
+      "item_id": "C2-D-003",
+      "family": "direct_execution",
+      "prompt": "Determine whether the table represents a function and justify your decision.",
+      "target_node": "C2",
+      "secondary_dependency_targets": [
+        "C1"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "C2-FM-03",
+        "C2-FM-04"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "C2-D-004",
+      "family": "direct_execution",
+      "prompt": "Plot the point `(3, -2)` and explain what each coordinate controls.",
+      "target_node": "C2",
+      "secondary_dependency_targets": [
+        "C1"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "C2-FM-04",
+        "C2-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "C2-E-001",
       "family": "explanation",
-      "prompt": "Explain how you make sure every object is counted once.",
+      "prompt": "Explain how a table, graph, and equation can represent the same linear relationship.",
       "target_node": "C2",
-      "secondary_dependency_targets": ["C1"],
+      "secondary_dependency_targets": [
+        "C1"
+      ],
       "difficulty_band": "core",
-      "response_modes_allowed": ["oral_explanation", "written_explanation"],
-      "dominant_failure_modes_if_incorrect": ["C2-FM-02", "C2-FM-04"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "C2-FM-02"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "C2-E-002",
+      "family": "explanation",
+      "prompt": "Explain what slope means in both graphical and contextual terms.",
+      "target_node": "C2",
+      "secondary_dependency_targets": [
+        "C1"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "C2-FM-03"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
     },
     {
       "item_id": "C2-C-001",
       "family": "error_diagnosis",
-      "prompt": "A student counts 1, 2, 3, 4, 5 on 4 objects because one object was touched twice. What went wrong?",
+      "prompt": "A student reverses the coordinates and plots `(3, -2)` as `(-2, 3)`. Diagnose the mapping error. Focus on skip or double count.",
       "target_node": "C2",
-      "secondary_dependency_targets": ["C1"],
-      "difficulty_band": "core",
-      "response_modes_allowed": ["multiple_choice", "oral_explanation", "written_explanation"],
-      "dominant_failure_modes_if_incorrect": ["C2-FM-01"],
-      "requires_human_scoring": true
+      "secondary_dependency_targets": [
+        "C1"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "C2-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
     },
     {
-      "item_id": "C2-D-001",
-      "family": "transfer",
-      "prompt": "Count the animals in a picture where some are close together and some are far apart. Tell how you kept track.",
+      "item_id": "C2-C-002",
+      "family": "error_diagnosis",
+      "prompt": "A student says every straight-looking graph is proportional. Identify the misclassification. Focus on count tracking instability.",
       "target_node": "C2",
-      "secondary_dependency_targets": ["C1"],
+      "secondary_dependency_targets": [
+        "C1"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "C2-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "C2-T-001",
+      "family": "transfer",
+      "prompt": "A ride-share charges a fixed fee plus a cost per mile. Write a rule, make a table, and interpret the slope and intercept.",
+      "target_node": "C2",
+      "secondary_dependency_targets": [
+        "C1"
+      ],
       "difficulty_band": "transfer",
-      "response_modes_allowed": ["oral_explanation"],
-      "dominant_failure_modes_if_incorrect": ["C2-FM-01", "C2-FM-03", "C2-FM-04"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "C2-FM-03"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "C2-T-002",
+      "family": "transfer",
+      "prompt": "Given a graph and a verbal description, decide whether they could represent the same relationship and justify the match.",
+      "target_node": "C2",
+      "secondary_dependency_targets": [
+        "C1"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "C2-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
     },
     {
       "item_id": "C2-R-001",
       "family": "retention",
-      "prompt": "Count a set of stars and show how each one got exactly one count.",
+      "prompt": "On a delayed check, move between a rule, a table, and a graph for a linear relationship and explain the connection.",
       "target_node": "C2",
-      "secondary_dependency_targets": ["C1"],
+      "secondary_dependency_targets": [
+        "C1"
+      ],
       "difficulty_band": "retention",
-      "response_modes_allowed": ["oral_explanation", "diagram_annotation"],
-      "dominant_failure_modes_if_incorrect": ["C2-FM-01", "C2-FM-02"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "C2-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability"
+    },
+    {
+      "item_id": "C2-P-001",
+      "family": "prerequisite_probe",
+      "prompt": "Use a prerequisite probe on stable counting sequence to see whether the learner is blocked by graph/coordinate foundations or by one to one correspondence itself.",
+      "target_node": "C2",
+      "secondary_dependency_targets": [
+        "C1"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "C2-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "C1",
+      "suspected_knowledge_gap_if_incorrect": "stable counting sequence",
+      "scoring_focus": "dependency_disambiguation"
     }
   ]
 }

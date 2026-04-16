@@ -1,0 +1,250 @@
+{
+  "node_id": "A3",
+  "policy_version": "1.0",
+  "version": "0.4",
+  "items": [
+    {
+      "item_id": "A3-DIR-001",
+      "node_id": "A3",
+      "item_family": "direct_execution",
+      "prompt": "A class is designing steps for a character to collect objects in a maze. Break the task into a workable strategy and show how the learner would compare bounded procedures using named criteria rather than vague preference.",
+      "expected_evidence": "compare bounded procedures using named criteria rather than vague preference",
+      "dominant_failure_mode_targets": [
+        "A3-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates compare bounded procedures using named criteria rather than vague preference with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "A3-DIR-002",
+      "node_id": "A3",
+      "item_family": "direct_execution",
+      "prompt": "Two different solution plans are proposed for the same computing problem. Compare them and show how the learner would connect problem constraints to algorithm choice.",
+      "expected_evidence": "connect problem constraints to algorithm choice",
+      "dominant_failure_mode_targets": [
+        "A3-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates connect problem constraints to algorithm choice with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "A3-DIR-003",
+      "node_id": "A3",
+      "item_family": "direct_execution",
+      "prompt": "A learner must formalize a small problem before choosing an algorithmic approach. Use the given conditions and show how they would explain why an algorithm can be preferable even when more than one approach is correct.",
+      "expected_evidence": "explain why an algorithm can be preferable even when more than one approach is correct",
+      "dominant_failure_mode_targets": [
+        "A3-FM-03"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates explain why an algorithm can be preferable even when more than one approach is correct with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "A3-EXP-001",
+      "node_id": "A3",
+      "item_family": "explanation",
+      "prompt": "Why can a correct algorithm still be a weak choice for a problem?",
+      "expected_evidence": "because correctness alone does not decide quality; efficiency, clarity, or resource constraints may make another algorithm more appropriate.",
+      "dominant_failure_mode_targets": [
+        "A3-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to because correctness alone does not decide quality; efficiency, clarity, or resource constraints may make another algorithm more appropriate."
+    },
+    {
+      "item_id": "A3-EXP-002",
+      "node_id": "A3",
+      "item_family": "explanation",
+      "prompt": "What does it mean to say an algorithm involves a tradeoff?",
+      "expected_evidence": "it means the algorithm improves one bounded feature, such as speed or simplicity, while giving up something else, such as memory use or flexibility.",
+      "dominant_failure_mode_targets": [
+        "A3-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to it means the algorithm improves one bounded feature, such as speed or simplicity, while giving up something else, such as memory use or flexibility."
+    },
+    {
+      "item_id": "A3-ERR-001",
+      "node_id": "A3",
+      "item_family": "error_diagnosis",
+      "prompt": "A learner response in algorithm analysis, tradeoffs, and formalized problem solving suggests this breakdown: learner treats the first correct-looking algorithm as automatically optimal without comparison. Diagnose the likely misconception or structural error. Focus on first-correct-is-best belief.",
+      "expected_evidence": "compare bounded procedures using named criteria rather than vague preference",
+      "dominant_failure_mode_targets": [
+        "A3-FM-01"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward compare bounded procedures using named criteria rather than vague preference."
+    },
+    {
+      "item_id": "A3-ERR-002",
+      "node_id": "A3",
+      "item_family": "error_diagnosis",
+      "prompt": "A learner response in algorithm analysis, tradeoffs, and formalized problem solving suggests this breakdown: learner compares algorithms without acknowledging what is gained or lost. Diagnose the likely misconception or structural error. Focus on tradeoff-blind comparison.",
+      "expected_evidence": "connect problem constraints to algorithm choice",
+      "dominant_failure_mode_targets": [
+        "A3-FM-02"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward connect problem constraints to algorithm choice."
+    },
+    {
+      "item_id": "A3-TRA-001",
+      "node_id": "A3",
+      "item_family": "transfer",
+      "prompt": "A sorting or search idea learned in one classroom task is now presented in a different surface context. Explain how the learner would explain why an algorithm can be preferable even when more than one approach is correct without losing the underlying structure.",
+      "expected_evidence": "explain why an algorithm can be preferable even when more than one approach is correct",
+      "dominant_failure_mode_targets": [
+        "A3-FM-03"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves explain why an algorithm can be preferable even when more than one approach is correct in a changed computing context or representation."
+    },
+    {
+      "item_id": "A3-TRA-002",
+      "node_id": "A3",
+      "item_family": "transfer",
+      "prompt": "A learner must compare two unfamiliar algorithm sketches in a new context and still preserve the same analytic discipline. Show how they would avoid treating performance claims as self-evident without bounded analysis.",
+      "expected_evidence": "avoid treating performance claims as self-evident without bounded analysis",
+      "dominant_failure_mode_targets": [
+        "A3-FM-04"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves avoid treating performance claims as self-evident without bounded analysis in a changed computing context or representation."
+    },
+    {
+      "item_id": "A3-RET-001",
+      "node_id": "A3",
+      "item_family": "retention",
+      "prompt": "After a delay, the learner is given a fresh bounded problem and must choose or compare a strategy rather than just repeat a memorized one. Show how they would compare bounded procedures using named criteria rather than vague preference.",
+      "expected_evidence": "compare bounded procedures using named criteria rather than vague preference",
+      "dominant_failure_mode_targets": [
+        "A3-FM-04"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_explanation",
+        "constructed_response"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability",
+      "scoring_guidance": "Meets when the learner still demonstrates compare bounded procedures using named criteria rather than vague preference on a delayed recheck without a blocking recurrence."
+    },
+    {
+      "item_id": "A3-PRE-001",
+      "node_id": "A3",
+      "item_family": "prerequisite_probe",
+      "prompt": "Probe algorithm design, efficiency awareness, and decomposition discipline with a short decomposition or programming task before closing algorithm analysis, tradeoffs, and formalized problem solving, and decide whether the current weakness is upstream or truly algorithmic.",
+      "expected_evidence": "shows whether algorithm design, efficiency awareness, and decomposition discipline is secure enough to support algorithm analysis, tradeoffs, and formalized problem solving",
+      "dominant_failure_mode_targets": [
+        "A3-FM-01"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in algorithm design, efficiency awareness, and decomposition discipline from a current-node issue in algorithm analysis, tradeoffs, and formalized problem solving.",
+      "dependency_target": "A2",
+      "suspected_knowledge_gap_if_incorrect": "algorithm design, efficiency awareness, and decomposition discipline"
+    },
+    {
+      "item_id": "A3-PRE-002",
+      "node_id": "A3",
+      "item_family": "prerequisite_probe",
+      "prompt": "Probe functions, modular program design, and abstraction boundaries with a short decomposition or programming task before closing algorithm analysis, tradeoffs, and formalized problem solving, and decide whether the current weakness is upstream or truly algorithmic.",
+      "expected_evidence": "shows whether functions, modular program design, and abstraction boundaries is secure enough to support algorithm analysis, tradeoffs, and formalized problem solving",
+      "dominant_failure_mode_targets": [
+        "A3-FM-02"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in functions, modular program design, and abstraction boundaries from a current-node issue in algorithm analysis, tradeoffs, and formalized problem solving.",
+      "dependency_target": "P4",
+      "suspected_knowledge_gap_if_incorrect": "functions, modular program design, and abstraction boundaries"
+    }
+  ]
+}

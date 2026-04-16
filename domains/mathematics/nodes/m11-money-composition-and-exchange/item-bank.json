@@ -1,29 +1,294 @@
 {
   "node_id": "M11",
+  "policy_version": "1.0",
+  "version": "0.3",
   "items": [
     {
-      "item_id": "m11-a1",
-      "item_family": "direct_execution",
-      "prompt": "Representative direct task for money composition and exchange.",
-      "expected_evidence": [
-        "Learner uses the intended structure, not only an answer-getting shortcut."
+      "item_id": "M11-D-001",
+      "family": "direct_execution",
+      "prompt": "Count the collection accurately and state how you know the final count represents the whole set.",
+      "target_node": "M11",
+      "secondary_dependency_targets": [
+        "M7",
+        "V1"
       ],
-      "dominant_failure_mode_targets": [
-        "coin_count_over_value"
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
       ],
-      "context": "coins"
-    },
-    {
-      "item_id": "m11-b1",
-      "item_family": "explanation",
-      "prompt": "Explain why the chosen structure fits the situation.",
-      "expected_evidence": [
-        "Learner names the structural relationship correctly."
-      ],
-      "dominant_failure_mode_targets": [
+      "dominant_failure_modes_if_incorrect": [
+        "coin_count_over_value",
         "exchange_equivalence_gap"
       ],
-      "context": "price tags"
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "M11-D-002",
+      "family": "direct_execution",
+      "prompt": "Compose and decompose the number 14 in two different ways.",
+      "target_node": "M11",
+      "secondary_dependency_targets": [
+        "M7",
+        "V1"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "exchange_equivalence_gap",
+        "tens_ones_value_drift"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "M11-D-003",
+      "family": "direct_execution",
+      "prompt": "Compare 348 and 384 and justify the comparison by place value.",
+      "target_node": "M11",
+      "secondary_dependency_targets": [
+        "M7",
+        "V1"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "tens_ones_value_drift",
+        "enough_not_enough_miscalibration"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "M11-D-004",
+      "family": "direct_execution",
+      "prompt": "Count the collection accurately and state how you know the final count represents the whole set.",
+      "target_node": "M11",
+      "secondary_dependency_targets": [
+        "M7",
+        "V1"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "enough_not_enough_miscalibration",
+        "coin_count_over_value"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "M11-E-001",
+      "family": "explanation",
+      "prompt": "Explain why the last counting word tells how many objects are in the set.",
+      "target_node": "M11",
+      "secondary_dependency_targets": [
+        "M7",
+        "V1"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "exchange_equivalence_gap"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "M11-E-002",
+      "family": "explanation",
+      "prompt": "Explain how the value of a digit depends on its place.",
+      "target_node": "M11",
+      "secondary_dependency_targets": [
+        "M7",
+        "V1"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "tens_ones_value_drift"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "M11-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student counts objects twice and reports the larger total. Diagnose the one-to-one correspondence error. Focus on coin count over value.",
+      "target_node": "M11",
+      "secondary_dependency_targets": [
+        "M7",
+        "V1"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "coin_count_over_value"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "M11-C-002",
+      "family": "error_diagnosis",
+      "prompt": "A student says 402 is greater than 39 because 2 is greater than 9. Identify the place-value mistake. Focus on exchange equivalence gap.",
+      "target_node": "M11",
+      "secondary_dependency_targets": [
+        "M7",
+        "V1"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "exchange_equivalence_gap"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "M11-T-001",
+      "family": "transfer",
+      "prompt": "Use the same number idea with objects, numerals, and spoken language in a less-familiar representation.",
+      "target_node": "M11",
+      "secondary_dependency_targets": [
+        "M7",
+        "V1"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "tens_ones_value_drift"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "M11-T-002",
+      "family": "transfer",
+      "prompt": "Show the same quantity with a drawing, a numeral, and a decomposition statement.",
+      "target_node": "M11",
+      "secondary_dependency_targets": [
+        "M7",
+        "V1"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "enough_not_enough_miscalibration"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "M11-R-001",
+      "family": "retention",
+      "prompt": "After a delay, compare or compose a new whole number and explain the reasoning used.",
+      "target_node": "M11",
+      "secondary_dependency_targets": [
+        "M7",
+        "V1"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "enough_not_enough_miscalibration"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability"
+    },
+    {
+      "item_id": "M11-P-001",
+      "family": "prerequisite_probe",
+      "prompt": "Probe money and value unit readiness before closing money composition and exchange, and state whether the learner is blocked by an upstream knowledge gap.",
+      "target_node": "M11",
+      "secondary_dependency_targets": [
+        "M7",
+        "V1"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "exchange_equivalence_gap"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "M7",
+      "suspected_knowledge_gap_if_incorrect": "money and value unit readiness",
+      "scoring_focus": "dependency_disambiguation"
+    },
+    {
+      "item_id": "M11-P-002",
+      "family": "prerequisite_probe",
+      "prompt": "Probe two digit number structure before closing money composition and exchange, and state whether the learner is blocked by an upstream knowledge gap.",
+      "target_node": "M11",
+      "secondary_dependency_targets": [
+        "M7",
+        "V1"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "tens_ones_value_drift"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "V1",
+      "suspected_knowledge_gap_if_incorrect": "two digit number structure",
+      "scoring_focus": "dependency_disambiguation"
     }
   ]
 }

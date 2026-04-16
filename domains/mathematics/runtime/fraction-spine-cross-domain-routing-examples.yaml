@@ -1,0 +1,146 @@
+examples_version: 0.1
+slice_id: mathematics-fraction-spine-cross-domain-runtime
+examples:
+  - example_id: fraction-f1-hold-with-c1-m1-support
+    learner_state:
+      learner_id: example-f1-cross-domain
+      node_id: F1
+      status: blocked
+      dependency_status:
+        R1: secure
+        R2: secure
+        R3: secure
+      direct_accuracy: 0.52
+      explanation_status: weak
+      transfer_status: not_met
+      retention_status: not_due
+      dominant_failure_modes: [F1-FM-03]
+      recommended_interventions: []
+      last_verified_at: "2026-04-15"
+      review_state: draft
+    evidence_flags:
+      learning_process_instability_suspected_but_fraction_meaning_not_yet_stable: true
+      learner_does_not_signal_that_current_strategy_no_longer_fits: true
+    expected_decision:
+      rule_id: fraction-cross-domain-hold-f1-primary
+      decision_type: hold_current
+      routed_learning_to_learn_nodes: [C1, M1]
+
+  - example_id: fraction-f2-route-to-m1
+    learner_state:
+      learner_id: example-f2-cross-domain
+      node_id: F2
+      status: blocked
+      dependency_status:
+        F1: secure
+      direct_accuracy: 0.49
+      explanation_status: weak
+      transfer_status: not_met
+      retention_status: not_due
+      dominant_failure_modes: [F2-FM-01, F2-FM-03]
+      recommended_interventions: []
+      last_verified_at: "2026-04-15"
+      review_state: draft
+    evidence_flags:
+      evidence_of_fragile_encoding_or_inability_to_hold_scaling_structure: true
+    expected_decision:
+      rule_id: fraction-cross-domain-route-f2-to-m1
+      decision_type: route_upstream
+      routed_learning_to_learn_nodes: [M1]
+
+  - example_id: fraction-f3-route-to-s1
+    learner_state:
+      learner_id: example-f3-cross-domain
+      node_id: F3
+      status: blocked
+      dependency_status:
+        F1: secure
+        F2: secure
+      direct_accuracy: 0.57
+      explanation_status: weak
+      transfer_status: not_met
+      retention_status: not_due
+      dominant_failure_modes: [F3-FM-01, F3-FM-03]
+      recommended_interventions: []
+      last_verified_at: "2026-04-15"
+      review_state: draft
+    evidence_flags:
+      repeated_guess_and_move_on_or_strategy_mismatch_present: true
+    expected_decision:
+      rule_id: fraction-cross-domain-route-f3-to-s1
+      decision_type: route_upstream
+      routed_learning_to_learn_nodes: [S1]
+
+  - example_id: fraction-f4-hold-with-r1-support
+    learner_state:
+      learner_id: example-f4-cross-domain
+      node_id: F4
+      status: emerging
+      dependency_status:
+        F1: secure
+        F3: secure
+      direct_accuracy: 0.68
+      explanation_status: weak
+      transfer_status: weak
+      retention_status: not_due
+      dominant_failure_modes: [F4-FM-03]
+      recommended_interventions: []
+      last_verified_at: "2026-04-15"
+      review_state: draft
+    evidence_flags:
+      learner_does_not_use_feedback_for_revision: true
+    expected_decision:
+      rule_id: fraction-cross-domain-route-f4-to-r1
+      decision_type: hold_current
+      routed_learning_to_learn_nodes: [R1]
+
+  - example_id: fraction-f5-route-to-m1
+    learner_state:
+      learner_id: example-f5-cross-domain
+      node_id: F5
+      status: blocked
+      dependency_status:
+        F2: secure
+        F3: secure
+        F4: secure
+        F6: secure
+      direct_accuracy: 0.44
+      explanation_status: weak
+      transfer_status: not_met
+      retention_status: not_due
+      dominant_failure_modes: [F5-FM-01, F5-FM-03]
+      recommended_interventions: []
+      last_verified_at: "2026-04-15"
+      review_state: draft
+    evidence_flags:
+      fraction_rewrite_structure_does_not_hold_across_steps_or_short_delay: true
+    expected_decision:
+      rule_id: fraction-cross-domain-route-f5-to-m1
+      decision_type: route_upstream
+      routed_learning_to_learn_nodes: [M1]
+
+  - example_id: fraction-f5-dual-reverify
+    learner_state:
+      learner_id: example-f5-provisional-cross-domain
+      node_id: F5
+      status: provisional
+      dependency_status:
+        F2: secure
+        F3: secure
+        F4: secure
+        F6: secure
+      direct_accuracy: 0.91
+      explanation_status: met
+      transfer_status: met
+      retention_status: not_due
+      dominant_failure_modes: []
+      recommended_interventions: []
+      last_verified_at: "2026-04-15"
+      review_state: draft
+    evidence_flags:
+      prior_progress_depended_on_learning_process_support_route: true
+      retention_due_or_transfer_due: true
+    expected_decision:
+      rule_id: fraction-cross-domain-reverify-dual-stability
+      decision_type: reverify
+      routed_learning_to_learn_nodes: [M1]

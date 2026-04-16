@@ -1,0 +1,48 @@
+[
+  {
+    "learner_id": "example-b5-secure",
+    "node_id": "B5",
+    "status": "secure",
+    "dependency_status": {
+      "L4": "secure",
+      "L6": "secure",
+      "T5": "secure",
+      "I4": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Explains ecology and environmental biology with multi-factor, evidence-bounded field reasoning."
+  },
+  {
+    "learner_id": "example-b5-emerging",
+    "node_id": "B5",
+    "status": "emerging",
+    "dependency_status": {
+      "L4": "secure",
+      "L6": "secure",
+      "T5": "secure",
+      "I4": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [
+      "B5-FM-01",
+      "B5-FM-02"
+    ],
+    "recommended_interventions": [
+      "B5-INT-01",
+      "B5-INT-02"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Uses ecology vocabulary but overgeneralizes from narrow observations and single causes."
+  }
+]

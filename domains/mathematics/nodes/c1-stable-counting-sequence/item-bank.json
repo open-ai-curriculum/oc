@@ -1,72 +1,258 @@
 {
   "node_id": "C1",
-  "version": "0.1",
+  "policy_version": "1.0",
+  "version": "0.3",
   "items": [
     {
-      "item_id": "C1-A-001",
-      "family": "direct_sequence_production",
-      "prompt": "Say the counting words in order up to the supported target.",
+      "item_id": "C1-D-001",
+      "family": "direct_execution",
+      "prompt": "Count the collection accurately and state how you know the final count represents the whole set.",
       "target_node": "C1",
-      "secondary_dependency_targets": ["Z2"],
+      "secondary_dependency_targets": [
+        "Z2"
+      ],
       "difficulty_band": "core",
-      "response_modes_allowed": ["oral_explanation"],
-      "dominant_failure_modes_if_incorrect": ["C1-FM-01", "C1-FM-02"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "C1-FM-01",
+        "C1-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
     },
     {
-      "item_id": "C1-A-002",
-      "family": "direct_sequence_production",
-      "prompt": "Count on from 4. What comes next?",
+      "item_id": "C1-D-002",
+      "family": "direct_execution",
+      "prompt": "Compose and decompose the number 14 in two different ways.",
       "target_node": "C1",
-      "secondary_dependency_targets": ["Z2"],
+      "secondary_dependency_targets": [
+        "Z2"
+      ],
       "difficulty_band": "core",
-      "response_modes_allowed": ["oral_explanation"],
-      "dominant_failure_modes_if_incorrect": ["C1-FM-01", "C1-FM-03"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "C1-FM-02",
+        "C1-FM-03"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
     },
     {
-      "item_id": "C1-B-001",
+      "item_id": "C1-D-003",
+      "family": "direct_execution",
+      "prompt": "Compare 348 and 384 and justify the comparison by place value.",
+      "target_node": "C1",
+      "secondary_dependency_targets": [
+        "Z2"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "C1-FM-03",
+        "C1-FM-04"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "C1-D-004",
+      "family": "direct_execution",
+      "prompt": "Count the collection accurately and state how you know the final count represents the whole set.",
+      "target_node": "C1",
+      "secondary_dependency_targets": [
+        "Z2"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "C1-FM-04",
+        "C1-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "C1-E-001",
       "family": "explanation",
-      "prompt": "Explain why counting words have to stay in the same order every time.",
+      "prompt": "Explain why the last counting word tells how many objects are in the set.",
       "target_node": "C1",
-      "secondary_dependency_targets": ["Z2"],
+      "secondary_dependency_targets": [
+        "Z2"
+      ],
       "difficulty_band": "core",
-      "response_modes_allowed": ["oral_explanation", "written_explanation"],
-      "dominant_failure_modes_if_incorrect": ["C1-FM-02", "C1-FM-04"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "C1-FM-02"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "C1-E-002",
+      "family": "explanation",
+      "prompt": "Explain how the value of a digit depends on its place.",
+      "target_node": "C1",
+      "secondary_dependency_targets": [
+        "Z2"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "C1-FM-03"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
     },
     {
       "item_id": "C1-C-001",
       "family": "error_diagnosis",
-      "prompt": "A student says 1, 2, 4, 5. What should be checked?",
+      "prompt": "A student counts objects twice and reports the larger total. Diagnose the one-to-one correspondence error. Focus on sequence skip or substitution.",
       "target_node": "C1",
-      "secondary_dependency_targets": ["Z2"],
-      "difficulty_band": "core",
-      "response_modes_allowed": ["multiple_choice", "oral_explanation", "written_explanation"],
-      "dominant_failure_modes_if_incorrect": ["C1-FM-01", "C1-FM-02"],
-      "requires_human_scoring": true
+      "secondary_dependency_targets": [
+        "Z2"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "C1-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
     },
     {
-      "item_id": "C1-D-001",
-      "family": "transfer",
-      "prompt": "Start at 3 and keep counting until told to stop. Explain how you know what comes next each time.",
+      "item_id": "C1-C-002",
+      "family": "error_diagnosis",
+      "prompt": "A student says 402 is greater than 39 because 2 is greater than 9. Identify the place-value mistake. Focus on order instability.",
       "target_node": "C1",
-      "secondary_dependency_targets": ["Z2"],
+      "secondary_dependency_targets": [
+        "Z2"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "C1-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "C1-T-001",
+      "family": "transfer",
+      "prompt": "Use the same number idea with objects, numerals, and spoken language in a less-familiar representation.",
+      "target_node": "C1",
+      "secondary_dependency_targets": [
+        "Z2"
+      ],
       "difficulty_band": "transfer",
-      "response_modes_allowed": ["oral_explanation"],
-      "dominant_failure_modes_if_incorrect": ["C1-FM-01", "C1-FM-03", "C1-FM-04"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "C1-FM-03"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "C1-T-002",
+      "family": "transfer",
+      "prompt": "Show the same quantity with a drawing, a numeral, and a decomposition statement.",
+      "target_node": "C1",
+      "secondary_dependency_targets": [
+        "Z2"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "C1-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
     },
     {
       "item_id": "C1-R-001",
       "family": "retention",
-      "prompt": "Continue the count sequence from 6 and say the next three numbers.",
+      "prompt": "After a delay, compare or compose a new whole number and explain the reasoning used.",
       "target_node": "C1",
-      "secondary_dependency_targets": ["Z2"],
+      "secondary_dependency_targets": [
+        "Z2"
+      ],
       "difficulty_band": "retention",
-      "response_modes_allowed": ["oral_explanation"],
-      "dominant_failure_modes_if_incorrect": ["C1-FM-01", "C1-FM-03"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "C1-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability"
+    },
+    {
+      "item_id": "C1-P-001",
+      "family": "prerequisite_probe",
+      "prompt": "Probe match and sort objects before closing stable counting sequence, and state whether the learner is blocked by an upstream knowledge gap.",
+      "target_node": "C1",
+      "secondary_dependency_targets": [
+        "Z2"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "C1-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "Z2",
+      "suspected_knowledge_gap_if_incorrect": "match and sort objects",
+      "scoring_focus": "dependency_disambiguation"
     }
   ]
 }

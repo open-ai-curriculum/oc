@@ -1,0 +1,46 @@
+[
+  {
+    "learner_id": "example-r3-secure",
+    "node_id": "R3",
+    "status": "secure",
+    "dependency_status": {
+      "R1": "secure",
+      "F4": "secure",
+      "D4": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Uses electronics and instrumentation with explicit calibration, circuit, and measurement-quality reasoning."
+  },
+  {
+    "learner_id": "example-r3-emerging",
+    "node_id": "R3",
+    "status": "emerging",
+    "dependency_status": {
+      "R1": "secure",
+      "F4": "secure",
+      "D4": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [
+      "R3-FM-01",
+      "R3-FM-02"
+    ],
+    "recommended_interventions": [
+      "R3-INT-01",
+      "R3-INT-02"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Can use devices but still treats outputs as trustworthy without enough setup and model checks."
+  }
+]

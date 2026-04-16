@@ -1,0 +1,41 @@
+id: T5
+name: geologic_time_climate_systems_and_human_impact_models
+domain: science
+support_tier: Incubation
+maturity_state: Drafted
+supported_profiles:
+- science-secondary-node-package
+evidence_class: Synthetic
+dependencies:
+- T4
+- M4
+- E3
+mastery:
+  direct_accuracy_threshold: 0.9
+  explanation_required: true
+  transfer_required: true
+  retention_check_days: 42
+statuses:
+- blocked
+- emerging
+- provisional
+- secure
+- unstable
+verification_gates:
+- id: G1
+  type: direct_performance
+  pass_rule: '>= 0.90 accuracy across geologic-time, climate-system, and human-impact model tasks'
+- id: G2
+  type: meaning
+  pass_rule: correct explanation of long-term Earth-system change or human impact in at least 2 of 3 prompts
+- id: G3
+  type: transfer
+  pass_rule: successful reasoning in at least one unfamiliar advanced Earth-system context
+- id: G4
+  type: retention
+  pass_rule: '>= 0.85 delayed recheck accuracy after ~42 days'
+failure_modes:
+- T5-FM-01
+- T5-FM-02
+- T5-FM-03
+- T5-FM-04

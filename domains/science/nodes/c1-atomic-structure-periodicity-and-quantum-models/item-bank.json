@@ -1,0 +1,60 @@
+[
+  {
+    "item_id": "C1-IB-01",
+    "node_id": "C1",
+    "prompt": "Why is naming a periodic trend not enough?",
+    "task_type": "periodicity_explanation",
+    "answer_key": "A strong answer explains how atomic structure and electron arrangement support the trend rather than reciting the pattern only.",
+    "scorable_traits": [
+      "mechanistic justification",
+      "concept accuracy",
+      "transfer"
+    ],
+    "target_failure_modes": [
+      "C1-FM-01"
+    ],
+    "context_tags": [
+      "periodicity",
+      "atomic structure"
+    ]
+  },
+  {
+    "item_id": "C1-IB-02",
+    "node_id": "C1",
+    "prompt": "What makes an orbital diagram a model rather than a picture?",
+    "task_type": "model_critique",
+    "answer_key": "It simplifies and represents explanatory relationships; it should not be treated as a literal photograph of electron behavior.",
+    "scorable_traits": [
+      "model awareness",
+      "claim boundary",
+      "precision"
+    ],
+    "target_failure_modes": [
+      "C1-FM-02"
+    ],
+    "context_tags": [
+      "quantum models",
+      "representation"
+    ]
+  },
+  {
+    "item_id": "C1-IB-03",
+    "node_id": "C1",
+    "prompt": "How can energy-level reasoning help predict behavior?",
+    "task_type": "energy_level_reasoning",
+    "answer_key": "It helps connect electron arrangement and possible transitions to patterns in reactivity or interaction.",
+    "scorable_traits": [
+      "structure-property linkage",
+      "model fit",
+      "scientific reasoning"
+    ],
+    "target_failure_modes": [
+      "C1-FM-03",
+      "C1-FM-04"
+    ],
+    "context_tags": [
+      "atomic structure",
+      "energy levels"
+    ]
+  }
+]

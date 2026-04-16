@@ -1,0 +1,25 @@
+# Intervention Playbook
+
+## `representation_selection_misalignment`
+
+- compare the same situation across algebraic, graphical, tabular, parametric, and polar forms and require a defense of the best fit
+- use model-selection routines that ask what structure in the situation must be preserved before any calculation starts
+- require learners to restate why one representation reveals the needed behavior better than another
+
+## `parametric_polar_disconnect`
+
+- use path-tracing routines where learners connect parameter change to motion and location before reading the formal representation
+- compare Cartesian, parametric, and polar descriptions of related situations and require a statement of what changes and what stays invariant
+- require learners to narrate the path or geometric structure before selecting or interpreting equations
+
+## `trigonometric_modeling_fragmentation`
+
+- compare multiple periodic contexts and require explicit linkage between amplitude, period, phase, midline, and the situation being modeled
+- use side-by-side graph and context routines so learners must explain what each parameter changes in both forms
+- require learners to state what repeats, over what interval, and why the trigonometric model fits
+
+## `local_global_behavior_confusion`
+
+- compare models where a local feature and a global feature suggest different conclusions and require learners to name which one controls the claim
+- use feature-priority routines that ask whether symmetry, end behavior, periodicity, or bounded local change is decisive
+- require learners to justify claims with the specific representation feature that supports them

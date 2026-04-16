@@ -1,0 +1,42 @@
+[
+  {
+    "learner_id": "example-r1-secure",
+    "node_id": "R1",
+    "status": "secure",
+    "dependency_status": {
+      "D1": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Uses symbols and simple encodings intentionally and distinguishes representations from what they stand for."
+  },
+  {
+    "learner_id": "example-r1-emerging",
+    "node_id": "R1",
+    "status": "emerging",
+    "dependency_status": {
+      "D1": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [
+      "R1-FM-01",
+      "R1-FM-02"
+    ],
+    "recommended_interventions": [
+      "R1-INT-01",
+      "R1-INT-02"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Recognizes some icons and codes but still confuses symbols, meanings, and transfer across contexts."
+  }
+]

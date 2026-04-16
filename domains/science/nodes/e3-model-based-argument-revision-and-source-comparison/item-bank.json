@@ -1,0 +1,72 @@
+{
+  "node_id": "E3",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "E3-A-001",
+      "family": "arguments_revisions_and_sources",
+      "prompt": "A model of the water cycle and a new set of rainfall data both relate to the claim. How should the argument be revised using both sources?",
+      "target_node": "E3",
+      "secondary_dependency_targets": ["E2", "M2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation", "short_text"],
+      "dominant_failure_modes_if_incorrect": ["E3-FM-01", "E3-FM-02"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "E3-A-002",
+      "family": "arguments_revisions_and_sources",
+      "prompt": "Which source better supports the claim about erosion: a labeled before-and-after image or a classmate's guess? Explain why.",
+      "target_node": "E3",
+      "secondary_dependency_targets": ["E2", "M2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["selected_response", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["E3-FM-02", "E3-FM-03"],
+      "requires_human_scoring": false
+    },
+    {
+      "item_id": "E3-B-001",
+      "family": "explanation",
+      "prompt": "Explain why a stronger model or new data should change the earlier explanation.",
+      "target_node": "E3",
+      "secondary_dependency_targets": ["E2", "M2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["E3-FM-01", "E3-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "E3-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student keeps the same claim even after the new model contradicts it. What should be checked in the argument?",
+      "target_node": "E3",
+      "secondary_dependency_targets": ["E2", "M2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["multiple_choice", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["E3-FM-01", "E3-FM-03"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "E3-D-001",
+      "family": "transfer",
+      "prompt": "Revise one explanation in a life-science context and one in an Earth-science context using stronger models or sources. Explain both revisions.",
+      "target_node": "E3",
+      "secondary_dependency_targets": ["E2", "M2"],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": ["oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["E3-FM-02", "E3-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "E3-R-001",
+      "family": "retention",
+      "prompt": "After time has passed, choose the better-revised argument from two options and explain why.",
+      "target_node": "E3",
+      "secondary_dependency_targets": ["E2", "M2"],
+      "difficulty_band": "retention",
+      "response_modes_allowed": ["selected_response", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["E3-FM-01", "E3-FM-03"],
+      "requires_human_scoring": true
+    }
+  ]
+}

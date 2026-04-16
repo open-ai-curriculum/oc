@@ -1,0 +1,29 @@
+{
+  "node_id": "E4",
+  "interventions": [
+    {
+      "failure_mode": "E4-FM-01",
+      "intervention_id": "E4-INT-01",
+      "name": "Graph To Claim Calibration",
+      "delivery": "interpretation scaffold"
+    },
+    {
+      "failure_mode": "E4-FM-02",
+      "intervention_id": "E4-INT-02",
+      "name": "Evidence Weight Ranking",
+      "delivery": "comparison task"
+    },
+    {
+      "failure_mode": "E4-FM-03",
+      "intervention_id": "E4-INT-03",
+      "name": "Supported Claim Plus Limitation",
+      "delivery": "writing protocol"
+    },
+    {
+      "failure_mode": "E4-FM-04",
+      "intervention_id": "E4-INT-04",
+      "name": "Critique To Revision Loop",
+      "delivery": "argument cycle"
+    }
+  ]
+}

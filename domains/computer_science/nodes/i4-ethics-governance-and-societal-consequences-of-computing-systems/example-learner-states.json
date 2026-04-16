@@ -1,0 +1,44 @@
+[
+  {
+    "learner_id": "example-i4-secure",
+    "node_id": "I4",
+    "status": "secure",
+    "dependency_status": {
+      "I3": "secure",
+      "N4": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Analyzes computing ethics with explicit stakeholder, governance, and consequence reasoning."
+  },
+  {
+    "learner_id": "example-i4-emerging",
+    "node_id": "I4",
+    "status": "emerging",
+    "dependency_status": {
+      "I3": "secure",
+      "N4": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [
+      "I4-FM-01",
+      "I4-FM-02"
+    ],
+    "recommended_interventions": [
+      "I4-INT-01",
+      "I4-INT-02"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Can discuss impacts and bias but still handles governance and ethics too loosely or impressionistically."
+  }
+]

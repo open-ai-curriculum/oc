@@ -1,7 +1,7 @@
 id: AP3
 slug: ap3-calculus-limits-and-derivatives
 domain: mathematics
-name: calculus_limits_and_derivatives
+name: limits_and_continuity
 support_tier: Core release
 maturity_state: Drafted
 supported_profiles:

@@ -1,0 +1,32 @@
+[
+  {
+    "item_id": "T5-IB-01",
+    "node_id": "T5",
+    "prompt": "A learner uses one decade of weather records to explain a multimillion-year Earth history pattern. What critique is needed?",
+    "task_type": "geologic_time_reasoning",
+    "answer_key": "The critique should note that the explanation collapses timescales and cannot support a geologic-time claim from such a short record.",
+    "scorable_traits": ["timescale control", "claim critique", "Earth history reasoning"],
+    "target_failure_modes": ["T5-FM-01"],
+    "context_tags": ["geologic time", "timescale"]
+  },
+  {
+    "item_id": "T5-IB-02",
+    "node_id": "T5",
+    "prompt": "Why is it incomplete to explain climate change with only one atmospheric variable and no system interactions?",
+    "task_type": "climate_system_explanation",
+    "answer_key": "The explanation should include interacting components and feedbacks within the climate system rather than isolating one variable only.",
+    "scorable_traits": ["system interaction", "climate reasoning", "model adequacy"],
+    "target_failure_modes": ["T5-FM-02"],
+    "context_tags": ["climate systems", "Earth systems"]
+  },
+  {
+    "item_id": "T5-IB-03",
+    "node_id": "T5",
+    "prompt": "A claim says humans caused every local environmental change in a region. What evidence-based revision is needed?",
+    "task_type": "human_impact_critique",
+    "answer_key": "The claim should be bounded to the evidence and distinguish human influences from other interacting Earth-system causes where appropriate.",
+    "scorable_traits": ["human-impact calibration", "evidence bounding", "system complexity"],
+    "target_failure_modes": ["T5-FM-03"],
+    "context_tags": ["human impacts", "environmental change"]
+  }
+]

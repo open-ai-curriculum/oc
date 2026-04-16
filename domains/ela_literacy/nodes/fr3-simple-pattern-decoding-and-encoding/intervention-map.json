@@ -1,0 +1,26 @@
+{
+  "node_id": "FR3",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "FR3-FM-01": [
+      "novel but simple targets",
+      "verbalize or point to each sound-symbol step",
+      "slow the routine to reveal actual pattern use"
+    ],
+    "FR3-FM-02": [
+      "pair reading and spelling of the same target",
+      "immediate shift from one direction to the other",
+      "stable target pattern across both forms"
+    ],
+    "FR3-FM-03": [
+      "new items sharing the same pattern",
+      "explicit contrast between known and new items",
+      "explain why the same pattern still works"
+    ],
+    "FR3-FM-04": [
+      "reduce word length while preserving the target pattern",
+      "isolate and reinsert the dropped element",
+      "verify every part of the pattern is tracked"
+    ]
+  }
+}

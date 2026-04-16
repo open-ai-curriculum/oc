@@ -1,37 +1,140 @@
 {
   "node_id": "B4",
+  "policy_version": "1.0",
   "items": [
     {
-      "item_id": "B4-A1",
-      "item_family": "direct",
-      "prompt": "interprets unit-circle values and graphs bounded trigonometric functions using structural periodic reasoning",
-      "expected_evidence": "graph and interpret bounded sine, cosine, and tangent behavior using structural features",
+      "item_id": "B4-DIR-001",
+      "node_id": "B4",
+      "item_family": "direct_execution",
+      "prompt": "Plot the point `(3, -2)` and explain what each coordinate controls.",
+      "expected_evidence": "identify and explain unit-circle coordinates and corresponding trigonometric values in bounded angle sets",
       "dominant_failure_mode": "angle_coordinate_period_fragmentation",
-      "scoring_guidance": "Meets when the learner preserves unit-circle, coordinate, and periodic structure while solving or graphing."
+      "scoring_guidance": "Meets when the learner demonstrates identify and explain unit-circle coordinates and corresponding trigonometric values in bounded angle sets with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "B4-B1",
-      "item_family": "explanation",
-      "prompt": "explains how movement around the unit circle generates trigonometric values and periodic graph behavior",
-      "expected_evidence": "connect periodic graph behavior to angle movement around the unit circle",
+      "item_id": "B4-DIR-002",
+      "node_id": "B4",
+      "item_family": "direct_execution",
+      "prompt": "Find the slope between `(1, 4)` and `(5, 12)` and interpret it as a rate of change.",
+      "expected_evidence": "graph and interpret bounded sine, cosine, and tangent behavior using structural features",
       "dominant_failure_mode": "unit_circle_period_opacity",
-      "scoring_guidance": "Meets when the learner explains trigonometric behavior as structured angle-coordinate-function reasoning rather than as memorized value tables."
+      "scoring_guidance": "Meets when the learner demonstrates graph and interpret bounded sine, cosine, and tangent behavior using structural features with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "B4-C1",
+      "item_id": "B4-DIR-003",
+      "node_id": "B4",
+      "item_family": "direct_execution",
+      "prompt": "Determine whether the table represents a function and justify your decision.",
+      "expected_evidence": "connect periodic graph behavior to angle movement around the unit circle",
+      "dominant_failure_mode": "quadrant_sign_misread",
+      "scoring_guidance": "Meets when the learner demonstrates connect periodic graph behavior to angle movement around the unit circle with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
+    },
+    {
+      "item_id": "B4-EXP-001",
+      "node_id": "B4",
+      "item_family": "explanation",
+      "prompt": "Explain how a table, graph, and equation can represent the same linear relationship.",
+      "expected_evidence": "identify and explain unit-circle coordinates and corresponding trigonometric values in bounded angle sets",
+      "dominant_failure_mode": "unit_circle_period_opacity",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to identify and explain unit-circle coordinates and corresponding trigonometric values in bounded angle sets.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "B4-EXP-002",
+      "node_id": "B4",
+      "item_family": "explanation",
+      "prompt": "Explain what slope means in both graphical and contextual terms.",
+      "expected_evidence": "graph and interpret bounded sine, cosine, and tangent behavior using structural features",
+      "dominant_failure_mode": "quadrant_sign_misread",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to graph and interpret bounded sine, cosine, and tangent behavior using structural features.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "B4-ERR-001",
+      "node_id": "B4",
       "item_family": "error_diagnosis",
-      "prompt": "Diagnose a peer error aligned to quadrant_sign_misread.",
+      "prompt": "A student reverses the coordinates and plots `(3, -2)` as `(-2, 3)`. Diagnose the mapping error. Focus on angle coordinate period fragmentation.",
+      "expected_evidence": "identify and explain unit-circle coordinates and corresponding trigonometric values in bounded angle sets",
+      "dominant_failure_mode": "angle_coordinate_period_fragmentation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward identify and explain unit-circle coordinates and corresponding trigonometric values in bounded angle sets.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "B4-ERR-002",
+      "node_id": "B4",
+      "item_family": "error_diagnosis",
+      "prompt": "A student says every straight-looking graph is proportional. Identify the misclassification. Focus on unit circle period opacity.",
+      "expected_evidence": "graph and interpret bounded sine, cosine, and tangent behavior using structural features",
+      "dominant_failure_mode": "unit_circle_period_opacity",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward graph and interpret bounded sine, cosine, and tangent behavior using structural features.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "B4-TRA-001",
+      "node_id": "B4",
+      "item_family": "transfer",
+      "prompt": "A ride-share charges a fixed fee plus a cost per mile. Write a rule, make a table, and interpret the slope and intercept.",
       "expected_evidence": "identify and explain unit-circle coordinates and corresponding trigonometric values in bounded angle sets",
       "dominant_failure_mode": "quadrant_sign_misread",
-      "scoring_guidance": "Meets when the learner identifies where quadrant position or coordinate sign structure was ignored."
+      "scoring_guidance": "Meets when the learner preserves identify and explain unit-circle coordinates and corresponding trigonometric values in bounded angle sets in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
     },
     {
-      "item_id": "B4-D1",
+      "item_id": "B4-TRA-002",
+      "node_id": "B4",
       "item_family": "transfer",
-      "prompt": "interprets a less-familiar trigonometric-function context and selects the representation that reveals the needed periodic or angular meaning",
-      "expected_evidence": "solve bounded trigonometric-function questions while preserving periodic and coordinate meaning",
+      "prompt": "Given a graph and a verbal description, decide whether they could represent the same relationship and justify the match.",
+      "expected_evidence": "graph and interpret bounded sine, cosine, and tangent behavior using structural features",
       "dominant_failure_mode": "triangle_unit_circle_disconnect",
-      "scoring_guidance": "Meets when the learner preserves coherent trigonometric-function meaning across right-triangle, unit-circle, and graph contexts."
+      "scoring_guidance": "Meets when the learner preserves graph and interpret bounded sine, cosine, and tangent behavior using structural features in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "B4-RET-001",
+      "node_id": "B4",
+      "item_family": "retention",
+      "prompt": "On a delayed check, move between a rule, a table, and a graph for a linear relationship and explain the connection.",
+      "expected_evidence": "identify and explain unit-circle coordinates and corresponding trigonometric values in bounded angle sets",
+      "dominant_failure_mode": "triangle_unit_circle_disconnect",
+      "scoring_guidance": "Meets when the learner still demonstrates identify and explain unit-circle coordinates and corresponding trigonometric values in bounded angle sets on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "B4-PRE-001",
+      "node_id": "B4",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a prerequisite probe on right triangle trigonometric ratio foundations to see whether the learner is blocked by graph/coordinate foundations or by trigonometric functions and unit circle itself.",
+      "expected_evidence": "shows whether right triangle trigonometric ratio foundations is secure enough to support trigonometric functions and unit circle",
+      "dominant_failure_mode": "unit_circle_period_opacity",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in right triangle trigonometric ratio foundations from a current-node issue in trigonometric functions and unit circle.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "H4",
+      "suspected_knowledge_gap_if_incorrect": "right triangle trigonometric ratio foundations"
+    },
+    {
+      "item_id": "B4-PRE-002",
+      "node_id": "B4",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a prerequisite probe on coordinate plane and ordered pairs to see whether the learner is blocked by graph/coordinate foundations or by trigonometric functions and unit circle itself.",
+      "expected_evidence": "shows whether coordinate plane and ordered pairs is secure enough to support trigonometric functions and unit circle",
+      "dominant_failure_mode": "quadrant_sign_misread",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in coordinate plane and ordered pairs from a current-node issue in trigonometric functions and unit circle.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "A4",
+      "suspected_knowledge_gap_if_incorrect": "coordinate plane and ordered pairs"
     }
   ]
 }

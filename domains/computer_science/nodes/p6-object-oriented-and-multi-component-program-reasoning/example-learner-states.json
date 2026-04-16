@@ -1,0 +1,44 @@
+[
+  {
+    "learner_id": "example-p6-secure",
+    "node_id": "P6",
+    "status": "secure",
+    "dependency_status": {
+      "P5": "secure",
+      "C3": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Explains classes, objects, and interacting components with stable state and responsibility reasoning."
+  },
+  {
+    "learner_id": "example-p6-emerging",
+    "node_id": "P6",
+    "status": "emerging",
+    "dependency_status": {
+      "P5": "secure",
+      "C3": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [
+      "P6-FM-01",
+      "P6-FM-02"
+    ],
+    "recommended_interventions": [
+      "P6-INT-01",
+      "P6-INT-02"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Can write class-shaped code but still confuses instances, state, and cross-component interactions."
+  }
+]

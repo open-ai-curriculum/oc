@@ -1,0 +1,39 @@
+id: P3
+name: phonological_awareness
+domain: ela_literacy
+support_tier: Core release
+maturity_state: Drafted
+supported_profiles:
+  - upstream-readiness-node-package
+evidence_class: Synthetic
+dependencies:
+  - O2
+mastery:
+  direct_accuracy_threshold: 0.85
+  explanation_required: false
+  transfer_required: true
+  retention_check_days: 14
+statuses:
+  - blocked
+  - emerging
+  - provisional
+  - secure
+  - unstable
+verification_gates:
+  - id: G1
+    type: direct_performance
+    pass_rule: correctly detects or manipulates rhyme, syllable, or onset-rime structure in at least 5 of 6 structured oral tasks
+  - id: G2
+    type: meaning
+    pass_rule: distinguishes relevant sound features from semantic or visual distractors in at least 4 of 5 changed prompts
+  - id: G3
+    type: transfer
+    pass_rule: succeeds across at least one changed oral format, prompt style, or word set
+  - id: G4
+    type: retention
+    pass_rule: stable delayed recheck after approximately 14 days
+failure_modes:
+  - P3-FM-01
+  - P3-FM-02
+  - P3-FM-03
+  - P3-FM-04

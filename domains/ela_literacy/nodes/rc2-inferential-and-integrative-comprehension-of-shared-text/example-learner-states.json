@@ -1,0 +1,25 @@
+[
+  {
+    "learner_id": "example-rc2-emerging",
+    "node_id": "RC2",
+    "status": "emerging",
+    "dependency_status": {
+      "RC1": "secure"
+    },
+    "direct_accuracy": 0.76,
+    "explanation_status": "weak",
+    "transfer_status": "weak",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [
+      "RC2-FM-01",
+      "RC2-FM-02"
+    ],
+    "recommended_interventions": [
+      "tighten the task around inference so the target is more visible",
+      "keep the text or prompt surface small enough to isolate inference without anchor"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Learner shows emerging control on RC2 but still needs more stable transfer and explanation."
+  }
+]

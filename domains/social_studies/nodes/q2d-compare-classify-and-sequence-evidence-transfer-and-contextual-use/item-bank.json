@@ -1,0 +1,18 @@
+{
+  "node_id": "Q2D",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "Q2D-G1-01",
+      "node_id": "Q2D",
+      "gate": "G1",
+      "prompt": "Complete a bounded transfer and contextual use task for compare classify and sequence evidence and explain your reasoning.",
+      "response_mode": "oral_or_written_or_annotated",
+      "scoring_rule": "Completes the task accurately and gives a usable explanation of the structure or reasoning.",
+      "failure_mode_targets": [
+        "Q2D-FM-01",
+        "Q2D-FM-02"
+      ]
+    }
+  ]
+}

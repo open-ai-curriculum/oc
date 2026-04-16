@@ -1,0 +1,37 @@
+id: FR6
+name: connected_text_fluency_and_tracking
+domain: ela_literacy
+support_tier: Core release
+maturity_state: Drafted
+supported_profiles:
+  - foundational-reading-node-package
+evidence_class: Synthetic
+dependencies:
+  - FR5
+  - P2
+mastery:
+  direct_accuracy_threshold: 0.9
+  explanation_required: false
+  transfer_required: true
+  retention_check_days: 21
+statuses:
+  - blocked
+  - emerging
+  - provisional
+  - secure
+  - unstable
+verification_gates:
+  - id: G1
+    type: direct_performance
+    pass_rule: reads connected text with accurate tracking and usable pacing in at least 9 of 10 structured opportunities
+  - id: G2
+    type: transfer
+    pass_rule: maintains connected-text control across at least one changed passage, line arrangement, or brief text surface
+  - id: G3
+    type: retention
+    pass_rule: stable delayed recheck after approximately 21 days
+failure_modes:
+  - FR6-FM-01
+  - FR6-FM-02
+  - FR6-FM-03
+  - FR6-FM-04

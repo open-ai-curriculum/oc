@@ -1,0 +1,44 @@
+{
+  "node_id": "E2",
+  "examples": [
+    {
+      "learner_id": "sample-e2-blocked-01",
+      "node_id": "E2",
+      "status": "blocked",
+      "dependency_status": {
+        "E1": "secure",
+        "I2": "secure"
+      },
+      "direct_accuracy": 0.48,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["E2-FM-01", "E2-FM-02"],
+      "recommended_interventions": [
+        "match claims to the most relevant evidence from a small set",
+        "use sentence frames such as This evidence supports the claim because"
+      ],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Can name a claim and some data, but does not yet link them with clear reasoning."
+    },
+    {
+      "learner_id": "sample-e2-secure-01",
+      "node_id": "E2",
+      "status": "secure",
+      "dependency_status": {
+        "E1": "secure",
+        "I2": "secure"
+      },
+      "direct_accuracy": 0.93,
+      "explanation_status": "met",
+      "transfer_status": "met",
+      "retention_status": "met",
+      "dominant_failure_modes": [],
+      "recommended_interventions": [],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Builds basic CER responses and distinguishes stronger from weaker explanations across multiple contexts."
+    }
+  ]
+}

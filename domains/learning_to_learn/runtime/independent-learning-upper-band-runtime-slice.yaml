@@ -1,0 +1,44 @@
+slice_id: learning-to-learn-independent-learning-upper-band
+domain: learning_to_learn
+status: draft
+version: "0.1"
+node_ids: [A3, M4, S4, R4, T2]
+entry_node_ids: [A3, R4]
+learner_state_fields:
+  - status
+  - dependency_status
+  - direct_accuracy
+  - explanation_status
+  - transfer_status
+  - retention_status
+  - dominant_failure_modes
+  - recommended_interventions
+navigation_rules:
+  - rule_id: ltl-upper-01
+    decision_type: hold_current
+    applies_when: [direct_accuracy_below_threshold, dominant_failure_mode_present]
+    outcome: remain_on_current_node_and_serve_bounded_support_asset
+    artifact_selection: learning-to-learn-core-support-artifact-registry
+  - rule_id: ltl-upper-02
+    decision_type: teach_next
+    applies_when: [current_node_secure, transfer_status_met, retention_not_yet_due_or_met]
+    outcome: route_to_next_graph_successor_if_dependencies_resolve
+    artifact_selection: learning-to-learn-core-support-artifact-registry
+  - rule_id: ltl-upper-03
+    decision_type: reverify
+    applies_when: [retention_due, current_node_previously_secure]
+    outcome: serve_delayed_recheck_before_further_advancement
+  - rule_id: ltl-upper-04
+    decision_type: route_upstream
+    applies_when: [dependency_status_contains_unmet, current_node_blocked_by_dependency]
+    outcome: return_to_unmet_learning_to_learn_dependency
+  - rule_id: ltl-upper-05
+    decision_type: accelerate
+    applies_when: [current_node_secure, transfer_status_met, retention_status_met, novel_context_success_observed]
+    outcome: allow_entry_into_more_distant_transfer_or_independent_orchestration_work
+  - rule_id: ltl-upper-06
+    decision_type: route_human_review
+    applies_when: [repeated_blocking_after_two_intervention_cycles, review_state_requires_human_judgment]
+    outcome: pause_automatic_routing_and_request_human_review
+artifact_registry_reference: domains/learning_to_learn/artifact-attachments/learning-to-learn-core-support-artifact-registry.yaml
+review_status: draft

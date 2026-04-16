@@ -1,0 +1,26 @@
+{
+  "node_id": "D2",
+  "version": "0.1",
+  "interventions": {
+    "D2-FM-01": [
+      "compare expected versus actual test results",
+      "highlight what counted as success before reading the result",
+      "use simple before-and-after test notes"
+    ],
+    "D2-FM-02": [
+      "require the learner to point to the specific test problem before proposing a change",
+      "compare evidence-based and random redesign choices",
+      "use sentence frames such as I would change this because the test showed"
+    ],
+    "D2-FM-03": [
+      "compare one design that helps one goal but hurts another",
+      "use a two-column note for helps and makes harder",
+      "check redesigns against all criteria and constraints one by one"
+    ],
+    "D2-FM-04": [
+      "repeat the test-redesign routine across bridge shelter and boat examples",
+      "preserve the redesign logic while changing the design problem",
+      "fade scaffolds after a successful familiar example"
+    ]
+  }
+}

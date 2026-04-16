@@ -1,0 +1,26 @@
+{
+  "node_id": "P2",
+  "version": "0.1",
+  "interventions": {
+    "P2-FM-01": [
+      "compare before-and-after material states directly",
+      "ask what stayed the same and what changed",
+      "use images or observations from the same event in sequence"
+    ],
+    "P2-FM-02": [
+      "pair each energy example with an observable effect such as warming lighting or sound",
+      "ask what evidence shows energy moved",
+      "compare evidence-based and unsupported energy statements"
+    ],
+    "P2-FM-03": [
+      "trace a visible force event and the resulting motion or change",
+      "use arrows or short before/after diagrams",
+      "ask what happened right after the force acted"
+    ],
+    "P2-FM-04": [
+      "separate observed physical evidence from intention-based explanations",
+      "ask what was actually seen happen in the system",
+      "compare a science explanation with a pretend explanation"
+    ]
+  }
+}

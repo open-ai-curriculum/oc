@@ -1,0 +1,21 @@
+[
+  {
+    "learner_id": "example-p3-emerging",
+    "node_id": "P3",
+    "status": "emerging",
+    "dependency_status": {
+      "O2": "secure"
+    },
+    "direct_accuracy": 0.68,
+    "transfer_status": "weak",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["P3-FM-01", "P3-FM-03"],
+    "recommended_interventions": [
+      "oral-only rhyme and syllable contrast routines",
+      "changed prompt formats using the same sound target"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Learner succeeds on one familiar rhyme routine but loses performance when wording changes."
+  }
+]

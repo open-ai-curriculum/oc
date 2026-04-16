@@ -1,0 +1,16 @@
+{
+  "node_id": "G6",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "G6-G1-01",
+      "node_id": "G6",
+      "gate": "G1",
+      "prompt": "Use the geospatial evidence to support a bounded planning or policy recommendation and explain how scale or representation shapes the decision.",
+      "representation_type": "geospatial_analysis_set",
+      "response_mode": "oral_or_written_or_annotated",
+      "scoring_rule": "Uses geospatial evidence plausibly, ties the analysis to a decision, and explains at least one scale-sensitive tradeoff or limitation.",
+      "failure_mode_targets": ["G6-FM-01", "G6-FM-02"]
+    }
+  ]
+}

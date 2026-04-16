@@ -1,0 +1,37 @@
+{
+  "node_id": "R3",
+  "interventions": [
+    {
+      "intervention_id": "R3-INT-01",
+      "name": "R3 Intervention 1",
+      "addresses_failure_modes": [
+        "R3-FM-01"
+      ],
+      "summary": "instrumentation maps linking physical quantity, sensor, circuit, and output"
+    },
+    {
+      "intervention_id": "R3-INT-02",
+      "name": "R3 Intervention 2",
+      "addresses_failure_modes": [
+        "R3-FM-02"
+      ],
+      "summary": "calibration and noise audits before data interpretation"
+    },
+    {
+      "intervention_id": "R3-INT-03",
+      "name": "R3 Intervention 3",
+      "addresses_failure_modes": [
+        "R3-FM-03"
+      ],
+      "summary": "embedded-measurement tasks that force setup reasoning, not output trust alone"
+    },
+    {
+      "intervention_id": "R3-INT-04",
+      "name": "R3 Intervention 4",
+      "addresses_failure_modes": [
+        "R3-FM-04"
+      ],
+      "summary": "validation routines comparing instrument readings with independent checks"
+    }
+  ]
+}

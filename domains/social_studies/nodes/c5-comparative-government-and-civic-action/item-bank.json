@@ -1,0 +1,16 @@
+{
+  "node_id": "C5",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "C5-G1-01",
+      "node_id": "C5",
+      "gate": "G1",
+      "prompt": "Compare two civic systems or institutional arrangements and explain which civic action is best matched to the case and why.",
+      "context_type": "comparative_civics_scenario",
+      "response_mode": "oral_or_written_or_deliberation_notes",
+      "scoring_rule": "Makes a plausible comparison of civic structures and selects a civic action that fits the institutional context.",
+      "failure_mode_targets": ["C5-FM-01", "C5-FM-02"]
+    }
+  ]
+}

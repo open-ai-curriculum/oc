@@ -1,0 +1,228 @@
+{
+  "node_id": "N1",
+  "policy_version": "1.0",
+  "version": "0.4",
+  "items": [
+    {
+      "item_id": "N1-DIR-001",
+      "node_id": "N1",
+      "item_family": "direct_execution",
+      "prompt": "A student sends a file across a school network, and the teacher asks which devices or services are involved. Show how the learner would name at least two connected parts in a simple digital system.",
+      "expected_evidence": "name at least two connected parts in a simple digital system",
+      "dominant_failure_mode_targets": [
+        "N1-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates name at least two connected parts in a simple digital system with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "N1-DIR-002",
+      "node_id": "N1",
+      "item_family": "direct_execution",
+      "prompt": "A classroom app stops working because a login, connection, or system layer matters. Explain the setup and show how the learner would describe a bounded information movement between devices or system parts.",
+      "expected_evidence": "describe a bounded information movement between devices or system parts",
+      "dominant_failure_mode_targets": [
+        "N1-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates describe a bounded information movement between devices or system parts with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "N1-DIR-003",
+      "node_id": "N1",
+      "item_family": "direct_execution",
+      "prompt": "A security scenario is presented involving access control, privacy, or a likely attack. Show how the learner would distinguish a local action from one that depends on a connection.",
+      "expected_evidence": "distinguish a local action from one that depends on a connection",
+      "dominant_failure_mode_targets": [
+        "N1-FM-03"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates distinguish a local action from one that depends on a connection with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "N1-EXP-001",
+      "node_id": "N1",
+      "item_family": "explanation",
+      "prompt": "Why might one device not be doing the whole job in a digital task?",
+      "expected_evidence": "because the task may depend on other devices or services that send, receive, store, or process information too.",
+      "dominant_failure_mode_targets": [
+        "N1-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to because the task may depend on other devices or services that send, receive, store, or process information too."
+    },
+    {
+      "item_id": "N1-EXP-002",
+      "node_id": "N1",
+      "item_family": "explanation",
+      "prompt": "How is a connected task different from a local one?",
+      "expected_evidence": "a connected task depends on information moving between system parts, while a local task can happen on one device alone.",
+      "dominant_failure_mode_targets": [
+        "N1-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to a connected task depends on information moving between system parts, while a local task can happen on one device alone."
+    },
+    {
+      "item_id": "N1-ERR-001",
+      "node_id": "N1",
+      "item_family": "error_diagnosis",
+      "prompt": "In a network or security scenario, a learner responds in a way that suggests this breakdown: learner assumes one visible device is doing everything in a connected task. Diagnose the systems or cybersecurity mistake. Focus on single-device belief.",
+      "expected_evidence": "name at least two connected parts in a simple digital system",
+      "dominant_failure_mode_targets": [
+        "N1-FM-01"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward name at least two connected parts in a simple digital system."
+    },
+    {
+      "item_id": "N1-ERR-002",
+      "node_id": "N1",
+      "item_family": "error_diagnosis",
+      "prompt": "In a network or security scenario, a learner responds in a way that suggests this breakdown: learner does not understand why a connection is needed for the bounded task. Diagnose the systems or cybersecurity mistake. Focus on connection-purpose confusion.",
+      "expected_evidence": "describe a bounded information movement between devices or system parts",
+      "dominant_failure_mode_targets": [
+        "N1-FM-02"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward describe a bounded information movement between devices or system parts."
+    },
+    {
+      "item_id": "N1-TRA-001",
+      "node_id": "N1",
+      "item_family": "transfer",
+      "prompt": "A network or security idea learned with one classroom example is now embedded in a different system such as streaming, cloud storage, or a shared document. Explain how the learner would distinguish a local action from one that depends on a connection.",
+      "expected_evidence": "distinguish a local action from one that depends on a connection",
+      "dominant_failure_mode_targets": [
+        "N1-FM-03"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves distinguish a local action from one that depends on a connection in a changed computing context or representation."
+    },
+    {
+      "item_id": "N1-TRA-002",
+      "node_id": "N1",
+      "item_family": "transfer",
+      "prompt": "A learner must move from a visible device-level description to a more abstract system or threat-model case and still preserve the same reasoning. Show how they would avoid describing all network activity as unexplained magic.",
+      "expected_evidence": "avoid describing all network activity as unexplained magic",
+      "dominant_failure_mode_targets": [
+        "N1-FM-04"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves avoid describing all network activity as unexplained magic in a changed computing context or representation."
+    },
+    {
+      "item_id": "N1-RET-001",
+      "node_id": "N1",
+      "item_family": "retention",
+      "prompt": "After a delay, the learner is given a fresh connected-system or security case and must explain the pathway, layer, risk, or defense involved. Show how they would name at least two connected parts in a simple digital system.",
+      "expected_evidence": "name at least two connected parts in a simple digital system",
+      "dominant_failure_mode_targets": [
+        "N1-FM-04"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_explanation",
+        "constructed_response"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability",
+      "scoring_guidance": "Meets when the learner still demonstrates name at least two connected parts in a simple digital system on a delayed recheck without a blocking recurrence."
+    },
+    {
+      "item_id": "N1-PRE-001",
+      "node_id": "N1",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a short systems or access-control check on file, device, and input-output workflow awareness before closing connected devices and basic network awareness, and decide whether the current problem is actually an upstream dependency gap.",
+      "expected_evidence": "shows whether file, device, and input-output workflow awareness is secure enough to support connected devices and basic network awareness",
+      "dominant_failure_mode_targets": [
+        "N1-FM-01"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in file, device, and input-output workflow awareness from a current-node issue in connected devices and basic network awareness.",
+      "dependency_target": "D2",
+      "suspected_knowledge_gap_if_incorrect": "file, device, and input-output workflow awareness"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+[
+  {
+    "item_id": "F4-IB-01",
+    "node_id": "F4",
+    "prompt": "Why is current alone not enough to explain a circuit outcome?",
+    "task_type": "circuit_reasoning",
+    "answer_key": "A strong answer also considers potential differences, resistance, and how the full circuit system is configured.",
+    "scorable_traits": [
+      "system explanation",
+      "concept distinction",
+      "transfer"
+    ],
+    "target_failure_modes": [
+      "F4-FM-01",
+      "F4-FM-02"
+    ],
+    "context_tags": [
+      "circuits",
+      "electricity"
+    ]
+  },
+  {
+    "item_id": "F4-IB-02",
+    "node_id": "F4",
+    "prompt": "What makes a field explanation different from a component description?",
+    "task_type": "field_modeling",
+    "answer_key": "A field explanation models how interactions are distributed in space rather than naming one object or part only.",
+    "scorable_traits": [
+      "model use",
+      "spatial reasoning",
+      "precision"
+    ],
+    "target_failure_modes": [
+      "F4-FM-01"
+    ],
+    "context_tags": [
+      "electrostatics",
+      "fields"
+    ]
+  },
+  {
+    "item_id": "F4-IB-03",
+    "node_id": "F4",
+    "prompt": "Why is a magnetic direction rule not a complete explanation?",
+    "task_type": "magnetism_critique",
+    "answer_key": "A complete explanation should connect the rule to the underlying charge or field interaction in the bounded case.",
+    "scorable_traits": [
+      "interaction reasoning",
+      "critique quality",
+      "discipline"
+    ],
+    "target_failure_modes": [
+      "F4-FM-03",
+      "F4-FM-04"
+    ],
+    "context_tags": [
+      "magnetism",
+      "fields"
+    ]
+  }
+]

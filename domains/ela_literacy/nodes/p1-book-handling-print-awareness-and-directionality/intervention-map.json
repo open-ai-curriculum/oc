@@ -1,0 +1,21 @@
+{
+  "node_id": "P1",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "P1-FM-01": [
+      "modeled book-handling routines with one print object at a time",
+      "explicit page-turning and orientation rehearsal",
+      "reduced competing materials"
+    ],
+    "P1-FM-02": [
+      "side-by-side print-versus-picture contrasts",
+      "which part is for reading prompts",
+      "repeat language that print carries the message"
+    ],
+    "P1-FM-03": [
+      "finger tracking through short repeated text",
+      "where reading starts rehearsal",
+      "stable layout before changed format"
+    ]
+  }
+}

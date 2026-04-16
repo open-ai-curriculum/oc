@@ -12,22 +12,24 @@
 
 ## Purpose
 
-The learner synthesizes advanced-function analysis, trigonometric modeling, parametric and polar representations, and representation-driven model selection into a coherent AP Precalculus-level reasoning system rather than treating those strands as separate end-of-course topics.
+The learner integrates advanced function synthesis, analytic trigonometry, conic reasoning, and vector or parametric representations into a coherent AP Precalculus-level system that reflects the course's multi-unit architecture rather than compressing it into one broad capstone skill.
 
 ## Dependencies
 
-- `B4`
 - `B5`
+- `B6`
+- `B9`
+- `B10`
 
 
 ## Exit Conditions
 
 The learner is secure on this node only when all of the following are true:
 
-1. selects and justifies among algebraic, graphical, tabular, verbal, parametric, and polar representations for bounded AP Precalculus-style tasks
-2. synthesizes transformations, inverses, periodicity, symmetry, and average or local behavior across advanced function families
-3. interprets trigonometric, parametric, and polar models as connected ways of representing change, motion, and repeating structure
-4. compares competing models and explains which features, parameters, or representations govern the situation most strongly
+1. coordinates advanced-function, analytic-trigonometric, conic, and vector or parametric reasoning across bounded AP Precalculus-style tasks
+2. selects and justifies the most revealing representation among algebraic, graphical, tabular, trigonometric, conic, vector, and parametric forms
+3. explains how features and parameters transfer across units, including oscillation, curvature, recurrence, coordinate structure, and directed change
+4. solves bounded multi-step AP Precalculus-style problems that require integrating more than one advanced node family without collapsing the structure
 5. passes a delayed recheck after spacing
 
 
@@ -42,10 +44,10 @@ The learner is secure on this node only when all of the following are true:
 
 The learner can:
 
-- choose and justify an appropriate advanced representation or model family for a bounded AP Precalculus-style task
-- compare function behavior across algebraic, graphical, parametric, and polar forms without losing the underlying structure
-- explain how parameters and representations control periodicity, symmetry, growth, and change
-- connect trigonometric, parametric, polar, and family-synthesis reasoning in one coherent modeling analysis
+- solve bounded AP Precalculus-style tasks that combine advanced function reasoning with analytic trig, conics, or vector and parametric structure
+- justify the selected representation and explain how structural features persist across forms
+- compare advanced models across units without losing periodic, coordinate, or directed-change meaning
+- integrate multiple advanced topics in one coherent explanation rather than treating units as isolated chapters
 
 
 ## Claim Boundary

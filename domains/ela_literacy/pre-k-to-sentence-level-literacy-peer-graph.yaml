@@ -1,0 +1,50 @@
+graph_view_id: pre_k_to_sentence_level_literacy_peer_graph
+domain: ela_literacy
+version: "0.1"
+purpose: broad early-literacy peer graph rather than narrow prerequisite-only path
+node_ids:
+  - O1
+  - O2
+  - O3
+  - P1
+  - P2
+  - P3
+  - P4
+  - FR1
+  - FR2
+  - FR3
+  - FR4
+  - FR5
+  - FR6
+  - R1
+  - R2
+  - L1
+  - W1
+  - W2
+families:
+  - O
+  - P
+  - F
+  - R
+  - L
+  - W
+dependencies:
+  O1: []
+  O2: [O1]
+  O3: [O2]
+  P1: [O1]
+  P2: [P1, O2]
+  P3: [O2]
+  P4: [P1, P3]
+  FR1: [P3, P4]
+  FR2: [FR1]
+  FR3: [FR2]
+  FR4: [FR3]
+  FR5: [FR4]
+  FR6: [FR5, P2]
+  R1: [O3, P1]
+  R2: [FR4, R1]
+  L1: [O3, P4]
+  W1: [O3, P4]
+  W2: [FR4, L1, W1]
+review_status: draft

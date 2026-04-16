@@ -1,0 +1,60 @@
+[
+  {
+    "item_id": "F2-IB-01",
+    "node_id": "F2",
+    "prompt": "Why is a rotational variable not just the linear one with a new symbol?",
+    "task_type": "rotation_reasoning",
+    "answer_key": "A strong answer explains what the rotational quantity represents and how the system geometry changes the interpretation.",
+    "scorable_traits": [
+      "model distinction",
+      "mechanical reasoning",
+      "precision"
+    ],
+    "target_failure_modes": [
+      "F2-FM-01"
+    ],
+    "context_tags": [
+      "rotation",
+      "mechanics"
+    ]
+  },
+  {
+    "item_id": "F2-IB-02",
+    "node_id": "F2",
+    "prompt": "What makes an oscillation explanation more than saying it repeats?",
+    "task_type": "oscillation_explanation",
+    "answer_key": "A strong explanation identifies the restoring effect, system conditions, and how energy changes within the oscillation.",
+    "scorable_traits": [
+      "dynamic reasoning",
+      "system explanation",
+      "transfer"
+    ],
+    "target_failure_modes": [
+      "F2-FM-02"
+    ],
+    "context_tags": [
+      "oscillation",
+      "energy"
+    ]
+  },
+  {
+    "item_id": "F2-IB-03",
+    "node_id": "F2",
+    "prompt": "Why does orbital motion need more than a gravitation formula quote?",
+    "task_type": "gravitation_modeling",
+    "answer_key": "It requires connecting interaction strength, motion, and system conditions rather than citing a relation without interpretation.",
+    "scorable_traits": [
+      "model use",
+      "causal linkage",
+      "discipline"
+    ],
+    "target_failure_modes": [
+      "F2-FM-03",
+      "F2-FM-04"
+    ],
+    "context_tags": [
+      "gravitation",
+      "orbits"
+    ]
+  }
+]

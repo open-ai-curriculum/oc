@@ -1,0 +1,26 @@
+{
+  "node_id": "WC4",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "WC4-FM-01": [
+      "tighten the task around evidence drop-in without integration so the target is more visible",
+      "keep the response surface bounded enough to isolate the real bottleneck",
+      "rerun a changed-surface check after one short intervention cycle"
+    ],
+    "WC4-FM-02": [
+      "tighten the task around source-relevance mismatch so the target is more visible",
+      "keep the response surface bounded enough to isolate the real bottleneck",
+      "rerun a changed-surface check after one short intervention cycle"
+    ],
+    "WC4-FM-03": [
+      "tighten the task around paragraph-coherence collapse under source load so the target is more visible",
+      "keep the response surface bounded enough to isolate the real bottleneck",
+      "rerun a changed-surface check after one short intervention cycle"
+    ],
+    "WC4-FM-04": [
+      "tighten the task around prompt-type confusion so the target is more visible",
+      "keep the response surface bounded enough to isolate the real bottleneck",
+      "rerun a changed-surface check after one short intervention cycle"
+    ]
+  }
+}

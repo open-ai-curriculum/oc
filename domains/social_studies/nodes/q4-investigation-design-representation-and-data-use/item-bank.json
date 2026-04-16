@@ -1,0 +1,16 @@
+{
+  "node_id": "Q4",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "Q4-G1-01",
+      "node_id": "Q4",
+      "gate": "G1",
+      "prompt": "Choose or read the chart, table, or map that helps answer the question and explain what the evidence shows.",
+      "representation_type": "chart_table_or_map",
+      "response_mode": "oral_or_written_or_annotated",
+      "scoring_rule": "Uses a relevant representation and derives a plausible answer from it.",
+      "failure_mode_targets": ["Q4-FM-01", "Q4-FM-02"]
+    }
+  ]
+}

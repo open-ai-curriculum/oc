@@ -1,0 +1,21 @@
+{
+  "node_id": "M1",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "M1-FM-01": [
+      "active repeat say show or mark move immediately after presentation",
+      "modeled encoding routine before independent use",
+      "small amount of new information for one deliberate encoding cycle"
+    ],
+    "M1-FM-02": [
+      "shorter amount of information held at one time",
+      "visible supports during the first rehearsal cycle",
+      "repeated encode-and-recall cycle before new information"
+    ],
+    "M1-FM-03": [
+      "representation matched to information structure",
+      "smaller or more stable chunks",
+      "comparison of successful and unsuccessful encoding examples"
+    ]
+  }
+}

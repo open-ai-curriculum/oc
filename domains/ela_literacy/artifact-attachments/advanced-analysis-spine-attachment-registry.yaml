@@ -1,0 +1,319 @@
+registry_id: ela-literacy-advanced-analysis-spine-attachments
+domain: ela_literacy
+status: draft
+version: '0.1'
+target_scope:
+  primary_node_ids:
+  - R4
+  - R5
+  - R6
+  - WC7
+  - WC8
+  - AC1
+  - AC2
+  - AC3
+  - AC4
+  - AC5
+  notes: Initial machine-readable artifact attachment registry for the advanced disciplinary,
+    research, rhetorical, and literary capstone slice.
+artifacts:
+- artifact_id: ela-r6-lesson-pattern-01
+  artifact_type: LessonPattern
+  title: Cross-Text Synthesis Lesson Pattern
+  status: draft
+  support_tier: Core release
+  maturity_state: Modeled
+  target_entity_type: CapabilityNode
+  target_entity_id: R6
+  primary_node_id: R6
+  purpose: instruction
+  delivery_format: printable_and_digital
+  source_path: curriculum/ela_literacy/advanced/r6/lesson-pattern-01.md
+  grade_band: Grades 8-12
+  content_domain: disciplinary literacy and synthesis
+  verification_gate_targets:
+  - G1
+  - G2
+  response_modes_supported:
+  - oral
+  - written
+  review_status: draft
+- artifact_id: ela-r6-verification-task-01
+  artifact_type: VerificationTask
+  title: Cross-Text Synthesis Verification Task
+  status: draft
+  support_tier: Core release
+  maturity_state: Modeled
+  target_entity_type: CapabilityNode
+  target_entity_id: R6
+  primary_node_id: R6
+  purpose: verification
+  delivery_format: printable_and_digital
+  source_path: curriculum/ela_literacy/advanced/r6/verification-task-01.md
+  grade_band: Grades 8-12
+  content_domain: disciplinary literacy and synthesis
+  verification_gate_targets:
+  - G1
+  - G2
+  - G3
+  review_status: draft
+- artifact_id: ela-r6-intervention-01
+  artifact_type: InterventionAsset
+  title: Cross-Text Synthesis Alignment Intervention
+  status: draft
+  support_tier: Core release
+  maturity_state: Modeled
+  target_entity_type: CapabilityNode
+  target_entity_id: R6
+  primary_node_id: R6
+  purpose: intervention
+  delivery_format: printable_and_digital
+  source_path: curriculum/ela_literacy/advanced/r6/intervention-01.md
+  grade_band: Grades 8-12
+  content_domain: disciplinary literacy and synthesis
+  failure_mode_targets:
+  - R6-FM-01
+  - R6-FM-02
+  intervention_targets:
+  - cross-text-link-rebuild
+  - synthesis-claim-alignment
+  review_status: draft
+- artifact_id: ela-r6-teacher-support-01
+  artifact_type: TeacherDecisionSupport
+  title: Cross-Text Synthesis Teacher Decision Guide
+  status: draft
+  support_tier: Core release
+  maturity_state: Modeled
+  target_entity_type: CapabilityNode
+  target_entity_id: R6
+  primary_node_id: R6
+  purpose: teacher_support
+  delivery_format: printable_and_digital
+  source_path: curriculum/ela_literacy/advanced/r6/teacher-decision-guide-01.md
+  grade_band: Grades 8-12
+  content_domain: disciplinary literacy and synthesis
+  review_status: draft
+- artifact_id: ela-wc8-worked-example-01
+  artifact_type: WorkedExample
+  title: Attribution And Citation Control Worked Examples
+  status: draft
+  support_tier: Core release
+  maturity_state: Modeled
+  target_entity_type: CapabilityNode
+  target_entity_id: WC8
+  primary_node_id: WC8
+  purpose: instruction
+  delivery_format: printable_and_digital
+  source_path: curriculum/ela_literacy/advanced/wc8/worked-examples-01.md
+  grade_band: Grades 9-12
+  content_domain: research writing and citation control
+  verification_gate_targets:
+  - G1
+  - G2
+  response_modes_supported:
+  - written
+  review_status: draft
+- artifact_id: ela-wc8-assessment-bundle-01
+  artifact_type: AssessmentBundle
+  title: Attribution And Citation Control Assessment Bundle
+  status: draft
+  support_tier: Core release
+  maturity_state: Modeled
+  target_entity_type: CapabilityNode
+  target_entity_id: WC8
+  primary_node_id: WC8
+  purpose: assessment
+  delivery_format: printable_and_digital
+  source_path: curriculum/ela_literacy/advanced/wc8/assessment-bundle-01.md
+  grade_band: Grades 9-12
+  content_domain: research writing and citation control
+  verification_gate_targets:
+  - G1
+  - G2
+  - G3
+  review_status: draft
+- artifact_id: ela-wc8-reteach-01
+  artifact_type: ReteachRoutine
+  title: Attribution And Citation Reteach Routine
+  status: draft
+  support_tier: Core release
+  maturity_state: Modeled
+  target_entity_type: CapabilityNode
+  target_entity_id: WC8
+  primary_node_id: WC8
+  purpose: intervention
+  delivery_format: printable_and_digital
+  source_path: curriculum/ela_literacy/advanced/wc8/reteach-routine-01.md
+  grade_band: Grades 9-12
+  content_domain: research writing and citation control
+  failure_mode_targets:
+  - WC8-FM-01
+  - WC8-FM-02
+  - WC8-FM-03
+  review_status: draft
+- artifact_id: ela-wc8-exemplar-01
+  artifact_type: Exemplar
+  title: Attribution And Citation Control Exemplar Response
+  status: draft
+  support_tier: Core release
+  maturity_state: Modeled
+  target_entity_type: CapabilityNode
+  target_entity_id: WC8
+  primary_node_id: WC8
+  purpose: support
+  delivery_format: printable_and_digital
+  source_path: curriculum/ela_literacy/advanced/wc8/exemplar-01.md
+  grade_band: Grades 9-12
+  content_domain: research writing and citation control
+  review_status: draft
+- artifact_id: ela-ac3-lesson-pattern-01
+  artifact_type: LessonPattern
+  title: Advanced Rhetorical Analysis And Synthesis Lesson Pattern
+  status: draft
+  support_tier: Core release
+  maturity_state: Modeled
+  target_entity_type: CapabilityNode
+  target_entity_id: AC3
+  primary_node_id: AC3
+  purpose: instruction
+  delivery_format: printable_and_digital
+  source_path: curriculum/ela_literacy/capstone/ac3/lesson-pattern-01.md
+  grade_band: Grades 10-12
+  content_domain: rhetorical analysis and synthesis
+  verification_gate_targets:
+  - G1
+  - G2
+  response_modes_supported:
+  - written
+  - oral
+  review_status: draft
+- artifact_id: ela-ac3-verification-task-01
+  artifact_type: VerificationTask
+  title: Advanced Rhetorical Analysis Verification Task
+  status: draft
+  support_tier: Core release
+  maturity_state: Modeled
+  target_entity_type: CapabilityNode
+  target_entity_id: AC3
+  primary_node_id: AC3
+  purpose: verification
+  delivery_format: printable_and_digital
+  source_path: curriculum/ela_literacy/capstone/ac3/verification-task-01.md
+  grade_band: Grades 10-12
+  content_domain: rhetorical analysis and synthesis
+  verification_gate_targets:
+  - G1
+  - G2
+  - G3
+  review_status: draft
+- artifact_id: ela-ac3-intervention-01
+  artifact_type: InterventionAsset
+  title: Rhetorical Move Interpretation Intervention
+  status: draft
+  support_tier: Core release
+  maturity_state: Modeled
+  target_entity_type: CapabilityNode
+  target_entity_id: AC3
+  primary_node_id: AC3
+  purpose: intervention
+  delivery_format: printable_and_digital
+  source_path: curriculum/ela_literacy/capstone/ac3/intervention-01.md
+  grade_band: Grades 10-12
+  content_domain: rhetorical analysis and synthesis
+  failure_mode_targets:
+  - AC3-FM-01
+  - AC3-FM-02
+  - AC3-FM-03
+  intervention_targets:
+  - move-effect-interpretation
+  - complex-source-distinction-rebuild
+  review_status: draft
+- artifact_id: ela-ac3-teacher-support-01
+  artifact_type: TeacherDecisionSupport
+  title: Advanced Rhetorical Analysis Teacher Decision Guide
+  status: draft
+  support_tier: Core release
+  maturity_state: Modeled
+  target_entity_type: CapabilityNode
+  target_entity_id: AC3
+  primary_node_id: AC3
+  purpose: teacher_support
+  delivery_format: printable_and_digital
+  source_path: curriculum/ela_literacy/capstone/ac3/teacher-decision-guide-01.md
+  grade_band: Grades 10-12
+  content_domain: rhetorical analysis and synthesis
+  review_status: draft
+- artifact_id: ela-ac5-guided-practice-01
+  artifact_type: GuidedPracticeSet
+  title: Intertextual Literary Argument Guided Practice
+  status: draft
+  support_tier: Core release
+  maturity_state: Modeled
+  target_entity_type: CapabilityNode
+  target_entity_id: AC5
+  primary_node_id: AC5
+  purpose: guided_practice
+  delivery_format: printable_and_digital
+  source_path: curriculum/ela_literacy/capstone/ac5/guided-practice-01.md
+  grade_band: Grades 10-12
+  content_domain: literary interpretation and intertextual analysis
+  verification_gate_targets:
+  - G1
+  - G2
+  response_modes_supported:
+  - written
+  review_status: draft
+- artifact_id: ela-ac5-retention-check-01
+  artifact_type: RetentionCheck
+  title: Intertextual Literary Argument Retention Check
+  status: draft
+  support_tier: Core release
+  maturity_state: Modeled
+  target_entity_type: CapabilityNode
+  target_entity_id: AC5
+  primary_node_id: AC5
+  purpose: retention
+  delivery_format: printable_and_digital
+  source_path: curriculum/ela_literacy/capstone/ac5/retention-check-01.md
+  grade_band: Grades 10-12
+  content_domain: literary interpretation and intertextual analysis
+  verification_gate_targets:
+  - G4
+  review_status: draft
+- artifact_id: ela-ac5-intervention-01
+  artifact_type: InterventionAsset
+  title: Intertextual Argument Precision Intervention
+  status: draft
+  support_tier: Core release
+  maturity_state: Modeled
+  target_entity_type: CapabilityNode
+  target_entity_id: AC5
+  primary_node_id: AC5
+  purpose: intervention
+  delivery_format: printable_and_digital
+  source_path: curriculum/ela_literacy/capstone/ac5/intervention-01.md
+  grade_band: Grades 10-12
+  content_domain: literary interpretation and intertextual analysis
+  failure_mode_targets:
+  - AC5-FM-01
+  - AC5-FM-02
+  - AC5-FM-03
+  intervention_targets:
+  - interpretation-evidence-link-rebuild
+  - intertextual-distinction-strengthening
+  review_status: draft
+- artifact_id: ela-ac5-exemplar-01
+  artifact_type: Exemplar
+  title: Intertextual Literary Argument Exemplar
+  status: draft
+  support_tier: Core release
+  maturity_state: Modeled
+  target_entity_type: CapabilityNode
+  target_entity_id: AC5
+  primary_node_id: AC5
+  purpose: support
+  delivery_format: printable_and_digital
+  source_path: curriculum/ela_literacy/capstone/ac5/exemplar-01.md
+  grade_band: Grades 10-12
+  content_domain: literary interpretation and intertextual analysis
+  review_status: draft

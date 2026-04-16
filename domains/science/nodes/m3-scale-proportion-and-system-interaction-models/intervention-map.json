@@ -1,0 +1,26 @@
+{
+  "node_id": "M3",
+  "version": "0.1",
+  "interventions": {
+    "M3-FM-01": [
+      "compare close-up and system-wide views of the same phenomenon",
+      "ask what can be seen at one scale but not the other",
+      "label models with the scale they represent"
+    ],
+    "M3-FM-02": [
+      "compare bigger/smaller or more/less changes qualitatively",
+      "trace how one relative change affects another part of the system",
+      "use simple comparative frames such as more than less than or larger share"
+    ],
+    "M3-FM-03": [
+      "map at least two interacting parts and the link between them",
+      "ask what else changes when one part changes",
+      "compare isolated and interaction-aware models"
+    ],
+    "M3-FM-04": [
+      "repeat scale-and-interaction routines across life physical and Earth-space systems",
+      "preserve the modeling structure while changing the context",
+      "fade scaffolds after one successful familiar example"
+    ]
+  }
+}

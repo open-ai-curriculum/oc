@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "B6 learner state",
+  "type": "object",
+  "required": [
+    "student_id",
+    "node",
+    "status",
+    "direct_accuracy",
+    "dominant_failure_modes"
+  ],
+  "properties": {
+    "student_id": {
+      "type": "string"
+    },
+    "node": {
+      "const": "B6"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "not_started",
+        "in_progress",
+        "blocked",
+        "secure"
+      ]
+    },
+    "direct_accuracy": {
+      "type": "number"
+    },
+    "explanation_status": {
+      "type": "string"
+    },
+    "transfer_status": {
+      "type": "string"
+    },
+    "retention_status": {
+      "type": "string"
+    },
+    "dominant_failure_modes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "recommended_interventions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

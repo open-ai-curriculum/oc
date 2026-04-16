@@ -1,0 +1,26 @@
+{
+  "node_id": "F1",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "F1-FM-01": [
+      "novel simple targets that reduce whole-form memorization",
+      "both sound-to-letter and letter-to-sound responses",
+      "explanation of what the symbol is doing in the word"
+    ],
+    "F1-FM-02": [
+      "very small target set in both directions",
+      "alternating reading-like and encoding-like trials",
+      "consistent oral sound and written symbol routine"
+    ],
+    "F1-FM-03": [
+      "stable small sound-symbol set across several trials",
+      "one new target added after visible stability",
+      "explicit contrast between old and new targets"
+    ],
+    "F1-FM-04": [
+      "paired reading and spelling of the same target",
+      "say the sound while writing or selecting the symbol",
+      "immediate shift from one direction to the other"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "node_id": "F6",
+  "interventions": [
+    {
+      "intervention_id": "F6-INT-01",
+      "name": "F6 Intervention 1",
+      "addresses_failure_modes": [
+        "F6-FM-01"
+      ],
+      "summary": "rate-and-accumulation interpretation tasks tied directly to physics quantities"
+    },
+    {
+      "intervention_id": "F6-INT-02",
+      "name": "F6 Intervention 2",
+      "addresses_failure_modes": [
+        "F6-FM-02"
+      ],
+      "summary": "assumption audits requiring each mathematical step to be connected to a physical claim"
+    },
+    {
+      "intervention_id": "F6-INT-03",
+      "name": "F6 Intervention 3",
+      "addresses_failure_modes": [
+        "F6-FM-03"
+      ],
+      "summary": "bounded-case checks that ask where the calculus-supported model stops fitting"
+    },
+    {
+      "intervention_id": "F6-INT-04",
+      "name": "F6 Intervention 4",
+      "addresses_failure_modes": [
+        "F6-FM-04"
+      ],
+      "summary": "evidence-to-model routines linking derived relations back to observed system behavior"
+    }
+  ]
+}

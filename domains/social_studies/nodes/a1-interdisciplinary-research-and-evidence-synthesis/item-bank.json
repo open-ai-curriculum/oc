@@ -1,0 +1,16 @@
+{
+  "node_id": "A1",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "A1-G1-01",
+      "node_id": "A1",
+      "gate": "G1",
+      "prompt": "Use the cross-domain evidence set to answer a bounded research question and explain how evidence from at least two social studies strands fits together or conflicts.",
+      "source_type": "cross_domain_evidence_set",
+      "response_mode": "oral_or_written_or_annotated",
+      "scoring_rule": "Builds a coherent interdisciplinary account that integrates evidence across strands and names any important tension or limit in the synthesis.",
+      "failure_mode_targets": ["A1-FM-01", "A1-FM-02"]
+    }
+  ]
+}

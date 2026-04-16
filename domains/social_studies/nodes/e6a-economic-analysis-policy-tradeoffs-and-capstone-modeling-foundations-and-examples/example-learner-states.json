@@ -1,0 +1,18 @@
+{
+  "node_id": "E6A",
+  "examples": [
+    {
+      "learner_id": "example-learner-1",
+      "node_id": "E6A",
+      "status": "emerging",
+      "direct_accuracy": 0.62,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": [
+        "E6A-FM-02"
+      ],
+      "notes": "Needs support in foundations and examples."
+    }
+  ]
+}

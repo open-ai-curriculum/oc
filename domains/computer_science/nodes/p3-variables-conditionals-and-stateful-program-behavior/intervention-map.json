@@ -1,0 +1,37 @@
+{
+  "node_id": "P3",
+  "interventions": [
+    {
+      "intervention_id": "P3-INT-01",
+      "name": "P3 Intervention 1",
+      "addresses_failure_modes": [
+        "P3-FM-01"
+      ],
+      "summary": "state-tracing routines that record variable values step by step"
+    },
+    {
+      "intervention_id": "P3-INT-02",
+      "name": "P3 Intervention 2",
+      "addresses_failure_modes": [
+        "P3-FM-02"
+      ],
+      "summary": "if-then branch walkthroughs with explicit true and false pathway comparisons"
+    },
+    {
+      "intervention_id": "P3-INT-03",
+      "name": "P3 Intervention 3",
+      "addresses_failure_modes": [
+        "P3-FM-03"
+      ],
+      "summary": "before-and-after state tables connecting updates to later outputs"
+    },
+    {
+      "intervention_id": "P3-INT-04",
+      "name": "P3 Intervention 4",
+      "addresses_failure_modes": [
+        "P3-FM-04"
+      ],
+      "summary": "paired transfer tasks using the same state-and-branch structure in a second program context"
+    }
+  ]
+}

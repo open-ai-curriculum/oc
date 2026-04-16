@@ -1,0 +1,37 @@
+{
+  "node_id": "C3",
+  "interventions": [
+    {
+      "intervention_id": "C3-INT-01",
+      "name": "C3 Intervention 1",
+      "addresses_failure_modes": [
+        "C3-FM-01"
+      ],
+      "summary": "specification-first review routines that restate required behavior before code evaluation begins"
+    },
+    {
+      "intervention_id": "C3-INT-02",
+      "name": "C3 Intervention 2",
+      "addresses_failure_modes": [
+        "C3-FM-02"
+      ],
+      "summary": "test-design tasks that require each case to be justified against one normal, edge, or failure condition"
+    },
+    {
+      "intervention_id": "C3-INT-03",
+      "name": "C3 Intervention 3",
+      "addresses_failure_modes": [
+        "C3-FM-03"
+      ],
+      "summary": "quality-criterion comparison prompts using correctness, readability, robustness, and maintainability labels explicitly"
+    },
+    {
+      "intervention_id": "C3-INT-04",
+      "name": "C3 Intervention 4",
+      "addresses_failure_modes": [
+        "C3-FM-04"
+      ],
+      "summary": "paired program reviews applying the same specification-and-test reasoning in a second bounded code context"
+    }
+  ]
+}

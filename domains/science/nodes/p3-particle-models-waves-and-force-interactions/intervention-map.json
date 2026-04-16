@@ -1,0 +1,29 @@
+{
+  "node_id": "P3",
+  "interventions": [
+    {
+      "failure_mode": "P3-FM-01",
+      "intervention_id": "P3-INT-01",
+      "name": "Particle Model Boundary Routine",
+      "delivery": "compare and explain"
+    },
+    {
+      "failure_mode": "P3-FM-02",
+      "intervention_id": "P3-INT-02",
+      "name": "Wave Disturbance Rebuild",
+      "delivery": "demonstration and reflection"
+    },
+    {
+      "failure_mode": "P3-FM-03",
+      "intervention_id": "P3-INT-03",
+      "name": "Two-Object Force Mapping",
+      "delivery": "diagram routine"
+    },
+    {
+      "failure_mode": "P3-FM-04",
+      "intervention_id": "P3-INT-04",
+      "name": "Model Limit Check",
+      "delivery": "self-explanation protocol"
+    }
+  ]
+}

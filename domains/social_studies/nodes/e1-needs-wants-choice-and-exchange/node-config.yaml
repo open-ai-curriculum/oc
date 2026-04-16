@@ -1,0 +1,39 @@
+id: E1
+name: needs_wants_choice_and_exchange
+domain: social_studies
+support_tier: Incubation
+maturity_state: Drafted
+supported_profiles:
+- economics-entry-node-package
+evidence_class: Synthetic
+dependencies:
+- Q1
+mastery:
+  direct_accuracy_threshold: 0.85
+  explanation_required: true
+  transfer_required: true
+  retention_check_days: 14
+statuses:
+- blocked
+- emerging
+- provisional
+- secure
+- unstable
+verification_gates:
+- id: G1
+  type: direct_performance
+  pass_rule: '>= 0.85 accuracy across need want choice and exchange tasks'
+- id: G2
+  type: meaning
+  pass_rule: explains why a choice or exchange is needed wanted or constrained in at least 2 of 3 prompts
+- id: G3
+  type: transfer
+  pass_rule: successful performance in at least one changed everyday context
+- id: G4
+  type: retention
+  pass_rule: '>= 0.80 delayed recheck accuracy after ~14 days'
+failure_modes:
+- E1-FM-01
+- E1-FM-02
+- E1-FM-03
+- E1-FM-04

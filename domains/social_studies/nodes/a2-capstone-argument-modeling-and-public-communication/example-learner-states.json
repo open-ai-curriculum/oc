@@ -1,0 +1,23 @@
+{
+  "node_id": "A2",
+  "examples": [
+    {
+      "learner_id": "sample-q5-blocked-01",
+      "node_id": "A2",
+      "status": "blocked",
+      "dependency_status": { "Q4": "secure" },
+      "direct_accuracy": 0.57,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["A2-FM-02"],
+      "recommended_interventions": [
+        "connect each noticed feature to a judgment consequence",
+        "use because this source has therefore it is frames"
+      ],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Can notice source features but cannot turn them into an evaluation yet."
+    }
+  ]
+}

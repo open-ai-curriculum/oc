@@ -1,0 +1,314 @@
+{
+  "node_id": "AC4",
+  "policy_version": "1.0",
+  "version": "0.3",
+  "items": [
+    {
+      "item_id": "AC4-D-001",
+      "family": "direct_execution",
+      "prompt": "Complete a bounded advanced analysis task that requires the learner to sustain literary interpretation and comparison in mature written analysis.",
+      "target_node": "AC4",
+      "secondary_dependency_targets": [
+        "R4",
+        "WC6",
+        "L3"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_response",
+        "annotation",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "AC4-FM-01",
+        "AC4-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "AC4-D-002",
+      "family": "direct_execution",
+      "prompt": "Show literary interpretation and comparative analysis in a fresh but controlled advanced analysis task and make the learner separate comparative interpretation from full intertextual argument.",
+      "target_node": "AC4",
+      "secondary_dependency_targets": [
+        "R4",
+        "WC6",
+        "L3"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_response",
+        "annotation",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "AC4-FM-02",
+        "AC4-FM-03"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "AC4-D-003",
+      "family": "direct_execution",
+      "prompt": "Use a slightly less-routine advanced analysis task to determine whether the learner can still support capstone literary analysis.",
+      "target_node": "AC4",
+      "secondary_dependency_targets": [
+        "R4",
+        "WC6",
+        "L3"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_response",
+        "annotation",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "AC4-FM-03",
+        "AC4-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "AC4-D-004",
+      "family": "direct_execution",
+      "prompt": "Perform literary interpretation and comparative analysis under a changed format within the same boundary and verify the learner can still the learner produces sustained literary interpretation and comparative analysis before full intertextual literary argument becomes the main distinction.",
+      "target_node": "AC4",
+      "secondary_dependency_targets": [
+        "R4",
+        "WC6",
+        "L3"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_response",
+        "annotation",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "AC4-FM-04",
+        "AC4-FM-01"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "AC4-E-001",
+      "family": "explanation",
+      "prompt": "Explain or annotate how the learner shows that they can sustain literary interpretation and comparison in mature written analysis, and identify which evidence in the response demonstrates the intended meaning.",
+      "target_node": "AC4",
+      "secondary_dependency_targets": [
+        "R4",
+        "WC6",
+        "L3"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_explanation",
+        "oral_explanation",
+        "annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "AC4-FM-01"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "AC4-E-002",
+      "family": "explanation",
+      "prompt": "Ask for a brief justification, annotation, or teacher-scored explanation showing why the response used for literary interpretation and comparative analysis is valid rather than routine only.",
+      "target_node": "AC4",
+      "secondary_dependency_targets": [
+        "R4",
+        "WC6",
+        "L3"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_explanation",
+        "oral_explanation",
+        "annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "AC4-FM-02"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "AC4-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A learner attempt shows interpretation-without-comparison. Diagnose the earliest breakdown and state what evidence separates it from secure literary interpretation and comparative analysis.",
+      "target_node": "AC4",
+      "secondary_dependency_targets": [
+        "R4",
+        "WC6",
+        "L3"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "AC4-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "AC4-C-002",
+      "family": "error_diagnosis",
+      "prompt": "Review a mismatched response that reflects comparison-without-claim. Identify the dominant failure mode and explain why this is not just a minor performance slip.",
+      "target_node": "AC4",
+      "secondary_dependency_targets": [
+        "R4",
+        "WC6",
+        "L3"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "AC4-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "AC4-T-001",
+      "family": "transfer",
+      "prompt": "Use literary interpretation and comparative analysis in a changed source set, discipline, or rhetorical frame and judge whether the learner preserves the same underlying capability.",
+      "target_node": "AC4",
+      "secondary_dependency_targets": [
+        "R4",
+        "WC6",
+        "L3"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_response",
+        "annotation",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "AC4-FM-03"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "AC4-T-002",
+      "family": "transfer",
+      "prompt": "Shift the learner into a changed source set, discipline, or rhetorical frame and require a response that still demonstrates literary interpretation and comparative analysis without relying on the original routine.",
+      "target_node": "AC4",
+      "secondary_dependency_targets": [
+        "R4",
+        "WC6",
+        "L3"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_response",
+        "annotation",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "AC4-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "AC4-R-001",
+      "family": "retention",
+      "prompt": "After approximately 21 days, run a fresh advanced analysis task to confirm the learner still demonstrates literary interpretation and comparative analysis without re-teaching inside the check.",
+      "target_node": "AC4",
+      "secondary_dependency_targets": [
+        "R4",
+        "WC6",
+        "L3"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_response",
+        "annotation",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "AC4-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability"
+    },
+    {
+      "item_id": "AC4-P-001",
+      "family": "prerequisite_probe",
+      "prompt": "Before assigning literary interpretation and comparative analysis, probe whether literary structure theme and character analysis is secure enough to support the current task.",
+      "target_node": "AC4",
+      "secondary_dependency_targets": [
+        "R4",
+        "WC6",
+        "L3"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "written_explanation",
+        "oral_explanation",
+        "annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "AC4-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_disambiguation",
+      "dependency_target": "R4",
+      "suspected_knowledge_gap_if_incorrect": "literary structure theme and character analysis"
+    },
+    {
+      "item_id": "AC4-P-002",
+      "family": "prerequisite_probe",
+      "prompt": "Use a quick dependency check on genre controlled explanation narrative and argument to decide whether weak performance on literary interpretation and comparative analysis is upstream or node-specific.",
+      "target_node": "AC4",
+      "secondary_dependency_targets": [
+        "R4",
+        "WC6",
+        "L3"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "written_explanation",
+        "oral_explanation",
+        "annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "AC4-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_disambiguation",
+      "dependency_target": "WC6",
+      "suspected_knowledge_gap_if_incorrect": "genre controlled explanation narrative and argument"
+    }
+  ]
+}

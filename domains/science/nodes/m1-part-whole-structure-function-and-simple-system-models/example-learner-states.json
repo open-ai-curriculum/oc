@@ -1,0 +1,42 @@
+{
+  "node_id": "M1",
+  "examples": [
+    {
+      "learner_id": "sample-m1-blocked-01",
+      "node_id": "M1",
+      "status": "blocked",
+      "dependency_status": {
+        "Q3": "secure"
+      },
+      "direct_accuracy": 0.48,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["M1-FM-02", "M1-FM-03"],
+      "recommended_interventions": [
+        "point from the model to the real object or picture repeatedly",
+        "pair each visible structure with one concrete function"
+      ],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Uses a drawing but cannot yet explain what the parts stand for or what they do."
+    },
+    {
+      "learner_id": "sample-m1-secure-01",
+      "node_id": "M1",
+      "status": "secure",
+      "dependency_status": {
+        "Q3": "secure"
+      },
+      "direct_accuracy": 0.94,
+      "explanation_status": "met",
+      "transfer_status": "met",
+      "retention_status": "met",
+      "dominant_failure_modes": [],
+      "recommended_interventions": [],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Uses simple models to represent parts and explain basic structure-function relationships across multiple contexts."
+    }
+  ]
+}

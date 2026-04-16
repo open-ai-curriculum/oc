@@ -1,0 +1,32 @@
+[
+  {
+    "item_id": "L3-IB-01",
+    "node_id": "L3",
+    "prompt": "A student says lungs and blood work in separate jobs only. Explain how these structures work together to support the organism.",
+    "task_type": "system_interaction_reasoning",
+    "answer_key": "Lungs move gases into the body and blood transports those gases to and from cells, so the systems work together rather than separately.",
+    "scorable_traits": ["system linkage", "function accuracy", "mechanism language"],
+    "target_failure_modes": ["L3-FM-03"],
+    "context_tags": ["animals", "body systems"]
+  },
+  {
+    "item_id": "L3-IB-02",
+    "node_id": "L3",
+    "prompt": "Why is it incomplete to say a plant root is important only because it is a part of the plant?",
+    "task_type": "structure_function_explanation",
+    "answer_key": "The explanation must connect the root's structure to functions such as taking in water and minerals and supporting the larger plant system.",
+    "scorable_traits": ["structure-function link", "organism function", "precision"],
+    "target_failure_modes": ["L3-FM-02"],
+    "context_tags": ["plants", "structure and function"]
+  },
+  {
+    "item_id": "L3-IB-03",
+    "node_id": "L3",
+    "prompt": "A diagram shows many similar tiny units in a leaf. What level of organization is being shown, and why does that matter for explaining plant function?",
+    "task_type": "cell_function_identification",
+    "answer_key": "The tiny units are cells. Cells are the basic unit of living things, and their coordinated work helps explain larger plant functions.",
+    "scorable_traits": ["cell concept", "scale shift", "functional relevance"],
+    "target_failure_modes": ["L3-FM-01"],
+    "context_tags": ["cells", "plants"]
+  }
+]

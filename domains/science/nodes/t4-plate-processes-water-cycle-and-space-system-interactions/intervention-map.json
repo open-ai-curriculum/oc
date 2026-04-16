@@ -1,0 +1,29 @@
+{
+  "node_id": "T4",
+  "interventions": [
+    {
+      "failure_mode": "T4-FM-01",
+      "intervention_id": "T4-INT-01",
+      "name": "Feature To Process Rebuild",
+      "delivery": "matching and explanation"
+    },
+    {
+      "failure_mode": "T4-FM-02",
+      "intervention_id": "T4-INT-02",
+      "name": "Multi-Reservoir Water Tracing",
+      "delivery": "diagram routine"
+    },
+    {
+      "failure_mode": "T4-FM-03",
+      "intervention_id": "T4-INT-03",
+      "name": "System Interaction Mapping",
+      "delivery": "map and explain"
+    },
+    {
+      "failure_mode": "T4-FM-04",
+      "intervention_id": "T4-INT-04",
+      "name": "Earth-System Claim Boundary Check",
+      "delivery": "evidence reflection"
+    }
+  ]
+}

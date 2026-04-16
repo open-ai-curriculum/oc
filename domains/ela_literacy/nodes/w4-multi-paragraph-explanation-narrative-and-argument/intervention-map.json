@@ -1,0 +1,26 @@
+{
+  "node_id": "W4",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "W4-FM-01": [
+      "paragraph-role planning frame",
+      "central-line-of-development check",
+      "cross-paragraph coherence review"
+    ],
+    "W4-FM-02": [
+      "genre-structure contrast",
+      "same-topic changed-genre task",
+      "bridge-frame then fade"
+    ],
+    "W4-FM-03": [
+      "one-development-move-per-paragraph rule",
+      "support-before-expansion check",
+      "evidence-or-detail planning strip"
+    ],
+    "W4-FM-04": [
+      "changed-prompt stable-planning routine",
+      "scaffold fade across prompts",
+      "planning-versus-genre diagnosis"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "node_id": "P2",
+  "interventions": [
+    {
+      "intervention_id": "P2-INT-01",
+      "name": "P2 Intervention 1",
+      "addresses_failure_modes": [
+        "P2-FM-01"
+      ],
+      "summary": "repetition spotting tasks that ask which steps are the same and should be grouped"
+    },
+    {
+      "intervention_id": "P2-INT-02",
+      "name": "P2 Intervention 2",
+      "addresses_failure_modes": [
+        "P2-FM-02"
+      ],
+      "summary": "event-and-response matching routines in simple interactive programs"
+    },
+    {
+      "intervention_id": "P2-INT-03",
+      "name": "P2 Intervention 3",
+      "addresses_failure_modes": [
+        "P2-FM-03"
+      ],
+      "summary": "trace prompts showing what a loop or event actually does over time"
+    },
+    {
+      "intervention_id": "P2-INT-04",
+      "name": "P2 Intervention 4",
+      "addresses_failure_modes": [
+        "P2-FM-04"
+      ],
+      "summary": "paired coding tasks that reuse the same pattern in two beginner environments"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+node_id: X3
+version: 0.1
+transitions:
+  - from: blocked
+    to: emerging
+    when:
+      - direct_accuracy_improves_meaningfully
+      - dependencies_x1_and_x2_and_n5_and_c4_are_not_both_blocked
+  - from: emerging
+    to: provisional
+    when:
+      - dependencies_x1_and_x2_and_n5_and_c4_are_secure
+      - direct_gate_passes
+      - meaning_gate_passes
+      - transfer_gate_passes
+      - retention_not_yet_due
+  - from: provisional
+    to: secure
+    when:
+      - retention_gate_passes
+  - from: secure
+    to: unstable
+    when:
+      - delayed_recheck_fails
+      - dependency_x1_or_x2_or_n5_or_c4_becomes_unstable

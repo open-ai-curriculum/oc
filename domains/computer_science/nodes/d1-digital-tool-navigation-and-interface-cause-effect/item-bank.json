@@ -1,0 +1,206 @@
+{
+  "node_id": "D1",
+  "policy_version": "1.0",
+  "version": "0.4",
+  "items": [
+    {
+      "item_id": "D1-DIR-001",
+      "node_id": "D1",
+      "item_family": "direct_execution",
+      "prompt": "A learner opens a classroom drawing app and needs to select the text tool, type a short label, and move it to the correct place on the canvas. Show how they would use taps, clicks, selections, and typed input with clear intent.",
+      "expected_evidence": "use taps, clicks, selections, and typed input with clear intent",
+      "dominant_failure_mode_targets": [
+        "D1-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates use taps, clicks, selections, and typed input with clear intent with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "D1-DIR-002",
+      "node_id": "D1",
+      "item_family": "direct_execution",
+      "prompt": "On a tablet home screen, a learner taps an icon, types in a search field, and returns to the original screen. Describe what changed after each action and how the learner would name what changed on screen after an action.",
+      "expected_evidence": "name what changed on screen after an action",
+      "dominant_failure_mode_targets": [
+        "D1-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates name what changed on screen after an action with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "D1-DIR-003",
+      "node_id": "D1",
+      "item_family": "direct_execution",
+      "prompt": "A student is trying to submit a photo to a classroom app but keeps tapping unrelated icons. Use the interface sequence to show how they should distinguish successful navigation from random trial only.",
+      "expected_evidence": "distinguish successful navigation from random trial only",
+      "dominant_failure_mode_targets": [
+        "D1-FM-03"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates distinguish successful navigation from random trial only with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "D1-EXP-001",
+      "node_id": "D1",
+      "item_family": "explanation",
+      "prompt": "Why is clicking several places quickly not the same as intentional navigation?",
+      "expected_evidence": "intentional navigation predicts what an action should do and checks the resulting change instead of clicking randomly until something happens.",
+      "dominant_failure_mode_targets": [
+        "D1-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to intentional navigation predicts what an action should do and checks the resulting change instead of clicking randomly until something happens."
+    },
+    {
+      "item_id": "D1-EXP-002",
+      "node_id": "D1",
+      "item_family": "explanation",
+      "prompt": "How can you tell what a basic interface control is for?",
+      "expected_evidence": "a strong answer uses the icon, label, or observed effect of the control to infer its bounded function.",
+      "dominant_failure_mode_targets": [
+        "D1-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to a strong answer uses the icon, label, or observed effect of the control to infer its bounded function."
+    },
+    {
+      "item_id": "D1-ERR-001",
+      "node_id": "D1",
+      "item_family": "error_diagnosis",
+      "prompt": "A learner response in digital tool navigation and interface cause-effect suggests this breakdown: learner explores screens by random clicking without stable action-outcome reasoning. Diagnose the likely misconception or structural error. Focus on random-interface-search.",
+      "expected_evidence": "use taps, clicks, selections, and typed input with clear intent",
+      "dominant_failure_mode_targets": [
+        "D1-FM-01"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward use taps, clicks, selections, and typed input with clear intent."
+    },
+    {
+      "item_id": "D1-ERR-002",
+      "node_id": "D1",
+      "item_family": "error_diagnosis",
+      "prompt": "A learner response in digital tool navigation and interface cause-effect suggests this breakdown: learner confuses what a button, icon, or input action is for. Diagnose the likely misconception or structural error. Focus on control-function confusion.",
+      "expected_evidence": "name what changed on screen after an action",
+      "dominant_failure_mode_targets": [
+        "D1-FM-02"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward name what changed on screen after an action."
+    },
+    {
+      "item_id": "D1-TRA-001",
+      "node_id": "D1",
+      "item_family": "transfer",
+      "prompt": "A learner who usually works on a tablet now has to find, open, and use the same kind of tool on a laptop. Explain how they would distinguish successful navigation from random trial only in the new interface.",
+      "expected_evidence": "distinguish successful navigation from random trial only",
+      "dominant_failure_mode_targets": [
+        "D1-FM-03"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves distinguish successful navigation from random trial only in a changed computing context or representation."
+    },
+    {
+      "item_id": "D1-TRA-002",
+      "node_id": "D1",
+      "item_family": "transfer",
+      "prompt": "A classroom switches from one app to another with different icons but the same basic actions. Explain how a learner would connect a control or icon to its likely function in bounded cases without relying on random clicking.",
+      "expected_evidence": "connect a control or icon to its likely function in bounded cases",
+      "dominant_failure_mode_targets": [
+        "D1-FM-04"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves connect a control or icon to its likely function in bounded cases in a changed computing context or representation."
+    },
+    {
+      "item_id": "D1-RET-001",
+      "node_id": "D1",
+      "item_family": "retention",
+      "prompt": "After a delay, the learner returns to a shared classroom device and must reopen the right app, make one bounded change, and explain how they knew the interface action worked. Show how they would use taps, clicks, selections, and typed input with clear intent.",
+      "expected_evidence": "use taps, clicks, selections, and typed input with clear intent",
+      "dominant_failure_mode_targets": [
+        "D1-FM-04"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_explanation",
+        "constructed_response"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability",
+      "scoring_guidance": "Meets when the learner still demonstrates use taps, clicks, selections, and typed input with clear intent on a delayed recheck without a blocking recurrence."
+    }
+  ]
+}

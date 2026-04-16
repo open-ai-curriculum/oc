@@ -1,0 +1,60 @@
+[
+  {
+    "item_id": "G4-IB-01",
+    "node_id": "G4",
+    "prompt": "Why is seeing a pattern in telescope data not the same as directly observing the cause?",
+    "task_type": "astronomy_inference_critique",
+    "answer_key": "A strong answer distinguishes the observation from the model-based inference that explains it.",
+    "scorable_traits": [
+      "observation vs inference",
+      "model use",
+      "discipline"
+    ],
+    "target_failure_modes": [
+      "G4-FM-02"
+    ],
+    "context_tags": [
+      "astronomy",
+      "evidence"
+    ]
+  },
+  {
+    "item_id": "G4-IB-02",
+    "node_id": "G4",
+    "prompt": "What makes astronomy more than a list of object facts?",
+    "task_type": "astrophysics_explanation",
+    "answer_key": "It becomes explanatory when observations are linked to physical models of interaction, scale, motion, or evolution.",
+    "scorable_traits": [
+      "model linkage",
+      "physical reasoning",
+      "transfer"
+    ],
+    "target_failure_modes": [
+      "G4-FM-01",
+      "G4-FM-03"
+    ],
+    "context_tags": [
+      "astrophysics",
+      "models"
+    ]
+  },
+  {
+    "item_id": "G4-IB-03",
+    "node_id": "G4",
+    "prompt": "How should a cosmic-evolution claim be bounded?",
+    "task_type": "cosmic_claim_boundary",
+    "answer_key": "It should be tied to the available observations, model assumptions, and the level of uncertainty in the inference.",
+    "scorable_traits": [
+      "claim boundary",
+      "uncertainty",
+      "precision"
+    ],
+    "target_failure_modes": [
+      "G4-FM-04"
+    ],
+    "context_tags": [
+      "cosmology",
+      "uncertainty"
+    ]
+  }
+]

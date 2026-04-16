@@ -1,0 +1,250 @@
+{
+  "node_id": "P6",
+  "policy_version": "1.0",
+  "version": "0.4",
+  "items": [
+    {
+      "item_id": "P6-DIR-001",
+      "node_id": "P6",
+      "item_family": "direct_execution",
+      "prompt": "A robot on a grid must reach a target square without hitting an obstacle. Write or describe the bounded program steps needed to distinguish a class definition from an object instance and its changing state.",
+      "expected_evidence": "distinguish a class definition from an object instance and its changing state",
+      "dominant_failure_mode_targets": [
+        "P6-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates distinguish a class definition from an object instance and its changing state with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "P6-DIR-002",
+      "node_id": "P6",
+      "item_family": "direct_execution",
+      "prompt": "A small interactive game needs a button press to trigger an action, or a repeated movement to continue until a goal is reached. Show how the learner would explain how one component invokes or depends on another in a bounded design.",
+      "expected_evidence": "explain how one component invokes or depends on another in a bounded design",
+      "dominant_failure_mode_targets": [
+        "P6-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates explain how one component invokes or depends on another in a bounded design with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "P6-DIR-003",
+      "node_id": "P6",
+      "item_family": "direct_execution",
+      "prompt": "A short program is split into parts that pass values, repeat work, or update state. Trace the program and show how the learner would connect method behavior to object state rather than treating methods as detached commands.",
+      "expected_evidence": "connect method behavior to object state rather than treating methods as detached commands",
+      "dominant_failure_mode_targets": [
+        "P6-FM-03"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates connect method behavior to object state rather than treating methods as detached commands with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "P6-EXP-001",
+      "node_id": "P6",
+      "item_family": "explanation",
+      "prompt": "Why is a class not the same thing as an object?",
+      "expected_evidence": "a class defines a blueprint or structure, while an object is a specific instance that can hold its own state and participate in program behavior.",
+      "dominant_failure_mode_targets": [
+        "P6-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to a class defines a blueprint or structure, while an object is a specific instance that can hold its own state and participate in program behavior."
+    },
+    {
+      "item_id": "P6-EXP-002",
+      "node_id": "P6",
+      "item_family": "explanation",
+      "prompt": "Why should a method be interpreted with the object's state in mind?",
+      "expected_evidence": "because the method's effect often depends on or changes the object's current state, not just the method name alone.",
+      "dominant_failure_mode_targets": [
+        "P6-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to because the method's effect often depends on or changes the object's current state, not just the method name alone."
+    },
+    {
+      "item_id": "P6-ERR-001",
+      "node_id": "P6",
+      "item_family": "error_diagnosis",
+      "prompt": "A learner response in object-oriented and multi-component program reasoning suggests this breakdown: learner confuses class definitions, object instances, and the state carried by a particular object. Diagnose the likely misconception or structural error. Focus on class-object collapse.",
+      "expected_evidence": "distinguish a class definition from an object instance and its changing state",
+      "dominant_failure_mode_targets": [
+        "P6-FM-01"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward distinguish a class definition from an object instance and its changing state."
+    },
+    {
+      "item_id": "P6-ERR-002",
+      "node_id": "P6",
+      "item_family": "error_diagnosis",
+      "prompt": "A learner response in object-oriented and multi-component program reasoning suggests this breakdown: learner treats methods as detached actions without connecting them to object state or responsibilities. Diagnose the likely misconception or structural error. Focus on method-without-state reasoning.",
+      "expected_evidence": "explain how one component invokes or depends on another in a bounded design",
+      "dominant_failure_mode_targets": [
+        "P6-FM-02"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward explain how one component invokes or depends on another in a bounded design."
+    },
+    {
+      "item_id": "P6-TRA-001",
+      "node_id": "P6",
+      "item_family": "transfer",
+      "prompt": "A learner who used blocks now has to reason through the same programming idea in a text-based example. Explain how they would connect method behavior to object state rather than treating methods as detached commands in the changed representation.",
+      "expected_evidence": "connect method behavior to object state rather than treating methods as detached commands",
+      "dominant_failure_mode_targets": [
+        "P6-FM-03"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves connect method behavior to object state rather than treating methods as detached commands in a changed computing context or representation."
+    },
+    {
+      "item_id": "P6-TRA-002",
+      "node_id": "P6",
+      "item_family": "transfer",
+      "prompt": "A classroom app changes from a game context to a data-processing context, but the same underlying programming structure still matters. Show how the learner would avoid flattening every object-oriented system into one long procedural trace.",
+      "expected_evidence": "avoid flattening every object-oriented system into one long procedural trace",
+      "dominant_failure_mode_targets": [
+        "P6-FM-04"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves avoid flattening every object-oriented system into one long procedural trace in a changed computing context or representation."
+    },
+    {
+      "item_id": "P6-RET-001",
+      "node_id": "P6",
+      "item_family": "retention",
+      "prompt": "After a delay, the learner revisits a bounded program and must explain the result of one function call, loop, event, or state change. Show how they would distinguish a class definition from an object instance and its changing state.",
+      "expected_evidence": "distinguish a class definition from an object instance and its changing state",
+      "dominant_failure_mode_targets": [
+        "P6-FM-04"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_explanation",
+        "constructed_response"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability",
+      "scoring_guidance": "Meets when the learner still demonstrates distinguish a class definition from an object instance and its changing state on a delayed recheck without a blocking recurrence."
+    },
+    {
+      "item_id": "P6-PRE-001",
+      "node_id": "P6",
+      "item_family": "prerequisite_probe",
+      "prompt": "Before closing object-oriented and multi-component program reasoning, run a short check on structured data, collections, and programmed data operations using a bounded programming task and determine whether the current error is really an upstream dependency issue.",
+      "expected_evidence": "shows whether structured data, collections, and programmed data operations is secure enough to support object-oriented and multi-component program reasoning",
+      "dominant_failure_mode_targets": [
+        "P6-FM-01"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in structured data, collections, and programmed data operations from a current-node issue in object-oriented and multi-component program reasoning.",
+      "dependency_target": "P5",
+      "suspected_knowledge_gap_if_incorrect": "structured data, collections, and programmed data operations"
+    },
+    {
+      "item_id": "P6-PRE-002",
+      "node_id": "P6",
+      "item_family": "prerequisite_probe",
+      "prompt": "Before closing object-oriented and multi-component program reasoning, run a short check on specification, testing, and program quality criteria using a bounded programming task and determine whether the current error is really an upstream dependency issue.",
+      "expected_evidence": "shows whether specification, testing, and program quality criteria is secure enough to support object-oriented and multi-component program reasoning",
+      "dominant_failure_mode_targets": [
+        "P6-FM-02"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in specification, testing, and program quality criteria from a current-node issue in object-oriented and multi-component program reasoning.",
+      "dependency_target": "C3",
+      "suspected_knowledge_gap_if_incorrect": "specification, testing, and program quality criteria"
+    }
+  ]
+}

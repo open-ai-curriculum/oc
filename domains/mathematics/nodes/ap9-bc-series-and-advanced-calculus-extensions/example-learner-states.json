@@ -1,0 +1,30 @@
+[
+  {
+    "student_id": "example-secure",
+    "node": "AP9",
+    "status": "secure",
+    "direct_accuracy": 0.82,
+    "explanation_status": "meets",
+    "transfer_status": "meets",
+    "retention_status": "meets",
+    "dominant_failure_modes": [],
+    "recommended_interventions": []
+  },
+  {
+    "student_id": "example-blocked",
+    "node": "AP9",
+    "status": "blocked",
+    "direct_accuracy": 0.47,
+    "explanation_status": "weak",
+    "transfer_status": "failed",
+    "retention_status": "not_met",
+    "dominant_failure_modes": [
+      "sequence_series_process_blur",
+      "convergence_reasoning_instability"
+    ],
+    "recommended_interventions": [
+      "compare term-by-term behavior, partial-sum behavior, and infinite-sum claims in matched examples",
+      "compare convergent and divergent examples with similar surface features and require a structural explanation of the difference"
+    ]
+  }
+]

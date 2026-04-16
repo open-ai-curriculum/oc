@@ -1,0 +1,22 @@
+[
+  {
+    "learner_id": "example-fr1-emerging",
+    "node_id": "FR1",
+    "status": "emerging",
+    "dependency_status": {
+      "P3": "secure",
+      "P4": "secure"
+    },
+    "direct_accuracy": 0.74,
+    "transfer_status": "weak",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["FR1-FM-01", "FR1-FM-03"],
+    "recommended_interventions": [
+      "alternate sound-to-symbol and symbol-to-sound trials",
+      "keep the target set very small during changed-set practice"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Learner shows supported correspondences but performance drops when the target set changes."
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "learner_id": "ela-sample-l1-blocked",
+    "node_id": "L1",
+    "status": "blocked",
+    "dependency_status": {
+      "O3": "secure",
+      "P4": "emerging"
+    },
+    "direct_accuracy": 0.46,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["L1-FM-01", "L1-FM-02"],
+    "recommended_interventions": [
+      "oral sentence then immediate write",
+      "subject-verb picture sentence frame"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Ideas are present, but written output stays at label or fragment level."
+  },
+  {
+    "learner_id": "ela-sample-l1-provisional",
+    "node_id": "L1",
+    "status": "provisional",
+    "dependency_status": {
+      "O3": "secure",
+      "P4": "secure"
+    },
+    "direct_accuracy": 0.87,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [
+      "mixed prompt sentence review"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Produces complete simple sentences across oral-to-written supports."
+  }
+]

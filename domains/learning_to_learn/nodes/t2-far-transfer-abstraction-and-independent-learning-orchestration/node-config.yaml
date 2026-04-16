@@ -1,0 +1,38 @@
+id: T2
+name: far_transfer_abstraction_and_independent_learning_orchestration
+domain: learning_to_learn
+support_tier: Incubation
+maturity_state: Drafted
+supported_profiles:
+  - cross-domain-learning-support-node-package
+evidence_class: Synthetic
+dependencies: [T1, A3, M4, S4, R4]
+mastery:
+  direct_accuracy_threshold: 0.85
+  explanation_required: true
+  transfer_required: true
+  retention_check_days: 35
+statuses: [blocked, emerging, provisional, secure, unstable]
+verification_gates:
+  - id: G1
+    type: direct_performance
+    pass_rule: orchestrates independent learning and far transfer in at least 4 of 5 substantially changed opportunities
+  - id: G2
+    type: transfer
+    pass_rule: successfully applies abstracted routines across at least two clearly non-isomorphic contexts
+  - id: G3
+    type: retention
+    pass_rule: stable recheck performance after approximately 35 days
+failure_modes: [T2-FM-01, T2-FM-02, T2-FM-03]
+artifact_files:
+  - node-spec.md
+  - verification-model.md
+  - failure-taxonomy.md
+  - intervention-playbook.md
+  - intervention-map.json
+  - learner-state-model.md
+  - learner-state.schema.json
+  - example-learner-states.json
+  - transition-rules.yaml
+  - teacher-observability.md
+  - agent-behavior.md

@@ -1,37 +1,140 @@
 {
   "node_id": "B5",
+  "policy_version": "1.0",
   "items": [
     {
-      "item_id": "B5-A1",
-      "item_family": "direct",
-      "prompt": "compares, composes, and selects advanced-function families in bounded modeling and representation tasks and interprets near-limit behavior",
+      "item_id": "B5-DIR-001",
+      "node_id": "B5",
+      "item_family": "direct_execution",
+      "prompt": "Decide whether the table `(2, 6), (4, 12), (7, 21)` is proportional and justify the constant of proportionality.",
       "expected_evidence": "choose and justify an appropriate advanced-function family or composition for a bounded modeling or interpretation task",
       "dominant_failure_mode": "family_synthesis_fragmentation",
-      "scoring_guidance": "Meets when the learner selects or combines function families in a way that preserves the structure of the task and the resulting behavior."
+      "scoring_guidance": "Meets when the learner demonstrates choose and justify an appropriate advanced-function family or composition for a bounded modeling or interpretation task with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "B5-B1",
-      "item_family": "explanation",
-      "prompt": "explains how transformed, inverse, and composed functions interact and how approaching behavior can still be reasoned about before formal calculus",
-      "expected_evidence": "explain approaching behavior and continuity in bounded near-limit situations without relying on formal calculus procedures",
+      "item_id": "B5-DIR-002",
+      "node_id": "B5",
+      "item_family": "direct_execution",
+      "prompt": "Find the unit rate for 18 miles in 3 hours and explain what it means.",
+      "expected_evidence": "compare transformed, composed, or inverse functions across algebraic and graphical representations",
       "dominant_failure_mode": "approaching_behavior_opacity",
-      "scoring_guidance": "Meets when the learner explains synthesis and near-limit reasoning as coherent function behavior rather than isolated rules."
+      "scoring_guidance": "Meets when the learner demonstrates compare transformed, composed, or inverse functions across algebraic and graphical representations with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "B5-C1",
-      "item_family": "error_diagnosis",
-      "prompt": "Diagnose a peer error aligned to composition_representation_breakdown.",
+      "item_id": "B5-DIR-003",
+      "node_id": "B5",
+      "item_family": "direct_execution",
+      "prompt": "Find 15% of 80 and explain how the percent is acting as a rate per hundred.",
+      "expected_evidence": "explain approaching behavior and continuity in bounded near-limit situations without relying on formal calculus procedures",
+      "dominant_failure_mode": "composition_representation_breakdown",
+      "scoring_guidance": "Meets when the learner demonstrates explain approaching behavior and continuity in bounded near-limit situations without relying on formal calculus procedures with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
+    },
+    {
+      "item_id": "B5-EXP-001",
+      "node_id": "B5",
+      "item_family": "explanation",
+      "prompt": "Explain why equal differences alone do not prove a relationship is proportional.",
+      "expected_evidence": "choose and justify an appropriate advanced-function family or composition for a bounded modeling or interpretation task",
+      "dominant_failure_mode": "approaching_behavior_opacity",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to choose and justify an appropriate advanced-function family or composition for a bounded modeling or interpretation task.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "B5-EXP-002",
+      "node_id": "B5",
+      "item_family": "explanation",
+      "prompt": "Explain how a unit rate and a constant of proportionality describe the same multiplicative structure.",
       "expected_evidence": "compare transformed, composed, or inverse functions across algebraic and graphical representations",
       "dominant_failure_mode": "composition_representation_breakdown",
-      "scoring_guidance": "Meets when the learner identifies where a composition or transformation was represented inconsistently across forms."
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to compare transformed, composed, or inverse functions across algebraic and graphical representations.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
     },
     {
-      "item_id": "B5-D1",
+      "item_id": "B5-ERR-001",
+      "node_id": "B5",
+      "item_family": "error_diagnosis",
+      "prompt": "A student says a table is proportional because it increases by 3 each row. Diagnose the additive-pattern error. Focus on family synthesis fragmentation.",
+      "expected_evidence": "choose and justify an appropriate advanced-function family or composition for a bounded modeling or interpretation task",
+      "dominant_failure_mode": "family_synthesis_fragmentation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward choose and justify an appropriate advanced-function family or composition for a bounded modeling or interpretation task.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "B5-ERR-002",
+      "node_id": "B5",
+      "item_family": "error_diagnosis",
+      "prompt": "A student scales one quantity by 2 but the other by 3 and still claims proportionality. Identify the breakdown. Focus on approaching behavior opacity.",
+      "expected_evidence": "compare transformed, composed, or inverse functions across algebraic and graphical representations",
+      "dominant_failure_mode": "approaching_behavior_opacity",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward compare transformed, composed, or inverse functions across algebraic and graphical representations.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "B5-TRA-001",
+      "node_id": "B5",
       "item_family": "transfer",
-      "prompt": "interprets a less-familiar precalculus modeling or graph-comparison context and identifies the dominant cross-family features that matter",
-      "expected_evidence": "connect cross-family features such as growth, asymptotes, oscillation, and local behavior in one coherent analysis",
+      "prompt": "A map uses 1 cm for every 5 km. How far does 7.2 cm represent, and why is the relationship proportional?",
+      "expected_evidence": "choose and justify an appropriate advanced-function family or composition for a bounded modeling or interpretation task",
+      "dominant_failure_mode": "composition_representation_breakdown",
+      "scoring_guidance": "Meets when the learner preserves choose and justify an appropriate advanced-function family or composition for a bounded modeling or interpretation task in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "B5-TRA-002",
+      "node_id": "B5",
+      "item_family": "transfer",
+      "prompt": "A recipe uses 3 cups of flour for 2 batches. Write an equation relating flour to batches and find the amount for 5 batches.",
+      "expected_evidence": "compare transformed, composed, or inverse functions across algebraic and graphical representations",
       "dominant_failure_mode": "cross_family_feature_blindness",
-      "scoring_guidance": "Meets when the learner preserves coherent cross-family reasoning and identifies the feature that actually governs the situation."
+      "scoring_guidance": "Meets when the learner preserves compare transformed, composed, or inverse functions across algebraic and graphical representations in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "B5-RET-001",
+      "node_id": "B5",
+      "item_family": "retention",
+      "prompt": "On a delayed check, determine whether 4 notebooks for $6 and 10 notebooks for $15 are proportional and justify your reasoning.",
+      "expected_evidence": "choose and justify an appropriate advanced-function family or composition for a bounded modeling or interpretation task",
+      "dominant_failure_mode": "cross_family_feature_blindness",
+      "scoring_guidance": "Meets when the learner still demonstrates choose and justify an appropriate advanced-function family or composition for a bounded modeling or interpretation task on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "B5-PRE-001",
+      "node_id": "B5",
+      "item_family": "prerequisite_probe",
+      "prompt": "Probe logarithmic and inverse function reasoning before diagnosing precalculus function synthesis and limits foundations, and state whether the learner is missing multiplicative structure or only the current proportional application.",
+      "expected_evidence": "shows whether logarithmic and inverse function reasoning is secure enough to support precalculus function synthesis and limits foundations",
+      "dominant_failure_mode": "approaching_behavior_opacity",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in logarithmic and inverse function reasoning from a current-node issue in precalculus function synthesis and limits foundations.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "B3",
+      "suspected_knowledge_gap_if_incorrect": "logarithmic and inverse function reasoning"
+    },
+    {
+      "item_id": "B5-PRE-002",
+      "node_id": "B5",
+      "item_family": "prerequisite_probe",
+      "prompt": "Probe trigonometric functions and unit circle before diagnosing precalculus function synthesis and limits foundations, and state whether the learner is missing multiplicative structure or only the current proportional application.",
+      "expected_evidence": "shows whether trigonometric functions and unit circle is secure enough to support precalculus function synthesis and limits foundations",
+      "dominant_failure_mode": "composition_representation_breakdown",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in trigonometric functions and unit circle from a current-node issue in precalculus function synthesis and limits foundations.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "B4",
+      "suspected_knowledge_gap_if_incorrect": "trigonometric functions and unit circle"
     }
   ]
 }

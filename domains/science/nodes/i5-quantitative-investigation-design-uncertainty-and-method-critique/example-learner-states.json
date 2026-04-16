@@ -1,0 +1,36 @@
+[
+  {
+    "learner_id": "example-i5-secure",
+    "node_id": "I5",
+    "status": "secure",
+    "dependency_status": {
+      "I4": "secure"
+    },
+    "direct_accuracy": 0.94,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Calibrates uncertainty and critiques methods against the actual quantitative goal."
+  },
+  {
+    "learner_id": "example-i5-emerging",
+    "node_id": "I5",
+    "status": "emerging",
+    "dependency_status": {
+      "I4": "secure"
+    },
+    "direct_accuracy": 0.71,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["I5-FM-02", "I5-FM-03"],
+    "recommended_interventions": ["I5-INT-02", "I5-INT-03"],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Overreads uncertainty overlap and mistakes precise tools for overall method quality."
+  }
+]

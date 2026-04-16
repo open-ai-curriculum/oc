@@ -1,0 +1,38 @@
+[
+  {
+    "learner_id": "example-a2-secure",
+    "node_id": "A2",
+    "status": "secure",
+    "dependency_status": {
+      "A1": "secure",
+      "D4": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Coordinates science, computation, and engineering constraints coherently in capstone design."
+  },
+  {
+    "learner_id": "example-a2-emerging",
+    "node_id": "A2",
+    "status": "emerging",
+    "dependency_status": {
+      "A1": "secure",
+      "D4": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["A2-FM-01", "A2-FM-03"],
+    "recommended_interventions": ["A2-INT-01", "A2-INT-03"],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Adds computational language and many strands without coherent scientific integration."
+  }
+]

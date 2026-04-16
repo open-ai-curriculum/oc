@@ -1,0 +1,43 @@
+[
+  {
+    "learner_id": "ela-sample-f3-blocked",
+    "node_id": "F3",
+    "status": "blocked",
+    "dependency_status": {
+      "F2": "secure",
+      "P2": "provisional"
+    },
+    "direct_accuracy": 0.5,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["F3-FM-01", "F3-FM-02"],
+    "recommended_interventions": [
+      "short repeated passage reads",
+      "tracking support with line focus"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Can decode many words in isolation but connected reading remains halting."
+  },
+  {
+    "learner_id": "ela-sample-f3-provisional",
+    "node_id": "F3",
+    "status": "provisional",
+    "dependency_status": {
+      "F2": "secure",
+      "P2": "secure"
+    },
+    "direct_accuracy": 0.89,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [
+      "brief varied connected-text review"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Reads short connected text accurately while preserving meaning."
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "node_id": "G3",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "G3-FM-01": [
+      "ask what the pattern suggests after each observation",
+      "connect one map feature to one claim at a time",
+      "compare explained and unexplained pattern observations"
+    ],
+    "G3-FM-02": [
+      "trace the path with arrows or sequencing supports",
+      "narrate movement one step at a time",
+      "compare two movement routes and identify the difference"
+    ],
+    "G3-FM-03": [
+      "require one map detail before making the claim",
+      "annotate the resource evidence directly on the display",
+      "contrast supported and unsupported claims"
+    ],
+    "G3-FM-04": [
+      "simplify the display and preteach key spatial terms",
+      "allow pointing and oral explanation",
+      "verify whether access supports materially change performance"
+    ]
+  }
+}

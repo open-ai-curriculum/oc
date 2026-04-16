@@ -1,0 +1,22 @@
+[
+  {
+    "learner_id": "example-o3-emerging",
+    "node_id": "O3",
+    "status": "emerging",
+    "dependency_status": {
+      "O2": "secure"
+    },
+    "direct_accuracy": 0.73,
+    "explanation_status": "weak",
+    "transfer_status": "weak",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["O3-FM-01", "O3-FM-03"],
+    "recommended_interventions": [
+      "first-next-last oral recount frames",
+      "because prompts tied to familiar events"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Can retell a familiar routine but loses explanatory detail on changed topics."
+  }
+]

@@ -1,37 +1,140 @@
 {
   "node_id": "H5",
+  "policy_version": "1.0",
   "items": [
     {
-      "item_id": "H5-A1",
-      "item_family": "direct",
-      "prompt": "computes and uses circle measures and coordinate-geometry quantities to solve bounded problems",
-      "expected_evidence": "solve bounded circle or coordinate-geometry problems with reasonableness checks",
+      "item_id": "H5-DIR-001",
+      "node_id": "H5",
+      "item_family": "direct_execution",
+      "prompt": "Plot the point `(3, -2)` and explain what each coordinate controls.",
+      "expected_evidence": "explain and use circle measures including circumference, area, arc length, and sectors",
       "dominant_failure_mode": "formula_structure_fragmentation",
-      "scoring_guidance": "Meets when the learner selects and applies the correct measure or coordinate relationship with coherent geometric meaning."
+      "scoring_guidance": "Meets when the learner demonstrates explain and use circle measures including circumference, area, arc length, and sectors with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "H5-B1",
-      "item_family": "explanation",
-      "prompt": "explains how arc, angle, radius, and coordinate relationships govern bounded circle and coordinate-geometry situations",
+      "item_id": "H5-DIR-002",
+      "node_id": "H5",
+      "item_family": "direct_execution",
+      "prompt": "Find the slope between `(1, 4)` and `(5, 12)` and interpret it as a rate of change.",
       "expected_evidence": "justify central-angle and inscribed-angle relationships in bounded diagrams",
       "dominant_failure_mode": "arc_angle_meaning_gap",
-      "scoring_guidance": "Meets when the learner explains circle and coordinate relationships as connected geometric structure, not isolated formulas."
+      "scoring_guidance": "Meets when the learner demonstrates justify central-angle and inscribed-angle relationships in bounded diagrams with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "H5-C1",
-      "item_family": "error_diagnosis",
-      "prompt": "Diagnose a peer error aligned to coordinate_measure_substitution_error.",
+      "item_id": "H5-DIR-003",
+      "node_id": "H5",
+      "item_family": "direct_execution",
+      "prompt": "Determine whether the table represents a function and justify your decision.",
       "expected_evidence": "compute midpoint and distance and interpret simple circle-coordinate relationships",
       "dominant_failure_mode": "coordinate_measure_substitution_error",
-      "scoring_guidance": "Meets when the learner identifies where coordinate values were substituted or interpreted incorrectly."
+      "scoring_guidance": "Meets when the learner demonstrates compute midpoint and distance and interpret simple circle-coordinate relationships with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
     },
     {
-      "item_id": "H5-D1",
+      "item_id": "H5-EXP-001",
+      "node_id": "H5",
+      "item_family": "explanation",
+      "prompt": "Explain how a table, graph, and equation can represent the same linear relationship.",
+      "expected_evidence": "explain and use circle measures including circumference, area, arc length, and sectors",
+      "dominant_failure_mode": "arc_angle_meaning_gap",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to explain and use circle measures including circumference, area, arc length, and sectors.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "H5-EXP-002",
+      "node_id": "H5",
+      "item_family": "explanation",
+      "prompt": "Explain what slope means in both graphical and contextual terms.",
+      "expected_evidence": "justify central-angle and inscribed-angle relationships in bounded diagrams",
+      "dominant_failure_mode": "coordinate_measure_substitution_error",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to justify central-angle and inscribed-angle relationships in bounded diagrams.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "H5-ERR-001",
+      "node_id": "H5",
+      "item_family": "error_diagnosis",
+      "prompt": "A student reverses the coordinates and plots `(3, -2)` as `(-2, 3)`. Diagnose the mapping error. Focus on formula structure fragmentation.",
+      "expected_evidence": "explain and use circle measures including circumference, area, arc length, and sectors",
+      "dominant_failure_mode": "formula_structure_fragmentation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward explain and use circle measures including circumference, area, arc length, and sectors.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "H5-ERR-002",
+      "node_id": "H5",
+      "item_family": "error_diagnosis",
+      "prompt": "A student says every straight-looking graph is proportional. Identify the misclassification. Focus on arc angle meaning gap.",
+      "expected_evidence": "justify central-angle and inscribed-angle relationships in bounded diagrams",
+      "dominant_failure_mode": "arc_angle_meaning_gap",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward justify central-angle and inscribed-angle relationships in bounded diagrams.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "H5-TRA-001",
+      "node_id": "H5",
       "item_family": "transfer",
-      "prompt": "applies circle or coordinate-geometry reasoning in a less-familiar geometric or contextual setting and checks reasonableness",
+      "prompt": "A ride-share charges a fixed fee plus a cost per mile. Write a rule, make a table, and interpret the slope and intercept.",
+      "expected_evidence": "explain and use circle measures including circumference, area, arc length, and sectors",
+      "dominant_failure_mode": "coordinate_measure_substitution_error",
+      "scoring_guidance": "Meets when the learner preserves explain and use circle measures including circumference, area, arc length, and sectors in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "H5-TRA-002",
+      "node_id": "H5",
+      "item_family": "transfer",
+      "prompt": "Given a graph and a verbal description, decide whether they could represent the same relationship and justify the match.",
+      "expected_evidence": "justify central-angle and inscribed-angle relationships in bounded diagrams",
+      "dominant_failure_mode": "measurement_context_disconnect",
+      "scoring_guidance": "Meets when the learner preserves justify central-angle and inscribed-angle relationships in bounded diagrams in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "H5-RET-001",
+      "node_id": "H5",
+      "item_family": "retention",
+      "prompt": "On a delayed check, move between a rule, a table, and a graph for a linear relationship and explain the connection.",
       "expected_evidence": "explain and use circle measures including circumference, area, arc length, and sectors",
       "dominant_failure_mode": "measurement_context_disconnect",
-      "scoring_guidance": "Meets when the learner preserves correct geometric structure and validates whether the result fits the situation."
+      "scoring_guidance": "Meets when the learner still demonstrates explain and use circle measures including circumference, area, arc length, and sectors on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "H5-PRE-001",
+      "node_id": "H5",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a prerequisite probe on congruence and similarity via transformations to see whether the learner is blocked by graph/coordinate foundations or by circles measurement and coordinate geometry itself.",
+      "expected_evidence": "shows whether congruence and similarity via transformations is secure enough to support circles measurement and coordinate geometry",
+      "dominant_failure_mode": "arc_angle_meaning_gap",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in congruence and similarity via transformations from a current-node issue in circles measurement and coordinate geometry.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "H2",
+      "suspected_knowledge_gap_if_incorrect": "congruence and similarity via transformations"
+    },
+    {
+      "item_id": "H5-PRE-002",
+      "node_id": "H5",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a prerequisite probe on coordinate plane and ordered pairs to see whether the learner is blocked by graph/coordinate foundations or by circles measurement and coordinate geometry itself.",
+      "expected_evidence": "shows whether coordinate plane and ordered pairs is secure enough to support circles measurement and coordinate geometry",
+      "dominant_failure_mode": "coordinate_measure_substitution_error",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in coordinate plane and ordered pairs from a current-node issue in circles measurement and coordinate geometry.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "A4",
+      "suspected_knowledge_gap_if_incorrect": "coordinate plane and ordered pairs"
     }
   ]
 }

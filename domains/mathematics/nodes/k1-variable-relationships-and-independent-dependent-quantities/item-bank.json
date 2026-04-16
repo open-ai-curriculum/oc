@@ -1,37 +1,140 @@
 {
   "node_id": "K1",
+  "policy_version": "1.0",
   "items": [
     {
-      "item_id": "K1-A1",
-      "item_family": "direct",
-      "prompt": "identifies variable roles and interprets bounded relationships across tables, graphs, and verbal contexts",
+      "item_id": "K1-DIR-001",
+      "node_id": "K1",
+      "item_family": "direct_execution",
+      "prompt": "Solve `x + 7 = 19` and show how each step preserves equality.",
       "expected_evidence": "identify which quantity is treated as the input-like or driving quantity in a bounded relationship",
       "dominant_failure_mode": "variable_role_swap",
-      "scoring_guidance": "Meets when the learner identifies the variable roles and relationship correctly."
+      "scoring_guidance": "Meets when the learner demonstrates identify which quantity is treated as the input-like or driving quantity in a bounded relationship with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "K1-B1",
-      "item_family": "explanation",
-      "prompt": "explains how changing one quantity affects another and why one quantity is treated as dependent on the other",
+      "item_id": "K1-DIR-002",
+      "node_id": "K1",
+      "item_family": "direct_execution",
+      "prompt": "Solve `4x = 28`, then check the solution by substitution.",
       "expected_evidence": "identify which quantity changes in response and how it is recorded",
       "dominant_failure_mode": "paired_value_fragmentation",
-      "scoring_guidance": "Meets when the learner explains the relationship between the two quantities coherently."
+      "scoring_guidance": "Meets when the learner demonstrates identify which quantity changes in response and how it is recorded with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "K1-C1",
-      "item_family": "error_diagnosis",
-      "prompt": "Diagnose a peer error aligned to representation_role_disconnect.",
-      "expected_evidence": "connect verbal relationship statements to tables, points, and simple symbolic rules",
-      "dominant_failure_mode": "representation_role_disconnect",
-      "scoring_guidance": "Meets when the learner identifies how the peer lost the relationship between variable roles across representations."
-    },
-    {
-      "item_id": "K1-D1",
-      "item_family": "transfer",
-      "prompt": "succeeds across symbolic, table, verbal, graph, and simple contextual variable-relationship representations",
+      "item_id": "K1-DIR-003",
+      "node_id": "K1",
+      "item_family": "direct_execution",
+      "prompt": "Match the equation `n - 5 = 12` to a balance or missing-value situation and solve it.",
       "expected_evidence": "explain paired values as related measures of one relationship rather than as separate facts",
+      "dominant_failure_mode": "representation_role_disconnect",
+      "scoring_guidance": "Meets when the learner demonstrates explain paired values as related measures of one relationship rather than as separate facts with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
+    },
+    {
+      "item_id": "K1-EXP-001",
+      "node_id": "K1",
+      "item_family": "explanation",
+      "prompt": "Explain why subtracting the same value from both sides of an equation preserves the solution set.",
+      "expected_evidence": "identify which quantity is treated as the input-like or driving quantity in a bounded relationship",
+      "dominant_failure_mode": "paired_value_fragmentation",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to identify which quantity is treated as the input-like or driving quantity in a bounded relationship.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "K1-EXP-002",
+      "node_id": "K1",
+      "item_family": "explanation",
+      "prompt": "Explain what the variable represents and why inverse operations help isolate it.",
+      "expected_evidence": "identify which quantity changes in response and how it is recorded",
+      "dominant_failure_mode": "representation_role_disconnect",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to identify which quantity changes in response and how it is recorded.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "K1-ERR-001",
+      "node_id": "K1",
+      "item_family": "error_diagnosis",
+      "prompt": "A student solves `x + 5 = 13` by writing `x = 13 + 5`. Diagnose the first structural mistake. Focus on variable role swap.",
+      "expected_evidence": "identify which quantity is treated as the input-like or driving quantity in a bounded relationship",
+      "dominant_failure_mode": "variable_role_swap",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward identify which quantity is treated as the input-like or driving quantity in a bounded relationship.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "K1-ERR-002",
+      "node_id": "K1",
+      "item_family": "error_diagnosis",
+      "prompt": "A student solves `3x = 18` by dividing only the `x`. Explain what went wrong. Focus on paired value fragmentation.",
+      "expected_evidence": "identify which quantity changes in response and how it is recorded",
+      "dominant_failure_mode": "paired_value_fragmentation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward identify which quantity changes in response and how it is recorded.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "K1-TRA-001",
+      "node_id": "K1",
+      "item_family": "transfer",
+      "prompt": "A gym charges a $12 signup fee plus $5 per class. Write and solve an equation for the number of classes if the total was $32.",
+      "expected_evidence": "identify which quantity is treated as the input-like or driving quantity in a bounded relationship",
+      "dominant_failure_mode": "representation_role_disconnect",
+      "scoring_guidance": "Meets when the learner preserves identify which quantity is treated as the input-like or driving quantity in a bounded relationship in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "K1-TRA-002",
+      "node_id": "K1",
+      "item_family": "transfer",
+      "prompt": "A balance model has three equal bags and 6 loose counters on one side and 24 counters on the other. Write and solve the equation.",
+      "expected_evidence": "identify which quantity changes in response and how it is recorded",
       "dominant_failure_mode": "context_dependency_breakdown",
-      "scoring_guidance": "Meets when the learner preserves variable-relationship meaning across varied representations and contexts."
+      "scoring_guidance": "Meets when the learner preserves identify which quantity changes in response and how it is recorded in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "K1-RET-001",
+      "node_id": "K1",
+      "item_family": "retention",
+      "prompt": "Two weeks later, solve `m/3 = 8` and explain how you know the result is reasonable.",
+      "expected_evidence": "identify which quantity is treated as the input-like or driving quantity in a bounded relationship",
+      "dominant_failure_mode": "context_dependency_breakdown",
+      "scoring_guidance": "Meets when the learner still demonstrates identify which quantity is treated as the input-like or driving quantity in a bounded relationship on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "K1-PRE-001",
+      "node_id": "K1",
+      "item_family": "prerequisite_probe",
+      "prompt": "Before solving variable relationships and independent dependent quantities, complete a prerequisite check on variable expressions and substitution and explain how it supports the current equation work.",
+      "expected_evidence": "shows whether variable expressions and substitution is secure enough to support variable relationships and independent dependent quantities",
+      "dominant_failure_mode": "paired_value_fragmentation",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in variable expressions and substitution from a current-node issue in variable relationships and independent dependent quantities.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "A1",
+      "suspected_knowledge_gap_if_incorrect": "variable expressions and substitution"
+    },
+    {
+      "item_id": "K1-PRE-002",
+      "node_id": "K1",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a quick linear relationship tables and graphs check to explain whether the learner is blocked by prerequisite structure or by variable relationships and independent dependent quantities itself.",
+      "expected_evidence": "shows whether linear relationship tables and graphs is secure enough to support variable relationships and independent dependent quantities",
+      "dominant_failure_mode": "representation_role_disconnect",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in linear relationship tables and graphs from a current-node issue in variable relationships and independent dependent quantities.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "A5",
+      "suspected_knowledge_gap_if_incorrect": "linear relationship tables and graphs"
     }
   ]
 }

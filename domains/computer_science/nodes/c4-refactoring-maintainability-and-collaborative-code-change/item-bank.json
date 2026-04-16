@@ -1,0 +1,250 @@
+{
+  "node_id": "C4",
+  "policy_version": "1.0",
+  "version": "0.4",
+  "items": [
+    {
+      "item_id": "C4-DIR-001",
+      "node_id": "C4",
+      "item_family": "direct_execution",
+      "prompt": "A short program does not produce the intended result. Use the code, trace, or test case to show how the learner would identify duplication, complexity, naming, or structure issues that affect maintainability.",
+      "expected_evidence": "identify duplication, complexity, naming, or structure issues that affect maintainability",
+      "dominant_failure_mode_targets": [
+        "C4-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates identify duplication, complexity, naming, or structure issues that affect maintainability with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "C4-DIR-002",
+      "node_id": "C4",
+      "item_family": "direct_execution",
+      "prompt": "A learner is given a specification and a small set of tests for a program. Show how they would describe how a revision should preserve required behavior while improving code quality.",
+      "expected_evidence": "describe how a revision should preserve required behavior while improving code quality",
+      "dominant_failure_mode_targets": [
+        "C4-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates describe how a revision should preserve required behavior while improving code quality with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "C4-DIR-003",
+      "node_id": "C4",
+      "item_family": "direct_execution",
+      "prompt": "A team reviews an existing code change and must justify a cleanup or refactor without breaking behavior. Show how the learner would interpret code changes as collaborative artifacts that need justification and review.",
+      "expected_evidence": "interpret code changes as collaborative artifacts that need justification and review",
+      "dominant_failure_mode_targets": [
+        "C4-FM-03"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates interpret code changes as collaborative artifacts that need justification and review with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "C4-EXP-001",
+      "node_id": "C4",
+      "item_family": "explanation",
+      "prompt": "Why is a refactor not automatically safe just because the code looks cleaner?",
+      "expected_evidence": "because maintainability improvements still need bounded evidence that intended behavior was preserved after the change.",
+      "dominant_failure_mode_targets": [
+        "C4-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to because maintainability improvements still need bounded evidence that intended behavior was preserved after the change."
+    },
+    {
+      "item_id": "C4-EXP-002",
+      "node_id": "C4",
+      "item_family": "explanation",
+      "prompt": "What makes a maintainability claim disciplined rather than vague?",
+      "expected_evidence": "a disciplined claim names the specific issue improved, such as duplication, complexity, naming, or structure, rather than just saying the code is better.",
+      "dominant_failure_mode_targets": [
+        "C4-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to a disciplined claim names the specific issue improved, such as duplication, complexity, naming, or structure, rather than just saying the code is better."
+    },
+    {
+      "item_id": "C4-ERR-001",
+      "node_id": "C4",
+      "item_family": "error_diagnosis",
+      "prompt": "A learner runs a short program, sees the wrong output, and responds in a way that suggests this breakdown: learner assumes a refactor is safe without checking behavior against tests or specifications. Diagnose the debugging or quality mistake. Focus on cleanup-without-proof.",
+      "expected_evidence": "identify duplication, complexity, naming, or structure issues that affect maintainability",
+      "dominant_failure_mode_targets": [
+        "C4-FM-01"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward identify duplication, complexity, naming, or structure issues that affect maintainability."
+    },
+    {
+      "item_id": "C4-ERR-002",
+      "node_id": "C4",
+      "item_family": "error_diagnosis",
+      "prompt": "A learner runs a short program, sees the wrong output, and responds in a way that suggests this breakdown: learner says code is cleaner without naming what maintainability issue improved. Diagnose the debugging or quality mistake. Focus on maintainability-without-criteria.",
+      "expected_evidence": "describe how a revision should preserve required behavior while improving code quality",
+      "dominant_failure_mode_targets": [
+        "C4-FM-02"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward describe how a revision should preserve required behavior while improving code quality."
+    },
+    {
+      "item_id": "C4-TRA-001",
+      "node_id": "C4",
+      "item_family": "transfer",
+      "prompt": "A debugging or quality idea learned in one code example is now presented in a different language or representation. Explain how the learner would interpret code changes as collaborative artifacts that need justification and review in the new context.",
+      "expected_evidence": "interpret code changes as collaborative artifacts that need justification and review",
+      "dominant_failure_mode_targets": [
+        "C4-FM-03"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves interpret code changes as collaborative artifacts that need justification and review in a changed computing context or representation."
+    },
+    {
+      "item_id": "C4-TRA-002",
+      "node_id": "C4",
+      "item_family": "transfer",
+      "prompt": "A learner must evaluate a changed codebase artifact such as a diff, failed test, or review comment and still preserve the same software-quality reasoning. Show how they would avoid treating cleanup as harmless when behavior preservation has not been checked.",
+      "expected_evidence": "avoid treating cleanup as harmless when behavior preservation has not been checked",
+      "dominant_failure_mode_targets": [
+        "C4-FM-04"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves avoid treating cleanup as harmless when behavior preservation has not been checked in a changed computing context or representation."
+    },
+    {
+      "item_id": "C4-RET-001",
+      "node_id": "C4",
+      "item_family": "retention",
+      "prompt": "After a delay, the learner revisits a fresh bounded bug, specification, or refactor case and must justify the next step rather than guess. Show how they would identify duplication, complexity, naming, or structure issues that affect maintainability.",
+      "expected_evidence": "identify duplication, complexity, naming, or structure issues that affect maintainability",
+      "dominant_failure_mode_targets": [
+        "C4-FM-04"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_explanation",
+        "constructed_response"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability",
+      "scoring_guidance": "Meets when the learner still demonstrates identify duplication, complexity, naming, or structure issues that affect maintainability on a delayed recheck without a blocking recurrence."
+    },
+    {
+      "item_id": "C4-PRE-001",
+      "node_id": "C4",
+      "item_family": "prerequisite_probe",
+      "prompt": "Check specification, testing, and program quality criteria with a short program trace or design task before closing refactoring, maintainability, and collaborative code change, and determine whether the present quality issue is actually upstream.",
+      "expected_evidence": "shows whether specification, testing, and program quality criteria is secure enough to support refactoring, maintainability, and collaborative code change",
+      "dominant_failure_mode_targets": [
+        "C4-FM-01"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in specification, testing, and program quality criteria from a current-node issue in refactoring, maintainability, and collaborative code change.",
+      "dependency_target": "C3",
+      "suspected_knowledge_gap_if_incorrect": "specification, testing, and program quality criteria"
+    },
+    {
+      "item_id": "C4-PRE-002",
+      "node_id": "C4",
+      "item_family": "prerequisite_probe",
+      "prompt": "Check computing impacts, bias, and human-centered evaluation with a short program trace or design task before closing refactoring, maintainability, and collaborative code change, and determine whether the present quality issue is actually upstream.",
+      "expected_evidence": "shows whether computing impacts, bias, and human-centered evaluation is secure enough to support refactoring, maintainability, and collaborative code change",
+      "dominant_failure_mode_targets": [
+        "C4-FM-02"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in computing impacts, bias, and human-centered evaluation from a current-node issue in refactoring, maintainability, and collaborative code change.",
+      "dependency_target": "I3",
+      "suspected_knowledge_gap_if_incorrect": "computing impacts, bias, and human-centered evaluation"
+    }
+  ]
+}

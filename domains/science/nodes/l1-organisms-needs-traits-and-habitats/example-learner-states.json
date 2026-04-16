@@ -1,0 +1,44 @@
+{
+  "node_id": "L1",
+  "examples": [
+    {
+      "learner_id": "sample-l1-blocked-01",
+      "node_id": "L1",
+      "status": "blocked",
+      "dependency_status": {
+        "Q1": "secure",
+        "E1": "secure"
+      },
+      "direct_accuracy": 0.51,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["L1-FM-01", "L1-FM-03"],
+      "recommended_interventions": [
+        "sort living and nonliving needs with picture cards",
+        "pair habitat features with the need they support"
+      ],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Can recognize an organism but does not yet connect habitat features to needs consistently."
+    },
+    {
+      "learner_id": "sample-l1-secure-01",
+      "node_id": "L1",
+      "status": "secure",
+      "dependency_status": {
+        "Q1": "secure",
+        "E1": "secure"
+      },
+      "direct_accuracy": 0.95,
+      "explanation_status": "met",
+      "transfer_status": "met",
+      "retention_status": "met",
+      "dominant_failure_modes": [],
+      "recommended_interventions": [],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Identifies organism needs, observable traits, and habitat supports across plant and animal examples."
+    }
+  ]
+}

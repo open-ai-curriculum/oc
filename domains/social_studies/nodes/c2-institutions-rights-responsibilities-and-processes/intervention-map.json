@@ -1,0 +1,26 @@
+{
+  "node_id": "C2",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "C2-FM-01": [
+      "match institutions to their basic functions",
+      "compare two institutions with one clearly different role",
+      "ask what problem this institution helps address"
+    ],
+    "C2-FM-02": [
+      "pair each right with one matching responsibility",
+      "compare examples where one is missing",
+      "use sentence frames for with this right comes"
+    ],
+    "C2-FM-03": [
+      "sequence a simple civic process with cards or visuals",
+      "narrate one step at a time",
+      "compare correct and incorrect process orders"
+    ],
+    "C2-FM-04": [
+      "preteach essential civic vocabulary",
+      "reduce the scenario to one institution and one process",
+      "allow oral rehearsal before written response"
+    ]
+  }
+}

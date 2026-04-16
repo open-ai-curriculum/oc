@@ -1,0 +1,38 @@
+[
+  {
+    "learner_id": "example-e4-secure",
+    "node_id": "E4",
+    "status": "secure",
+    "dependency_status": {
+      "E3": "secure",
+      "I4": "secure"
+    },
+    "direct_accuracy": 0.94,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Builds and critiques quantitative explanations with disciplined uncertainty calibration."
+  },
+  {
+    "learner_id": "example-e4-emerging",
+    "node_id": "E4",
+    "status": "emerging",
+    "dependency_status": {
+      "E3": "secure",
+      "I4": "secure"
+    },
+    "direct_accuracy": 0.72,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["E4-FM-01", "E4-FM-03"],
+    "recommended_interventions": ["E4-INT-01", "E4-INT-03"],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Reads numbers as proof and swings between overclaiming and total dismissal under uncertainty."
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "node_id": "H2",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "H2-FM-01": [
+      "require pointing to or quoting one source detail before answering",
+      "annotate the source together for usable evidence",
+      "compare source-grounded and source-free answers"
+    ],
+    "H2-FM-02": [
+      "sort details into then and now columns",
+      "connect each source detail to a timeline anchor",
+      "revisit one feature across two time periods only"
+    ],
+    "H2-FM-03": [
+      "narrow the comparison focus to one feature",
+      "use same because and different because frames",
+      "supply candidate contexts and have the learner choose the best fit"
+    ],
+    "H2-FM-04": [
+      "preteach essential vocabulary and source labels",
+      "begin with familiar community contexts",
+      "reduce expressive load while preserving source use"
+    ]
+  }
+}

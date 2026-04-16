@@ -1,0 +1,26 @@
+# S1 Verification Model
+
+## Gate Set
+
+### G1. Direct Performance Gate
+
+- purpose: confirm use of a productive-practice routine with checking and correction
+- pass rule: successful routine use with check and correction in at least 4 of 5 structured opportunities
+
+### G2. Transfer Gate
+
+- purpose: confirm that the routine survives a changed task type
+- pass rule: one successful changed-context practice routine
+
+### G3. Retention Gate
+
+- purpose: confirm persistence after spacing
+- pass rule: stable delayed recheck after about 14 days
+
+## Status Logic
+
+- `blocked`: direct gate fails
+- `emerging`: direct performance improves but remains inconsistent
+- `provisional`: direct and transfer gates pass while retention is pending
+- `secure`: all gates pass
+- `unstable`: a previously secure learner fails delayed recheck or regresses structurally

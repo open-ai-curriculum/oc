@@ -1,0 +1,112 @@
+slice_id: mathematics-fraction-spine-cross-domain-runtime
+domain: mathematics
+status: draft
+version: "0.1"
+node_ids: [F1, F2, F3, F4, F5]
+entry_node_ids: [F1]
+learner_state_fields:
+  - learner_id
+  - node_id
+  - status
+  - dependency_status
+  - direct_accuracy
+  - explanation_status
+  - transfer_status
+  - retention_status
+  - dominant_failure_modes
+  - recommended_interventions
+  - last_verified_at
+  - review_state
+artifact_registry_reference: domains/learning_to_learn/cross-domain-attachments/attachment-registry.yaml
+navigation_rules:
+  - rule_id: fraction-cross-domain-hold-f1-primary
+    decision_type: hold_current
+    applies_when:
+      - current_node_id = F1
+      - dominant_failure_modes_contains F1-FM-01_or_F1-FM-03
+      - learning_process_instability_suspected_but_fraction_meaning_not_yet_stable
+    outcome: remain_on_F1_and_serve_fraction_structure_instruction_while_enabling_attached_learning_process_support_C1_or_M1
+    artifact_selection: prefer F1 LessonPattern VerificationTask and attached learning-to-learn support prompts
+    notes: fraction meaning remains primary even when clarification or encoding support is routed
+  - rule_id: fraction-cross-domain-route-f2-to-m1
+    decision_type: route_upstream
+    applies_when:
+      - current_node_id = F2
+      - dominant_failure_modes_contains F2-FM-01_or_F2-FM-03
+      - evidence_of_fragile_encoding_or_inability_to_hold_scaling_structure
+    outcome: route_to_learning_to_learn_M1_while_holding_F2_as_primary_mathematics_node
+    artifact_selection: prefer F2 reteach plus M1 encoding support routine
+    notes: use when equivalence breakdown reflects unstable encoding of scaling structure, not only incorrect mathematics explanation
+  - rule_id: fraction-cross-domain-route-f3-to-c1
+    decision_type: hold_current
+    applies_when:
+      - current_node_id = F3
+      - dominant_failure_modes_contains F3-FM-01_or_F3-FM-03
+      - learner_does_not_signal_that_current_strategy_no_longer_fits
+    outcome: remain_on_F3_and_add_C1_clarification_support_before_next_fraction_comparison_attempt
+    artifact_selection: prefer F3 ErrorAnalysisTask plus C1 clarification routine
+    notes: whole-number bias remains a mathematics error even when clarification signaling is weak
+  - rule_id: fraction-cross-domain-route-f3-to-s1
+    decision_type: route_upstream
+    applies_when:
+      - current_node_id = F3
+      - dominant_failure_modes_contains F3-FM-01_or_F3-FM-02_or_F3-FM-03
+      - repeated_guess_and_move_on_or_strategy_mismatch_present
+    outcome: route_to_learning_to_learn_S1_before_next_compare_fractions_practice_cycle
+    artifact_selection: prefer F3 ErrorAnalysisTask plus S1 productive practice routine
+    notes: used when the learner keeps reusing an unfit comparison routine without a check step
+  - rule_id: fraction-cross-domain-route-f4-to-s1
+    decision_type: route_upstream
+    applies_when:
+      - current_node_id = F4
+      - dominant_failure_modes_contains F4-FM-01_or_F4-FM-03
+      - practice_pattern_repeats_without_unit_size_check
+    outcome: route_to_learning_to_learn_S1_while_holding_F4_as_primary_math_surface
+    artifact_selection: prefer F4 guided practice plus S1 check-correct routine
+    notes: used when adding denominators persists because the learner is not checking procedure against quantity meaning
+  - rule_id: fraction-cross-domain-route-f4-to-r1
+    decision_type: hold_current
+    applies_when:
+      - current_node_id = F4
+      - dominant_failure_modes_contains F4-FM-02_or_F4-FM-03
+      - learner_does_not_use_feedback_for_revision
+    outcome: remain_on_F4_and_add_R1_feedback_acceptance_and_revision_support
+    artifact_selection: prefer F4 InterventionAsset plus R1 feedback-then-revise routine
+    notes: used when improper-fraction or meaning feedback is ignored after correction
+  - rule_id: fraction-cross-domain-route-f5-to-m1
+    decision_type: route_upstream
+    applies_when:
+      - current_node_id = F5
+      - dominant_failure_modes_contains F5-FM-01_or_F5-FM-03
+      - fraction_rewrite_structure_does_not_hold_across_steps_or_short_delay
+    outcome: route_to_learning_to_learn_M1_while_retaining_F5_as_primary_node
+    artifact_selection: prefer F5 InterventionAsset plus M1 represent-and-rehearse routine
+    notes: used when common-denominator rewriting fails because equivalent-fraction structure is not being held actively
+  - rule_id: fraction-cross-domain-route-f5-to-s1
+    decision_type: route_upstream
+    applies_when:
+      - current_node_id = F5
+      - dominant_failure_modes_contains F5-FM-01_or_F5-FM-02_or_F5-FM-03
+      - repeated_broken_procedure_without_self_check
+    outcome: route_to_learning_to_learn_S1_before_next_unlike_denominator_practice_set
+    artifact_selection: prefer F5 ErrorAnalysis_or_InterventionAsset plus S1 productive practice routine
+    notes: used when incorrect common denominator or direct-addition routines are being reinforced by unchecked practice
+  - rule_id: fraction-cross-domain-route-f5-to-r1
+    decision_type: hold_current
+    applies_when:
+      - current_node_id = F5
+      - dominant_failure_modes_contains F5-FM-04_or_F5-FM-05
+      - learner_does_not_seek_or_use_feedback_for_revision
+    outcome: remain_on_F5_and_add_R1_help_seeking_and_feedback_use_support
+    artifact_selection: prefer F5 teacher decision support plus R1 stuck-check-help-revise routine
+    notes: used when mixed-number or plausibility errors persist because feedback is not converted into a revised attempt
+  - rule_id: fraction-cross-domain-reverify-dual-stability
+    decision_type: reverify
+    applies_when:
+      - current_node_status = provisional
+      - prior_progress_depended_on_learning_process_support_route
+      - retention_due_or_transfer_due
+    outcome: require_dual_reverification_of_fraction_node_and_attached_learning_process_support_before_secure_status
+    artifact_selection: prefer fraction RetentionCheck plus the most relevant learning-to-learn reverification routine
+    notes: prevents fraction closure when support-driven gains do not persist
+review_status: draft

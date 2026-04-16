@@ -1,0 +1,32 @@
+[
+  {
+    "item_id": "A2-IB-01",
+    "node_id": "A2",
+    "prompt": "Why is a capstone research plan weak if it includes data analysis software but never explains how the computation informs the scientific claim?",
+    "task_type": "computational_analysis_integration",
+    "answer_key": "The plan is weak because computational tools must be tied to the scientific reasoning and evidence interpretation rather than listed as isolated features.",
+    "scorable_traits": ["computational integration", "claim linkage", "method critique"],
+    "target_failure_modes": ["A2-FM-01"],
+    "context_tags": ["computation", "research design"]
+  },
+  {
+    "item_id": "A2-IB-02",
+    "node_id": "A2",
+    "prompt": "A design project optimizes one performance metric but ignores the scientific validity of the test setup. What critique is needed?",
+    "task_type": "engineering_science_critique",
+    "answer_key": "The critique should require both sound scientific method and optimization logic, since design conclusions are weak if the test setup does not support the claim.",
+    "scorable_traits": ["science-design integration", "validity critique", "optimization discipline"],
+    "target_failure_modes": ["A2-FM-02"],
+    "context_tags": ["engineering", "capstone critique"]
+  },
+  {
+    "item_id": "A2-IB-03",
+    "node_id": "A2",
+    "prompt": "What makes a capstone science-engineering justification stronger than saying it uses many disciplines and lots of data?",
+    "task_type": "capstone_design_justification",
+    "answer_key": "A stronger justification explains how each discipline, model, dataset, and design decision contributes to the bounded problem and why the integration is methodologically coherent.",
+    "scorable_traits": ["capstone coherence", "integration quality", "bounded justification"],
+    "target_failure_modes": ["A2-FM-03"],
+    "context_tags": ["capstone", "integration"]
+  }
+]

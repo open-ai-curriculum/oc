@@ -1,0 +1,37 @@
+{
+  "node_id": "B6",
+  "interventions": [
+    {
+      "intervention_id": "B6-INT-01",
+      "name": "B6 Intervention 1",
+      "addresses_failure_modes": [
+        "B6-FM-01"
+      ],
+      "summary": "comparative organism studies that force structure-function-environment links"
+    },
+    {
+      "intervention_id": "B6-INT-02",
+      "name": "B6 Intervention 2",
+      "addresses_failure_modes": [
+        "B6-FM-02"
+      ],
+      "summary": "habitat constraint prompts for plant, animal, and marine cases"
+    },
+    {
+      "intervention_id": "B6-INT-03",
+      "name": "B6 Intervention 3",
+      "addresses_failure_modes": [
+        "B6-FM-03"
+      ],
+      "summary": "marine-system maps connecting organisms to water, climate, and Earth-system processes"
+    },
+    {
+      "intervention_id": "B6-INT-04",
+      "name": "B6 Intervention 4",
+      "addresses_failure_modes": [
+        "B6-FM-04"
+      ],
+      "summary": "classification-to-explanation routines that move beyond trait catalogs"
+    }
+  ]
+}

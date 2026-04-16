@@ -1,29 +1,294 @@
 {
   "node_id": "M8",
+  "policy_version": "1.0",
+  "version": "0.3",
   "items": [
     {
-      "item_id": "m8-a1",
-      "item_family": "direct_execution",
-      "prompt": "Representative direct task for standard length units and tool use.",
-      "expected_evidence": [
-        "Learner uses the intended structure, not only an answer-getting shortcut."
+      "item_id": "M8-D-001",
+      "family": "direct_execution",
+      "prompt": "Decide whether the table `(2, 6), (4, 12), (7, 21)` is proportional and justify the constant of proportionality.",
+      "target_node": "M8",
+      "secondary_dependency_targets": [
+        "M5",
+        "V1"
       ],
-      "dominant_failure_mode_targets": [
-        "endpoint_misalignment"
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
       ],
-      "context": "rulers"
-    },
-    {
-      "item_id": "m8-b1",
-      "item_family": "explanation",
-      "prompt": "Explain why the chosen structure fits the situation.",
-      "expected_evidence": [
-        "Learner names the structural relationship correctly."
-      ],
-      "dominant_failure_mode_targets": [
+      "dominant_failure_modes_if_incorrect": [
+        "endpoint_misalignment",
         "hashmark_counting_confusion"
       ],
-      "context": "measuring strips"
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "M8-D-002",
+      "family": "direct_execution",
+      "prompt": "Find the unit rate for 18 miles in 3 hours and explain what it means.",
+      "target_node": "M8",
+      "secondary_dependency_targets": [
+        "M5",
+        "V1"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "hashmark_counting_confusion",
+        "unit_label_loss"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "M8-D-003",
+      "family": "direct_execution",
+      "prompt": "Find 15% of 80 and explain how the percent is acting as a rate per hundred.",
+      "target_node": "M8",
+      "secondary_dependency_targets": [
+        "M5",
+        "V1"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "unit_label_loss",
+        "tool_transfer_breakdown"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "M8-D-004",
+      "family": "direct_execution",
+      "prompt": "Decide whether the table `(2, 6), (4, 12), (7, 21)` is proportional and justify the constant of proportionality.",
+      "target_node": "M8",
+      "secondary_dependency_targets": [
+        "M5",
+        "V1"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "tool_transfer_breakdown",
+        "endpoint_misalignment"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "M8-E-001",
+      "family": "explanation",
+      "prompt": "Explain why equal differences alone do not prove a relationship is proportional.",
+      "target_node": "M8",
+      "secondary_dependency_targets": [
+        "M5",
+        "V1"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "hashmark_counting_confusion"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "M8-E-002",
+      "family": "explanation",
+      "prompt": "Explain how a unit rate and a constant of proportionality describe the same multiplicative structure.",
+      "target_node": "M8",
+      "secondary_dependency_targets": [
+        "M5",
+        "V1"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "unit_label_loss"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "M8-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student says a table is proportional because it increases by 3 each row. Diagnose the additive-pattern error. Focus on endpoint misalignment.",
+      "target_node": "M8",
+      "secondary_dependency_targets": [
+        "M5",
+        "V1"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "endpoint_misalignment"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "M8-C-002",
+      "family": "error_diagnosis",
+      "prompt": "A student scales one quantity by 2 but the other by 3 and still claims proportionality. Identify the breakdown. Focus on hashmark counting confusion.",
+      "target_node": "M8",
+      "secondary_dependency_targets": [
+        "M5",
+        "V1"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "hashmark_counting_confusion"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "M8-T-001",
+      "family": "transfer",
+      "prompt": "A map uses 1 cm for every 5 km. How far does 7.2 cm represent, and why is the relationship proportional?",
+      "target_node": "M8",
+      "secondary_dependency_targets": [
+        "M5",
+        "V1"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "unit_label_loss"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "M8-T-002",
+      "family": "transfer",
+      "prompt": "A recipe uses 3 cups of flour for 2 batches. Write an equation relating flour to batches and find the amount for 5 batches.",
+      "target_node": "M8",
+      "secondary_dependency_targets": [
+        "M5",
+        "V1"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "tool_transfer_breakdown"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "M8-R-001",
+      "family": "retention",
+      "prompt": "On a delayed check, determine whether 4 notebooks for $6 and 10 notebooks for $15 are proportional and justify your reasoning.",
+      "target_node": "M8",
+      "secondary_dependency_targets": [
+        "M5",
+        "V1"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "tool_transfer_breakdown"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability"
+    },
+    {
+      "item_id": "M8-P-001",
+      "family": "prerequisite_probe",
+      "prompt": "Probe indirect comparison and transitivity before diagnosing standard length units and tool use, and state whether the learner is missing multiplicative structure or only the current proportional application.",
+      "target_node": "M8",
+      "secondary_dependency_targets": [
+        "M5",
+        "V1"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "hashmark_counting_confusion"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "M5",
+      "suspected_knowledge_gap_if_incorrect": "indirect comparison and transitivity",
+      "scoring_focus": "dependency_disambiguation"
+    },
+    {
+      "item_id": "M8-P-002",
+      "family": "prerequisite_probe",
+      "prompt": "Probe two digit number structure before diagnosing standard length units and tool use, and state whether the learner is missing multiplicative structure or only the current proportional application.",
+      "target_node": "M8",
+      "secondary_dependency_targets": [
+        "M5",
+        "V1"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "unit_label_loss"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "V1",
+      "suspected_knowledge_gap_if_incorrect": "two digit number structure",
+      "scoring_focus": "dependency_disambiguation"
     }
   ]
 }

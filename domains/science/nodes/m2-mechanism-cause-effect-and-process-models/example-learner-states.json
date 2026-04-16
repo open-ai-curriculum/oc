@@ -1,0 +1,44 @@
+{
+  "node_id": "M2",
+  "examples": [
+    {
+      "learner_id": "sample-m2-blocked-01",
+      "node_id": "M2",
+      "status": "blocked",
+      "dependency_status": {
+        "M1": "secure",
+        "E1": "secure"
+      },
+      "direct_accuracy": 0.47,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["M2-FM-02", "M2-FM-03"],
+      "recommended_interventions": [
+        "label cause and effect explicitly in short examples",
+        "ask what happened in the middle not just at the end"
+      ],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Can name outcomes but does not yet sustain the mechanism linking causes and effects."
+    },
+    {
+      "learner_id": "sample-m2-secure-01",
+      "node_id": "M2",
+      "status": "secure",
+      "dependency_status": {
+        "M1": "secure",
+        "E1": "secure"
+      },
+      "direct_accuracy": 0.93,
+      "explanation_status": "met",
+      "transfer_status": "met",
+      "retention_status": "met",
+      "dominant_failure_modes": [],
+      "recommended_interventions": [],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Explains processes through stepwise mechanism and cause-effect reasoning across multiple contexts."
+    }
+  ]
+}

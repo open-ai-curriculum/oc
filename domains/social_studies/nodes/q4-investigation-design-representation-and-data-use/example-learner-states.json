@@ -1,0 +1,23 @@
+{
+  "node_id": "Q4",
+  "examples": [
+    {
+      "learner_id": "sample-q4-blocked-01",
+      "node_id": "Q4",
+      "status": "blocked",
+      "dependency_status": { "Q3": "secure" },
+      "direct_accuracy": 0.59,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["Q4-FM-02"],
+      "recommended_interventions": [
+        "ask what the detail means for the question after each observation",
+        "use sentence frames linking data to conclusion"
+      ],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Can read details from the display but does not use them to answer the question."
+    }
+  ]
+}

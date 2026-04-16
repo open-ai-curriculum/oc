@@ -1,0 +1,22 @@
+[
+  {
+    "learner_id": "example-fr3-emerging",
+    "node_id": "FR3",
+    "status": "emerging",
+    "dependency_status": {
+      "FR2": "secure"
+    },
+    "direct_accuracy": 0.76,
+    "explanation_status": "weak",
+    "transfer_status": "weak",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["FR3-FM-01", "FR3-FM-03"],
+    "recommended_interventions": [
+      "use novel but simple targets that reduce memorized response success",
+      "contrast known and new items sharing the same pattern"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Learner handles practiced items but relies on guessing when the simple pattern set changes."
+  }
+]

@@ -1,0 +1,42 @@
+id: A1
+name: interdisciplinary_phenomenon_modeling_and_scientific_synthesis
+domain: science
+support_tier: Incubation
+maturity_state: Drafted
+supported_profiles:
+- science-secondary-node-package
+evidence_class: Synthetic
+dependencies:
+- L6
+- P6
+- T6
+- E5
+mastery:
+  direct_accuracy_threshold: 0.9
+  explanation_required: true
+  transfer_required: true
+  retention_check_days: 49
+statuses:
+- blocked
+- emerging
+- provisional
+- secure
+- unstable
+verification_gates:
+- id: G1
+  type: direct_performance
+  pass_rule: '>= 0.90 accuracy across interdisciplinary phenomenon modeling and synthesis tasks'
+- id: G2
+  type: meaning
+  pass_rule: correct interdisciplinary explanation using coordinated domain strands in at least 2 of 3 prompts
+- id: G3
+  type: transfer
+  pass_rule: successful reasoning in at least one unfamiliar integrated science phenomenon
+- id: G4
+  type: retention
+  pass_rule: '>= 0.85 delayed recheck accuracy after ~49 days'
+failure_modes:
+- A1-FM-01
+- A1-FM-02
+- A1-FM-03
+- A1-FM-04

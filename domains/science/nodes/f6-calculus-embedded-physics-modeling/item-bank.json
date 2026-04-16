@@ -1,0 +1,60 @@
+[
+  {
+    "item_id": "F6-IB-01",
+    "node_id": "F6",
+    "prompt": "Why is a correct derivative or integral not enough in an advanced physics explanation?",
+    "task_type": "calculus_physics_reasoning",
+    "answer_key": "A strong answer also explains what quantity is changing or accumulating and how that interpretation supports the physics model.",
+    "scorable_traits": [
+      "quantity interpretation",
+      "physics meaning",
+      "discipline"
+    ],
+    "target_failure_modes": [
+      "F6-FM-01",
+      "F6-FM-02"
+    ],
+    "context_tags": [
+      "calculus",
+      "physics modeling"
+    ]
+  },
+  {
+    "item_id": "F6-IB-02",
+    "node_id": "F6",
+    "prompt": "What makes a calculus-supported model overextended?",
+    "task_type": "model_scope_critique",
+    "answer_key": "It becomes overextended when its assumptions or bounded physical conditions no longer hold, even if the mathematics still looks valid.",
+    "scorable_traits": [
+      "claim boundary",
+      "assumption awareness",
+      "transfer"
+    ],
+    "target_failure_modes": [
+      "F6-FM-03"
+    ],
+    "context_tags": [
+      "modeling",
+      "scope"
+    ]
+  },
+  {
+    "item_id": "F6-IB-03",
+    "node_id": "F6",
+    "prompt": "How should advanced symbolic work connect back to evidence?",
+    "task_type": "evidence_model_linkage",
+    "answer_key": "It should be tied to measured quantities, system behavior, and the explanatory claim rather than presented as self-justifying mathematics.",
+    "scorable_traits": [
+      "evidence use",
+      "interpretation",
+      "integration"
+    ],
+    "target_failure_modes": [
+      "F6-FM-04"
+    ],
+    "context_tags": [
+      "evidence",
+      "advanced modeling"
+    ]
+  }
+]

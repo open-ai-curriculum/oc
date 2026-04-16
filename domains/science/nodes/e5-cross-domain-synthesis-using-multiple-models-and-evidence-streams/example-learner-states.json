@@ -1,0 +1,38 @@
+[
+  {
+    "learner_id": "example-e5-secure",
+    "node_id": "E5",
+    "status": "secure",
+    "dependency_status": {
+      "E4": "secure",
+      "M5": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Coordinates multiple evidence streams and model roles without overclaiming integration."
+  },
+  {
+    "learner_id": "example-e5-emerging",
+    "node_id": "E5",
+    "status": "emerging",
+    "dependency_status": {
+      "E4": "secure",
+      "M5": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["E5-FM-02", "E5-FM-03"],
+    "recommended_interventions": ["E5-INT-02", "E5-INT-03"],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Combines model language loosely without explaining evidence-backed links."
+  }
+]

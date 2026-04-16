@@ -1,0 +1,60 @@
+[
+  {
+    "item_id": "B6-IB-01",
+    "node_id": "B6",
+    "prompt": "Why is naming plant structures not enough to explain adaptation?",
+    "task_type": "organismal_reasoning",
+    "answer_key": "A strong answer must connect structures to functions and environmental constraints rather than naming them only.",
+    "scorable_traits": [
+      "structure-function reasoning",
+      "environment linkage",
+      "transfer"
+    ],
+    "target_failure_modes": [
+      "B6-FM-01",
+      "B6-FM-02"
+    ],
+    "context_tags": [
+      "botany",
+      "adaptation"
+    ]
+  },
+  {
+    "item_id": "B6-IB-02",
+    "node_id": "B6",
+    "prompt": "What makes marine biology explanations depend on Earth systems too?",
+    "task_type": "marine_systems_explanation",
+    "answer_key": "Marine explanations depend on currents, chemistry, climate, and habitat conditions, so organism reasoning must connect to larger Earth systems.",
+    "scorable_traits": [
+      "cross-domain integration",
+      "system awareness",
+      "evidence use"
+    ],
+    "target_failure_modes": [
+      "B6-FM-03"
+    ],
+    "context_tags": [
+      "marine biology",
+      "earth systems"
+    ]
+  },
+  {
+    "item_id": "B6-IB-03",
+    "node_id": "B6",
+    "prompt": "Why should evidence from one animal group not be generalized automatically to another?",
+    "task_type": "comparative_critique",
+    "answer_key": "Different groups can have different structures, environments, and evolutionary histories, so comparative claims need bounded evidence.",
+    "scorable_traits": [
+      "claim boundary",
+      "comparative reasoning",
+      "discipline"
+    ],
+    "target_failure_modes": [
+      "B6-FM-04"
+    ],
+    "context_tags": [
+      "zoology",
+      "comparison"
+    ]
+  }
+]

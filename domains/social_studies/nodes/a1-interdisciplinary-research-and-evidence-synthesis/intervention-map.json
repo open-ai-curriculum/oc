@@ -1,0 +1,26 @@
+{
+  "node_id": "A1",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "A1-FM-01": [
+      "require one reason for trusting or questioning the source",
+      "compare a strong and weak example on the same question",
+      "use check prompts for evidence support and limitation"
+    ],
+    "A1-FM-02": [
+      "connect each noticed feature to a judgment consequence",
+      "use because this source has therefore it is frames",
+      "compare one feature that matters and one that does not"
+    ],
+    "A1-FM-03": [
+      "sort sources into stronger and weaker with explicit criteria",
+      "test the judgment against the question being asked",
+      "compare confidence language with actual evidence strength"
+    ],
+    "A1-FM-04": [
+      "reduce source length and preteach key terms",
+      "use annotation plus oral reasoning",
+      "verify whether comprehension supports materially change performance"
+    ]
+  }
+}

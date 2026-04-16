@@ -1,0 +1,16 @@
+{
+  "node_id": "H5",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "H5-G1-01",
+      "node_id": "H5",
+      "gate": "G1",
+      "prompt": "Use the evidence set to explain a theme across two or more eras and defend where a meaningful period boundary or turning point belongs.",
+      "source_type": "paired_or_clustered_historical_sources",
+      "response_mode": "oral_or_written_or_annotated",
+      "scoring_rule": "Traces a plausible historical theme across eras and uses evidence to justify a periodization decision or turning point.",
+      "failure_mode_targets": ["H5-FM-01", "H5-FM-02"]
+    }
+  ]
+}

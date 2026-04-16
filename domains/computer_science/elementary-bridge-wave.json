@@ -1,0 +1,260 @@
+[
+  {
+    "id": "D2",
+    "slug": "d2-file-device-and-input-output-workflow-awareness",
+    "title": "D2 File, Device, and Input-Output Workflow Awareness",
+    "short": "computer science elementary node for file, device, and input-output workflow awareness",
+    "domainArea": "digital workflow reasoning",
+    "supportedProfile": "computer-science-elementary-node-package",
+    "retentionDays": 21,
+    "deps": ["D1"],
+    "purpose": "The learner manages simple digital workflows and explains how inputs and outputs move through tools or devices without treating files and devices as unrelated isolated objects.",
+    "exit": [
+      "uses a simple file or device workflow intentionally in a bounded task",
+      "explains how an input leads to an output through a tool or device",
+      "tracks a simple save open send or display workflow without losing the action chain",
+      "succeeds across more than one familiar digital workflow context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "identify where information comes in and where it goes out in a simple workflow",
+      "describe a bounded file or device process as connected steps",
+      "distinguish storing showing and sending as different workflow actions",
+      "avoid random navigation when moving through a simple digital task"
+    ],
+    "failure": [
+      ["01", "file-device-role confusion", "learner confuses what a file, app, device, or display is doing in the workflow."],
+      ["02", "input-output chain break", "learner cannot explain how information moves from one step to the next."],
+      ["03", "save-open-send collapse", "learner treats storage, retrieval, and transmission as interchangeable actions."],
+      ["04", "workflow-fragility", "learner can complete one familiar routine only and cannot transfer to another bounded workflow."]
+    ],
+    "interventions": [
+      "workflow-mapping routines that label input, processing, storage, and output steps explicitly",
+      "before-during-after prompts that track where information is at each step",
+      "save-open-send comparison tasks with concrete classroom examples",
+      "paired transfer practice across two simple file or device routines"
+    ],
+    "items": [
+      ["Why is saving a file different from sending it?", "workflow_distinction_reasoning", "Saving stores information for later access, while sending moves it to another location or person through a communication step.", ["workflow distinction", "digital reasoning", "precision"], ["03"], ["files", "workflow"]],
+      ["How can you explain a simple input-output workflow?", "input_output_workflow_explanation", "A strong answer describes where information starts, what tool or device changes or handles it, and what output results.", ["systems reasoning", "step tracking", "transfer"], ["02"], ["devices", "input-output"]],
+      ["Why is a file not the same thing as the device showing it?", "file_device_reasoning", "A file is stored information, while the device or app is the system that opens, displays, or changes it.", ["representation", "workflow understanding", "discipline"], ["01", "04"], ["devices", "files"]]
+    ],
+    "noteSecure": "Explains and manages simple file and device workflows with stable input-output reasoning.",
+    "noteEmerging": "Can complete some routines but still confuses files, devices, and workflow actions."
+  },
+  {
+    "id": "P2",
+    "slug": "p2-loops-events-and-reusable-program-patterns",
+    "title": "P2 Loops, Events, and Reusable Program Patterns",
+    "short": "computer science elementary node for loops, events, and reusable program patterns",
+    "domainArea": "programming-pattern reasoning",
+    "supportedProfile": "computer-science-elementary-node-package",
+    "retentionDays": 21,
+    "deps": ["P1"],
+    "purpose": "The learner uses repeated actions, events, and simple reusable structures in beginner programs without rewriting every action as an unrelated one-off step.",
+    "exit": [
+      "uses loops or repeated structures in a bounded beginner program",
+      "responds to a simple event with an appropriate programmed action",
+      "recognizes when a reusable pattern is better than repeating many separate commands",
+      "succeeds across more than one beginner programming context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "identify repetition in a programming task and represent it with a loop or repeated pattern",
+      "connect an event trigger to the resulting action in a simple program",
+      "compare repeated code with a more reusable bounded pattern",
+      "avoid rewriting identical steps when a repeated structure fits"
+    ],
+    "failure": [
+      ["01", "repeat-every-step writing", "learner rewrites every repeated action instead of using a bounded repeated structure."],
+      ["02", "event-action disconnect", "learner does not connect the trigger to the programmed response."],
+      ["03", "pattern-without-meaning", "learner uses a loop or event block without understanding what repeated or triggered behavior it controls."],
+      ["04", "reuse-fragility", "learner can use one familiar repeated pattern only and cannot transfer to another bounded case."]
+    ],
+    "interventions": [
+      "repetition spotting tasks that ask which steps are the same and should be grouped",
+      "event-and-response matching routines in simple interactive programs",
+      "trace prompts showing what a loop or event actually does over time",
+      "paired coding tasks that reuse the same pattern in two beginner environments"
+    ],
+    "items": [
+      ["Why is a loop better than writing the same command many times?", "loop_reasoning", "A loop represents repeated behavior more directly and helps keep the program shorter and easier to revise.", ["abstraction readiness", "program structure", "precision"], ["01"], ["loops", "patterns"]],
+      ["How is an event different from a step in a sequence?", "event_vs_sequence_reasoning", "An event is a trigger that starts a programmed response, while a sequence step is one action in an ordered set of instructions.", ["distinction making", "programming meaning", "transfer"], ["02"], ["events", "sequence"]],
+      ["What should you explain if a loop does the wrong thing?", "loop_trace_reasoning", "You should explain what action is repeating, when it repeats, and why that repeated behavior does not match the target.", ["trace reasoning", "debugging readiness", "discipline"], ["03", "04"], ["loops", "debugging"]]
+    ],
+    "noteSecure": "Uses loops, events, and simple reuse patterns intentionally across beginner programming tasks.",
+    "noteEmerging": "Can copy patterns from examples but still rewrites repetition or misreads event behavior."
+  },
+  {
+    "id": "A1",
+    "slug": "a1-pattern-generalization-and-stepwise-problem-breakdown",
+    "title": "A1 Pattern Generalization and Stepwise Problem Breakdown",
+    "short": "computer science elementary node for pattern generalization and stepwise problem breakdown",
+    "domainArea": "algorithmic decomposition reasoning",
+    "supportedProfile": "computer-science-elementary-node-package",
+    "retentionDays": 21,
+    "deps": ["P1", "R1"],
+    "purpose": "The learner identifies repeated structure and breaks problems into manageable computing steps without treating a larger task as one unstructured action.",
+    "exit": [
+      "breaks a simple computing problem into ordered substeps",
+      "recognizes a repeated pattern that can be generalized across similar tasks",
+      "explains how smaller steps contribute to the larger outcome",
+      "succeeds across more than one bounded decomposition context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "separate a larger task into smaller executable pieces",
+      "identify what stays the same across two similar tasks",
+      "describe why a step belongs where it does in the breakdown",
+      "avoid treating a problem as solved by one vague instruction"
+    ],
+    "failure": [
+      ["01", "one-big-step collapse", "learner treats a multi-step task as one vague command or wish."],
+      ["02", "pattern-noticing weakness", "learner does not recognize repeated structure across similar cases."],
+      ["03", "step-boundary confusion", "learner produces steps but the boundaries or order are unstable."],
+      ["04", "generalization-fragility", "learner can solve one example only and cannot extend the pattern to a nearby case."]
+    ],
+    "interventions": [
+      "break-it-down routines that force one large task into named smaller actions",
+      "same-and-different comparisons across two similar computing tasks",
+      "step-card sorting activities that stabilize order and step boundaries",
+      "near-transfer prompts that ask what stays the same when the task changes slightly"
+    ],
+    "items": [
+      ["Why is “make the character reach the goal” not enough as an algorithm?", "decomposition_explanation", "Because it states the goal but does not break the task into executable steps the program or person can follow.", ["decomposition", "algorithm meaning", "precision"], ["01"], ["algorithms", "problem solving"]],
+      ["How can a pattern help you solve a new but similar task?", "pattern_generalization_reasoning", "A pattern helps by showing what structure stays the same so the learner can reuse part of the solution instead of starting from scratch.", ["generalization", "transfer", "computational thinking"], ["02", "04"], ["patterns", "algorithms"]],
+      ["What makes a stepwise breakdown strong?", "step_boundary_reasoning", "A strong breakdown uses ordered, manageable steps that each contribute clearly to the larger result.", ["organization", "reasoning quality", "discipline"], ["03"], ["decomposition", "steps"]]
+    ],
+    "noteSecure": "Breaks simple computing problems into stable substeps and generalizes repeated patterns across nearby cases.",
+    "noteEmerging": "Can describe goals but still struggles to decompose them or reuse nearby patterns."
+  },
+  {
+    "id": "R2",
+    "slug": "r2-data-collection-classification-and-simple-visualization",
+    "title": "R2 Data Collection, Classification, and Simple Visualization",
+    "short": "computer science elementary node for data collection, classification, and simple visualization",
+    "domainArea": "data reasoning",
+    "supportedProfile": "computer-science-elementary-node-package",
+    "retentionDays": 21,
+    "deps": ["R1", "D2"],
+    "purpose": "The learner gathers, sorts, and represents data for simple computational or informational tasks without treating data as an unstructured pile of facts.",
+    "exit": [
+      "collects or records simple data intentionally in a bounded task",
+      "sorts or classifies data using a stable rule",
+      "uses a simple table, chart, or visualization to communicate the organized data",
+      "succeeds across more than one bounded data context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "record data with stable categories or attributes",
+      "explain the rule used to sort or classify data",
+      "match a simple visualization to the organized information it represents",
+      "avoid mixing unrelated categories or changing the sorting rule mid-task"
+    ],
+    "failure": [
+      ["01", "data-pile reasoning", "learner records or views data without a stable organizing structure."],
+      ["02", "category-drift", "learner changes the classification rule during the task or mixes categories."],
+      ["03", "chart-data disconnect", "learner cannot connect the table or chart back to the recorded data."],
+      ["04", "representation-choice fragility", "learner can use one familiar display only and cannot transfer to another bounded data view."]
+    ],
+    "interventions": [
+      "sorting-rule prompts that require naming the classification basis before organizing data",
+      "data-to-chart matching tasks that link representations back to recorded entries",
+      "same-data-different-display comparisons across tables and simple charts",
+      "category-check routines that test whether each data item still fits the chosen rule"
+    ],
+    "items": [
+      ["Why is a list of facts not yet organized data?", "data_organization_reasoning", "It is not yet organized data until the information is recorded with a stable structure, rule, or category system.", ["data structure", "organization", "precision"], ["01"], ["data", "classification"]],
+      ["What should stay the same while you sort data into groups?", "classification_rule_reasoning", "The sorting rule should stay stable so each item is classified according to the same basis.", ["rule stability", "discipline", "transfer"], ["02"], ["data", "categories"]],
+      ["How can you tell whether a chart matches the data it shows?", "chart_data_reasoning", "You compare the chart entries or counts with the recorded data and check that the categories and values align correctly.", ["representation linkage", "data checking", "discipline"], ["03", "04"], ["charts", "tables"]]
+    ],
+    "noteSecure": "Collects, classifies, and visualizes simple data with stable rules and representation awareness.",
+    "noteEmerging": "Can record or display some data but organization, category stability, and chart linkage remain weak."
+  },
+  {
+    "id": "N1",
+    "slug": "n1-connected-devices-and-basic-network-awareness",
+    "title": "N1 Connected Devices and Basic Network Awareness",
+    "short": "computer science elementary node for connected devices and basic network awareness",
+    "domainArea": "network and system reasoning",
+    "supportedProfile": "computer-science-elementary-node-package",
+    "retentionDays": 21,
+    "deps": ["D2"],
+    "purpose": "The learner explains at a simple level how devices connect and exchange information without treating a networked system as one giant indistinguishable machine.",
+    "exit": [
+      "identifies that more than one device or system part may be involved in a digital task",
+      "explains in bounded language that information can move between connected devices",
+      "recognizes when a task depends on a connection rather than one isolated tool only",
+      "succeeds across more than one simple connected-device context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "name at least two connected parts in a simple digital system",
+      "describe a bounded information movement between devices or system parts",
+      "distinguish a local action from one that depends on a connection",
+      "avoid describing all network activity as unexplained magic"
+    ],
+    "failure": [
+      ["01", "single-device belief", "learner assumes one visible device is doing everything in a connected task."],
+      ["02", "connection-purpose confusion", "learner does not understand why a connection is needed for the bounded task."],
+      ["03", "information-movement opacity", "learner cannot describe how information gets from one part to another even at a simple level."],
+      ["04", "network-context fragility", "learner understands one familiar connected setup only and cannot transfer to another bounded case."]
+    ],
+    "interventions": [
+      "system-part naming routines for common classroom technology setups",
+      "local-versus-connected task comparisons that make the role of the connection explicit",
+      "simple send-and-receive pathway maps with arrows and bounded explanations",
+      "paired transfer practice across two common connected-device examples"
+    ],
+    "items": [
+      ["Why might one device not be doing the whole job in a digital task?", "connected_systems_reasoning", "Because the task may depend on other devices or services that send, receive, store, or process information too.", ["systems awareness", "network reasoning", "precision"], ["01"], ["devices", "networks"]],
+      ["How is a connected task different from a local one?", "local_vs_network_reasoning", "A connected task depends on information moving between system parts, while a local task can happen on one device alone.", ["distinction making", "system reasoning", "transfer"], ["02"], ["connections", "systems"]],
+      ["What should you describe in a simple send-and-receive example?", "information_movement_reasoning", "You should describe where the information starts, what it travels through or to, and where it ends up.", ["pathway explanation", "input-output linkage", "discipline"], ["03", "04"], ["networks", "information"]]
+    ],
+    "noteSecure": "Explains simple connected-device tasks with basic system-part and information-movement reasoning.",
+    "noteEmerging": "Recognizes that devices can connect but still treats networked activity as opaque or single-device work."
+  },
+  {
+    "id": "I2",
+    "slug": "i2-digital-communication-attribution-and-audience-awareness",
+    "title": "I2 Digital Communication, Attribution, and Audience Awareness",
+    "short": "computer science elementary node for digital communication, attribution, and audience awareness",
+    "domainArea": "digital communication and impact reasoning",
+    "supportedProfile": "computer-science-elementary-node-package",
+    "retentionDays": 21,
+    "deps": ["I1", "D2"],
+    "purpose": "The learner communicates digitally with attention to audience, attribution, and respectful participation without treating digital communication as content with no source or audience consequences.",
+    "exit": [
+      "makes a bounded digital communication choice that fits the audience and context",
+      "recognizes when information or media should be attributed to a source",
+      "explains why digital communication choices can affect how others understand a message",
+      "succeeds across more than one bounded digital communication context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "identify who a digital message is for in a simple scenario",
+      "distinguish own work from content that comes from another source",
+      "make a respectful communication choice in a bounded digital setting",
+      "avoid ignoring audience or source when sharing digital content"
+    ],
+    "failure": [
+      ["01", "audience-blind communication", "learner sends or frames a message without considering who will receive it."],
+      ["02", "source-ownership confusion", "learner does not distinguish own content from content created by others."],
+      ["03", "tone-context mismatch", "learner uses a communication choice that does not fit the bounded audience or setting."],
+      ["04", "sharing-without-attribution", "learner shares borrowed digital content without acknowledging the source when appropriate."]
+    ],
+    "interventions": [
+      "audience-matching routines that compare the same message for different recipients",
+      "own-work versus borrowed-content sorting tasks with simple attribution examples",
+      "tone-and-context checks for classroom digital communication",
+      "share-with-source prompts that require naming where content came from"
+    ],
+    "items": [
+      ["Why should a digital message change depending on the audience?", "audience_awareness_reasoning", "Because different audiences need different tone, detail, or context for the message to be understood appropriately.", ["audience awareness", "communication reasoning", "transfer"], ["01", "03"], ["communication", "audience"]],
+      ["How is using your own work different from sharing someone else's?", "attribution_reasoning", "Your own work comes from you, while someone else's work should be recognized as theirs and attributed when appropriate.", ["ownership awareness", "ethics readiness", "precision"], ["02", "04"], ["attribution", "sources"]],
+      ["Why does attribution matter in a digital space?", "source_awareness_explanation", "Attribution matters because it helps others know where information came from and supports honest, respectful digital participation.", ["source reasoning", "digital citizenship", "discipline"], ["04"], ["sources", "sharing"]]
+    ],
+    "noteSecure": "Communicates digitally with attention to audience, attribution, and respectful sharing choices.",
+    "noteEmerging": "Can send or share content but still underweights audience, tone, and source ownership."
+  }
+]

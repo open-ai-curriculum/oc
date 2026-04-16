@@ -1,0 +1,52 @@
+slice_id: ela-literacy-early-literacy-spine-runtime
+domain: ela_literacy
+status: draft
+version: '0.1'
+node_ids:
+- O1
+- O2
+- O3
+- P1
+- P3
+- P4
+- FR1
+- FR2
+- FR3
+- RC1
+- RC2
+- L1
+- W1
+entry_node_ids:
+- O1
+learner_state_fields:
+- learner_id
+- node_id
+- status
+- dependency_status
+- direct_accuracy
+- explanation_status
+- transfer_status
+- retention_status
+- dominant_failure_modes
+- recommended_interventions
+- last_verified_at
+- review_state
+artifact_registry_reference: domains/ela_literacy/artifact-attachments/early-literacy-spine-attachment-registry.yaml
+navigation_rules:
+- rule_id: early-literacy-teach-next
+  decision_type: teach_next
+  applies_when:
+  - current_node_status in [secure]
+  - next_node_dependencies_secure
+  - next_node_not_yet_secure
+  outcome: advance_to_next_available_early_literacy_node
+  artifact_selection: prefer LessonPattern or WorkedExample on target node
+- rule_id: early-literacy-route-upstream
+  decision_type: route_upstream
+  applies_when:
+  - current_node_status = blocked
+  - dependency_status_contains_unstable_or_blocked
+  outcome: route_to_most_relevant_upstream_dependency
+  artifact_selection: prefer InterventionAsset or ReteachRoutine on unstable dependency
+    node
+review_status: draft

@@ -1,0 +1,42 @@
+id: R5
+name: informational_structure_author_claim_and_source_use
+domain: ela_literacy
+support_tier: Core release
+maturity_state: Drafted
+supported_profiles:
+- informational-analysis-node-package
+evidence_class: Synthetic
+dependencies:
+- RC6
+mastery:
+  direct_accuracy_threshold: 0.85
+  explanation_required: true
+  transfer_required: true
+  retention_check_days: 14
+statuses:
+- blocked
+- emerging
+- provisional
+- secure
+- unstable
+verification_gates:
+- id: G1
+  type: direct_performance
+  pass_rule: analyzes informational structure, author claim, or source use with text-relevant
+    support in at least 5 of 6 supported opportunities
+- id: G2
+  type: meaning
+  pass_rule: explanation of author reasoning or informational structure remains coherent
+    and text-grounded in at least 4 of 5 prompts
+- id: G3
+  type: transfer
+  pass_rule: succeeds across at least one changed informational text, source set,
+    or analysis prompt
+- id: G4
+  type: retention
+  pass_rule: stable delayed recheck after approximately 14 days
+failure_modes:
+- R5-FM-01
+- R5-FM-02
+- R5-FM-03
+- R5-FM-04

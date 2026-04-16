@@ -1,0 +1,228 @@
+{
+  "node_id": "C1",
+  "policy_version": "1.0",
+  "version": "0.4",
+  "items": [
+    {
+      "item_id": "C1-DIR-001",
+      "node_id": "C1",
+      "item_family": "direct_execution",
+      "prompt": "A short program does not produce the intended result. Use the code, trace, or test case to show how the learner would compare intended and actual outcomes in a simple computing task.",
+      "expected_evidence": "compare intended and actual outcomes in a simple computing task",
+      "dominant_failure_mode_targets": [
+        "C1-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates compare intended and actual outcomes in a simple computing task with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "C1-DIR-002",
+      "node_id": "C1",
+      "item_family": "direct_execution",
+      "prompt": "A learner is given a specification and a small set of tests for a program. Show how they would name one step or action that may have caused the error.",
+      "expected_evidence": "name one step or action that may have caused the error",
+      "dominant_failure_mode_targets": [
+        "C1-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates name one step or action that may have caused the error with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "C1-DIR-003",
+      "node_id": "C1",
+      "item_family": "direct_execution",
+      "prompt": "A team reviews an existing code change and must justify a cleanup or refactor without breaking behavior. Show how the learner would revise one part of a sequence instead of changing everything at once.",
+      "expected_evidence": "revise one part of a sequence instead of changing everything at once",
+      "dominant_failure_mode_targets": [
+        "C1-FM-03"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates revise one part of a sequence instead of changing everything at once with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "C1-EXP-001",
+      "node_id": "C1",
+      "item_family": "explanation",
+      "prompt": "Why is changing every step at once a weak way to fix a broken program?",
+      "expected_evidence": "because it becomes hard to tell which change mattered, so the learner loses evidence about the cause of the problem.",
+      "dominant_failure_mode_targets": [
+        "C1-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to because it becomes hard to tell which change mattered, so the learner loses evidence about the cause of the problem."
+    },
+    {
+      "item_id": "C1-EXP-002",
+      "node_id": "C1",
+      "item_family": "explanation",
+      "prompt": "What should you compare when you think a sequence is wrong?",
+      "expected_evidence": "you should compare the intended outcome with the actual outcome and identify which step may have caused the mismatch.",
+      "dominant_failure_mode_targets": [
+        "C1-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to you should compare the intended outcome with the actual outcome and identify which step may have caused the mismatch."
+    },
+    {
+      "item_id": "C1-ERR-001",
+      "node_id": "C1",
+      "item_family": "error_diagnosis",
+      "prompt": "A learner runs a short program, sees the wrong output, and responds in a way that suggests this breakdown: learner changes many steps at once and cannot track what fixed the issue. Diagnose the debugging or quality mistake. Focus on all-or-nothing revision.",
+      "expected_evidence": "compare intended and actual outcomes in a simple computing task",
+      "dominant_failure_mode_targets": [
+        "C1-FM-01"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward compare intended and actual outcomes in a simple computing task."
+    },
+    {
+      "item_id": "C1-ERR-002",
+      "node_id": "C1",
+      "item_family": "error_diagnosis",
+      "prompt": "A learner runs a short program, sees the wrong output, and responds in a way that suggests this breakdown: learner notices something is wrong but cannot identify a likely source. Diagnose the debugging or quality mistake. Focus on error-without-location.",
+      "expected_evidence": "name one step or action that may have caused the error",
+      "dominant_failure_mode_targets": [
+        "C1-FM-02"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward name one step or action that may have caused the error."
+    },
+    {
+      "item_id": "C1-TRA-001",
+      "node_id": "C1",
+      "item_family": "transfer",
+      "prompt": "A debugging or quality idea learned in one code example is now presented in a different language or representation. Explain how the learner would revise one part of a sequence instead of changing everything at once in the new context.",
+      "expected_evidence": "revise one part of a sequence instead of changing everything at once",
+      "dominant_failure_mode_targets": [
+        "C1-FM-03"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves revise one part of a sequence instead of changing everything at once in a changed computing context or representation."
+    },
+    {
+      "item_id": "C1-TRA-002",
+      "node_id": "C1",
+      "item_family": "transfer",
+      "prompt": "A learner must evaluate a changed codebase artifact such as a diff, failed test, or review comment and still preserve the same software-quality reasoning. Show how they would check whether a revision improved the result.",
+      "expected_evidence": "check whether a revision improved the result",
+      "dominant_failure_mode_targets": [
+        "C1-FM-04"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves check whether a revision improved the result in a changed computing context or representation."
+    },
+    {
+      "item_id": "C1-RET-001",
+      "node_id": "C1",
+      "item_family": "retention",
+      "prompt": "After a delay, the learner revisits a fresh bounded bug, specification, or refactor case and must justify the next step rather than guess. Show how they would compare intended and actual outcomes in a simple computing task.",
+      "expected_evidence": "compare intended and actual outcomes in a simple computing task",
+      "dominant_failure_mode_targets": [
+        "C1-FM-04"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_explanation",
+        "constructed_response"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability",
+      "scoring_guidance": "Meets when the learner still demonstrates compare intended and actual outcomes in a simple computing task on a delayed recheck without a blocking recurrence."
+    },
+    {
+      "item_id": "C1-PRE-001",
+      "node_id": "C1",
+      "item_family": "prerequisite_probe",
+      "prompt": "Check sequencing commands and programmable action with a short program trace or design task before closing noticing errors, revising steps, and persistence in computing tasks, and determine whether the present quality issue is actually upstream.",
+      "expected_evidence": "shows whether sequencing commands and programmable action is secure enough to support noticing errors, revising steps, and persistence in computing tasks",
+      "dominant_failure_mode_targets": [
+        "C1-FM-01"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in sequencing commands and programmable action from a current-node issue in noticing errors, revising steps, and persistence in computing tasks.",
+      "dependency_target": "P1",
+      "suspected_knowledge_gap_if_incorrect": "sequencing commands and programmable action"
+    }
+  ]
+}

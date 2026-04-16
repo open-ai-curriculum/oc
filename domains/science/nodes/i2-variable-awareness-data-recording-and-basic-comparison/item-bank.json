@@ -1,0 +1,72 @@
+{
+  "node_id": "I2",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "I2-A-001",
+      "family": "variables_data_and_comparison",
+      "prompt": "Two plants got different amounts of water. What changed, and what stayed the same?",
+      "target_node": "I2",
+      "secondary_dependency_targets": ["I1", "Q3"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation", "selected_response"],
+      "dominant_failure_modes_if_incorrect": ["I2-FM-01", "I2-FM-03"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "I2-A-002",
+      "family": "variables_data_and_comparison",
+      "prompt": "Look at the two-day chart of car roll distances. Which car went farther, and what in the record shows that?",
+      "target_node": "I2",
+      "secondary_dependency_targets": ["I1"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["selected_response", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["I2-FM-02", "I2-FM-03"],
+      "requires_human_scoring": false
+    },
+    {
+      "item_id": "I2-B-001",
+      "family": "explanation",
+      "prompt": "Explain what the data table shows about which paper towel absorbed more water.",
+      "target_node": "I2",
+      "secondary_dependency_targets": ["I1"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["I2-FM-02", "I2-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "I2-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student recorded two trials in the same row and left one blank. What should be checked before comparing the results?",
+      "target_node": "I2",
+      "secondary_dependency_targets": ["I1"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["multiple_choice", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["I2-FM-02", "I2-FM-03"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "I2-D-001",
+      "family": "transfer",
+      "prompt": "In one investigation the water amount changes, and in another the ramp height changes. Tell what changed in each and how the records help compare the results.",
+      "target_node": "I2",
+      "secondary_dependency_targets": ["I1", "Q3"],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": ["oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["I2-FM-01", "I2-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "I2-R-001",
+      "family": "retention",
+      "prompt": "After time has passed, use a simple chart to identify what changed in the test and what the comparison shows.",
+      "target_node": "I2",
+      "secondary_dependency_targets": ["I1"],
+      "difficulty_band": "retention",
+      "response_modes_allowed": ["selected_response", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["I2-FM-01", "I2-FM-02"],
+      "requires_human_scoring": true
+    }
+  ]
+}

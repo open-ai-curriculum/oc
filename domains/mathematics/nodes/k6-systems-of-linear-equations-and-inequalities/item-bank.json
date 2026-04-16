@@ -1,37 +1,140 @@
 {
   "node_id": "K6",
+  "policy_version": "1.0",
   "items": [
     {
-      "item_id": "K6-A1",
-      "item_family": "direct",
-      "prompt": "solves bounded systems of linear equations and interprets bounded linear inequalities in graph, table, and symbolic forms",
+      "item_id": "K6-DIR-001",
+      "node_id": "K6",
+      "item_family": "direct_execution",
+      "prompt": "Solve `x + 7 = 19` and show how each step preserves equality.",
       "expected_evidence": "solve or verify bounded systems of linear equations in multiple representations",
       "dominant_failure_mode": "constraint_intersection_misread",
-      "scoring_guidance": "Meets when the learner finds or verifies solutions using methods that preserve the simultaneous-constraint meaning."
+      "scoring_guidance": "Meets when the learner demonstrates solve or verify bounded systems of linear equations in multiple representations with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "K6-B1",
-      "item_family": "explanation",
-      "prompt": "explains why a solution pair must satisfy both equations or inequalities and what different system outcomes mean",
+      "item_id": "K6-DIR-002",
+      "node_id": "K6",
+      "item_family": "direct_execution",
+      "prompt": "Solve `4x = 28`, then check the solution by substitution.",
       "expected_evidence": "explain why a solution pair must satisfy both equations or inequalities simultaneously",
       "dominant_failure_mode": "simultaneous_satisfaction_gap",
-      "scoring_guidance": "Meets when the learner explains solution meaning as overlap of constraints, not just a computed pair."
+      "scoring_guidance": "Meets when the learner demonstrates explain why a solution pair must satisfy both equations or inequalities simultaneously with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "K6-C1",
-      "item_family": "error_diagnosis",
-      "prompt": "Diagnose a peer error aligned to elimination_substitution_drift.",
+      "item_id": "K6-DIR-003",
+      "node_id": "K6",
+      "item_family": "direct_execution",
+      "prompt": "Match the equation `n - 5 = 12` to a balance or missing-value situation and solve it.",
       "expected_evidence": "classify bounded system outcomes as one solution, no solution, or infinitely many solutions",
       "dominant_failure_mode": "elimination_substitution_drift",
-      "scoring_guidance": "Meets when the learner identifies how the peer broke equivalence or lost a system case distinction."
+      "scoring_guidance": "Meets when the learner demonstrates classify bounded system outcomes as one solution, no solution, or infinitely many solutions with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
     },
     {
-      "item_id": "K6-D1",
+      "item_id": "K6-EXP-001",
+      "node_id": "K6",
+      "item_family": "explanation",
+      "prompt": "Explain why subtracting the same value from both sides of an equation preserves the solution set.",
+      "expected_evidence": "solve or verify bounded systems of linear equations in multiple representations",
+      "dominant_failure_mode": "simultaneous_satisfaction_gap",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to solve or verify bounded systems of linear equations in multiple representations.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "K6-EXP-002",
+      "node_id": "K6",
+      "item_family": "explanation",
+      "prompt": "Explain what the variable represents and why inverse operations help isolate it.",
+      "expected_evidence": "explain why a solution pair must satisfy both equations or inequalities simultaneously",
+      "dominant_failure_mode": "elimination_substitution_drift",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to explain why a solution pair must satisfy both equations or inequalities simultaneously.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "K6-ERR-001",
+      "node_id": "K6",
+      "item_family": "error_diagnosis",
+      "prompt": "A student solves `x + 5 = 13` by writing `x = 13 + 5`. Diagnose the first structural mistake. Focus on constraint intersection misread.",
+      "expected_evidence": "solve or verify bounded systems of linear equations in multiple representations",
+      "dominant_failure_mode": "constraint_intersection_misread",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward solve or verify bounded systems of linear equations in multiple representations.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "K6-ERR-002",
+      "node_id": "K6",
+      "item_family": "error_diagnosis",
+      "prompt": "A student solves `3x = 18` by dividing only the `x`. Explain what went wrong. Focus on simultaneous satisfaction gap.",
+      "expected_evidence": "explain why a solution pair must satisfy both equations or inequalities simultaneously",
+      "dominant_failure_mode": "simultaneous_satisfaction_gap",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward explain why a solution pair must satisfy both equations or inequalities simultaneously.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "K6-TRA-001",
+      "node_id": "K6",
       "item_family": "transfer",
-      "prompt": "represents and interprets bounded linear inequalities and simple systems of inequalities in less-familiar coordinate or contextual settings",
-      "expected_evidence": "interpret and graph bounded linear inequalities and overlap regions in simple cases",
+      "prompt": "A gym charges a $12 signup fee plus $5 per class. Write and solve an equation for the number of classes if the total was $32.",
+      "expected_evidence": "solve or verify bounded systems of linear equations in multiple representations",
+      "dominant_failure_mode": "elimination_substitution_drift",
+      "scoring_guidance": "Meets when the learner preserves solve or verify bounded systems of linear equations in multiple representations in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "K6-TRA-002",
+      "node_id": "K6",
+      "item_family": "transfer",
+      "prompt": "A balance model has three equal bags and 6 loose counters on one side and 24 counters on the other. Write and solve the equation.",
+      "expected_evidence": "explain why a solution pair must satisfy both equations or inequalities simultaneously",
       "dominant_failure_mode": "inequality_region_misclassification",
-      "scoring_guidance": "Meets when the learner preserves inequality direction and overlap meaning in a varied setting."
+      "scoring_guidance": "Meets when the learner preserves explain why a solution pair must satisfy both equations or inequalities simultaneously in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "K6-RET-001",
+      "node_id": "K6",
+      "item_family": "retention",
+      "prompt": "Two weeks later, solve `m/3 = 8` and explain how you know the result is reasonable.",
+      "expected_evidence": "solve or verify bounded systems of linear equations in multiple representations",
+      "dominant_failure_mode": "inequality_region_misclassification",
+      "scoring_guidance": "Meets when the learner still demonstrates solve or verify bounded systems of linear equations in multiple representations on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "K6-PRE-001",
+      "node_id": "K6",
+      "item_family": "prerequisite_probe",
+      "prompt": "Before solving systems of linear equations and inequalities, complete a prerequisite check on linear equations in two variables and explain how it supports the current equation work.",
+      "expected_evidence": "shows whether linear equations in two variables is secure enough to support systems of linear equations and inequalities",
+      "dominant_failure_mode": "simultaneous_satisfaction_gap",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in linear equations in two variables from a current-node issue in systems of linear equations and inequalities.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "K4",
+      "suspected_knowledge_gap_if_incorrect": "linear equations in two variables"
+    },
+    {
+      "item_id": "K6-PRE-002",
+      "node_id": "K6",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a quick linear functions multiple representations check to explain whether the learner is blocked by prerequisite structure or by systems of linear equations and inequalities itself.",
+      "expected_evidence": "shows whether linear functions multiple representations is secure enough to support systems of linear equations and inequalities",
+      "dominant_failure_mode": "elimination_substitution_drift",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in linear functions multiple representations from a current-node issue in systems of linear equations and inequalities.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "K5",
+      "suspected_knowledge_gap_if_incorrect": "linear functions multiple representations"
     }
   ]
 }

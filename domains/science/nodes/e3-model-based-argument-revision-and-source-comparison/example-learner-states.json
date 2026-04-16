@@ -1,0 +1,44 @@
+{
+  "node_id": "E3",
+  "examples": [
+    {
+      "learner_id": "sample-e3-blocked-01",
+      "node_id": "E3",
+      "status": "blocked",
+      "dependency_status": {
+        "E2": "secure",
+        "M2": "secure"
+      },
+      "direct_accuracy": 0.47,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["E3-FM-01", "E3-FM-03"],
+      "recommended_interventions": [
+        "compare an original claim with new evidence that changes the best explanation",
+        "sort stronger and weaker sources for the same question"
+      ],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Can build a basic argument but does not yet revise well or judge source quality consistently."
+    },
+    {
+      "learner_id": "sample-e3-secure-01",
+      "node_id": "E3",
+      "status": "secure",
+      "dependency_status": {
+        "E2": "secure",
+        "M2": "secure"
+      },
+      "direct_accuracy": 0.92,
+      "explanation_status": "met",
+      "transfer_status": "met",
+      "retention_status": "met",
+      "dominant_failure_modes": [],
+      "recommended_interventions": [],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Uses models and evidence together, revises claims when warranted, and compares sources across multiple science contexts."
+    }
+  ]
+}

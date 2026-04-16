@@ -1,0 +1,21 @@
+{
+  "node_id": "O1",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "O1-FM-01": [
+      "short shared-attention routines around one clear interaction target",
+      "reduced competing sensory demands",
+      "repeatable interaction frame before adding variation"
+    ],
+    "O1-FM-02": [
+      "explicit my-turn your-turn frames",
+      "shortened reciprocal exchanges",
+      "immediate reinforcement of completed turn cycles"
+    ],
+    "O1-FM-03": [
+      "slow interaction pacing to highlight the cue-response link",
+      "single contingent action prompt at a time",
+      "routines where learner response has an obvious effect"
+    ]
+  }
+}

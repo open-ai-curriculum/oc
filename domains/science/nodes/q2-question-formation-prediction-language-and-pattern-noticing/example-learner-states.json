@@ -1,0 +1,42 @@
+{
+  "node_id": "Q2",
+  "examples": [
+    {
+      "learner_id": "sample-q2-blocked-01",
+      "node_id": "Q2",
+      "status": "blocked",
+      "dependency_status": {
+        "Q1": "secure"
+      },
+      "direct_accuracy": 0.48,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["Q2-FM-01", "Q2-FM-04"],
+      "recommended_interventions": [
+        "sort example questions into checkable and not-checkable",
+        "restate the focal phenomenon before asking for a question"
+      ],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Questions drift away from the setup and are not yet grounded in what can be checked."
+    },
+    {
+      "learner_id": "sample-q2-secure-01",
+      "node_id": "Q2",
+      "status": "secure",
+      "dependency_status": {
+        "Q1": "secure"
+      },
+      "direct_accuracy": 0.94,
+      "explanation_status": "met",
+      "transfer_status": "met",
+      "retention_status": "met",
+      "dominant_failure_modes": [],
+      "recommended_interventions": [],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Forms bounded science questions and predictions across plant, motion, and weather examples."
+    }
+  ]
+}

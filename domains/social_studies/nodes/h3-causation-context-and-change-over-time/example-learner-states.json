@@ -1,0 +1,23 @@
+{
+  "node_id": "H3",
+  "examples": [
+    {
+      "learner_id": "sample-h3-blocked-01",
+      "node_id": "H3",
+      "status": "blocked",
+      "dependency_status": { "H2": "secure", "Q3": "secure" },
+      "direct_accuracy": 0.57,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["H3-FM-01"],
+      "recommended_interventions": [
+        "identify multiple contributing factors in a constrained source set",
+        "compare one-factor and multi-factor explanations"
+      ],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Defaults to one simplistic cause despite evidence of multiple factors."
+    }
+  ]
+}

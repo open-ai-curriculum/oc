@@ -1,0 +1,72 @@
+{
+  "node_id": "M3",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "M3-A-001",
+      "family": "scale_proportion_and_interactions",
+      "prompt": "Why might a map of a whole watershed show something different from a close-up of one stream section?",
+      "target_node": "M3",
+      "secondary_dependency_targets": ["M2", "I2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation", "selected_response"],
+      "dominant_failure_modes_if_incorrect": ["M3-FM-01", "M3-FM-03"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "M3-A-002",
+      "family": "scale_proportion_and_interactions",
+      "prompt": "If one part of an ecosystem loses water, what might happen to another interacting part?",
+      "target_node": "M3",
+      "secondary_dependency_targets": ["M2", "I2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation", "selected_response"],
+      "dominant_failure_modes_if_incorrect": ["M3-FM-02", "M3-FM-03"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "M3-B-001",
+      "family": "explanation",
+      "prompt": "Explain how changing one part of a model system can change another part, and why the scale of the model matters.",
+      "target_node": "M3",
+      "secondary_dependency_targets": ["M2", "I2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["M3-FM-01", "M3-FM-02"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "M3-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student explains a pond system using only one organism and ignores the rest. What should be checked about that model?",
+      "target_node": "M3",
+      "secondary_dependency_targets": ["M2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["multiple_choice", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["M3-FM-03", "M3-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "M3-D-001",
+      "family": "transfer",
+      "prompt": "Describe one scale-related issue in an Earth-system model and one interaction issue in a body-system model. Explain both.",
+      "target_node": "M3",
+      "secondary_dependency_targets": ["M2", "I2"],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": ["oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["M3-FM-01", "M3-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "M3-R-001",
+      "family": "retention",
+      "prompt": "After time has passed, choose the model revision that best accounts for both system interactions and scale, and explain why.",
+      "target_node": "M3",
+      "secondary_dependency_targets": ["M2", "I2"],
+      "difficulty_band": "retention",
+      "response_modes_allowed": ["selected_response", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["M3-FM-02", "M3-FM-03"],
+      "requires_human_scoring": true
+    }
+  ]
+}

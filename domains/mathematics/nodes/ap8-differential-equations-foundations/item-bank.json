@@ -1,0 +1,140 @@
+{
+  "node_id": "AP8",
+  "policy_version": "1.0",
+  "items": [
+    {
+      "item_id": "AP8-DIR-001",
+      "node_id": "AP8",
+      "item_family": "direct_execution",
+      "prompt": "Solve `x + 7 = 19` and show how each step preserves equality.",
+      "expected_evidence": "interpret simple differential equations and slope fields in bounded symbolic, graphical, and contextual settings",
+      "dominant_failure_mode": "accumulation_without_rate_link",
+      "scoring_guidance": "Meets when the learner demonstrates interpret simple differential equations and slope fields in bounded symbolic, graphical, and contextual settings with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
+    },
+    {
+      "item_id": "AP8-DIR-002",
+      "node_id": "AP8",
+      "item_family": "direct_execution",
+      "prompt": "Solve `4x = 28`, then check the solution by substitution.",
+      "expected_evidence": "connect an initial condition to the behavior of a specific solution",
+      "dominant_failure_mode": "fundamental_theorem_connection_breakdown",
+      "scoring_guidance": "Meets when the learner demonstrates connect an initial condition to the behavior of a specific solution with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
+    },
+    {
+      "item_id": "AP8-DIR-003",
+      "node_id": "AP8",
+      "item_family": "direct_execution",
+      "prompt": "Match the equation `n - 5 = 12` to a balance or missing-value situation and solve it.",
+      "expected_evidence": "use bounded separable-model reasoning where AP-level methods apply",
+      "dominant_failure_mode": "signed_area_orientation_confusion",
+      "scoring_guidance": "Meets when the learner demonstrates use bounded separable-model reasoning where AP-level methods apply with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
+    },
+    {
+      "item_id": "AP8-EXP-001",
+      "node_id": "AP8",
+      "item_family": "explanation",
+      "prompt": "Explain why subtracting the same value from both sides of an equation preserves the solution set.",
+      "expected_evidence": "interpret simple differential equations and slope fields in bounded symbolic, graphical, and contextual settings",
+      "dominant_failure_mode": "fundamental_theorem_connection_breakdown",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to interpret simple differential equations and slope fields in bounded symbolic, graphical, and contextual settings.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "AP8-EXP-002",
+      "node_id": "AP8",
+      "item_family": "explanation",
+      "prompt": "Explain what the variable represents and why inverse operations help isolate it.",
+      "expected_evidence": "connect an initial condition to the behavior of a specific solution",
+      "dominant_failure_mode": "signed_area_orientation_confusion",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to connect an initial condition to the behavior of a specific solution.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "AP8-ERR-001",
+      "node_id": "AP8",
+      "item_family": "error_diagnosis",
+      "prompt": "A student solves `x + 5 = 13` by writing `x = 13 + 5`. Diagnose the first structural mistake. Focus on accumulation without rate link.",
+      "expected_evidence": "interpret simple differential equations and slope fields in bounded symbolic, graphical, and contextual settings",
+      "dominant_failure_mode": "accumulation_without_rate_link",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward interpret simple differential equations and slope fields in bounded symbolic, graphical, and contextual settings.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "AP8-ERR-002",
+      "node_id": "AP8",
+      "item_family": "error_diagnosis",
+      "prompt": "A student solves `3x = 18` by dividing only the `x`. Explain what went wrong. Focus on fundamental theorem connection breakdown.",
+      "expected_evidence": "connect an initial condition to the behavior of a specific solution",
+      "dominant_failure_mode": "fundamental_theorem_connection_breakdown",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward connect an initial condition to the behavior of a specific solution.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "AP8-TRA-001",
+      "node_id": "AP8",
+      "item_family": "transfer",
+      "prompt": "A gym charges a $12 signup fee plus $5 per class. Write and solve an equation for the number of classes if the total was $32.",
+      "expected_evidence": "interpret simple differential equations and slope fields in bounded symbolic, graphical, and contextual settings",
+      "dominant_failure_mode": "signed_area_orientation_confusion",
+      "scoring_guidance": "Meets when the learner preserves interpret simple differential equations and slope fields in bounded symbolic, graphical, and contextual settings in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "AP8-TRA-002",
+      "node_id": "AP8",
+      "item_family": "transfer",
+      "prompt": "A balance model has three equal bags and 6 loose counters on one side and 24 counters on the other. Write and solve the equation.",
+      "expected_evidence": "connect an initial condition to the behavior of a specific solution",
+      "dominant_failure_mode": "antiderivative_procedure_without_context",
+      "scoring_guidance": "Meets when the learner preserves connect an initial condition to the behavior of a specific solution in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "AP8-RET-001",
+      "node_id": "AP8",
+      "item_family": "retention",
+      "prompt": "Two weeks later, solve `m/3 = 8` and explain how you know the result is reasonable.",
+      "expected_evidence": "interpret simple differential equations and slope fields in bounded symbolic, graphical, and contextual settings",
+      "dominant_failure_mode": "antiderivative_procedure_without_context",
+      "scoring_guidance": "Meets when the learner still demonstrates interpret simple differential equations and slope fields in bounded symbolic, graphical, and contextual settings on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "AP8-PRE-001",
+      "node_id": "AP8",
+      "item_family": "prerequisite_probe",
+      "prompt": "Before solving differential equations foundations, complete a prerequisite check on derivative rules and computation and explain how it supports the current equation work.",
+      "expected_evidence": "shows whether derivative rules and computation is secure enough to support differential equations foundations",
+      "dominant_failure_mode": "fundamental_theorem_connection_breakdown",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in derivative rules and computation from a current-node issue in differential equations foundations.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "AP4",
+      "suspected_knowledge_gap_if_incorrect": "derivative rules and computation"
+    },
+    {
+      "item_id": "AP8-PRE-002",
+      "node_id": "AP8",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a quick integral meaning and accumulation check to explain whether the learner is blocked by prerequisite structure or by differential equations foundations itself.",
+      "expected_evidence": "shows whether integral meaning and accumulation is secure enough to support differential equations foundations",
+      "dominant_failure_mode": "signed_area_orientation_confusion",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in integral meaning and accumulation from a current-node issue in differential equations foundations.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "AP6",
+      "suspected_knowledge_gap_if_incorrect": "integral meaning and accumulation"
+    }
+  ]
+}

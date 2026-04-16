@@ -1,0 +1,44 @@
+[
+  {
+    "learner_id": "example-n5-secure",
+    "node_id": "N5",
+    "status": "secure",
+    "dependency_status": {
+      "N4": "secure",
+      "C3": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Explains cybersecurity through explicit threat models, defensive fit, and bounded tradeoff reasoning."
+  },
+  {
+    "learner_id": "example-n5-emerging",
+    "node_id": "N5",
+    "status": "emerging",
+    "dependency_status": {
+      "N4": "secure",
+      "C3": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [
+      "N5-FM-01",
+      "N5-FM-02"
+    ],
+    "recommended_interventions": [
+      "N5-INT-01",
+      "N5-INT-02"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Knows security vocabulary but still treats defenses as generic tools rather than threat-matched design choices."
+  }
+]

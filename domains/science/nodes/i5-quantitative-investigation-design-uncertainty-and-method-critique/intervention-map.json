@@ -1,0 +1,29 @@
+{
+  "node_id": "I5",
+  "interventions": [
+    {
+      "failure_mode": "I5-FM-01",
+      "intervention_id": "I5-INT-01",
+      "name": "Question To Measurement Matching",
+      "delivery": "design alignment routine"
+    },
+    {
+      "failure_mode": "I5-FM-02",
+      "intervention_id": "I5-INT-02",
+      "name": "Uncertainty Claim Calibration",
+      "delivery": "interpretation protocol"
+    },
+    {
+      "failure_mode": "I5-FM-03",
+      "intervention_id": "I5-INT-03",
+      "name": "Precision Versus Validity Separation",
+      "delivery": "comparison task"
+    },
+    {
+      "failure_mode": "I5-FM-04",
+      "intervention_id": "I5-INT-04",
+      "name": "Purpose-First Method Critique",
+      "delivery": "review scaffold"
+    }
+  ]
+}

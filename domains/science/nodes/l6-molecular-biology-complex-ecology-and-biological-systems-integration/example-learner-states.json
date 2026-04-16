@@ -1,0 +1,40 @@
+[
+  {
+    "learner_id": "example-l6-secure",
+    "node_id": "L6",
+    "status": "secure",
+    "dependency_status": {
+      "L5": "secure",
+      "E4": "secure",
+      "I5": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Coordinates multiscale biology and complex ecology with disciplined evidence integration."
+  },
+  {
+    "learner_id": "example-l6-emerging",
+    "node_id": "L6",
+    "status": "emerging",
+    "dependency_status": {
+      "L5": "secure",
+      "E4": "secure",
+      "I5": "secure"
+    },
+    "direct_accuracy": 0.69,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["L6-FM-01", "L6-FM-02"],
+    "recommended_interventions": ["L6-INT-01", "L6-INT-02"],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Stays at one biological scale and explains complex ecology with one-factor stories."
+  }
+]

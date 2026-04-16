@@ -1,0 +1,117 @@
+registry_id: mathematics-assessment-surface-attachments
+domain: mathematics
+status: draft
+version: "0.1"
+target_scope:
+  primary_node_ids: [J6, K5, W2, W7, B10, AP7, AP9]
+  notes: Initial assessment-surface artifact attachment registry for ACT and IB overlay-level governance support.
+artifacts:
+  - artifact_id: math-act-modeling-bundle-01
+    artifact_type: AssessmentBundle
+    title: ACT Modeling Mixed-Surface Assessment Bundle
+    status: draft
+    support_tier: Core release
+    maturity_state: Modeled
+    target_entity_type: AssessmentUnit
+    target_entity_id: assessment-unit:act-mathematics-overlay:act-modeling
+    primary_node_id: B10
+    secondary_node_ids: [J6, K5, W2, B9]
+    purpose: assessment
+    delivery_format: printable_and_digital
+    source_path: curriculum/mathematics/assessment-surfaces/act/modeling-bundle-01.md
+    grade_band: Grades 10-12
+    content_domain: integrated modeling and mathematical applications
+    verification_gate_targets: [G1, G2, G3]
+    response_modes_supported: [written, visual-model, equation-building]
+    accessibility_tags: [extended-time-compatible, visual-model-supported]
+    language_support_tags: [scenario-language-routine, glossary-supported]
+    review_status: draft
+    notes: Governance record for cross-family ACT modeling support; does not claim an approved released assessment form.
+  - artifact_id: math-act-integrated-skills-guide-01
+    artifact_type: TeacherDecisionSupport
+    title: ACT Integrating Essential Skills Teacher Decision Guide
+    status: draft
+    support_tier: Core release
+    maturity_state: Modeled
+    target_entity_type: AssessmentUnit
+    target_entity_id: assessment-unit:act-mathematics-overlay:act-integrating-essential-skills
+    primary_node_id: K5
+    secondary_node_ids: [Q3, Q4, J5, J6, W2]
+    purpose: teacher_support
+    delivery_format: printable_and_digital
+    source_path: curriculum/mathematics/assessment-surfaces/act/integrated-skills-teacher-guide-01.md
+    grade_band: Grades 9-11
+    content_domain: integrated skills and multi-step mathematical reasoning
+    failure_mode_targets: [multi-step-translation, representation-switching, reasonableness-checking]
+    language_support_tags: [teacher-language-routine, scenario-language-routine]
+    review_status: draft
+  - artifact_id: math-ib-aa-hl-internal-assessment-guide-01
+    artifact_type: TeacherDecisionSupport
+    title: IB Mathematics AA HL Internal Assessment Decision Guide
+    status: draft
+    support_tier: Core release
+    maturity_state: Modeled
+    target_entity_type: AssessmentOverlay
+    target_entity_id: assessment-overlay:ib-mathematics-aa-hl-overlay
+    primary_node_id: AP9
+    secondary_node_ids: [B7, AP8, AP7]
+    purpose: teacher_support
+    delivery_format: printable_and_digital
+    source_path: curriculum/mathematics/assessment-surfaces/ib/aa-hl/internal-assessment-decision-guide-01.md
+    grade_band: Grades 11-12
+    content_domain: advanced analysis and internal mathematical exploration
+    language_support_tags: [academic-discourse-routine]
+    review_status: draft
+    notes: Initial governance surface for IB AA HL internal-assessment expectations; not an approval record.
+  - artifact_id: math-ib-aa-sl-statistics-investigation-bundle-01
+    artifact_type: AssessmentBundle
+    title: IB Mathematics AA SL Statistics Investigation Bundle
+    status: draft
+    support_tier: Core release
+    maturity_state: Modeled
+    target_entity_type: AssessmentUnit
+    target_entity_id: assessment-unit:ib-mathematics-aa-sl-overlay:ib-aa-sl-statistics-and-probability
+    primary_node_id: W7
+    secondary_node_ids: [W2, W3, W5, W6]
+    purpose: assessment
+    delivery_format: printable_and_digital
+    source_path: curriculum/mathematics/assessment-surfaces/ib/aa-sl/statistics-investigation-bundle-01.md
+    grade_band: Grades 11-12
+    content_domain: statistics and probability investigation
+    verification_gate_targets: [G1, G2, G3]
+    response_modes_supported: [written, data-analysis, explanation]
+    review_status: draft
+  - artifact_id: math-ib-ai-sl-exploration-planning-routine-01
+    artifact_type: LanguageSupport
+    title: IB Mathematics AI SL Exploration Planning Routine
+    status: draft
+    support_tier: Core release
+    maturity_state: Modeled
+    target_entity_type: AssessmentOverlay
+    target_entity_id: assessment-overlay:ib-mathematics-ai-sl-overlay
+    primary_node_id: W2
+    secondary_node_ids: [Q3, B10, AP6]
+    purpose: support
+    delivery_format: printable_and_digital
+    source_path: curriculum/mathematics/assessment-surfaces/ib/ai-sl/exploration-planning-routine-01.md
+    grade_band: Grades 11-12
+    content_domain: applications, interpretation, and exploration planning
+    language_support_tags: [planning-language, sentence-frame-supported]
+    review_status: draft
+  - artifact_id: math-ib-ai-hl-technology-modeling-guide-01
+    artifact_type: AccessibilitySupport
+    title: IB Mathematics AI HL Technology and Modeling Support Guide
+    status: draft
+    support_tier: Core release
+    maturity_state: Modeled
+    target_entity_type: AssessmentUnit
+    target_entity_id: assessment-unit:ib-mathematics-ai-hl-overlay:ib-ai-hl-statistics-and-probability
+    primary_node_id: W9
+    secondary_node_ids: [W2, W5, W8, B10]
+    purpose: support
+    delivery_format: printable_and_digital
+    source_path: curriculum/mathematics/assessment-surfaces/ib/ai-hl/technology-modeling-support-guide-01.md
+    grade_band: Grades 11-12
+    content_domain: statistics, probability, and technology-mediated modeling
+    accessibility_tags: [calculator-supported, digital-tool-routine]
+    review_status: draft

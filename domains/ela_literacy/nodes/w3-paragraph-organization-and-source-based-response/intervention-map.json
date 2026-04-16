@@ -1,0 +1,26 @@
+{
+  "node_id": "W3",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "W3-FM-01": [
+      "main-idea plus support frame",
+      "sentence-belongs check",
+      "short paragraph planning strip"
+    ],
+    "W3-FM-02": [
+      "required supporting detail insertion",
+      "best-detail match to prompt",
+      "bounded text-support sentence"
+    ],
+    "W3-FM-03": [
+      "coherence sentence order review",
+      "off-topic sentence removal",
+      "main-point check after each sentence"
+    ],
+    "W3-FM-04": [
+      "changed-prompt paragraph rotation",
+      "new short source with same response frame",
+      "topic variation with stable paragraph demand"
+    ]
+  }
+}

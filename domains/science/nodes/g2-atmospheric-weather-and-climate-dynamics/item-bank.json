@@ -1,0 +1,60 @@
+[
+  {
+    "item_id": "G2-IB-01",
+    "node_id": "G2",
+    "prompt": "Why is one storm not enough to justify a climate claim?",
+    "task_type": "weather_climate_critique",
+    "answer_key": "A strong answer distinguishes event-level weather from longer-term pattern evidence needed for climate reasoning.",
+    "scorable_traits": [
+      "timescale distinction",
+      "evidence discipline",
+      "precision"
+    ],
+    "target_failure_modes": [
+      "G2-FM-01"
+    ],
+    "context_tags": [
+      "weather",
+      "climate"
+    ]
+  },
+  {
+    "item_id": "G2-IB-02",
+    "node_id": "G2",
+    "prompt": "What makes an atmospheric explanation a system explanation?",
+    "task_type": "atmospheric_systems_explanation",
+    "answer_key": "It connects interacting variables such as pressure, circulation, moisture, and energy rather than isolating one factor.",
+    "scorable_traits": [
+      "systems reasoning",
+      "causal linkage",
+      "transfer"
+    ],
+    "target_failure_modes": [
+      "G2-FM-02"
+    ],
+    "context_tags": [
+      "atmosphere",
+      "systems"
+    ]
+  },
+  {
+    "item_id": "G2-IB-03",
+    "node_id": "G2",
+    "prompt": "How should local climate evidence be bounded?",
+    "task_type": "regional_climate_reasoning",
+    "answer_key": "It should be tied to the region and compared with broader datasets before supporting larger-scale conclusions.",
+    "scorable_traits": [
+      "claim boundary",
+      "data use",
+      "discipline"
+    ],
+    "target_failure_modes": [
+      "G2-FM-03",
+      "G2-FM-04"
+    ],
+    "context_tags": [
+      "climate",
+      "evidence"
+    ]
+  }
+]

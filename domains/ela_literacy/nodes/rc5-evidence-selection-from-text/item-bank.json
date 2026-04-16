@@ -1,0 +1,301 @@
+{
+  "node_id": "RC5",
+  "policy_version": "1.0",
+  "version": "0.3",
+  "items": [
+    {
+      "item_id": "RC5-D-001",
+      "family": "direct_execution",
+      "prompt": "Complete a bounded text-comprehension task that requires the learner to choose a relevant detail from a text to answer a question.",
+      "target_node": "RC5",
+      "secondary_dependency_targets": [
+        "RC4",
+        "O3"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_response",
+        "written_response",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "RC5-FM-01",
+        "RC5-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "RC5-D-002",
+      "family": "direct_execution",
+      "prompt": "Show evidence selection from text in a fresh but controlled text-comprehension task and make the learner separate relevant evidence from distractor details.",
+      "target_node": "RC5",
+      "secondary_dependency_targets": [
+        "RC4",
+        "O3"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_response",
+        "written_response",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "RC5-FM-02",
+        "RC5-FM-03"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "RC5-D-003",
+      "family": "direct_execution",
+      "prompt": "Use a slightly less-routine text-comprehension task to determine whether the learner can still support later evidence explanation work.",
+      "target_node": "RC5",
+      "secondary_dependency_targets": [
+        "RC4",
+        "O3"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "oral_response",
+        "written_response",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "RC5-FM-03",
+        "RC5-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "RC5-D-004",
+      "family": "direct_execution",
+      "prompt": "Perform evidence selection from text under a changed format within the same boundary and verify the learner can still the learner selects relevant textual evidence for a response without yet requiring full explanation of how that evidence supports the claim.",
+      "target_node": "RC5",
+      "secondary_dependency_targets": [
+        "RC4",
+        "O3"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "oral_response",
+        "written_response",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "RC5-FM-04",
+        "RC5-FM-01"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "RC5-E-001",
+      "family": "explanation",
+      "prompt": "Explain or annotate how the learner shows that they can choose a relevant detail from a text to answer a question, and identify which evidence in the response demonstrates the intended meaning.",
+      "target_node": "RC5",
+      "secondary_dependency_targets": [
+        "RC4",
+        "O3"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "RC5-FM-01"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "RC5-E-002",
+      "family": "explanation",
+      "prompt": "Ask for a brief justification, annotation, or teacher-scored explanation showing why the response used for evidence selection from text is valid rather than routine only.",
+      "target_node": "RC5",
+      "secondary_dependency_targets": [
+        "RC4",
+        "O3"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "RC5-FM-02"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "RC5-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A learner attempt shows answer without evidence. Diagnose the earliest breakdown and state what evidence separates it from secure evidence selection from text.",
+      "target_node": "RC5",
+      "secondary_dependency_targets": [
+        "RC4",
+        "O3"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "RC5-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "RC5-C-002",
+      "family": "error_diagnosis",
+      "prompt": "Review a mismatched response that reflects irrelevant detail selection. Identify the dominant failure mode and explain why this is not just a minor performance slip.",
+      "target_node": "RC5",
+      "secondary_dependency_targets": [
+        "RC4",
+        "O3"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "RC5-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "RC5-T-001",
+      "family": "transfer",
+      "prompt": "Use evidence selection from text in a changed short text, prompt format, or evidence demand and judge whether the learner preserves the same underlying capability.",
+      "target_node": "RC5",
+      "secondary_dependency_targets": [
+        "RC4",
+        "O3"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "oral_response",
+        "written_response",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "RC5-FM-03"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "RC5-T-002",
+      "family": "transfer",
+      "prompt": "Shift the learner into a changed short text, prompt format, or evidence demand and require a response that still demonstrates evidence selection from text without relying on the original routine.",
+      "target_node": "RC5",
+      "secondary_dependency_targets": [
+        "RC4",
+        "O3"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "oral_response",
+        "written_response",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "RC5-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "RC5-R-001",
+      "family": "retention",
+      "prompt": "After approximately 14 days, run a fresh text-comprehension task to confirm the learner still demonstrates evidence selection from text without re-teaching inside the check.",
+      "target_node": "RC5",
+      "secondary_dependency_targets": [
+        "RC4",
+        "O3"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "oral_response",
+        "written_response",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "RC5-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability"
+    },
+    {
+      "item_id": "RC5-P-001",
+      "family": "prerequisite_probe",
+      "prompt": "Before assigning evidence selection from text, probe whether short passage integration and local coherence is secure enough to support the current task.",
+      "target_node": "RC5",
+      "secondary_dependency_targets": [
+        "RC4",
+        "O3"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "RC5-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_disambiguation",
+      "dependency_target": "RC4",
+      "suspected_knowledge_gap_if_incorrect": "short passage integration and local coherence"
+    },
+    {
+      "item_id": "RC5-P-002",
+      "family": "prerequisite_probe",
+      "prompt": "Use a quick dependency check on oral recount explanation and sequence language to decide whether weak performance on evidence selection from text is upstream or node-specific.",
+      "target_node": "RC5",
+      "secondary_dependency_targets": [
+        "RC4",
+        "O3"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "RC5-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_disambiguation",
+      "dependency_target": "O3",
+      "suspected_knowledge_gap_if_incorrect": "oral recount explanation and sequence language"
+    }
+  ]
+}

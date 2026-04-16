@@ -1,0 +1,26 @@
+{
+  "node_id": "C6",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "C6-FM-01": [
+      "require one stated benefit one cost and one constraint for every proposal",
+      "compare strong policy recommendations with slogan-level proposals",
+      "use tradeoff grids before final recommendation writing"
+    ],
+    "C6-FM-02": [
+      "map the recommended action to the actual decision pathway",
+      "require one sentence on who can act where and when",
+      "compare institution-fit and institution-mismatch participation plans"
+    ],
+    "C6-FM-03": [
+      "require one economic condition that strengthens or weakens the civic recommendation",
+      "compare civics-only and civic-economic explanations",
+      "use prompts that ask what resource or cost condition changes the proposal"
+    ],
+    "C6-FM-04": [
+      "preteach policy-design and participation terms",
+      "simplify the case into actors options and constraints before argument writing",
+      "verify whether vocabulary or case-structure scaffolds materially change performance"
+    ]
+  }
+}

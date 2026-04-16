@@ -1,0 +1,44 @@
+[
+  {
+    "learner_id": "example-p5-secure",
+    "node_id": "P5",
+    "status": "secure",
+    "dependency_status": {
+      "P4": "secure",
+      "R3": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Uses structured collections and data operations with stable element meaning, iteration tracking, and task-appropriate design choices."
+  },
+  {
+    "learner_id": "example-p5-emerging",
+    "node_id": "P5",
+    "status": "emerging",
+    "dependency_status": {
+      "P4": "secure",
+      "R3": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [
+      "P5-FM-01",
+      "P5-FM-02"
+    ],
+    "recommended_interventions": [
+      "P5-INT-01",
+      "P5-INT-02"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Can manipulate lists or records but still treats data collections loosely and loses track of structured meaning."
+  }
+]

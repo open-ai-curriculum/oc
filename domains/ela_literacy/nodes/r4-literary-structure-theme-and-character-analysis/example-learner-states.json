@@ -1,0 +1,41 @@
+[
+  {
+    "learner_id": "ela-sample-r4-blocked",
+    "node_id": "R4",
+    "status": "blocked",
+    "dependency_status": {
+      "RC6": "secure"
+    },
+    "direct_accuracy": 0.44,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["R4-FM-01", "R4-FM-02"],
+    "recommended_interventions": [
+      "summary-to-interpretation bridge frame",
+      "claim plus text detail routine"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Can recount the story but struggles to explain theme or character with evidence."
+  },
+  {
+    "learner_id": "ela-sample-r4-provisional",
+    "node_id": "R4",
+    "status": "provisional",
+    "dependency_status": {
+      "RC6": "secure"
+    },
+    "direct_accuracy": 0.88,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [
+      "brief changed-text literary analysis review"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Uses text support to analyze theme and character across short literary texts."
+  }
+]

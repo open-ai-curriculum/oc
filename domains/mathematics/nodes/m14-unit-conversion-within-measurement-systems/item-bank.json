@@ -1,29 +1,320 @@
 {
   "node_id": "M14",
+  "policy_version": "1.0",
+  "version": "0.3",
   "items": [
     {
-      "item_id": "m14-a1",
-      "item_family": "direct_execution",
-      "prompt": "Representative direct task for unit conversion within measurement systems.",
-      "expected_evidence": [
-        "Learner uses the intended structure, not only an answer-getting shortcut."
+      "item_id": "M14-D-001",
+      "family": "direct_execution",
+      "prompt": "Plot the point `(3, -2)` and explain what each coordinate controls.",
+      "target_node": "M14",
+      "secondary_dependency_targets": [
+        "M8",
+        "M13",
+        "T4",
+        "V2"
       ],
-      "dominant_failure_mode_targets": [
-        "unit_size_direction_error"
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
       ],
-      "context": "conversion prompts"
-    },
-    {
-      "item_id": "m14-b1",
-      "item_family": "explanation",
-      "prompt": "Explain why the chosen structure fits the situation.",
-      "expected_evidence": [
-        "Learner names the structural relationship correctly."
-      ],
-      "dominant_failure_mode_targets": [
+      "dominant_failure_modes_if_incorrect": [
+        "unit_size_direction_error",
         "formula_without_quantity_meaning"
       ],
-      "context": "equivalent measures"
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "M14-D-002",
+      "family": "direct_execution",
+      "prompt": "Find the slope between `(1, 4)` and `(5, 12)` and interpret it as a rate of change.",
+      "target_node": "M14",
+      "secondary_dependency_targets": [
+        "M8",
+        "M13",
+        "T4",
+        "V2"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "formula_without_quantity_meaning",
+        "equivalent_measure_disconnect"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "M14-D-003",
+      "family": "direct_execution",
+      "prompt": "Determine whether the table represents a function and justify your decision.",
+      "target_node": "M14",
+      "secondary_dependency_targets": [
+        "M8",
+        "M13",
+        "T4",
+        "V2"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "equivalent_measure_disconnect",
+        "reasonableness_check_absent"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "M14-D-004",
+      "family": "direct_execution",
+      "prompt": "Plot the point `(3, -2)` and explain what each coordinate controls.",
+      "target_node": "M14",
+      "secondary_dependency_targets": [
+        "M8",
+        "M13",
+        "T4",
+        "V2"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "reasonableness_check_absent",
+        "unit_size_direction_error"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "M14-E-001",
+      "family": "explanation",
+      "prompt": "Explain how a table, graph, and equation can represent the same linear relationship.",
+      "target_node": "M14",
+      "secondary_dependency_targets": [
+        "M8",
+        "M13",
+        "T4",
+        "V2"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "formula_without_quantity_meaning"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "M14-E-002",
+      "family": "explanation",
+      "prompt": "Explain what slope means in both graphical and contextual terms.",
+      "target_node": "M14",
+      "secondary_dependency_targets": [
+        "M8",
+        "M13",
+        "T4",
+        "V2"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "equivalent_measure_disconnect"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "M14-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student reverses the coordinates and plots `(3, -2)` as `(-2, 3)`. Diagnose the mapping error. Focus on unit size direction error.",
+      "target_node": "M14",
+      "secondary_dependency_targets": [
+        "M8",
+        "M13",
+        "T4",
+        "V2"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "unit_size_direction_error"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "M14-C-002",
+      "family": "error_diagnosis",
+      "prompt": "A student says every straight-looking graph is proportional. Identify the misclassification. Focus on formula without quantity meaning.",
+      "target_node": "M14",
+      "secondary_dependency_targets": [
+        "M8",
+        "M13",
+        "T4",
+        "V2"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "formula_without_quantity_meaning"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "M14-T-001",
+      "family": "transfer",
+      "prompt": "A ride-share charges a fixed fee plus a cost per mile. Write a rule, make a table, and interpret the slope and intercept.",
+      "target_node": "M14",
+      "secondary_dependency_targets": [
+        "M8",
+        "M13",
+        "T4",
+        "V2"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "equivalent_measure_disconnect"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "M14-T-002",
+      "family": "transfer",
+      "prompt": "Given a graph and a verbal description, decide whether they could represent the same relationship and justify the match.",
+      "target_node": "M14",
+      "secondary_dependency_targets": [
+        "M8",
+        "M13",
+        "T4",
+        "V2"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "reasonableness_check_absent"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "M14-R-001",
+      "family": "retention",
+      "prompt": "On a delayed check, move between a rule, a table, and a graph for a linear relationship and explain the connection.",
+      "target_node": "M14",
+      "secondary_dependency_targets": [
+        "M8",
+        "M13",
+        "T4",
+        "V2"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "reasonableness_check_absent"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability"
+    },
+    {
+      "item_id": "M14-P-001",
+      "family": "prerequisite_probe",
+      "prompt": "Use a prerequisite probe on standard length units and tool use to see whether the learner is blocked by graph/coordinate foundations or by unit conversion within measurement systems itself.",
+      "target_node": "M14",
+      "secondary_dependency_targets": [
+        "M8",
+        "M13",
+        "T4",
+        "V2"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "formula_without_quantity_meaning"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "M8",
+      "suspected_knowledge_gap_if_incorrect": "standard length units and tool use",
+      "scoring_focus": "dependency_disambiguation"
+    },
+    {
+      "item_id": "M14-P-002",
+      "family": "prerequisite_probe",
+      "prompt": "Use a prerequisite probe on standard mass volume units and comparison to see whether the learner is blocked by graph/coordinate foundations or by unit conversion within measurement systems itself.",
+      "target_node": "M14",
+      "secondary_dependency_targets": [
+        "M8",
+        "M13",
+        "T4",
+        "V2"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "equivalent_measure_disconnect"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "M13",
+      "suspected_knowledge_gap_if_incorrect": "standard mass volume units and comparison",
+      "scoring_focus": "dependency_disambiguation"
     }
   ]
 }

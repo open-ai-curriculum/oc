@@ -1,0 +1,44 @@
+{
+  "node_id": "T2",
+  "examples": [
+    {
+      "learner_id": "sample-t2-blocked-01",
+      "node_id": "T2",
+      "status": "blocked",
+      "dependency_status": {
+        "T1": "secure",
+        "I1": "secure"
+      },
+      "direct_accuracy": 0.49,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["T2-FM-02", "T2-FM-03"],
+      "recommended_interventions": [
+        "chart sun or moon observations across several days",
+        "trace where water starts moves and collects in a simple diagram"
+      ],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Can notice a single Earth-system observation but does not yet track recurring sky patterns or explain water movement clearly."
+    },
+    {
+      "learner_id": "sample-t2-secure-01",
+      "node_id": "T2",
+      "status": "secure",
+      "dependency_status": {
+        "T1": "secure",
+        "I1": "secure"
+      },
+      "direct_accuracy": 0.93,
+      "explanation_status": "met",
+      "transfer_status": "met",
+      "retention_status": "met",
+      "dominant_failure_modes": [],
+      "recommended_interventions": [],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Explains Earth-surface changes, recurring sun/moon patterns, and simple water movement across multiple familiar contexts."
+    }
+  ]
+}

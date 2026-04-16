@@ -1,0 +1,26 @@
+{
+  "node_id": "L2",
+  "version": "0.1",
+  "interventions": {
+    "L2-FM-01": [
+      "sequence life-cycle images from early to later stages",
+      "compare what changes from one stage to the next",
+      "use arrows and stage labels on a simple life-cycle model"
+    ],
+    "L2-FM-02": [
+      "compare parent-offspring pairs and name shared visible traits",
+      "contrast shared traits with differences caused by age or context",
+      "use same as parent / different from parent sorting routines"
+    ],
+    "L2-FM-03": [
+      "pair organisms with the support they give or receive in a simple ecosystem",
+      "ask how this living thing helps or depends on the other",
+      "use arrows or simple system maps for local ecosystem examples"
+    ],
+    "L2-FM-04": [
+      "repeat the same reasoning routine across plants animals and pond or garden systems",
+      "preserve the life-systems structure while changing the example",
+      "fade scaffolds after one successful familiar example"
+    ]
+  }
+}

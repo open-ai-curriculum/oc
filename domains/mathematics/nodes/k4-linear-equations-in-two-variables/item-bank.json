@@ -1,37 +1,140 @@
 {
   "node_id": "K4",
+  "policy_version": "1.0",
   "items": [
     {
-      "item_id": "K4-A1",
-      "item_family": "direct",
-      "prompt": "generates and tests ordered pairs for bounded linear equations in two variables",
+      "item_id": "K4-DIR-001",
+      "node_id": "K4",
+      "item_family": "direct_execution",
+      "prompt": "Solve `x + 7 = 19` and show how each step preserves equality.",
       "expected_evidence": "generate ordered pairs that satisfy a bounded linear equation in two variables",
       "dominant_failure_mode": "pair_equation_mismatch",
-      "scoring_guidance": "Meets when the learner generates or tests ordered pairs accurately against the equation."
+      "scoring_guidance": "Meets when the learner demonstrates generate ordered pairs that satisfy a bounded linear equation in two variables with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "K4-B1",
-      "item_family": "explanation",
-      "prompt": "explains how a linear equation in two variables determines related pairs of values and how that connects to a table or graph",
-      "expected_evidence": "explain how the equation, table, and graph describe the same linear relationship",
+      "item_id": "K4-DIR-002",
+      "node_id": "K4",
+      "item_family": "direct_execution",
+      "prompt": "Solve `4x = 28`, then check the solution by substitution.",
+      "expected_evidence": "determine whether a given pair satisfies a linear equation",
       "dominant_failure_mode": "symbol_relation_disconnect",
-      "scoring_guidance": "Meets when the learner explains the equation as a relationship among pairs rather than as a standalone expression."
+      "scoring_guidance": "Meets when the learner demonstrates determine whether a given pair satisfies a linear equation with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "K4-C1",
-      "item_family": "error_diagnosis",
-      "prompt": "Diagnose a peer error aligned to substitution_pair_breakdown.",
+      "item_id": "K4-DIR-003",
+      "node_id": "K4",
+      "item_family": "direct_execution",
+      "prompt": "Match the equation `n - 5 = 12` to a balance or missing-value situation and solve it.",
+      "expected_evidence": "explain how the equation, table, and graph describe the same linear relationship",
+      "dominant_failure_mode": "substitution_pair_breakdown",
+      "scoring_guidance": "Meets when the learner demonstrates explain how the equation, table, and graph describe the same linear relationship with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
+    },
+    {
+      "item_id": "K4-EXP-001",
+      "node_id": "K4",
+      "item_family": "explanation",
+      "prompt": "Explain why subtracting the same value from both sides of an equation preserves the solution set.",
+      "expected_evidence": "generate ordered pairs that satisfy a bounded linear equation in two variables",
+      "dominant_failure_mode": "symbol_relation_disconnect",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to generate ordered pairs that satisfy a bounded linear equation in two variables.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "K4-EXP-002",
+      "node_id": "K4",
+      "item_family": "explanation",
+      "prompt": "Explain what the variable represents and why inverse operations help isolate it.",
       "expected_evidence": "determine whether a given pair satisfies a linear equation",
       "dominant_failure_mode": "substitution_pair_breakdown",
-      "scoring_guidance": "Meets when the learner identifies how the peer lost pair meaning or substitution structure."
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to determine whether a given pair satisfies a linear equation.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
     },
     {
-      "item_id": "K4-D1",
+      "item_id": "K4-ERR-001",
+      "node_id": "K4",
+      "item_family": "error_diagnosis",
+      "prompt": "A student solves `x + 5 = 13` by writing `x = 13 + 5`. Diagnose the first structural mistake. Focus on pair equation mismatch.",
+      "expected_evidence": "generate ordered pairs that satisfy a bounded linear equation in two variables",
+      "dominant_failure_mode": "pair_equation_mismatch",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward generate ordered pairs that satisfy a bounded linear equation in two variables.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "K4-ERR-002",
+      "node_id": "K4",
+      "item_family": "error_diagnosis",
+      "prompt": "A student solves `3x = 18` by dividing only the `x`. Explain what went wrong. Focus on symbol relation disconnect.",
+      "expected_evidence": "determine whether a given pair satisfies a linear equation",
+      "dominant_failure_mode": "symbol_relation_disconnect",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward determine whether a given pair satisfies a linear equation.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "K4-TRA-001",
+      "node_id": "K4",
       "item_family": "transfer",
-      "prompt": "succeeds across symbolic, table, verbal, graph, and simple contextual linear-equation representations",
-      "expected_evidence": "connect slope and intercept-style structure to the behavior of the related pairs in bounded cases",
+      "prompt": "A gym charges a $12 signup fee plus $5 per class. Write and solve an equation for the number of classes if the total was $32.",
+      "expected_evidence": "generate ordered pairs that satisfy a bounded linear equation in two variables",
+      "dominant_failure_mode": "substitution_pair_breakdown",
+      "scoring_guidance": "Meets when the learner preserves generate ordered pairs that satisfy a bounded linear equation in two variables in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "K4-TRA-002",
+      "node_id": "K4",
+      "item_family": "transfer",
+      "prompt": "A balance model has three equal bags and 6 loose counters on one side and 24 counters on the other. Write and solve the equation.",
+      "expected_evidence": "determine whether a given pair satisfies a linear equation",
       "dominant_failure_mode": "representation_relation_disconnect",
-      "scoring_guidance": "Meets when the learner preserves two-variable linear-equation meaning across varied representations and contexts."
+      "scoring_guidance": "Meets when the learner preserves determine whether a given pair satisfies a linear equation in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "K4-RET-001",
+      "node_id": "K4",
+      "item_family": "retention",
+      "prompt": "Two weeks later, solve `m/3 = 8` and explain how you know the result is reasonable.",
+      "expected_evidence": "generate ordered pairs that satisfy a bounded linear equation in two variables",
+      "dominant_failure_mode": "representation_relation_disconnect",
+      "scoring_guidance": "Meets when the learner still demonstrates generate ordered pairs that satisfy a bounded linear equation in two variables on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "K4-PRE-001",
+      "node_id": "K4",
+      "item_family": "prerequisite_probe",
+      "prompt": "Before solving linear equations in two variables, complete a prerequisite check on function as input output rule and explain how it supports the current equation work.",
+      "expected_evidence": "shows whether function as input output rule is secure enough to support linear equations in two variables",
+      "dominant_failure_mode": "symbol_relation_disconnect",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in function as input output rule from a current-node issue in linear equations in two variables.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "K2",
+      "suspected_knowledge_gap_if_incorrect": "function as input output rule"
+    },
+    {
+      "item_id": "K4-PRE-002",
+      "node_id": "K4",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a quick slope rate of change and linear growth check to explain whether the learner is blocked by prerequisite structure or by linear equations in two variables itself.",
+      "expected_evidence": "shows whether slope rate of change and linear growth is secure enough to support linear equations in two variables",
+      "dominant_failure_mode": "substitution_pair_breakdown",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in slope rate of change and linear growth from a current-node issue in linear equations in two variables.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "K3",
+      "suspected_knowledge_gap_if_incorrect": "slope rate of change and linear growth"
     }
   ]
 }

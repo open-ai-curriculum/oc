@@ -1,37 +1,140 @@
 {
   "node_id": "A4",
+  "policy_version": "1.0",
   "items": [
     {
-      "item_id": "A4-A1",
-      "item_family": "direct",
-      "prompt": "plots ordered pairs and identifies plotted points accurately on a bounded coordinate plane",
-      "expected_evidence": "plot ordered pairs and read plotted coordinates accurately",
-      "dominant_failure_mode": "axis_order_reversal",
-      "scoring_guidance": "Meets when the learner preserves x-then-y order and plots or reads points correctly."
-    },
-    {
-      "item_id": "A4-B1",
-      "item_family": "explanation",
-      "prompt": "explains how axes, the origin, sign, and quadrant structure determine a point's location",
-      "expected_evidence": "explain how sign and direction determine location in the four-quadrant plane",
-      "dominant_failure_mode": "quadrant_sign_confusion",
-      "scoring_guidance": "Meets when the learner explains coordinate location using ordered-pair and sign structure."
-    },
-    {
-      "item_id": "A4-C1",
-      "item_family": "error_diagnosis",
-      "prompt": "Diagnose a peer error aligned to axis_order_reversal.",
+      "item_id": "A4-DIR-001",
+      "node_id": "A4",
+      "item_family": "direct_execution",
+      "prompt": "Compute `-7 + 12` and explain the sign of the result.",
       "expected_evidence": "identify x- and y-axis roles and use the origin as a reference point",
       "dominant_failure_mode": "axis_order_reversal",
-      "scoring_guidance": "Meets when the learner identifies how the peer reversed axis order or misread axis roles."
+      "scoring_guidance": "Meets when the learner demonstrates identify x- and y-axis roles and use the origin as a reference point with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "A4-D1",
+      "item_id": "A4-DIR-002",
+      "node_id": "A4",
+      "item_family": "direct_execution",
+      "prompt": "Compute `-4(3)` and compare the result to `4(-3)`.",
+      "expected_evidence": "plot ordered pairs and read plotted coordinates accurately",
+      "dominant_failure_mode": "origin_reference_instability",
+      "scoring_guidance": "Meets when the learner demonstrates plot ordered pairs and read plotted coordinates accurately with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
+    },
+    {
+      "item_id": "A4-DIR-003",
+      "node_id": "A4",
+      "item_family": "direct_execution",
+      "prompt": "Evaluate `6 - 9` on a number line and with a signed-distance interpretation.",
+      "expected_evidence": "explain how sign and direction determine location in the four-quadrant plane",
+      "dominant_failure_mode": "quadrant_sign_confusion",
+      "scoring_guidance": "Meets when the learner demonstrates explain how sign and direction determine location in the four-quadrant plane with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
+    },
+    {
+      "item_id": "A4-EXP-001",
+      "node_id": "A4",
+      "item_family": "explanation",
+      "prompt": "Explain why subtracting a negative can increase a quantity.",
+      "expected_evidence": "identify x- and y-axis roles and use the origin as a reference point",
+      "dominant_failure_mode": "origin_reference_instability",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to identify x- and y-axis roles and use the origin as a reference point.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "A4-EXP-002",
+      "node_id": "A4",
+      "item_family": "explanation",
+      "prompt": "Explain how sign and magnitude work together in signed-number operations.",
+      "expected_evidence": "plot ordered pairs and read plotted coordinates accurately",
+      "dominant_failure_mode": "quadrant_sign_confusion",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to plot ordered pairs and read plotted coordinates accurately.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "A4-ERR-001",
+      "node_id": "A4",
+      "item_family": "error_diagnosis",
+      "prompt": "A student says `-3 + -5 = 2`. Diagnose the sign reasoning error. Focus on axis order reversal.",
+      "expected_evidence": "identify x- and y-axis roles and use the origin as a reference point",
+      "dominant_failure_mode": "axis_order_reversal",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward identify x- and y-axis roles and use the origin as a reference point.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "A4-ERR-002",
+      "node_id": "A4",
+      "item_family": "error_diagnosis",
+      "prompt": "A student computes `6 - (-2)` as `4`. Explain the inverse-structure mistake. Focus on origin reference instability.",
+      "expected_evidence": "plot ordered pairs and read plotted coordinates accurately",
+      "dominant_failure_mode": "origin_reference_instability",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward plot ordered pairs and read plotted coordinates accurately.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "A4-TRA-001",
+      "node_id": "A4",
       "item_family": "transfer",
-      "prompt": "succeeds across plotted diagrams, tables, directional descriptions, and simple contextual maps",
-      "expected_evidence": "connect tabular or directional descriptions to plotted points in bounded cases",
+      "prompt": "A submarine is at `-120` meters and rises `35` meters. Write and solve the signed-number expression.",
+      "expected_evidence": "identify x- and y-axis roles and use the origin as a reference point",
+      "dominant_failure_mode": "quadrant_sign_confusion",
+      "scoring_guidance": "Meets when the learner preserves identify x- and y-axis roles and use the origin as a reference point in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "A4-TRA-002",
+      "node_id": "A4",
+      "item_family": "transfer",
+      "prompt": "A team loses 4 yards on one play and gains 11 on the next. Model the net change with signed numbers.",
+      "expected_evidence": "plot ordered pairs and read plotted coordinates accurately",
       "dominant_failure_mode": "representation_mapping_breakdown",
-      "scoring_guidance": "Meets when the learner preserves coordinate meaning across multiple representations."
+      "scoring_guidance": "Meets when the learner preserves plot ordered pairs and read plotted coordinates accurately in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "A4-RET-001",
+      "node_id": "A4",
+      "item_family": "retention",
+      "prompt": "After a delay, compute `-8 - 5` and justify both the sign and the magnitude.",
+      "expected_evidence": "identify x- and y-axis roles and use the origin as a reference point",
+      "dominant_failure_mode": "representation_mapping_breakdown",
+      "scoring_guidance": "Meets when the learner still demonstrates identify x- and y-axis roles and use the origin as a reference point on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "A4-PRE-001",
+      "node_id": "A4",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a prerequisite check on signed number meaning to decide whether the learner’s signed-number error comes from upstream whole-number structure or from current-node reasoning.",
+      "expected_evidence": "shows whether signed number meaning is secure enough to support coordinate plane and ordered pairs",
+      "dominant_failure_mode": "origin_reference_instability",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in signed number meaning from a current-node issue in coordinate plane and ordered pairs.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "S1",
+      "suspected_knowledge_gap_if_incorrect": "signed number meaning"
+    },
+    {
+      "item_id": "A4-PRE-002",
+      "node_id": "A4",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a prerequisite check on position direction and spatial language to decide whether the learner’s signed-number error comes from upstream whole-number structure or from current-node reasoning.",
+      "expected_evidence": "shows whether position direction and spatial language is secure enough to support coordinate plane and ordered pairs",
+      "dominant_failure_mode": "quadrant_sign_confusion",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in position direction and spatial language from a current-node issue in coordinate plane and ordered pairs.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "G2",
+      "suspected_knowledge_gap_if_incorrect": "position direction and spatial language"
     }
   ]
 }

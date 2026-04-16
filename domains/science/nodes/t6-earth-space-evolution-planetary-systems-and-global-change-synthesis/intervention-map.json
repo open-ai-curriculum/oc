@@ -1,0 +1,29 @@
+{
+  "node_id": "T6",
+  "interventions": [
+    {
+      "failure_mode": "T6-FM-01",
+      "intervention_id": "T6-INT-01",
+      "name": "Planetary Evidence Stream Planner",
+      "delivery": "synthesis scaffold"
+    },
+    {
+      "failure_mode": "T6-FM-02",
+      "intervention_id": "T6-INT-02",
+      "name": "Global Change System Map",
+      "delivery": "diagram routine"
+    },
+    {
+      "failure_mode": "T6-FM-03",
+      "intervention_id": "T6-INT-03",
+      "name": "Exact Earth-Space Critique Stem",
+      "delivery": "critique scaffold"
+    },
+    {
+      "failure_mode": "T6-FM-04",
+      "intervention_id": "T6-INT-04",
+      "name": "Earth-Space Synthesis Boundary Check",
+      "delivery": "scope audit"
+    }
+  ]
+}

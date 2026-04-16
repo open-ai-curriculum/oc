@@ -1,0 +1,25 @@
+[
+  {
+    "learner_id": "example-rc6-emerging",
+    "node_id": "RC6",
+    "status": "emerging",
+    "dependency_status": {
+      "RC5": "secure"
+    },
+    "direct_accuracy": 0.76,
+    "explanation_status": "weak",
+    "transfer_status": "weak",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [
+      "RC6-FM-01",
+      "RC6-FM-02"
+    ],
+    "recommended_interventions": [
+      "tighten the task around evidence so the target is more visible",
+      "keep the text or prompt surface small enough to isolate evidence without explanation"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Learner shows emerging control on RC6 but still needs more stable transfer and explanation."
+  }
+]

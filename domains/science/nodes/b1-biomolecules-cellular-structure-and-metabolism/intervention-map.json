@@ -1,0 +1,37 @@
+{
+  "node_id": "B1",
+  "interventions": [
+    {
+      "intervention_id": "B1-INT-01",
+      "name": "B1 Intervention 1",
+      "addresses_failure_modes": [
+        "B1-FM-01"
+      ],
+      "summary": "structure-to-function comparison routines that force explicit biomolecule and organelle role explanations"
+    },
+    {
+      "intervention_id": "B1-INT-02",
+      "name": "B1 Intervention 2",
+      "addresses_failure_modes": [
+        "B1-FM-02"
+      ],
+      "summary": "membrane transport scenario sorts that separate passive, active, and selective processes"
+    },
+    {
+      "intervention_id": "B1-INT-03",
+      "name": "B1 Intervention 3",
+      "addresses_failure_modes": [
+        "B1-FM-03"
+      ],
+      "summary": "energy pathway maps that connect inputs, transformations, and outputs in respiration or photosynthesis"
+    },
+    {
+      "intervention_id": "B1-INT-04",
+      "name": "B1 Intervention 4",
+      "addresses_failure_modes": [
+        "B1-FM-04"
+      ],
+      "summary": "cross-scale prompts linking molecular properties to whole-cell performance"
+    }
+  ]
+}

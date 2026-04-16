@@ -1,0 +1,32 @@
+slice_id: social_studies_inquiry_civics_entry_runtime
+domain: social_studies
+status: draft
+version: 0.1
+node_ids:
+  - Q1
+  - H1
+  - C1
+entry_node_ids:
+  - Q1
+learner_state_fields:
+  - status
+  - dependency_status
+  - direct_accuracy
+  - explanation_status
+  - transfer_status
+  - retention_status
+  - dominant_failure_modes
+navigation_rules:
+  - rule_id: ss-entry-01
+    decision_type: teach_next
+    applies_when:
+      - Q1 is secure
+      - H1 is blocked
+    outcome: route learner into H1 chronology and community memory work
+  - rule_id: ss-entry-02
+    decision_type: hold_current
+    applies_when:
+      - Q1 is emerging
+    outcome: continue bounded Q1 inquiry work with observation and questioning artifacts
+artifact_registry_reference: domains/social_studies/artifact-attachments/inquiry-civics-entry-attachment-registry.yaml
+review_status: draft

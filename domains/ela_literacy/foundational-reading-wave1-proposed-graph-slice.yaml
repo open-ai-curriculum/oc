@@ -1,0 +1,95 @@
+domain: ela_literacy
+package: foundational_reading_wave1
+version: 0.1
+status: proposal
+
+scope:
+  replaces:
+    - F1
+    - F2
+    - F3
+  adds:
+    - FR1
+    - FR2
+    - FR3
+    - FR4
+    - FR5
+    - FR6
+
+families:
+  - id: F
+    name: foundational_decoding_and_encoding
+    nodes:
+      - id: FR1
+        name: phoneme_grapheme_mapping
+        depends_on:
+          - P3
+          - P4
+        supersedes:
+          - F1
+        intent: isolate_direct_sound_symbol_correspondence_control
+
+      - id: FR2
+        name: print_encoding_principle_and_bidirectional_mapping
+        depends_on:
+          - FR1
+        supersedes:
+          - F1
+        intent: separate_bidirectional_print_speech_mapping_from_initial_correspondence_learning
+
+      - id: FR3
+        name: simple_pattern_decoding_and_encoding
+        depends_on:
+          - FR2
+        supersedes:
+          - F2
+        intent: isolate_controlled_application_to_simple_word_patterns
+
+      - id: FR4
+        name: word_level_decoding_generalization
+        depends_on:
+          - FR3
+        supersedes:
+          - F2
+        intent: separate_generalized_word_control_from_rehearsed_item_success
+
+      - id: FR5
+        name: orthographic_consolidation_and_automatic_word_recognition
+        depends_on:
+          - FR4
+        supersedes:
+          - F3
+        intent: isolate_automaticity_growth_from_controlled_decoding
+
+      - id: FR6
+        name: connected_text_fluency_and_tracking
+        depends_on:
+          - FR5
+          - P2
+        supersedes:
+          - F3
+        intent: isolate_connected_text_accuracy_pacing_and_tracking
+
+provisional_cross_branch_updates:
+  downstream_edges_to_revisit:
+    - from: FR3
+      to:
+        - R2
+        - L2
+        - W2
+      note: minimum_access_threshold_if_controlled_pattern_application_is_sufficient
+    - from: FR4
+      to:
+        - R2
+        - L2
+        - W2
+      note: preferred_threshold_if_generalized_word_level_control_is_required
+    - from: FR6
+      to:
+        - RC4
+      note: future_comprehension_wave_placeholder_not_a_current_canonical_edge
+
+compatibility:
+  legacy_nodes_remain_authoritative_until_canonical_mutation: true
+  standards_overlay_requires_explicit_remapping: true
+  generated_exports_must_not_regenerate_from_this_slice_alone: true

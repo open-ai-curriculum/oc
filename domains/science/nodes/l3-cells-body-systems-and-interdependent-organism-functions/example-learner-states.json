@@ -1,0 +1,38 @@
+[
+  {
+    "learner_id": "example-l3-secure",
+    "node_id": "L3",
+    "status": "secure",
+    "dependency_status": {
+      "L2": "secure",
+      "M2": "secure"
+    },
+    "direct_accuracy": 0.94,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Explains linked system functions across plant and animal examples."
+  },
+  {
+    "learner_id": "example-l3-emerging",
+    "node_id": "L3",
+    "status": "emerging",
+    "dependency_status": {
+      "L2": "secure",
+      "M2": "secure"
+    },
+    "direct_accuracy": 0.72,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["L3-FM-02", "L3-FM-03"],
+    "recommended_interventions": ["L3-INT-02", "L3-INT-03"],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Names organs correctly but does not explain coordinated function."
+  }
+]

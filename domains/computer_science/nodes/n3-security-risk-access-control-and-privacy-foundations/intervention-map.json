@@ -1,0 +1,37 @@
+{
+  "node_id": "N3",
+  "interventions": [
+    {
+      "intervention_id": "N3-INT-01",
+      "name": "N3 Intervention 1",
+      "addresses_failure_modes": [
+        "N3-FM-01"
+      ],
+      "summary": "risk-and-protection matching tasks that pair threats with bounded protective practices"
+    },
+    {
+      "intervention_id": "N3-INT-02",
+      "name": "N3 Intervention 2",
+      "addresses_failure_modes": [
+        "N3-FM-02"
+      ],
+      "summary": "authorized-versus-unauthorized access scenario sorts with explicit reasoning"
+    },
+    {
+      "intervention_id": "N3-INT-03",
+      "name": "N3 Intervention 3",
+      "addresses_failure_modes": [
+        "N3-FM-03"
+      ],
+      "summary": "privacy-boundary prompts that compare public, shared, and private cases"
+    },
+    {
+      "intervention_id": "N3-INT-04",
+      "name": "N3 Intervention 4",
+      "addresses_failure_modes": [
+        "N3-FM-04"
+      ],
+      "summary": "why-this-protection helps explanations tied to one concrete digital risk"
+    }
+  ]
+}

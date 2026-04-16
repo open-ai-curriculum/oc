@@ -1,0 +1,46 @@
+{
+  "node_id": "D3",
+  "examples": [
+    {
+      "learner_id": "sample-d3-blocked-01",
+      "node_id": "D3",
+      "status": "blocked",
+      "dependency_status": {
+        "D2": "secure",
+        "E3": "secure",
+        "M3": "secure"
+      },
+      "direct_accuracy": 0.46,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["D3-FM-01", "D3-FM-02"],
+      "recommended_interventions": [
+        "map the system into interacting parts before analyzing failure",
+        "use tradeoff tables with helps and hurts columns"
+      ],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Can name one design issue but does not yet reason about whole-system failure or optimization tradeoffs."
+    },
+    {
+      "learner_id": "sample-d3-secure-01",
+      "node_id": "D3",
+      "status": "secure",
+      "dependency_status": {
+        "D2": "secure",
+        "E3": "secure",
+        "M3": "secure"
+      },
+      "direct_accuracy": 0.92,
+      "explanation_status": "met",
+      "transfer_status": "met",
+      "retention_status": "met",
+      "dominant_failure_modes": [],
+      "recommended_interventions": [],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Analyzes failure and optimization using system interactions and tradeoffs across multiple engineering contexts."
+    }
+  ]
+}

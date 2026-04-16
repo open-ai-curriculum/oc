@@ -1,0 +1,88 @@
+{
+  "id": "social-studies-assessment-framework-assurance-register",
+  "generated_on": "2026-04-15",
+  "framework_count": 9,
+  "frameworks": [
+    {
+      "framework_id": "ap-united-states-history",
+      "assessment_family": "AP United States History",
+      "assurance_classification": "overlay_backed_with_compressed_course_specificity",
+      "official_blueprint_verified": false,
+      "maintained_overlay_present": true,
+      "current_graph_posture": "substantial_but_compressed",
+      "next_action": "Deepen chronology and institution-level modeling before making stronger course-equivalence claims."
+    },
+    {
+      "framework_id": "ap-world-history-modern",
+      "assessment_family": "AP World History: Modern",
+      "assurance_classification": "overlay_backed_with_compressed_course_specificity",
+      "official_blueprint_verified": false,
+      "maintained_overlay_present": true,
+      "current_graph_posture": "substantial_but_compressed",
+      "next_action": "Deepen periodization and region-specific topology before making stronger course-equivalence claims."
+    },
+    {
+      "framework_id": "ap-united-states-government-and-politics",
+      "assessment_family": "AP United States Government and Politics",
+      "assurance_classification": "overlay_backed_with_unverified_public_framework",
+      "official_blueprint_verified": false,
+      "maintained_overlay_present": true,
+      "current_graph_posture": "strong",
+      "next_action": "Keep the graph posture claim strong, but do not mark blueprint verification until a maintained official framework audit is codified."
+    },
+    {
+      "framework_id": "ap-comparative-government-and-politics",
+      "assessment_family": "AP Comparative Government and Politics",
+      "assurance_classification": "overlay_backed_with_partial_country_case_fidelity",
+      "official_blueprint_verified": false,
+      "maintained_overlay_present": true,
+      "current_graph_posture": "partial",
+      "next_action": "Add case-specific comparative structures before strengthening pathway fidelity claims."
+    },
+    {
+      "framework_id": "ap-human-geography",
+      "assessment_family": "AP Human Geography",
+      "assurance_classification": "overlay_backed_with_unverified_public_framework",
+      "official_blueprint_verified": false,
+      "maintained_overlay_present": true,
+      "current_graph_posture": "strong",
+      "next_action": "Keep the graph posture claim strong, but do not mark blueprint verification until a maintained official framework audit is codified."
+    },
+    {
+      "framework_id": "ap-macroeconomics",
+      "assessment_family": "AP Macroeconomics",
+      "assurance_classification": "overlay_backed_with_partial_macro_fidelity",
+      "official_blueprint_verified": false,
+      "maintained_overlay_present": true,
+      "current_graph_posture": "partial",
+      "next_action": "Deepen macro-sequence and policy-model specificity before strengthening course-equivalence claims."
+    },
+    {
+      "framework_id": "ap-microeconomics",
+      "assessment_family": "AP Microeconomics",
+      "assurance_classification": "overlay_backed_exploratory_course_specificity",
+      "official_blueprint_verified": false,
+      "maintained_overlay_present": true,
+      "current_graph_posture": "provisional",
+      "next_action": "Keep the overlay explicitly exploratory until firm structure, welfare analysis, and market-detail topology are better governed."
+    },
+    {
+      "framework_id": "state-social-studies-achievement-tests",
+      "assessment_family": "State social studies achievement tests",
+      "assurance_classification": "standards_surface_only",
+      "official_blueprint_verified": false,
+      "maintained_overlay_present": false,
+      "current_graph_posture": "strong_for_standards_aligned_content",
+      "next_action": "Keep claims at standards-surface level unless state blueprint audits are codified."
+    },
+    {
+      "framework_id": "naep-social-studies-related-frameworks",
+      "assessment_family": "NAEP social studies-related frameworks",
+      "assurance_classification": "provisional_framework_scan_needed",
+      "official_blueprint_verified": false,
+      "maintained_overlay_present": false,
+      "current_graph_posture": "provisional",
+      "next_action": "Remain provisional until a maintained NAEP social studies scan or blueprint audit is codified."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "node_id": "AC2",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "AC2-FM-01": [
+      "tighten the task around feature-spotting without interpretation so the target is more visible",
+      "keep the response surface bounded enough to isolate the real bottleneck",
+      "rerun a changed-surface check after one short intervention cycle"
+    ],
+    "AC2-FM-02": [
+      "tighten the task around disciplinary-convention confusion so the target is more visible",
+      "keep the response surface bounded enough to isolate the real bottleneck",
+      "rerun a changed-surface check after one short intervention cycle"
+    ],
+    "AC2-FM-03": [
+      "tighten the task around rhetorical-effect drift so the target is more visible",
+      "keep the response surface bounded enough to isolate the real bottleneck",
+      "rerun a changed-surface check after one short intervention cycle"
+    ],
+    "AC2-FM-04": [
+      "tighten the task around task-surface transfer fragility so the target is more visible",
+      "keep the response surface bounded enough to isolate the real bottleneck",
+      "rerun a changed-surface check after one short intervention cycle"
+    ]
+  }
+}

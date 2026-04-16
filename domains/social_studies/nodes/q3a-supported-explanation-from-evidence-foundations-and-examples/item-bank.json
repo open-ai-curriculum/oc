@@ -1,0 +1,18 @@
+{
+  "node_id": "Q3A",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "Q3A-G1-01",
+      "node_id": "Q3A",
+      "gate": "G1",
+      "prompt": "Complete a bounded foundations and examples task for supported explanation from evidence and explain your reasoning.",
+      "response_mode": "oral_or_written_or_annotated",
+      "scoring_rule": "Completes the task accurately and gives a usable explanation of the structure or reasoning.",
+      "failure_mode_targets": [
+        "Q3A-FM-01",
+        "Q3A-FM-02"
+      ]
+    }
+  ]
+}

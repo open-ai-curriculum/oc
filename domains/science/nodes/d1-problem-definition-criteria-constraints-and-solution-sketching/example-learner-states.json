@@ -1,0 +1,44 @@
+{
+  "node_id": "D1",
+  "examples": [
+    {
+      "learner_id": "sample-d1-blocked-01",
+      "node_id": "D1",
+      "status": "blocked",
+      "dependency_status": {
+        "Q2": "secure",
+        "E1": "secure"
+      },
+      "direct_accuracy": 0.47,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["D1-FM-02", "D1-FM-03"],
+      "recommended_interventions": [
+        "sort statements into success goals versus limits",
+        "check each solution against the stated conditions one at a time"
+      ],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Can propose ideas, but does not yet separate criteria from constraints or check design fit."
+    },
+    {
+      "learner_id": "sample-d1-secure-01",
+      "node_id": "D1",
+      "status": "secure",
+      "dependency_status": {
+        "Q2": "secure",
+        "E1": "secure"
+      },
+      "direct_accuracy": 0.93,
+      "explanation_status": "met",
+      "transfer_status": "met",
+      "retention_status": "met",
+      "dominant_failure_modes": [],
+      "recommended_interventions": [],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Defines early design problems and proposes solution sketches that fit criteria and constraints across multiple contexts."
+    }
+  ]
+}

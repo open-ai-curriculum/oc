@@ -1,37 +1,140 @@
 {
   "node_id": "K3",
+  "policy_version": "1.0",
   "items": [
     {
-      "item_id": "K3-A1",
-      "item_family": "direct",
-      "prompt": "computes bounded rate of change or slope from tables, graphs, or contextual data",
+      "item_id": "K3-DIR-001",
+      "node_id": "K3",
+      "item_family": "direct_execution",
+      "prompt": "Compute `-7 + 12` and explain the sign of the result.",
       "expected_evidence": "compute bounded rates of change from tables, graphs, or contextual data",
       "dominant_failure_mode": "change_ratio_breakdown",
-      "scoring_guidance": "Meets when the learner computes the rate of change accurately and associates it with the correct quantities."
+      "scoring_guidance": "Meets when the learner demonstrates compute bounded rates of change from tables, graphs, or contextual data with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "K3-B1",
-      "item_family": "explanation",
-      "prompt": "explains how a constant rate corresponds to linear growth and how direction and steepness relate to slope",
+      "item_id": "K3-DIR-002",
+      "node_id": "K3",
+      "item_family": "direct_execution",
+      "prompt": "Compute `-4(3)` and compare the result to `4(-3)`.",
       "expected_evidence": "explain how a constant rate corresponds to linear growth",
       "dominant_failure_mode": "steepness_without_rate_meaning",
-      "scoring_guidance": "Meets when the learner explains slope or rate of change through coherent linear-growth meaning."
+      "scoring_guidance": "Meets when the learner demonstrates explain how a constant rate corresponds to linear growth with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "K3-C1",
-      "item_family": "error_diagnosis",
-      "prompt": "Diagnose a peer error aligned to sign_direction_confusion.",
+      "item_id": "K3-DIR-003",
+      "node_id": "K3",
+      "item_family": "direct_execution",
+      "prompt": "Evaluate `6 - 9` on a number line and with a signed-distance interpretation.",
       "expected_evidence": "compare graphs or tables by direction and steepness using rate language",
       "dominant_failure_mode": "sign_direction_confusion",
-      "scoring_guidance": "Meets when the learner identifies how the peer misread direction, sign, or growth behavior."
+      "scoring_guidance": "Meets when the learner demonstrates compare graphs or tables by direction and steepness using rate language with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
     },
     {
-      "item_id": "K3-D1",
+      "item_id": "K3-EXP-001",
+      "node_id": "K3",
+      "item_family": "explanation",
+      "prompt": "Explain why subtracting a negative can increase a quantity.",
+      "expected_evidence": "compute bounded rates of change from tables, graphs, or contextual data",
+      "dominant_failure_mode": "steepness_without_rate_meaning",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to compute bounded rates of change from tables, graphs, or contextual data.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "K3-EXP-002",
+      "node_id": "K3",
+      "item_family": "explanation",
+      "prompt": "Explain how sign and magnitude work together in signed-number operations.",
+      "expected_evidence": "explain how a constant rate corresponds to linear growth",
+      "dominant_failure_mode": "sign_direction_confusion",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to explain how a constant rate corresponds to linear growth.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "K3-ERR-001",
+      "node_id": "K3",
+      "item_family": "error_diagnosis",
+      "prompt": "A student says `-3 + -5 = 2`. Diagnose the sign reasoning error. Focus on change ratio breakdown.",
+      "expected_evidence": "compute bounded rates of change from tables, graphs, or contextual data",
+      "dominant_failure_mode": "change_ratio_breakdown",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward compute bounded rates of change from tables, graphs, or contextual data.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "K3-ERR-002",
+      "node_id": "K3",
+      "item_family": "error_diagnosis",
+      "prompt": "A student computes `6 - (-2)` as `4`. Explain the inverse-structure mistake. Focus on steepness without rate meaning.",
+      "expected_evidence": "explain how a constant rate corresponds to linear growth",
+      "dominant_failure_mode": "steepness_without_rate_meaning",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward explain how a constant rate corresponds to linear growth.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "K3-TRA-001",
+      "node_id": "K3",
       "item_family": "transfer",
-      "prompt": "succeeds across symbolic, table, verbal, graph, and simple contextual linear-growth representations",
-      "expected_evidence": "connect proportional growth and signed change to slope meaning in bounded cases",
+      "prompt": "A submarine is at `-120` meters and rises `35` meters. Write and solve the signed-number expression.",
+      "expected_evidence": "compute bounded rates of change from tables, graphs, or contextual data",
+      "dominant_failure_mode": "sign_direction_confusion",
+      "scoring_guidance": "Meets when the learner preserves compute bounded rates of change from tables, graphs, or contextual data in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "K3-TRA-002",
+      "node_id": "K3",
+      "item_family": "transfer",
+      "prompt": "A team loses 4 yards on one play and gains 11 on the next. Model the net change with signed numbers.",
+      "expected_evidence": "explain how a constant rate corresponds to linear growth",
       "dominant_failure_mode": "representation_growth_disconnect",
-      "scoring_guidance": "Meets when the learner preserves rate-of-change meaning across varied representations and contexts."
+      "scoring_guidance": "Meets when the learner preserves explain how a constant rate corresponds to linear growth in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "K3-RET-001",
+      "node_id": "K3",
+      "item_family": "retention",
+      "prompt": "After a delay, compute `-8 - 5` and justify both the sign and the magnitude.",
+      "expected_evidence": "compute bounded rates of change from tables, graphs, or contextual data",
+      "dominant_failure_mode": "representation_growth_disconnect",
+      "scoring_guidance": "Meets when the learner still demonstrates compute bounded rates of change from tables, graphs, or contextual data on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "K3-PRE-001",
+      "node_id": "K3",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a prerequisite check on function as input output rule to decide whether the learner’s signed-number error comes from upstream whole-number structure or from current-node reasoning.",
+      "expected_evidence": "shows whether function as input output rule is secure enough to support slope rate of change and linear growth",
+      "dominant_failure_mode": "steepness_without_rate_meaning",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in function as input output rule from a current-node issue in slope rate of change and linear growth.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "K2",
+      "suspected_knowledge_gap_if_incorrect": "function as input output rule"
+    },
+    {
+      "item_id": "K3-PRE-002",
+      "node_id": "K3",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a prerequisite check on proportional relationships to decide whether the learner’s signed-number error comes from upstream whole-number structure or from current-node reasoning.",
+      "expected_evidence": "shows whether proportional relationships is secure enough to support slope rate of change and linear growth",
+      "dominant_failure_mode": "sign_direction_confusion",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in proportional relationships from a current-node issue in slope rate of change and linear growth.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "Q3",
+      "suspected_knowledge_gap_if_incorrect": "proportional relationships"
     }
   ]
 }

@@ -1,0 +1,140 @@
+{
+  "node_id": "AP9",
+  "policy_version": "1.0",
+  "items": [
+    {
+      "item_id": "AP9-DIR-001",
+      "node_id": "AP9",
+      "item_family": "direct_execution",
+      "prompt": "Plot the point `(3, -2)` and explain what each coordinate controls.",
+      "expected_evidence": "interpret sequences, series, and partial sums consistently across tables, formulas, graphs, and verbal descriptions",
+      "dominant_failure_mode": "sequence_series_process_blur",
+      "scoring_guidance": "Meets when the learner demonstrates interpret sequences, series, and partial sums consistently across tables, formulas, graphs, and verbal descriptions with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
+    },
+    {
+      "item_id": "AP9-DIR-002",
+      "node_id": "AP9",
+      "item_family": "direct_execution",
+      "prompt": "Find the slope between `(1, 4)` and `(5, 12)` and interpret it as a rate of change.",
+      "expected_evidence": "explain why convergence or divergence claims follow from the structure of terms and accumulated partial behavior",
+      "dominant_failure_mode": "convergence_reasoning_instability",
+      "scoring_guidance": "Meets when the learner demonstrates explain why convergence or divergence claims follow from the structure of terms and accumulated partial behavior with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
+    },
+    {
+      "item_id": "AP9-DIR-003",
+      "node_id": "AP9",
+      "item_family": "direct_execution",
+      "prompt": "Determine whether the table represents a function and justify your decision.",
+      "expected_evidence": "connect Taylor polynomial approximations to local function behavior and error-sensitive reasoning",
+      "dominant_failure_mode": "taylor_local_model_breakdown",
+      "scoring_guidance": "Meets when the learner demonstrates connect Taylor polynomial approximations to local function behavior and error-sensitive reasoning with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
+    },
+    {
+      "item_id": "AP9-EXP-001",
+      "node_id": "AP9",
+      "item_family": "explanation",
+      "prompt": "Explain how a table, graph, and equation can represent the same linear relationship.",
+      "expected_evidence": "interpret sequences, series, and partial sums consistently across tables, formulas, graphs, and verbal descriptions",
+      "dominant_failure_mode": "convergence_reasoning_instability",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to interpret sequences, series, and partial sums consistently across tables, formulas, graphs, and verbal descriptions.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "AP9-EXP-002",
+      "node_id": "AP9",
+      "item_family": "explanation",
+      "prompt": "Explain what slope means in both graphical and contextual terms.",
+      "expected_evidence": "explain why convergence or divergence claims follow from the structure of terms and accumulated partial behavior",
+      "dominant_failure_mode": "taylor_local_model_breakdown",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to explain why convergence or divergence claims follow from the structure of terms and accumulated partial behavior.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "AP9-ERR-001",
+      "node_id": "AP9",
+      "item_family": "error_diagnosis",
+      "prompt": "A student reverses the coordinates and plots `(3, -2)` as `(-2, 3)`. Diagnose the mapping error. Focus on sequence series process blur.",
+      "expected_evidence": "interpret sequences, series, and partial sums consistently across tables, formulas, graphs, and verbal descriptions",
+      "dominant_failure_mode": "sequence_series_process_blur",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward interpret sequences, series, and partial sums consistently across tables, formulas, graphs, and verbal descriptions.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "AP9-ERR-002",
+      "node_id": "AP9",
+      "item_family": "error_diagnosis",
+      "prompt": "A student says every straight-looking graph is proportional. Identify the misclassification. Focus on convergence reasoning instability.",
+      "expected_evidence": "explain why convergence or divergence claims follow from the structure of terms and accumulated partial behavior",
+      "dominant_failure_mode": "convergence_reasoning_instability",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward explain why convergence or divergence claims follow from the structure of terms and accumulated partial behavior.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "AP9-TRA-001",
+      "node_id": "AP9",
+      "item_family": "transfer",
+      "prompt": "A ride-share charges a fixed fee plus a cost per mile. Write a rule, make a table, and interpret the slope and intercept.",
+      "expected_evidence": "interpret sequences, series, and partial sums consistently across tables, formulas, graphs, and verbal descriptions",
+      "dominant_failure_mode": "taylor_local_model_breakdown",
+      "scoring_guidance": "Meets when the learner preserves interpret sequences, series, and partial sums consistently across tables, formulas, graphs, and verbal descriptions in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "AP9-TRA-002",
+      "node_id": "AP9",
+      "item_family": "transfer",
+      "prompt": "Given a graph and a verbal description, decide whether they could represent the same relationship and justify the match.",
+      "expected_evidence": "explain why convergence or divergence claims follow from the structure of terms and accumulated partial behavior",
+      "dominant_failure_mode": "advanced_change_context_drift",
+      "scoring_guidance": "Meets when the learner preserves explain why convergence or divergence claims follow from the structure of terms and accumulated partial behavior in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "AP9-RET-001",
+      "node_id": "AP9",
+      "item_family": "retention",
+      "prompt": "On a delayed check, move between a rule, a table, and a graph for a linear relationship and explain the connection.",
+      "expected_evidence": "interpret sequences, series, and partial sums consistently across tables, formulas, graphs, and verbal descriptions",
+      "dominant_failure_mode": "advanced_change_context_drift",
+      "scoring_guidance": "Meets when the learner still demonstrates interpret sequences, series, and partial sums consistently across tables, formulas, graphs, and verbal descriptions on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "AP9-PRE-001",
+      "node_id": "AP9",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a prerequisite probe on integral meaning and accumulation to see whether the learner is blocked by graph/coordinate foundations or by bc series and advanced calculus extensions itself.",
+      "expected_evidence": "shows whether integral meaning and accumulation is secure enough to support bc series and advanced calculus extensions",
+      "dominant_failure_mode": "convergence_reasoning_instability",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in integral meaning and accumulation from a current-node issue in bc series and advanced calculus extensions.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "AP6",
+      "suspected_knowledge_gap_if_incorrect": "integral meaning and accumulation"
+    },
+    {
+      "item_id": "AP9-PRE-002",
+      "node_id": "AP9",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a prerequisite probe on sequences series and recursive structure to see whether the learner is blocked by graph/coordinate foundations or by bc series and advanced calculus extensions itself.",
+      "expected_evidence": "shows whether sequences series and recursive structure is secure enough to support bc series and advanced calculus extensions",
+      "dominant_failure_mode": "taylor_local_model_breakdown",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in sequences series and recursive structure from a current-node issue in bc series and advanced calculus extensions.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "B7",
+      "suspected_knowledge_gap_if_incorrect": "sequences series and recursive structure"
+    }
+  ]
+}

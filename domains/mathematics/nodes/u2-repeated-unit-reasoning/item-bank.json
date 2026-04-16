@@ -1,72 +1,258 @@
 {
   "node_id": "U2",
-  "version": "0.1",
+  "policy_version": "1.0",
+  "version": "0.3",
   "items": [
     {
-      "item_id": "U2-A-001",
-      "family": "direct_repeated_unit_reasoning",
-      "prompt": "Look at the groups of counters. Which groups show the same repeated unit?",
+      "item_id": "U2-D-001",
+      "family": "direct_execution",
+      "prompt": "Compute `3/4 + 1/8` by rewriting to common units and show the equivalent fractions you used.",
       "target_node": "U2",
-      "secondary_dependency_targets": ["U1"],
+      "secondary_dependency_targets": [
+        "U1"
+      ],
       "difficulty_band": "core",
-      "response_modes_allowed": ["selected_response", "oral_explanation"],
-      "dominant_failure_modes_if_incorrect": ["U2-FM-01", "U2-FM-02"],
-      "requires_human_scoring": false
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "U2-FM-01",
+        "U2-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
     },
     {
-      "item_id": "U2-A-002",
-      "family": "direct_repeated_unit_reasoning",
-      "prompt": "A strip is covered with equal square tiles. What is the repeated unit?",
+      "item_id": "U2-D-002",
+      "family": "direct_execution",
+      "prompt": "Compute `5/6 - 1/4` and justify the common denominator choice.",
       "target_node": "U2",
-      "secondary_dependency_targets": ["U1"],
+      "secondary_dependency_targets": [
+        "U1"
+      ],
       "difficulty_band": "core",
-      "response_modes_allowed": ["oral_explanation", "written_explanation"],
-      "dominant_failure_modes_if_incorrect": ["U2-FM-03"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "U2-FM-02",
+        "U2-FM-03"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
     },
     {
-      "item_id": "U2-B-001",
+      "item_id": "U2-D-003",
+      "family": "direct_execution",
+      "prompt": "Place `2/3` and `5/8` on the same number line and determine which is greater.",
+      "target_node": "U2",
+      "secondary_dependency_targets": [
+        "U1"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "U2-FM-03",
+        "U2-FM-04"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "U2-D-004",
+      "family": "direct_execution",
+      "prompt": "Compute `3/4 + 1/8` by rewriting to common units and show the equivalent fractions you used.",
+      "target_node": "U2",
+      "secondary_dependency_targets": [
+        "U1"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "U2-FM-04",
+        "U2-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "U2-E-001",
       "family": "explanation",
-      "prompt": "Explain why three groups of 2 are a repeated-unit pattern.",
+      "prompt": "Explain why `3/4` can be rewritten as `6/8` without changing its value.",
       "target_node": "U2",
-      "secondary_dependency_targets": ["U1"],
+      "secondary_dependency_targets": [
+        "U1"
+      ],
       "difficulty_band": "core",
-      "response_modes_allowed": ["oral_explanation", "written_explanation"],
-      "dominant_failure_modes_if_incorrect": ["U2-FM-01", "U2-FM-04"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "U2-FM-02"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "U2-E-002",
+      "family": "explanation",
+      "prompt": "Explain why fractions can only be combined directly when they refer to equal-sized parts.",
+      "target_node": "U2",
+      "secondary_dependency_targets": [
+        "U1"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "U2-FM-03"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
     },
     {
       "item_id": "U2-C-001",
       "family": "error_diagnosis",
-      "prompt": "A student says groups of 3, 3, and 4 still show the same repeated unit. What should be checked?",
+      "prompt": "A student says `3/4 + 1/8 = 4/12`. Diagnose the first structural mistake. Focus on unit identity drift.",
       "target_node": "U2",
-      "secondary_dependency_targets": ["U1"],
-      "difficulty_band": "core",
-      "response_modes_allowed": ["multiple_choice", "oral_explanation", "written_explanation"],
-      "dominant_failure_modes_if_incorrect": ["U2-FM-02"],
-      "requires_human_scoring": true
+      "secondary_dependency_targets": [
+        "U1"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "U2-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
     },
     {
-      "item_id": "U2-D-001",
-      "family": "transfer",
-      "prompt": "A walkway is covered with equal stepping stones. Explain what repeats and why that matters.",
+      "item_id": "U2-C-002",
+      "family": "error_diagnosis",
+      "prompt": "A student rewrites `2/3` as `3/4` before adding. Identify the equivalence error. Focus on unequal group acceptance.",
       "target_node": "U2",
-      "secondary_dependency_targets": ["U1"],
+      "secondary_dependency_targets": [
+        "U1"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "U2-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "U2-T-001",
+      "family": "transfer",
+      "prompt": "A recipe uses `3/4` cup of oats and `1/8` cup of seeds. How much is used altogether?",
+      "target_node": "U2",
+      "secondary_dependency_targets": [
+        "U1"
+      ],
       "difficulty_band": "transfer",
-      "response_modes_allowed": ["oral_explanation", "written_explanation"],
-      "dominant_failure_modes_if_incorrect": ["U2-FM-01", "U2-FM-03", "U2-FM-04"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "U2-FM-03"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "U2-T-002",
+      "family": "transfer",
+      "prompt": "A hiker walks `5/6` mile in the morning and `1/4` mile less in the afternoon. How much farther was the morning walk?",
+      "target_node": "U2",
+      "secondary_dependency_targets": [
+        "U1"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "U2-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
     },
     {
       "item_id": "U2-R-001",
       "family": "retention",
-      "prompt": "Tell whether the pattern shows repeated equal units and explain one reason.",
+      "prompt": "After a delay, solve `2/3 + 1/6` and explain why the rewrite keeps the quantity unchanged.",
       "target_node": "U2",
-      "secondary_dependency_targets": ["U1"],
+      "secondary_dependency_targets": [
+        "U1"
+      ],
       "difficulty_band": "retention",
-      "response_modes_allowed": ["selected_response", "oral_explanation"],
-      "dominant_failure_modes_if_incorrect": ["U2-FM-01", "U2-FM-02"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "U2-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability"
+    },
+    {
+      "item_id": "U2-P-001",
+      "family": "prerequisite_probe",
+      "prompt": "Before closing repeated unit reasoning, complete a prerequisite check on equal groups and explain how that prior understanding supports the fraction reasoning.",
+      "target_node": "U2",
+      "secondary_dependency_targets": [
+        "U1"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "U2-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "U1",
+      "suspected_knowledge_gap_if_incorrect": "equal groups",
+      "scoring_focus": "dependency_disambiguation"
     }
   ]
 }

@@ -1,0 +1,23 @@
+{
+  "node_id": "E1",
+  "examples": [
+    {
+      "learner_id": "sample-e1-blocked-01",
+      "node_id": "E1",
+      "status": "blocked",
+      "dependency_status": { "Q1": "secure" },
+      "direct_accuracy": 0.59,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["E1-FM-02"],
+      "recommended_interventions": [
+        "limit the available options and name the constraint",
+        "use tokens or concrete resources to show tradeoffs"
+      ],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Struggles to see that choosing one option limits another."
+    }
+  ]
+}

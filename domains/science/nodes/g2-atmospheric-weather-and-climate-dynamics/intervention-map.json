@@ -1,0 +1,37 @@
+{
+  "node_id": "G2",
+  "interventions": [
+    {
+      "intervention_id": "G2-INT-01",
+      "name": "G2 Intervention 1",
+      "addresses_failure_modes": [
+        "G2-FM-01"
+      ],
+      "summary": "weather-versus-climate comparison routines with explicit timescale and evidence checks"
+    },
+    {
+      "intervention_id": "G2-INT-02",
+      "name": "G2 Intervention 2",
+      "addresses_failure_modes": [
+        "G2-FM-02"
+      ],
+      "summary": "atmospheric-system diagrams connecting circulation, moisture, pressure, and energy"
+    },
+    {
+      "intervention_id": "G2-INT-03",
+      "name": "G2 Intervention 3",
+      "addresses_failure_modes": [
+        "G2-FM-03"
+      ],
+      "summary": "regional-to-global claim audits that constrain inference scope"
+    },
+    {
+      "intervention_id": "G2-INT-04",
+      "name": "G2 Intervention 4",
+      "addresses_failure_modes": [
+        "G2-FM-04"
+      ],
+      "summary": "multi-source climate evidence synthesis tasks that require uncertainty language"
+    }
+  ]
+}

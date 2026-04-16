@@ -1,0 +1,26 @@
+[
+  {
+    "learner_id": "example-rc1-emerging",
+    "node_id": "RC1",
+    "status": "emerging",
+    "dependency_status": {
+      "O3": "secure",
+      "P1": "secure"
+    },
+    "direct_accuracy": 0.76,
+    "explanation_status": "weak",
+    "transfer_status": "weak",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [
+      "RC1-FM-01",
+      "RC1-FM-02"
+    ],
+    "recommended_interventions": [
+      "tighten the task around detail so the target is more visible",
+      "keep the text or prompt surface small enough to isolate detail retrieval collapse"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Learner shows emerging control on RC1 but still needs more stable transfer and explanation."
+  }
+]

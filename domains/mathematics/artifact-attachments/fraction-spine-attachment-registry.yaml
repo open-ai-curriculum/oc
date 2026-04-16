@@ -1,0 +1,349 @@
+registry_id: mathematics-fraction-spine-attachments
+domain: mathematics
+status: draft
+version: "0.1"
+target_scope:
+  primary_node_ids: [F1, F2, F3, F4, F5]
+  notes: Initial machine-readable artifact attachment registry for the implemented fraction spine.
+artifacts:
+  - artifact_id: math-f1-lesson-pattern-01
+    artifact_type: LessonPattern
+    title: Fraction Structure Introduction Lesson Pattern
+    status: draft
+    support_tier: Core release
+    maturity_state: Modeled
+    target_entity_type: CapabilityNode
+    target_entity_id: F1
+    primary_node_id: F1
+    purpose: instruction
+    delivery_format: printable_and_digital
+    source_path: curriculum/mathematics/fractions/f1/lesson-pattern-01.md
+    grade_band: Grades 4-5
+    content_domain: number and operations with fractions
+    verification_gate_targets: [G1, G2]
+    response_modes_supported: [written, oral, visual-model]
+    accessibility_tags: [read-aloud-compatible, visual-model-supported]
+    language_support_tags: [glossary-supported, sentence-frame-supported]
+    estimated_duration_minutes: 45
+    review_status: draft
+  - artifact_id: math-f1-verification-task-01
+    artifact_type: VerificationTask
+    title: Fraction Structure Verification Task
+    status: draft
+    support_tier: Core release
+    maturity_state: Modeled
+    target_entity_type: CapabilityNode
+    target_entity_id: F1
+    primary_node_id: F1
+    purpose: verification
+    delivery_format: printable_and_digital
+    source_path: curriculum/mathematics/fractions/f1/verification-task-01.md
+    grade_band: Grades 4-5
+    content_domain: number and operations with fractions
+    verification_gate_targets: [G1, G2, G3]
+    response_modes_supported: [written, oral]
+    accessibility_tags: [extended-time-compatible]
+    language_support_tags: [glossary-supported]
+    estimated_duration_minutes: 20
+    review_status: draft
+  - artifact_id: math-f1-intervention-01
+    artifact_type: InterventionAsset
+    title: Fraction Structure Equal-Parts Intervention
+    status: draft
+    support_tier: Core release
+    maturity_state: Modeled
+    target_entity_type: CapabilityNode
+    target_entity_id: F1
+    primary_node_id: F1
+    purpose: intervention
+    delivery_format: printable_and_digital
+    source_path: curriculum/mathematics/fractions/f1/intervention-01.md
+    grade_band: Grades 4-5
+    content_domain: number and operations with fractions
+    failure_mode_targets: [F1-FM-01, F1-FM-02]
+    intervention_targets: [equal-parts-reteaching, visual-symbol-bridging]
+    response_modes_supported: [manipulative, oral, visual-model]
+    accessibility_tags: [manipulative-supported]
+    language_support_tags: [teacher-language-routine]
+    estimated_duration_minutes: 15
+    review_status: draft
+  - artifact_id: math-f1-teacher-support-01
+    artifact_type: TeacherDecisionSupport
+    title: Fraction Structure Teacher Decision Guide
+    status: draft
+    support_tier: Core release
+    maturity_state: Modeled
+    target_entity_type: CapabilityNode
+    target_entity_id: F1
+    primary_node_id: F1
+    purpose: teacher_support
+    delivery_format: printable_and_digital
+    source_path: curriculum/mathematics/fractions/f1/teacher-decision-guide-01.md
+    grade_band: Grades 4-5
+    content_domain: number and operations with fractions
+    failure_mode_targets: [F1-FM-01, F1-FM-02, F1-FM-03]
+    review_status: draft
+
+  - artifact_id: math-f2-worked-example-01
+    artifact_type: WorkedExample
+    title: Equivalent Fractions Worked Example Set
+    status: draft
+    support_tier: Core release
+    maturity_state: Modeled
+    target_entity_type: CapabilityNode
+    target_entity_id: F2
+    primary_node_id: F2
+    purpose: instruction
+    delivery_format: printable_and_digital
+    source_path: curriculum/mathematics/fractions/f2/worked-examples-01.md
+    grade_band: Grades 4-5
+    content_domain: number and operations with fractions
+    verification_gate_targets: [G1, G2]
+    response_modes_supported: [written, oral, visual-model]
+    accessibility_tags: [visual-model-supported]
+    language_support_tags: [glossary-supported]
+    estimated_duration_minutes: 20
+    review_status: draft
+  - artifact_id: math-f2-assessment-item-set-01
+    artifact_type: AssessmentBundle
+    title: Equivalent Fractions Assessment Bundle
+    status: draft
+    support_tier: Core release
+    maturity_state: Modeled
+    target_entity_type: CapabilityNode
+    target_entity_id: F2
+    primary_node_id: F2
+    purpose: assessment
+    delivery_format: printable_and_digital
+    source_path: curriculum/mathematics/fractions/f2/assessment-bundle-01.md
+    grade_band: Grades 4-5
+    content_domain: number and operations with fractions
+    verification_gate_targets: [G1, G2, G3]
+    review_status: draft
+  - artifact_id: math-f2-reteach-01
+    artifact_type: ReteachRoutine
+    title: Equivalent Fractions Scaling Reteach Routine
+    status: draft
+    support_tier: Core release
+    maturity_state: Modeled
+    target_entity_type: CapabilityNode
+    target_entity_id: F2
+    primary_node_id: F2
+    purpose: intervention
+    delivery_format: printable_and_digital
+    source_path: curriculum/mathematics/fractions/f2/reteach-routine-01.md
+    grade_band: Grades 4-5
+    content_domain: number and operations with fractions
+    failure_mode_targets: [F2-FM-01, F2-FM-03]
+    review_status: draft
+  - artifact_id: math-f2-exemplar-01
+    artifact_type: Exemplar
+    title: Equivalent Fractions Exemplar Response
+    status: draft
+    support_tier: Core release
+    maturity_state: Modeled
+    target_entity_type: CapabilityNode
+    target_entity_id: F2
+    primary_node_id: F2
+    purpose: support
+    delivery_format: printable_and_digital
+    source_path: curriculum/mathematics/fractions/f2/exemplar-response-01.md
+    grade_band: Grades 4-5
+    content_domain: number and operations with fractions
+    review_status: draft
+
+  - artifact_id: math-f3-lesson-pattern-01
+    artifact_type: LessonPattern
+    title: Compare Fractions Strategy Lesson Pattern
+    status: draft
+    support_tier: Core release
+    maturity_state: Modeled
+    target_entity_type: CapabilityNode
+    target_entity_id: F3
+    primary_node_id: F3
+    purpose: instruction
+    delivery_format: printable_and_digital
+    source_path: curriculum/mathematics/fractions/f3/lesson-pattern-01.md
+    grade_band: Grades 4-5
+    content_domain: number and operations with fractions
+    verification_gate_targets: [G1, G2, G3]
+    review_status: draft
+  - artifact_id: math-f3-verification-task-01
+    artifact_type: VerificationTask
+    title: Compare Fractions Verification Task
+    status: draft
+    support_tier: Core release
+    maturity_state: Modeled
+    target_entity_type: CapabilityNode
+    target_entity_id: F3
+    primary_node_id: F3
+    purpose: verification
+    delivery_format: printable_and_digital
+    source_path: curriculum/mathematics/fractions/f3/verification-task-01.md
+    grade_band: Grades 4-5
+    content_domain: number and operations with fractions
+    verification_gate_targets: [G1, G2, G3]
+    review_status: draft
+  - artifact_id: math-f3-error-analysis-01
+    artifact_type: ErrorAnalysisTask
+    title: Compare Fractions Error Analysis Task
+    status: draft
+    support_tier: Core release
+    maturity_state: Modeled
+    target_entity_type: CapabilityNode
+    target_entity_id: F3
+    primary_node_id: F3
+    purpose: intervention
+    delivery_format: printable_and_digital
+    source_path: curriculum/mathematics/fractions/f3/error-analysis-01.md
+    grade_band: Grades 4-5
+    content_domain: number and operations with fractions
+    failure_mode_targets: [F3-FM-01, F3-FM-02]
+    review_status: draft
+  - artifact_id: math-f3-language-support-01
+    artifact_type: LanguageSupport
+    title: Compare Fractions Language Support Routine
+    status: draft
+    support_tier: Core release
+    maturity_state: Modeled
+    target_entity_type: CapabilityNode
+    target_entity_id: F3
+    primary_node_id: F3
+    purpose: support
+    delivery_format: printable_and_digital
+    source_path: curriculum/mathematics/fractions/f3/language-support-01.md
+    grade_band: Grades 4-5
+    content_domain: number and operations with fractions
+    language_support_tags: [comparison-language, sentence-frame-supported]
+    review_status: draft
+
+  - artifact_id: math-f4-guided-practice-01
+    artifact_type: GuidedPracticeSet
+    title: Like-Denominator Fraction Operations Guided Practice
+    status: draft
+    support_tier: Core release
+    maturity_state: Modeled
+    target_entity_type: CapabilityNode
+    target_entity_id: F4
+    primary_node_id: F4
+    purpose: guided_practice
+    delivery_format: printable_and_digital
+    source_path: curriculum/mathematics/fractions/f4/guided-practice-01.md
+    grade_band: Grades 4-5
+    content_domain: number and operations with fractions
+    verification_gate_targets: [G1, G2]
+    review_status: draft
+  - artifact_id: math-f4-retention-check-01
+    artifact_type: RetentionCheck
+    title: Like-Denominator Fraction Operations Retention Check
+    status: draft
+    support_tier: Core release
+    maturity_state: Modeled
+    target_entity_type: CapabilityNode
+    target_entity_id: F4
+    primary_node_id: F4
+    purpose: retention
+    delivery_format: printable_and_digital
+    source_path: curriculum/mathematics/fractions/f4/retention-check-01.md
+    grade_band: Grades 4-5
+    content_domain: number and operations with fractions
+    verification_gate_targets: [G4]
+    review_status: draft
+  - artifact_id: math-f4-intervention-01
+    artifact_type: InterventionAsset
+    title: Like-Denominator Operations Meaning Intervention
+    status: draft
+    support_tier: Core release
+    maturity_state: Modeled
+    target_entity_type: CapabilityNode
+    target_entity_id: F4
+    primary_node_id: F4
+    purpose: intervention
+    delivery_format: printable_and_digital
+    source_path: curriculum/mathematics/fractions/f4/intervention-01.md
+    grade_band: Grades 4-5
+    content_domain: number and operations with fractions
+    failure_mode_targets: [F4-FM-01, F4-FM-03]
+    review_status: draft
+  - artifact_id: math-f4-accessibility-support-01
+    artifact_type: AccessibilitySupport
+    title: Like-Denominator Operations Accessibility Support
+    status: draft
+    support_tier: Core release
+    maturity_state: Modeled
+    target_entity_type: CapabilityNode
+    target_entity_id: F4
+    primary_node_id: F4
+    purpose: support
+    delivery_format: printable_and_digital
+    source_path: curriculum/mathematics/fractions/f4/accessibility-support-01.md
+    grade_band: Grades 4-5
+    content_domain: number and operations with fractions
+    accessibility_tags: [reduced-clutter-layout, read-aloud-compatible]
+    review_status: draft
+
+  - artifact_id: math-f5-lesson-pattern-01
+    artifact_type: LessonPattern
+    title: Unlike-Denominator Fraction Operations Lesson Pattern
+    status: draft
+    support_tier: Core release
+    maturity_state: Modeled
+    target_entity_type: CapabilityNode
+    target_entity_id: F5
+    primary_node_id: F5
+    secondary_node_ids: [F2, F3, F4]
+    purpose: instruction
+    delivery_format: printable_and_digital
+    source_path: curriculum/mathematics/fractions/f5/lesson-pattern-01.md
+    grade_band: Grades 4-5
+    content_domain: number and operations with fractions
+    verification_gate_targets: [G1, G2, G3]
+    review_status: draft
+  - artifact_id: math-f5-assessment-bundle-01
+    artifact_type: AssessmentBundle
+    title: Unlike-Denominator Fraction Operations Assessment Bundle
+    status: draft
+    support_tier: Core release
+    maturity_state: Modeled
+    target_entity_type: CapabilityNode
+    target_entity_id: F5
+    primary_node_id: F5
+    purpose: assessment
+    delivery_format: printable_and_digital
+    source_path: curriculum/mathematics/fractions/f5/assessment-bundle-01.md
+    grade_band: Grades 4-5
+    content_domain: number and operations with fractions
+    verification_gate_targets: [G1, G2, G3, G4]
+    review_status: draft
+  - artifact_id: math-f5-intervention-01
+    artifact_type: InterventionAsset
+    title: Common Denominator Intervention Asset
+    status: draft
+    support_tier: Core release
+    maturity_state: Modeled
+    target_entity_type: CapabilityNode
+    target_entity_id: F5
+    primary_node_id: F5
+    purpose: intervention
+    delivery_format: printable_and_digital
+    source_path: curriculum/mathematics/fractions/f5/intervention-01.md
+    grade_band: Grades 4-5
+    content_domain: number and operations with fractions
+    failure_mode_targets: [F5-FM-01, F5-FM-02, F5-FM-03]
+    review_status: draft
+  - artifact_id: math-f5-teacher-support-01
+    artifact_type: TeacherDecisionSupport
+    title: Unlike-Denominator Fraction Operations Teacher Decision Guide
+    status: draft
+    support_tier: Core release
+    maturity_state: Modeled
+    target_entity_type: CapabilityNode
+    target_entity_id: F5
+    primary_node_id: F5
+    purpose: teacher_support
+    delivery_format: printable_and_digital
+    source_path: curriculum/mathematics/fractions/f5/teacher-decision-guide-01.md
+    grade_band: Grades 4-5
+    content_domain: number and operations with fractions
+    failure_mode_targets: [F5-FM-01, F5-FM-02, F5-FM-03, F5-FM-04, F5-FM-05]
+    review_status: draft

@@ -1,0 +1,40 @@
+id: T1
+name: weather_sky_patterns_and_local_earth_materials
+domain: science
+support_tier: Incubation
+maturity_state: Drafted
+supported_profiles:
+- science-entry-node-package
+evidence_class: Synthetic
+dependencies:
+- Q1
+- E1
+mastery:
+  direct_accuracy_threshold: 0.9
+  explanation_required: true
+  transfer_required: true
+  retention_check_days: 21
+statuses:
+- blocked
+- emerging
+- provisional
+- secure
+- unstable
+verification_gates:
+- id: G1
+  type: direct_performance
+  pass_rule: '>= 0.90 accuracy across weather-pattern, sky observation, and local Earth-material tasks'
+- id: G2
+  type: meaning
+  pass_rule: correct explanation of which observation supports the weather sky or material claim in at least 2 of 3 prompts
+- id: G3
+  type: transfer
+  pass_rule: successful reasoning in at least one changed time, season, or local-material context
+- id: G4
+  type: retention
+  pass_rule: '>= 0.85 delayed recheck accuracy after ~21 days'
+failure_modes:
+- T1-FM-01
+- T1-FM-02
+- T1-FM-03
+- T1-FM-04

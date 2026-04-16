@@ -1,0 +1,60 @@
+[
+  {
+    "item_id": "B1-IB-01",
+    "node_id": "B1",
+    "prompt": "Why is it incomplete to describe a cell membrane only as a border when explaining nutrient uptake?",
+    "task_type": "cellular_mechanism_explanation",
+    "answer_key": "The explanation should include selective transport and the membrane's role in controlling what moves into and out of the cell.",
+    "scorable_traits": [
+      "scale coordination",
+      "mechanism",
+      "biological precision"
+    ],
+    "target_failure_modes": [
+      "B1-FM-01",
+      "B1-FM-02"
+    ],
+    "context_tags": [
+      "cells",
+      "transport"
+    ]
+  },
+  {
+    "item_id": "B1-IB-02",
+    "node_id": "B1",
+    "prompt": "A learner says ATP exists so the cell can have energy when it needs it. What correction is needed?",
+    "task_type": "metabolism_critique",
+    "answer_key": "The correction should explain ATP as part of energy-transfer processes rather than as a purpose-driven reserve that acts on its own.",
+    "scorable_traits": [
+      "energy reasoning",
+      "critique quality",
+      "mechanistic language"
+    ],
+    "target_failure_modes": [
+      "B1-FM-03"
+    ],
+    "context_tags": [
+      "metabolism",
+      "energy"
+    ]
+  },
+  {
+    "item_id": "B1-IB-03",
+    "node_id": "B1",
+    "prompt": "How can biomolecule structure help explain a cell's function?",
+    "task_type": "structure_function_reasoning",
+    "answer_key": "A strong answer links the properties of proteins, lipids, carbohydrates, or nucleic acids to specific cellular behaviors or constraints.",
+    "scorable_traits": [
+      "structure-function alignment",
+      "evidence use",
+      "cross-scale linkage"
+    ],
+    "target_failure_modes": [
+      "B1-FM-04"
+    ],
+    "context_tags": [
+      "biomolecules",
+      "cells"
+    ]
+  }
+]

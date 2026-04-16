@@ -1,0 +1,37 @@
+[
+  {
+    "learner_id": "example-o2-emerging",
+    "node_id": "O2",
+    "status": "emerging",
+    "dependency_status": {
+      "O1": "secure"
+    },
+    "direct_accuracy": 0.71,
+    "transfer_status": "weak",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["O2-FM-01", "O2-FM-04"],
+    "recommended_interventions": [
+      "changed-wording one-step direction routines",
+      "action-selection checks that reduce imitation-only success"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Success collapses when the usual classroom wording changes."
+  },
+  {
+    "learner_id": "example-o2-secure",
+    "node_id": "O2",
+    "status": "secure",
+    "dependency_status": {
+      "O1": "secure"
+    },
+    "direct_accuracy": 0.9,
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Comprehension holds across changed speakers and routine settings."
+  }
+]

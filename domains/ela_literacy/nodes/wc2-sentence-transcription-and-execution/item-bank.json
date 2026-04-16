@@ -1,0 +1,301 @@
+{
+  "node_id": "WC2",
+  "policy_version": "1.0",
+  "version": "0.3",
+  "items": [
+    {
+      "item_id": "WC2-D-001",
+      "family": "direct_execution",
+      "prompt": "Complete a bounded structured writing task that requires the learner to write complete sentences with recoverable meaning.",
+      "target_node": "WC2",
+      "secondary_dependency_targets": [
+        "WC1",
+        "FR4"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_response",
+        "oral_planning",
+        "annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "WC2-FM-01",
+        "WC2-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "WC2-D-002",
+      "family": "direct_execution",
+      "prompt": "Show sentence transcription and execution in a fresh but controlled structured writing task and make the learner separate transcription bottlenecks from planning quality.",
+      "target_node": "WC2",
+      "secondary_dependency_targets": [
+        "WC1",
+        "FR4"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_response",
+        "oral_planning",
+        "annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "WC2-FM-02",
+        "WC2-FM-03"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "WC2-D-003",
+      "family": "direct_execution",
+      "prompt": "Use a slightly less-routine structured writing task to determine whether the learner can still support the move into paragraph-level writing.",
+      "target_node": "WC2",
+      "secondary_dependency_targets": [
+        "WC1",
+        "FR4"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_response",
+        "oral_planning",
+        "annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "WC2-FM-03",
+        "WC2-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "WC2-D-004",
+      "family": "direct_execution",
+      "prompt": "Perform sentence transcription and execution under a changed format within the same boundary and verify the learner can still the learner executes written sentence production with enough control that transcription burden no longer hides sentence knowledge.",
+      "target_node": "WC2",
+      "secondary_dependency_targets": [
+        "WC1",
+        "FR4"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_response",
+        "oral_planning",
+        "annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "WC2-FM-04",
+        "WC2-FM-01"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "WC2-E-001",
+      "family": "explanation",
+      "prompt": "Explain or annotate how the learner shows that they can write complete sentences with recoverable meaning, and identify which evidence in the response demonstrates the intended meaning.",
+      "target_node": "WC2",
+      "secondary_dependency_targets": [
+        "WC1",
+        "FR4"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_explanation",
+        "oral_explanation",
+        "annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "WC2-FM-01"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "WC2-E-002",
+      "family": "explanation",
+      "prompt": "Ask for a brief justification, annotation, or teacher-scored explanation showing why the response used for sentence transcription and execution is valid rather than routine only.",
+      "target_node": "WC2",
+      "secondary_dependency_targets": [
+        "WC1",
+        "FR4"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_explanation",
+        "oral_explanation",
+        "annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "WC2-FM-02"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "WC2-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A learner attempt shows transcription bottleneck. Diagnose the earliest breakdown and state what evidence separates it from secure sentence transcription and execution.",
+      "target_node": "WC2",
+      "secondary_dependency_targets": [
+        "WC1",
+        "FR4"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "WC2-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "WC2-C-002",
+      "family": "error_diagnosis",
+      "prompt": "Review a mismatched response that reflects encoding-load collapse. Identify the dominant failure mode and explain why this is not just a minor performance slip.",
+      "target_node": "WC2",
+      "secondary_dependency_targets": [
+        "WC1",
+        "FR4"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "WC2-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "WC2-T-001",
+      "family": "transfer",
+      "prompt": "Use sentence transcription and execution in a changed source set, genre, or response structure and judge whether the learner preserves the same underlying capability.",
+      "target_node": "WC2",
+      "secondary_dependency_targets": [
+        "WC1",
+        "FR4"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_response",
+        "oral_planning",
+        "annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "WC2-FM-03"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "WC2-T-002",
+      "family": "transfer",
+      "prompt": "Shift the learner into a changed source set, genre, or response structure and require a response that still demonstrates sentence transcription and execution without relying on the original routine.",
+      "target_node": "WC2",
+      "secondary_dependency_targets": [
+        "WC1",
+        "FR4"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_response",
+        "oral_planning",
+        "annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "WC2-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "WC2-R-001",
+      "family": "retention",
+      "prompt": "After approximately 14 days, run a fresh structured writing task to confirm the learner still demonstrates sentence transcription and execution without re-teaching inside the check.",
+      "target_node": "WC2",
+      "secondary_dependency_targets": [
+        "WC1",
+        "FR4"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_response",
+        "oral_planning",
+        "annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "WC2-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability"
+    },
+    {
+      "item_id": "WC2-P-001",
+      "family": "prerequisite_probe",
+      "prompt": "Before assigning sentence transcription and execution, probe whether sentence planning and generation is secure enough to support the current task.",
+      "target_node": "WC2",
+      "secondary_dependency_targets": [
+        "WC1",
+        "FR4"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "written_explanation",
+        "oral_explanation",
+        "annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "WC2-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_disambiguation",
+      "dependency_target": "WC1",
+      "suspected_knowledge_gap_if_incorrect": "sentence planning and generation"
+    },
+    {
+      "item_id": "WC2-P-002",
+      "family": "prerequisite_probe",
+      "prompt": "Use a quick dependency check on word level decoding generalization to decide whether weak performance on sentence transcription and execution is upstream or node-specific.",
+      "target_node": "WC2",
+      "secondary_dependency_targets": [
+        "WC1",
+        "FR4"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "written_explanation",
+        "oral_explanation",
+        "annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "WC2-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_disambiguation",
+      "dependency_target": "FR4",
+      "suspected_knowledge_gap_if_incorrect": "word level decoding generalization"
+    }
+  ]
+}

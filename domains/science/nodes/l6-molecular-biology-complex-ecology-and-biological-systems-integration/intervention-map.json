@@ -1,0 +1,29 @@
+{
+  "node_id": "L6",
+  "interventions": [
+    {
+      "failure_mode": "L6-FM-01",
+      "intervention_id": "L6-INT-01",
+      "name": "Cross-Scale Biology Linking",
+      "delivery": "explanation scaffold"
+    },
+    {
+      "failure_mode": "L6-FM-02",
+      "intervention_id": "L6-INT-02",
+      "name": "Complex Ecology Expansion",
+      "delivery": "system mapping"
+    },
+    {
+      "failure_mode": "L6-FM-03",
+      "intervention_id": "L6-INT-03",
+      "name": "Evidence Balance Matrix",
+      "delivery": "comparison routine"
+    },
+    {
+      "failure_mode": "L6-FM-04",
+      "intervention_id": "L6-INT-04",
+      "name": "Supported Integration Scope Check",
+      "delivery": "claim audit"
+    }
+  ]
+}

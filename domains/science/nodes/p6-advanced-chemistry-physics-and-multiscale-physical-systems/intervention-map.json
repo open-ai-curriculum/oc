@@ -1,0 +1,29 @@
+{
+  "node_id": "P6",
+  "interventions": [
+    {
+      "failure_mode": "P6-FM-01",
+      "intervention_id": "P6-INT-01",
+      "name": "Macro To Micro Link Builder",
+      "delivery": "explanation scaffold"
+    },
+    {
+      "failure_mode": "P6-FM-02",
+      "intervention_id": "P6-INT-02",
+      "name": "Chemistry Physics Model Role Table",
+      "delivery": "comparison routine"
+    },
+    {
+      "failure_mode": "P6-FM-03",
+      "intervention_id": "P6-INT-03",
+      "name": "Exact Quantitative Critique Stem",
+      "delivery": "critique scaffold"
+    },
+    {
+      "failure_mode": "P6-FM-04",
+      "intervention_id": "P6-INT-04",
+      "name": "Multiscale Evidence Boundary Audit",
+      "delivery": "scope review"
+    }
+  ]
+}

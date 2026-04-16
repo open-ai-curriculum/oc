@@ -1,37 +1,140 @@
 {
   "node_id": "K7",
+  "policy_version": "1.0",
   "items": [
     {
-      "item_id": "K7-A1",
-      "item_family": "direct",
-      "prompt": "matches quadratic relationships across table, graph, expression, and area-model forms and solves simple factored cases",
-      "expected_evidence": "match quadratic expressions, area models, tables, and parabolic graphs representing the same relationship",
+      "item_id": "K7-DIR-001",
+      "node_id": "K7",
+      "item_family": "direct_execution",
+      "prompt": "Solve `x + 7 = 19` and show how each step preserves equality.",
+      "expected_evidence": "recognize non-constant first differences and connect them to quadratic growth in bounded tables",
       "dominant_failure_mode": "representation_structure_disconnect",
-      "scoring_guidance": "Meets when the learner preserves the same quadratic structure across bounded representations and simple solve tasks."
+      "scoring_guidance": "Meets when the learner demonstrates recognize non-constant first differences and connect them to quadratic growth in bounded tables with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "K7-B1",
-      "item_family": "explanation",
-      "prompt": "explains how vertex, symmetry, and zeros appear in an introductory quadratic relationship",
-      "expected_evidence": "explain introductory vertex, symmetry, and zero meaning in graphical or contextual form",
+      "item_id": "K7-DIR-002",
+      "node_id": "K7",
+      "item_family": "direct_execution",
+      "prompt": "Solve `4x = 28`, then check the solution by substitution.",
+      "expected_evidence": "match quadratic expressions, area models, tables, and parabolic graphs representing the same relationship",
       "dominant_failure_mode": "feature_meaning_collapse",
-      "scoring_guidance": "Meets when the learner explains quadratic features as properties of one relationship rather than disconnected labels."
+      "scoring_guidance": "Meets when the learner demonstrates match quadratic expressions, area models, tables, and parabolic graphs representing the same relationship with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "K7-C1",
-      "item_family": "error_diagnosis",
-      "prompt": "Diagnose a peer error aligned to zero_solution_confusion.",
-      "expected_evidence": "solve simple quadratics in factored or area-linked forms and verify candidate solutions",
+      "item_id": "K7-DIR-003",
+      "node_id": "K7",
+      "item_family": "direct_execution",
+      "prompt": "Match the equation `n - 5 = 12` to a balance or missing-value situation and solve it.",
+      "expected_evidence": "explain introductory vertex, symmetry, and zero meaning in graphical or contextual form",
       "dominant_failure_mode": "zero_solution_confusion",
-      "scoring_guidance": "Meets when the learner identifies how the peer confused zeros, factors, or verified solutions."
+      "scoring_guidance": "Meets when the learner demonstrates explain introductory vertex, symmetry, and zero meaning in graphical or contextual form with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
     },
     {
-      "item_id": "K7-D1",
+      "item_id": "K7-EXP-001",
+      "node_id": "K7",
+      "item_family": "explanation",
+      "prompt": "Explain why subtracting the same value from both sides of an equation preserves the solution set.",
+      "expected_evidence": "recognize non-constant first differences and connect them to quadratic growth in bounded tables",
+      "dominant_failure_mode": "feature_meaning_collapse",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to recognize non-constant first differences and connect them to quadratic growth in bounded tables.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "K7-EXP-002",
+      "node_id": "K7",
+      "item_family": "explanation",
+      "prompt": "Explain what the variable represents and why inverse operations help isolate it.",
+      "expected_evidence": "match quadratic expressions, area models, tables, and parabolic graphs representing the same relationship",
+      "dominant_failure_mode": "zero_solution_confusion",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to match quadratic expressions, area models, tables, and parabolic graphs representing the same relationship.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "K7-ERR-001",
+      "node_id": "K7",
+      "item_family": "error_diagnosis",
+      "prompt": "A student solves `x + 5 = 13` by writing `x = 13 + 5`. Diagnose the first structural mistake. Focus on representation structure disconnect.",
+      "expected_evidence": "recognize non-constant first differences and connect them to quadratic growth in bounded tables",
+      "dominant_failure_mode": "representation_structure_disconnect",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward recognize non-constant first differences and connect them to quadratic growth in bounded tables.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "K7-ERR-002",
+      "node_id": "K7",
+      "item_family": "error_diagnosis",
+      "prompt": "A student solves `3x = 18` by dividing only the `x`. Explain what went wrong. Focus on feature meaning collapse.",
+      "expected_evidence": "match quadratic expressions, area models, tables, and parabolic graphs representing the same relationship",
+      "dominant_failure_mode": "feature_meaning_collapse",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward match quadratic expressions, area models, tables, and parabolic graphs representing the same relationship.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "K7-TRA-001",
+      "node_id": "K7",
       "item_family": "transfer",
-      "prompt": "recognizes quadratic structure in a less-familiar contextual, tabular, or geometric setting",
+      "prompt": "A gym charges a $12 signup fee plus $5 per class. Write and solve an equation for the number of classes if the total was $32.",
+      "expected_evidence": "recognize non-constant first differences and connect them to quadratic growth in bounded tables",
+      "dominant_failure_mode": "zero_solution_confusion",
+      "scoring_guidance": "Meets when the learner preserves recognize non-constant first differences and connect them to quadratic growth in bounded tables in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "K7-TRA-002",
+      "node_id": "K7",
+      "item_family": "transfer",
+      "prompt": "A balance model has three equal bags and 6 loose counters on one side and 24 counters on the other. Write and solve the equation.",
+      "expected_evidence": "match quadratic expressions, area models, tables, and parabolic graphs representing the same relationship",
+      "dominant_failure_mode": "linear_overgeneralization",
+      "scoring_guidance": "Meets when the learner preserves match quadratic expressions, area models, tables, and parabolic graphs representing the same relationship in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "K7-RET-001",
+      "node_id": "K7",
+      "item_family": "retention",
+      "prompt": "Two weeks later, solve `m/3 = 8` and explain how you know the result is reasonable.",
       "expected_evidence": "recognize non-constant first differences and connect them to quadratic growth in bounded tables",
       "dominant_failure_mode": "linear_overgeneralization",
-      "scoring_guidance": "Meets when the learner distinguishes quadratic structure from linear or unrelated patterns in a varied setting."
+      "scoring_guidance": "Meets when the learner still demonstrates recognize non-constant first differences and connect them to quadratic growth in bounded tables on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "K7-PRE-001",
+      "node_id": "K7",
+      "item_family": "prerequisite_probe",
+      "prompt": "Before solving quadratic foundations, complete a prerequisite check on distributive reasoning and combining like terms and explain how it supports the current equation work.",
+      "expected_evidence": "shows whether distributive reasoning and combining like terms is secure enough to support quadratic foundations",
+      "dominant_failure_mode": "feature_meaning_collapse",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in distributive reasoning and combining like terms from a current-node issue in quadratic foundations.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "A2",
+      "suspected_knowledge_gap_if_incorrect": "distributive reasoning and combining like terms"
+    },
+    {
+      "item_id": "K7-PRE-002",
+      "node_id": "K7",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a quick function as input output rule check to explain whether the learner is blocked by prerequisite structure or by quadratic foundations itself.",
+      "expected_evidence": "shows whether function as input output rule is secure enough to support quadratic foundations",
+      "dominant_failure_mode": "zero_solution_confusion",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in function as input output rule from a current-node issue in quadratic foundations.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "K2",
+      "suspected_knowledge_gap_if_incorrect": "function as input output rule"
     }
   ]
 }

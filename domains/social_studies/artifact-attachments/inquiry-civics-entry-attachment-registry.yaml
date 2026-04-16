@@ -1,0 +1,50 @@
+registry_id: social_studies_inquiry_civics_entry_attachments
+domain: social_studies
+status: draft
+version: 0.1
+target_scope:
+  primary_node_ids:
+    - Q1
+    - H1
+    - C1
+  notes: entry slice connecting inquiry, community memory, and civic foundations
+artifacts:
+  - artifact_id: ss-q1-observation-protocol-01
+    artifact_type: InquiryTask
+    title: Observe, notice, and question protocol
+    status: draft
+    support_tier: Incubation
+    maturity_state: Drafted
+    target_entity_type: CapabilityNode
+    target_entity_id: Q1
+    primary_node_id: Q1
+    purpose: establish observable evidence for early social studies inquiry entry
+    delivery_format: protocol
+    source_path: domains/social_studies/artifact-attachments/inquiry-civics-entry-attachment-registry.yaml
+    review_status: draft
+  - artifact_id: ss-h1-community-memory-example-01
+    artifact_type: Exemplar
+    title: Community memory artifact comparison exemplar
+    status: draft
+    support_tier: Incubation
+    maturity_state: Drafted
+    target_entity_type: CapabilityNode
+    target_entity_id: H1
+    primary_node_id: H1
+    purpose: model chronology identity and community memory reasoning
+    delivery_format: exemplar
+    source_path: domains/social_studies/artifact-attachments/inquiry-civics-entry-attachment-registry.yaml
+    review_status: draft
+  - artifact_id: ss-c1-fairness-discussion-protocol-01
+    artifact_type: CivicDeliberationProtocol
+    title: Rules, roles, and fairness discussion routine
+    status: draft
+    support_tier: Incubation
+    maturity_state: Drafted
+    target_entity_type: CapabilityNode
+    target_entity_id: C1
+    primary_node_id: C1
+    purpose: support bounded civic discussion and fairness reasoning
+    delivery_format: protocol
+    source_path: domains/social_studies/artifact-attachments/inquiry-civics-entry-attachment-registry.yaml
+    review_status: draft

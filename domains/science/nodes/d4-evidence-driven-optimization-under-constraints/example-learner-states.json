@@ -1,0 +1,40 @@
+[
+  {
+    "learner_id": "example-d4-secure",
+    "node_id": "D4",
+    "status": "secure",
+    "dependency_status": {
+      "D3": "secure",
+      "E4": "secure",
+      "I5": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Optimizes designs with explicit criteria, constraints, uncertainty, and tradeoff control."
+  },
+  {
+    "learner_id": "example-d4-emerging",
+    "node_id": "D4",
+    "status": "emerging",
+    "dependency_status": {
+      "D3": "secure",
+      "E4": "secure",
+      "I5": "secure"
+    },
+    "direct_accuracy": 0.71,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["D4-FM-01", "D4-FM-03"],
+    "recommended_interventions": ["D4-INT-01", "D4-INT-03"],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Ranks designs by one metric and underdescribes tradeoffs."
+  }
+]

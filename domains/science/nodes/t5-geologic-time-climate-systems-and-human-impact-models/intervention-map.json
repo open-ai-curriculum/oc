@@ -1,0 +1,29 @@
+{
+  "node_id": "T5",
+  "interventions": [
+    {
+      "failure_mode": "T5-FM-01",
+      "intervention_id": "T5-INT-01",
+      "name": "Timescale Ladder Check",
+      "delivery": "claim calibration routine"
+    },
+    {
+      "failure_mode": "T5-FM-02",
+      "intervention_id": "T5-INT-02",
+      "name": "Climate Component Interaction Map",
+      "delivery": "system diagram"
+    },
+    {
+      "failure_mode": "T5-FM-03",
+      "intervention_id": "T5-INT-03",
+      "name": "Bounded Human Impact Review",
+      "delivery": "evidence reflection"
+    },
+    {
+      "failure_mode": "T5-FM-04",
+      "intervention_id": "T5-INT-04",
+      "name": "Earth Evidence To Model Alignment",
+      "delivery": "review scaffold"
+    }
+  ]
+}

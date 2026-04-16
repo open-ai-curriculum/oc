@@ -1,37 +1,140 @@
 {
   "node_id": "H2",
+  "policy_version": "1.0",
   "items": [
     {
-      "item_id": "H2-A1",
-      "item_family": "direct",
-      "prompt": "determines congruence or similarity and solves bounded figure problems using rigid motions, dilations, and proportional reasoning",
-      "expected_evidence": "solve bounded triangle or polygon similarity/congruence tasks using structural reasoning",
+      "item_id": "H2-DIR-001",
+      "node_id": "H2",
+      "item_family": "direct_execution",
+      "prompt": "Decide whether the table `(2, 6), (4, 12), (7, 21)` is proportional and justify the constant of proportionality.",
+      "expected_evidence": "justify congruence through rigid-motion reasoning and similarity through dilation or proportional correspondence",
       "dominant_failure_mode": "correspondence_ratio_drift",
-      "scoring_guidance": "Meets when the learner uses valid transformation or scale-structure reasoning rather than appearance alone."
+      "scoring_guidance": "Meets when the learner demonstrates justify congruence through rigid-motion reasoning and similarity through dilation or proportional correspondence with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "H2-B1",
-      "item_family": "explanation",
-      "prompt": "explains how rigid motions establish congruence and how dilations establish similarity through scale factor and preserved angle structure",
+      "item_id": "H2-DIR-002",
+      "node_id": "H2",
+      "item_family": "direct_execution",
+      "prompt": "Find the unit rate for 18 miles in 3 hours and explain what it means.",
       "expected_evidence": "explain how scale factor changes side lengths while preserving angle structure",
       "dominant_failure_mode": "scale_factor_meaning_gap",
-      "scoring_guidance": "Meets when the learner explains congruence and similarity as structural relationships rather than labels."
+      "scoring_guidance": "Meets when the learner demonstrates explain how scale factor changes side lengths while preserving angle structure with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "H2-C1",
+      "item_id": "H2-DIR-003",
+      "node_id": "H2",
+      "item_family": "direct_execution",
+      "prompt": "Find 15% of 80 and explain how the percent is acting as a rate per hundred.",
+      "expected_evidence": "identify corresponding features consistently across congruent and similar figures",
+      "dominant_failure_mode": "congruence_similarity_conflation",
+      "scoring_guidance": "Meets when the learner demonstrates identify corresponding features consistently across congruent and similar figures with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
+    },
+    {
+      "item_id": "H2-EXP-001",
+      "node_id": "H2",
+      "item_family": "explanation",
+      "prompt": "Explain why equal differences alone do not prove a relationship is proportional.",
+      "expected_evidence": "justify congruence through rigid-motion reasoning and similarity through dilation or proportional correspondence",
+      "dominant_failure_mode": "scale_factor_meaning_gap",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to justify congruence through rigid-motion reasoning and similarity through dilation or proportional correspondence.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "H2-EXP-002",
+      "node_id": "H2",
+      "item_family": "explanation",
+      "prompt": "Explain how a unit rate and a constant of proportionality describe the same multiplicative structure.",
+      "expected_evidence": "explain how scale factor changes side lengths while preserving angle structure",
+      "dominant_failure_mode": "congruence_similarity_conflation",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to explain how scale factor changes side lengths while preserving angle structure.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "H2-ERR-001",
+      "node_id": "H2",
       "item_family": "error_diagnosis",
-      "prompt": "Diagnose a peer error aligned to congruence_similarity_conflation.",
+      "prompt": "A student says a table is proportional because it increases by 3 each row. Diagnose the additive-pattern error. Focus on correspondence ratio drift.",
+      "expected_evidence": "justify congruence through rigid-motion reasoning and similarity through dilation or proportional correspondence",
+      "dominant_failure_mode": "correspondence_ratio_drift",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward justify congruence through rigid-motion reasoning and similarity through dilation or proportional correspondence.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "H2-ERR-002",
+      "node_id": "H2",
+      "item_family": "error_diagnosis",
+      "prompt": "A student scales one quantity by 2 but the other by 3 and still claims proportionality. Identify the breakdown. Focus on scale factor meaning gap.",
+      "expected_evidence": "explain how scale factor changes side lengths while preserving angle structure",
+      "dominant_failure_mode": "scale_factor_meaning_gap",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward explain how scale factor changes side lengths while preserving angle structure.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "H2-TRA-001",
+      "node_id": "H2",
+      "item_family": "transfer",
+      "prompt": "A map uses 1 cm for every 5 km. How far does 7.2 cm represent, and why is the relationship proportional?",
       "expected_evidence": "justify congruence through rigid-motion reasoning and similarity through dilation or proportional correspondence",
       "dominant_failure_mode": "congruence_similarity_conflation",
-      "scoring_guidance": "Meets when the learner identifies how the peer confused equal-size and same-shape relationships."
+      "scoring_guidance": "Meets when the learner preserves justify congruence through rigid-motion reasoning and similarity through dilation or proportional correspondence in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
     },
     {
-      "item_id": "H2-D1",
+      "item_id": "H2-TRA-002",
+      "node_id": "H2",
       "item_family": "transfer",
-      "prompt": "applies congruence or similarity reasoning in a less-familiar geometric, coordinate, or contextual setting",
-      "expected_evidence": "identify corresponding features consistently across congruent and similar figures",
+      "prompt": "A recipe uses 3 cups of flour for 2 batches. Write an equation relating flour to batches and find the amount for 5 batches.",
+      "expected_evidence": "explain how scale factor changes side lengths while preserving angle structure",
       "dominant_failure_mode": "visual_match_overreliance",
-      "scoring_guidance": "Meets when the learner preserves correct correspondence and scale logic in a varied setting."
+      "scoring_guidance": "Meets when the learner preserves explain how scale factor changes side lengths while preserving angle structure in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "H2-RET-001",
+      "node_id": "H2",
+      "item_family": "retention",
+      "prompt": "On a delayed check, determine whether 4 notebooks for $6 and 10 notebooks for $15 are proportional and justify your reasoning.",
+      "expected_evidence": "justify congruence through rigid-motion reasoning and similarity through dilation or proportional correspondence",
+      "dominant_failure_mode": "visual_match_overreliance",
+      "scoring_guidance": "Meets when the learner still demonstrates justify congruence through rigid-motion reasoning and similarity through dilation or proportional correspondence on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "H2-PRE-001",
+      "node_id": "H2",
+      "item_family": "prerequisite_probe",
+      "prompt": "Probe transformations and coordinate symmetry before diagnosing congruence and similarity via transformations, and state whether the learner is missing multiplicative structure or only the current proportional application.",
+      "expected_evidence": "shows whether transformations and coordinate symmetry is secure enough to support congruence and similarity via transformations",
+      "dominant_failure_mode": "scale_factor_meaning_gap",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in transformations and coordinate symmetry from a current-node issue in congruence and similarity via transformations.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "H1",
+      "suspected_knowledge_gap_if_incorrect": "transformations and coordinate symmetry"
+    },
+    {
+      "item_id": "H2-PRE-002",
+      "node_id": "H2",
+      "item_family": "prerequisite_probe",
+      "prompt": "Probe proportional relationships before diagnosing congruence and similarity via transformations, and state whether the learner is missing multiplicative structure or only the current proportional application.",
+      "expected_evidence": "shows whether proportional relationships is secure enough to support congruence and similarity via transformations",
+      "dominant_failure_mode": "congruence_similarity_conflation",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in proportional relationships from a current-node issue in congruence and similarity via transformations.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "Q3",
+      "suspected_knowledge_gap_if_incorrect": "proportional relationships"
     }
   ]
 }

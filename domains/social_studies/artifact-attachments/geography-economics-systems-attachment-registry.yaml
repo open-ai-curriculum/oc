@@ -1,0 +1,64 @@
+registry_id: social_studies_geography_economics_systems_attachments
+domain: social_studies
+status: draft
+version: 0.1
+target_scope:
+  primary_node_ids:
+    - G3
+    - G4
+    - E3
+    - E4
+  notes: middle-grades systems slice connecting spatial patterns, resource movement, incentives, and public resource decisions
+artifacts:
+  - artifact_id: ss-g3-movement-resource-map-lab-01
+    artifact_type: InquiryTask
+    title: Movement and resource pattern map lab
+    status: draft
+    support_tier: Incubation
+    maturity_state: Drafted
+    target_entity_type: CapabilityNode
+    target_entity_id: G3
+    primary_node_id: G3
+    purpose: establish evidence-based reasoning about movement, resources, and spatial patterns
+    delivery_format: protocol
+    source_path: domains/social_studies/artifact-attachments/geography-economics-systems-attachment-registry.yaml
+    review_status: draft
+  - artifact_id: ss-g4-scale-data-comparison-routine-01
+    artifact_type: GuidedPractice
+    title: Scale and geographic data comparison routine
+    status: draft
+    support_tier: Incubation
+    maturity_state: Drafted
+    target_entity_type: CapabilityNode
+    target_entity_id: G4
+    primary_node_id: G4
+    purpose: support map-data interpretation and reasoning across scale changes
+    delivery_format: routine
+    source_path: domains/social_studies/artifact-attachments/geography-economics-systems-attachment-registry.yaml
+    review_status: draft
+  - artifact_id: ss-e3-incentives-tradeoff-simulation-01
+    artifact_type: SimulationTask
+    title: Incentives and tradeoff market simulation
+    status: draft
+    support_tier: Incubation
+    maturity_state: Drafted
+    target_entity_type: CapabilityNode
+    target_entity_id: E3
+    primary_node_id: E3
+    purpose: model incentives, tradeoffs, and exchange decisions under constrained conditions
+    delivery_format: simulation
+    source_path: domains/social_studies/artifact-attachments/geography-economics-systems-attachment-registry.yaml
+    review_status: draft
+  - artifact_id: ss-e4-public-resource-decision-brief-01
+    artifact_type: TeacherDecisionSupport
+    title: Public resource decision brief
+    status: draft
+    support_tier: Incubation
+    maturity_state: Drafted
+    target_entity_type: CapabilityNode
+    target_entity_id: E4
+    primary_node_id: E4
+    purpose: support classroom facilitation of market, labor, and public resource decision reasoning
+    delivery_format: printable_and_digital
+    source_path: domains/social_studies/artifact-attachments/geography-economics-systems-attachment-registry.yaml
+    review_status: draft

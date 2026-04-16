@@ -1,37 +1,140 @@
 {
   "node_id": "AP3",
+  "policy_version": "1.0",
   "items": [
     {
-      "item_id": "AP3-A1",
-      "item_family": "direct",
-      "prompt": "interprets limits and derivative-based behavior across tables, graphs, formulas, and bounded motion or optimization contexts",
+      "item_id": "AP3-DIR-001",
+      "node_id": "AP3",
+      "item_family": "direct_execution",
+      "prompt": "Plot the point `(3, -2)` and explain what each coordinate controls.",
       "expected_evidence": "interpret approaching behavior consistently across tables, graphs, formulas, and verbal descriptions",
       "dominant_failure_mode": "limit_process_static_view",
-      "scoring_guidance": "Meets when the learner treats limits and derivative-based evidence as coherent behavior reasoning rather than as disconnected procedural steps."
+      "scoring_guidance": "Meets when the learner demonstrates interpret approaching behavior consistently across tables, graphs, formulas, and verbal descriptions with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "AP3-B1",
-      "item_family": "explanation",
-      "prompt": "explains how derivative meaning links slope, rate of change, motion, and local linear behavior in introductory calculus contexts",
-      "expected_evidence": "explain derivative meaning through slope, rate, motion, and local linearization rather than only through symbolic rules",
+      "item_id": "AP3-DIR-002",
+      "node_id": "AP3",
+      "item_family": "direct_execution",
+      "prompt": "Find the slope between `(1, 4)` and `(5, 12)` and interpret it as a rate of change.",
+      "expected_evidence": "distinguish function value, limit value, and continuity status in bounded cases",
       "dominant_failure_mode": "derivative_meaning_fragmentation",
-      "scoring_guidance": "Meets when the learner explains derivative meaning as one coherent local-change idea across multiple representations."
+      "scoring_guidance": "Meets when the learner demonstrates distinguish function value, limit value, and continuity status in bounded cases with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "AP3-C1",
-      "item_family": "error_diagnosis",
-      "prompt": "Diagnose a peer error aligned to symbolic_graphical_motion_disconnect.",
-      "expected_evidence": "connect derivative sign, magnitude, and change to increasing, decreasing, and extremum behavior",
+      "item_id": "AP3-DIR-003",
+      "node_id": "AP3",
+      "item_family": "direct_execution",
+      "prompt": "Determine whether the table represents a function and justify your decision.",
+      "expected_evidence": "classify bounded discontinuity and asymptotic behavior using correct limit language",
       "dominant_failure_mode": "symbolic_graphical_motion_disconnect",
-      "scoring_guidance": "Meets when the learner identifies where symbolic derivative work stopped matching graph or motion meaning."
+      "scoring_guidance": "Meets when the learner demonstrates classify bounded discontinuity and asymptotic behavior using correct limit language with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
     },
     {
-      "item_id": "AP3-D1",
+      "item_id": "AP3-EXP-001",
+      "node_id": "AP3",
+      "item_family": "explanation",
+      "prompt": "Explain how a table, graph, and equation can represent the same linear relationship.",
+      "expected_evidence": "interpret approaching behavior consistently across tables, graphs, formulas, and verbal descriptions",
+      "dominant_failure_mode": "derivative_meaning_fragmentation",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to interpret approaching behavior consistently across tables, graphs, formulas, and verbal descriptions.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "AP3-EXP-002",
+      "node_id": "AP3",
+      "item_family": "explanation",
+      "prompt": "Explain what slope means in both graphical and contextual terms.",
+      "expected_evidence": "distinguish function value, limit value, and continuity status in bounded cases",
+      "dominant_failure_mode": "symbolic_graphical_motion_disconnect",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to distinguish function value, limit value, and continuity status in bounded cases.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "AP3-ERR-001",
+      "node_id": "AP3",
+      "item_family": "error_diagnosis",
+      "prompt": "A student reverses the coordinates and plots `(3, -2)` as `(-2, 3)`. Diagnose the mapping error. Focus on limit process static view.",
+      "expected_evidence": "interpret approaching behavior consistently across tables, graphs, formulas, and verbal descriptions",
+      "dominant_failure_mode": "limit_process_static_view",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward interpret approaching behavior consistently across tables, graphs, formulas, and verbal descriptions.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "AP3-ERR-002",
+      "node_id": "AP3",
+      "item_family": "error_diagnosis",
+      "prompt": "A student says every straight-looking graph is proportional. Identify the misclassification. Focus on derivative meaning fragmentation.",
+      "expected_evidence": "distinguish function value, limit value, and continuity status in bounded cases",
+      "dominant_failure_mode": "derivative_meaning_fragmentation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward distinguish function value, limit value, and continuity status in bounded cases.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "AP3-TRA-001",
+      "node_id": "AP3",
       "item_family": "transfer",
-      "prompt": "interprets a less-familiar introductory calculus context and identifies which local or rate-based evidence governs the claim",
-      "expected_evidence": "justify calculus claims in bounded modeling or analysis tasks using the correct local or rate-based evidence",
+      "prompt": "A ride-share charges a fixed fee plus a cost per mile. Write a rule, make a table, and interpret the slope and intercept.",
+      "expected_evidence": "interpret approaching behavior consistently across tables, graphs, formulas, and verbal descriptions",
+      "dominant_failure_mode": "symbolic_graphical_motion_disconnect",
+      "scoring_guidance": "Meets when the learner preserves interpret approaching behavior consistently across tables, graphs, formulas, and verbal descriptions in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "AP3-TRA-002",
+      "node_id": "AP3",
+      "item_family": "transfer",
+      "prompt": "Given a graph and a verbal description, decide whether they could represent the same relationship and justify the match.",
+      "expected_evidence": "distinguish function value, limit value, and continuity status in bounded cases",
       "dominant_failure_mode": "optimization_local_global_confusion",
-      "scoring_guidance": "Meets when the learner preserves coherent limit and derivative reasoning in a varied context and names the evidence that actually controls the conclusion."
+      "scoring_guidance": "Meets when the learner preserves distinguish function value, limit value, and continuity status in bounded cases in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "AP3-RET-001",
+      "node_id": "AP3",
+      "item_family": "retention",
+      "prompt": "On a delayed check, move between a rule, a table, and a graph for a linear relationship and explain the connection.",
+      "expected_evidence": "interpret approaching behavior consistently across tables, graphs, formulas, and verbal descriptions",
+      "dominant_failure_mode": "optimization_local_global_confusion",
+      "scoring_guidance": "Meets when the learner still demonstrates interpret approaching behavior consistently across tables, graphs, formulas, and verbal descriptions on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "AP3-PRE-001",
+      "node_id": "AP3",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a prerequisite probe on precalculus function synthesis and limits foundations to see whether the learner is blocked by graph/coordinate foundations or by limits and continuity itself.",
+      "expected_evidence": "shows whether precalculus function synthesis and limits foundations is secure enough to support limits and continuity",
+      "dominant_failure_mode": "derivative_meaning_fragmentation",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in precalculus function synthesis and limits foundations from a current-node issue in limits and continuity.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "B5",
+      "suspected_knowledge_gap_if_incorrect": "precalculus function synthesis and limits foundations"
+    },
+    {
+      "item_id": "AP3-PRE-002",
+      "node_id": "AP3",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a prerequisite probe on function as input output rule to see whether the learner is blocked by graph/coordinate foundations or by limits and continuity itself.",
+      "expected_evidence": "shows whether function as input output rule is secure enough to support limits and continuity",
+      "dominant_failure_mode": "symbolic_graphical_motion_disconnect",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in function as input output rule from a current-node issue in limits and continuity.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "K2",
+      "suspected_knowledge_gap_if_incorrect": "function as input output rule"
     }
   ]
 }

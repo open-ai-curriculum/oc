@@ -1,0 +1,26 @@
+{
+  "node_id": "AC4",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "AC4-FM-01": [
+      "tighten the task around interpretation-without-comparison so the target is more visible",
+      "keep the response surface bounded enough to isolate the real bottleneck",
+      "rerun a changed-surface check after one short intervention cycle"
+    ],
+    "AC4-FM-02": [
+      "tighten the task around comparison-without-claim so the target is more visible",
+      "keep the response surface bounded enough to isolate the real bottleneck",
+      "rerun a changed-surface check after one short intervention cycle"
+    ],
+    "AC4-FM-03": [
+      "tighten the task around text-groundedness drift so the target is more visible",
+      "keep the response surface bounded enough to isolate the real bottleneck",
+      "rerun a changed-surface check after one short intervention cycle"
+    ],
+    "AC4-FM-04": [
+      "tighten the task around prompt-transfer fragility so the target is more visible",
+      "keep the response surface bounded enough to isolate the real bottleneck",
+      "rerun a changed-surface check after one short intervention cycle"
+    ]
+  }
+}

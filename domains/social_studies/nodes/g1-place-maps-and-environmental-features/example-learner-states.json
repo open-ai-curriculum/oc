@@ -1,0 +1,23 @@
+{
+  "node_id": "G1",
+  "examples": [
+    {
+      "learner_id": "sample-g1-blocked-01",
+      "node_id": "G1",
+      "status": "blocked",
+      "dependency_status": { "Q1": "secure" },
+      "direct_accuracy": 0.56,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["G1-FM-01"],
+      "recommended_interventions": [
+        "connect the map or model directly to the real place",
+        "trace one feature from representation to reality and back"
+      ],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Treats the map as isolated marks rather than a place representation."
+    }
+  ]
+}

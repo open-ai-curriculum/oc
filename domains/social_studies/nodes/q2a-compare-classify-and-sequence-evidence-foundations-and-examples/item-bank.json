@@ -1,0 +1,18 @@
+{
+  "node_id": "Q2A",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "Q2A-G1-01",
+      "node_id": "Q2A",
+      "gate": "G1",
+      "prompt": "Complete a bounded foundations and examples task for compare classify and sequence evidence and explain your reasoning.",
+      "response_mode": "oral_or_written_or_annotated",
+      "scoring_rule": "Completes the task accurately and gives a usable explanation of the structure or reasoning.",
+      "failure_mode_targets": [
+        "Q2A-FM-01",
+        "Q2A-FM-02"
+      ]
+    }
+  ]
+}

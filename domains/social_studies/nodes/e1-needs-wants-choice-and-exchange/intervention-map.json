@@ -1,0 +1,26 @@
+{
+  "node_id": "E1",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "E1-FM-01": [
+      "sort examples into need and want with explicit reasons",
+      "compare the same item across different contexts",
+      "ask what is necessary versus preferred"
+    ],
+    "E1-FM-02": [
+      "limit the available options and name the constraint",
+      "use tokens or concrete resources to show tradeoffs",
+      "ask what cannot also be chosen and why"
+    ],
+    "E1-FM-03": [
+      "model simple exchanges with objects or role-play",
+      "identify what each person gives and gets",
+      "compare exchange with one-way receiving"
+    ],
+    "E1-FM-04": [
+      "use familiar and culturally legible scenarios",
+      "preteach key vocabulary such as choice exchange need and want",
+      "allow oral or acted response before written explanation"
+    ]
+  }
+}

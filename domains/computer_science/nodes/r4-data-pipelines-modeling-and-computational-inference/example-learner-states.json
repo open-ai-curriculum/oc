@@ -1,0 +1,44 @@
+[
+  {
+    "learner_id": "example-r4-secure",
+    "node_id": "R4",
+    "status": "secure",
+    "dependency_status": {
+      "R3": "secure",
+      "P5": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Explains data pipelines and computational inference with stable stage-linking and assumption-aware interpretation."
+  },
+  {
+    "learner_id": "example-r4-emerging",
+    "node_id": "R4",
+    "status": "emerging",
+    "dependency_status": {
+      "R3": "secure",
+      "P5": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [
+      "R4-FM-01",
+      "R4-FM-02"
+    ],
+    "recommended_interventions": [
+      "R4-INT-01",
+      "R4-INT-02"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Can read outputs from a data workflow but still treats pipeline steps and model results too opaquely."
+  }
+]

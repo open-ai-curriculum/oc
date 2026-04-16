@@ -1,0 +1,32 @@
+[
+  {
+    "item_id": "M5-IB-01",
+    "node_id": "M5",
+    "prompt": "A learner says a magnetic field is just a hidden liquid around a magnet. What needs correction?",
+    "task_type": "field_model_explanation",
+    "answer_key": "The explanation should treat the field as a model for interaction effects, not as evidence that a liquid literally surrounds the magnet.",
+    "scorable_traits": ["model boundary", "field reasoning", "analogy control"],
+    "target_failure_modes": ["M5-FM-01"],
+    "context_tags": ["fields", "magnetism"]
+  },
+  {
+    "item_id": "M5-IB-02",
+    "node_id": "M5",
+    "prompt": "Why is an invisible-mechanism claim weak if it cannot explain the observed pattern better than alternatives?",
+    "task_type": "invisible_mechanism_critique",
+    "answer_key": "Because the value of the model depends on how well it accounts for observable evidence compared with competing explanations.",
+    "scorable_traits": ["evidence linkage", "model evaluation", "comparison"],
+    "target_failure_modes": ["M5-FM-02"],
+    "context_tags": ["models", "evidence"]
+  },
+  {
+    "item_id": "M5-IB-03",
+    "node_id": "M5",
+    "prompt": "A student uses a spring analogy for atomic interactions and then applies every spring feature literally. What critique is needed?",
+    "task_type": "model_limit_analysis",
+    "answer_key": "The critique should identify which parts of the analogy are useful and which should not be transferred literally to the target system.",
+    "scorable_traits": ["analogy limits", "transfer control", "model critique"],
+    "target_failure_modes": ["M5-FM-03"],
+    "context_tags": ["analogy", "atomic models"]
+  }
+]

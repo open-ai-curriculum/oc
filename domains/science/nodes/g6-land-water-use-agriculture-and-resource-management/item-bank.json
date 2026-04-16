@@ -1,0 +1,60 @@
+[
+  {
+    "item_id": "G6-IB-01",
+    "node_id": "G6",
+    "prompt": "Why is a short-term yield gain not enough to justify an agricultural decision?",
+    "task_type": "agriculture_tradeoff_reasoning",
+    "answer_key": "A strong answer considers long-term soil, water, ecosystem, and management consequences rather than yield alone.",
+    "scorable_traits": [
+      "tradeoff reasoning",
+      "systems view",
+      "precision"
+    ],
+    "target_failure_modes": [
+      "G6-FM-01",
+      "G6-FM-02"
+    ],
+    "context_tags": [
+      "agriculture",
+      "resource management"
+    ]
+  },
+  {
+    "item_id": "G6-IB-02",
+    "node_id": "G6",
+    "prompt": "What should be explicit when comparing land or water management options?",
+    "task_type": "resource_management_criteria",
+    "answer_key": "The explanation should name criteria, constraints, evidence, and possible downstream consequences for each option.",
+    "scorable_traits": [
+      "criteria use",
+      "design reasoning",
+      "transfer"
+    ],
+    "target_failure_modes": [
+      "G6-FM-03"
+    ],
+    "context_tags": [
+      "land use",
+      "water use"
+    ]
+  },
+  {
+    "item_id": "G6-IB-03",
+    "node_id": "G6",
+    "prompt": "Why do downstream effects matter in resource decisions?",
+    "task_type": "downstream_impact_reasoning",
+    "answer_key": "Because land, water, and ecological systems are connected, so one local choice can create wider consequences beyond the immediate site.",
+    "scorable_traits": [
+      "system connections",
+      "causal reasoning",
+      "discipline"
+    ],
+    "target_failure_modes": [
+      "G6-FM-04"
+    ],
+    "context_tags": [
+      "resource systems",
+      "impacts"
+    ]
+  }
+]

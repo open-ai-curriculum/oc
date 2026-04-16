@@ -1,0 +1,21 @@
+{
+  "node_id": "P2",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "P2-FM-01": [
+      "short repeated text with explicit finger tracking",
+      "highlight spaces between words",
+      "stabilize one short line before adding another"
+    ],
+    "P2-FM-02": [
+      "one spoken sentence with one tracked line of print",
+      "slow oral pacing during tracking",
+      "repeat the same tracked sentence before changing text"
+    ],
+    "P2-FM-03": [
+      "familiar text with slightly changed layout",
+      "gradual move from large to smaller print",
+      "same tracking target across two display formats"
+    ]
+  }
+}

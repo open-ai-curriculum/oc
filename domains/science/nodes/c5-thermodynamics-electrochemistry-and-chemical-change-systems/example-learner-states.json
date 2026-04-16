@@ -1,0 +1,46 @@
+[
+  {
+    "learner_id": "example-c5-secure",
+    "node_id": "C5",
+    "status": "secure",
+    "dependency_status": {
+      "C4": "secure",
+      "P6": "secure",
+      "M4": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Explains thermodynamics and electrochemistry through bounded energy, redox, and measurement models."
+  },
+  {
+    "learner_id": "example-c5-emerging",
+    "node_id": "C5",
+    "status": "emerging",
+    "dependency_status": {
+      "C4": "secure",
+      "P6": "secure",
+      "M4": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [
+      "C5-FM-01",
+      "C5-FM-02"
+    ],
+    "recommended_interventions": [
+      "C5-INT-01",
+      "C5-INT-02"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Uses thermodynamics and redox vocabulary but explanations remain label-driven and disconnected from system behavior."
+  }
+]

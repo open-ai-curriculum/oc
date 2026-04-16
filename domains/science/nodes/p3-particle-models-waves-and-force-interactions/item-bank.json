@@ -1,0 +1,32 @@
+[
+  {
+    "item_id": "P3-IB-01",
+    "node_id": "P3",
+    "prompt": "Why does food coloring spread through still water over time, and what makes a particle model useful here?",
+    "task_type": "particle_model_explanation",
+    "answer_key": "A particle model helps explain that matter is made of tiny moving pieces whose motion can lead to spreading over time.",
+    "scorable_traits": ["particle model use", "bounded explanation", "observable connection"],
+    "target_failure_modes": ["P3-FM-01"],
+    "context_tags": ["particles", "mixing"]
+  },
+  {
+    "item_id": "P3-IB-02",
+    "node_id": "P3",
+    "prompt": "A student says a sound wave moves air from the speaker to your ear as one chunk. What should be revised?",
+    "task_type": "wave_model_explanation",
+    "answer_key": "The explanation should shift to a wave carrying energy through repeated disturbances in matter rather than one chunk of air traveling the whole distance.",
+    "scorable_traits": ["wave idea", "revision quality", "precision"],
+    "target_failure_modes": ["P3-FM-02"],
+    "context_tags": ["waves", "sound"]
+  },
+  {
+    "item_id": "P3-IB-03",
+    "node_id": "P3",
+    "prompt": "Two skaters push off each other and both move. Why is a one-sided force explanation incomplete?",
+    "task_type": "force_interaction_reasoning",
+    "answer_key": "The motion is better explained as an interaction in which each skater exerts a force, not as only one skater acting alone.",
+    "scorable_traits": ["interaction reasoning", "force precision", "symmetry awareness"],
+    "target_failure_modes": ["P3-FM-03"],
+    "context_tags": ["forces", "motion"]
+  }
+]

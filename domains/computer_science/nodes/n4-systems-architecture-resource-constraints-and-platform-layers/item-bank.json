@@ -1,0 +1,250 @@
+{
+  "node_id": "N4",
+  "policy_version": "1.0",
+  "version": "0.4",
+  "items": [
+    {
+      "item_id": "N4-DIR-001",
+      "node_id": "N4",
+      "item_family": "direct_execution",
+      "prompt": "A student sends a file across a school network, and the teacher asks which devices or services are involved. Show how the learner would name at least two interacting layers or components in a bounded computing system.",
+      "expected_evidence": "name at least two interacting layers or components in a bounded computing system",
+      "dominant_failure_mode_targets": [
+        "N4-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates name at least two interacting layers or components in a bounded computing system with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "N4-DIR-002",
+      "node_id": "N4",
+      "item_family": "direct_execution",
+      "prompt": "A classroom app stops working because a login, connection, or system layer matters. Explain the setup and show how the learner would explain why resource limits matter for behavior or design choices.",
+      "expected_evidence": "explain why resource limits matter for behavior or design choices",
+      "dominant_failure_mode_targets": [
+        "N4-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates explain why resource limits matter for behavior or design choices with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "N4-DIR-003",
+      "node_id": "N4",
+      "item_family": "direct_execution",
+      "prompt": "A security scenario is presented involving access control, privacy, or a likely attack. Show how the learner would connect a program's behavior to the platform context in which it runs.",
+      "expected_evidence": "connect a program's behavior to the platform context in which it runs",
+      "dominant_failure_mode_targets": [
+        "N4-FM-03"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates connect a program's behavior to the platform context in which it runs with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "N4-EXP-001",
+      "node_id": "N4",
+      "item_family": "explanation",
+      "prompt": "Why is it weak to describe a computing system as just one machine doing everything?",
+      "expected_evidence": "because real systems rely on bounded layers and services, and those distinctions matter for explaining behavior, failure, and design choices.",
+      "dominant_failure_mode_targets": [
+        "N4-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to because real systems rely on bounded layers and services, and those distinctions matter for explaining behavior, failure, and design choices."
+    },
+    {
+      "item_id": "N4-EXP-002",
+      "node_id": "N4",
+      "item_family": "explanation",
+      "prompt": "How can resource constraints influence a system design?",
+      "expected_evidence": "they affect what the system can store, process, or transmit, so they shape which bounded design choices are practical.",
+      "dominant_failure_mode_targets": [
+        "N4-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to they affect what the system can store, process, or transmit, so they shape which bounded design choices are practical."
+    },
+    {
+      "item_id": "N4-ERR-001",
+      "node_id": "N4",
+      "item_family": "error_diagnosis",
+      "prompt": "In a network or security scenario, a learner responds in a way that suggests this breakdown: learner treats the computing system as one undifferentiated box with no meaningful internal layers or services. Diagnose the systems or cybersecurity mistake. Focus on single-layer machine model.",
+      "expected_evidence": "name at least two interacting layers or components in a bounded computing system",
+      "dominant_failure_mode_targets": [
+        "N4-FM-01"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward name at least two interacting layers or components in a bounded computing system."
+    },
+    {
+      "item_id": "N4-ERR-002",
+      "node_id": "N4",
+      "item_family": "error_diagnosis",
+      "prompt": "In a network or security scenario, a learner responds in a way that suggests this breakdown: learner ignores how time, memory, storage, or bandwidth limits affect system behavior. Diagnose the systems or cybersecurity mistake. Focus on resource-constraint blindness.",
+      "expected_evidence": "explain why resource limits matter for behavior or design choices",
+      "dominant_failure_mode_targets": [
+        "N4-FM-02"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward explain why resource limits matter for behavior or design choices."
+    },
+    {
+      "item_id": "N4-TRA-001",
+      "node_id": "N4",
+      "item_family": "transfer",
+      "prompt": "A network or security idea learned with one classroom example is now embedded in a different system such as streaming, cloud storage, or a shared document. Explain how the learner would connect a program's behavior to the platform context in which it runs.",
+      "expected_evidence": "connect a program's behavior to the platform context in which it runs",
+      "dominant_failure_mode_targets": [
+        "N4-FM-03"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves connect a program's behavior to the platform context in which it runs in a changed computing context or representation."
+    },
+    {
+      "item_id": "N4-TRA-002",
+      "node_id": "N4",
+      "item_family": "transfer",
+      "prompt": "A learner must move from a visible device-level description to a more abstract system or threat-model case and still preserve the same reasoning. Show how they would avoid flattening interfaces, operating-system services, and hardware resources into one vague system description.",
+      "expected_evidence": "avoid flattening interfaces, operating-system services, and hardware resources into one vague system description",
+      "dominant_failure_mode_targets": [
+        "N4-FM-04"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves avoid flattening interfaces, operating-system services, and hardware resources into one vague system description in a changed computing context or representation."
+    },
+    {
+      "item_id": "N4-RET-001",
+      "node_id": "N4",
+      "item_family": "retention",
+      "prompt": "After a delay, the learner is given a fresh connected-system or security case and must explain the pathway, layer, risk, or defense involved. Show how they would name at least two interacting layers or components in a bounded computing system.",
+      "expected_evidence": "name at least two interacting layers or components in a bounded computing system",
+      "dominant_failure_mode_targets": [
+        "N4-FM-04"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_explanation",
+        "constructed_response"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability",
+      "scoring_guidance": "Meets when the learner still demonstrates name at least two interacting layers or components in a bounded computing system on a delayed recheck without a blocking recurrence."
+    },
+    {
+      "item_id": "N4-PRE-001",
+      "node_id": "N4",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a short systems or access-control check on security risk, access control, and privacy foundations before closing systems architecture, resource constraints, and platform layers, and decide whether the current problem is actually an upstream dependency gap.",
+      "expected_evidence": "shows whether security risk, access control, and privacy foundations is secure enough to support systems architecture, resource constraints, and platform layers",
+      "dominant_failure_mode_targets": [
+        "N4-FM-01"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in security risk, access control, and privacy foundations from a current-node issue in systems architecture, resource constraints, and platform layers.",
+      "dependency_target": "N3",
+      "suspected_knowledge_gap_if_incorrect": "security risk, access control, and privacy foundations"
+    },
+    {
+      "item_id": "N4-PRE-002",
+      "node_id": "N4",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a short systems or access-control check on functions, modular program design, and abstraction boundaries before closing systems architecture, resource constraints, and platform layers, and decide whether the current problem is actually an upstream dependency gap.",
+      "expected_evidence": "shows whether functions, modular program design, and abstraction boundaries is secure enough to support systems architecture, resource constraints, and platform layers",
+      "dominant_failure_mode_targets": [
+        "N4-FM-02"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in functions, modular program design, and abstraction boundaries from a current-node issue in systems architecture, resource constraints, and platform layers.",
+      "dependency_target": "P4",
+      "suspected_knowledge_gap_if_incorrect": "functions, modular program design, and abstraction boundaries"
+    }
+  ]
+}

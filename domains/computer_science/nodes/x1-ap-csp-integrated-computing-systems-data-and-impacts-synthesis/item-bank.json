@@ -1,0 +1,294 @@
+{
+  "node_id": "X1",
+  "policy_version": "1.0",
+  "version": "0.4",
+  "items": [
+    {
+      "item_id": "X1-DIR-001",
+      "node_id": "X1",
+      "item_family": "direct_execution",
+      "prompt": "A learner reviews a bounded AP-style performance task or project proposal that combines code, data, systems, and impact claims. Show how they would connect program behavior, data processing, and system context in one bounded explanation.",
+      "expected_evidence": "connect program behavior, data processing, and system context in one bounded explanation",
+      "dominant_failure_mode_targets": [
+        "X1-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates connect program behavior, data processing, and system context in one bounded explanation with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "X1-DIR-002",
+      "node_id": "X1",
+      "item_family": "direct_execution",
+      "prompt": "A class is evaluating an object-oriented or multi-component program design for an AP-style task. Show how the learner would interpret computing impacts with reference to technical mechanisms rather than broad claims alone.",
+      "expected_evidence": "interpret computing impacts with reference to technical mechanisms rather than broad claims alone",
+      "dominant_failure_mode_targets": [
+        "X1-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates interpret computing impacts with reference to technical mechanisms rather than broad claims alone with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "X1-DIR-003",
+      "node_id": "X1",
+      "item_family": "direct_execution",
+      "prompt": "A capstone team proposes a cross-domain computing project with stated users, constraints, and architecture choices. Show how the learner would reason across abstractions instead of treating data, code, and social effects as separate silos.",
+      "expected_evidence": "reason across abstractions instead of treating data, code, and social effects as separate silos",
+      "dominant_failure_mode_targets": [
+        "X1-FM-03"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates reason across abstractions instead of treating data, code, and social effects as separate silos with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "X1-EXP-001",
+      "node_id": "X1",
+      "item_family": "explanation",
+      "prompt": "Why is AP CSP understanding weaker when topics are kept in separate silos?",
+      "expected_evidence": "because computing systems work through interacting abstractions, data processes, technical mechanisms, and impacts, so strong reasoning must connect them.",
+      "dominant_failure_mode_targets": [
+        "X1-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to because computing systems work through interacting abstractions, data processes, technical mechanisms, and impacts, so strong reasoning must connect them."
+    },
+    {
+      "item_id": "X1-EXP-002",
+      "node_id": "X1",
+      "item_family": "explanation",
+      "prompt": "How can a technical computing choice relate to a social consequence in AP CSP style reasoning?",
+      "expected_evidence": "a bounded technical choice affects what data is collected, how a system behaves, or who is affected, which can create downstream social implications.",
+      "dominant_failure_mode_targets": [
+        "X1-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to a bounded technical choice affects what data is collected, how a system behaves, or who is affected, which can create downstream social implications."
+    },
+    {
+      "item_id": "X1-ERR-001",
+      "node_id": "X1",
+      "item_family": "error_diagnosis",
+      "prompt": "During an AP-style synthesis or project review, a learner gives a response that suggests this breakdown: learner treats programming, data, systems, and impacts as separate talking points rather than one integrated computing account. Diagnose the integration mistake. Focus on topic-silo AP reasoning.",
+      "expected_evidence": "connect program behavior, data processing, and system context in one bounded explanation",
+      "dominant_failure_mode_targets": [
+        "X1-FM-01"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward connect program behavior, data processing, and system context in one bounded explanation."
+    },
+    {
+      "item_id": "X1-ERR-002",
+      "node_id": "X1",
+      "item_family": "error_diagnosis",
+      "prompt": "During an AP-style synthesis or project review, a learner gives a response that suggests this breakdown: learner cannot connect a bounded technical mechanism to a social or policy implication. Diagnose the integration mistake. Focus on technical-impact disconnect.",
+      "expected_evidence": "interpret computing impacts with reference to technical mechanisms rather than broad claims alone",
+      "dominant_failure_mode_targets": [
+        "X1-FM-02"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward interpret computing impacts with reference to technical mechanisms rather than broad claims alone."
+    },
+    {
+      "item_id": "X1-TRA-001",
+      "node_id": "X1",
+      "item_family": "transfer",
+      "prompt": "A learner moves from an AP-style classroom prompt to an authentic design-review or project-planning case and must still reason across abstractions instead of treating data, code, and social effects as separate silos.",
+      "expected_evidence": "reason across abstractions instead of treating data, code, and social effects as separate silos",
+      "dominant_failure_mode_targets": [
+        "X1-FM-03"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves reason across abstractions instead of treating data, code, and social effects as separate silos in a changed computing context or representation."
+    },
+    {
+      "item_id": "X1-TRA-002",
+      "node_id": "X1",
+      "item_family": "transfer",
+      "prompt": "A bounded project changes domains, but the computing requirements, quality expectations, and reasoning structure still matter. Explain how the learner would avoid ap-style topic recitation without integrated causal structure.",
+      "expected_evidence": "avoid AP-style topic recitation without integrated causal structure",
+      "dominant_failure_mode_targets": [
+        "X1-FM-04"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves avoid ap-style topic recitation without integrated causal structure in a changed computing context or representation."
+    },
+    {
+      "item_id": "X1-RET-001",
+      "node_id": "X1",
+      "item_family": "retention",
+      "prompt": "After a delay, the learner is given a fresh AP-style synthesis or capstone-review case and must justify the design or critique using integrated computing reasoning. Show how they would connect program behavior, data processing, and system context in one bounded explanation.",
+      "expected_evidence": "connect program behavior, data processing, and system context in one bounded explanation",
+      "dominant_failure_mode_targets": [
+        "X1-FM-04"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_explanation",
+        "constructed_response"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability",
+      "scoring_guidance": "Meets when the learner still demonstrates connect program behavior, data processing, and system context in one bounded explanation on a delayed recheck without a blocking recurrence."
+    },
+    {
+      "item_id": "X1-PRE-001",
+      "node_id": "X1",
+      "item_family": "prerequisite_probe",
+      "prompt": "Before closing ap csp integrated computing systems, data, and impacts synthesis, run a short synthesis check on functions, modular program design, and abstraction boundaries and determine whether the learner is blocked by an upstream readiness gap rather than the current integration target.",
+      "expected_evidence": "shows whether functions, modular program design, and abstraction boundaries is secure enough to support ap csp integrated computing systems, data, and impacts synthesis",
+      "dominant_failure_mode_targets": [
+        "X1-FM-01"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in functions, modular program design, and abstraction boundaries from a current-node issue in ap csp integrated computing systems, data, and impacts synthesis.",
+      "dependency_target": "P4",
+      "suspected_knowledge_gap_if_incorrect": "functions, modular program design, and abstraction boundaries"
+    },
+    {
+      "item_id": "X1-PRE-002",
+      "node_id": "X1",
+      "item_family": "prerequisite_probe",
+      "prompt": "Before closing ap csp integrated computing systems, data, and impacts synthesis, run a short synthesis check on algorithm analysis, tradeoffs, and formalized problem solving and determine whether the learner is blocked by an upstream readiness gap rather than the current integration target.",
+      "expected_evidence": "shows whether algorithm analysis, tradeoffs, and formalized problem solving is secure enough to support ap csp integrated computing systems, data, and impacts synthesis",
+      "dominant_failure_mode_targets": [
+        "X1-FM-02"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in algorithm analysis, tradeoffs, and formalized problem solving from a current-node issue in ap csp integrated computing systems, data, and impacts synthesis.",
+      "dependency_target": "A3",
+      "suspected_knowledge_gap_if_incorrect": "algorithm analysis, tradeoffs, and formalized problem solving"
+    },
+    {
+      "item_id": "X1-PRE-003",
+      "node_id": "X1",
+      "item_family": "prerequisite_probe",
+      "prompt": "Before closing ap csp integrated computing systems, data, and impacts synthesis, run a short synthesis check on data pipelines, modeling, and computational inference and determine whether the learner is blocked by an upstream readiness gap rather than the current integration target.",
+      "expected_evidence": "shows whether data pipelines, modeling, and computational inference is secure enough to support ap csp integrated computing systems, data, and impacts synthesis",
+      "dominant_failure_mode_targets": [
+        "X1-FM-03"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in data pipelines, modeling, and computational inference from a current-node issue in ap csp integrated computing systems, data, and impacts synthesis.",
+      "dependency_target": "R4",
+      "suspected_knowledge_gap_if_incorrect": "data pipelines, modeling, and computational inference"
+    },
+    {
+      "item_id": "X1-PRE-004",
+      "node_id": "X1",
+      "item_family": "prerequisite_probe",
+      "prompt": "Before closing ap csp integrated computing systems, data, and impacts synthesis, run a short synthesis check on ethics, governance, and societal consequences of computing systems and determine whether the learner is blocked by an upstream readiness gap rather than the current integration target.",
+      "expected_evidence": "shows whether ethics, governance, and societal consequences of computing systems is secure enough to support ap csp integrated computing systems, data, and impacts synthesis",
+      "dominant_failure_mode_targets": [
+        "X1-FM-04"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in ethics, governance, and societal consequences of computing systems from a current-node issue in ap csp integrated computing systems, data, and impacts synthesis.",
+      "dependency_target": "I4",
+      "suspected_knowledge_gap_if_incorrect": "ethics, governance, and societal consequences of computing systems"
+    }
+  ]
+}

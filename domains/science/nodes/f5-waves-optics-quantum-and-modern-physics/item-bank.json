@@ -1,0 +1,60 @@
+[
+  {
+    "item_id": "F5-IB-01",
+    "node_id": "F5",
+    "prompt": "Why is naming wavelength or frequency not enough to explain a wave case?",
+    "task_type": "wave_modeling",
+    "answer_key": "A strong answer uses those quantities inside a propagation or interaction model rather than listing them as isolated facts.",
+    "scorable_traits": [
+      "model use",
+      "wave reasoning",
+      "precision"
+    ],
+    "target_failure_modes": [
+      "F5-FM-01"
+    ],
+    "context_tags": [
+      "waves",
+      "models"
+    ]
+  },
+  {
+    "item_id": "F5-IB-02",
+    "node_id": "F5",
+    "prompt": "When can an optics representation mislead?",
+    "task_type": "optics_model_selection",
+    "answer_key": "It can mislead when it is used outside the situations it was designed to explain or when another model better fits the phenomenon.",
+    "scorable_traits": [
+      "representation choice",
+      "claim boundary",
+      "transfer"
+    ],
+    "target_failure_modes": [
+      "F5-FM-02",
+      "F5-FM-04"
+    ],
+    "context_tags": [
+      "optics",
+      "models"
+    ]
+  },
+  {
+    "item_id": "F5-IB-03",
+    "node_id": "F5",
+    "prompt": "Why should a quantum model not be treated as a literal picture?",
+    "task_type": "modern_physics_critique",
+    "answer_key": "It is a bounded explanatory model that captures certain behaviors and constraints rather than a direct visual description of reality.",
+    "scorable_traits": [
+      "model limits",
+      "discipline",
+      "scientific reasoning"
+    ],
+    "target_failure_modes": [
+      "F5-FM-03"
+    ],
+    "context_tags": [
+      "quantum",
+      "modern physics"
+    ]
+  }
+]

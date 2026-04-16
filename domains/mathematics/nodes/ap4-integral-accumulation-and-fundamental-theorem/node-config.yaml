@@ -1,12 +1,12 @@
 id: AP4
 slug: ap4-integral-accumulation-and-fundamental-theorem
 domain: mathematics
-name: integral_accumulation_and_fundamental_theorem
+name: derivative_rules_and_computation
 support_tier: Core release
 maturity_state: Drafted
 supported_profiles:
   - upstream-readiness-node-package
-dependencies: [AP3, Q2]
+dependencies: [AP3]
 artifact_files:
   - node-spec.md
   - verification-model.md

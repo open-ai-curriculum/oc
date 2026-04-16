@@ -1,0 +1,44 @@
+{
+  "node_id": "P2",
+  "examples": [
+    {
+      "learner_id": "sample-p2-blocked-01",
+      "node_id": "P2",
+      "status": "blocked",
+      "dependency_status": {
+        "P1": "secure",
+        "I1": "secure"
+      },
+      "direct_accuracy": 0.49,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["P2-FM-02", "P2-FM-03"],
+      "recommended_interventions": [
+        "pair each energy example with an observable effect such as warming lighting or sound",
+        "trace a visible force event and the resulting motion or change"
+      ],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Can name some physical changes but does not yet connect them clearly to energy or force evidence."
+    },
+    {
+      "learner_id": "sample-p2-secure-01",
+      "node_id": "P2",
+      "status": "secure",
+      "dependency_status": {
+        "P1": "secure",
+        "I1": "secure"
+      },
+      "direct_accuracy": 0.93,
+      "explanation_status": "met",
+      "transfer_status": "met",
+      "retention_status": "met",
+      "dominant_failure_modes": [],
+      "recommended_interventions": [],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Explains simple matter changes, energy transfer evidence, and visible force effects across multiple familiar contexts."
+    }
+  ]
+}

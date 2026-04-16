@@ -1,0 +1,16 @@
+{
+  "node_id": "C6",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "C6-G1-01",
+      "node_id": "C6",
+      "gate": "G1",
+      "prompt": "Use the case to design a bounded civic or policy response and explain how a participation strategy fits the institutional setting and tradeoffs.",
+      "context_type": "policy_design_and_participation_scenario",
+      "response_mode": "oral_or_written_or_deliberation_notes",
+      "scoring_rule": "Builds a plausible civic recommendation, names tradeoffs and constraints, and selects a participation pathway that fits the public setting.",
+      "failure_mode_targets": ["C6-FM-01", "C6-FM-02"]
+    }
+  ]
+}

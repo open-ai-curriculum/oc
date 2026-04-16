@@ -1,0 +1,42 @@
+id: AC1
+name: cross_text_synthesis_and_source_coordination
+domain: ela_literacy
+support_tier: Core release
+maturity_state: Drafted
+supported_profiles:
+- advanced-analysis-node-package
+evidence_class: Synthetic
+dependencies:
+- R4
+- R5
+mastery:
+  direct_accuracy_threshold: 0.85
+  explanation_required: true
+  transfer_required: true
+  retention_check_days: 21
+statuses:
+- blocked
+- emerging
+- provisional
+- secure
+- unstable
+verification_gates:
+- id: G1
+  type: direct_performance
+  pass_rule: coordinates relevant relationships across multiple texts in at least
+    5 of 6 supported opportunities
+- id: G2
+  type: meaning
+  pass_rule: cross-text synthesis remains coherent and source-grounded in at least
+    4 of 5 prompts
+- id: G3
+  type: transfer
+  pass_rule: succeeds across at least one changed source set or synthesis situation
+- id: G4
+  type: retention
+  pass_rule: stable delayed recheck after approximately 21 days
+failure_modes:
+- AC1-FM-01
+- AC1-FM-02
+- AC1-FM-03
+- AC1-FM-04

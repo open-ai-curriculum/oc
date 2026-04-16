@@ -1,0 +1,23 @@
+{
+  "node_id": "C2",
+  "examples": [
+    {
+      "learner_id": "sample-c2-blocked-01",
+      "node_id": "C2",
+      "status": "blocked",
+      "dependency_status": { "C1": "secure", "Q2": "secure" },
+      "direct_accuracy": 0.61,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["C2-FM-01"],
+      "recommended_interventions": [
+        "match institutions to their basic functions",
+        "compare two institutions with one clearly different role"
+      ],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Can name institutions but not connect them to civic function."
+    }
+  ]
+}

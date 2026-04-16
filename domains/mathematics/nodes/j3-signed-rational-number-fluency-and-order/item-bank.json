@@ -1,37 +1,140 @@
 {
   "node_id": "J3",
+  "policy_version": "1.0",
   "items": [
     {
-      "item_id": "J3-A1",
-      "item_family": "direct",
-      "prompt": "compares, orders, locates, and operates on bounded signed rational numbers across fraction and decimal representations",
+      "item_id": "J3-DIR-001",
+      "node_id": "J3",
+      "item_family": "direct_execution",
+      "prompt": "Compute `3/4 + 1/8` by rewriting to common units and show the equivalent fractions you used.",
       "expected_evidence": "compare and order signed fractions and decimals using reference-point reasoning",
       "dominant_failure_mode": "reference_point_instability",
-      "scoring_guidance": "Meets when the learner preserves sign and magnitude meaning while ordering or operating on signed rational values."
+      "scoring_guidance": "Meets when the learner demonstrates compare and order signed fractions and decimals using reference-point reasoning with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "J3-B1",
-      "item_family": "explanation",
-      "prompt": "explains why a signed rational result is reasonable using reference points, direction, and benchmark magnitude",
-      "expected_evidence": "explain why a result makes sense using direction, benchmark, or absolute-size language",
+      "item_id": "J3-DIR-002",
+      "node_id": "J3",
+      "item_family": "direct_execution",
+      "prompt": "Compute `5/6 - 1/4` and justify the common denominator choice.",
+      "expected_evidence": "locate signed rational values on a number line and interpret distance from zero",
       "dominant_failure_mode": "sign_magnitude_collapse",
-      "scoring_guidance": "Meets when the learner explains signed rational reasoning with coherent magnitude and direction structure."
+      "scoring_guidance": "Meets when the learner demonstrates locate signed rational values on a number line and interpret distance from zero with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "J3-C1",
-      "item_family": "error_diagnosis",
-      "prompt": "Diagnose a peer error aligned to mixed_form_ordering_breakdown.",
+      "item_id": "J3-DIR-003",
+      "node_id": "J3",
+      "item_family": "direct_execution",
+      "prompt": "Place `2/3` and `5/8` on the same number line and determine which is greater.",
+      "expected_evidence": "operate fluently on signed rational numbers while preserving sign and magnitude meaning",
+      "dominant_failure_mode": "mixed_form_ordering_breakdown",
+      "scoring_guidance": "Meets when the learner demonstrates operate fluently on signed rational numbers while preserving sign and magnitude meaning with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
+    },
+    {
+      "item_id": "J3-EXP-001",
+      "node_id": "J3",
+      "item_family": "explanation",
+      "prompt": "Explain why `3/4` can be rewritten as `6/8` without changing its value.",
+      "expected_evidence": "compare and order signed fractions and decimals using reference-point reasoning",
+      "dominant_failure_mode": "sign_magnitude_collapse",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to compare and order signed fractions and decimals using reference-point reasoning.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "J3-EXP-002",
+      "node_id": "J3",
+      "item_family": "explanation",
+      "prompt": "Explain why fractions can only be combined directly when they refer to equal-sized parts.",
       "expected_evidence": "locate signed rational values on a number line and interpret distance from zero",
       "dominant_failure_mode": "mixed_form_ordering_breakdown",
-      "scoring_guidance": "Meets when the learner identifies how the peer lost ordering or location meaning across fraction and decimal forms."
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to locate signed rational values on a number line and interpret distance from zero.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
     },
     {
-      "item_id": "J3-D1",
+      "item_id": "J3-ERR-001",
+      "node_id": "J3",
+      "item_family": "error_diagnosis",
+      "prompt": "A student says `3/4 + 1/8 = 4/12`. Diagnose the first structural mistake. Focus on reference point instability.",
+      "expected_evidence": "compare and order signed fractions and decimals using reference-point reasoning",
+      "dominant_failure_mode": "reference_point_instability",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward compare and order signed fractions and decimals using reference-point reasoning.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "J3-ERR-002",
+      "node_id": "J3",
+      "item_family": "error_diagnosis",
+      "prompt": "A student rewrites `2/3` as `3/4` before adding. Identify the equivalence error. Focus on sign magnitude collapse.",
+      "expected_evidence": "locate signed rational values on a number line and interpret distance from zero",
+      "dominant_failure_mode": "sign_magnitude_collapse",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward locate signed rational values on a number line and interpret distance from zero.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "J3-TRA-001",
+      "node_id": "J3",
       "item_family": "transfer",
-      "prompt": "succeeds across symbolic, number-line, table, verbal, and simple contextual signed-rational representations",
-      "expected_evidence": "operate fluently on signed rational numbers while preserving sign and magnitude meaning",
+      "prompt": "A recipe uses `3/4` cup of oats and `1/8` cup of seeds. How much is used altogether?",
+      "expected_evidence": "compare and order signed fractions and decimals using reference-point reasoning",
+      "dominant_failure_mode": "mixed_form_ordering_breakdown",
+      "scoring_guidance": "Meets when the learner preserves compare and order signed fractions and decimals using reference-point reasoning in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "J3-TRA-002",
+      "node_id": "J3",
+      "item_family": "transfer",
+      "prompt": "A hiker walks `5/6` mile in the morning and `1/4` mile less in the afternoon. How much farther was the morning walk?",
+      "expected_evidence": "locate signed rational values on a number line and interpret distance from zero",
       "dominant_failure_mode": "operation_order_context_breakdown",
-      "scoring_guidance": "Meets when the learner preserves signed rational meaning across multiple representations and contexts."
+      "scoring_guidance": "Meets when the learner preserves locate signed rational values on a number line and interpret distance from zero in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "J3-RET-001",
+      "node_id": "J3",
+      "item_family": "retention",
+      "prompt": "After a delay, solve `2/3 + 1/6` and explain why the rewrite keeps the quantity unchanged.",
+      "expected_evidence": "compare and order signed fractions and decimals using reference-point reasoning",
+      "dominant_failure_mode": "operation_order_context_breakdown",
+      "scoring_guidance": "Meets when the learner still demonstrates compare and order signed fractions and decimals using reference-point reasoning on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "J3-PRE-001",
+      "node_id": "J3",
+      "item_family": "prerequisite_probe",
+      "prompt": "Before closing signed rational number fluency and order, complete a prerequisite check on rational number addition and subtraction and explain how that prior understanding supports the fraction reasoning.",
+      "expected_evidence": "shows whether rational number addition and subtraction is secure enough to support signed rational number fluency and order",
+      "dominant_failure_mode": "sign_magnitude_collapse",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in rational number addition and subtraction from a current-node issue in signed rational number fluency and order.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "J1",
+      "suspected_knowledge_gap_if_incorrect": "rational number addition and subtraction"
+    },
+    {
+      "item_id": "J3-PRE-002",
+      "node_id": "J3",
+      "item_family": "prerequisite_probe",
+      "prompt": "Use a quick rational number multiplication and division probe to determine whether the error belongs to the prerequisite or to signed rational number fluency and order.",
+      "expected_evidence": "shows whether rational number multiplication and division is secure enough to support signed rational number fluency and order",
+      "dominant_failure_mode": "mixed_form_ordering_breakdown",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in rational number multiplication and division from a current-node issue in signed rational number fluency and order.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "J2",
+      "suspected_knowledge_gap_if_incorrect": "rational number multiplication and division"
     }
   ]
 }

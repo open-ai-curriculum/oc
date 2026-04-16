@@ -1,0 +1,23 @@
+{
+  "node_id": "E5",
+  "examples": [
+    {
+      "learner_id": "sample-e4-blocked-01",
+      "node_id": "E5",
+      "status": "blocked",
+      "dependency_status": { "E3": "secure", "C2": "secure", "Q4": "secure" },
+      "direct_accuracy": 0.56,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["E5-FM-02"],
+      "recommended_interventions": [
+        "chart two competing uses for the same limited resource",
+        "require one gain and one loss for the allocation choice"
+      ],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Picks one public-resource option without recognizing the tradeoff."
+    }
+  ]
+}

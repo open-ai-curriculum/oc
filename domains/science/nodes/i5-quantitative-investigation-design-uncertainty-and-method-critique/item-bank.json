@@ -1,0 +1,32 @@
+[
+  {
+    "item_id": "I5-IB-01",
+    "node_id": "I5",
+    "prompt": "Two teams want to compare reaction rate. One takes one endpoint measurement; the other collects repeated timed measurements. Which design better supports quantitative analysis and why?",
+    "task_type": "quantitative_design_justification",
+    "answer_key": "The repeated timed-measurement design better supports quantitative analysis because it captures change over time and allows stronger comparison of rates.",
+    "scorable_traits": ["design justification", "measurement fit", "comparison logic"],
+    "target_failure_modes": ["I5-FM-01"],
+    "context_tags": ["quantitative design", "chemistry"]
+  },
+  {
+    "item_id": "I5-IB-02",
+    "node_id": "I5",
+    "prompt": "A learner says overlapping uncertainty ranges prove two conditions are identical. What needs to change?",
+    "task_type": "uncertainty_interpretation",
+    "answer_key": "The explanation should note that overlap limits certainty about strong difference claims but does not justify saying the conditions are identical.",
+    "scorable_traits": ["uncertainty reasoning", "claim calibration", "precision"],
+    "target_failure_modes": ["I5-FM-02"],
+    "context_tags": ["uncertainty", "data interpretation"]
+  },
+  {
+    "item_id": "I5-IB-03",
+    "node_id": "I5",
+    "prompt": "Critique a method that uses a very precise tool but samples too narrowly for the question being asked.",
+    "task_type": "method_critique",
+    "answer_key": "The critique should note that precision of measurement does not fix a weak sampling plan, so the method may still be inadequate for the larger question.",
+    "scorable_traits": ["method critique", "sampling-method distinction", "purpose fit"],
+    "target_failure_modes": ["I5-FM-03"],
+    "context_tags": ["methods", "sampling"]
+  }
+]

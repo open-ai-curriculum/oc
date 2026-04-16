@@ -1,0 +1,72 @@
+{
+  "node_id": "E2",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "E2-A-001",
+      "family": "cer_and_explanations",
+      "prompt": "Two plants grew to different heights. State a claim about which condition helped more, and choose one piece of evidence from the data table.",
+      "target_node": "E2",
+      "secondary_dependency_targets": ["E1", "I2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation", "short_text"],
+      "dominant_failure_modes_if_incorrect": ["E2-FM-01", "E2-FM-02"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "E2-A-002",
+      "family": "cer_and_explanations",
+      "prompt": "Which explanation for the faster ramp car is better supported by the evidence: the steeper ramp or the cooler color?",
+      "target_node": "E2",
+      "secondary_dependency_targets": ["E1", "I2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["selected_response", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["E2-FM-02", "E2-FM-03"],
+      "requires_human_scoring": false
+    },
+    {
+      "item_id": "E2-B-001",
+      "family": "explanation",
+      "prompt": "Explain why the rainfall chart is better evidence for the puddle claim than what someone guessed yesterday.",
+      "target_node": "E2",
+      "secondary_dependency_targets": ["E1", "I2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["E2-FM-02", "E2-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "E2-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student gives the right claim but uses evidence from a different experiment. What should be checked in the reasoning?",
+      "target_node": "E2",
+      "secondary_dependency_targets": ["E1", "I2"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["multiple_choice", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["E2-FM-01", "E2-FM-03"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "E2-D-001",
+      "family": "transfer",
+      "prompt": "Build a claim, evidence, and because-statement for one plant investigation and one weather investigation. Keep both tied to the data.",
+      "target_node": "E2",
+      "secondary_dependency_targets": ["E1", "I2"],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": ["oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["E2-FM-01", "E2-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "E2-R-001",
+      "family": "retention",
+      "prompt": "After time has passed, choose the better-supported explanation for a simple science result and explain your choice.",
+      "target_node": "E2",
+      "secondary_dependency_targets": ["E1", "I2"],
+      "difficulty_band": "retention",
+      "response_modes_allowed": ["selected_response", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["E2-FM-02", "E2-FM-03"],
+      "requires_human_scoring": true
+    }
+  ]
+}

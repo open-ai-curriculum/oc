@@ -1,0 +1,37 @@
+{
+  "node_id": "W9",
+  "interventions": [
+    {
+      "failure_mode": "association_fit_fragmentation",
+      "strategies": [
+        "annotate scatter plots first for direction, form, strength, and unusual features before drawing any fit line",
+        "compare multiple candidate fit lines against the same data set and discuss which is more reasonable",
+        "require learners to describe the overall association in words before predicting"
+      ]
+    },
+    {
+      "failure_mode": "causation_overreach",
+      "strategies": [
+        "compare association-only data displays with scenarios that would require experimental or stronger design evidence for causal claims",
+        "use teacher think-alouds separating “goes with” from “causes”",
+        "require learners to name at least one alternative explanation before making a causal claim"
+      ]
+    },
+    {
+      "failure_mode": "outlier_trend_erasure",
+      "strategies": [
+        "compare scatter plots with and without a single outlier and discuss how the trend judgment changes",
+        "use cluster-marking routines before drawing a line of best fit",
+        "compare fit lines that include versus discount an influential outlier for discussion purposes"
+      ]
+    },
+    {
+      "failure_mode": "prediction_context_disconnect",
+      "strategies": [
+        "distinguish interpolation from extrapolation before accepting a prediction",
+        "compare reasonable short-range predictions with unsupported far-range predictions from the same data set",
+        "require a context check on whether the relationship should continue beyond the observed range"
+      ]
+    }
+  ]
+}

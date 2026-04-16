@@ -1,0 +1,32 @@
+[
+  {
+    "item_id": "L4-IB-01",
+    "node_id": "L4",
+    "prompt": "A marsh loses many insects for several weeks. Explain one likely effect on another population and why the change should be treated as part of a system.",
+    "task_type": "population_change_reasoning",
+    "answer_key": "A population that depends on the insects for food may decline or change behavior because populations interact within the larger marsh system.",
+    "scorable_traits": ["population interaction", "system framing", "bounded claim"],
+    "target_failure_modes": ["L4-FM-02"],
+    "context_tags": ["ecosystems", "populations"]
+  },
+  {
+    "item_id": "L4-IB-02",
+    "node_id": "L4",
+    "prompt": "Trace matter and energy through a simple plant-herbivore-predator model without saying they move in exactly the same way.",
+    "task_type": "matter_energy_trace",
+    "answer_key": "Matter moves through organisms as materials become part of bodies and wastes, while energy transfers through feeding and use and is not tracked as matter.",
+    "scorable_traits": ["matter-energy distinction", "pathway reasoning", "precision"],
+    "target_failure_modes": ["L4-FM-03"],
+    "context_tags": ["matter", "energy", "food webs"]
+  },
+  {
+    "item_id": "L4-IB-03",
+    "node_id": "L4",
+    "prompt": "A learner calls one wolf, one tree, and one pond a population. What needs to be corrected?",
+    "task_type": "ecosystem_interaction_explanation",
+    "answer_key": "A population is a group of organisms of the same kind in an area, so a single organism or a nonliving feature is not a population.",
+    "scorable_traits": ["scale accuracy", "population definition", "nonexample control"],
+    "target_failure_modes": ["L4-FM-01"],
+    "context_tags": ["scale", "ecosystems"]
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "node_id": "FR6",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "FR6-FM-01": [
+      "shorten passage length while preserving connected text",
+      "explicit line and spacing cues",
+      "guided finger or visual tracking only as needed"
+    ],
+    "FR6-FM-02": [
+      "return briefly to controlled phrase or line segments",
+      "isolate misread words and reinsert them into the passage",
+      "confirm FR5 remains stable on the affected word set"
+    ],
+    "FR6-FM-03": [
+      "reduce passage length to a manageable fluency window",
+      "accuracy-first bounded passage rehearsal",
+      "avoid rewarding speed that sacrifices word integrity"
+    ],
+    "FR6-FM-04": [
+      "change one text feature at a time",
+      "preserve comparable difficulty while varying layout or passage content",
+      "alternate familiar and changed connected-text surfaces"
+    ]
+  }
+}

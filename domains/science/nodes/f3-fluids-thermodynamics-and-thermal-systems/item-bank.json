@@ -1,0 +1,60 @@
+[
+  {
+    "item_id": "F3-IB-01",
+    "node_id": "F3",
+    "prompt": "Why is a temperature change not automatically the same as an energy explanation?",
+    "task_type": "thermal_reasoning",
+    "answer_key": "A strong answer distinguishes measured temperature from the processes and transfers that explain the system's energy change.",
+    "scorable_traits": [
+      "distinction making",
+      "thermal modeling",
+      "precision"
+    ],
+    "target_failure_modes": [
+      "F3-FM-01"
+    ],
+    "context_tags": [
+      "thermodynamics",
+      "temperature"
+    ]
+  },
+  {
+    "item_id": "F3-IB-02",
+    "node_id": "F3",
+    "prompt": "What makes a pressure explanation more than naming a formula?",
+    "task_type": "fluid_systems_explanation",
+    "answer_key": "It should identify the system, boundaries, and how pressure relates to force, flow, or depth in the bounded case.",
+    "scorable_traits": [
+      "system reasoning",
+      "model fit",
+      "transfer"
+    ],
+    "target_failure_modes": [
+      "F3-FM-02"
+    ],
+    "context_tags": [
+      "fluids",
+      "pressure"
+    ]
+  },
+  {
+    "item_id": "F3-IB-03",
+    "node_id": "F3",
+    "prompt": "How can a thermal model be overextended?",
+    "task_type": "thermal_model_critique",
+    "answer_key": "It can be overextended when it ignores relevant conditions, process assumptions, or the limits of the simplified relation being used.",
+    "scorable_traits": [
+      "claim boundary",
+      "critique quality",
+      "physics reasoning"
+    ],
+    "target_failure_modes": [
+      "F3-FM-03",
+      "F3-FM-04"
+    ],
+    "context_tags": [
+      "thermal systems",
+      "model limits"
+    ]
+  }
+]

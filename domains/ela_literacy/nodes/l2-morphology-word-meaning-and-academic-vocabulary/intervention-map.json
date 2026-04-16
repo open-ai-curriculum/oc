@@ -1,0 +1,26 @@
+{
+  "node_id": "L2",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "L2-FM-01": [
+      "sentence-context meaning check",
+      "context comparison for target word",
+      "surrounding-clue identification"
+    ],
+    "L2-FM-02": [
+      "single-word-part meaning routine",
+      "word-family connection",
+      "prefix-suffix clue use"
+    ],
+    "L2-FM-03": [
+      "interpret-and-use pair task",
+      "sentence stem with target word",
+      "bounded expressive vocabulary use"
+    ],
+    "L2-FM-04": [
+      "changed-text vocabulary rotation",
+      "same semantic target across topics",
+      "novel context probes"
+    ]
+  }
+}

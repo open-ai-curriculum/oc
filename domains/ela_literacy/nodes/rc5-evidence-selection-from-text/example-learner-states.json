@@ -1,0 +1,26 @@
+[
+  {
+    "learner_id": "example-rc5-emerging",
+    "node_id": "RC5",
+    "status": "emerging",
+    "dependency_status": {
+      "RC4": "secure",
+      "O3": "secure"
+    },
+    "direct_accuracy": 0.76,
+    "explanation_status": "weak",
+    "transfer_status": "weak",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [
+      "RC5-FM-01",
+      "RC5-FM-02"
+    ],
+    "recommended_interventions": [
+      "tighten the task around answer so the target is more visible",
+      "keep the text or prompt surface small enough to isolate answer without evidence"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Learner shows emerging control on RC5 but still needs more stable transfer and explanation."
+  }
+]

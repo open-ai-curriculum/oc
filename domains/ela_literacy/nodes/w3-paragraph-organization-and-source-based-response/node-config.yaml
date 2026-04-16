@@ -1,0 +1,41 @@
+id: W3
+name: paragraph_organization_and_source_based_response
+domain: ela_literacy
+support_tier: Core release
+maturity_state: Superseded
+supported_profiles:
+- legacy-writing-or-analysis-node-package
+evidence_class: Synthetic
+dependencies:
+- W2
+- RC6
+mastery:
+  direct_accuracy_threshold: 0.85
+  explanation_required: true
+  transfer_required: true
+  retention_check_days: 14
+statuses:
+- blocked
+- emerging
+- provisional
+- secure
+- unstable
+verification_gates:
+- id: G1
+  type: direct_performance
+  pass_rule: produces an organized paragraph or bounded multi-sentence response in
+    at least 5 of 6 supported opportunities
+- id: G2
+  type: meaning
+  pass_rule: writing remains coherent and source-linked in at least 4 of 5 prompts
+- id: G3
+  type: transfer
+  pass_rule: succeeds across at least one changed text, prompt type, or response structure
+- id: G4
+  type: retention
+  pass_rule: stable delayed recheck after approximately 14 days
+failure_modes:
+- W3-FM-01
+- W3-FM-02
+- W3-FM-03
+- W3-FM-04

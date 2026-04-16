@@ -1,0 +1,26 @@
+{
+  "node_id": "Q2",
+  "version": "0.1",
+  "interventions": {
+    "Q2-FM-01": [
+      "sort example questions into checkable and not-checkable",
+      "ask what evidence could answer the question",
+      "rewrite one broad question into a bounded observational question"
+    ],
+    "Q2-FM-02": [
+      "require the learner to point to the observed clue before predicting",
+      "compare two predictions and ask which one matches the setup",
+      "use sentence frames such as I think this because I notice"
+    ],
+    "Q2-FM-03": [
+      "highlight repeated events on a chart or sequence strip",
+      "ask what happened again and again",
+      "use before-next comparisons to surface recurrence"
+    ],
+    "Q2-FM-04": [
+      "restate the focal phenomenon before asking for a question",
+      "narrow the prompt to one object event or variable",
+      "use a visible anchor such as our question is about this"
+    ]
+  }
+}

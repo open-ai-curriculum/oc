@@ -1,0 +1,40 @@
+[
+  {
+    "learner_id": "example-l5-secure",
+    "node_id": "L5",
+    "status": "secure",
+    "dependency_status": {
+      "L4": "secure",
+      "M4": "secure",
+      "E3": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Explains inheritance, selection, and regulation without teleological drift."
+  },
+  {
+    "learner_id": "example-l5-emerging",
+    "node_id": "L5",
+    "status": "emerging",
+    "dependency_status": {
+      "L4": "secure",
+      "M4": "secure",
+      "E3": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["L5-FM-01", "L5-FM-02"],
+    "recommended_interventions": ["L5-INT-01", "L5-INT-02"],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Explains inheritance and evolution with need-based or intentional language."
+  }
+]

@@ -1,0 +1,72 @@
+{
+  "node_id": "T1",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "T1-A-001",
+      "family": "weather_sky_and_materials",
+      "prompt": "Look outside and describe one thing you notice about today's weather.",
+      "target_node": "T1",
+      "secondary_dependency_targets": ["Q1"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation", "short_text"],
+      "dominant_failure_modes_if_incorrect": ["T1-FM-01", "T1-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "T1-A-002",
+      "family": "weather_sky_and_materials",
+      "prompt": "Compare the sand and the clay. Name one observable property that is different.",
+      "target_node": "T1",
+      "secondary_dependency_targets": ["Q1"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation", "selected_response"],
+      "dominant_failure_modes_if_incorrect": ["T1-FM-03", "T1-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "T1-B-001",
+      "family": "explanation",
+      "prompt": "Explain how the chart shows a pattern of sunny and cloudy days.",
+      "target_node": "T1",
+      "secondary_dependency_targets": ["E1"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["T1-FM-02", "T1-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "T1-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student says it will snow tomorrow because the clouds look angry. What should be checked about that explanation?",
+      "target_node": "T1",
+      "secondary_dependency_targets": ["E1"],
+      "difficulty_band": "core",
+      "response_modes_allowed": ["multiple_choice", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["T1-FM-02", "T1-FM-04"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "T1-D-001",
+      "family": "transfer",
+      "prompt": "Describe one sky pattern from daytime and one property of a local rock. Explain how both answers come from direct observation.",
+      "target_node": "T1",
+      "secondary_dependency_targets": ["Q1", "E1"],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": ["oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["T1-FM-01", "T1-FM-03"],
+      "requires_human_scoring": true
+    },
+    {
+      "item_id": "T1-R-001",
+      "family": "retention",
+      "prompt": "After time has passed, use a simple weather record to choose one repeated pattern and explain your choice.",
+      "target_node": "T1",
+      "secondary_dependency_targets": ["E1"],
+      "difficulty_band": "retention",
+      "response_modes_allowed": ["selected_response", "oral_explanation"],
+      "dominant_failure_modes_if_incorrect": ["T1-FM-02", "T1-FM-04"],
+      "requires_human_scoring": true
+    }
+  ]
+}

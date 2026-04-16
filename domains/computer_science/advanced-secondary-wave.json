@@ -1,0 +1,561 @@
+[
+  {
+    "id": "P4",
+    "slug": "p4-functions-modular-program-design-and-abstraction-boundaries",
+    "title": "P4 Functions, Modular Program Design, and Abstraction Boundaries",
+    "short": "computer science advanced secondary node for functions, modular program design, and abstraction boundaries",
+    "domainArea": "modular program design reasoning",
+    "supportedProfile": "computer-science-advanced-secondary-node-package",
+    "retentionDays": 35,
+    "deps": ["P3", "A2"],
+    "purpose": "The learner designs and reasons about programs using functions, parameters, and modular boundaries without treating reusable procedures as copied chunks whose interfaces can remain implicit.",
+    "exit": [
+      "defines bounded functions with explicit purpose, inputs, and outputs",
+      "explains how modular decomposition supports readability, testing, and reuse",
+      "reasons about function calls and abstraction boundaries without tracing every internal step when that detail is intentionally hidden",
+      "succeeds across more than one modular programming context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "separate a larger program into bounded functions with coherent responsibilities",
+      "use parameters and return values to communicate across parts of a program",
+      "explain what a function guarantees without collapsing interface and implementation",
+      "avoid creating modules whose boundaries are arbitrary or unstable"
+    ],
+    "failure": [
+      ["01", "copy-paste-procedure thinking", "learner treats functions as copied code blocks rather than as reusable procedures with explicit interfaces."],
+      ["02", "interface-implementation collapse", "learner cannot distinguish what a function promises from how it is internally implemented."],
+      ["03", "parameter-flow confusion", "learner loses track of how inputs and returned values move across program parts."],
+      ["04", "modular-transfer fragility", "learner can follow one familiar decomposition only and cannot adapt the same abstraction logic in a second bounded program."]
+    ],
+    "interventions": [
+      "interface-first design tasks that require naming each function's responsibility, inputs, and outputs before implementation",
+      "call-and-return trace routines that follow values through bounded function interactions",
+      "black-box versus white-box comparisons that separate interface reasoning from internal detail",
+      "paired redesign tasks that reapply one decomposition pattern in a second program context"
+    ],
+    "items": [
+      ["Why is a function more than just a chunk of copied code?", "function_abstraction_reasoning", "A function defines a reusable procedure with a clear purpose and interface, so it can be called reliably in more than one context.", ["abstraction", "reuse", "precision"], ["01"], ["functions", "modularity"]],
+      ["How is a function's interface different from its implementation?", "interface_boundary_reasoning", "The interface states what inputs, outputs, or behavior the function guarantees, while the implementation is the internal code used to achieve that result.", ["interface reasoning", "program design", "transfer"], ["02"], ["abstraction", "interfaces"]],
+      ["Why should you track parameters and returned values carefully?", "parameter_flow_reasoning", "Because modular programs depend on values moving correctly across function boundaries, and weak tracking breaks later reasoning or behavior.", ["value flow", "trace reasoning", "discipline"], ["03", "04"], ["parameters", "program behavior"]]
+    ],
+    "noteSecure": "Designs modular programs with explicit function interfaces and stable abstraction-boundary reasoning.",
+    "noteEmerging": "Can write separate functions but still confuses reuse, interface guarantees, and value flow across program parts."
+  },
+  {
+    "id": "P5",
+    "slug": "p5-structured-data-collections-and-programmed-data-operations",
+    "title": "P5 Structured Data, Collections, and Programmed Data Operations",
+    "short": "computer science advanced secondary node for structured data, collections, and programmed data operations",
+    "domainArea": "programmed data-structure reasoning",
+    "supportedProfile": "computer-science-advanced-secondary-node-package",
+    "retentionDays": 35,
+    "deps": ["P4", "R3"],
+    "purpose": "The learner uses arrays, lists, records, or similarly structured collections to organize and manipulate data in programs without treating collections as shapeless storage or operations as disconnected commands.",
+    "exit": [
+      "selects a bounded collection structure that matches a data-handling task",
+      "iterates over or transforms structured data with explicit reasoning about what each element represents",
+      "explains how collection operations change program state and output",
+      "succeeds across more than one programmed data-operation context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "store related values in a bounded structured collection rather than separate ad hoc variables",
+      "trace how iteration or data operations affect each element or record",
+      "connect a data structure choice to the shape of the task",
+      "avoid losing meaning about what stored fields or collection positions represent"
+    ],
+    "failure": [
+      ["01", "collection-as-bag thinking", "learner treats a collection as undifferentiated storage and does not track element meaning or structure."],
+      ["02", "iteration-state drift", "learner loses track of how a loop or data operation changes the collection over time."],
+      ["03", "structure-task mismatch", "learner chooses or uses a data structure without a bounded reason tied to the task."],
+      ["04", "data-operation transfer weakness", "learner can perform one familiar collection pattern only and cannot adapt it to a nearby data context."]
+    ],
+    "interventions": [
+      "collection-meaning routines that label what each position, key, or field stands for before any operation begins",
+      "stepwise iteration traces that record how the collection changes after each pass or update",
+      "structure-choice comparisons requiring a reason for selecting one bounded collection form over another",
+      "paired data-operation tasks that preserve the same pattern across a second dataset or collection type"
+    ],
+    "items": [
+      ["Why is a list or array stronger than a pile of unrelated variables for some tasks?", "collection_structure_reasoning", "A collection organizes related values under one bounded structure, making iteration and coordinated operations possible.", ["data structures", "program design", "precision"], ["01"], ["collections", "data"]],
+      ["What should you pay attention to while iterating through a collection?", "iteration_reasoning", "You should track what each element represents, how the operation uses it, and how the collection or output changes after each step.", ["iteration", "state tracking", "transfer"], ["02"], ["loops", "collections"]],
+      ["Why should a data structure choice match the task?", "structure_choice_reasoning", "Because different tasks need different ways of organizing and retrieving data, and the structure affects what operations are sensible and clear.", ["design choice", "bounded justification", "discipline"], ["03", "04"], ["data structures", "problem solving"]]
+    ],
+    "noteSecure": "Uses structured collections and data operations with stable element meaning, iteration tracking, and task-appropriate design choices.",
+    "noteEmerging": "Can manipulate lists or records but still treats data collections loosely and loses track of structured meaning."
+  },
+  {
+    "id": "P6",
+    "slug": "p6-object-oriented-and-multi-component-program-reasoning",
+    "title": "P6 Object-Oriented and Multi-Component Program Reasoning",
+    "short": "computer science advanced secondary node for object-oriented and multi-component program reasoning",
+    "domainArea": "multi-component software reasoning",
+    "supportedProfile": "computer-science-advanced-secondary-node-package",
+    "retentionDays": 42,
+    "deps": ["P5", "C3"],
+    "purpose": "The learner reasons about interacting classes, objects, and program components without reducing object-oriented programs to syntax memorization or isolated method calls.",
+    "exit": [
+      "explains the distinct role of classes, objects, state, and behavior in a bounded program",
+      "traces how more than one program component interacts through method calls or shared interfaces",
+      "uses object-oriented or component-based structure to organize a bounded solution intentionally",
+      "succeeds across more than one multi-component programming context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "distinguish a class definition from an object instance and its changing state",
+      "explain how one component invokes or depends on another in a bounded design",
+      "connect method behavior to object state rather than treating methods as detached commands",
+      "avoid flattening every object-oriented system into one long procedural trace"
+    ],
+    "failure": [
+      ["01", "class-object collapse", "learner confuses class definitions, object instances, and the state carried by a particular object."],
+      ["02", "method-without-state reasoning", "learner treats methods as detached actions without connecting them to object state or responsibilities."],
+      ["03", "component-interaction opacity", "learner cannot explain how bounded program components communicate or depend on one another."],
+      ["04", "oop-transfer fragility", "learner can imitate one familiar class pattern only and cannot adapt the same structure in a second bounded design."]
+    ],
+    "interventions": [
+      "class-versus-instance modeling tasks that compare definitions, objects, and per-object state explicitly",
+      "object-state trace tables that connect method calls to state changes across one or more components",
+      "component interaction diagrams showing which object or module is responsible for each bounded behavior",
+      "paired redesign tasks that transfer one class-and-object pattern into a second application context"
+    ],
+    "items": [
+      ["Why is a class not the same thing as an object?", "class_object_reasoning", "A class defines a blueprint or structure, while an object is a specific instance that can hold its own state and participate in program behavior.", ["object-oriented reasoning", "precision", "structure"], ["01"], ["classes", "objects"]],
+      ["Why should a method be interpreted with the object's state in mind?", "method_state_reasoning", "Because the method's effect often depends on or changes the object's current state, not just the method name alone.", ["stateful reasoning", "oop", "transfer"], ["02"], ["methods", "state"]],
+      ["What makes a multi-component program harder to reason about than one isolated procedure?", "component_interaction_reasoning", "You must track how bounded parts communicate, what each part is responsible for, and how changes in one component affect another.", ["systems thinking", "software structure", "discipline"], ["03", "04"], ["components", "program design"]]
+    ],
+    "noteSecure": "Explains classes, objects, and interacting components with stable state and responsibility reasoning.",
+    "noteEmerging": "Can write class-shaped code but still confuses instances, state, and cross-component interactions."
+  },
+  {
+    "id": "A3",
+    "slug": "a3-algorithm-analysis-tradeoffs-and-formalized-problem-solving",
+    "title": "A3 Algorithm Analysis, Tradeoffs, and Formalized Problem Solving",
+    "short": "computer science advanced secondary node for algorithm analysis, tradeoffs, and formalized problem solving",
+    "domainArea": "algorithm analysis reasoning",
+    "supportedProfile": "computer-science-advanced-secondary-node-package",
+    "retentionDays": 35,
+    "deps": ["A2", "P4"],
+    "purpose": "The learner compares algorithms using explicit tradeoffs, constraint-aware analysis, and more formalized problem framing without assuming that the first correct solution is automatically the best one.",
+    "exit": [
+      "analyzes two bounded algorithms using explicit performance or design criteria",
+      "explains a tradeoff among correctness, efficiency, readability, or resource use in a bounded case",
+      "formalizes a problem enough to justify why a given algorithmic approach fits",
+      "succeeds across more than one algorithm-analysis context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "compare bounded procedures using named criteria rather than vague preference",
+      "connect problem constraints to algorithm choice",
+      "explain why an algorithm can be preferable even when more than one approach is correct",
+      "avoid treating performance claims as self-evident without bounded analysis"
+    ],
+    "failure": [
+      ["01", "first-correct-is-best belief", "learner treats the first correct-looking algorithm as automatically optimal without comparison."],
+      ["02", "tradeoff-blind comparison", "learner compares algorithms without acknowledging what is gained or lost."],
+      ["03", "constraint-detached analysis", "learner analyzes procedures without connecting them to the formalized task constraints."],
+      ["04", "analysis-transfer weakness", "learner can compare one familiar pair of algorithms only and cannot adapt the same analytic structure to a second bounded problem."]
+    ],
+    "interventions": [
+      "algorithm-comparison matrices that require correctness, efficiency, clarity, and resource criteria to be named explicitly",
+      "tradeoff prompts asking what one bounded design gains and what it sacrifices",
+      "problem-framing tasks that restate input, output, and constraint conditions before comparing approaches",
+      "paired analysis work using the same comparison structure across a second algorithm family"
+    ],
+    "items": [
+      ["Why can a correct algorithm still be a weak choice for a problem?", "algorithm_tradeoff_reasoning", "Because correctness alone does not decide quality; efficiency, clarity, or resource constraints may make another algorithm more appropriate.", ["algorithm analysis", "tradeoffs", "precision"], ["01"], ["algorithms", "performance"]],
+      ["What does it mean to say an algorithm involves a tradeoff?", "tradeoff_reasoning", "It means the algorithm improves one bounded feature, such as speed or simplicity, while giving up something else, such as memory use or flexibility.", ["tradeoff analysis", "formal reasoning", "transfer"], ["02"], ["algorithms", "design"]],
+      ["Why should algorithm analysis stay tied to the actual problem constraints?", "constraint_analysis_reasoning", "Because the value of an algorithm depends on the task's input, output, and resource conditions, not on abstract preference alone.", ["constraint awareness", "problem solving", "discipline"], ["03", "04"], ["algorithms", "constraints"]]
+    ],
+    "noteSecure": "Analyzes bounded algorithms with explicit criteria, tradeoffs, and constraint-aware problem framing.",
+    "noteEmerging": "Can compare algorithms loosely but still defaults to preference or first-correct thinking rather than disciplined analysis."
+  },
+  {
+    "id": "R4",
+    "slug": "r4-data-pipelines-modeling-and-computational-inference",
+    "title": "R4 Data Pipelines, Modeling, and Computational Inference",
+    "short": "computer science advanced secondary node for data pipelines, modeling, and computational inference",
+    "domainArea": "data pipeline and inference reasoning",
+    "supportedProfile": "computer-science-advanced-secondary-node-package",
+    "retentionDays": 35,
+    "deps": ["R3", "P5"],
+    "purpose": "The learner reasons across data collection, cleaning, transformation, modeling, and inference steps without treating computed outputs as authoritative just because a pipeline produced them.",
+    "exit": [
+      "explains a bounded data pipeline from input through transformed output or model result",
+      "identifies how one stage of a pipeline can affect later interpretation or inference",
+      "interprets a simple computed result with reference to assumptions, limits, or data-quality conditions",
+      "succeeds across more than one pipeline or modeling context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "name the stages through which data passes in a bounded computational workflow",
+      "connect transformed or modeled output back to earlier processing decisions",
+      "distinguish a model-based inference from raw observed data",
+      "avoid overclaiming from computed outputs when data quality or assumptions are weak"
+    ],
+    "failure": [
+      ["01", "pipeline-opacity", "learner cannot account for how data moved or changed across a bounded pipeline."],
+      ["02", "output-as-truth belief", "learner treats computed output or modeled inference as authoritative without checking assumptions or transformations."],
+      ["03", "stage-disconnection", "learner reasons about data cleaning, transformation, or modeling as isolated steps rather than as linked stages."],
+      ["04", "inference-transfer fragility", "learner can explain one familiar pipeline only and cannot adapt the same reasoning to a nearby data workflow."]
+    ],
+    "interventions": [
+      "pipeline mapping routines that label each stage from input to interpreted output",
+      "before-and-after comparison tasks connecting one upstream data choice to one downstream inference effect",
+      "model-limit prompts requiring a statement about assumptions, missingness, or bounded uncertainty",
+      "paired pipeline analyses that preserve one workflow pattern across a second dataset or context"
+    ],
+    "items": [
+      ["Why is a data pipeline more than just one final chart or output?", "pipeline_reasoning", "A pipeline includes the sequence of collection, cleaning, transformation, and modeling steps that shape what the output means.", ["data pipelines", "process awareness", "precision"], ["01"], ["data", "models"]],
+      ["Why should you question a computed output before treating it as truth?", "inference_limit_reasoning", "Because the output depends on data quality, transformations, and modeling assumptions, so its meaning is bounded by those conditions.", ["inference", "claim boundary", "transfer"], ["02"], ["models", "evidence"]],
+      ["How can an early pipeline decision affect a later inference?", "stage_connection_reasoning", "A choice about what data to collect, clean, or transform can change what patterns are visible and what conclusions later seem justified.", ["causal pipeline reasoning", "data interpretation", "discipline"], ["03", "04"], ["pipelines", "inference"]]
+    ],
+    "noteSecure": "Explains data pipelines and computational inference with stable stage-linking and assumption-aware interpretation.",
+    "noteEmerging": "Can read outputs from a data workflow but still treats pipeline steps and model results too opaquely."
+  },
+  {
+    "id": "N4",
+    "slug": "n4-systems-architecture-resource-constraints-and-platform-layers",
+    "title": "N4 Systems Architecture, Resource Constraints, and Platform Layers",
+    "short": "computer science advanced secondary node for systems architecture, resource constraints, and platform layers",
+    "domainArea": "systems architecture reasoning",
+    "supportedProfile": "computer-science-advanced-secondary-node-package",
+    "retentionDays": 35,
+    "deps": ["N3", "P4"],
+    "purpose": "The learner reasons about layered computing systems, platform components, and resource constraints without treating software execution as if it occurs in a single undifferentiated machine layer.",
+    "exit": [
+      "explains a bounded system architecture using more than one platform layer or component",
+      "connects resource constraints such as time, memory, storage, or bandwidth to system behavior",
+      "distinguishes application-level behavior from lower-level platform or system services in a bounded case",
+      "succeeds across more than one systems-architecture context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "name at least two interacting layers or components in a bounded computing system",
+      "explain why resource limits matter for behavior or design choices",
+      "connect a program's behavior to the platform context in which it runs",
+      "avoid flattening interfaces, operating-system services, and hardware resources into one vague system description"
+    ],
+    "failure": [
+      ["01", "single-layer machine model", "learner treats the computing system as one undifferentiated box with no meaningful internal layers or services."],
+      ["02", "resource-constraint blindness", "learner ignores how time, memory, storage, or bandwidth limits affect system behavior."],
+      ["03", "platform-application collapse", "learner confuses application logic with underlying platform or operating-system responsibilities."],
+      ["04", "architecture-transfer weakness", "learner can explain one familiar stack only and cannot adapt the same layered reasoning to another bounded system."]
+    ],
+    "interventions": [
+      "layered architecture diagrams that require each bounded component or service to be named and related",
+      "resource-budget tasks comparing how one design changes under tighter time, memory, or bandwidth limits",
+      "application-versus-platform scenario sorts with explicit responsibility explanations",
+      "paired architecture analyses transferring the same layer-and-resource reasoning to a second system example"
+    ],
+    "items": [
+      ["Why is it weak to describe a computing system as just one machine doing everything?", "layered_system_reasoning", "Because real systems rely on bounded layers and services, and those distinctions matter for explaining behavior, failure, and design choices.", ["systems", "architecture", "precision"], ["01"], ["platforms", "layers"]],
+      ["How can resource constraints influence a system design?", "resource_constraint_reasoning", "They affect what the system can store, process, or transmit, so they shape which bounded design choices are practical.", ["resource reasoning", "systems", "transfer"], ["02"], ["memory", "performance"]],
+      ["Why should you distinguish application behavior from platform services?", "platform_service_reasoning", "Because different layers handle different responsibilities, and a strong explanation identifies where a bounded behavior is actually being supported.", ["responsibility reasoning", "architecture", "discipline"], ["03", "04"], ["operating systems", "applications"]]
+    ],
+    "noteSecure": "Explains layered system architecture and resource constraints with stable platform-responsibility reasoning.",
+    "noteEmerging": "Can name system parts but still reasons about software and platforms as one flattened machine."
+  },
+  {
+    "id": "N5",
+    "slug": "n5-cybersecurity-mechanisms-threat-models-and-defensive-reasoning",
+    "title": "N5 Cybersecurity Mechanisms, Threat Models, and Defensive Reasoning",
+    "short": "computer science advanced secondary node for cybersecurity mechanisms, threat models, and defensive reasoning",
+    "domainArea": "cybersecurity reasoning",
+    "supportedProfile": "computer-science-advanced-secondary-node-package",
+    "retentionDays": 42,
+    "deps": ["N4", "C3"],
+    "purpose": "The learner reasons about defensive mechanisms, likely threats, and security tradeoffs without reducing cybersecurity to a checklist of tools or slogans.",
+    "exit": [
+      "identifies a bounded threat model for a computing scenario",
+      "explains how one or more defensive mechanisms address the modeled threat",
+      "discusses at least one security tradeoff or limitation in a bounded case",
+      "succeeds across more than one cybersecurity reasoning context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "describe who or what the system is being protected from in a bounded scenario",
+      "connect a defensive mechanism to the specific threat it is intended to reduce",
+      "recognize that security controls can involve usability, cost, or performance tradeoffs",
+      "avoid naming tools without explaining what attack surface or risk they address"
+    ],
+    "failure": [
+      ["01", "tool-list security", "learner names security tools or practices without connecting them to a bounded threat model."],
+      ["02", "threat-mechanism mismatch", "learner cannot explain why a particular defensive mechanism fits the stated risk."],
+      ["03", "security-without-tradeoffs", "learner discusses security as if stronger controls never introduce bounded costs or constraints."],
+      ["04", "threat-model transfer weakness", "learner can analyze one familiar attack scenario only and cannot adapt the same reasoning to another bounded system."]
+    ],
+    "interventions": [
+      "threat-model templates that require assets, attacker goals, and likely vulnerabilities to be named explicitly",
+      "mechanism-to-risk mapping tasks pairing bounded attacks with defenses and explanations",
+      "security tradeoff prompts that compare protection gains with one cost in usability, performance, or maintenance",
+      "paired security analyses using the same threat-model structure in a second system context"
+    ],
+    "items": [
+      ["Why is a list of security tools not enough to explain cybersecurity?", "threat_model_reasoning", "Because cybersecurity reasoning must connect a protective mechanism to a specific bounded threat or vulnerability, not just name tools.", ["cybersecurity", "risk reasoning", "precision"], ["01"], ["security", "defense"]],
+      ["What does a threat model help you decide?", "defensive_fit_reasoning", "It helps identify what the system is being protected from so the chosen defenses match the actual risk rather than a generic fear.", ["threat modeling", "defense", "transfer"], ["02"], ["threats", "systems"]],
+      ["Why can a stronger security control still involve a tradeoff?", "security_tradeoff_reasoning", "Because added protection can also increase cost, complexity, friction, or resource use, so it must be justified in context.", ["tradeoffs", "security design", "discipline"], ["03", "04"], ["security", "constraints"]]
+    ],
+    "noteSecure": "Explains cybersecurity through explicit threat models, defensive fit, and bounded tradeoff reasoning.",
+    "noteEmerging": "Knows security vocabulary but still treats defenses as generic tools rather than threat-matched design choices."
+  },
+  {
+    "id": "C3",
+    "slug": "c3-specification-testing-and-program-quality-criteria",
+    "title": "C3 Specification, Testing, and Program Quality Criteria",
+    "short": "computer science advanced secondary node for specification, testing, and program quality criteria",
+    "domainArea": "software quality reasoning",
+    "supportedProfile": "computer-science-advanced-secondary-node-package",
+    "retentionDays": 35,
+    "deps": ["C2", "P4"],
+    "purpose": "The learner reasons from program specifications, designs purposeful tests, and evaluates program quality with explicit criteria without treating software quality as mere code execution success.",
+    "exit": [
+      "interprets a bounded specification and uses it to judge whether program behavior is acceptable",
+      "designs tests that check normal, edge, or failure-relevant cases intentionally",
+      "applies bounded quality criteria such as correctness, readability, robustness, or maintainability when evaluating a program",
+      "succeeds across more than one software-quality context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "state what a bounded program is required to do before judging whether it works",
+      "choose tests because they examine a specific feature, edge case, or expected failure mode",
+      "use named quality criteria rather than saying code is good because it runs once",
+      "avoid collapsing specification, implementation, and observed behavior into one unchecked claim"
+    ],
+    "failure": [
+      ["01", "runs-once-equals-correct belief", "learner treats one successful execution as sufficient evidence of software quality or correctness."],
+      ["02", "test-without-spec basis", "learner designs or interprets tests without anchoring them to a bounded specification."],
+      ["03", "quality-criterion absence", "learner judges code quality without naming what criterion is being applied."],
+      ["04", "spec-quality transfer weakness", "learner can reason about one familiar program only and cannot apply the same specification-and-testing structure elsewhere."]
+    ],
+    "interventions": [
+      "specification-first review routines that restate required behavior before code evaluation begins",
+      "test-design tasks that require each case to be justified against one normal, edge, or failure condition",
+      "quality-criterion comparison prompts using correctness, readability, robustness, and maintainability labels explicitly",
+      "paired program reviews applying the same specification-and-test reasoning in a second bounded code context"
+    ],
+    "items": [
+      ["Why is one successful run not enough to claim a program is correct?", "spec_testing_reasoning", "Because software quality must be judged against the bounded specification and multiple relevant cases, not one favorable execution.", ["testing", "quality", "precision"], ["01"], ["specifications", "tests"]],
+      ["Why should a test be tied to the specification?", "test_spec_alignment_reasoning", "The specification states what behavior is required, so tests need that basis in order to check whether the program is actually meeting its obligations.", ["spec alignment", "software reasoning", "transfer"], ["02"], ["requirements", "testing"]],
+      ["What does it add to name a quality criterion like robustness or readability?", "quality_criteria_reasoning", "It makes the evaluation disciplined by showing what bounded aspect of the program is being judged rather than relying on vague approval.", ["quality criteria", "software design", "discipline"], ["03", "04"], ["quality", "evaluation"]]
+    ],
+    "noteSecure": "Evaluates programs against specifications, purposeful tests, and explicit quality criteria.",
+    "noteEmerging": "Can run and debug programs but still treats quality and correctness too loosely."
+  },
+  {
+    "id": "C4",
+    "slug": "c4-refactoring-maintainability-and-collaborative-code-change",
+    "title": "C4 Refactoring, Maintainability, and Collaborative Code Change",
+    "short": "computer science advanced secondary node for refactoring, maintainability, and collaborative code change",
+    "domainArea": "maintainability and collaboration reasoning",
+    "supportedProfile": "computer-science-advanced-secondary-node-package",
+    "retentionDays": 42,
+    "deps": ["C3", "I3"],
+    "purpose": "The learner improves existing code for maintainability and participates in bounded collaborative change without treating modification as safe merely because behavior appears unchanged in one instance.",
+    "exit": [
+      "explains why a bounded refactor improves maintainability or clarity while preserving intended behavior",
+      "evaluates a code change with reference to collaboration, review, or versioned revision discipline",
+      "uses tests, specifications, or comparison evidence to justify a bounded code revision",
+      "succeeds across more than one refactoring or collaborative-change context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "identify duplication, complexity, naming, or structure issues that affect maintainability",
+      "describe how a revision should preserve required behavior while improving code quality",
+      "interpret code changes as collaborative artifacts that need justification and review",
+      "avoid treating cleanup as harmless when behavior preservation has not been checked"
+    ],
+    "failure": [
+      ["01", "cleanup-without-proof", "learner assumes a refactor is safe without checking behavior against tests or specifications."],
+      ["02", "maintainability-without-criteria", "learner says code is cleaner without naming what maintainability issue improved."],
+      ["03", "collaboration-discipline gap", "learner treats code changes as personal edits rather than shared work requiring reviewable reasoning."],
+      ["04", "refactor-transfer fragility", "learner can justify one familiar cleanup only and cannot adapt the same reasoning to another bounded codebase change."]
+    ],
+    "interventions": [
+      "before-and-after refactor analyses requiring one named maintainability improvement and one preserved behavior claim",
+      "behavior-preservation checks that pair a revision with bounded tests or specification references",
+      "code-review style prompts that require a change rationale suitable for collaborators",
+      "paired refactor tasks that reapply one maintainability pattern in a second bounded code example"
+    ],
+    "items": [
+      ["Why is a refactor not automatically safe just because the code looks cleaner?", "refactor_safety_reasoning", "Because maintainability improvements still need bounded evidence that intended behavior was preserved after the change.", ["refactoring", "software quality", "precision"], ["01"], ["refactoring", "testing"]],
+      ["What makes a maintainability claim disciplined rather than vague?", "maintainability_reasoning", "A disciplined claim names the specific issue improved, such as duplication, complexity, naming, or structure, rather than just saying the code is better.", ["maintainability", "quality criteria", "transfer"], ["02"], ["code quality", "design"]],
+      ["Why does collaborative code change require more than a private edit?", "collaboration_change_reasoning", "Because shared codebases require reasons, evidence, and reviewable explanations so other contributors can understand and evaluate the bounded change.", ["collaboration", "revision discipline", "discipline"], ["03", "04"], ["collaboration", "version control"]]
+    ],
+    "noteSecure": "Justifies refactoring and collaborative code changes with maintainability criteria and behavior-preservation evidence.",
+    "noteEmerging": "Can revise existing code but still treats maintainability and collaboration too informally."
+  },
+  {
+    "id": "I4",
+    "slug": "i4-ethics-governance-and-societal-consequences-of-computing-systems",
+    "title": "I4 Ethics, Governance, and Societal Consequences of Computing Systems",
+    "short": "computer science advanced secondary node for ethics, governance, and societal consequences of computing systems",
+    "domainArea": "computing ethics and governance reasoning",
+    "supportedProfile": "computer-science-advanced-secondary-node-package",
+    "retentionDays": 35,
+    "deps": ["I3", "N4"],
+    "purpose": "The learner reasons about governance, accountability, and the societal consequences of computing systems without reducing ethics to personal opinion or slogan-level concern.",
+    "exit": [
+      "analyzes a bounded computing scenario using explicit stakeholders, harms, benefits, and governance considerations",
+      "explains why technical system design choices can carry social and policy consequences",
+      "distinguishes ethical evaluation from pure preference by using stated criteria or accountability structures",
+      "succeeds across more than one computing-ethics context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "identify who is affected by a bounded computing system and in what ways",
+      "connect a technical design or deployment choice to downstream social consequences",
+      "name a governance, accountability, or oversight mechanism relevant to the case",
+      "avoid collapsing ethical analysis into unsupported personal reaction alone"
+    ],
+    "failure": [
+      ["01", "ethics-as-opinion only", "learner treats computing ethics as personal feeling without explicit criteria, stakeholders, or accountability reasoning."],
+      ["02", "technical-social disconnect", "learner discusses social impact without connecting it to a bounded technical system choice."],
+      ["03", "governance-opacity", "learner cannot explain what kind of review, policy, or oversight might matter in the scenario."],
+      ["04", "ethics-transfer weakness", "learner can analyze one familiar computing-impact case only and cannot adapt the same structure to another bounded system."]
+    ],
+    "interventions": [
+      "stakeholder-impact mapping routines that require harms, benefits, and affected groups to be named explicitly",
+      "technical-choice-to-social-consequence prompts tying one bounded design decision to one downstream effect",
+      "governance scenario analyses comparing policy, review, and accountability mechanisms",
+      "paired ethics cases using the same stakeholder-and-governance structure in a second computing context"
+    ],
+    "items": [
+      ["Why is computing ethics weaker when treated as personal opinion alone?", "ethics_reasoning", "Because disciplined ethical analysis should use stakeholders, consequences, and accountability criteria rather than unsupported preference only.", ["ethics", "stakeholders", "precision"], ["01"], ["ethics", "society"]],
+      ["How can a technical system choice create a social consequence?", "technical_social_reasoning", "A bounded design or deployment choice can change who is affected, what risks appear, or how decisions are made in the real world.", ["systems impact", "cause-effect", "transfer"], ["02"], ["technology", "impact"]],
+      ["Why does governance matter for computing systems?", "governance_reasoning", "Governance establishes how systems are reviewed, constrained, and held accountable when their effects extend beyond one private user or developer.", ["governance", "accountability", "discipline"], ["03", "04"], ["policy", "computing systems"]]
+    ],
+    "noteSecure": "Analyzes computing ethics with explicit stakeholder, governance, and consequence reasoning.",
+    "noteEmerging": "Can discuss impacts and bias but still handles governance and ethics too loosely or impressionistically."
+  },
+  {
+    "id": "X1",
+    "slug": "x1-ap-csp-integrated-computing-systems-data-and-impacts-synthesis",
+    "title": "X1 AP CSP Integrated Computing Systems, Data, and Impacts Synthesis",
+    "short": "computer science advanced secondary node for AP CSP integrated computing systems, data, and impacts synthesis",
+    "domainArea": "integrated AP CSP reasoning",
+    "supportedProfile": "computer-science-ap-node-package",
+    "retentionDays": 42,
+    "deps": ["P4", "A3", "R4", "I4"],
+    "purpose": "The learner synthesizes programming, data, systems, and impact reasoning in an AP Computer Science Principles style without treating the course as disconnected topic coverage.",
+    "exit": [
+      "integrates bounded programming, data, system, and impact claims in a coherent computing explanation",
+      "explains how technical and societal dimensions interact in a bounded AP CSP style scenario",
+      "uses computational artifact or process reasoning with explicit abstraction and data-system awareness",
+      "succeeds across more than one AP CSP style synthesis context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "connect program behavior, data processing, and system context in one bounded explanation",
+      "interpret computing impacts with reference to technical mechanisms rather than broad claims alone",
+      "reason across abstractions instead of treating data, code, and social effects as separate silos",
+      "avoid AP-style topic recitation without integrated causal structure"
+    ],
+    "failure": [
+      ["01", "topic-silo AP reasoning", "learner treats programming, data, systems, and impacts as separate talking points rather than one integrated computing account."],
+      ["02", "technical-impact disconnect", "learner cannot connect a bounded technical mechanism to a social or policy implication."],
+      ["03", "artifact-without-abstraction", "learner describes a computational artifact without explaining the abstraction, data, or system ideas that support it."],
+      ["04", "csp-synthesis transfer weakness", "learner can synthesize one familiar AP CSP case only and cannot adapt the same integration to another bounded scenario."]
+    ],
+    "interventions": [
+      "integrated case analyses that require code, data, system, and impact elements to be linked explicitly",
+      "technical-mechanism-to-impact prompts pairing one bounded implementation detail with one downstream consequence",
+      "artifact explanation routines that require abstraction, data, and system references together",
+      "paired AP CSP synthesis tasks using the same integration structure in a second scenario"
+    ],
+    "items": [
+      ["Why is AP CSP understanding weaker when topics are kept in separate silos?", "csp_integration_reasoning", "Because computing systems work through interacting abstractions, data processes, technical mechanisms, and impacts, so strong reasoning must connect them.", ["AP CSP", "integration", "precision"], ["01"], ["ap", "synthesis"]],
+      ["How can a technical computing choice relate to a social consequence in AP CSP style reasoning?", "csp_impact_reasoning", "A bounded technical choice affects what data is collected, how a system behaves, or who is affected, which can create downstream social implications.", ["technical-social integration", "transfer", "causal reasoning"], ["02"], ["impacts", "systems"]],
+      ["What should you explain about a computational artifact besides what it does?", "artifact_abstraction_reasoning", "You should explain the abstraction, data handling, and system context that make the artifact possible, not just its visible output.", ["artifacts", "abstraction", "discipline"], ["03", "04"], ["computational artifacts", "AP CSP"]]
+    ],
+    "noteSecure": "Synthesizes AP CSP style programming, data, systems, and impact reasoning into coherent integrated explanations.",
+    "noteEmerging": "Knows the topic areas but still handles AP CSP content as disconnected coverage."
+  },
+  {
+    "id": "X2",
+    "slug": "x2-ap-csa-program-design-objects-and-algorithmic-implementation",
+    "title": "X2 AP CSA Program Design, Objects, and Algorithmic Implementation",
+    "short": "computer science advanced secondary node for AP CSA program design, objects, and algorithmic implementation",
+    "domainArea": "integrated AP CSA reasoning",
+    "supportedProfile": "computer-science-ap-node-package",
+    "retentionDays": 42,
+    "deps": ["P6", "A3", "C4"],
+    "purpose": "The learner synthesizes object-oriented design, algorithms, and code-quality reasoning in an AP Computer Science A style pathway without reducing the course to syntax drills.",
+    "exit": [
+      "designs or explains bounded object-oriented program structure using algorithmic reasoning and code-quality criteria together",
+      "connects class design, method behavior, and algorithmic implementation in a coherent AP CSA style explanation",
+      "evaluates program revisions or implementations with reference to specification, maintainability, and object behavior",
+      "succeeds across more than one AP CSA style synthesis context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "reason across classes, methods, objects, and algorithms in one bounded program explanation",
+      "apply object-oriented design and algorithm tradeoff thinking together",
+      "use testing or maintainability evidence when judging an implementation",
+      "avoid treating AP CSA mastery as isolated Java syntax recall"
+    ],
+    "failure": [
+      ["01", "syntax-first AP reasoning", "learner treats AP CSA as syntax or API memorization without integrated design and algorithm reasoning."],
+      ["02", "object-algorithm disconnect", "learner cannot connect class design and object behavior to the algorithm being implemented."],
+      ["03", "quality-blind implementation", "learner discusses a solution without using specification, testing, or maintainability criteria."],
+      ["04", "csa-synthesis transfer weakness", "learner can explain one familiar AP CSA pattern only and cannot adapt the same integrated reasoning to another bounded program."]
+    ],
+    "interventions": [
+      "program-design analyses that require classes, methods, algorithms, and quality criteria to be named together",
+      "object-and-algorithm walkthroughs connecting method structure to bounded algorithmic intent",
+      "implementation review prompts using specification, testing, and maintainability evidence explicitly",
+      "paired AP CSA synthesis tasks that reapply the same integrated reasoning in a second program context"
+    ],
+    "items": [
+      ["Why is AP CSA understanding weaker when it is reduced to syntax memorization?", "csa_design_reasoning", "Because strong AP CSA reasoning integrates object design, algorithmic implementation, and code-quality judgment rather than isolated language recall.", ["AP CSA", "program design", "precision"], ["01"], ["ap", "objects"]],
+      ["How should class design connect to algorithmic implementation?", "object_algorithm_reasoning", "The classes and methods should organize the responsibilities needed to carry out the bounded algorithm, not sit beside it as unrelated structure.", ["oop", "algorithms", "transfer"], ["02"], ["classes", "algorithms"]],
+      ["Why should an AP CSA implementation be judged with testing or maintainability criteria too?", "csa_quality_reasoning", "Because correct-looking code still needs bounded evidence of specification fit and quality if it is to be trusted as a sound implementation.", ["software quality", "evaluation", "discipline"], ["03", "04"], ["testing", "maintainability"]]
+    ],
+    "noteSecure": "Synthesizes AP CSA style object design, algorithms, and quality reasoning in coherent bounded program analysis.",
+    "noteEmerging": "Can write class-based code but still treats AP CSA too much as syntax rather than integrated design and implementation."
+  },
+  {
+    "id": "X3",
+    "slug": "x3-advanced-computing-projects-capstone-design-and-cross-domain-application",
+    "title": "X3 Advanced Computing Projects, Capstone Design, and Cross-Domain Application",
+    "short": "computer science advanced secondary node for advanced computing projects, capstone design, and cross-domain application",
+    "domainArea": "capstone computing synthesis reasoning",
+    "supportedProfile": "computer-science-capstone-node-package",
+    "retentionDays": 45,
+    "deps": ["X1", "X2", "N5", "C4"],
+    "purpose": "The learner integrates programming, systems, data, security, and collaborative design in advanced computing projects without treating capstone work as an unguided build-only experience.",
+    "exit": [
+      "frames a bounded advanced computing project with explicit requirements, constraints, and stakeholder or domain context",
+      "integrates software design, data or system reasoning, quality checks, and security or ethical considerations in one bounded project account",
+      "justifies project decisions using cross-domain evidence rather than feature accumulation alone",
+      "succeeds across more than one advanced or capstone-style project reasoning context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "connect technical architecture, project goals, and stakeholder needs in a bounded design",
+      "use quality, security, and maintainability reasoning while discussing project choices",
+      "show how computer science knowledge can be applied in another domain or authentic context without losing technical rigor",
+      "avoid treating a larger project as validated merely because it has many features"
+    ],
+    "failure": [
+      ["01", "feature-count-as-capstone", "learner treats a large set of features as evidence of project quality without bounded design or verification reasoning."],
+      ["02", "cross-domain-without-cs rigor", "learner discusses an applied project context without maintaining explicit computer science design, data, system, or quality reasoning."],
+      ["03", "project-constraint opacity", "learner cannot explain the bounded requirements, constraints, or stakeholder conditions shaping the project."],
+      ["04", "capstone-transfer weakness", "learner can reason through one familiar project only and cannot adapt the same synthesis structure to another bounded advanced context."]
+    ],
+    "interventions": [
+      "project-framing templates requiring requirements, constraints, users, and success criteria to be named explicitly",
+      "design-review routines that force architecture, quality, security, and ethical considerations into one bounded project account",
+      "cross-domain application prompts asking what remains distinctly computer-science about an applied project",
+      "paired capstone analyses transferring the same synthesis structure to a second advanced project scenario"
+    ],
+    "items": [
+      ["Why is a capstone project not validated just because it has many features?", "capstone_quality_reasoning", "Because a strong project still needs bounded requirements, design reasoning, verification, and quality evidence rather than feature count alone.", ["capstone", "project quality", "precision"], ["01"], ["projects", "verification"]],
+      ["What makes a cross-domain computing project still meaningfully computer science?", "cross_domain_reasoning", "It preserves explicit reasoning about software, data, systems, security, or quality while applying those ideas in another bounded domain context.", ["cross-domain application", "computer science identity", "transfer"], ["02"], ["applications", "domains"]],
+      ["Why should constraints and stakeholders be explicit in an advanced computing project?", "project_constraint_reasoning", "They shape what the project is trying to accomplish, what tradeoffs are acceptable, and how the technical design should be judged.", ["project framing", "stakeholders", "discipline"], ["03", "04"], ["capstone", "design"]]
+    ],
+    "noteSecure": "Integrates advanced computing project reasoning across requirements, architecture, quality, security, and cross-domain application.",
+    "noteEmerging": "Can describe ambitious projects but still handles capstone reasoning too loosely or feature-first."
+  }
+]

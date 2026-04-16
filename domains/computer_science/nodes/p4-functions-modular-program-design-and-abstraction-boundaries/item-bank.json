@@ -1,0 +1,250 @@
+{
+  "node_id": "P4",
+  "policy_version": "1.0",
+  "version": "0.4",
+  "items": [
+    {
+      "item_id": "P4-DIR-001",
+      "node_id": "P4",
+      "item_family": "direct_execution",
+      "prompt": "A robot on a grid must reach a target square without hitting an obstacle. Write or describe the bounded program steps needed to separate a larger program into bounded functions with coherent responsibilities.",
+      "expected_evidence": "separate a larger program into bounded functions with coherent responsibilities",
+      "dominant_failure_mode_targets": [
+        "P4-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates separate a larger program into bounded functions with coherent responsibilities with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "P4-DIR-002",
+      "node_id": "P4",
+      "item_family": "direct_execution",
+      "prompt": "A small interactive game needs a button press to trigger an action, or a repeated movement to continue until a goal is reached. Show how the learner would use parameters and return values to communicate across parts of a program.",
+      "expected_evidence": "use parameters and return values to communicate across parts of a program",
+      "dominant_failure_mode_targets": [
+        "P4-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates use parameters and return values to communicate across parts of a program with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "P4-DIR-003",
+      "node_id": "P4",
+      "item_family": "direct_execution",
+      "prompt": "A short program is split into parts that pass values, repeat work, or update state. Trace the program and show how the learner would explain what a function guarantees without collapsing interface and implementation.",
+      "expected_evidence": "explain what a function guarantees without collapsing interface and implementation",
+      "dominant_failure_mode_targets": [
+        "P4-FM-03"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates explain what a function guarantees without collapsing interface and implementation with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "P4-EXP-001",
+      "node_id": "P4",
+      "item_family": "explanation",
+      "prompt": "Why is a function more than just a chunk of copied code?",
+      "expected_evidence": "a function defines a reusable procedure with a clear purpose and interface, so it can be called reliably in more than one context.",
+      "dominant_failure_mode_targets": [
+        "P4-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to a function defines a reusable procedure with a clear purpose and interface, so it can be called reliably in more than one context."
+    },
+    {
+      "item_id": "P4-EXP-002",
+      "node_id": "P4",
+      "item_family": "explanation",
+      "prompt": "How is a function's interface different from its implementation?",
+      "expected_evidence": "the interface states what inputs, outputs, or behavior the function guarantees, while the implementation is the internal code used to achieve that result.",
+      "dominant_failure_mode_targets": [
+        "P4-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to the interface states what inputs, outputs, or behavior the function guarantees, while the implementation is the internal code used to achieve that result."
+    },
+    {
+      "item_id": "P4-ERR-001",
+      "node_id": "P4",
+      "item_family": "error_diagnosis",
+      "prompt": "A learner response in functions, modular program design, and abstraction boundaries suggests this breakdown: learner treats functions as copied code blocks rather than as reusable procedures with explicit interfaces. Diagnose the likely misconception or structural error. Focus on copy-paste-procedure thinking.",
+      "expected_evidence": "separate a larger program into bounded functions with coherent responsibilities",
+      "dominant_failure_mode_targets": [
+        "P4-FM-01"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward separate a larger program into bounded functions with coherent responsibilities."
+    },
+    {
+      "item_id": "P4-ERR-002",
+      "node_id": "P4",
+      "item_family": "error_diagnosis",
+      "prompt": "A learner response in functions, modular program design, and abstraction boundaries suggests this breakdown: learner cannot distinguish what a function promises from how it is internally implemented. Diagnose the likely misconception or structural error. Focus on interface-implementation collapse.",
+      "expected_evidence": "use parameters and return values to communicate across parts of a program",
+      "dominant_failure_mode_targets": [
+        "P4-FM-02"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward use parameters and return values to communicate across parts of a program."
+    },
+    {
+      "item_id": "P4-TRA-001",
+      "node_id": "P4",
+      "item_family": "transfer",
+      "prompt": "A learner who used blocks now has to reason through the same programming idea in a text-based example. Explain how they would explain what a function guarantees without collapsing interface and implementation in the changed representation.",
+      "expected_evidence": "explain what a function guarantees without collapsing interface and implementation",
+      "dominant_failure_mode_targets": [
+        "P4-FM-03"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves explain what a function guarantees without collapsing interface and implementation in a changed computing context or representation."
+    },
+    {
+      "item_id": "P4-TRA-002",
+      "node_id": "P4",
+      "item_family": "transfer",
+      "prompt": "A classroom app changes from a game context to a data-processing context, but the same underlying programming structure still matters. Show how the learner would avoid creating modules whose boundaries are arbitrary or unstable.",
+      "expected_evidence": "avoid creating modules whose boundaries are arbitrary or unstable",
+      "dominant_failure_mode_targets": [
+        "P4-FM-04"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves avoid creating modules whose boundaries are arbitrary or unstable in a changed computing context or representation."
+    },
+    {
+      "item_id": "P4-RET-001",
+      "node_id": "P4",
+      "item_family": "retention",
+      "prompt": "After a delay, the learner revisits a bounded program and must explain the result of one function call, loop, event, or state change. Show how they would separate a larger program into bounded functions with coherent responsibilities.",
+      "expected_evidence": "separate a larger program into bounded functions with coherent responsibilities",
+      "dominant_failure_mode_targets": [
+        "P4-FM-04"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_explanation",
+        "constructed_response"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability",
+      "scoring_guidance": "Meets when the learner still demonstrates separate a larger program into bounded functions with coherent responsibilities on a delayed recheck without a blocking recurrence."
+    },
+    {
+      "item_id": "P4-PRE-001",
+      "node_id": "P4",
+      "item_family": "prerequisite_probe",
+      "prompt": "Before closing functions, modular program design, and abstraction boundaries, run a short check on variables, conditionals, and stateful program behavior using a bounded programming task and determine whether the current error is really an upstream dependency issue.",
+      "expected_evidence": "shows whether variables, conditionals, and stateful program behavior is secure enough to support functions, modular program design, and abstraction boundaries",
+      "dominant_failure_mode_targets": [
+        "P4-FM-01"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in variables, conditionals, and stateful program behavior from a current-node issue in functions, modular program design, and abstraction boundaries.",
+      "dependency_target": "P3",
+      "suspected_knowledge_gap_if_incorrect": "variables, conditionals, and stateful program behavior"
+    },
+    {
+      "item_id": "P4-PRE-002",
+      "node_id": "P4",
+      "item_family": "prerequisite_probe",
+      "prompt": "Before closing functions, modular program design, and abstraction boundaries, run a short check on algorithm design, efficiency awareness, and decomposition discipline using a bounded programming task and determine whether the current error is really an upstream dependency issue.",
+      "expected_evidence": "shows whether algorithm design, efficiency awareness, and decomposition discipline is secure enough to support functions, modular program design, and abstraction boundaries",
+      "dominant_failure_mode_targets": [
+        "P4-FM-02"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in algorithm design, efficiency awareness, and decomposition discipline from a current-node issue in functions, modular program design, and abstraction boundaries.",
+      "dependency_target": "A2",
+      "suspected_knowledge_gap_if_incorrect": "algorithm design, efficiency awareness, and decomposition discipline"
+    }
+  ]
+}

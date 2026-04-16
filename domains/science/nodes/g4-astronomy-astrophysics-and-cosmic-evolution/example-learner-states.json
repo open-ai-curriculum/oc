@@ -1,0 +1,46 @@
+[
+  {
+    "learner_id": "example-g4-secure",
+    "node_id": "G4",
+    "status": "secure",
+    "dependency_status": {
+      "T6": "secure",
+      "M5": "secure",
+      "E4": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Explains astronomy through model-based inference and bounded physical reasoning."
+  },
+  {
+    "learner_id": "example-g4-emerging",
+    "node_id": "G4",
+    "status": "emerging",
+    "dependency_status": {
+      "T6": "secure",
+      "M5": "secure",
+      "E4": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [
+      "G4-FM-01",
+      "G4-FM-02"
+    ],
+    "recommended_interventions": [
+      "G4-INT-01",
+      "G4-INT-02"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Recognizes astronomy content but explanations remain descriptive and overly certain."
+  }
+]

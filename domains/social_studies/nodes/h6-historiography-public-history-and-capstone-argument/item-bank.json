@@ -1,0 +1,16 @@
+{
+  "node_id": "H6",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "H6-G1-01",
+      "node_id": "H6",
+      "gate": "G1",
+      "prompt": "Compare two historical interpretations or public-history framings of the same issue and build a capstone historical argument for a specific audience.",
+      "source_type": "interpretation_pair_or_public_history_set",
+      "response_mode": "oral_or_written_or_annotated",
+      "scoring_rule": "Compares interpretations plausibly, uses evidence to defend a historiographic position, and adapts the historical argument to the stated audience or public medium.",
+      "failure_mode_targets": ["H6-FM-01", "H6-FM-02"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "node_id": "A1",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "A1-FM-01": [
+      "summary-versus-rhetorical-analysis contrast",
+      "one-move one-effect frame",
+      "bounded passage rhetorical focus"
+    ],
+    "A1-FM-02": [
+      "rhetorical choice to effect prompt",
+      "compare-two-rhetorical-effects task",
+      "reduced feature-load analysis"
+    ],
+    "A1-FM-03": [
+      "claims-perspectives-evidence mapping",
+      "preserve-source-differences routine",
+      "single-focus complex synthesis task"
+    ],
+    "A1-FM-04": [
+      "changed rhetorical situation rotation",
+      "gradual complexity shift",
+      "stable advanced-analysis frame across sources"
+    ]
+  }
+}

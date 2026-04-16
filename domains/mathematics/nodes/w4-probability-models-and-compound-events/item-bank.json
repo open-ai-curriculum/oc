@@ -1,37 +1,140 @@
 {
   "node_id": "W4",
+  "policy_version": "1.0",
   "items": [
     {
-      "item_id": "W4-A1",
-      "item_family": "direct",
-      "prompt": "computes simple and compound probabilities and uses organized models to solve bounded chance problems",
+      "item_id": "W4-DIR-001",
+      "node_id": "W4",
+      "item_family": "direct_execution",
+      "prompt": "A spinner has 4 equal red sections, 3 blue sections, and 1 green section. Find the probability of blue or green.",
       "expected_evidence": "compute and interpret probabilities for simple and compound events in bounded sample spaces",
       "dominant_failure_mode": "sample_space_model_fragmentation",
-      "scoring_guidance": "Meets when the learner builds a correct event model and computes probabilities consistent with that structure."
+      "scoring_guidance": "Meets when the learner demonstrates compute and interpret probabilities for simple and compound events in bounded sample spaces with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "W4-B1",
-      "item_family": "explanation",
-      "prompt": "explains how event structure, independence, and conditioning affect the probability of a compound event",
-      "expected_evidence": "explain independence, dependence, and introductory conditional probability in context",
+      "item_id": "W4-DIR-002",
+      "node_id": "W4",
+      "item_family": "direct_execution",
+      "prompt": "Draw or describe the sample space for flipping a coin and rolling a number cube, then find the probability of heads and an even number.",
+      "expected_evidence": "represent compound events with organized models such as tables, trees, or set diagrams",
       "dominant_failure_mode": "independence_conditioning_opacity",
-      "scoring_guidance": "Meets when the learner explains why the probability rule fits the event structure, not just the final number."
+      "scoring_guidance": "Meets when the learner demonstrates represent compound events with organized models such as tables, trees, or set diagrams with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "W4-C1",
-      "item_family": "error_diagnosis",
-      "prompt": "Diagnose a peer error aligned to overlap_double_counting.",
+      "item_id": "W4-DIR-003",
+      "node_id": "W4",
+      "item_family": "direct_execution",
+      "prompt": "A bag contains 5 red marbles and 3 yellow marbles. Find the probability of not drawing yellow.",
+      "expected_evidence": "explain independence, dependence, and introductory conditional probability in context",
+      "dominant_failure_mode": "overlap_double_counting",
+      "scoring_guidance": "Meets when the learner demonstrates explain independence, dependence, and introductory conditional probability in context with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
+    },
+    {
+      "item_id": "W4-EXP-001",
+      "node_id": "W4",
+      "item_family": "explanation",
+      "prompt": "Explain why probabilities for all outcomes in a sample space must total 1.",
+      "expected_evidence": "compute and interpret probabilities for simple and compound events in bounded sample spaces",
+      "dominant_failure_mode": "independence_conditioning_opacity",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to compute and interpret probabilities for simple and compound events in bounded sample spaces.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "W4-EXP-002",
+      "node_id": "W4",
+      "item_family": "explanation",
+      "prompt": "Explain the difference between independent events and overlapping events in a probability model.",
       "expected_evidence": "represent compound events with organized models such as tables, trees, or set diagrams",
       "dominant_failure_mode": "overlap_double_counting",
-      "scoring_guidance": "Meets when the learner identifies where overlapping outcomes were counted incorrectly or events were modeled inconsistently."
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to represent compound events with organized models such as tables, trees, or set diagrams.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
     },
     {
-      "item_id": "W4-D1",
+      "item_id": "W4-ERR-001",
+      "node_id": "W4",
+      "item_family": "error_diagnosis",
+      "prompt": "A student adds probabilities for two overlapping events as if they were disjoint. Diagnose the double-counting error. Focus on sample space model fragmentation.",
+      "expected_evidence": "compute and interpret probabilities for simple and compound events in bounded sample spaces",
+      "dominant_failure_mode": "sample_space_model_fragmentation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward compute and interpret probabilities for simple and compound events in bounded sample spaces.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "W4-ERR-002",
+      "node_id": "W4",
+      "item_family": "error_diagnosis",
+      "prompt": "A student says experimental results must match theoretical probability exactly after only 8 trials. Explain the reasoning error. Focus on independence conditioning opacity.",
+      "expected_evidence": "represent compound events with organized models such as tables, trees, or set diagrams",
+      "dominant_failure_mode": "independence_conditioning_opacity",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward represent compound events with organized models such as tables, trees, or set diagrams.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "W4-TRA-001",
+      "node_id": "W4",
       "item_family": "transfer",
-      "prompt": "compares experimental and theoretical probabilities in a less-familiar repeated-trials context and judges whether the variation is plausible",
-      "expected_evidence": "compare experimental results to theoretical models and explain variation without overreacting to short-run noise",
+      "prompt": "Use a tree diagram, table, or simulation summary to justify the probability of a compound event in a less-familiar context.",
+      "expected_evidence": "compute and interpret probabilities for simple and compound events in bounded sample spaces",
+      "dominant_failure_mode": "overlap_double_counting",
+      "scoring_guidance": "Meets when the learner preserves compute and interpret probabilities for simple and compound events in bounded sample spaces in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "W4-TRA-002",
+      "node_id": "W4",
+      "item_family": "transfer",
+      "prompt": "Given an experimental probability result, compare it to the theoretical probability and decide whether the difference is plausible.",
+      "expected_evidence": "represent compound events with organized models such as tables, trees, or set diagrams",
       "dominant_failure_mode": "short_run_variation_overreaction",
-      "scoring_guidance": "Meets when the learner preserves model meaning while interpreting trial-to-trial variation realistically."
+      "scoring_guidance": "Meets when the learner preserves represent compound events with organized models such as tables, trees, or set diagrams in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "W4-RET-001",
+      "node_id": "W4",
+      "item_family": "retention",
+      "prompt": "After a delay, model a new compound-event situation and justify the probability calculation from the sample space.",
+      "expected_evidence": "compute and interpret probabilities for simple and compound events in bounded sample spaces",
+      "dominant_failure_mode": "short_run_variation_overreaction",
+      "scoring_guidance": "Meets when the learner still demonstrates compute and interpret probabilities for simple and compound events in bounded sample spaces on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "W4-PRE-001",
+      "node_id": "W4",
+      "item_family": "prerequisite_probe",
+      "prompt": "Run a prerequisite check on line plots and measurement data to determine whether the reported error reflects upstream representation limits or current probability models and compound events reasoning.",
+      "expected_evidence": "shows whether line plots and measurement data is secure enough to support probability models and compound events",
+      "dominant_failure_mode": "independence_conditioning_opacity",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in line plots and measurement data from a current-node issue in probability models and compound events.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "D6",
+      "suspected_knowledge_gap_if_incorrect": "line plots and measurement data"
+    },
+    {
+      "item_id": "W4-PRE-002",
+      "node_id": "W4",
+      "item_family": "prerequisite_probe",
+      "prompt": "Run a prerequisite check on equivalent fractions to determine whether the reported error reflects upstream representation limits or current probability models and compound events reasoning.",
+      "expected_evidence": "shows whether equivalent fractions is secure enough to support probability models and compound events",
+      "dominant_failure_mode": "overlap_double_counting",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in equivalent fractions from a current-node issue in probability models and compound events.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "F2",
+      "suspected_knowledge_gap_if_incorrect": "equivalent fractions"
     }
   ]
 }

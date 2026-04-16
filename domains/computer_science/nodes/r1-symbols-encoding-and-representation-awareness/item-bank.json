@@ -1,0 +1,228 @@
+{
+  "node_id": "R1",
+  "policy_version": "1.0",
+  "version": "0.4",
+  "items": [
+    {
+      "item_id": "R1-DIR-001",
+      "node_id": "R1",
+      "item_family": "direct_execution",
+      "prompt": "A class collects simple information from a survey or sensor reading and needs to organize it into a table or chart. Show how the learner would interpret icons, symbols, or simple codes with bounded meaning.",
+      "expected_evidence": "interpret icons, symbols, or simple codes with bounded meaning",
+      "dominant_failure_mode_targets": [
+        "R1-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates interpret icons, symbols, or simple codes with bounded meaning with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "R1-DIR-002",
+      "node_id": "R1",
+      "item_family": "direct_execution",
+      "prompt": "A small dataset is transformed in a spreadsheet or simple program. Trace the change and show how the learner would use one representation to stand for information or action intentionally.",
+      "expected_evidence": "use one representation to stand for information or action intentionally",
+      "dominant_failure_mode_targets": [
+        "R1-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates use one representation to stand for information or action intentionally with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "R1-DIR-003",
+      "node_id": "R1",
+      "item_family": "direct_execution",
+      "prompt": "A modeled or computed output is produced from earlier data-handling steps. Explain the pipeline and show how the learner would compare two simple representations of the same information.",
+      "expected_evidence": "compare two simple representations of the same information",
+      "dominant_failure_mode_targets": [
+        "R1-FM-03"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates compare two simple representations of the same information with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "R1-EXP-001",
+      "node_id": "R1",
+      "item_family": "explanation",
+      "prompt": "Why is an icon not the same thing as the action or object it stands for?",
+      "expected_evidence": "because the icon is a symbol that represents the action or object rather than being the thing itself.",
+      "dominant_failure_mode_targets": [
+        "R1-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to because the icon is a symbol that represents the action or object rather than being the thing itself."
+    },
+    {
+      "item_id": "R1-EXP-002",
+      "node_id": "R1",
+      "item_family": "explanation",
+      "prompt": "How can the same message be shown in two different ways?",
+      "expected_evidence": "the same information can be encoded with different symbols, words, pictures, or simple codes while keeping the meaning stable.",
+      "dominant_failure_mode_targets": [
+        "R1-FM-03"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to the same information can be encoded with different symbols, words, pictures, or simple codes while keeping the meaning stable."
+    },
+    {
+      "item_id": "R1-ERR-001",
+      "node_id": "R1",
+      "item_family": "error_diagnosis",
+      "prompt": "A learner response in symbols, encoding, and representation awareness suggests this breakdown: learner treats a representation as the thing itself rather than as a stand-in. Diagnose the likely misconception or structural error. Focus on symbol-object collapse.",
+      "expected_evidence": "interpret icons, symbols, or simple codes with bounded meaning",
+      "dominant_failure_mode_targets": [
+        "R1-FM-01"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward interpret icons, symbols, or simple codes with bounded meaning."
+    },
+    {
+      "item_id": "R1-ERR-002",
+      "node_id": "R1",
+      "item_family": "error_diagnosis",
+      "prompt": "A learner response in symbols, encoding, and representation awareness suggests this breakdown: learner loses track of what a simple code or symbol means. Diagnose the likely misconception or structural error. Focus on code-meaning drift.",
+      "expected_evidence": "use one representation to stand for information or action intentionally",
+      "dominant_failure_mode_targets": [
+        "R1-FM-02"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward use one representation to stand for information or action intentionally."
+    },
+    {
+      "item_id": "R1-TRA-001",
+      "node_id": "R1",
+      "item_family": "transfer",
+      "prompt": "The same data idea is presented once as a chart and once as a table or program output. Explain how the learner would compare two simple representations of the same information across the changed representation.",
+      "expected_evidence": "compare two simple representations of the same information",
+      "dominant_failure_mode_targets": [
+        "R1-FM-03"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves compare two simple representations of the same information in a changed computing context or representation."
+    },
+    {
+      "item_id": "R1-TRA-002",
+      "node_id": "R1",
+      "item_family": "transfer",
+      "prompt": "A familiar classroom dataset is replaced with a less-familiar context such as attendance, weather, or game scores. Show how the learner would still avoid confusing the picture, symbol, or code with the underlying content.",
+      "expected_evidence": "avoid confusing the picture, symbol, or code with the underlying content",
+      "dominant_failure_mode_targets": [
+        "R1-FM-04"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves avoid confusing the picture, symbol, or code with the underlying content in a changed computing context or representation."
+    },
+    {
+      "item_id": "R1-RET-001",
+      "node_id": "R1",
+      "item_family": "retention",
+      "prompt": "After a delay, the learner revisits a new dataset, organized display, or model result and must explain what changed and what can be inferred. Show how they would interpret icons, symbols, or simple codes with bounded meaning.",
+      "expected_evidence": "interpret icons, symbols, or simple codes with bounded meaning",
+      "dominant_failure_mode_targets": [
+        "R1-FM-04"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_explanation",
+        "constructed_response"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability",
+      "scoring_guidance": "Meets when the learner still demonstrates interpret icons, symbols, or simple codes with bounded meaning on a delayed recheck without a blocking recurrence."
+    },
+    {
+      "item_id": "R1-PRE-001",
+      "node_id": "R1",
+      "item_family": "prerequisite_probe",
+      "prompt": "Check digital tool navigation and interface cause-effect using a bounded data display or transformation before closing symbols, encoding, and representation awareness, and determine whether the present error is really an upstream representation issue.",
+      "expected_evidence": "shows whether digital tool navigation and interface cause-effect is secure enough to support symbols, encoding, and representation awareness",
+      "dominant_failure_mode_targets": [
+        "R1-FM-01"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in digital tool navigation and interface cause-effect from a current-node issue in symbols, encoding, and representation awareness.",
+      "dependency_target": "D1",
+      "suspected_knowledge_gap_if_incorrect": "digital tool navigation and interface cause-effect"
+    }
+  ]
+}

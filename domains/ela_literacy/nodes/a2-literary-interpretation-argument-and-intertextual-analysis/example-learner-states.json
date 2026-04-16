@@ -1,0 +1,45 @@
+[
+  {
+    "learner_id": "ela-sample-a2-blocked",
+    "node_id": "A2",
+    "status": "blocked",
+    "dependency_status": {
+      "W4": "secure",
+      "R4": "secure",
+      "L3": "secure"
+    },
+    "direct_accuracy": 0.45,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["A2-FM-01", "A2-FM-03"],
+    "recommended_interventions": [
+      "interpretive claim plus evidence frame",
+      "two-text literary comparison grid"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Can discuss literary texts, but sustained interpretation and intertextual argument remain unstable."
+  },
+  {
+    "learner_id": "ela-sample-a2-provisional",
+    "node_id": "A2",
+    "status": "provisional",
+    "dependency_status": {
+      "W4": "secure",
+      "R4": "secure",
+      "L3": "secure"
+    },
+    "direct_accuracy": 0.87,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [
+      "brief changed-text intertextual analysis review"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Builds sustained literary interpretations and intertextual arguments across changed texts."
+  }
+]

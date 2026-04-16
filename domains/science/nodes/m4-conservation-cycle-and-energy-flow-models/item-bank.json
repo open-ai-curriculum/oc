@@ -1,0 +1,32 @@
+[
+  {
+    "item_id": "M4-IB-01",
+    "node_id": "M4",
+    "prompt": "A model of a closed chemical system shows products appearing but no source for all atoms involved. Why is the model inadequate?",
+    "task_type": "conservation_model_critique",
+    "answer_key": "The model is inadequate because it fails to account for conserved matter within the system boundary.",
+    "scorable_traits": ["conservation", "system boundary", "model critique"],
+    "target_failure_modes": ["M4-FM-01"],
+    "context_tags": ["chemistry", "models"]
+  },
+  {
+    "item_id": "M4-IB-02",
+    "node_id": "M4",
+    "prompt": "Why is it incomplete to model carbon in an ecosystem as moving in one direction only?",
+    "task_type": "cycle_model_reasoning",
+    "answer_key": "The model should represent carbon as cycling among reservoirs and processes rather than as a one-way path only.",
+    "scorable_traits": ["cycle reasoning", "reservoirs", "precision"],
+    "target_failure_modes": ["M4-FM-02"],
+    "context_tags": ["carbon cycle", "ecosystems"]
+  },
+  {
+    "item_id": "M4-IB-03",
+    "node_id": "M4",
+    "prompt": "A learner says energy becomes matter in a food web because biomass increases. What needs revision?",
+    "task_type": "energy_flow_model_reasoning",
+    "answer_key": "The explanation should distinguish matter cycling in biomass from energy transfer and transformation, rather than saying energy becomes matter.",
+    "scorable_traits": ["matter-energy distinction", "model correction", "system reasoning"],
+    "target_failure_modes": ["M4-FM-03"],
+    "context_tags": ["energy", "food webs"]
+  }
+]

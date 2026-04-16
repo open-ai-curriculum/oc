@@ -1,0 +1,18 @@
+{
+  "node_id": "Q1",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "Q1-G1-01",
+      "node_id": "Q1",
+      "gate": "G1",
+      "prompt": "Look at the provided image or object and name two things you notice.",
+      "source_type": "image",
+      "response_mode": "oral_or_pointing_or_written",
+      "scoring_rule": "Names at least two relevant observable features.",
+      "failure_mode_targets": ["Q1-FM-01", "Q1-FM-02"],
+      "accessibility_notes": "Allow pointing, highlighting, or tactile support when needed.",
+      "language_load": "low"
+    }
+  ]
+}

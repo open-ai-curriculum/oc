@@ -1,0 +1,48 @@
+[
+  {
+    "learner_id": "example-g5-secure",
+    "node_id": "G5",
+    "status": "secure",
+    "dependency_status": {
+      "T5": "secure",
+      "L4": "secure",
+      "E4": "secure",
+      "D4": "secure"
+    },
+    "direct_accuracy": 0.93,
+    "explanation_status": "met",
+    "transfer_status": "met",
+    "retention_status": "met",
+    "dominant_failure_modes": [],
+    "recommended_interventions": [],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Evaluates environmental systems with tradeoff-aware, evidence-bounded sustainability reasoning."
+  },
+  {
+    "learner_id": "example-g5-emerging",
+    "node_id": "G5",
+    "status": "emerging",
+    "dependency_status": {
+      "T5": "secure",
+      "L4": "secure",
+      "E4": "secure",
+      "D4": "secure"
+    },
+    "direct_accuracy": 0.7,
+    "explanation_status": "weak",
+    "transfer_status": "not_met",
+    "retention_status": "not_due",
+    "dominant_failure_modes": [
+      "G5-FM-01",
+      "G5-FM-02"
+    ],
+    "recommended_interventions": [
+      "G5-INT-01",
+      "G5-INT-02"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Understands environmental concerns but reasoning is still single-metric or advocacy-driven."
+  }
+]

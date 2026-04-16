@@ -1,0 +1,37 @@
+{
+  "node_id": "P6",
+  "interventions": [
+    {
+      "intervention_id": "P6-INT-01",
+      "name": "P6 Intervention 1",
+      "addresses_failure_modes": [
+        "P6-FM-01"
+      ],
+      "summary": "class-versus-instance modeling tasks that compare definitions, objects, and per-object state explicitly"
+    },
+    {
+      "intervention_id": "P6-INT-02",
+      "name": "P6 Intervention 2",
+      "addresses_failure_modes": [
+        "P6-FM-02"
+      ],
+      "summary": "object-state trace tables that connect method calls to state changes across one or more components"
+    },
+    {
+      "intervention_id": "P6-INT-03",
+      "name": "P6 Intervention 3",
+      "addresses_failure_modes": [
+        "P6-FM-03"
+      ],
+      "summary": "component interaction diagrams showing which object or module is responsible for each bounded behavior"
+    },
+    {
+      "intervention_id": "P6-INT-04",
+      "name": "P6 Intervention 4",
+      "addresses_failure_modes": [
+        "P6-FM-04"
+      ],
+      "summary": "paired redesign tasks that transfer one class-and-object pattern into a second application context"
+    }
+  ]
+}

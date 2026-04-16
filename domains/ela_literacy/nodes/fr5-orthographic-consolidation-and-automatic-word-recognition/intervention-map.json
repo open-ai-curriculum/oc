@@ -1,0 +1,26 @@
+{
+  "node_id": "FR5",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "FR5-FM-01": [
+      "bounded rehearsal of already-decodable items",
+      "contrast effortful first pass with later recognition",
+      "avoid too many new items at once"
+    ],
+    "FR5-FM-02": [
+      "mix consolidated and recently learned items",
+      "distributed review",
+      "track items that remain unstable across spacing"
+    ],
+    "FR5-FM-03": [
+      "slow the pace until accurate recognition stabilizes",
+      "emphasize full-word integrity before speed",
+      "compare accurate slower and inaccurate faster responses"
+    ],
+    "FR5-FM-04": [
+      "group words by shared transferable pattern",
+      "contrast pattern-consistent and pattern-breaking examples",
+      "verify recognition extends beyond a few memorized words"
+    ]
+  }
+}

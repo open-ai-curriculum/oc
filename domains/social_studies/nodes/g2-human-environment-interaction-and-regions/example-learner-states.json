@@ -1,0 +1,23 @@
+{
+  "node_id": "G2",
+  "examples": [
+    {
+      "learner_id": "sample-g2-blocked-01",
+      "node_id": "G2",
+      "status": "blocked",
+      "dependency_status": { "G1": "secure", "Q2": "secure" },
+      "direct_accuracy": 0.6,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["G2-FM-02"],
+      "recommended_interventions": [
+        "ask how the environment affects people and how people affect the environment",
+        "use paired cause-and-response examples"
+      ],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Recognizes a place feature but treats the interaction as one-way only."
+    }
+  ]
+}

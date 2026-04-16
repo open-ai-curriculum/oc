@@ -1,0 +1,37 @@
+{
+  "node_id": "C4",
+  "interventions": [
+    {
+      "intervention_id": "C4-INT-01",
+      "name": "C4 Intervention 1",
+      "addresses_failure_modes": [
+        "C4-FM-01"
+      ],
+      "summary": "rate-versus-equilibrium comparison tasks that separate distinct system questions"
+    },
+    {
+      "intervention_id": "C4-INT-02",
+      "name": "C4 Intervention 2",
+      "addresses_failure_modes": [
+        "C4-FM-02"
+      ],
+      "summary": "dynamic-equilibrium animations and annotations showing bidirectional change"
+    },
+    {
+      "intervention_id": "C4-INT-03",
+      "name": "C4 Intervention 3",
+      "addresses_failure_modes": [
+        "C4-FM-03"
+      ],
+      "summary": "acid-base transfer maps that require particle and system language"
+    },
+    {
+      "intervention_id": "C4-INT-04",
+      "name": "C4 Intervention 4",
+      "addresses_failure_modes": [
+        "C4-FM-04"
+      ],
+      "summary": "condition-change reasoning routines that force bounded predictions rather than slogans"
+    }
+  ]
+}

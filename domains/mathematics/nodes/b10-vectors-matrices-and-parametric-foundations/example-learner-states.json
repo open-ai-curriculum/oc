@@ -1,0 +1,30 @@
+[
+  {
+    "student_id": "example-secure",
+    "node": "B10",
+    "status": "secure",
+    "direct_accuracy": 0.82,
+    "explanation_status": "meets",
+    "transfer_status": "meets",
+    "retention_status": "meets",
+    "dominant_failure_modes": [],
+    "recommended_interventions": []
+  },
+  {
+    "student_id": "example-blocked",
+    "node": "B10",
+    "status": "blocked",
+    "direct_accuracy": 0.47,
+    "explanation_status": "weak",
+    "transfer_status": "failed",
+    "retention_status": "not_met",
+    "dominant_failure_modes": [
+      "representation_selection_misalignment",
+      "parametric_polar_disconnect"
+    ],
+    "recommended_interventions": [
+      "compare the same situation across algebraic, graphical, tabular, parametric, and polar forms and require a defense of the best fit",
+      "use path-tracing routines where learners connect parameter change to motion and location before reading the formal representation"
+    ]
+  }
+]

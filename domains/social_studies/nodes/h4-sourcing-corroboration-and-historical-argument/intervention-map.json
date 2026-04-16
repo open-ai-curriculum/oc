@@ -1,0 +1,26 @@
+{
+  "node_id": "H4",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "H4-FM-01": [
+      "identify who when and why for each source before arguing",
+      "use a sourcing header for every source",
+      "compare an unsourced argument with a sourced one"
+    ],
+    "H4-FM-02": [
+      "pair sources explicitly and ask what they agree or disagree on",
+      "mark corroborating details in matching colors",
+      "compare one-source and two-source arguments"
+    ],
+    "H4-FM-03": [
+      "ask how perspective or position might shape the account",
+      "compare conflict caused by bias knowledge limits or purpose",
+      "model tension as evidence to interpret rather than to discard immediately"
+    ],
+    "H4-FM-04": [
+      "reduce the source set and preteach key terms",
+      "allow annotation and oral reasoning before writing",
+      "verify whether comprehension supports materially change performance"
+    ]
+  }
+}

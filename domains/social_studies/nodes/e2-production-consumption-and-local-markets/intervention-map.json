@@ -1,0 +1,26 @@
+{
+  "node_id": "E2",
+  "version": "0.1",
+  "failure_mode_to_interventions": {
+    "E2-FM-01": [
+      "match market participants to their roles with concrete examples",
+      "compare two exchanges with the roles labeled",
+      "ask who makes who buys and who uses"
+    ],
+    "E2-FM-02": [
+      "trace one good or service through a short market chain",
+      "use arrows to show what moves where",
+      "narrate the exchange in sequence"
+    ],
+    "E2-FM-03": [
+      "compare a location with a market relationship",
+      "focus on participants and exchange rather than the building",
+      "use role-play to show the market interaction"
+    ],
+    "E2-FM-04": [
+      "preteach producer consumer and market vocabulary",
+      "start with familiar local examples",
+      "allow oral explanation with visuals before written response"
+    ]
+  }
+}

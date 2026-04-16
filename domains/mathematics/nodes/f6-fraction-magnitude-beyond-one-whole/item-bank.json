@@ -1,37 +1,128 @@
 {
   "node_id": "F6",
+  "policy_version": "1.0",
   "items": [
     {
-      "item_id": "F6-A1",
-      "item_family": "direct",
-      "prompt": "interprets improper fractions as quantities that may exceed one whole",
+      "item_id": "F6-DIR-001",
+      "node_id": "F6",
+      "item_family": "direct_execution",
+      "prompt": "Compute `3/4 + 1/8` by rewriting to common units and show the equivalent fractions you used.",
       "expected_evidence": "explain why 5/4 represents one whole and one fourth more",
       "dominant_failure_mode": "whole_number_override",
-      "scoring_guidance": "Meets when the learner completes the direct task accurately."
+      "scoring_guidance": "Meets when the learner demonstrates explain why 5/4 represents one whole and one fourth more with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "F6-B1",
-      "item_family": "explanation",
-      "prompt": "connects mixed numbers and improper fractions in bounded equivalent cases",
+      "item_id": "F6-DIR-002",
+      "node_id": "F6",
+      "item_family": "direct_execution",
+      "prompt": "Compute `5/6 - 1/4` and justify the common denominator choice.",
       "expected_evidence": "match bounded mixed numbers and improper fractions that describe the same quantity",
       "dominant_failure_mode": "mixed_improper_disconnect",
-      "scoring_guidance": "Meets when the learner explains the concept coherently."
+      "scoring_guidance": "Meets when the learner demonstrates match bounded mixed numbers and improper fractions that describe the same quantity with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "F6-C1",
-      "item_family": "error_diagnosis",
-      "prompt": "Diagnose a peer error aligned to one_whole_boundary_confusion.",
+      "item_id": "F6-DIR-003",
+      "node_id": "F6",
+      "item_family": "direct_execution",
+      "prompt": "Place `2/3` and `5/8` on the same number line and determine which is greater.",
       "expected_evidence": "compare simple magnitudes greater than one whole without reverting to whole-number-only logic",
       "dominant_failure_mode": "one_whole_boundary_confusion",
-      "scoring_guidance": "Meets when the learner identifies the source of the error and states the correct reasoning."
+      "scoring_guidance": "Meets when the learner demonstrates compare simple magnitudes greater than one whole without reverting to whole-number-only logic with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
     },
     {
-      "item_id": "F6-D1",
+      "item_id": "F6-EXP-001",
+      "node_id": "F6",
+      "item_family": "explanation",
+      "prompt": "Explain why `3/4` can be rewritten as `6/8` without changing its value.",
+      "expected_evidence": "explain why 5/4 represents one whole and one fourth more",
+      "dominant_failure_mode": "mixed_improper_disconnect",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to explain why 5/4 represents one whole and one fourth more.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "F6-EXP-002",
+      "node_id": "F6",
+      "item_family": "explanation",
+      "prompt": "Explain why fractions can only be combined directly when they refer to equal-sized parts.",
+      "expected_evidence": "match bounded mixed numbers and improper fractions that describe the same quantity",
+      "dominant_failure_mode": "one_whole_boundary_confusion",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to match bounded mixed numbers and improper fractions that describe the same quantity.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "F6-ERR-001",
+      "node_id": "F6",
+      "item_family": "error_diagnosis",
+      "prompt": "A student says `3/4 + 1/8 = 4/12`. Diagnose the first structural mistake. Focus on whole number override.",
+      "expected_evidence": "explain why 5/4 represents one whole and one fourth more",
+      "dominant_failure_mode": "whole_number_override",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward explain why 5/4 represents one whole and one fourth more.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "F6-ERR-002",
+      "node_id": "F6",
+      "item_family": "error_diagnosis",
+      "prompt": "A student rewrites `2/3` as `3/4` before adding. Identify the equivalence error. Focus on mixed improper disconnect.",
+      "expected_evidence": "match bounded mixed numbers and improper fractions that describe the same quantity",
+      "dominant_failure_mode": "mixed_improper_disconnect",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward match bounded mixed numbers and improper fractions that describe the same quantity.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "F6-TRA-001",
+      "node_id": "F6",
       "item_family": "transfer",
-      "prompt": "succeeds across visual models, symbolic forms, and early number-line situations",
-      "expected_evidence": "use whole-and-part composition language for fraction quantities beyond one",
+      "prompt": "A recipe uses `3/4` cup of oats and `1/8` cup of seeds. How much is used altogether?",
+      "expected_evidence": "explain why 5/4 represents one whole and one fourth more",
+      "dominant_failure_mode": "one_whole_boundary_confusion",
+      "scoring_guidance": "Meets when the learner preserves explain why 5/4 represents one whole and one fourth more in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "F6-TRA-002",
+      "node_id": "F6",
+      "item_family": "transfer",
+      "prompt": "A hiker walks `5/6` mile in the morning and `1/4` mile less in the afternoon. How much farther was the morning walk?",
+      "expected_evidence": "match bounded mixed numbers and improper fractions that describe the same quantity",
       "dominant_failure_mode": "comparison_reset_error",
-      "scoring_guidance": "Meets when the learner succeeds in a less-familiar context."
+      "scoring_guidance": "Meets when the learner preserves match bounded mixed numbers and improper fractions that describe the same quantity in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "F6-RET-001",
+      "node_id": "F6",
+      "item_family": "retention",
+      "prompt": "After a delay, solve `2/3 + 1/6` and explain why the rewrite keeps the quantity unchanged.",
+      "expected_evidence": "explain why 5/4 represents one whole and one fourth more",
+      "dominant_failure_mode": "comparison_reset_error",
+      "scoring_guidance": "Meets when the learner still demonstrates explain why 5/4 represents one whole and one fourth more on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "F6-PRE-001",
+      "node_id": "F6",
+      "item_family": "prerequisite_probe",
+      "prompt": "Before closing fraction magnitude beyond one whole, complete a prerequisite check on compare fractions and explain how that prior understanding supports the fraction reasoning.",
+      "expected_evidence": "shows whether compare fractions is secure enough to support fraction magnitude beyond one whole",
+      "dominant_failure_mode": "mixed_improper_disconnect",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in compare fractions from a current-node issue in fraction magnitude beyond one whole.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "F3",
+      "suspected_knowledge_gap_if_incorrect": "compare fractions"
     }
   ]
 }

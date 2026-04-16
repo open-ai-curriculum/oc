@@ -1,0 +1,106 @@
+{
+  "id": "mathematics-assessment-framework-assurance-register",
+  "generated_on": "2026-04-15",
+  "framework_count": 11,
+  "frameworks": [
+    {
+      "framework_id": "sat-suite-sat",
+      "assessment_family": "SAT",
+      "assurance_classification": "overlay_backed_and_blueprint_verified",
+      "official_blueprint_verified": true,
+      "maintained_overlay_present": true,
+      "current_graph_posture": "strong",
+      "next_action": "Continue overlay-aware workflow hardening."
+    },
+    {
+      "framework_id": "sat-suite-psat-nmsqt",
+      "assessment_family": "PSAT/NMSQT",
+      "assurance_classification": "overlay_backed_and_blueprint_verified",
+      "official_blueprint_verified": true,
+      "maintained_overlay_present": true,
+      "current_graph_posture": "strong",
+      "next_action": "Continue overlay-aware workflow hardening."
+    },
+    {
+      "framework_id": "act-mathematics",
+      "assessment_family": "ACT",
+      "assurance_classification": "overlay_backed_with_remaining_integrated_skills_gap",
+      "official_blueprint_verified": true,
+      "maintained_overlay_present": true,
+      "current_graph_posture": "substantial_but_compressed",
+      "next_action": "Deepen modeling and integrated-skills artifact support and reporting."
+    },
+    {
+      "framework_id": "ap-statistics",
+      "assessment_family": "AP Statistics",
+      "assurance_classification": "overlay_backed_and_blueprint_verified",
+      "official_blueprint_verified": true,
+      "maintained_overlay_present": true,
+      "current_graph_posture": "strong",
+      "next_action": "Continue export and workflow hardening."
+    },
+    {
+      "framework_id": "ap-precalculus",
+      "assessment_family": "AP Precalculus",
+      "assurance_classification": "overlay_backed_and_blueprint_verified",
+      "official_blueprint_verified": true,
+      "maintained_overlay_present": true,
+      "current_graph_posture": "strong",
+      "next_action": "Continue export and workflow hardening."
+    },
+    {
+      "framework_id": "ap-calculus-ab",
+      "assessment_family": "AP Calculus AB",
+      "assurance_classification": "overlay_backed_and_blueprint_verified",
+      "official_blueprint_verified": true,
+      "maintained_overlay_present": true,
+      "current_graph_posture": "strong",
+      "next_action": "Continue export and workflow hardening."
+    },
+    {
+      "framework_id": "ap-calculus-bc",
+      "assessment_family": "AP Calculus BC",
+      "assurance_classification": "overlay_backed_and_blueprint_verified",
+      "official_blueprint_verified": true,
+      "maintained_overlay_present": true,
+      "current_graph_posture": "strong",
+      "next_action": "Continue export and workflow hardening."
+    },
+    {
+      "framework_id": "state-achievement-tests",
+      "assessment_family": "State achievement tests",
+      "assurance_classification": "standards_surface_only",
+      "official_blueprint_verified": false,
+      "maintained_overlay_present": false,
+      "current_graph_posture": "strong_for_standards_aligned_content",
+      "next_action": "Keep claims at standards-surface level unless state blueprint audits are codified."
+    },
+    {
+      "framework_id": "naep-mathematics",
+      "assessment_family": "NAEP",
+      "assurance_classification": "framework_verified_with_accepted_grade_12_compression",
+      "official_blueprint_verified": true,
+      "maintained_overlay_present": false,
+      "current_graph_posture": "substantial_but_compressed",
+      "next_action": "Maintain the current grade-12 compression boundary unless a stronger maintained NAEP crosswalk demonstrates that further decomposition is necessary."
+    },
+    {
+      "framework_id": "ib-dp-mathematics",
+      "assessment_family": "IB DP Mathematics",
+      "assurance_classification": "overlay_backed_with_partial_pathway_fidelity",
+      "official_blueprint_verified": true,
+      "maintained_overlay_present": true,
+      "current_graph_posture": "partial",
+      "next_action": "Deepen HL-lift and internal-assessment governance beyond the initial registry surface."
+    },
+    {
+      "framework_id": "terranova-mathematics",
+      "assessment_family": "TerraNova",
+      "assurance_classification": "provisional_unverified_blueprint",
+      "official_blueprint_verified": false,
+      "maintained_overlay_present": false,
+      "current_graph_posture": "provisional",
+      "next_action": "Remain explicitly provisional unless a current public official blueprint is codified."
+    }
+  ]
+}

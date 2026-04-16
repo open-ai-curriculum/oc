@@ -1,0 +1,32 @@
+[
+  {
+    "item_id": "P5-IB-01",
+    "node_id": "P5",
+    "prompt": "Why is it incomplete to explain electric interaction only as objects touching each other like billiard balls?",
+    "task_type": "field_model_reasoning",
+    "answer_key": "The explanation should use an interaction or field model that accounts for effects without direct contact, rather than only a collision analogy.",
+    "scorable_traits": ["field reasoning", "analogy limits", "model choice"],
+    "target_failure_modes": ["P5-FM-01"],
+    "context_tags": ["electric fields", "interactions"]
+  },
+  {
+    "item_id": "P5-IB-02",
+    "node_id": "P5",
+    "prompt": "A student treats atoms in a reaction as colored beads swapping places with no conservation accounting. What is missing?",
+    "task_type": "atomic_interaction_explanation",
+    "answer_key": "The explanation needs quantitative conservation accounting and a more disciplined model of interaction than a purely visual bead swap story.",
+    "scorable_traits": ["atomic model discipline", "conservation", "critique quality"],
+    "target_failure_modes": ["P5-FM-02"],
+    "context_tags": ["atoms", "reactions"]
+  },
+  {
+    "item_id": "P5-IB-03",
+    "node_id": "P5",
+    "prompt": "How should a conservation-based critique respond when a proposed physical explanation creates energy or matter within a closed model?",
+    "task_type": "quantitative_conservation_analysis",
+    "answer_key": "The critique should identify the conservation violation and demand accounting within the stated system boundary before accepting the explanation.",
+    "scorable_traits": ["quantitative conservation", "system boundary", "model critique"],
+    "target_failure_modes": ["P5-FM-03"],
+    "context_tags": ["conservation", "physical systems"]
+  }
+]

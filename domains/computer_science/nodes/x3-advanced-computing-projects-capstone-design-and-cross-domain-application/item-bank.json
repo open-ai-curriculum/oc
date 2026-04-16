@@ -1,0 +1,294 @@
+{
+  "node_id": "X3",
+  "policy_version": "1.0",
+  "version": "0.4",
+  "items": [
+    {
+      "item_id": "X3-DIR-001",
+      "node_id": "X3",
+      "item_family": "direct_execution",
+      "prompt": "A learner reviews a bounded AP-style performance task or project proposal that combines code, data, systems, and impact claims. Show how they would connect technical architecture, project goals, and stakeholder needs in a bounded design.",
+      "expected_evidence": "connect technical architecture, project goals, and stakeholder needs in a bounded design",
+      "dominant_failure_mode_targets": [
+        "X3-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates connect technical architecture, project goals, and stakeholder needs in a bounded design with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "X3-DIR-002",
+      "node_id": "X3",
+      "item_family": "direct_execution",
+      "prompt": "A class is evaluating an object-oriented or multi-component program design for an AP-style task. Show how the learner would use quality, security, and maintainability reasoning while discussing project choices.",
+      "expected_evidence": "use quality, security, and maintainability reasoning while discussing project choices",
+      "dominant_failure_mode_targets": [
+        "X3-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates use quality, security, and maintainability reasoning while discussing project choices with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "X3-DIR-003",
+      "node_id": "X3",
+      "item_family": "direct_execution",
+      "prompt": "A capstone team proposes a cross-domain computing project with stated users, constraints, and architecture choices. Show how the learner would show how computer science knowledge can be applied in another domain or authentic context without losing technical rigor.",
+      "expected_evidence": "show how computer science knowledge can be applied in another domain or authentic context without losing technical rigor",
+      "dominant_failure_mode_targets": [
+        "X3-FM-03"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "constructed_response",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "core_mastery",
+      "scoring_guidance": "Meets when the learner demonstrates show how computer science knowledge can be applied in another domain or authentic context without losing technical rigor with bounded and technically valid computing reasoning."
+    },
+    {
+      "item_id": "X3-EXP-001",
+      "node_id": "X3",
+      "item_family": "explanation",
+      "prompt": "Why is a capstone project not validated just because it has many features?",
+      "expected_evidence": "because a strong project still needs bounded requirements, design reasoning, verification, and quality evidence rather than feature count alone.",
+      "dominant_failure_mode_targets": [
+        "X3-FM-01"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to because a strong project still needs bounded requirements, design reasoning, verification, and quality evidence rather than feature count alone."
+    },
+    {
+      "item_id": "X3-EXP-002",
+      "node_id": "X3",
+      "item_family": "explanation",
+      "prompt": "What makes a cross-domain computing project still meaningfully computer science?",
+      "expected_evidence": "it preserves explicit reasoning about software, data, systems, security, or quality while applying those ideas in another bounded domain context.",
+      "dominant_failure_mode_targets": [
+        "X3-FM-02"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to it preserves explicit reasoning about software, data, systems, security, or quality while applying those ideas in another bounded domain context."
+    },
+    {
+      "item_id": "X3-ERR-001",
+      "node_id": "X3",
+      "item_family": "error_diagnosis",
+      "prompt": "During an AP-style synthesis or project review, a learner gives a response that suggests this breakdown: learner treats a large set of features as evidence of project quality without bounded design or verification reasoning. Diagnose the integration mistake. Focus on feature-count-as-capstone.",
+      "expected_evidence": "connect technical architecture, project goals, and stakeholder needs in a bounded design",
+      "dominant_failure_mode_targets": [
+        "X3-FM-01"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward connect technical architecture, project goals, and stakeholder needs in a bounded design."
+    },
+    {
+      "item_id": "X3-ERR-002",
+      "node_id": "X3",
+      "item_family": "error_diagnosis",
+      "prompt": "During an AP-style synthesis or project review, a learner gives a response that suggests this breakdown: learner discusses an applied project context without maintaining explicit computer science design, data, system, or quality reasoning. Diagnose the integration mistake. Focus on cross-domain-without-cs rigor.",
+      "expected_evidence": "use quality, security, and maintainability reasoning while discussing project choices",
+      "dominant_failure_mode_targets": [
+        "X3-FM-02"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward use quality, security, and maintainability reasoning while discussing project choices."
+    },
+    {
+      "item_id": "X3-TRA-001",
+      "node_id": "X3",
+      "item_family": "transfer",
+      "prompt": "A learner moves from an AP-style classroom prompt to an authentic design-review or project-planning case and must still show how computer science knowledge can be applied in another domain or authentic context without losing technical rigor.",
+      "expected_evidence": "show how computer science knowledge can be applied in another domain or authentic context without losing technical rigor",
+      "dominant_failure_mode_targets": [
+        "X3-FM-03"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves show how computer science knowledge can be applied in another domain or authentic context without losing technical rigor in a changed computing context or representation."
+    },
+    {
+      "item_id": "X3-TRA-002",
+      "node_id": "X3",
+      "item_family": "transfer",
+      "prompt": "A bounded project changes domains, but the computing requirements, quality expectations, and reasoning structure still matter. Explain how the learner would avoid treating a larger project as validated merely because it has many features.",
+      "expected_evidence": "avoid treating a larger project as validated merely because it has many features",
+      "dominant_failure_mode_targets": [
+        "X3-FM-04"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_explanation",
+        "code_trace",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer",
+      "scoring_guidance": "Meets when the learner preserves avoid treating a larger project as validated merely because it has many features in a changed computing context or representation."
+    },
+    {
+      "item_id": "X3-RET-001",
+      "node_id": "X3",
+      "item_family": "retention",
+      "prompt": "After a delay, the learner is given a fresh AP-style synthesis or capstone-review case and must justify the design or critique using integrated computing reasoning. Show how they would connect technical architecture, project goals, and stakeholder needs in a bounded design.",
+      "expected_evidence": "connect technical architecture, project goals, and stakeholder needs in a bounded design",
+      "dominant_failure_mode_targets": [
+        "X3-FM-04"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_explanation",
+        "constructed_response"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability",
+      "scoring_guidance": "Meets when the learner still demonstrates connect technical architecture, project goals, and stakeholder needs in a bounded design on a delayed recheck without a blocking recurrence."
+    },
+    {
+      "item_id": "X3-PRE-001",
+      "node_id": "X3",
+      "item_family": "prerequisite_probe",
+      "prompt": "Before closing advanced computing projects, capstone design, and cross-domain application, run a short synthesis check on ap csp integrated computing systems, data, and impacts synthesis and determine whether the learner is blocked by an upstream readiness gap rather than the current integration target.",
+      "expected_evidence": "shows whether ap csp integrated computing systems, data, and impacts synthesis is secure enough to support advanced computing projects, capstone design, and cross-domain application",
+      "dominant_failure_mode_targets": [
+        "X3-FM-01"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in ap csp integrated computing systems, data, and impacts synthesis from a current-node issue in advanced computing projects, capstone design, and cross-domain application.",
+      "dependency_target": "X1",
+      "suspected_knowledge_gap_if_incorrect": "ap csp integrated computing systems, data, and impacts synthesis"
+    },
+    {
+      "item_id": "X3-PRE-002",
+      "node_id": "X3",
+      "item_family": "prerequisite_probe",
+      "prompt": "Before closing advanced computing projects, capstone design, and cross-domain application, run a short synthesis check on ap csa program design, objects, and algorithmic implementation and determine whether the learner is blocked by an upstream readiness gap rather than the current integration target.",
+      "expected_evidence": "shows whether ap csa program design, objects, and algorithmic implementation is secure enough to support advanced computing projects, capstone design, and cross-domain application",
+      "dominant_failure_mode_targets": [
+        "X3-FM-02"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in ap csa program design, objects, and algorithmic implementation from a current-node issue in advanced computing projects, capstone design, and cross-domain application.",
+      "dependency_target": "X2",
+      "suspected_knowledge_gap_if_incorrect": "ap csa program design, objects, and algorithmic implementation"
+    },
+    {
+      "item_id": "X3-PRE-003",
+      "node_id": "X3",
+      "item_family": "prerequisite_probe",
+      "prompt": "Before closing advanced computing projects, capstone design, and cross-domain application, run a short synthesis check on cybersecurity mechanisms, threat models, and defensive reasoning and determine whether the learner is blocked by an upstream readiness gap rather than the current integration target.",
+      "expected_evidence": "shows whether cybersecurity mechanisms, threat models, and defensive reasoning is secure enough to support advanced computing projects, capstone design, and cross-domain application",
+      "dominant_failure_mode_targets": [
+        "X3-FM-03"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in cybersecurity mechanisms, threat models, and defensive reasoning from a current-node issue in advanced computing projects, capstone design, and cross-domain application.",
+      "dependency_target": "N5",
+      "suspected_knowledge_gap_if_incorrect": "cybersecurity mechanisms, threat models, and defensive reasoning"
+    },
+    {
+      "item_id": "X3-PRE-004",
+      "node_id": "X3",
+      "item_family": "prerequisite_probe",
+      "prompt": "Before closing advanced computing projects, capstone design, and cross-domain application, run a short synthesis check on refactoring, maintainability, and collaborative code change and determine whether the learner is blocked by an upstream readiness gap rather than the current integration target.",
+      "expected_evidence": "shows whether refactoring, maintainability, and collaborative code change is secure enough to support advanced computing projects, capstone design, and cross-domain application",
+      "dominant_failure_mode_targets": [
+        "X3-FM-04"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_diagnosis",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in refactoring, maintainability, and collaborative code change from a current-node issue in advanced computing projects, capstone design, and cross-domain application.",
+      "dependency_target": "C4",
+      "suspected_knowledge_gap_if_incorrect": "refactoring, maintainability, and collaborative code change"
+    }
+  ]
+}

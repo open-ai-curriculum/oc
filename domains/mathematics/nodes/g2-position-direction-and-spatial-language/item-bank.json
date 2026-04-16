@@ -1,72 +1,258 @@
 {
   "node_id": "G2",
-  "version": "0.1",
+  "policy_version": "1.0",
+  "version": "0.3",
   "items": [
     {
-      "item_id": "G2-A-001",
-      "family": "direct_spatial_action",
-      "prompt": "Place the block above the book and the pencil beside the book.",
+      "item_id": "G2-D-001",
+      "family": "direct_execution",
+      "prompt": "Complete a bounded task for this node and show the governing mathematical structure clearly.",
       "target_node": "G2",
-      "secondary_dependency_targets": ["G1"],
+      "secondary_dependency_targets": [
+        "G1"
+      ],
       "difficulty_band": "core",
-      "response_modes_allowed": ["manipulative_model", "oral_explanation"],
-      "dominant_failure_modes_if_incorrect": ["G2-FM-01", "G2-FM-03"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "G2-FM-01",
+        "G2-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
     },
     {
-      "item_id": "G2-A-002",
-      "family": "direct_spatial_action",
-      "prompt": "Look at a picture and tell which object is behind the chair and which is in front of it.",
+      "item_id": "G2-D-002",
+      "family": "direct_execution",
+      "prompt": "Solve a second task for the same node using a different representation or entry point.",
       "target_node": "G2",
-      "secondary_dependency_targets": ["G1"],
+      "secondary_dependency_targets": [
+        "G1"
+      ],
       "difficulty_band": "core",
-      "response_modes_allowed": ["oral_explanation", "drawing"],
-      "dominant_failure_modes_if_incorrect": ["G2-FM-02", "G2-FM-04"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "G2-FM-02",
+        "G2-FM-03"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
     },
     {
-      "item_id": "G2-B-001",
+      "item_id": "G2-D-003",
+      "family": "direct_execution",
+      "prompt": "Complete a bounded task for this node and show the governing mathematical structure clearly.",
+      "target_node": "G2",
+      "secondary_dependency_targets": [
+        "G1"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "G2-FM-03",
+        "G2-FM-04"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "G2-D-004",
+      "family": "direct_execution",
+      "prompt": "Solve a second task for the same node using a different representation or entry point.",
+      "target_node": "G2",
+      "secondary_dependency_targets": [
+        "G1"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "G2-FM-04",
+        "G2-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "G2-E-001",
       "family": "explanation",
-      "prompt": "Explain the difference between left and right in a classroom movement task.",
+      "prompt": "Explain why the structure used in this node is mathematically valid.",
       "target_node": "G2",
-      "secondary_dependency_targets": ["G1"],
+      "secondary_dependency_targets": [
+        "G1"
+      ],
       "difficulty_band": "core",
-      "response_modes_allowed": ["oral_explanation", "written_explanation"],
-      "dominant_failure_modes_if_incorrect": ["G2-FM-02", "G2-FM-03"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "G2-FM-02"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "G2-E-002",
+      "family": "explanation",
+      "prompt": "Explain why the structure used in this node is mathematically valid.",
+      "target_node": "G2",
+      "secondary_dependency_targets": [
+        "G1"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "G2-FM-03"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
     },
     {
       "item_id": "G2-C-001",
       "family": "error_diagnosis",
-      "prompt": "A student puts the toy under the box when asked to place it behind the box. What should be checked?",
+      "prompt": "Diagnose a peer response and identify the earliest structural mistake. Focus on position term confusion.",
       "target_node": "G2",
-      "secondary_dependency_targets": ["G1"],
-      "difficulty_band": "core",
-      "response_modes_allowed": ["multiple_choice", "oral_explanation", "written_explanation"],
-      "dominant_failure_modes_if_incorrect": ["G2-FM-01", "G2-FM-04"],
-      "requires_human_scoring": true
+      "secondary_dependency_targets": [
+        "G1"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "G2-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
     },
     {
-      "item_id": "G2-D-001",
-      "family": "transfer",
-      "prompt": "Follow a two-step direction: move the triangle to the left of the square, then place the circle above the triangle.",
+      "item_id": "G2-C-002",
+      "family": "error_diagnosis",
+      "prompt": "Diagnose a peer response and identify the earliest structural mistake. Focus on left right instability.",
       "target_node": "G2",
-      "secondary_dependency_targets": ["G1"],
+      "secondary_dependency_targets": [
+        "G1"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "G2-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "G2-T-001",
+      "family": "transfer",
+      "prompt": "Apply the same capability in a changed surface form or representation.",
+      "target_node": "G2",
+      "secondary_dependency_targets": [
+        "G1"
+      ],
       "difficulty_band": "transfer",
-      "response_modes_allowed": ["manipulative_model", "oral_explanation"],
-      "dominant_failure_modes_if_incorrect": ["G2-FM-01", "G2-FM-03", "G2-FM-04"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "G2-FM-03"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "G2-T-002",
+      "family": "transfer",
+      "prompt": "Apply the same capability in a changed surface form or representation.",
+      "target_node": "G2",
+      "secondary_dependency_targets": [
+        "G1"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "G2-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
     },
     {
       "item_id": "G2-R-001",
       "family": "retention",
-      "prompt": "After a delay, describe where three objects are placed relative to each other using spatial words.",
+      "prompt": "On a delayed recheck, complete a fresh task for this node and justify why the result is reasonable.",
       "target_node": "G2",
-      "secondary_dependency_targets": ["G1"],
+      "secondary_dependency_targets": [
+        "G1"
+      ],
       "difficulty_band": "retention",
-      "response_modes_allowed": ["oral_explanation", "drawing"],
-      "dominant_failure_modes_if_incorrect": ["G2-FM-02", "G2-FM-03"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "G2-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability"
+    },
+    {
+      "item_id": "G2-P-001",
+      "family": "prerequisite_probe",
+      "prompt": "Complete a prerequisite probe on shape recognition and classification and determine whether the learner’s error is upstream or belongs to position direction and spatial language.",
+      "target_node": "G2",
+      "secondary_dependency_targets": [
+        "G1"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "G2-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "G1",
+      "suspected_knowledge_gap_if_incorrect": "shape recognition and classification",
+      "scoring_focus": "dependency_disambiguation"
     }
   ]
 }

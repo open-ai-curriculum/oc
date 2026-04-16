@@ -1,0 +1,42 @@
+{
+  "node_id": "Q3",
+  "examples": [
+    {
+      "learner_id": "sample-q3-blocked-01",
+      "node_id": "Q3",
+      "status": "blocked",
+      "dependency_status": {
+        "Q2": "secure"
+      },
+      "direct_accuracy": 0.5,
+      "explanation_status": "weak",
+      "transfer_status": "not_met",
+      "retention_status": "not_due",
+      "dominant_failure_modes": ["Q3-FM-02", "Q3-FM-03"],
+      "recommended_interventions": [
+        "sort on-topic and off-topic statements",
+        "compare relevant and irrelevant observations for the same question"
+      ],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Can talk about the topic broadly but does not yet keep ideas anchored to the focal phenomenon."
+    },
+    {
+      "learner_id": "sample-q3-secure-01",
+      "node_id": "Q3",
+      "status": "secure",
+      "dependency_status": {
+        "Q2": "secure"
+      },
+      "direct_accuracy": 0.94,
+      "explanation_status": "met",
+      "transfer_status": "met",
+      "retention_status": "met",
+      "dominant_failure_modes": [],
+      "recommended_interventions": [],
+      "last_verified_at": "2026-04-15",
+      "review_state": "draft",
+      "notes": "Identifies the focal phenomenon and contributes relevant observations across multiple science contexts."
+    }
+  ]
+}

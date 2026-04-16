@@ -1,0 +1,37 @@
+{
+  "node_id": "D1",
+  "interventions": [
+    {
+      "intervention_id": "D1-INT-01",
+      "name": "D1 Intervention 1",
+      "addresses_failure_modes": [
+        "D1-FM-01"
+      ],
+      "summary": "guided action-and-outcome routines that name one interface action and one resulting change explicitly"
+    },
+    {
+      "intervention_id": "D1-INT-02",
+      "name": "D1 Intervention 2",
+      "addresses_failure_modes": [
+        "D1-FM-02"
+      ],
+      "summary": "icon and control matching tasks that connect common interface elements to functions"
+    },
+    {
+      "intervention_id": "D1-INT-03",
+      "name": "D1 Intervention 3",
+      "addresses_failure_modes": [
+        "D1-FM-03"
+      ],
+      "summary": "before-and-after screen comparisons that force explicit input-output talk"
+    },
+    {
+      "intervention_id": "D1-INT-04",
+      "name": "D1 Intervention 4",
+      "addresses_failure_modes": [
+        "D1-FM-04"
+      ],
+      "summary": "paired practice across two simple device or app contexts with the same action logic"
+    }
+  ]
+}

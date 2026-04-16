@@ -1,0 +1,16 @@
+{
+  "node_id": "G5",
+  "version": "0.1",
+  "items": [
+    {
+      "item_id": "G5-G1-01",
+      "node_id": "G5",
+      "gate": "G1",
+      "prompt": "Use the map and evidence set to explain how migration, interdependence, or sustainability pressures connect the places in the case across scales.",
+      "representation_type": "map_plus_interdependence_evidence",
+      "response_mode": "oral_or_written_or_annotated",
+      "scoring_rule": "Uses geographic evidence to explain cross-scale connections, interacting drivers, and at least one sustainability or movement tradeoff.",
+      "failure_mode_targets": ["G5-FM-01", "G5-FM-02"]
+    }
+  ]
+}

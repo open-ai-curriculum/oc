@@ -1,37 +1,140 @@
 {
   "node_id": "C6",
+  "policy_version": "1.0",
   "items": [
     {
-      "item_id": "C6-A1",
-      "item_family": "direct",
-      "prompt": "matches bounded quantities to the correct numerals and numerals to the correct quantities",
+      "item_id": "C6-DIR-001",
+      "node_id": "C6",
+      "item_family": "direct_execution",
+      "prompt": "Count the collection accurately and state how you know the final count represents the whole set.",
       "expected_evidence": "choose the numeral that names a shown quantity",
       "dominant_failure_mode": "count_symbol_disconnect",
-      "scoring_guidance": "Meets when the learner completes the direct task accurately."
+      "scoring_guidance": "Meets when the learner demonstrates choose the numeral that names a shown quantity with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "C6-B1",
-      "item_family": "explanation",
-      "prompt": "uses counting or subitizing evidence to justify numeral-choice decisions",
+      "item_id": "C6-DIR-002",
+      "node_id": "C6",
+      "item_family": "direct_execution",
+      "prompt": "Compose and decompose the number 14 in two different ways.",
       "expected_evidence": "build or select a quantity that matches a shown numeral",
       "dominant_failure_mode": "symbol_quantity_guessing",
-      "scoring_guidance": "Meets when the learner explains the concept coherently."
+      "scoring_guidance": "Meets when the learner demonstrates build or select a quantity that matches a shown numeral with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "C6-C1",
-      "item_family": "error_diagnosis",
-      "prompt": "Diagnose a peer error aligned to final_count_loss.",
+      "item_id": "C6-DIR-003",
+      "node_id": "C6",
+      "item_family": "direct_execution",
+      "prompt": "Compare 348 and 384 and justify the comparison by place value.",
       "expected_evidence": "reject mismatched numeral labels on bounded sets",
       "dominant_failure_mode": "final_count_loss",
-      "scoring_guidance": "Meets when the learner identifies the source of the error and states the correct reasoning."
+      "scoring_guidance": "Meets when the learner demonstrates reject mismatched numeral labels on bounded sets with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
     },
     {
-      "item_id": "C6-D1",
+      "item_id": "C6-EXP-001",
+      "node_id": "C6",
+      "item_family": "explanation",
+      "prompt": "Explain why the last counting word tells how many objects are in the set.",
+      "expected_evidence": "choose the numeral that names a shown quantity",
+      "dominant_failure_mode": "symbol_quantity_guessing",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to choose the numeral that names a shown quantity.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "C6-EXP-002",
+      "node_id": "C6",
+      "item_family": "explanation",
+      "prompt": "Explain how the value of a digit depends on its place.",
+      "expected_evidence": "build or select a quantity that matches a shown numeral",
+      "dominant_failure_mode": "final_count_loss",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to build or select a quantity that matches a shown numeral.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "C6-ERR-001",
+      "node_id": "C6",
+      "item_family": "error_diagnosis",
+      "prompt": "A student counts objects twice and reports the larger total. Diagnose the one-to-one correspondence error. Focus on count symbol disconnect.",
+      "expected_evidence": "choose the numeral that names a shown quantity",
+      "dominant_failure_mode": "count_symbol_disconnect",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward choose the numeral that names a shown quantity.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "C6-ERR-002",
+      "node_id": "C6",
+      "item_family": "error_diagnosis",
+      "prompt": "A student says 402 is greater than 39 because 2 is greater than 9. Identify the place-value mistake. Focus on symbol quantity guessing.",
+      "expected_evidence": "build or select a quantity that matches a shown numeral",
+      "dominant_failure_mode": "symbol_quantity_guessing",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward build or select a quantity that matches a shown numeral.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "C6-TRA-001",
+      "node_id": "C6",
       "item_family": "transfer",
-      "prompt": "succeeds across objects, pictures, cards, and simple story contexts",
-      "expected_evidence": "move between spoken number, written numeral, and counted set coherently",
+      "prompt": "Use the same number idea with objects, numerals, and spoken language in a less-familiar representation.",
+      "expected_evidence": "choose the numeral that names a shown quantity",
+      "dominant_failure_mode": "final_count_loss",
+      "scoring_guidance": "Meets when the learner preserves choose the numeral that names a shown quantity in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "C6-TRA-002",
+      "node_id": "C6",
+      "item_family": "transfer",
+      "prompt": "Show the same quantity with a drawing, a numeral, and a decomposition statement.",
+      "expected_evidence": "build or select a quantity that matches a shown numeral",
       "dominant_failure_mode": "label_acceptance_error",
-      "scoring_guidance": "Meets when the learner succeeds in a less-familiar context."
+      "scoring_guidance": "Meets when the learner preserves build or select a quantity that matches a shown numeral in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "C6-RET-001",
+      "node_id": "C6",
+      "item_family": "retention",
+      "prompt": "After a delay, compare or compose a new whole number and explain the reasoning used.",
+      "expected_evidence": "choose the numeral that names a shown quantity",
+      "dominant_failure_mode": "label_acceptance_error",
+      "scoring_guidance": "Meets when the learner still demonstrates choose the numeral that names a shown quantity on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "C6-PRE-001",
+      "node_id": "C6",
+      "item_family": "prerequisite_probe",
+      "prompt": "Probe compare small quantities before closing quantity symbol correspondence, and state whether the learner is blocked by an upstream knowledge gap.",
+      "expected_evidence": "shows whether compare small quantities is secure enough to support quantity symbol correspondence",
+      "dominant_failure_mode": "symbol_quantity_guessing",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in compare small quantities from a current-node issue in quantity symbol correspondence.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "C4",
+      "suspected_knowledge_gap_if_incorrect": "compare small quantities"
+    },
+    {
+      "item_id": "C6-PRE-002",
+      "node_id": "C6",
+      "item_family": "prerequisite_probe",
+      "prompt": "Probe numeral recognition and writing readiness before closing quantity symbol correspondence, and state whether the learner is blocked by an upstream knowledge gap.",
+      "expected_evidence": "shows whether numeral recognition and writing readiness is secure enough to support quantity symbol correspondence",
+      "dominant_failure_mode": "final_count_loss",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in numeral recognition and writing readiness from a current-node issue in quantity symbol correspondence.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "C5",
+      "suspected_knowledge_gap_if_incorrect": "numeral recognition and writing readiness"
     }
   ]
 }

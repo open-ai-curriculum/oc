@@ -1,0 +1,248 @@
+[
+  {
+    "id": "F1",
+    "slug": "f1-mechanics-kinematics-energy-and-momentum",
+    "title": "F1 Mechanics, Kinematics, Energy, and Momentum",
+    "short": "advanced secondary physics specialization for mechanics, kinematics, energy, and momentum",
+    "domainArea": "physics specialization",
+    "deps": ["P4", "M4", "I4"],
+    "purpose": "The learner models motion and interaction using force, energy, and momentum relationships without reducing mechanics to equation selection by surface cue only.",
+    "exit": [
+      "explains motion using kinematic, force, energy, and momentum models in bounded cases",
+      "distinguishes when force, energy, or momentum reasoning is the better explanatory tool",
+      "connects representations, measurements, and model assumptions in mechanics tasks",
+      "succeeds across more than one advanced mechanics context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "coordinate verbal, graphical, and mathematical mechanics representations",
+      "explain why a given mechanics model applies in the bounded case",
+      "distinguish interaction reasoning from formula recall",
+      "use evidence from motion or collision data without overclaiming precision"
+    ],
+    "failure": [
+      ["01", "equation-cue substitution", "learner selects formulas from surface cues without a coherent mechanics model."],
+      ["02", "force-energy conflation", "learner merges force, work, and energy reasoning without distinction."],
+      ["03", "momentum-scope confusion", "learner misapplies momentum ideas outside the bounded interaction context."],
+      ["04", "representation-fragmentation", "learner cannot coordinate graphs, measurements, and symbolic reasoning."]
+    ],
+    "interventions": [
+      "representation-matching routines that require one mechanics situation to be explained across words, graphs, and equations",
+      "model-selection tasks comparing force, energy, and momentum explanations for the same event",
+      "collision and motion analyses that bound when momentum reasoning is justified",
+      "graph-to-measurement checks tying symbolic work back to observed motion"
+    ],
+    "items": [
+      ["Why is choosing an equation by keyword not enough in a mechanics problem?", "mechanics_model_selection", "A strong answer explains the physical model, assumptions, and represented quantities rather than matching words to a formula only.", ["model selection", "physics reasoning", "representation use"], ["01"], ["mechanics", "kinematics"]],
+      ["How is an energy explanation different from a force explanation in the same motion case?", "force_energy_comparison", "A strong answer distinguishes interaction cause from system-state change and shows why each model highlights different features of the motion.", ["distinction making", "causal reasoning", "transfer"], ["02"], ["energy", "forces"]],
+      ["What makes a momentum claim well bounded?", "momentum_reasoning", "It should identify the interaction interval, relevant system boundary, and what measurements support the claim.", ["system boundary", "measurement linkage", "precision"], ["03", "04"], ["momentum", "collisions"]]
+    ],
+    "noteSecure": "Explains mechanics with bounded force, energy, and momentum models rather than equation hunting.",
+    "noteEmerging": "Can perform some procedures but model selection and representation coordination remain unstable."
+  },
+  {
+    "id": "F2",
+    "slug": "f2-rotation-oscillation-gravitation-and-mechanical-systems",
+    "title": "F2 Rotation, Oscillation, Gravitation, and Mechanical Systems",
+    "short": "advanced secondary physics specialization for rotation, oscillation, gravitation, and mechanical systems",
+    "domainArea": "physics specialization",
+    "deps": ["F1", "P5"],
+    "purpose": "The learner extends mechanics into rotational, oscillatory, and gravitational systems without treating these topics as disconnected special-case formulas.",
+    "exit": [
+      "explains rotational and oscillatory behavior using coherent mechanical-system reasoning",
+      "connects gravitation to orbital or field-based mechanics in bounded cases",
+      "distinguishes linear and rotational analogies without collapsing them into identical relations",
+      "succeeds across more than one advanced mechanics context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "use rotational variables and system constraints meaningfully",
+      "explain oscillation with restoring-effect reasoning instead of pattern description only",
+      "connect orbital motion to interaction models and system conditions",
+      "avoid overextending linear analogies without checking model fit"
+    ],
+    "failure": [
+      ["01", "rotation-linear collapse", "learner treats rotational relations as identical to linear ones without bounded interpretation."],
+      ["02", "oscillation-pattern only", "learner describes periodicity without explaining restoring dynamics."],
+      ["03", "gravitation-formula isolation", "learner recalls gravitation formulas without model-based orbital reasoning."],
+      ["04", "mechanical-system overgeneralization", "learner extends one mechanics model to incompatible rotational or orbital cases."]
+    ],
+    "interventions": [
+      "linear-versus-rotational comparison routines tied to physical interpretation",
+      "oscillation explanations that force restoring-effect and energy reasoning",
+      "orbit-model prompts connecting gravitation, motion, and system boundary conditions",
+      "case sorting that separates when rotational, oscillatory, or orbital models fit"
+    ],
+    "items": [
+      ["Why is a rotational variable not just the linear one with a new symbol?", "rotation_reasoning", "A strong answer explains what the rotational quantity represents and how the system geometry changes the interpretation.", ["model distinction", "mechanical reasoning", "precision"], ["01"], ["rotation", "mechanics"]],
+      ["What makes an oscillation explanation more than saying it repeats?", "oscillation_explanation", "A strong explanation identifies the restoring effect, system conditions, and how energy changes within the oscillation.", ["dynamic reasoning", "system explanation", "transfer"], ["02"], ["oscillation", "energy"]],
+      ["Why does orbital motion need more than a gravitation formula quote?", "gravitation_modeling", "It requires connecting interaction strength, motion, and system conditions rather than citing a relation without interpretation.", ["model use", "causal linkage", "discipline"], ["03", "04"], ["gravitation", "orbits"]]
+    ],
+    "noteSecure": "Explains rotational, oscillatory, and gravitational systems through coherent mechanical models.",
+    "noteEmerging": "Recognizes topic labels but explanations remain formula-driven and weakly integrated."
+  },
+  {
+    "id": "F3",
+    "slug": "f3-fluids-thermodynamics-and-thermal-systems",
+    "title": "F3 Fluids, Thermodynamics, and Thermal Systems",
+    "short": "advanced secondary physics specialization for fluids, thermodynamics, and thermal systems",
+    "domainArea": "physics specialization",
+    "deps": ["F1", "P6", "M4"],
+    "purpose": "The learner explains pressure, flow, heat, and thermal-system behavior using physical models without reducing thermal systems to one-variable temperature talk.",
+    "exit": [
+      "explains fluid and thermal behavior using pressure, energy, and system-condition reasoning",
+      "distinguishes heat, temperature, and energy-change claims in bounded cases",
+      "connects macroscopic thermal behavior to system models without overextending simplifications",
+      "succeeds across more than one fluids or thermodynamics context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "use pressure and flow concepts with bounded system interpretation",
+      "distinguish temperature descriptions from energy-transfer explanations",
+      "reason about thermal systems using state change, conservation, or process models",
+      "avoid one-variable explanations for multi-condition systems"
+    ],
+    "failure": [
+      ["01", "temperature-energy collapse", "learner treats temperature and energy transfer as interchangeable."],
+      ["02", "pressure-flow shortcut", "learner uses pressure or flow labels without system-level explanation."],
+      ["03", "thermal-state oversimplification", "learner ignores important state or process conditions in thermal reasoning."],
+      ["04", "fluid-thermal context drift", "learner applies one fluid or thermal relation outside its justified context."]
+    ],
+    "interventions": [
+      "temperature-versus-energy comparison tasks with explicit transfer reasoning",
+      "fluid-system diagrams that require boundary, pressure, and flow interpretation",
+      "thermal-process maps connecting state variables, transfer, and constraints",
+      "bounded-case sorts for fluid and thermodynamic models"
+    ],
+    "items": [
+      ["Why is a temperature change not automatically the same as an energy explanation?", "thermal_reasoning", "A strong answer distinguishes measured temperature from the processes and transfers that explain the system's energy change.", ["distinction making", "thermal modeling", "precision"], ["01"], ["thermodynamics", "temperature"]],
+      ["What makes a pressure explanation more than naming a formula?", "fluid_systems_explanation", "It should identify the system, boundaries, and how pressure relates to force, flow, or depth in the bounded case.", ["system reasoning", "model fit", "transfer"], ["02"], ["fluids", "pressure"]],
+      ["How can a thermal model be overextended?", "thermal_model_critique", "It can be overextended when it ignores relevant conditions, process assumptions, or the limits of the simplified relation being used.", ["claim boundary", "critique quality", "physics reasoning"], ["03", "04"], ["thermal systems", "model limits"]]
+    ],
+    "noteSecure": "Explains fluids and thermal systems with bounded pressure, transfer, and system-condition reasoning.",
+    "noteEmerging": "Uses thermal and fluid vocabulary but explanations remain one-variable and formula-driven."
+  },
+  {
+    "id": "F4",
+    "slug": "f4-electrostatics-circuits-and-magnetic-fields",
+    "title": "F4 Electrostatics, Circuits, and Magnetic Fields",
+    "short": "advanced secondary physics specialization for electrostatics, circuits, and magnetic fields",
+    "domainArea": "physics specialization",
+    "deps": ["P5", "M5", "I4"],
+    "purpose": "The learner explains electric and magnetic phenomena using field, circuit, and interaction models without collapsing electricity into current-only or formula-only reasoning.",
+    "exit": [
+      "explains electric interactions and fields using bounded system models",
+      "explains circuits through potential, current, resistance, and system relations",
+      "connects magnetic behavior to moving charge or field interaction models in bounded cases",
+      "succeeds across more than one advanced electricity and magnetism context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "distinguish charge, field, potential, current, and resistance roles appropriately",
+      "reason about circuits as systems rather than isolated component facts",
+      "connect magnetic effects to interaction models instead of memorized direction rules only",
+      "avoid overextending one electrical relation to all contexts"
+    ],
+    "failure": [
+      ["01", "current-only electricity collapse", "learner explains all electric behavior through current without field or potential reasoning."],
+      ["02", "component-island circuits", "learner describes circuit parts without system-level relation among them."],
+      ["03", "magnetism-rule memorization", "learner uses direction rules without interaction-model explanation."],
+      ["04", "electromagnetic-context overgeneralization", "learner applies one electric or magnetic relation beyond its bounded case."]
+    ],
+    "interventions": [
+      "field-potential-current comparison tasks that separate electrical roles",
+      "whole-circuit reasoning routines that require source-path-load explanations",
+      "magnetic interaction prompts tied to moving charge and field models",
+      "case sorting that distinguishes electrostatic, circuit, and magnetic contexts"
+    ],
+    "items": [
+      ["Why is current alone not enough to explain a circuit outcome?", "circuit_reasoning", "A strong answer also considers potential differences, resistance, and how the full circuit system is configured.", ["system explanation", "concept distinction", "transfer"], ["01", "02"], ["circuits", "electricity"]],
+      ["What makes a field explanation different from a component description?", "field_modeling", "A field explanation models how interactions are distributed in space rather than naming one object or part only.", ["model use", "spatial reasoning", "precision"], ["01"], ["electrostatics", "fields"]],
+      ["Why is a magnetic direction rule not a complete explanation?", "magnetism_critique", "A complete explanation should connect the rule to the underlying charge or field interaction in the bounded case.", ["interaction reasoning", "critique quality", "discipline"], ["03", "04"], ["magnetism", "fields"]]
+    ],
+    "noteSecure": "Explains electricity and magnetism through field and system reasoning rather than isolated rules.",
+    "noteEmerging": "Uses electric and magnetic vocabulary but treats circuits and fields as fragmented procedures."
+  },
+  {
+    "id": "F5",
+    "slug": "f5-waves-optics-quantum-and-modern-physics",
+    "title": "F5 Waves, Optics, Quantum, and Modern Physics",
+    "short": "advanced secondary physics specialization for waves, optics, quantum, and modern physics",
+    "domainArea": "physics specialization",
+    "deps": ["F4", "P6", "M5"],
+    "purpose": "The learner explains optical, wave, and modern-physics phenomena using multiscale models without treating wave behavior and quantum ideas as disconnected curiosity topics.",
+    "exit": [
+      "explains wave and optical behavior using coherent propagation and interaction models",
+      "connects light behavior to both wave and bounded modern-physics perspectives where appropriate",
+      "uses model choice carefully in quantum or modern-physics contexts",
+      "succeeds across more than one advanced wave or modern-physics context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "distinguish what wave models explain well in the bounded case",
+      "connect optical behavior to interaction, path, or representation choices",
+      "treat modern-physics models as explanatory tools with limits rather than literal pictures",
+      "avoid mixing incompatible model claims without justification"
+    ],
+    "failure": [
+      ["01", "wave-feature listing", "learner names wave features without using a propagation or interaction model."],
+      ["02", "optics-ray-only collapse", "learner uses one optics representation without checking whether it fits the case."],
+      ["03", "quantum-literalism", "learner treats modern-physics models as literal pictures rather than bounded explanations."],
+      ["04", "model-mixing without-boundary", "learner blends wave, ray, or quantum ideas without justification."]
+    ],
+    "interventions": [
+      "wave propagation tasks that require model-based explanation rather than feature recall",
+      "representation selection routines comparing ray, wave, and other optics models",
+      "model-limit discussions for quantum and modern-physics explanations",
+      "boundary checks that ask why one model fits a case better than another"
+    ],
+    "items": [
+      ["Why is naming wavelength or frequency not enough to explain a wave case?", "wave_modeling", "A strong answer uses those quantities inside a propagation or interaction model rather than listing them as isolated facts.", ["model use", "wave reasoning", "precision"], ["01"], ["waves", "models"]],
+      ["When can an optics representation mislead?", "optics_model_selection", "It can mislead when it is used outside the situations it was designed to explain or when another model better fits the phenomenon.", ["representation choice", "claim boundary", "transfer"], ["02", "04"], ["optics", "models"]],
+      ["Why should a quantum model not be treated as a literal picture?", "modern_physics_critique", "It is a bounded explanatory model that captures certain behaviors and constraints rather than a direct visual description of reality.", ["model limits", "discipline", "scientific reasoning"], ["03"], ["quantum", "modern physics"]]
+    ],
+    "noteSecure": "Explains waves, optics, and modern physics through bounded model choice and interaction reasoning.",
+    "noteEmerging": "Recognizes wave and quantum vocabulary but mixes models without checking their limits."
+  },
+  {
+    "id": "F6",
+    "slug": "f6-calculus-embedded-physics-modeling",
+    "title": "F6 Calculus-Embedded Physics Modeling",
+    "short": "advanced secondary physics specialization for calculus-embedded physics modeling",
+    "domainArea": "physics specialization",
+    "deps": ["F2", "F4", "I5", "E5"],
+    "purpose": "The learner integrates calculus-supported modeling into advanced mechanics and electricity-magnetism reasoning without treating mathematical procedure as a substitute for physical interpretation.",
+    "exit": [
+      "uses calculus-supported reasoning to model change and accumulation in bounded physics cases",
+      "connects mathematical operations back to physical quantities, assumptions, and system meaning",
+      "uses advanced modeling to extend mechanics or electricity-magnetism explanations without overclaiming scope",
+      "succeeds across more than one calculus-embedded physics context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "interpret rate and accumulation mathematically and physically",
+      "state modeling assumptions and quantity meanings explicitly",
+      "coordinate advanced mathematical work with evidence and physics explanation",
+      "avoid treating symbolic completion as physical understanding"
+    ],
+    "failure": [
+      ["01", "calculus-procedure substitution", "learner performs calculus steps without explaining the physics meaning of the quantities."],
+      ["02", "quantity-interpretation drift", "learner loses track of what changing or accumulated quantities represent physically."],
+      ["03", "model-scope overreach", "learner extends a successful mathematical model beyond the bounded physical case."],
+      ["04", "math-physics disconnect", "learner cannot connect advanced symbolic work to system evidence or explanation."]
+    ],
+    "interventions": [
+      "rate-and-accumulation interpretation tasks tied directly to physics quantities",
+      "assumption audits requiring each mathematical step to be connected to a physical claim",
+      "bounded-case checks that ask where the calculus-supported model stops fitting",
+      "evidence-to-model routines linking derived relations back to observed system behavior"
+    ],
+    "items": [
+      ["Why is a correct derivative or integral not enough in an advanced physics explanation?", "calculus_physics_reasoning", "A strong answer also explains what quantity is changing or accumulating and how that interpretation supports the physics model.", ["quantity interpretation", "physics meaning", "discipline"], ["01", "02"], ["calculus", "physics modeling"]],
+      ["What makes a calculus-supported model overextended?", "model_scope_critique", "It becomes overextended when its assumptions or bounded physical conditions no longer hold, even if the mathematics still looks valid.", ["claim boundary", "assumption awareness", "transfer"], ["03"], ["modeling", "scope"]],
+      ["How should advanced symbolic work connect back to evidence?", "evidence_model_linkage", "It should be tied to measured quantities, system behavior, and the explanatory claim rather than presented as self-justifying mathematics.", ["evidence use", "interpretation", "integration"], ["04"], ["evidence", "advanced modeling"]]
+    ],
+    "noteSecure": "Uses calculus-supported physics modeling with explicit quantity meaning, assumptions, and bounded interpretation.",
+    "noteEmerging": "Can perform some advanced mathematics but does not reliably connect it back to physics meaning."
+  }
+]

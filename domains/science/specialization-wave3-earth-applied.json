@@ -1,0 +1,412 @@
+[
+  {
+    "id": "G1",
+    "slug": "g1-geology-geophysics-and-surface-process-systems",
+    "title": "G1 Geology, Geophysics, and Surface Process Systems",
+    "short": "advanced secondary Earth science specialization for geology, geophysics, and surface process systems",
+    "domainArea": "earth and environmental specialization",
+    "deps": ["T4", "M3", "I3"],
+    "purpose": "The learner explains rocks, Earth materials, tectonics, and surface processes through geologic-system models without reducing Earth change to isolated landform descriptions.",
+    "exit": [
+      "explains geologic and surface-process change using system and process models",
+      "connects rock, tectonic, and Earth-material evidence to bounded geologic claims",
+      "distinguishes short-term surface change from longer geologic-process reasoning",
+      "succeeds across more than one advanced Earth-science context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "connect landforms to causal Earth-process explanations",
+      "use rock and material evidence with explicit process interpretation",
+      "distinguish geologic timescale claims from short-term observation only",
+      "avoid one-process explanations when interacting Earth systems matter"
+    ],
+    "failure": [
+      ["01", "landform-label substitution", "learner names rocks or landforms without explaining the processes that produced them."],
+      ["02", "timescale collapse", "learner confuses short-term events with long geologic-system change."],
+      ["03", "tectonic-process fragmentation", "learner discusses plate or crust processes as disconnected facts."],
+      ["04", "evidence-to-process disconnect", "learner cannot connect geologic evidence to a justified Earth-process explanation."]
+    ],
+    "interventions": [
+      "landform-to-process routines that require causal Earth-system explanation",
+      "timescale comparison tasks that separate event, cycle, and deep-time claims",
+      "tectonic-system maps tying boundaries, forces, and surface outcomes together",
+      "rock-and-material evidence reviews that connect observations to bounded geologic interpretations"
+    ],
+    "items": [
+      ["Why is naming a rock type not enough to explain a geologic history?", "geology_explanation", "A strong answer connects the rock evidence to processes and conditions rather than stopping at identification only.", ["process linkage", "evidence use", "Earth-system reasoning"], ["01", "04"], ["geology", "rocks"]],
+      ["What makes a surface-process explanation different from a deep-time geologic claim?", "timescale_reasoning", "A surface-process explanation is bounded to shorter-term mechanisms, while deep-time claims require longer Earth-history models and evidence.", ["timescale distinction", "claim boundary", "precision"], ["02"], ["geology", "timescales"]],
+      ["Why should tectonics be explained as a system rather than a list of features?", "tectonic_systems_reasoning", "A strong explanation connects forces, boundaries, materials, and outcomes instead of listing isolated terms.", ["systems reasoning", "causal coherence", "transfer"], ["03"], ["tectonics", "earth systems"]]
+    ],
+    "noteSecure": "Explains geology and surface processes with coherent Earth-system and timescale reasoning.",
+    "noteEmerging": "Recognizes geologic vocabulary but explanations remain descriptive and weakly connected to process."
+  },
+  {
+    "id": "G2",
+    "slug": "g2-atmospheric-weather-and-climate-dynamics",
+    "title": "G2 Atmospheric, Weather, and Climate Dynamics",
+    "short": "advanced secondary Earth science specialization for atmospheric, weather, and climate dynamics",
+    "domainArea": "earth and environmental specialization",
+    "deps": ["T5", "M4", "I4"],
+    "purpose": "The learner explains atmospheric circulation, weather systems, and climate dynamics using Earth-system evidence without collapsing climate reasoning into local weather anecdotes.",
+    "exit": [
+      "explains weather and climate using atmospheric-system models",
+      "distinguishes event-level weather claims from longer-pattern climate reasoning",
+      "uses atmospheric evidence and model limits in bounded climate explanations",
+      "succeeds across more than one advanced atmosphere or climate context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "connect pressure, circulation, energy, and moisture ideas in atmospheric explanations",
+      "separate local event descriptions from broader climate pattern claims",
+      "use evidence and uncertainty language appropriately in climate reasoning",
+      "avoid overgeneralizing from one region or one event"
+    ],
+    "failure": [
+      ["01", "weather-climate conflation", "learner treats short-term weather events as direct proof of climate claims."],
+      ["02", "atmospheric-factor isolation", "learner explains atmospheric behavior with one factor while ignoring interacting system drivers."],
+      ["03", "regional-overgeneralization", "learner extends local atmospheric evidence to global conclusions without justification."],
+      ["04", "climate-evidence selectivity", "learner cherry-picks atmospheric evidence instead of weighing multiple sources and uncertainties."]
+    ],
+    "interventions": [
+      "weather-versus-climate comparison routines with explicit timescale and evidence checks",
+      "atmospheric-system diagrams connecting circulation, moisture, pressure, and energy",
+      "regional-to-global claim audits that constrain inference scope",
+      "multi-source climate evidence synthesis tasks that require uncertainty language"
+    ],
+    "items": [
+      ["Why is one storm not enough to justify a climate claim?", "weather_climate_critique", "A strong answer distinguishes event-level weather from longer-term pattern evidence needed for climate reasoning.", ["timescale distinction", "evidence discipline", "precision"], ["01"], ["weather", "climate"]],
+      ["What makes an atmospheric explanation a system explanation?", "atmospheric_systems_explanation", "It connects interacting variables such as pressure, circulation, moisture, and energy rather than isolating one factor.", ["systems reasoning", "causal linkage", "transfer"], ["02"], ["atmosphere", "systems"]],
+      ["How should local climate evidence be bounded?", "regional_climate_reasoning", "It should be tied to the region and compared with broader datasets before supporting larger-scale conclusions.", ["claim boundary", "data use", "discipline"], ["03", "04"], ["climate", "evidence"]]
+    ],
+    "noteSecure": "Explains weather and climate with explicit timescale, system, and evidence distinctions.",
+    "noteEmerging": "Uses climate vocabulary but reasoning still leans on local anecdotes and single-factor stories."
+  },
+  {
+    "id": "G3",
+    "slug": "g3-hydrology-oceanography-and-marine-earth-systems",
+    "title": "G3 Hydrology, Oceanography, and Marine Earth Systems",
+    "short": "advanced secondary Earth science specialization for hydrology, oceanography, and marine Earth systems",
+    "domainArea": "earth and environmental specialization",
+    "deps": ["G1", "G2", "T6"],
+    "purpose": "The learner models water movement, ocean systems, and coastal or marine Earth interactions without fragmenting hydrology from climate and Earth-system processes.",
+    "exit": [
+      "explains hydrologic and ocean processes through interacting Earth-system models",
+      "connects water movement to climate, geology, and marine-system outcomes in bounded cases",
+      "uses marine and hydrologic evidence without overextending local observations",
+      "succeeds across more than one advanced oceanography or hydrology context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "connect water pathways, storage, and movement to system conditions",
+      "relate coastal or marine outcomes to atmospheric and geologic drivers",
+      "use observational evidence with explicit spatial and temporal bounds",
+      "avoid treating ocean or water systems as isolated from broader Earth processes"
+    ],
+    "failure": [
+      ["01", "water-cycle simplification", "learner uses an oversimplified cycle story without system drivers or storage distinctions."],
+      ["02", "marine-system isolation", "learner treats ocean processes as detached from climate, geology, or coastlines."],
+      ["03", "local-observation overreach", "learner generalizes from one water or coastal observation beyond its justified scale."],
+      ["04", "hydrology-climate disconnect", "learner cannot connect hydrologic behavior to atmospheric or Earth-system conditions."]
+    ],
+    "interventions": [
+      "water-system maps that include storage, transfer, and driver conditions",
+      "marine Earth-system comparisons linking ocean, atmosphere, and geology",
+      "scale-bounding prompts for local, regional, and global water evidence",
+      "hydrology-climate integration tasks requiring cross-system explanation"
+    ],
+    "items": [
+      ["Why is a simple water-cycle diagram not enough in an advanced hydrology explanation?", "hydrology_systems_reasoning", "A strong explanation includes storage, drivers, pathways, and conditions rather than a circular sequence only.", ["systems reasoning", "process detail", "precision"], ["01"], ["hydrology", "water systems"]],
+      ["What makes oceanography an Earth-systems question rather than a water-only question?", "oceanography_integration", "Ocean systems depend on atmosphere, geology, coasts, and circulation, so the explanation must integrate those interacting drivers.", ["cross-system integration", "Earth reasoning", "transfer"], ["02", "04"], ["oceanography", "earth systems"]],
+      ["How should a coastal observation be bounded before supporting a wider claim?", "marine_evidence_critique", "It should be tied to its location, timescale, and supporting datasets before being extended to larger marine-system conclusions.", ["claim boundary", "evidence use", "discipline"], ["03"], ["marine science", "evidence"]]
+    ],
+    "noteSecure": "Explains hydrology and oceanography as integrated Earth-system processes with bounded evidence.",
+    "noteEmerging": "Recognizes water and marine patterns but explanations remain simplified and weakly integrated."
+  },
+  {
+    "id": "G4",
+    "slug": "g4-astronomy-astrophysics-and-cosmic-evolution",
+    "title": "G4 Astronomy, Astrophysics, and Cosmic Evolution",
+    "short": "advanced secondary space science specialization for astronomy, astrophysics, and cosmic evolution",
+    "domainArea": "earth and environmental specialization",
+    "deps": ["T6", "M5", "E4"],
+    "purpose": "The learner explains planetary, stellar, and cosmological phenomena using physical and observational models without treating astronomy as a disconnected fact catalog.",
+    "exit": [
+      "explains astronomy and astrophysics phenomena using bounded physical models",
+      "connects observations to planetary, stellar, or cosmic-evolution claims appropriately",
+      "distinguishes model-based inference from direct observation in astronomy contexts",
+      "succeeds across more than one advanced astronomy context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "use light, motion, scale, and interaction evidence in astronomy explanations",
+      "explain how observations support inference in space science",
+      "coordinate model choice with the astronomical phenomenon being explained",
+      "avoid overclaiming certainty from indirect evidence"
+    ],
+    "failure": [
+      ["01", "space-fact cataloging", "learner lists astronomy facts without model-based explanation."],
+      ["02", "observation-inference collapse", "learner treats indirect astronomical inference as direct observation."],
+      ["03", "scale-model mismatch", "learner uses a model that does not fit the scale or process of the phenomenon."],
+      ["04", "cosmic-claim overreach", "learner extends limited astronomical evidence to larger claims without sufficient support."]
+    ],
+    "interventions": [
+      "observation-to-inference routines that make astronomical evidence chains explicit",
+      "scale checks that compare planetary, stellar, and cosmological model choices",
+      "phenomenon-matching tasks for astronomy and astrophysics models",
+      "claim-boundary reviews for indirect evidence in space science"
+    ],
+    "items": [
+      ["Why is seeing a pattern in telescope data not the same as directly observing the cause?", "astronomy_inference_critique", "A strong answer distinguishes the observation from the model-based inference that explains it.", ["observation vs inference", "model use", "discipline"], ["02"], ["astronomy", "evidence"]],
+      ["What makes astronomy more than a list of object facts?", "astrophysics_explanation", "It becomes explanatory when observations are linked to physical models of interaction, scale, motion, or evolution.", ["model linkage", "physical reasoning", "transfer"], ["01", "03"], ["astrophysics", "models"]],
+      ["How should a cosmic-evolution claim be bounded?", "cosmic_claim_boundary", "It should be tied to the available observations, model assumptions, and the level of uncertainty in the inference.", ["claim boundary", "uncertainty", "precision"], ["04"], ["cosmology", "uncertainty"]]
+    ],
+    "noteSecure": "Explains astronomy through model-based inference and bounded physical reasoning.",
+    "noteEmerging": "Recognizes astronomy content but explanations remain descriptive and overly certain."
+  },
+  {
+    "id": "G5",
+    "slug": "g5-environmental-systems-human-impact-and-sustainability",
+    "title": "G5 Environmental Systems, Human Impact, and Sustainability",
+    "short": "advanced secondary environmental science specialization for environmental systems, human impact, and sustainability",
+    "domainArea": "earth and environmental specialization",
+    "deps": ["T5", "L4", "E4", "D4"],
+    "purpose": "The learner evaluates environmental systems and human impacts using evidence, tradeoff, and sustainability reasoning without collapsing environmental decisions into one-variable advocacy claims.",
+    "exit": [
+      "explains environmental-system change using interacting biophysical and human factors",
+      "evaluates impact claims with explicit evidence and uncertainty posture",
+      "uses sustainability reasoning to compare tradeoffs in bounded environmental cases",
+      "succeeds across more than one advanced environmental-science context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "connect biological and Earth-system evidence in environmental explanations",
+      "compare tradeoffs and consequences rather than endorsing one metric only",
+      "use uncertainty and source-quality language in impact claims",
+      "avoid substituting position statements for evidence-based system reasoning"
+    ],
+    "failure": [
+      ["01", "single-metric sustainability collapse", "learner judges environmental systems through one metric while ignoring tradeoffs."],
+      ["02", "impact-claim advocacy drift", "learner advances a position without enough system evidence or uncertainty handling."],
+      ["03", "human-natural separation", "learner discusses human impacts and environmental systems as disconnected layers."],
+      ["04", "source-quality neglect", "learner uses environmental claims without weighing evidence quality or limitations."]
+    ],
+    "interventions": [
+      "tradeoff matrices that require multiple sustainability criteria to be compared",
+      "impact-claim audits with explicit evidence and uncertainty checks",
+      "human-environment system maps connecting causes, constraints, and outcomes",
+      "source-evaluation routines for environmental data and argument quality"
+    ],
+    "items": [
+      ["Why is one sustainability metric not enough for an environmental decision?", "sustainability_tradeoff_reasoning", "A strong answer explains that environmental decisions involve multiple interacting criteria and tradeoffs rather than a single score.", ["tradeoff reasoning", "systems thinking", "precision"], ["01"], ["sustainability", "decision making"]],
+      ["What makes an environmental impact claim evidence-based instead of advocacy only?", "environmental_impact_critique", "It uses bounded evidence, identifies uncertainty, and ties the claim to system relationships rather than assertion alone.", ["evidence use", "uncertainty", "discipline"], ["02", "04"], ["environmental science", "claims"]],
+      ["Why should human and environmental factors be modeled together?", "human_environment_systems", "Because environmental outcomes often emerge from interactions between human actions, biological systems, and Earth-system constraints.", ["integration", "causal reasoning", "transfer"], ["03"], ["human impact", "systems"]]
+    ],
+    "noteSecure": "Evaluates environmental systems with tradeoff-aware, evidence-bounded sustainability reasoning.",
+    "noteEmerging": "Understands environmental concerns but reasoning is still single-metric or advocacy-driven."
+  },
+  {
+    "id": "G6",
+    "slug": "g6-land-water-use-agriculture-and-resource-management",
+    "title": "G6 Land/Water Use, Agriculture, and Resource Management",
+    "short": "advanced secondary environmental science specialization for land and water use, agriculture, and resource management",
+    "domainArea": "earth and environmental specialization",
+    "deps": ["G5", "B5", "D4"],
+    "purpose": "The learner applies environmental and biological reasoning to agriculture, land use, water use, and resource decisions without treating management questions as disconnected from system evidence and tradeoffs.",
+    "exit": [
+      "explains land, water, and agricultural decisions through environmental-system reasoning",
+      "evaluates resource-management options with criteria, constraints, and tradeoff evidence",
+      "connects biological productivity, water, soil, and human-use factors in bounded cases",
+      "succeeds across more than one advanced agriculture or resource context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "connect agricultural and resource decisions to ecological and Earth-system constraints",
+      "use design and management criteria explicitly when comparing options",
+      "reason about land and water use with system-wide consequences in view",
+      "avoid local-solution claims that ignore downstream or long-term effects"
+    ],
+    "failure": [
+      ["01", "resource-use short-horizon", "learner evaluates land or water use without long-term system consequences."],
+      ["02", "agriculture-system isolation", "learner treats agriculture as detached from ecology, soil, water, or climate drivers."],
+      ["03", "management-criteria omission", "learner compares options without explicit constraints or decision criteria."],
+      ["04", "downstream-impact blindness", "learner ignores cross-system or downstream effects of a proposed management choice."]
+    ],
+    "interventions": [
+      "resource-planning tasks that force long-term and downstream consequence checks",
+      "agriculture-system maps connecting soil, water, biodiversity, and production goals",
+      "criteria-and-constraint tables for land and water management decisions",
+      "case reviews that compare local gains with broader system impacts"
+    ],
+    "items": [
+      ["Why is a short-term yield gain not enough to justify an agricultural decision?", "agriculture_tradeoff_reasoning", "A strong answer considers long-term soil, water, ecosystem, and management consequences rather than yield alone.", ["tradeoff reasoning", "systems view", "precision"], ["01", "02"], ["agriculture", "resource management"]],
+      ["What should be explicit when comparing land or water management options?", "resource_management_criteria", "The explanation should name criteria, constraints, evidence, and possible downstream consequences for each option.", ["criteria use", "design reasoning", "transfer"], ["03"], ["land use", "water use"]],
+      ["Why do downstream effects matter in resource decisions?", "downstream_impact_reasoning", "Because land, water, and ecological systems are connected, so one local choice can create wider consequences beyond the immediate site.", ["system connections", "causal reasoning", "discipline"], ["04"], ["resource systems", "impacts"]]
+    ],
+    "noteSecure": "Evaluates agriculture and resource management through explicit criteria, tradeoffs, and downstream system effects.",
+    "noteEmerging": "Can discuss land or water use but still underweights constraints and broader consequences."
+  },
+  {
+    "id": "R1",
+    "slug": "r1-independent-research-design-and-scientific-inquiry",
+    "title": "R1 Independent Research Design and Scientific Inquiry",
+    "short": "advanced secondary applied science specialization for independent research design and scientific inquiry",
+    "domainArea": "applied science specialization",
+    "deps": ["A2", "I5", "E5"],
+    "purpose": "The learner proposes and executes sustained scientific inquiry with defended methods, evidence, and interpretation without confusing project completion with credible scientific reasoning.",
+    "exit": [
+      "frames a defensible research question with bounded scope and method choice",
+      "uses evidence and uncertainty posture to justify interpretation and critique limitations",
+      "coordinates investigation design, data handling, and explanation in a sustained inquiry cycle",
+      "succeeds across more than one advanced inquiry or research-design context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "justify question scope, variables, and method decisions explicitly",
+      "evaluate data quality, uncertainty, and limitation claims in research contexts",
+      "connect research design decisions to interpretation quality",
+      "avoid equating polished presentation with strong inquiry logic"
+    ],
+    "failure": [
+      ["01", "question-method mismatch", "learner poses a question that is not matched by the chosen method or evidence plan."],
+      ["02", "project-completion masquerade", "learner treats finishing a project as evidence of scientific quality."],
+      ["03", "limitation-understatement", "learner reports findings without adequately addressing limitations or uncertainty."],
+      ["04", "interpretation-evidence drift", "learner's interpretation extends beyond what the evidence supports."]
+    ],
+    "interventions": [
+      "question-to-method alignment checks before inquiry execution",
+      "research-quality rubrics that separate polish from evidentiary strength",
+      "limitation and uncertainty prompts embedded in reporting routines",
+      "claim-boundary reviews comparing results to justified interpretation scope"
+    ],
+    "items": [
+      ["Why is a polished project not enough to count as strong inquiry?", "research_quality_critique", "A strong answer distinguishes presentation quality from question-method alignment, evidence quality, and justified interpretation.", ["quality criteria", "evidence discipline", "precision"], ["02"], ["research", "inquiry"]],
+      ["What makes a research question and method well aligned?", "question_method_alignment", "The method should produce evidence capable of addressing the bounded question and its variables meaningfully.", ["design reasoning", "method fit", "transfer"], ["01"], ["research design", "methods"]],
+      ["Why must limitations be explicit in scientific inquiry?", "limitations_reasoning", "Because limitations and uncertainty affect how strongly results can support the claim and prevent overinterpretation.", ["uncertainty", "claim boundary", "discipline"], ["03", "04"], ["scientific inquiry", "limitations"]]
+    ],
+    "noteSecure": "Designs and critiques sustained inquiry with explicit method fit, evidence quality, and limitation posture.",
+    "noteEmerging": "Can complete projects but still confuses completion and presentation with inquiry quality."
+  },
+  {
+    "id": "R2",
+    "slug": "r2-forensic-science-and-evidence-based-lab-analysis",
+    "title": "R2 Forensic Science and Evidence-Based Lab Analysis",
+    "short": "advanced secondary applied science specialization for forensic science and evidence-based lab analysis",
+    "domainArea": "applied science specialization",
+    "deps": ["R1", "B1", "C3"],
+    "purpose": "The learner applies biological, chemical, and investigative reasoning to forensic evidence problems without treating forensic conclusions as certain because they appear technical.",
+    "exit": [
+      "uses biological, chemical, and lab evidence to evaluate bounded forensic claims",
+      "distinguishes evidence interpretation from certainty or narrative pressure",
+      "connects laboratory method quality to the strength of a forensic conclusion",
+      "succeeds across more than one advanced forensic-science context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "interpret forensic evidence with explicit method and contamination awareness",
+      "separate evidentiary support from case narrative appeal",
+      "use chemistry and biology reasoning to evaluate lab findings appropriately",
+      "avoid overclaiming identification or causation from limited evidence"
+    ],
+    "failure": [
+      ["01", "technical-certainty illusion", "learner assumes a forensic result is certain because the method sounds technical."],
+      ["02", "case-narrative override", "learner lets the story of the case outweigh the evidentiary limits."],
+      ["03", "contamination-method neglect", "learner underweights sample handling or method quality in interpretation."],
+      ["04", "evidence-to-identity overreach", "learner extends bounded lab evidence to stronger identity or causation claims than justified."]
+    ],
+    "interventions": [
+      "forensic-method critiques that foreground contamination and chain-of-evidence issues",
+      "evidence-versus-story comparison tasks for forensic cases",
+      "lab-quality checks tying sample handling to interpretation strength",
+      "claim-boundary routines separating support, likelihood, and certainty in forensic conclusions"
+    ],
+    "items": [
+      ["Why is a lab method sounding advanced not enough to guarantee a forensic conclusion?", "forensic_method_critique", "A strong answer considers sample quality, contamination risk, method limits, and what the evidence can actually support.", ["method awareness", "claim boundary", "precision"], ["01", "03"], ["forensics", "lab methods"]],
+      ["What makes a forensic interpretation vulnerable to story bias?", "forensic_narrative_critique", "It is vulnerable when the case narrative drives the conclusion more than the bounded evidence and its limitations.", ["evidence discipline", "bias awareness", "transfer"], ["02"], ["forensics", "bias"]],
+      ["How should identity or causation claims be bounded in a forensic case?", "forensic_claim_boundary", "They should be limited to what the evidence and method quality support, without overstating certainty or scope.", ["claim boundary", "discipline", "scientific reasoning"], ["04"], ["forensics", "evidence"]]
+    ],
+    "noteSecure": "Evaluates forensic evidence with explicit method, contamination, and claim-boundary reasoning.",
+    "noteEmerging": "Finds forensic work engaging but still overreads technical evidence and narrative fit."
+  },
+  {
+    "id": "R3",
+    "slug": "r3-electronics-instrumentation-and-embedded-measurement",
+    "title": "R3 Electronics, Instrumentation, and Embedded Measurement",
+    "short": "advanced secondary applied science specialization for electronics, instrumentation, and embedded measurement",
+    "domainArea": "applied science specialization",
+    "deps": ["R1", "F4", "D4"],
+    "purpose": "The learner uses circuits, sensors, and instrumentation in measurement and design settings without treating devices as black boxes that produce automatically trustworthy data.",
+    "exit": [
+      "explains sensor and instrumentation behavior using circuit and measurement models",
+      "uses electronics and embedded measurement in bounded design or inquiry settings",
+      "evaluates calibration, noise, and setup quality before trusting the data stream",
+      "succeeds across more than one electronics or instrumentation context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "connect circuit behavior to sensing or instrumentation outcomes",
+      "reason about measurement quality, calibration, and signal limitations explicitly",
+      "use devices as part of a modeled system rather than as black boxes only",
+      "avoid treating collected data as valid without setup checks"
+    ],
+    "failure": [
+      ["01", "black-box instrumentation trust", "learner accepts device output without explaining how the system works or is calibrated."],
+      ["02", "signal-noise neglect", "learner ignores noise, drift, or measurement-quality issues in interpretation."],
+      ["03", "sensor-system disconnect", "learner uses sensors without connecting them to the physical quantity and circuit model."],
+      ["04", "setup-validity overclaim", "learner overstates the validity of a measurement setup without sufficient checks."]
+    ],
+    "interventions": [
+      "instrumentation maps linking physical quantity, sensor, circuit, and output",
+      "calibration and noise audits before data interpretation",
+      "embedded-measurement tasks that force setup reasoning, not output trust alone",
+      "validation routines comparing instrument readings with independent checks"
+    ],
+    "items": [
+      ["Why should sensor output not be trusted automatically?", "instrumentation_critique", "A strong answer checks calibration, circuit behavior, noise, and whether the device is actually measuring the intended quantity well.", ["measurement awareness", "systems reasoning", "precision"], ["01", "02"], ["instrumentation", "sensors"]],
+      ["What makes a sensor explanation more than naming the component?", "sensor_system_reasoning", "It connects the physical quantity, the sensor mechanism, the circuit behavior, and the interpreted output.", ["system integration", "model use", "transfer"], ["03"], ["electronics", "measurement"]],
+      ["How can a measurement setup be overclaimed?", "measurement_setup_boundary", "It can be overclaimed when the setup is treated as valid without calibration, comparison, or limitation checks.", ["claim boundary", "design reasoning", "discipline"], ["04"], ["measurement", "validation"]]
+    ],
+    "noteSecure": "Uses electronics and instrumentation with explicit calibration, circuit, and measurement-quality reasoning.",
+    "noteEmerging": "Can use devices but still treats outputs as trustworthy without enough setup and model checks."
+  },
+  {
+    "id": "R4",
+    "slug": "r4-computational-science-data-modeling-and-simulation",
+    "title": "R4 Computational Science, Data Modeling, and Simulation",
+    "short": "advanced secondary applied science specialization for computational science, data modeling, and simulation",
+    "domainArea": "applied science specialization",
+    "deps": ["A2", "M5", "I5"],
+    "purpose": "The learner uses computational tools and simulation to analyze scientific systems and data without treating model output as reality or as a substitute for scientific interpretation.",
+    "exit": [
+      "uses computational models and simulations with explicit assumptions and system meaning",
+      "connects data workflows, model outputs, and scientific claims in bounded cases",
+      "evaluates when simulation helps and when it can mislead if its assumptions are ignored",
+      "succeeds across more than one computational-science context",
+      "passes a delayed recheck after spacing"
+    ],
+    "evidence": [
+      "state model assumptions and representational choices explicitly",
+      "connect computational output back to scientific quantities and evidence",
+      "treat simulation as a bounded explanatory tool rather than self-validating truth",
+      "avoid overreading graphs, dashboards, or outputs without system interpretation"
+    ],
+    "failure": [
+      ["01", "simulation-as-reality", "learner treats computational output as direct reality rather than model-dependent representation."],
+      ["02", "assumption-opacity", "learner uses a computational model without identifying key assumptions or limitations."],
+      ["03", "output-interpretation drift", "learner reads graphs or tables without connecting them to scientific quantities and claims."],
+      ["04", "tool-completion substitution", "learner treats successful tool execution as evidence of strong scientific reasoning."]
+    ],
+    "interventions": [
+      "assumption logs for simulations and computational workflows",
+      "output-to-quantity interpretation tasks connecting visuals back to science meaning",
+      "model-versus-reality comparison routines for computational representations",
+      "quality checks that separate tool execution from explanatory strength"
+    ],
+    "items": [
+      ["Why is a simulation output not the same as reality?", "simulation_critique", "A strong answer identifies the model assumptions and explains that the output represents a bounded computational interpretation, not direct reality.", ["assumption awareness", "model limits", "precision"], ["01", "02"], ["simulation", "modeling"]],
+      ["What makes a graph from a scientific computation meaningful?", "computational_output_reasoning", "It becomes meaningful when the axes, quantities, assumptions, and scientific claim are all interpreted together.", ["quantity interpretation", "evidence linkage", "transfer"], ["03"], ["data modeling", "graphs"]],
+      ["Why is successful tool execution not enough in computational science?", "tool_completion_critique", "Because the scientific value depends on the model, assumptions, interpretation, and claim quality, not just whether the tool ran.", ["quality criteria", "discipline", "scientific reasoning"], ["04"], ["computational science", "tool use"]]
+    ],
+    "noteSecure": "Uses computational science tools with explicit assumptions, interpretation, and model-boundary reasoning.",
+    "noteEmerging": "Can run computational workflows but still overtrusts outputs and understates assumptions."
+  }
+]

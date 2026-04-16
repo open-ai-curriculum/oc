@@ -1,0 +1,140 @@
+{
+  "node_id": "W9",
+  "policy_version": "1.0",
+  "items": [
+    {
+      "item_id": "W9-DIR-001",
+      "node_id": "W9",
+      "item_family": "direct_execution",
+      "prompt": "Classify the study as survey, observational study, or experiment and state what claim is supported.",
+      "expected_evidence": "interpret bounded inferential claims about whether a population regression slope differs from zero",
+      "dominant_failure_mode": "association_fit_fragmentation",
+      "scoring_guidance": "Meets when the learner demonstrates interpret bounded inferential claims about whether a population regression slope differs from zero with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
+    },
+    {
+      "item_id": "W9-DIR-002",
+      "node_id": "W9",
+      "item_family": "direct_execution",
+      "prompt": "Use a two-way table or probability model to find the probability of a compound event.",
+      "expected_evidence": "connect scatter-plot structure, residual variation, and slope evidence in one coherent explanation",
+      "dominant_failure_mode": "causation_overreach",
+      "scoring_guidance": "Meets when the learner demonstrates connect scatter-plot structure, residual variation, and slope evidence in one coherent explanation with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
+    },
+    {
+      "item_id": "W9-DIR-003",
+      "node_id": "W9",
+      "item_family": "direct_execution",
+      "prompt": "Describe the center and spread of a distribution using the given plot.",
+      "expected_evidence": "distinguish evidence for linear association from evidence for causation",
+      "dominant_failure_mode": "outlier_trend_erasure",
+      "scoring_guidance": "Meets when the learner demonstrates distinguish evidence for linear association from evidence for causation with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
+    },
+    {
+      "item_id": "W9-EXP-001",
+      "node_id": "W9",
+      "item_family": "explanation",
+      "prompt": "Explain how sample design affects what can be inferred about a population.",
+      "expected_evidence": "interpret bounded inferential claims about whether a population regression slope differs from zero",
+      "dominant_failure_mode": "causation_overreach",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to interpret bounded inferential claims about whether a population regression slope differs from zero.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "W9-EXP-002",
+      "node_id": "W9",
+      "item_family": "explanation",
+      "prompt": "Explain why theoretical probability and short-run experimental results can differ.",
+      "expected_evidence": "connect scatter-plot structure, residual variation, and slope evidence in one coherent explanation",
+      "dominant_failure_mode": "outlier_trend_erasure",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to connect scatter-plot structure, residual variation, and slope evidence in one coherent explanation.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "W9-ERR-001",
+      "node_id": "W9",
+      "item_family": "error_diagnosis",
+      "prompt": "A student uses an observational study to claim causation. Diagnose the study-design error. Focus on association fit fragmentation.",
+      "expected_evidence": "interpret bounded inferential claims about whether a population regression slope differs from zero",
+      "dominant_failure_mode": "association_fit_fragmentation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward interpret bounded inferential claims about whether a population regression slope differs from zero.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "W9-ERR-002",
+      "node_id": "W9",
+      "item_family": "error_diagnosis",
+      "prompt": "A student adds overlapping events as if they were disjoint. Identify the double-counting mistake. Focus on causation overreach.",
+      "expected_evidence": "connect scatter-plot structure, residual variation, and slope evidence in one coherent explanation",
+      "dominant_failure_mode": "causation_overreach",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward connect scatter-plot structure, residual variation, and slope evidence in one coherent explanation.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "W9-TRA-001",
+      "node_id": "W9",
+      "item_family": "transfer",
+      "prompt": "Read a less-familiar graph or study summary and decide whether the reported conclusion is supported.",
+      "expected_evidence": "interpret bounded inferential claims about whether a population regression slope differs from zero",
+      "dominant_failure_mode": "outlier_trend_erasure",
+      "scoring_guidance": "Meets when the learner preserves interpret bounded inferential claims about whether a population regression slope differs from zero in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "W9-TRA-002",
+      "node_id": "W9",
+      "item_family": "transfer",
+      "prompt": "Given a probability simulation result, explain whether the difference from theory is surprising or expected.",
+      "expected_evidence": "connect scatter-plot structure, residual variation, and slope evidence in one coherent explanation",
+      "dominant_failure_mode": "prediction_context_disconnect",
+      "scoring_guidance": "Meets when the learner preserves connect scatter-plot structure, residual variation, and slope evidence in one coherent explanation in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "W9-RET-001",
+      "node_id": "W9",
+      "item_family": "retention",
+      "prompt": "After a delay, interpret a new sample summary and state one supported inference and one unsupported claim.",
+      "expected_evidence": "interpret bounded inferential claims about whether a population regression slope differs from zero",
+      "dominant_failure_mode": "prediction_context_disconnect",
+      "scoring_guidance": "Meets when the learner still demonstrates interpret bounded inferential claims about whether a population regression slope differs from zero on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "W9-PRE-001",
+      "node_id": "W9",
+      "item_family": "prerequisite_probe",
+      "prompt": "Run a prerequisite check on bivariate data and linear association to determine whether the reported error reflects upstream representation limits or current inference for regression slope reasoning.",
+      "expected_evidence": "shows whether bivariate data and linear association is secure enough to support inference for regression slope",
+      "dominant_failure_mode": "causation_overreach",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in bivariate data and linear association from a current-node issue in inference for regression slope.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "W2",
+      "suspected_knowledge_gap_if_incorrect": "bivariate data and linear association"
+    },
+    {
+      "item_id": "W9-PRE-002",
+      "node_id": "W9",
+      "item_family": "prerequisite_probe",
+      "prompt": "Run a prerequisite check on sampling distributions to determine whether the reported error reflects upstream representation limits or current inference for regression slope reasoning.",
+      "expected_evidence": "shows whether sampling distributions is secure enough to support inference for regression slope",
+      "dominant_failure_mode": "outlier_trend_erasure",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in sampling distributions from a current-node issue in inference for regression slope.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "W5",
+      "suspected_knowledge_gap_if_incorrect": "sampling distributions"
+    }
+  ]
+}

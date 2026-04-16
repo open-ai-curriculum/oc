@@ -1,37 +1,140 @@
 {
   "node_id": "AP2",
+  "policy_version": "1.0",
   "items": [
     {
-      "item_id": "AP2-A1",
-      "item_family": "direct",
-      "prompt": "selects among algebraic, graphical, tabular, parametric, and polar representations in bounded AP Precalculus-style modeling and interpretation tasks",
-      "expected_evidence": "choose and justify an appropriate advanced representation or model family for a bounded AP Precalculus-style task",
+      "item_id": "AP2-DIR-001",
+      "node_id": "AP2",
+      "item_family": "direct_execution",
+      "prompt": "Decide whether the table `(2, 6), (4, 12), (7, 21)` is proportional and justify the constant of proportionality.",
+      "expected_evidence": "solve bounded AP Precalculus-style tasks that combine advanced function reasoning with analytic trig, conics, or vector and parametric structure",
       "dominant_failure_mode": "representation_selection_misalignment",
-      "scoring_guidance": "Meets when the learner chooses a representation or function family that preserves the structure of the situation and supports a defensible analysis."
+      "scoring_guidance": "Meets when the learner demonstrates solve bounded AP Precalculus-style tasks that combine advanced function reasoning with analytic trig, conics, or vector and parametric structure with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "AP2-B1",
-      "item_family": "explanation",
-      "prompt": "explains how parameters, periodicity, symmetry, and representation choices shape AP Precalculus models across trigonometric, parametric, and polar settings",
-      "expected_evidence": "explain how parameters and representations control periodicity, symmetry, growth, and change",
-      "dominant_failure_mode": "trigonometric_modeling_fragmentation",
-      "scoring_guidance": "Meets when the learner explains why the model behaves as it does instead of reciting disconnected procedures for separate representations."
-    },
-    {
-      "item_id": "AP2-C1",
-      "item_family": "error_diagnosis",
-      "prompt": "Diagnose a peer error aligned to parametric_polar_disconnect.",
-      "expected_evidence": "compare function behavior across algebraic, graphical, parametric, and polar forms without losing the underlying structure",
+      "item_id": "AP2-DIR-002",
+      "node_id": "AP2",
+      "item_family": "direct_execution",
+      "prompt": "Find the unit rate for 18 miles in 3 hours and explain what it means.",
+      "expected_evidence": "justify the selected representation and explain how structural features persist across forms",
       "dominant_failure_mode": "parametric_polar_disconnect",
-      "scoring_guidance": "Meets when the learner identifies where the represented path, parameter, or feature was interpreted inconsistently across forms."
+      "scoring_guidance": "Meets when the learner demonstrates justify the selected representation and explain how structural features persist across forms with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "AP2-D1",
+      "item_id": "AP2-DIR-003",
+      "node_id": "AP2",
+      "item_family": "direct_execution",
+      "prompt": "Find 15% of 80 and explain how the percent is acting as a rate per hundred.",
+      "expected_evidence": "compare advanced models across units without losing periodic, coordinate, or directed-change meaning",
+      "dominant_failure_mode": "trigonometric_modeling_fragmentation",
+      "scoring_guidance": "Meets when the learner demonstrates compare advanced models across units without losing periodic, coordinate, or directed-change meaning with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
+    },
+    {
+      "item_id": "AP2-EXP-001",
+      "node_id": "AP2",
+      "item_family": "explanation",
+      "prompt": "Explain why equal differences alone do not prove a relationship is proportional.",
+      "expected_evidence": "solve bounded AP Precalculus-style tasks that combine advanced function reasoning with analytic trig, conics, or vector and parametric structure",
+      "dominant_failure_mode": "parametric_polar_disconnect",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to solve bounded AP Precalculus-style tasks that combine advanced function reasoning with analytic trig, conics, or vector and parametric structure.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "AP2-EXP-002",
+      "node_id": "AP2",
+      "item_family": "explanation",
+      "prompt": "Explain how a unit rate and a constant of proportionality describe the same multiplicative structure.",
+      "expected_evidence": "justify the selected representation and explain how structural features persist across forms",
+      "dominant_failure_mode": "trigonometric_modeling_fragmentation",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to justify the selected representation and explain how structural features persist across forms.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "AP2-ERR-001",
+      "node_id": "AP2",
+      "item_family": "error_diagnosis",
+      "prompt": "A student says a table is proportional because it increases by 3 each row. Diagnose the additive-pattern error. Focus on representation selection misalignment.",
+      "expected_evidence": "solve bounded AP Precalculus-style tasks that combine advanced function reasoning with analytic trig, conics, or vector and parametric structure",
+      "dominant_failure_mode": "representation_selection_misalignment",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward solve bounded AP Precalculus-style tasks that combine advanced function reasoning with analytic trig, conics, or vector and parametric structure.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "AP2-ERR-002",
+      "node_id": "AP2",
+      "item_family": "error_diagnosis",
+      "prompt": "A student scales one quantity by 2 but the other by 3 and still claims proportionality. Identify the breakdown. Focus on parametric polar disconnect.",
+      "expected_evidence": "justify the selected representation and explain how structural features persist across forms",
+      "dominant_failure_mode": "parametric_polar_disconnect",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward justify the selected representation and explain how structural features persist across forms.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "AP2-TRA-001",
+      "node_id": "AP2",
       "item_family": "transfer",
-      "prompt": "interprets a less-familiar AP Precalculus modeling context and identifies which representation, family, or feature most strongly governs the situation",
-      "expected_evidence": "connect trigonometric, parametric, polar, and family-synthesis reasoning in one coherent modeling analysis",
+      "prompt": "A map uses 1 cm for every 5 km. How far does 7.2 cm represent, and why is the relationship proportional?",
+      "expected_evidence": "solve bounded AP Precalculus-style tasks that combine advanced function reasoning with analytic trig, conics, or vector and parametric structure",
+      "dominant_failure_mode": "trigonometric_modeling_fragmentation",
+      "scoring_guidance": "Meets when the learner preserves solve bounded AP Precalculus-style tasks that combine advanced function reasoning with analytic trig, conics, or vector and parametric structure in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "AP2-TRA-002",
+      "node_id": "AP2",
+      "item_family": "transfer",
+      "prompt": "A recipe uses 3 cups of flour for 2 batches. Write an equation relating flour to batches and find the amount for 5 batches.",
+      "expected_evidence": "justify the selected representation and explain how structural features persist across forms",
       "dominant_failure_mode": "local_global_behavior_confusion",
-      "scoring_guidance": "Meets when the learner preserves coherent cross-representation reasoning and identifies the feature that actually governs the modeled behavior."
+      "scoring_guidance": "Meets when the learner preserves justify the selected representation and explain how structural features persist across forms in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "AP2-RET-001",
+      "node_id": "AP2",
+      "item_family": "retention",
+      "prompt": "On a delayed check, determine whether 4 notebooks for $6 and 10 notebooks for $15 are proportional and justify your reasoning.",
+      "expected_evidence": "solve bounded AP Precalculus-style tasks that combine advanced function reasoning with analytic trig, conics, or vector and parametric structure",
+      "dominant_failure_mode": "local_global_behavior_confusion",
+      "scoring_guidance": "Meets when the learner still demonstrates solve bounded AP Precalculus-style tasks that combine advanced function reasoning with analytic trig, conics, or vector and parametric structure on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "AP2-PRE-001",
+      "node_id": "AP2",
+      "item_family": "prerequisite_probe",
+      "prompt": "Probe precalculus function synthesis and limits foundations before diagnosing ap precalculus extension, and state whether the learner is missing multiplicative structure or only the current proportional application.",
+      "expected_evidence": "shows whether precalculus function synthesis and limits foundations is secure enough to support ap precalculus extension",
+      "dominant_failure_mode": "parametric_polar_disconnect",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in precalculus function synthesis and limits foundations from a current-node issue in ap precalculus extension.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "B5",
+      "suspected_knowledge_gap_if_incorrect": "precalculus function synthesis and limits foundations"
+    },
+    {
+      "item_id": "AP2-PRE-002",
+      "node_id": "AP2",
+      "item_family": "prerequisite_probe",
+      "prompt": "Probe trigonometric identities equations and analytic trig before diagnosing ap precalculus extension, and state whether the learner is missing multiplicative structure or only the current proportional application.",
+      "expected_evidence": "shows whether trigonometric identities equations and analytic trig is secure enough to support ap precalculus extension",
+      "dominant_failure_mode": "trigonometric_modeling_fragmentation",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in trigonometric identities equations and analytic trig from a current-node issue in ap precalculus extension.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "B6",
+      "suspected_knowledge_gap_if_incorrect": "trigonometric identities equations and analytic trig"
     }
   ]
 }

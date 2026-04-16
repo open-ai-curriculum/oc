@@ -1,29 +1,294 @@
 {
   "node_id": "T7",
+  "policy_version": "1.0",
+  "version": "0.3",
   "items": [
     {
-      "item_id": "t7-a1",
-      "item_family": "direct_execution",
-      "prompt": "Representative direct task for multidigit division and remainder interpretation.",
-      "expected_evidence": [
-        "Learner uses the intended structure, not only an answer-getting shortcut."
+      "item_id": "T7-D-001",
+      "family": "direct_execution",
+      "prompt": "Compute `3/4 + 1/8` by rewriting to common units and show the equivalent fractions you used.",
+      "target_node": "T7",
+      "secondary_dependency_targets": [
+        "T3",
+        "T6"
       ],
-      "dominant_failure_mode_targets": [
-        "quotient_remainder_role_confusion"
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
       ],
-      "context": "partial quotients"
-    },
-    {
-      "item_id": "t7-b1",
-      "item_family": "explanation",
-      "prompt": "Explain why the chosen structure fits the situation.",
-      "expected_evidence": [
-        "Learner names the structural relationship correctly."
-      ],
-      "dominant_failure_mode_targets": [
+      "dominant_failure_modes_if_incorrect": [
+        "quotient_remainder_role_confusion",
         "partial_quotient_disconnect"
       ],
-      "context": "grouping stories"
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "T7-D-002",
+      "family": "direct_execution",
+      "prompt": "Compute `5/6 - 1/4` and justify the common denominator choice.",
+      "target_node": "T7",
+      "secondary_dependency_targets": [
+        "T3",
+        "T6"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "partial_quotient_disconnect",
+        "remainder_context_misread"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "T7-D-003",
+      "family": "direct_execution",
+      "prompt": "Place `2/3` and `5/8` on the same number line and determine which is greater.",
+      "target_node": "T7",
+      "secondary_dependency_targets": [
+        "T3",
+        "T6"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "remainder_context_misread",
+        "inverse_check_gap"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "T7-D-004",
+      "family": "direct_execution",
+      "prompt": "Compute `3/4 + 1/8` by rewriting to common units and show the equivalent fractions you used.",
+      "target_node": "T7",
+      "secondary_dependency_targets": [
+        "T3",
+        "T6"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "inverse_check_gap",
+        "quotient_remainder_role_confusion"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "T7-E-001",
+      "family": "explanation",
+      "prompt": "Explain why `3/4` can be rewritten as `6/8` without changing its value.",
+      "target_node": "T7",
+      "secondary_dependency_targets": [
+        "T3",
+        "T6"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "partial_quotient_disconnect"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "T7-E-002",
+      "family": "explanation",
+      "prompt": "Explain why fractions can only be combined directly when they refer to equal-sized parts.",
+      "target_node": "T7",
+      "secondary_dependency_targets": [
+        "T3",
+        "T6"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "remainder_context_misread"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "T7-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student says `3/4 + 1/8 = 4/12`. Diagnose the first structural mistake. Focus on quotient remainder role confusion.",
+      "target_node": "T7",
+      "secondary_dependency_targets": [
+        "T3",
+        "T6"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "quotient_remainder_role_confusion"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "T7-C-002",
+      "family": "error_diagnosis",
+      "prompt": "A student rewrites `2/3` as `3/4` before adding. Identify the equivalence error. Focus on partial quotient disconnect.",
+      "target_node": "T7",
+      "secondary_dependency_targets": [
+        "T3",
+        "T6"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "partial_quotient_disconnect"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "T7-T-001",
+      "family": "transfer",
+      "prompt": "A recipe uses `3/4` cup of oats and `1/8` cup of seeds. How much is used altogether?",
+      "target_node": "T7",
+      "secondary_dependency_targets": [
+        "T3",
+        "T6"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "remainder_context_misread"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "T7-T-002",
+      "family": "transfer",
+      "prompt": "A hiker walks `5/6` mile in the morning and `1/4` mile less in the afternoon. How much farther was the morning walk?",
+      "target_node": "T7",
+      "secondary_dependency_targets": [
+        "T3",
+        "T6"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "inverse_check_gap"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "T7-R-001",
+      "family": "retention",
+      "prompt": "After a delay, solve `2/3 + 1/6` and explain why the rewrite keeps the quantity unchanged.",
+      "target_node": "T7",
+      "secondary_dependency_targets": [
+        "T3",
+        "T6"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "inverse_check_gap"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability"
+    },
+    {
+      "item_id": "T7-P-001",
+      "family": "prerequisite_probe",
+      "prompt": "Before closing multidigit division and remainder interpretation, complete a prerequisite check on division as unknown group or share and explain how that prior understanding supports the fraction reasoning.",
+      "target_node": "T7",
+      "secondary_dependency_targets": [
+        "T3",
+        "T6"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "partial_quotient_disconnect"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "T3",
+      "suspected_knowledge_gap_if_incorrect": "division as unknown group or share",
+      "scoring_focus": "dependency_disambiguation"
+    },
+    {
+      "item_id": "T7-P-002",
+      "family": "prerequisite_probe",
+      "prompt": "Use a quick multidigit multiplication structure probe to determine whether the error belongs to the prerequisite or to multidigit division and remainder interpretation.",
+      "target_node": "T7",
+      "secondary_dependency_targets": [
+        "T3",
+        "T6"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "remainder_context_misread"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "T6",
+      "suspected_knowledge_gap_if_incorrect": "multidigit multiplication structure",
+      "scoring_focus": "dependency_disambiguation"
     }
   ]
 }

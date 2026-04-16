@@ -1,0 +1,265 @@
+{
+  "node_id": "O3",
+  "policy_version": "1.0",
+  "version": "0.3",
+  "items": [
+    {
+      "item_id": "O3-D-001",
+      "family": "direct_execution",
+      "prompt": "Complete a bounded oral-language routine that requires the learner to retell events in order.",
+      "target_node": "O3",
+      "secondary_dependency_targets": [
+        "O2"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "observed_performance",
+        "oral_response",
+        "gesture_or_pointing"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "O3-FM-01",
+        "O3-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "O3-D-002",
+      "family": "direct_execution",
+      "prompt": "Show oral recount explanation and sequence language in a fresh but controlled oral-language routine and make the learner answer oral explanation prompts with relevant meaning.",
+      "target_node": "O3",
+      "secondary_dependency_targets": [
+        "O2"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "observed_performance",
+        "oral_response",
+        "gesture_or_pointing"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "O3-FM-02",
+        "O3-FM-03"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "O3-D-003",
+      "family": "direct_execution",
+      "prompt": "Use a slightly less-routine oral-language routine to determine whether the learner can still use oral language to support later text response and writing planning.",
+      "target_node": "O3",
+      "secondary_dependency_targets": [
+        "O2"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "observed_performance",
+        "oral_response",
+        "gesture_or_pointing"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "O3-FM-03",
+        "O3-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "O3-D-004",
+      "family": "direct_execution",
+      "prompt": "Perform oral recount explanation and sequence language under a changed format within the same boundary and verify the learner can still provide a stable oral bridge into reading and writing tasks.",
+      "target_node": "O3",
+      "secondary_dependency_targets": [
+        "O2"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "observed_performance",
+        "oral_response",
+        "gesture_or_pointing"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "O3-FM-04",
+        "O3-FM-01"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "O3-E-001",
+      "family": "explanation",
+      "prompt": "Explain or annotate how the learner shows that they can retell events in order, and identify which evidence in the response demonstrates the intended meaning.",
+      "target_node": "O3",
+      "secondary_dependency_targets": [
+        "O2"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "teacher_annotation",
+        "oral_response",
+        "gesture_or_pointing"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "O3-FM-01"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "O3-E-002",
+      "family": "explanation",
+      "prompt": "Ask for a brief justification, annotation, or teacher-scored explanation showing why the response used for oral recount explanation and sequence language is valid rather than routine only.",
+      "target_node": "O3",
+      "secondary_dependency_targets": [
+        "O2"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "teacher_annotation",
+        "oral_response",
+        "gesture_or_pointing"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "O3-FM-02"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "O3-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A learner attempt shows sequence collapse. Diagnose the earliest breakdown and state what evidence separates it from secure oral recount explanation and sequence language.",
+      "target_node": "O3",
+      "secondary_dependency_targets": [
+        "O2"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "O3-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "O3-C-002",
+      "family": "error_diagnosis",
+      "prompt": "Review a mismatched response that reflects referential clarity breakdown. Identify the dominant failure mode and explain why this is not just a minor performance slip.",
+      "target_node": "O3",
+      "secondary_dependency_targets": [
+        "O2"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "teacher_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "O3-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "O3-T-001",
+      "family": "transfer",
+      "prompt": "Use oral recount explanation and sequence language in a new partner, routine, or interaction cue and judge whether the learner preserves the same underlying capability.",
+      "target_node": "O3",
+      "secondary_dependency_targets": [
+        "O2"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "observed_performance",
+        "oral_response",
+        "gesture_or_pointing"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "O3-FM-03"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "O3-T-002",
+      "family": "transfer",
+      "prompt": "Shift the learner into a new partner, routine, or interaction cue and require a response that still demonstrates oral recount explanation and sequence language without relying on the original routine.",
+      "target_node": "O3",
+      "secondary_dependency_targets": [
+        "O2"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "observed_performance",
+        "oral_response",
+        "gesture_or_pointing"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "O3-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "O3-R-001",
+      "family": "retention",
+      "prompt": "After approximately 14 days, run a fresh oral-language routine to confirm the learner still demonstrates oral recount explanation and sequence language without re-teaching inside the check.",
+      "target_node": "O3",
+      "secondary_dependency_targets": [
+        "O2"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "observed_performance",
+        "oral_response",
+        "gesture_or_pointing"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "O3-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability"
+    },
+    {
+      "item_id": "O3-P-001",
+      "family": "prerequisite_probe",
+      "prompt": "Before assigning oral recount explanation and sequence language, probe whether oral language comprehension for instructions and routines is secure enough to support the current task.",
+      "target_node": "O3",
+      "secondary_dependency_targets": [
+        "O2"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "teacher_annotation",
+        "oral_response",
+        "gesture_or_pointing"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "O3-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "scoring_focus": "dependency_disambiguation",
+      "dependency_target": "O2",
+      "suspected_knowledge_gap_if_incorrect": "oral language comprehension for instructions and routines"
+    }
+  ]
+}

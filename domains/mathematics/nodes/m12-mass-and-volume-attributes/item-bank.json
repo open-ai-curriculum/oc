@@ -1,29 +1,258 @@
 {
   "node_id": "M12",
+  "policy_version": "1.0",
+  "version": "0.3",
   "items": [
     {
-      "item_id": "m12-a1",
-      "item_family": "direct_execution",
-      "prompt": "Representative direct task for mass and volume attributes.",
-      "expected_evidence": [
-        "Learner uses the intended structure, not only an answer-getting shortcut."
+      "item_id": "M12-D-001",
+      "family": "direct_execution",
+      "prompt": "Count the collection accurately and state how you know the final count represents the whole set.",
+      "target_node": "M12",
+      "secondary_dependency_targets": [
+        "M1"
       ],
-      "dominant_failure_mode_targets": [
-        "attribute_type_confusion"
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
       ],
-      "context": "objects"
-    },
-    {
-      "item_id": "m12-b1",
-      "item_family": "explanation",
-      "prompt": "Explain why the chosen structure fits the situation.",
-      "expected_evidence": [
-        "Learner names the structural relationship correctly."
-      ],
-      "dominant_failure_mode_targets": [
+      "dominant_failure_modes_if_incorrect": [
+        "attribute_type_confusion",
         "visual_size_overgeneralization"
       ],
-      "context": "containers"
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "M12-D-002",
+      "family": "direct_execution",
+      "prompt": "Compose and decompose the number 14 in two different ways.",
+      "target_node": "M12",
+      "secondary_dependency_targets": [
+        "M1"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "visual_size_overgeneralization",
+        "container_shape_bias"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
+    },
+    {
+      "item_id": "M12-D-003",
+      "family": "direct_execution",
+      "prompt": "Compare 348 and 384 and justify the comparison by place value.",
+      "target_node": "M12",
+      "secondary_dependency_targets": [
+        "M1"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "container_shape_bias",
+        "comparison_language_instability"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "M12-D-004",
+      "family": "direct_execution",
+      "prompt": "Count the collection accurately and state how you know the final count represents the whole set.",
+      "target_node": "M12",
+      "secondary_dependency_targets": [
+        "M1"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "comparison_language_instability",
+        "attribute_type_confusion"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "M12-E-001",
+      "family": "explanation",
+      "prompt": "Explain why the last counting word tells how many objects are in the set.",
+      "target_node": "M12",
+      "secondary_dependency_targets": [
+        "M1"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "visual_size_overgeneralization"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "M12-E-002",
+      "family": "explanation",
+      "prompt": "Explain how the value of a digit depends on its place.",
+      "target_node": "M12",
+      "secondary_dependency_targets": [
+        "M1"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "container_shape_bias"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "M12-C-001",
+      "family": "error_diagnosis",
+      "prompt": "A student counts objects twice and reports the larger total. Diagnose the one-to-one correspondence error. Focus on attribute type confusion.",
+      "target_node": "M12",
+      "secondary_dependency_targets": [
+        "M1"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "attribute_type_confusion"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "M12-C-002",
+      "family": "error_diagnosis",
+      "prompt": "A student says 402 is greater than 39 because 2 is greater than 9. Identify the place-value mistake. Focus on visual size overgeneralization.",
+      "target_node": "M12",
+      "secondary_dependency_targets": [
+        "M1"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "visual_size_overgeneralization"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "M12-T-001",
+      "family": "transfer",
+      "prompt": "Use the same number idea with objects, numerals, and spoken language in a less-familiar representation.",
+      "target_node": "M12",
+      "secondary_dependency_targets": [
+        "M1"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "container_shape_bias"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "M12-T-002",
+      "family": "transfer",
+      "prompt": "Show the same quantity with a drawing, a numeral, and a decomposition statement.",
+      "target_node": "M12",
+      "secondary_dependency_targets": [
+        "M1"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "comparison_language_instability"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "M12-R-001",
+      "family": "retention",
+      "prompt": "After a delay, compare or compose a new whole number and explain the reasoning used.",
+      "target_node": "M12",
+      "secondary_dependency_targets": [
+        "M1"
+      ],
+      "difficulty_band": "retention",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "comparison_language_instability"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability"
+    },
+    {
+      "item_id": "M12-P-001",
+      "family": "prerequisite_probe",
+      "prompt": "Probe measurable attributes before closing mass and volume attributes, and state whether the learner is blocked by an upstream knowledge gap.",
+      "target_node": "M12",
+      "secondary_dependency_targets": [
+        "M1"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "visual_size_overgeneralization"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "M1",
+      "suspected_knowledge_gap_if_incorrect": "measurable attributes",
+      "scoring_focus": "dependency_disambiguation"
     }
   ]
 }

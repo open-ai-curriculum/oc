@@ -1,37 +1,140 @@
 {
   "node_id": "W3",
+  "policy_version": "1.0",
   "items": [
     {
-      "item_id": "W3-A1",
-      "item_family": "direct",
-      "prompt": "classifies studies, evaluates samples, and makes bounded informal inferences from sample data",
-      "expected_evidence": "make and defend bounded population inferences from sample summaries while naming uncertainty",
+      "item_id": "W3-DIR-001",
+      "node_id": "W3",
+      "item_family": "direct_execution",
+      "prompt": "Classify the study as survey, observational study, or experiment and state what claim is supported.",
+      "expected_evidence": "explain how study structure constrains later inferential claims about populations or causes",
       "dominant_failure_mode": "inference_design_fragmentation",
-      "scoring_guidance": "Meets when the learner aligns the inference claim with the sample and study-design structure."
+      "scoring_guidance": "Meets when the learner demonstrates explain how study structure constrains later inferential claims about populations or causes with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "W3-B1",
-      "item_family": "explanation",
-      "prompt": "explains how random sampling, bias, variability, and study design determine what can be inferred from a sample",
-      "expected_evidence": "explain how sample structure affects what can be inferred about a larger population",
+      "item_id": "W3-DIR-002",
+      "node_id": "W3",
+      "item_family": "direct_execution",
+      "prompt": "Use a two-way table or probability model to find the probability of a compound event.",
+      "expected_evidence": "classify bounded studies as survey, observational study, or experiment and state the resulting claim limits",
       "dominant_failure_mode": "representativeness_opacity",
-      "scoring_guidance": "Meets when the learner explains inference as conditional on design quality and variability, not as automatic generalization."
+      "scoring_guidance": "Meets when the learner demonstrates classify bounded studies as survey, observational study, or experiment and state the resulting claim limits with mathematically valid structure.",
+      "difficulty_band": "core",
+      "variant_role": "core_direct"
     },
     {
-      "item_id": "W3-C1",
-      "item_family": "error_diagnosis",
-      "prompt": "Diagnose a peer error aligned to causal_claim_leap.",
-      "expected_evidence": "classify bounded studies as survey, observational study, or experiment and state the claim limits",
+      "item_id": "W3-DIR-003",
+      "node_id": "W3",
+      "item_family": "direct_execution",
+      "prompt": "Describe the center and spread of a distribution using the given plot.",
+      "expected_evidence": "identify bias, confounding, nonresponse, and measurement issues in bounded studies",
       "dominant_failure_mode": "causal_claim_leap",
-      "scoring_guidance": "Meets when the learner identifies where a study-design limit was ignored and an unsupported claim was made."
+      "scoring_guidance": "Meets when the learner demonstrates identify bias, confounding, nonresponse, and measurement issues in bounded studies with mathematically valid structure.",
+      "difficulty_band": "stretch",
+      "variant_role": "edge_case_direct"
     },
     {
-      "item_id": "W3-D1",
+      "item_id": "W3-EXP-001",
+      "node_id": "W3",
+      "item_family": "explanation",
+      "prompt": "Explain how sample design affects what can be inferred about a population.",
+      "expected_evidence": "explain how study structure constrains later inferential claims about populations or causes",
+      "dominant_failure_mode": "representativeness_opacity",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to explain how study structure constrains later inferential claims about populations or causes.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "W3-EXP-002",
+      "node_id": "W3",
+      "item_family": "explanation",
+      "prompt": "Explain why theoretical probability and short-run experimental results can differ.",
+      "expected_evidence": "classify bounded studies as survey, observational study, or experiment and state the resulting claim limits",
+      "dominant_failure_mode": "causal_claim_leap",
+      "scoring_guidance": "Meets when the learner explains the structure coherently and ties the explanation back to classify bounded studies as survey, observational study, or experiment and state the resulting claim limits.",
+      "difficulty_band": "core",
+      "variant_role": "meaning_probe"
+    },
+    {
+      "item_id": "W3-ERR-001",
+      "node_id": "W3",
+      "item_family": "error_diagnosis",
+      "prompt": "A student uses an observational study to claim causation. Diagnose the study-design error. Focus on inference design fragmentation.",
+      "expected_evidence": "explain how study structure constrains later inferential claims about populations or causes",
+      "dominant_failure_mode": "inference_design_fragmentation",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward explain how study structure constrains later inferential claims about populations or causes.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "W3-ERR-002",
+      "node_id": "W3",
+      "item_family": "error_diagnosis",
+      "prompt": "A student adds overlapping events as if they were disjoint. Identify the double-counting mistake. Focus on representativeness opacity.",
+      "expected_evidence": "classify bounded studies as survey, observational study, or experiment and state the resulting claim limits",
+      "dominant_failure_mode": "representativeness_opacity",
+      "scoring_guidance": "Meets when the learner identifies the dominant breakdown, names the structural issue accurately, and redirects the work toward classify bounded studies as survey, observational study, or experiment and state the resulting claim limits.",
+      "difficulty_band": "diagnostic",
+      "variant_role": "misconception_probe"
+    },
+    {
+      "item_id": "W3-TRA-001",
+      "node_id": "W3",
       "item_family": "transfer",
-      "prompt": "interprets a less-familiar study or sample summary and checks whether the reported inference is actually supported",
-      "expected_evidence": "identify sources of sampling bias, confounding, or measurement weakness in bounded studies",
+      "prompt": "Read a less-familiar graph or study summary and decide whether the reported conclusion is supported.",
+      "expected_evidence": "explain how study structure constrains later inferential claims about populations or causes",
+      "dominant_failure_mode": "causal_claim_leap",
+      "scoring_guidance": "Meets when the learner preserves explain how study structure constrains later inferential claims about populations or causes in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "W3-TRA-002",
+      "node_id": "W3",
+      "item_family": "transfer",
+      "prompt": "Given a probability simulation result, explain whether the difference from theory is surprising or expected.",
+      "expected_evidence": "classify bounded studies as survey, observational study, or experiment and state the resulting claim limits",
       "dominant_failure_mode": "bias_source_blindness",
-      "scoring_guidance": "Meets when the learner preserves design meaning and identifies the main threat to the reported conclusion."
+      "scoring_guidance": "Meets when the learner preserves classify bounded studies as survey, observational study, or experiment and state the resulting claim limits in a changed surface form or representation.",
+      "difficulty_band": "transfer",
+      "variant_role": "transfer_probe"
+    },
+    {
+      "item_id": "W3-RET-001",
+      "node_id": "W3",
+      "item_family": "retention",
+      "prompt": "After a delay, interpret a new sample summary and state one supported inference and one unsupported claim.",
+      "expected_evidence": "explain how study structure constrains later inferential claims about populations or causes",
+      "dominant_failure_mode": "bias_source_blindness",
+      "scoring_guidance": "Meets when the learner still demonstrates explain how study structure constrains later inferential claims about populations or causes on a delayed recheck without a blocking recurrence.",
+      "difficulty_band": "retention",
+      "variant_role": "retention_recheck"
+    },
+    {
+      "item_id": "W3-PRE-001",
+      "node_id": "W3",
+      "item_family": "prerequisite_probe",
+      "prompt": "Run a prerequisite check on statistical distributions and variability to determine whether the reported error reflects upstream representation limits or current sampling inference and study design reasoning.",
+      "expected_evidence": "shows whether statistical distributions and variability is secure enough to support sampling inference and study design",
+      "dominant_failure_mode": "representativeness_opacity",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in statistical distributions and variability from a current-node issue in sampling inference and study design.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "W1",
+      "suspected_knowledge_gap_if_incorrect": "statistical distributions and variability"
+    },
+    {
+      "item_id": "W3-PRE-002",
+      "node_id": "W3",
+      "item_family": "prerequisite_probe",
+      "prompt": "Run a prerequisite check on scaled bar graphs and numerical data to determine whether the reported error reflects upstream representation limits or current sampling inference and study design reasoning.",
+      "expected_evidence": "shows whether scaled bar graphs and numerical data is secure enough to support sampling inference and study design",
+      "dominant_failure_mode": "causal_claim_leap",
+      "scoring_guidance": "Meets when the learner response makes it possible to distinguish an upstream gap in scaled bar graphs and numerical data from a current-node issue in sampling inference and study design.",
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "D5",
+      "suspected_knowledge_gap_if_incorrect": "scaled bar graphs and numerical data"
     }
   ]
 }

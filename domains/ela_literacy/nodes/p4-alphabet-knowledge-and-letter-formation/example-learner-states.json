@@ -1,0 +1,22 @@
+[
+  {
+    "learner_id": "example-p4-emerging",
+    "node_id": "P4",
+    "status": "emerging",
+    "dependency_status": {
+      "P1": "secure",
+      "P3": "secure"
+    },
+    "direct_accuracy": 0.72,
+    "transfer_status": "weak",
+    "retention_status": "not_due",
+    "dominant_failure_modes": ["P4-FM-01", "P4-FM-03"],
+    "recommended_interventions": [
+      "small stable letter set practice",
+      "letter formation with consistent visual model and fade"
+    ],
+    "last_verified_at": "2026-04-15",
+    "review_state": "draft",
+    "notes": "Recognizes several letters but confuses visually similar forms when the set expands."
+  }
+]

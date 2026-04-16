@@ -1,0 +1,331 @@
+registry_id: ela-literacy-reading-composition-spine-attachments
+domain: ela_literacy
+status: draft
+version: '0.1'
+target_scope:
+  primary_node_ids:
+  - FR4
+  - FR5
+  - FR6
+  - RC3
+  - RC4
+  - RC5
+  - RC6
+  - L2
+  - WC1
+  - WC2
+  - WC3
+  - WC4
+  - WC5
+  - WC6
+  - R4
+  - R5
+  notes: Initial machine-readable artifact attachment registry for the reading-response,
+    composition, and structured-analysis middle slice.
+artifacts:
+- artifact_id: ela-rc6-lesson-pattern-01
+  artifact_type: LessonPattern
+  title: Evidence Explanation And Text-Grounded Response Lesson Pattern
+  status: draft
+  support_tier: Core release
+  maturity_state: Modeled
+  target_entity_type: CapabilityNode
+  target_entity_id: RC6
+  primary_node_id: RC6
+  purpose: instruction
+  delivery_format: printable_and_digital
+  source_path: curriculum/ela_literacy/reading_response/rc6/lesson-pattern-01.md
+  grade_band: Grades 2-5
+  content_domain: reading response and evidence use
+  verification_gate_targets:
+  - G1
+  - G2
+  response_modes_supported:
+  - oral
+  - written
+  language_support_tags:
+  - answer-evidence-frame
+  estimated_duration_minutes: 30
+  review_status: draft
+- artifact_id: ela-rc6-verification-task-01
+  artifact_type: VerificationTask
+  title: Evidence Explanation And Text-Grounded Response Verification Task
+  status: draft
+  support_tier: Core release
+  maturity_state: Modeled
+  target_entity_type: CapabilityNode
+  target_entity_id: RC6
+  primary_node_id: RC6
+  purpose: verification
+  delivery_format: printable_and_digital
+  source_path: curriculum/ela_literacy/reading_response/rc6/verification-task-01.md
+  grade_band: Grades 2-5
+  content_domain: reading response and evidence use
+  verification_gate_targets:
+  - G1
+  - G2
+  - G3
+  review_status: draft
+- artifact_id: ela-rc6-intervention-01
+  artifact_type: InterventionAsset
+  title: Opinion-To-Evidence Intervention
+  status: draft
+  support_tier: Core release
+  maturity_state: Modeled
+  target_entity_type: CapabilityNode
+  target_entity_id: RC6
+  primary_node_id: RC6
+  purpose: intervention
+  delivery_format: printable_and_digital
+  source_path: curriculum/ela_literacy/reading_response/rc6/intervention-01.md
+  grade_band: Grades 2-5
+  content_domain: reading response and evidence use
+  failure_mode_targets:
+  - RC6-FM-01
+  - RC6-FM-02
+  intervention_targets:
+  - answer-evidence-bridge
+  - explanation-link-rebuild
+  review_status: draft
+- artifact_id: ela-rc6-teacher-support-01
+  artifact_type: TeacherDecisionSupport
+  title: Evidence Explanation And Text-Grounded Response Teacher Decision Guide
+  status: draft
+  support_tier: Core release
+  maturity_state: Modeled
+  target_entity_type: CapabilityNode
+  target_entity_id: RC6
+  primary_node_id: RC6
+  purpose: teacher_support
+  delivery_format: printable_and_digital
+  source_path: curriculum/ela_literacy/reading_response/rc6/teacher-decision-guide-01.md
+  grade_band: Grades 2-5
+  content_domain: reading response and evidence use
+  review_status: draft
+- artifact_id: ela-l2-worked-example-01
+  artifact_type: WorkedExample
+  title: Morphology And Academic Vocabulary Worked Examples
+  status: draft
+  support_tier: Core release
+  maturity_state: Modeled
+  target_entity_type: CapabilityNode
+  target_entity_id: L2
+  primary_node_id: L2
+  purpose: instruction
+  delivery_format: printable_and_digital
+  source_path: curriculum/ela_literacy/language/l2/worked-examples-01.md
+  grade_band: Grades 2-6
+  content_domain: morphology and vocabulary
+  verification_gate_targets:
+  - G1
+  - G2
+  response_modes_supported:
+  - oral
+  - written
+  language_support_tags:
+  - morphology-clue-routine
+  - context-clue-routine
+  review_status: draft
+- artifact_id: ela-l2-assessment-bundle-01
+  artifact_type: AssessmentBundle
+  title: Morphology And Vocabulary Assessment Bundle
+  status: draft
+  support_tier: Core release
+  maturity_state: Modeled
+  target_entity_type: CapabilityNode
+  target_entity_id: L2
+  primary_node_id: L2
+  purpose: assessment
+  delivery_format: printable_and_digital
+  source_path: curriculum/ela_literacy/language/l2/assessment-bundle-01.md
+  grade_band: Grades 2-6
+  content_domain: morphology and vocabulary
+  verification_gate_targets:
+  - G1
+  - G2
+  - G3
+  review_status: draft
+- artifact_id: ela-l2-reteach-01
+  artifact_type: ReteachRoutine
+  title: Context And Morphology Reteach Routine
+  status: draft
+  support_tier: Core release
+  maturity_state: Modeled
+  target_entity_type: CapabilityNode
+  target_entity_id: L2
+  primary_node_id: L2
+  purpose: intervention
+  delivery_format: printable_and_digital
+  source_path: curriculum/ela_literacy/language/l2/reteach-routine-01.md
+  grade_band: Grades 2-6
+  content_domain: morphology and vocabulary
+  failure_mode_targets:
+  - L2-FM-01
+  - L2-FM-02
+  review_status: draft
+- artifact_id: ela-l2-language-support-01
+  artifact_type: LanguageSupport
+  title: Academic Vocabulary Language Support
+  status: draft
+  support_tier: Core release
+  maturity_state: Modeled
+  target_entity_type: CapabilityNode
+  target_entity_id: L2
+  primary_node_id: L2
+  purpose: support
+  delivery_format: printable_and_digital
+  source_path: curriculum/ela_literacy/language/l2/language-support-01.md
+  grade_band: Grades 2-6
+  content_domain: morphology and vocabulary
+  language_support_tags:
+  - sentence-stem-supported
+  - oral-rehearsal-supported
+  review_status: draft
+- artifact_id: ela-wc4-guided-practice-01
+  artifact_type: GuidedPracticeSet
+  title: Source Integration Guided Practice
+  status: draft
+  support_tier: Core release
+  maturity_state: Modeled
+  target_entity_type: CapabilityNode
+  target_entity_id: WC4
+  primary_node_id: WC4
+  purpose: guided_practice
+  delivery_format: printable_and_digital
+  source_path: curriculum/ela_literacy/writing/wc4/guided-practice-01.md
+  grade_band: Grades 3-6
+  content_domain: paragraph writing and source-based response
+  verification_gate_targets:
+  - G1
+  - G2
+  response_modes_supported:
+  - written
+  review_status: draft
+- artifact_id: ela-wc4-retention-check-01
+  artifact_type: RetentionCheck
+  title: Source Integration Retention Check
+  status: draft
+  support_tier: Core release
+  maturity_state: Modeled
+  target_entity_type: CapabilityNode
+  target_entity_id: WC4
+  primary_node_id: WC4
+  purpose: retention
+  delivery_format: printable_and_digital
+  source_path: curriculum/ela_literacy/writing/wc4/retention-check-01.md
+  grade_band: Grades 3-6
+  content_domain: paragraph writing and source-based response
+  verification_gate_targets:
+  - G4
+  review_status: draft
+- artifact_id: ela-wc4-intervention-01
+  artifact_type: InterventionAsset
+  title: Paragraph Coherence Intervention
+  status: draft
+  support_tier: Core release
+  maturity_state: Modeled
+  target_entity_type: CapabilityNode
+  target_entity_id: WC4
+  primary_node_id: WC4
+  purpose: intervention
+  delivery_format: printable_and_digital
+  source_path: curriculum/ela_literacy/writing/wc4/intervention-01.md
+  grade_band: Grades 3-6
+  content_domain: paragraph writing and source-based response
+  failure_mode_targets:
+  - WC4-FM-01
+  - WC4-FM-03
+  intervention_targets:
+  - main-idea-coherence-rebuild
+  - source-support-focus
+  review_status: draft
+- artifact_id: ela-wc4-exemplar-01
+  artifact_type: Exemplar
+  title: Structured Response Exemplar
+  status: draft
+  support_tier: Core release
+  maturity_state: Modeled
+  target_entity_type: CapabilityNode
+  target_entity_id: WC4
+  primary_node_id: WC4
+  purpose: support
+  delivery_format: printable_and_digital
+  source_path: curriculum/ela_literacy/writing/wc4/exemplar-01.md
+  grade_band: Grades 3-6
+  content_domain: paragraph writing and source-based response
+  review_status: draft
+- artifact_id: ela-wc6-lesson-pattern-01
+  artifact_type: LessonPattern
+  title: Genre-Controlled Composition Lesson Pattern
+  status: draft
+  support_tier: Core release
+  maturity_state: Modeled
+  target_entity_type: CapabilityNode
+  target_entity_id: WC6
+  primary_node_id: WC6
+  purpose: instruction
+  delivery_format: printable_and_digital
+  source_path: curriculum/ela_literacy/writing/wc6/lesson-pattern-01.md
+  grade_band: Grades 5-9
+  content_domain: multi-paragraph composition
+  verification_gate_targets:
+  - G1
+  - G2
+  response_modes_supported:
+  - written
+  review_status: draft
+- artifact_id: ela-wc6-verification-task-01
+  artifact_type: VerificationTask
+  title: Genre-Controlled Composition Verification Task
+  status: draft
+  support_tier: Core release
+  maturity_state: Modeled
+  target_entity_type: CapabilityNode
+  target_entity_id: WC6
+  primary_node_id: WC6
+  purpose: verification
+  delivery_format: printable_and_digital
+  source_path: curriculum/ela_literacy/writing/wc6/verification-task-01.md
+  grade_band: Grades 5-9
+  content_domain: multi-paragraph composition
+  verification_gate_targets:
+  - G1
+  - G2
+  - G3
+  review_status: draft
+- artifact_id: ela-wc6-intervention-01
+  artifact_type: InterventionAsset
+  title: Multi-Paragraph Coherence Intervention
+  status: draft
+  support_tier: Core release
+  maturity_state: Modeled
+  target_entity_type: CapabilityNode
+  target_entity_id: WC6
+  primary_node_id: WC6
+  purpose: intervention
+  delivery_format: printable_and_digital
+  source_path: curriculum/ela_literacy/writing/wc6/intervention-01.md
+  grade_band: Grades 5-9
+  content_domain: multi-paragraph composition
+  failure_mode_targets:
+  - WC6-FM-01
+  - WC6-FM-02
+  intervention_targets:
+  - cross-paragraph-coherence-rebuild
+  - support-development-strengthening
+  review_status: draft
+- artifact_id: ela-wc6-teacher-support-01
+  artifact_type: TeacherDecisionSupport
+  title: Genre-Controlled Composition Teacher Decision Guide
+  status: draft
+  support_tier: Core release
+  maturity_state: Modeled
+  target_entity_type: CapabilityNode
+  target_entity_id: WC6
+  primary_node_id: WC6
+  purpose: teacher_support
+  delivery_format: printable_and_digital
+  source_path: curriculum/ela_literacy/writing/wc6/teacher-decision-guide-01.md
+  grade_band: Grades 5-9
+  content_domain: multi-paragraph composition
+  review_status: draft

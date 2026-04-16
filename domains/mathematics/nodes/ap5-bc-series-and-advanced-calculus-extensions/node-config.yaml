@@ -1,12 +1,12 @@
 id: AP5
 slug: ap5-bc-series-and-advanced-calculus-extensions
 domain: mathematics
-name: bc_series_and_advanced_calculus_extensions
+name: applications_of_derivatives
 support_tier: Core release
 maturity_state: Drafted
 supported_profiles:
   - upstream-readiness-node-package
-dependencies: [AP4, B1]
+dependencies: [AP4]
 artifact_files:
   - node-spec.md
   - verification-model.md

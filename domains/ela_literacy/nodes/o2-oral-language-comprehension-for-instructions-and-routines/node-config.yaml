@@ -1,0 +1,39 @@
+id: O2
+name: oral_language_comprehension_for_instructions_and_routines
+domain: ela_literacy
+support_tier: Core release
+maturity_state: Drafted
+supported_profiles:
+  - upstream-readiness-node-package
+evidence_class: Synthetic
+dependencies:
+  - O1
+mastery:
+  direct_accuracy_threshold: 0.85
+  explanation_required: false
+  transfer_required: true
+  retention_check_days: 14
+statuses:
+  - blocked
+  - emerging
+  - provisional
+  - secure
+  - unstable
+verification_gates:
+  - id: G1
+    type: direct_performance
+    pass_rule: follows common one-step and bounded two-step oral directions in at least 5 of 6 supported routine opportunities
+  - id: G2
+    type: meaning
+    pass_rule: demonstrates comprehension through correct action, selection, or response in at least 4 of 5 changed prompts
+  - id: G3
+    type: transfer
+    pass_rule: successful oral-language comprehension across at least one changed speaker, setting, or routine context
+  - id: G4
+    type: retention
+    pass_rule: stable delayed recheck after approximately 14 days
+failure_modes:
+  - O2-FM-01
+  - O2-FM-02
+  - O2-FM-03
+  - O2-FM-04

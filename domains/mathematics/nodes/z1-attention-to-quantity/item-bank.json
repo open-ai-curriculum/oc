@@ -1,72 +1,213 @@
 {
   "node_id": "Z1",
-  "version": "0.1",
+  "policy_version": "1.0",
+  "version": "0.3",
   "items": [
     {
-      "item_id": "Z1-A-001",
-      "family": "direct_quantity_attention",
-      "prompt": "Point to the picture that shows many objects.",
+      "item_id": "Z1-D-001",
+      "family": "direct_execution",
+      "prompt": "Count the collection accurately and state how you know the final count represents the whole set.",
       "target_node": "Z1",
       "secondary_dependency_targets": [],
       "difficulty_band": "core",
-      "response_modes_allowed": ["selected_response", "oral_explanation"],
-      "dominant_failure_modes_if_incorrect": ["Z1-FM-01", "Z1-FM-02"],
-      "requires_human_scoring": false
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "Z1-FM-01",
+        "Z1-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
     },
     {
-      "item_id": "Z1-A-002",
-      "family": "direct_quantity_attention",
-      "prompt": "There were toys on the table. One more toy was added. Did the amount stay the same or change?",
+      "item_id": "Z1-D-002",
+      "family": "direct_execution",
+      "prompt": "Compose and decompose the number 14 in two different ways.",
       "target_node": "Z1",
       "secondary_dependency_targets": [],
       "difficulty_band": "core",
-      "response_modes_allowed": ["selected_response", "oral_explanation"],
-      "dominant_failure_modes_if_incorrect": ["Z1-FM-02", "Z1-FM-03"],
-      "requires_human_scoring": false
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "Z1-FM-02",
+        "Z1-FM-03"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
     },
     {
-      "item_id": "Z1-B-001",
+      "item_id": "Z1-D-003",
+      "family": "direct_execution",
+      "prompt": "Compare 348 and 384 and justify the comparison by place value.",
+      "target_node": "Z1",
+      "secondary_dependency_targets": [],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "Z1-FM-03",
+        "Z1-FM-04"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "Z1-D-004",
+      "family": "direct_execution",
+      "prompt": "Count the collection accurately and state how you know the final count represents the whole set.",
+      "target_node": "Z1",
+      "secondary_dependency_targets": [],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "Z1-FM-04",
+        "Z1-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "Z1-E-001",
       "family": "explanation",
-      "prompt": "Explain how you know there are more apples now than before.",
+      "prompt": "Explain why the last counting word tells how many objects are in the set.",
       "target_node": "Z1",
       "secondary_dependency_targets": [],
       "difficulty_band": "core",
-      "response_modes_allowed": ["oral_explanation"],
-      "dominant_failure_modes_if_incorrect": ["Z1-FM-02", "Z1-FM-04"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "Z1-FM-02"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "Z1-E-002",
+      "family": "explanation",
+      "prompt": "Explain how the value of a digit depends on its place.",
+      "target_node": "Z1",
+      "secondary_dependency_targets": [],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "Z1-FM-03"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
     },
     {
       "item_id": "Z1-C-001",
       "family": "error_diagnosis",
-      "prompt": "A student says nothing changed after two blocks were added to a pile. What should be checked?",
+      "prompt": "A student counts objects twice and reports the larger total. Diagnose the one-to-one correspondence error. Focus on one many instability.",
       "target_node": "Z1",
       "secondary_dependency_targets": [],
-      "difficulty_band": "core",
-      "response_modes_allowed": ["multiple_choice", "oral_explanation"],
-      "dominant_failure_modes_if_incorrect": ["Z1-FM-02", "Z1-FM-03"],
-      "requires_human_scoring": true
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "Z1-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
     },
     {
-      "item_id": "Z1-D-001",
+      "item_id": "Z1-C-002",
+      "family": "error_diagnosis",
+      "prompt": "A student says 402 is greater than 39 because 2 is greater than 9. Identify the place-value mistake. Focus on quantity change blindness.",
+      "target_node": "Z1",
+      "secondary_dependency_targets": [],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "Z1-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "Z1-T-001",
       "family": "transfer",
-      "prompt": "One plate has one cracker. Another plate has several crackers. Tell which plate has more and how you know.",
+      "prompt": "Use the same number idea with objects, numerals, and spoken language in a less-familiar representation.",
       "target_node": "Z1",
       "secondary_dependency_targets": [],
       "difficulty_band": "transfer",
-      "response_modes_allowed": ["oral_explanation", "selected_response"],
-      "dominant_failure_modes_if_incorrect": ["Z1-FM-01", "Z1-FM-04"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "Z1-FM-03"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "Z1-T-002",
+      "family": "transfer",
+      "prompt": "Show the same quantity with a drawing, a numeral, and a decomposition statement.",
+      "target_node": "Z1",
+      "secondary_dependency_targets": [],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "Z1-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
     },
     {
       "item_id": "Z1-R-001",
       "family": "retention",
-      "prompt": "Look at two pictures and say whether the amount is the same or different.",
+      "prompt": "After a delay, compare or compose a new whole number and explain the reasoning used.",
       "target_node": "Z1",
       "secondary_dependency_targets": [],
       "difficulty_band": "retention",
-      "response_modes_allowed": ["selected_response", "oral_explanation"],
-      "dominant_failure_modes_if_incorrect": ["Z1-FM-01", "Z1-FM-02"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "Z1-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability"
     }
   ]
 }

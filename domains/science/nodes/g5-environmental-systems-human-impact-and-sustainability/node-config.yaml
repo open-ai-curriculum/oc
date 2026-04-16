@@ -1,0 +1,42 @@
+id: G5
+name: environmental_systems_human_impact_and_sustainability
+domain: science
+support_tier: Incubation
+maturity_state: Drafted
+supported_profiles:
+- science-secondary-node-package
+evidence_class: Synthetic
+dependencies:
+- T5
+- L4
+- E4
+- D4
+mastery:
+  direct_accuracy_threshold: 0.9
+  explanation_required: true
+  transfer_required: true
+  retention_check_days: 42
+statuses:
+- blocked
+- emerging
+- provisional
+- secure
+- unstable
+verification_gates:
+- id: G1
+  type: direct_performance
+  pass_rule: '>= 0.90 accuracy across environmental systems, human impact, and sustainability tasks'
+- id: G2
+  type: meaning
+  pass_rule: correct explanation in at least 2 of 3 prompts using bounded earth and environmental specialization reasoning
+- id: G3
+  type: transfer
+  pass_rule: successful reasoning in at least one unfamiliar advanced science context
+- id: G4
+  type: retention
+  pass_rule: '>= 0.85 delayed recheck accuracy after ~42 days'
+failure_modes:
+- G5-FM-01
+- G5-FM-02
+- G5-FM-03
+- G5-FM-04

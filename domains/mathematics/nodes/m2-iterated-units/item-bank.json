@@ -1,72 +1,258 @@
 {
   "node_id": "M2",
-  "version": "0.1",
+  "policy_version": "1.0",
+  "version": "0.3",
   "items": [
     {
-      "item_id": "M2-A-001",
-      "family": "direct_measurement",
-      "prompt": "Measure the ribbon using equal cubes placed end to end.",
+      "item_id": "M2-D-001",
+      "family": "direct_execution",
+      "prompt": "Decide whether the table `(2, 6), (4, 12), (7, 21)` is proportional and justify the constant of proportionality.",
       "target_node": "M2",
-      "secondary_dependency_targets": ["M1"],
+      "secondary_dependency_targets": [
+        "M1"
+      ],
       "difficulty_band": "core",
-      "response_modes_allowed": ["manipulative_model", "oral_explanation"],
-      "dominant_failure_modes_if_incorrect": ["M2-FM-01", "M2-FM-02"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "M2-FM-01",
+        "M2-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
     },
     {
-      "item_id": "M2-A-002",
-      "family": "direct_measurement",
-      "prompt": "Which picture shows a correct way to measure a strip with tiles?",
+      "item_id": "M2-D-002",
+      "family": "direct_execution",
+      "prompt": "Find the unit rate for 18 miles in 3 hours and explain what it means.",
       "target_node": "M2",
-      "secondary_dependency_targets": ["M1"],
+      "secondary_dependency_targets": [
+        "M1"
+      ],
       "difficulty_band": "core",
-      "response_modes_allowed": ["selected_response", "oral_explanation"],
-      "dominant_failure_modes_if_incorrect": ["M2-FM-02", "M2-FM-03"],
-      "requires_human_scoring": false
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "M2-FM-02",
+        "M2-FM-03"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "core_direct",
+      "scoring_focus": "core_mastery"
     },
     {
-      "item_id": "M2-B-001",
+      "item_id": "M2-D-003",
+      "family": "direct_execution",
+      "prompt": "Find 15% of 80 and explain how the percent is acting as a rate per hundred.",
+      "target_node": "M2",
+      "secondary_dependency_targets": [
+        "M1"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "M2-FM-03",
+        "M2-FM-04"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "M2-D-004",
+      "family": "direct_execution",
+      "prompt": "Decide whether the table `(2, 6), (4, 12), (7, 21)` is proportional and justify the constant of proportionality.",
+      "target_node": "M2",
+      "secondary_dependency_targets": [
+        "M1"
+      ],
+      "difficulty_band": "stretch",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "M2-FM-04",
+        "M2-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "edge_case_direct",
+      "scoring_focus": "edge_case_stability"
+    },
+    {
+      "item_id": "M2-E-001",
       "family": "explanation",
-      "prompt": "Explain why the same-sized unit must be used again and again when measuring.",
+      "prompt": "Explain why equal differences alone do not prove a relationship is proportional.",
       "target_node": "M2",
-      "secondary_dependency_targets": ["M1"],
+      "secondary_dependency_targets": [
+        "M1"
+      ],
       "difficulty_band": "core",
-      "response_modes_allowed": ["oral_explanation", "written_explanation"],
-      "dominant_failure_modes_if_incorrect": ["M2-FM-01", "M2-FM-04"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "M2-FM-02"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
+    },
+    {
+      "item_id": "M2-E-002",
+      "family": "explanation",
+      "prompt": "Explain how a unit rate and a constant of proportionality describe the same multiplicative structure.",
+      "target_node": "M2",
+      "secondary_dependency_targets": [
+        "M1"
+      ],
+      "difficulty_band": "core",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "M2-FM-03"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "meaning_probe",
+      "scoring_focus": "meaning_and_justification"
     },
     {
       "item_id": "M2-C-001",
       "family": "error_diagnosis",
-      "prompt": "A student measures a book with cubes but leaves spaces between them. What is wrong with that measurement?",
+      "prompt": "A student says a table is proportional because it increases by 3 each row. Diagnose the additive-pattern error. Focus on unit inconsistency.",
       "target_node": "M2",
-      "secondary_dependency_targets": ["M1"],
-      "difficulty_band": "core",
-      "response_modes_allowed": ["multiple_choice", "oral_explanation", "written_explanation"],
-      "dominant_failure_modes_if_incorrect": ["M2-FM-02"],
-      "requires_human_scoring": true
+      "secondary_dependency_targets": [
+        "M1"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "M2-FM-01"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
     },
     {
-      "item_id": "M2-D-001",
-      "family": "transfer",
-      "prompt": "Cover a rectangle with equal square tiles and explain how the tiles measure the rectangle.",
+      "item_id": "M2-C-002",
+      "family": "error_diagnosis",
+      "prompt": "A student scales one quantity by 2 but the other by 3 and still claims proportionality. Identify the breakdown. Focus on gap or overlap measurement.",
       "target_node": "M2",
-      "secondary_dependency_targets": ["M1"],
+      "secondary_dependency_targets": [
+        "M1"
+      ],
+      "difficulty_band": "diagnostic",
+      "response_modes_allowed": [
+        "multiple_choice",
+        "oral_explanation",
+        "written_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "M2-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "misconception_probe",
+      "scoring_focus": "misconception_disambiguation"
+    },
+    {
+      "item_id": "M2-T-001",
+      "family": "transfer",
+      "prompt": "A map uses 1 cm for every 5 km. How far does 7.2 cm represent, and why is the relationship proportional?",
+      "target_node": "M2",
+      "secondary_dependency_targets": [
+        "M1"
+      ],
       "difficulty_band": "transfer",
-      "response_modes_allowed": ["manipulative_model", "oral_explanation", "written_explanation"],
-      "dominant_failure_modes_if_incorrect": ["M2-FM-01", "M2-FM-03", "M2-FM-04"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "M2-FM-03"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
+    },
+    {
+      "item_id": "M2-T-002",
+      "family": "transfer",
+      "prompt": "A recipe uses 3 cups of flour for 2 batches. Write an equation relating flour to batches and find the amount for 5 batches.",
+      "target_node": "M2",
+      "secondary_dependency_targets": [
+        "M1"
+      ],
+      "difficulty_band": "transfer",
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "M2-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "transfer_probe",
+      "scoring_focus": "representation_transfer"
     },
     {
       "item_id": "M2-R-001",
       "family": "retention",
-      "prompt": "Measure a pencil with the same unit blocks and tell how many blocks long it is.",
+      "prompt": "On a delayed check, determine whether 4 notebooks for $6 and 10 notebooks for $15 are proportional and justify your reasoning.",
       "target_node": "M2",
-      "secondary_dependency_targets": ["M1"],
+      "secondary_dependency_targets": [
+        "M1"
+      ],
       "difficulty_band": "retention",
-      "response_modes_allowed": ["oral_explanation", "manipulative_model"],
-      "dominant_failure_modes_if_incorrect": ["M2-FM-01", "M2-FM-02"],
-      "requires_human_scoring": true
+      "response_modes_allowed": [
+        "written_symbolic",
+        "oral_explanation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "M2-FM-04"
+      ],
+      "requires_human_scoring": true,
+      "variant_role": "retention_recheck",
+      "scoring_focus": "retention_stability"
+    },
+    {
+      "item_id": "M2-P-001",
+      "family": "prerequisite_probe",
+      "prompt": "Probe measurable attributes before diagnosing iterated units, and state whether the learner is missing multiplicative structure or only the current proportional application.",
+      "target_node": "M2",
+      "secondary_dependency_targets": [
+        "M1"
+      ],
+      "difficulty_band": "prerequisite",
+      "response_modes_allowed": [
+        "oral_explanation",
+        "written_explanation",
+        "diagram_annotation"
+      ],
+      "dominant_failure_modes_if_incorrect": [
+        "M2-FM-02"
+      ],
+      "requires_human_scoring": false,
+      "variant_role": "prerequisite_probe",
+      "dependency_target": "M1",
+      "suspected_knowledge_gap_if_incorrect": "measurable attributes",
+      "scoring_focus": "dependency_disambiguation"
     }
   ]
 }

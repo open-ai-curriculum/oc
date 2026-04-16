@@ -1,0 +1,60 @@
+[
+  {
+    "item_id": "B4-IB-01",
+    "node_id": "B4",
+    "prompt": "Why is a list of heart parts not enough to explain circulation?",
+    "task_type": "physiology_explanation",
+    "answer_key": "A strong answer explains how structures work together with vessels, pressure, exchange, and regulation rather than naming parts only.",
+    "scorable_traits": [
+      "system coordination",
+      "mechanism",
+      "functional reasoning"
+    ],
+    "target_failure_modes": [
+      "B4-FM-01"
+    ],
+    "context_tags": [
+      "circulation",
+      "anatomy"
+    ]
+  },
+  {
+    "item_id": "B4-IB-02",
+    "node_id": "B4",
+    "prompt": "What makes homeostasis dynamic rather than static?",
+    "task_type": "feedback_reasoning",
+    "answer_key": "Dynamic homeostasis involves ongoing sensing, response, and adjustment within ranges rather than keeping conditions fixed at a single value.",
+    "scorable_traits": [
+      "feedback understanding",
+      "regulation language",
+      "precision"
+    ],
+    "target_failure_modes": [
+      "B4-FM-02",
+      "B4-FM-03"
+    ],
+    "context_tags": [
+      "homeostasis",
+      "physiology"
+    ]
+  },
+  {
+    "item_id": "B4-IB-03",
+    "node_id": "B4",
+    "prompt": "When must two body systems be explained together?",
+    "task_type": "cross_system_reasoning",
+    "answer_key": "They must be explained together when the function or failure of one depends on transport, signaling, or regulation from another system.",
+    "scorable_traits": [
+      "integration",
+      "evidence use",
+      "transfer"
+    ],
+    "target_failure_modes": [
+      "B4-FM-04"
+    ],
+    "context_tags": [
+      "body systems",
+      "regulation"
+    ]
+  }
+]
